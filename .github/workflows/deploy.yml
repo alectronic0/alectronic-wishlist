@@ -52,10 +52,9 @@ jobs:
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
-            http://localhost:8080/
+            http://localhost/
           staticDistDir: ./
           uploadArtifacts: true
-          temporaryPublicStorage: true
           temporaryPublicStorage: true
 
       - name: Setup Pages
