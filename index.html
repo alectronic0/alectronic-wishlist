@@ -313,7 +313,8 @@
 </main>
 
 <footer style="text-align: center; padding: 40px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 40px;">
-  <p>© 2026 Alec Doran-Twyford.</p>
+  <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today &middot; All rights reserved.</p>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
 </footer>
 
 </body>
