@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGO® Collection & Wishlist 🧱 | Gift Alec Today</title>
+  <meta name="description" content="Alec's LEGO Collection — official wishlist sets and registered owned sets, organized by Star Wars, Botanical, Zelda & Gaming, and Icons.">
+  <meta name="theme-color" content="#160d14">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="banner">Last updated on: 29th July 2026</div>
+
+<header class="site-nav"></header>
+
+<main class="container">
+  <!-- Hero Header -->
+  <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="https://unavatar.io/lego.com" alt="LEGO Logo" style="width: 42px; height: 42px; border-radius: 8px;">
+        <div>
+          <h1>LEGO® Collection & Wishlist 🧱</h1>
+          <p id="lego-subtitle"></p>
+        </div>
+      </div>
+      <a id="lego-wishlist-link" href="#" target="_blank" class="inv-action-btn" style="padding: 8px 18px; font-size: 0.88rem;">Official LEGO Wishlist Page ↗</a>
+    </div>
+  </section>
+
+  <!-- THEMATIC LEGO SECTIONS -->
+  <div id="lego-themes-container" style="display: flex; flex-direction: column; gap: 32px; margin-top: 24px;"></div>
+</main>
+
+<footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
+  <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</footer>
+
+<script src="content.js"></script>
+<script src="nav.js"></script>
+<script>
+(function () {
+  const data = window.SITE_CONTENT.lego;
+  if (!data) return;
+
+  const themes = data.themes;
+  document.getElementById('lego-subtitle').textContent =
+    `${data.wishlist.length} Wishlist Sets · ${data.owned.length} Owned Sets`;
+  document.getElementById('lego-wishlist-link').href = data.officialWishlistUrl;
+
+  function renderCard(item, isWishlist) {
+    const card = document.createElement('div');
+    card.className = 'wishlist-item';
+
+    let infoHTML = '';
+    if (isWishlist) {
+      const statusBadge = item.status
+        ? `<span style="font-size:0.72rem; opacity:0.75; margin-left:6px; color:var(--accent);">(${item.status})</span>`
+        : '';
+      infoHTML = `
+        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name} (#${item.id})${statusBadge}</a>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
+          <span class="wishlist-item-price">${item.price || 'Wishlist'}</span>
+          <a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>
+        </div>`;
+    } else {
+      infoHTML = `
+        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name} (#${item.id})</a>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
+          <span class="inv-item-badge">Set #${item.id}</span>
+          <span style="font-size:0.76rem; color:var(--mint); font-weight:600;">✓ Owned</span>
+        </div>`;
+    }
+
+    card.innerHTML = `
+      <div class="wishlist-item-img" style="background: #ffffff; padding: 10px; display: flex; align-items: center; justify-content: center;">
+        <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
+      </div>
+      <div class="wishlist-item-info">${infoHTML}</div>`;
+    return card;
+  }
+
+  const container = document.getElementById('lego-themes-container');
+
+  for (const [themeKey, themeCfg] of Object.entries(themes)) {
+    const wishlistItems = data.wishlist.filter(i => i.theme === themeKey);
+    const ownedItems = data.owned.filter(i => i.theme === themeKey);
+
+    if (wishlistItems.length === 0 && ownedItems.length === 0) continue;
+
+    const section = document.createElement('section');
+    section.className = 'wishlist-section';
+
+    // Theme Header
+    const sectionHeader = document.createElement('div');
+    sectionHeader.className = 'section-header';
+    sectionHeader.style.borderBottom = `2px solid ${themeCfg.color}`;
+    sectionHeader.style.paddingBottom = '8px';
+    sectionHeader.innerHTML = `
+      <h2 style="color:${themeCfg.color}; font-size:1.4rem;">${themeCfg.label}</h2>
+      <p style="margin:2px 0 0; font-size:0.88rem; color:var(--text-muted);">${wishlistItems.length} Wanted Sets &middot; ${ownedItems.length} Registered Owned Sets</p>
+    `;
+    section.appendChild(sectionHeader);
+
+    // 1. Wishlist Sets first under Theme
+    if (wishlistItems.length > 0) {
+      const wSub = document.createElement('h3');
+      wSub.textContent = `🎁 Wanted / Wishlist Sets (${wishlistItems.length})`;
+      wSub.style.cssText = 'font-size:1rem; color:var(--gold); margin:20px 0 10px; font-weight:700;';
+      section.appendChild(wSub);
+
+      const wGrid = document.createElement('div');
+      wGrid.className = 'item-list';
+      for (const item of wishlistItems) {
+        wGrid.appendChild(renderCard(item, true));
+      }
+      section.appendChild(wGrid);
+    }
+
+    // 2. Owned Sets second under Theme
+    if (ownedItems.length > 0) {
+      const oSub = document.createElement('h3');
+      oSub.textContent = `✅ Owned Sets (${ownedItems.length})`;
+      oSub.style.cssText = 'font-size:1rem; color:var(--mint); margin:24px 0 10px; font-weight:700;';
+      section.appendChild(oSub);
+
+      const oGrid = document.createElement('div');
+      oGrid.className = 'item-list';
+      for (const item of ownedItems) {
+        oGrid.appendChild(renderCard(item, false));
+      }
+      section.appendChild(oGrid);
+    }
+
+    container.appendChild(section);
+  }
+})();
+</script>
+</body>
+</html>

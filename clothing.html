@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing, Sizes & Style 👕 | Gift Alec Today</title>
+  <meta name="description" content="Alec Doran-Twyford's Clothing Sizes — Uniqlo, Vans, Havaianas, exact sizing chart & style notes.">
+  <meta name="theme-color" content="#160d14">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="banner">Last updated on: 29th July 2026</div>
+
+<header class="site-nav"></header>
+
+<main class="container">
+  <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 2.2rem;">👕</span>
+      <div>
+        <h1>Clothing, Sizes & Aesthetic 🧥</h1>
+        <p>Style notes, preferred color palette, exact sizing chart for Uniqlo, Vans, and basics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STYLE PHILOSOPHY -->
+  <section class="wishlist-section">
+    <div class="section-header">
+      <h2>🖤 Style Philosophy</h2>
+    </div>
+    <p style="font-size: 0.95rem; line-height: 1.6; max-width: 65ch;" id="clothing-philosophy">
+      I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.
+    </p>
+  </section>
+
+  <!-- SIZING TABLE -->
+  <section class="wishlist-section">
+    <div class="section-header">
+      <h2>📐 Sizing & Preferred Items</h2>
+      <p>Exact measurements and brand preferences.</p>
+    </div>
+
+    <div class="table-responsive">
+      <table class="size-table">
+        <thead>
+          <tr>
+            <th>Brand</th>
+            <th>Item Type</th>
+            <th>Color / Details</th>
+            <th>Size</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="clothing-table-body">
+          <!-- Populated by JS from content.js -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
+  <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</footer>
+
+<script src="content.js"></script>
+<script src="nav.js"></script>
+<script>
+(function () {
+  const data = window.SITE_CONTENT.clothing;
+  if (!data) return;
+
+  if (data.philosophy) {
+    document.getElementById('clothing-philosophy').textContent = data.philosophy;
+  }
+
+  const tbody = document.getElementById('clothing-table-body');
+  if (tbody && data.sizes) {
+    tbody.innerHTML = data.sizes.map(row => `
+      <tr>
+        <td><strong>${row.brand}</strong></td>
+        <td>${row.item}</td>
+        <td>${row.color}</td>
+        <td><span class="inv-item-badge" style="font-size:0.8rem; padding:2px 8px;">${row.size}</span></td>
+        <td><a href="${row.url}" target="_blank" class="inv-action-btn">View Item ↗</a></td>
+      </tr>
+    `).join('');
+  }
+})();
+</script>
+</body>
+</html>

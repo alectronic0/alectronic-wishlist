@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books & Library 📚 | Gift Alec Today</title>
+  <meta name="description" content="Alec Doran-Twyford's Book Library — Cookbooks, manga, computer science textbooks, and pop non-fiction.">
+  <meta name="theme-color" content="#160d14">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="banner">Last updated on: 29th July 2026</div>
+
+<header class="site-nav"></header>
+
+<main class="container">
+  <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 2.2rem;">📚</span>
+      <div>
+        <h1>Books & Reference 📖</h1>
+        <p id="books-subtitle">Culinary reference books, hardcover manga collections, and CS textbooks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OWNED BOOKS -->
+  <section class="wishlist-section" id="books-owned-section"></section>
+
+  <!-- WANTED BOOKS -->
+  <section class="wishlist-section" id="books-wanted-section"></section>
+</main>
+
+<footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
+  <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</footer>
+
+<script src="content.js"></script>
+<script src="nav.js"></script>
+<script>
+(function () {
+  const data = window.SITE_CONTENT.books;
+  if (!data) return;
+
+  document.getElementById('books-subtitle').textContent = 
+    `${data.owned.length} Owned Books · ${data.wishlist.length} Wishlist Books`;
+
+  function renderCard(item, isWishlist) {
+    const card = document.createElement('div');
+    card.className = 'wishlist-item';
+
+    let infoHTML = '';
+    if (isWishlist) {
+      infoHTML = `
+        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
+          <span class="wishlist-item-price">${item.price}</span>
+          <a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>
+        </div>`;
+    } else {
+      infoHTML = `
+        <div class="wishlist-item-title">${item.name}</div>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:4px;">
+          <span class="inv-item-badge">${item.badge || item.category}</span>
+          <span style="font-size:0.76rem; color:var(--mint); font-weight:600;">✓ Owned</span>
+        </div>`;
+    }
+
+    card.innerHTML = `
+      <div class="wishlist-item-img" style="background: #ffffff; padding: 10px; display: flex; align-items: center; justify-content: center;">
+        <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
+      </div>
+      <div class="wishlist-item-info">${infoHTML}</div>`;
+    return card;
+  }
+
+  function renderGrid(containerId, title, subtitle, items, isWishlist) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const header = document.createElement('div');
+    header.className = 'section-header';
+    header.innerHTML = `<h2>${title}</h2><p>${subtitle}</p>`;
+    container.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'item-list';
+    grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(280px, 1fr))';
+    for (const item of items) {
+      grid.appendChild(renderCard(item, isWishlist));
+    }
+    container.appendChild(grid);
+  }
+
+  renderGrid(
+    'books-owned-section',
+    `✅ Kitchen & Study Library (${data.owned.length})`,
+    'Books, cookbooks, and reference materials currently in my home library.',
+    data.owned,
+    false
+  );
+
+  renderGrid(
+    'books-wanted-section',
+    `🎁 Book Wishlist (${data.wishlist.length})`,
+    'Books and manga volumes I want to add to my shelves.',
+    data.wishlist,
+    true
+  );
+})();
+</script>
+</body>
+</html>

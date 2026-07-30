@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Board Games Collection 🎲 | Gift Alec Today</title>
+  <meta name="description" content="Alec Doran-Twyford's Board Games Collection — Owned tabletop games, expansions, and wanted games on BGG.">
+  <meta name="theme-color" content="#160d14">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="banner">Last updated on: 29th July 2026</div>
+
+<header class="site-nav"></header>
+
+<main class="container">
+  <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="https://unavatar.io/boardgamegeek.com" alt="BGG Logo" style="width: 42px; height: 42px; border-radius: 8px;">
+        <div>
+          <h1>Board Games & Tabletop 🎲</h1>
+          <p id="boardgame-subtitle">Tabletop strategy, push-your-luck bag builders, card games, and expansions.</p>
+        </div>
+      </div>
+      <a id="bgg-link" href="https://boardgamegeek.com/collection/user/Alectronic" target="_blank" class="inv-action-btn" style="padding: 8px 18px; font-size: 0.88rem;">BoardGameGeek Profile ↗</a>
+    </div>
+  </section>
+
+  <!-- OWNED BOARD GAMES -->
+  <section class="wishlist-section" id="boardgames-owned-section"></section>
+
+  <!-- WANTED BOARD GAMES -->
+  <section class="wishlist-section" id="boardgames-wanted-section"></section>
+</main>
+
+<footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
+  <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</footer>
+
+<script src="content.js"></script>
+<script src="nav.js"></script>
+<script>
+(function () {
+  const data = window.SITE_CONTENT.boardgames;
+  if (!data) return;
+
+  document.getElementById('boardgame-subtitle').textContent = 
+    `${data.owned.length} Owned Games · ${data.wishlist.length} Wishlist Games`;
+  if (data.bggUrl) {
+    document.getElementById('bgg-link').href = data.bggUrl;
+  }
+
+  function renderCard(item, isWishlist) {
+    const card = document.createElement('div');
+    card.className = 'wishlist-item';
+
+    let infoHTML = '';
+    if (isWishlist) {
+      infoHTML = `
+        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
+          <span class="wishlist-item-price">${item.price}</span>
+          <a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>
+        </div>`;
+    } else {
+      infoHTML = `
+        <div class="wishlist-item-title">${item.name}</div>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:4px;">
+          <span class="inv-item-badge">${item.badge || item.category}</span>
+          <span style="font-size:0.76rem; color:var(--mint); font-weight:600;">✓ Owned</span>
+        </div>`;
+    }
+
+    card.innerHTML = `
+      <div class="wishlist-item-img" style="background: #ffffff; padding: 10px; display: flex; align-items: center; justify-content: center;">
+        <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
+      </div>
+      <div class="wishlist-item-info">${infoHTML}</div>`;
+    return card;
+  }
+
+  function renderGrid(containerId, title, subtitle, items, isWishlist) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const header = document.createElement('div');
+    header.className = 'section-header';
+    header.innerHTML = `<h2>${title}</h2><p>${subtitle}</p>`;
+    container.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'item-list';
+    grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(280px, 1fr))';
+    for (const item of items) {
+      grid.appendChild(renderCard(item, isWishlist));
+    }
+    container.appendChild(grid);
+  }
+
+  renderGrid(
+    'boardgames-owned-section',
+    `✅ Owned Tabletop Games (${data.owned.length})`,
+    'Games currently in my home board game collection.',
+    data.owned,
+    false
+  );
+
+  renderGrid(
+    'boardgames-wanted-section',
+    `🎁 Board Game Wishlist (${data.wishlist.length})`,
+    'Games I would love to add to the table.',
+    data.wishlist,
+    true
+  );
+})();
+</script>
+</body>
+</html>
