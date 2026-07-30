@@ -2428,5 +2428,160 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/71W8hY0XW3L._SL1500_.jpg"
       }
     ]
+  },
+  "health": {
+    "title": "Health & Gym Gadgets 🩺",
+    "subtitle": "Biometric tracking, ECG monitors, blood pressure wearables, and wellness tech.",
+    "owned": [
+      {
+        "name": "OMRON Complete™ Blood Pressure & ECG Monitor",
+        "category": "Biometrics",
+        "img": "https://m.media-amazon.com/images/I/61gR5i7X6AL._AC_SL1500_.jpg",
+        "url": "https://www.omron-healthcare.co.uk/blood-pressure-monitors/complete.html",
+        "badge": "ECG + BP 2-in-1"
+      },
+      {
+        "name": "Hilo 24/7 Wearable Continuous Blood Pressure Band",
+        "category": "Wearables",
+        "img": "https://hilo-health.com/cdn/shop/files/hilo_band_black.jpg",
+        "url": "https://hilo-health.com/",
+        "badge": "24/7 Monitoring"
+      },
+      {
+        "name": "OMRON Pulse Oximeter P300 Smart",
+        "category": "Biometrics",
+        "img": "https://m.media-amazon.com/images/I/61MvSg5K4uL._AC_SL1500_.jpg",
+        "url": "https://www.omron-healthcare.co.uk/",
+        "badge": "SpO2 & Pulse"
+      }
+    ],
+    "wishlist": [
+      {
+        "name": "Withings Body Scan Smart Scale",
+        "price": "£349.95",
+        "img": "https://m.media-amazon.com/images/I/61kC8b9yA-L._AC_SL1500_.jpg",
+        "url": "https://www.withings.com/uk/en/body-scan",
+        "status": "Segmented Body Comp"
+      }
+    ]
+  },
+  "home": {
+    "title": "Home & Smart Tech Setup 🏡",
+    "subtitle": "Room-by-room breakdown — Office workspace, Philips Hue smart lighting, bathroom shower niches & kitchen tools.",
+    "rooms": {
+      "office": {
+        "title": "🖥️ Office & Developer Workspace",
+        "items": [
+          {
+            "name": "JetBrains All Products Pack (GoLand, IntelliJ, RubyMine)",
+            "badge": "Primary IDEs"
+          },
+          {
+            "name": "Keychron K8 Pro Wireless Mechanical Keyboard",
+            "badge": "Tactile Switches"
+          },
+          {
+            "name": "Dual 27\" 4K IPS Ergonomic Monitor Arms",
+            "badge": "Desk Setup"
+          }
+        ]
+      },
+      "living": {
+        "title": "💡 Living Room & Smart Lighting",
+        "items": [
+          {
+            "name": "Philips Hue Bridge v2 (192.168.86.25)",
+            "badge": "Smart Hub"
+          },
+          {
+            "name": "Philips Hue Play Gradient Lightstrip & Bar Lights",
+            "badge": "TV Sync"
+          },
+          {
+            "name": "Philips Hue Tap Dial Switches & Dimmer V2",
+            "badge": "Physical Controls"
+          }
+        ]
+      },
+      "bathroom": {
+        "title": "🛁 Bathroom Renovation",
+        "items": [
+          {
+            "name": "ELEGANT Stainless Steel Recessed Shower Niches (300x600mm)",
+            "badge": "Shower Niche"
+          },
+          {
+            "name": "Brushed Brass Thermostatic Mixer Shower System",
+            "badge": "Fixtures"
+          }
+        ]
+      },
+      "kitchen": {
+        "title": "☕ Kitchen & Coffee Station",
+        "items": [
+          {
+            "name": "Heston Blumenthal Precision Dual Kitchen Scale",
+            "badge": "Food Tech"
+          },
+          {
+            "name": "Joseph Joseph Elevate Carousel 6-Piece Tool Set",
+            "badge": "Utensils"
+          }
+        ]
+      }
+    }
+  },
+  "misc": {
+    "title": "Stores & Subscription Boxes 🛒",
+    "subtitle": "Official merch stores, developer tools, household brands & curated subscription boxes.",
+    "merch": [
+      {
+        "name": "Google Merchandise Store",
+        "url": "https://shop.googlemerchandisestore.com/",
+        "icon": "🌐"
+      },
+      {
+        "name": "GitHub Official Shop",
+        "url": "https://github.myshopify.com/",
+        "icon": "🐙"
+      },
+      {
+        "name": "GitKraken Legendary Swag",
+        "url": "https://store.gitkraken.com/",
+        "icon": "🐙"
+      },
+      {
+        "name": "Fangamer Gaming Merch",
+        "url": "https://www.fangamer.com/",
+        "icon": "👾"
+      },
+      {
+        "name": "Pokémon Center UK",
+        "url": "https://www.pokemoncenter.com/en-gb",
+        "icon": "🔴"
+      }
+    ],
+    "subscriptions": [
+      {
+        "name": "Bokksu Authentic Japanese Snack Box",
+        "type": "Snack Box",
+        "url": "https://www.bokksu.com/"
+      },
+      {
+        "name": "JOMO Club Alcohol-Free Spirit Box",
+        "type": "Craft Drinks",
+        "url": "https://jomoclub.co.uk/"
+      },
+      {
+        "name": "Craftiosity Handcrafted DIY Box",
+        "type": "Crafts",
+        "url": "https://craftiosity.co.uk/"
+      },
+      {
+        "name": "Creation Crate STEM Electronics Kit",
+        "type": "Electronics",
+        "url": "https://www.creationcrate.com/"
+      }
+    ]
   }
 };
