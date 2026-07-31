@@ -617,7 +617,7 @@ window.SITE_CONTENT = {
                   "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
                   "publisher": "Cyanide & Happiness / Skybound",
                   "amazonUrl": "https://www.amazon.co.uk/dp/B08K3MV18H",
-                  "bggId": "274961"
+                  "bggId": "299815"
             },
             {
                   "name": "We're Not Really Strangers",
