@@ -721,8 +721,7 @@ window.SITE_CONTENT = {
                   "name": "USAopoly The Legend of Zelda Chess Set",
                   "img": "https://m.media-amazon.com/images/I/51KyoaHn6HL._SS135_.jpg",
                   "publisher": "USAopoly",
-                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share",
-                  "bggId": "254814"
+                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share"
             },
             {
                   "name": "Horrified: Greek Monsters",
@@ -760,8 +759,9 @@ window.SITE_CONTENT = {
                   "name": "Mattel UNO: The Legend of Zelda",
                   "asin": "B07BMKV6MT",
                   "img": "https://m.media-amazon.com/images/I/51QOjasH1NL._SS220_.jpg",
-                  "publisher": "Publisher Unknown",
-                  "amazonUrl": "https://www.amazon.co.uk/dp/B07BMKV6MT"
+                  "publisher": "Mattel Games",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B07BMKV6MT",
+                  "bggId": "254814"
             },
             {
                   "name": "Dark Souls: The Card Game",
