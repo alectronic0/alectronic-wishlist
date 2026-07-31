@@ -69,8 +69,6 @@
     if (item.bggId) {
       const bggUrl = `https://boardgamegeek.com/boardgame/${item.bggId}`;
       bggLinkHTML = `<a href="${bggUrl}" target="_blank" class="bgg-id-badge" style="font-size:0.72rem; font-weight:800; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:2px; margin-bottom:2px;">BGG #${item.bggId} ↗</a>`;
-    } else if (item.asin) {
-      bggLinkHTML = `<span style="font-size:0.7rem; font-weight:800; color:var(--accent); display:block; margin-bottom:2px;">ASIN: ${item.asin}</span>`;
     }
 
     // 3. Name
