@@ -18,23 +18,13 @@
 <header class="site-nav"></header>
 
 <main class="container">
-  <!-- WORK IN PROGRESS / UNDER CONSTRUCTION BANNER -->
-  <div class="wip-banner" style="background: linear-gradient(135deg, rgba(234, 179, 8, 0.14), rgba(249, 115, 22, 0.12)); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: 12px; padding: 16px 20px; margin: 16px 0 24px; display: flex; align-items: center; gap: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-    <span style="font-size: 2.2rem; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(234, 179, 8, 0.4));">🚧</span>
-    <div>
-      <h3 style="margin: 0 0 4px; font-size: 0.98rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;">🚧 Work In Progress — Under Construction 🚧</h3>
-      <p style="margin: 0; font-size: 0.88rem; color: var(--text); line-height: 1.45;">
-        <strong>https://gift.alec.today/</strong> is currently under active construction and catalog reorganization! Explore collection hubs below while items are being updated.
-      </p>
-    </div>
-  </div>
-
-  <!-- HERO INTRO -->
+  <!-- DYNAMIC HERO INTRO & GUIDELINES -->
   <section class="hero" style="padding: 12px 0 20px;">
-    <h1>The Wish List 🎁</h1>
-    <p style="max-width: 70ch; font-size: 0.95rem; line-height: 1.6;">
-      Welcome to my wishlist & home inventory hub! I have enough shirts in my life at the moment and with the aim to lose more weight probably not needed. Until I get some bookshelves in the house don’t need more books or board games really. Please no food-related stuff as I will be on a Meal Replacement Diet in Jan.
-    </p>
+    <h1 id="hero-title">The Wish List 🎁</h1>
+    <p id="hero-subtitle" style="font-size: 0.98rem; color: var(--text-muted); margin-bottom: 20px;"></p>
+    
+    <!-- 4-TIER GUIDELINE SECTIONS -->
+    <div id="intro-sections-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px;"></div>
   </section>
 
   <!-- GIFT MONEY LINKS -->
@@ -43,22 +33,7 @@
       <h2>💳 Gift Money</h2>
       <p>Direct contribution options.</p>
     </div>
-    <div class="horizontal-card-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
-      <a href="https://monzo.me/alecgeorgedorantwyford" target="_blank" class="horizontal-card" style="padding: 12px 14px;">
-        <img src="https://unavatar.io/monzo.com" alt="Monzo Logo" style="width: 28px; height: 28px;">
-        <div>
-          <span style="display: block; font-weight: 700;">Monzo</span>
-          <span style="font-size: 0.76rem; color: var(--text-muted);">monzo.me/alecgeorgedorantwyford</span>
-        </div>
-      </a>
-      <a href="https://www.paypal.com/paypalme/alectronic0" target="_blank" class="horizontal-card" style="padding: 12px 14px;">
-        <img src="https://unavatar.io/paypal.com" alt="PayPal Logo" style="width: 28px; height: 28px;">
-        <div>
-          <span style="display: block; font-weight: 700;">PayPal</span>
-          <span style="font-size: 0.76rem; color: var(--text-muted);">paypal.me/alectronic0</span>
-        </div>
-      </a>
-    </div>
+    <div id="gift-money-container" class="horizontal-card-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));"></div>
   </section>
 
   <!-- QUICK-ACCESS COLLECTION HUBS -->
@@ -68,122 +43,17 @@
       <p>Explore dedicated catalog pages for LEGO, Zelda, clothing sizes, tabletop games, room setups, and gadgets.</p>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;">
-      
-      <a href="lego.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🧱</span>
-            <h3 class="inv-card-title">LEGO® Collection</h3>
-          </div>
-          <span class="inv-progress-badge">14 Sets</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Botanic plants, Star Wars UCS, NES console & Great Deku Tree wishlist.</p>
-      </a>
-
-      <a href="zelda.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">⚔️</span>
-            <h3 class="inv-card-title">The Zelda Shrine</h3>
-          </div>
-          <span class="inv-progress-badge">Lore & Games</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Legend's Cookbook+, Symphony OST, manga box sets & Prima guides.</p>
-      </a>
-
-      <a href="clothing.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">👕</span>
-            <h3 class="inv-card-title">Clothing & Sizes</h3>
-          </div>
-          <span class="inv-progress-badge">Uniqlo / Vans</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Black simple aesthetic, exact sizing chart & shoes.</p>
-      </a>
-
-      <a href="boardgames.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🎲</span>
-            <h3 class="inv-card-title">Board Games</h3>
-          </div>
-          <span class="inv-progress-badge">Visual Grid</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Quacks of Quedlinburg, Ticket to Ride, Clank!, Four Souls & expansions.</p>
-      </a>
-
-      <a href="videogames.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🎮</span>
-            <h3 class="inv-card-title">Video Games</h3>
-          </div>
-          <span class="inv-progress-badge">Switch & Steam</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Switch physical games, 3DS handhelds, retro Game Boy & Steam library.</p>
-      </a>
-
-      <a href="books.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">📚</span>
-            <h3 class="inv-card-title">Books</h3>
-          </div>
-          <span class="inv-progress-badge">Library</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Cookbooks, Fullmetal Alchemist manga & CS textbooks.</p>
-      </a>
-
-      <a href="home.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🏡</span>
-            <h3 class="inv-card-title">Home & Smart Tech</h3>
-          </div>
-          <span class="inv-progress-badge">Room Navigation</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Office setup, living room lighting, bathroom shower niches & projects.</p>
-      </a>
-
-      <a href="health.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🩺</span>
-            <h3 class="inv-card-title">Health & Gym</h3>
-          </div>
-          <span class="inv-progress-badge">ECG & Health</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">OMRON ECG monitor, Hilo 24/7 bracelet & pulse oximeters.</p>
-      </a>
-
-      <a href="misc.html" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-        <div class="inv-card-header" style="margin-bottom: 4px;">
-          <div class="inv-title-group">
-            <span class="inv-card-icon">🛒</span>
-            <h3 class="inv-card-title">Stores & Subscriptions</h3>
-          </div>
-          <span class="inv-progress-badge">Merch & Subs</span>
-        </div>
-        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">Google Merch, GitKraken, Bokksu, JOMO Club & craft boxes.</p>
-      </a>
-
-    </div>
+    <div id="collection-hubs-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;"></div>
   </section>
 
-  <!-- PRIORITY WISHLIST ITEMS PREVIEW (BLANK) -->
+  <!-- PRIORITY WISHLIST ITEMS PREVIEW -->
   <section class="wishlist-section">
     <div class="section-header">
       <h2>🔥 Priority Wishlist Items</h2>
       <p>Gathered specific priority items.</p>
     </div>
 
-    <div class="empty-priority-box">
-      <span class="empty-priority-icon">🎁</span>
-      <div class="empty-priority-title">No Active Priority Wishlist Items</div>
-      <div class="empty-priority-desc">Check back soon! Explore dedicated collection pages above for LEGO, Zelda, Books, Board Games, and Tech.</div>
-    </div>
+    <div id="priority-items-container"></div>
   </section>
 </main>
 
@@ -193,6 +63,121 @@
   <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
 </footer>
 
+<script src="content.js"></script>
 <script src="nav.js"></script>
+<script>
+(function () {
+  const indexData = window.SITE_CONTENT && window.SITE_CONTENT.index;
+  if (!indexData) return;
+
+  // Render Intro Header
+  const intro = indexData.intro;
+  if (intro) {
+    if (intro.title) document.getElementById('hero-title').textContent = intro.title;
+    if (intro.subtitle) document.getElementById('hero-subtitle').textContent = intro.subtitle;
+
+    const sectionsContainer = document.getElementById('intro-sections-container');
+    if (sectionsContainer && intro.sections) {
+      const s = intro.sections;
+      
+      // 1. Info Box (Blue/Neutral)
+      if (s.info) {
+        const infoDiv = document.createElement('div');
+        infoDiv.style.cssText = 'background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);';
+        infoDiv.innerHTML = `<h3 style="margin:0 0 8px; font-size:0.95rem; color:#60a5fa; font-weight:700;">${s.info.title}</h3><p style="margin:0; font-size:0.86rem; line-height:1.5;">${s.info.text}</p>`;
+        sectionsContainer.appendChild(infoDiv);
+      }
+
+      // 2. Warning Box (Amber/Orange)
+      if (s.warning) {
+        const warnDiv = document.createElement('div');
+        warnDiv.style.cssText = 'background: rgba(234, 179, 8, 0.09); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);';
+        warnDiv.innerHTML = `<h3 style="margin:0 0 8px; font-size:0.95rem; color:var(--gold); font-weight:700;">${s.warning.title}</h3><p style="margin:0; font-size:0.86rem; line-height:1.5;">${s.warning.text}</p>`;
+        sectionsContainer.appendChild(warnDiv);
+      }
+
+      // 3. Don't Box (Red - NEVER BUY THIS)
+      if (s.dont) {
+        const dontDiv = document.createElement('div');
+        dontDiv.style.cssText = 'background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.4); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2); grid-column: 1 / -1;';
+        dontDiv.innerHTML = `
+          <h3 style="margin:0 0 10px; font-size:0.98rem; color:#f87171; font-weight:800; text-transform:uppercase; letter-spacing:0.04em;">${s.dont.title}</h3>
+          <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6; color:var(--text);">
+            ${s.dont.items.map(item => `<li style="margin-bottom:6px;">${item}</li>`).join('')}
+          </ul>`;
+        sectionsContainer.appendChild(dontDiv);
+      }
+
+      // 4. Good Suggestions Box (Green)
+      if (s.good) {
+        const goodDiv = document.createElement('div');
+        goodDiv.style.cssText = 'background: rgba(34, 197, 94, 0.09); border: 1px solid rgba(34, 197, 94, 0.35); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2); grid-column: 1 / -1;';
+        goodDiv.innerHTML = `
+          <h3 style="margin:0 0 10px; font-size:0.98rem; color:#4ade80; font-weight:800; text-transform:uppercase; letter-spacing:0.04em;">${s.good.title}</h3>
+          <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6; color:var(--text);">
+            ${s.good.items.map(item => `<li style="margin-bottom:6px;">${item}</li>`).join('')}
+          </ul>`;
+        sectionsContainer.appendChild(goodDiv);
+      }
+    }
+  }
+
+  // Render Gift Money
+  const moneyContainer = document.getElementById('gift-money-container');
+  if (moneyContainer && Array.isArray(indexData.giftMoney)) {
+    moneyContainer.innerHTML = indexData.giftMoney.map(m => `
+      <a href="${m.url}" target="_blank" class="horizontal-card" style="padding: 12px 14px;">
+        <img src="${m.logo}" alt="${m.name} Logo" style="width: 28px; height: 28px;">
+        <div>
+          <span style="display: block; font-weight: 700;">${m.name}</span>
+          <span style="font-size: 0.76rem; color: var(--text-muted);">${m.handle}</span>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  // Render Collection Hubs
+  const hubsContainer = document.getElementById('collection-hubs-container');
+  if (hubsContainer && Array.isArray(indexData.collectionHubs)) {
+    hubsContainer.innerHTML = indexData.collectionHubs.map(h => `
+      <a href="${h.href}" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
+        <div class="inv-card-header" style="margin-bottom: 4px;">
+          <div class="inv-title-group">
+            <span class="inv-card-icon">${h.icon}</span>
+            <h3 class="inv-card-title">${h.title}</h3>
+          </div>
+          <span class="inv-progress-badge">${h.badge}</span>
+        </div>
+        <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">${h.notes}</p>
+      </a>
+    `).join('');
+  }
+
+  // Render Priority Items
+  const priorityContainer = document.getElementById('priority-items-container');
+  if (priorityContainer) {
+    if (Array.isArray(indexData.priorityItems) && indexData.priorityItems.length > 0) {
+      // Render priority cards when populated
+      priorityContainer.innerHTML = `<div class="wishlist-grid">${indexData.priorityItems.map(item => `
+        <div class="wishlist-item">
+          <div class="wishlist-item-img"><img src="${item.img}" alt="${item.name}"></div>
+          <div class="wishlist-item-content">
+            <h4>${item.name}</h4>
+            <p>${item.desc || ''}</p>
+          </div>
+        </div>
+      `).join('')}</div>`;
+    } else {
+      // Empty priority box state
+      priorityContainer.innerHTML = `
+        <div class="empty-priority-box">
+          <span class="empty-priority-icon">🎁</span>
+          <div class="empty-priority-title">No Active Priority Wishlist Items</div>
+          <div class="empty-priority-desc">Check back soon! Explore dedicated collection pages above for LEGO, Zelda, Books, Board Games, and Tech.</div>
+        </div>`;
+    }
+  }
+})();
+</script>
 </body>
 </html>

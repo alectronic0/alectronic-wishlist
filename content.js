@@ -4,6 +4,64 @@ window.SITE_CONTENT = {
     "updatedAt": "2026-07-29",
     "owner": "Alec Doran-Twyford (Alectronic)"
   },
+  "index": {
+    "intro": {
+      "title": "The Wish List 🎁",
+      "subtitle": "Welcome to my wishlist & home inventory hub!",
+      "sections": {
+        "info": {
+          "title": "ℹ️ About This Wishlist",
+          "text": "Welcome to my wishlist & home inventory hub! Browse through the dedicated collection hubs below to see what I own and what I'm looking for."
+        },
+        "warning": {
+          "title": "⚠️ Current Situation",
+          "text": "Currently reorganizing the house and focusing on a health & weight loss journey. Please keep current space constraints and upcoming diet plans in mind!"
+        },
+        "dont": {
+          "title": "⛔ NEVER BUY THIS (Strict Don'ts)",
+          "items": [
+            "👕 Shirts & Apparel — I have enough shirts in my life right now and am aiming to lose more weight.",
+            "📚 Books & 🎲 Board Games — Until I get some bookshelves in the house, I don't need more books or board games.",
+            "🍱 Food & Edibles — Please no food-related stuff as I will be on a Meal Replacement Diet in Jan."
+          ]
+        },
+        "good": {
+          "title": "✅ Good Suggestions At Present",
+          "items": [
+            "💳 Direct Gift Money contributions via Monzo or PayPal.",
+            "🧱 Specific LEGO wishlist sets (Star Wars, Botanical, Nintendo & Deku Tree).",
+            "⚔️ Zelda Shrine collectibles, Prima guides & lore items."
+          ]
+        }
+      }
+    },
+    "giftMoney": [
+      {
+        "name": "Monzo",
+        "handle": "monzo.me/alecgeorgedorantwyford",
+        "url": "https://monzo.me/alecgeorgedorantwyford",
+        "logo": "https://unavatar.io/monzo.com"
+      },
+      {
+        "name": "PayPal",
+        "handle": "paypal.me/alectronic0",
+        "url": "https://www.paypal.com/paypalme/alectronic0",
+        "logo": "https://unavatar.io/paypal.com"
+      }
+    ],
+    "collectionHubs": [
+      { "href": "lego.html", "icon": "🧱", "title": "LEGO® Collection", "badge": "14 Sets", "notes": "Botanic plants, Star Wars UCS, NES console & Great Deku Tree wishlist." },
+      { "href": "zelda.html", "icon": "⚔️", "title": "The Zelda Shrine", "badge": "Lore & Games", "notes": "Legend's Cookbook+, Symphony OST, manga box sets & Prima guides." },
+      { "href": "clothing.html", "icon": "👕", "title": "Clothing & Sizes", "badge": "Uniqlo / Vans", "notes": "Black simple aesthetic, exact sizing chart & shoes." },
+      { "href": "boardgames.html", "icon": "🎲", "title": "Board Games", "badge": "Visual Grid", "notes": "Quacks of Quedlinburg, Ticket to Ride, Clank!, Four Souls & expansions." },
+      { "href": "videogames.html", "icon": "🎮", "title": "Video Games", "badge": "Switch & Steam", "notes": "Switch physical games, 3DS handhelds, retro Game Boy & Steam library." },
+      { "href": "books.html", "icon": "📚", "title": "Books", "badge": "Library", "notes": "Cookbooks, Fullmetal Alchemist manga & CS textbooks." },
+      { "href": "home.html", "icon": "🏡", "title": "Home & Smart Tech", "badge": "Room Navigation", "notes": "Office setup, living room lighting, bathroom shower niches & projects." },
+      { "href": "health.html", "icon": "🩺", "title": "Health & Gym", "badge": "ECG & Health", "notes": "OMRON ECG monitor, Hilo 24/7 bracelet & pulse oximeters." },
+      { "href": "misc.html", "icon": "🛒", "title": "Stores & Subscriptions", "badge": "Merch & Subs", "notes": "Google Merch, GitKraken, Bokksu, JOMO Club & craft boxes." }
+    ],
+    "priorityItems": []
+  },
   "lego": {
     "title": "LEGO® Collection & Wishlist 🧱",
     "officialWishlistUrl": "https://www.lego.com/en-gb/member/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
