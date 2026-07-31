@@ -81,6 +81,10 @@ window.SITE_CONTENT = {
     "icons": {
       "label": "\ud83d\udef8 Icons & Sci-Fi",
       "color": "#a78bfa"
+    },
+    "adjacent": {
+      "label": "\ud83e\udde9 LEGO\u00ae Adjacent & Merch",
+      "color": "#eab308"
     }
   },
   "owned": [
@@ -212,7 +216,7 @@ window.SITE_CONTENT = {
       "status": "40% Off Sale",
       "img": "https://www.lego.com/cdn/cs/set/assets/blt0b4d1a25b7038d9d/5009141_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-standard-edition-5009141",
-      "theme": "starwars"
+      "theme": "adjacent"
     },
     {
       "id": "75355",
@@ -269,7 +273,7 @@ window.SITE_CONTENT = {
       "price": "\u00a3129.99",
       "img": "https://www.lego.com/cdn/cs/set/assets/blt246301497bdc1f43/5008878.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-book-5008878",
-      "theme": "starwars"
+      "theme": "adjacent"
     },
     {
       "id": "75405",
@@ -410,7 +414,7 @@ window.SITE_CONTENT = {
       "price": "\u00a326.99",
       "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/lego-pumpkin-storage-head-large-5005886",
-      "theme": "botanical"
+      "theme": "adjacent"
     }
   ]
 },
