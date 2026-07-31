@@ -58,14 +58,14 @@
     card.className = 'wishlist-item';
     card.style.cssText = 'border-radius: 8px; overflow: hidden; position: relative;';
 
-    const bggTag = item.bggId
+    const idTag = item.bggId
       ? `<span style="font-size:0.7rem; font-weight:800; color:var(--accent); display:block; margin-bottom:2px;">BGG #${item.bggId}</span>`
-      : '';
+      : (item.asin ? `<span style="font-size:0.7rem; font-weight:800; color:var(--accent); display:block; margin-bottom:2px;">ASIN: ${item.asin}</span>` : '');
 
     let infoHTML = '';
     if (isWishlist) {
       infoHTML = `
-        ${bggTag}
+        ${idTag}
         <a href="${item.url || '#'}" target="_blank" class="wishlist-item-title">${item.name}</a>
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
           <span class="wishlist-item-price" style="font-size:0.78rem; font-weight:700;">${item.price}</span>
@@ -73,7 +73,7 @@
         </div>`;
     } else {
       infoHTML = `
-        ${bggTag}
+        ${idTag}
         ${item.url ? `<a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>` : `<div class="wishlist-item-title">${item.name}</div>`}
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:4px;">
           <span class="inv-item-badge" style="font-size:0.7rem;">${item.badge || item.category}</span>
