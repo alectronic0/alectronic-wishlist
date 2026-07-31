@@ -181,13 +181,10 @@ window.SITE_CONTENT = {
       "img": "https://www.lego.com/cdn/cs/catalog/assets/blt22f6b53ba9fd13e3/1/75252_box1_v29_(1).png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
       "url": "https://www.lego.com/en-gb/product/imperial-star-destroyer-75252",
       "theme": "starwars"
-    }
-  ],
-  "wishlist": [
+    },
     {
       "id": "11506",
       "name": "Rocking Plants",
-      "price": "\u00a317.99",
       "img": "https://www.lego.com/cdn/cs/set/assets/blt0ecef35631d68f39/blte47c9a08c6295596-11506_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/rocking-plants-11506",
       "theme": "botanical"
@@ -195,7 +192,6 @@ window.SITE_CONTENT = {
     {
       "id": "77093",
       "name": "Ocarina of Time\u2122 \u2013 The Final Battle",
-      "price": "\u00a399.99",
       "img": "https://www.lego.com/cdn/cs/set/assets/bltd7895bf495988a25/77093_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/ocarina-of-time-the-final-battle-77093",
       "theme": "videogames"
@@ -203,11 +199,12 @@ window.SITE_CONTENT = {
     {
       "id": "77092",
       "name": "Great Deku Tree 2-in-1",
-      "price": "\u00a3259.99",
       "img": "https://www.lego.com/cdn/cs/set/assets/blt6a8cb14aa4efef08/77092.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/great-deku-tree-2-in-1-77092",
       "theme": "videogames"
-    },
+    }
+  ],
+  "wishlist": [
     {
       "id": "5009141",
       "name": "The Force of Creativity \u2013 Standard Edition",
