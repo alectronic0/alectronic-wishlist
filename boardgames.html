@@ -56,19 +56,25 @@
   function renderCard(item, isWishlist) {
     const card = document.createElement('div');
     card.className = 'wishlist-item';
-    card.style.cssText = 'border-radius: 8px; overflow: hidden;';
+    card.style.cssText = 'border-radius: 8px; overflow: hidden; position: relative;';
+
+    const bggTag = item.bggId
+      ? `<span style="font-size:0.7rem; font-weight:800; color:var(--accent); display:block; margin-bottom:2px;">BGG #${item.bggId}</span>`
+      : '';
 
     let infoHTML = '';
     if (isWishlist) {
       infoHTML = `
-        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>
+        ${bggTag}
+        <a href="${item.url || '#'}" target="_blank" class="wishlist-item-title">${item.name}</a>
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
           <span class="wishlist-item-price" style="font-size:0.78rem; font-weight:700;">${item.price}</span>
-          <a href="${item.url}" target="_blank" class="inv-action-btn" style="padding:3px 8px; font-size:0.72rem;">Gift ↗</a>
+          ${item.url ? `<a href="${item.url}" target="_blank" class="inv-action-btn" style="padding:3px 8px; font-size:0.72rem;">Gift ↗</a>` : ''}
         </div>`;
     } else {
       infoHTML = `
-        <div class="wishlist-item-title">${item.name}</div>
+        ${bggTag}
+        ${item.url ? `<a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>` : `<div class="wishlist-item-title">${item.name}</div>`}
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:4px;">
           <span class="inv-item-badge" style="font-size:0.7rem;">${item.badge || item.category}</span>
           <span style="font-size:0.72rem; color:var(--mint); font-weight:600;">✓ Owned</span>
