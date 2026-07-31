@@ -28,11 +28,11 @@
     </div>
   </section>
 
-  <!-- OWNED BOARD GAMES -->
-  <section class="wishlist-section" id="boardgames-owned-section"></section>
-
   <!-- WANTED BOARD GAMES -->
   <section class="wishlist-section" id="boardgames-wanted-section"></section>
+
+  <!-- OWNED BOARD GAMES -->
+  <section class="wishlist-section" id="boardgames-owned-section"></section>
 </main>
 
 <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
@@ -107,19 +107,19 @@
   }
 
   renderGrid(
-    'boardgames-owned-section',
-    `✅ Owned Tabletop Games (${data.owned.length})`,
-    'Games currently in my home board game collection.',
-    data.owned,
-    false
-  );
-
-  renderGrid(
     'boardgames-wanted-section',
     `🎁 Board Game Wishlist (${data.wishlist.length})`,
     'Games I would love to add to the table.',
     data.wishlist,
     true
+  );
+
+  renderGrid(
+    'boardgames-owned-section',
+    `✅ Owned Tabletop Games (${data.owned.length})`,
+    'Games currently in my home board game collection.',
+    data.owned,
+    false
   );
 })();
 </script>
