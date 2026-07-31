@@ -474,7 +474,7 @@ window.SITE_CONTENT = {
   },
   "boardgames": {
     "title": "Board Games & Tabletop 🎲",
-    "bggUrl": "https://boardgamegeek.com/collection/user/Alectronic",
+    "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
     "owned": [
       {
         "name": "The Quacks of Quedlinburg (+ Expansions)",
