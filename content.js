@@ -493,21 +493,24 @@ window.SITE_CONTENT = {
                               "owned": true,
                               "amazonUrl": "https://www.amazon.co.uk/dp/B08DFGJSB6"
                         }
-                  ]
+                  ],
+                  "bggId": "244521"
             },
             {
                   "name": "Ticket to Ride: Europe",
                   "category": "Family Strategy",
                   "badge": "Days of Wonder",
                   "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
-                  "publisher": "Days of Wonder"
+                  "publisher": "Days of Wonder",
+                  "bggId": "14996"
             },
             {
                   "name": "Pandemic",
                   "category": "Co-op Strategy",
                   "badge": "Z-Man Games",
                   "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
-                  "publisher": "Z-Man Games"
+                  "publisher": "Z-Man Games",
+                  "bggId": "30549"
             },
             {
                   "name": "Flamecraft",
@@ -530,14 +533,16 @@ window.SITE_CONTENT = {
                   "category": "Dragon Engine Building",
                   "badge": "Stonemaier Games",
                   "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
-                  "publisher": "Stonemaier Games"
+                  "publisher": "Stonemaier Games",
+                  "bggId": "410201"
             },
             {
                   "name": "Skull",
                   "category": "Bluffing / Party Game",
                   "badge": "Space Cowboys",
                   "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
-                  "publisher": "Space Cowboys"
+                  "publisher": "Space Cowboys",
+                  "bggId": "92415"
             },
             {
                   "name": "Morels",
@@ -567,7 +572,8 @@ window.SITE_CONTENT = {
                   "category": "Card Game",
                   "badge": "TeeTurtle",
                   "img": "https://m.media-amazon.com/images/I/51x88R6M6IL._SS135_.jpg",
-                  "publisher": "TeeTurtle"
+                  "publisher": "TeeTurtle",
+                  "bggId": "234190"
             },
             {
                   "name": "Clank! Catacombs",
