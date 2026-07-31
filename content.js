@@ -415,6 +415,14 @@ window.SITE_CONTENT = {
       "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
       "url": "https://www.lego.com/en-gb/product/lego-pumpkin-storage-head-large-5005886",
       "theme": "adjacent"
+    },
+    {
+      "id": "5009960",
+      "name": "Adults' Christmas Sweatshirt - Dark Blue",
+      "price": "\u00a344.99",
+      "img": "https://images.brickset.com/sets/images/5009960-1.jpg",
+      "url": "https://www.lego.com/en-gb/product/adults-christmas-sweatshirt-dark-blue-5009960",
+      "theme": "adjacent"
     }
   ]
 },
