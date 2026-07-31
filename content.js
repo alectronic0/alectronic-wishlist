@@ -710,18 +710,19 @@ window.SITE_CONTENT = {
             "publisher": "Rio Grande Games"
       },
       {
-            "name": "Terraforming Mars: Prelude",
-            "bggId": "247030",
-            "price": "Want To Buy",
-            "url": "https://boardgamegeek.com/boardgameexpansion/247030/terraforming-mars-prelude",
-            "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
+            "name": "Terraforming Mars",
+            "bggId": "167791",
             "publisher": "FryxGames / Stronghold",
+            "url": "https://boardgamegeek.com/boardgame/167791",
+            "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG",
+            "asin": "B01GSA8rGG",
+            "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
             "expansions": [
                   {
-                        "name": "Terraforming Mars (Base Game)",
-                        "bggId": "167791",
+                        "name": "Terraforming Mars: Prelude",
+                        "bggId": "247030",
                         "owned": false,
-                        "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG"
+                        "amazonUrl": "https://www.amazon.co.uk/dp/B07BNBQP1V"
                   },
                   {
                         "name": "Terraforming Mars: Hellas & Elysium",
