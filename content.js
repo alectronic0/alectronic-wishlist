@@ -648,7 +648,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Horrified: Greek Monsters",
-            "bggId": "394208",
             "asin": "B0C6QQM8X6",
             "price": "\u00a342.44",
             "url": "https://www.amazon.co.uk/dp/B0C6QQM8X6",
@@ -656,7 +655,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Horrified: Dungeons & Dragons",
-            "bggId": "431057",
             "asin": "B0F2GVHLV2",
             "price": "\u00a322.25",
             "url": "https://www.amazon.co.uk/dp/B0F2GVHLV2",
@@ -664,7 +662,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "No Thanks!",
-            "bggId": "12942",
             "asin": "B085KYB3R4",
             "price": "\u00a316.60",
             "url": "https://www.amazon.co.uk/dp/B085KYB3R4",
@@ -672,7 +669,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Mystic Vale: Essential Edition",
-            "bggId": "194655",
             "asin": "B09MC7CWLV",
             "price": "\u00a385.55",
             "url": "https://www.amazon.co.uk/dp/B09MC7CWLV",
@@ -680,7 +676,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Mattel UNO: The Legend of Zelda",
-            "bggId": "254923",
             "asin": "B07BMKV6MT",
             "price": "\u00a315.99",
             "url": "https://www.amazon.co.uk/dp/B07BMKV6MT",
@@ -688,7 +683,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Dark Souls: The Card Game",
-            "bggId": "238676",
             "asin": "B077BCRZ6F",
             "price": "Wishlist",
             "url": "https://www.amazon.co.uk/dp/B077BCRZ6F",
@@ -712,7 +706,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Jaipur (2nd Edition)",
-            "bggId": "54043",
             "asin": "B07SRMXRZB",
             "price": "\u00a314.95",
             "url": "https://www.amazon.co.uk/dp/B07SRMXRZB",
@@ -720,7 +713,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Codenames: Pictures",
-            "bggId": "198773",
             "asin": "B01HT9DERU",
             "price": "Wishlist",
             "url": "https://www.amazon.co.uk/dp/B01HT9DERU",
@@ -736,7 +728,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Camel Up (2nd Edition)",
-            "bggId": "260605",
             "asin": "B07HB88VXG",
             "price": "\u00a339.59",
             "url": "https://www.amazon.co.uk/dp/B07HB88VXG",
@@ -744,7 +735,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "Taco vs Burrito",
-            "bggId": "258169",
             "asin": "B07JZTBV9C",
             "price": "Wishlist",
             "url": "https://www.amazon.co.uk/dp/B07JZTBV9C",
@@ -752,7 +742,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "On a Scale of One to T-Rex",
-            "bggId": "285438",
             "asin": "B07WC2Z9HF",
             "price": "Wishlist",
             "url": "https://www.amazon.co.uk/dp/B07WC2Z9HF",
