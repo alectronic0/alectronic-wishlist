@@ -596,7 +596,9 @@ window.SITE_CONTENT = {
                   "category": "Tile Placement",
                   "badge": "Plan B Games",
                   "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
-                  "publisher": "Plan B Games"
+                  "publisher": "Plan B Games",
+                  "bggId": "230802",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B077MZ2MPW"
             },
             {
                   "name": "The Binding of Isaac: Four Souls",
@@ -945,8 +947,9 @@ window.SITE_CONTENT = {
                   "name": "On a Scale of One to T-Rex",
                   "asin": "B07WC2Z9HF",
                   "img": "https://m.media-amazon.com/images/I/41vkCE88NxL._SS220_.jpg",
-                  "publisher": "Publisher Unknown",
-                  "amazonUrl": "https://www.amazon.co.uk/dp/B07WC2Z9HF"
+                  "publisher": "Exploding Kittens",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B07WC2Z9HF",
+                  "bggId": "289018"
             }
       ]
 },
