@@ -54,15 +54,16 @@
   function renderCard(item, isWishlist) {
     const card = document.createElement('div');
     card.className = 'wishlist-item';
-    card.style.cssText = 'border-radius: 8px; overflow: hidden;';
+    card.style.cssText = 'border-radius: 8px; overflow: hidden; position: relative;';
 
     let infoHTML = '';
     if (isWishlist) {
       const statusBadge = item.status
-        ? `<span style="font-size:0.68rem; opacity:0.85; color:var(--accent); display:block; margin-top:2px;">${item.status}</span>`
+        ? `<span style="font-size:0.65rem; color:var(--gold); display:block; margin-top:2px; font-weight:600;">${item.status}</span>`
         : '';
       infoHTML = `
-        <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name} <span style="opacity:0.6; font-size:0.72rem;">(#${item.id})</span></a>
+        <span style="font-size:0.72rem; font-weight:800; color:var(--accent); display:block; letter-spacing:0.02em; margin-bottom:2px;">#${item.id}</span>
+        <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name}</a>
         ${statusBadge}
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
           <span class="wishlist-item-price" style="font-size:0.78rem; font-weight:700;">${item.price || 'Wishlist'}</span>
@@ -70,9 +71,9 @@
         </div>`;
     } else {
       infoHTML = `
-        <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name} <span style="opacity:0.6; font-size:0.72rem;">(#${item.id})</span></a>
+        <span style="font-size:0.72rem; font-weight:800; color:var(--text-muted); display:block; letter-spacing:0.02em; margin-bottom:2px;">#${item.id}</span>
+        <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name}</a>
         <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
-          <span style="font-size:0.7rem; color:var(--text-muted);">Set #${item.id}</span>
           <span style="font-size:0.72rem; color:var(--mint); font-weight:600;">✓ Owned</span>
         </div>`;
     }
