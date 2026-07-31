@@ -654,6 +654,13 @@ window.SITE_CONTENT = {
                   "img": "https://m.media-amazon.com/images/I/51-P4gC5EwL._SS135_.jpg",
                   "publisher": "Classic Strategy",
                   "bggId": "171"
+            },
+            {
+                  "name": "The Conversation Cards (1st Edition)",
+                  "category": "Conversation Card Game",
+                  "publisher": "The Diary",
+                  "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+                  "amazonUrl": "https://thediary.com/products/the-conversation-cards-1st-edition"
             }
       ],
       "wishlist": [
