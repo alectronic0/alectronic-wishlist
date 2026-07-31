@@ -427,23 +427,27 @@ section.wishlist-section, section.hero {
   margin-top: 12px;
 }
 
+.item-list.grid-5-cols,
 .item-list.grid-6-cols {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 @media (max-width: 1100px) {
+  .item-list.grid-5-cols,
   .item-list.grid-6-cols {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 768px) {
+  .item-list.grid-5-cols,
   .item-list.grid-6-cols {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 480px) {
+  .item-list.grid-5-cols,
   .item-list.grid-6-cols {
     grid-template-columns: repeat(2, 1fr);
   }
