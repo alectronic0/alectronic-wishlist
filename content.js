@@ -611,14 +611,16 @@ window.SITE_CONTENT = {
                   "category": "Party Card Game",
                   "badge": "Cyanide & Happiness",
                   "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
-                  "publisher": "Cyanide & Happiness",
+                  "publisher": "Cyanide & Happiness / Skybound",
                   "expansions": [
                         {
-                              "name": "Trial by Trolley: Derailed Expansion",
+                              "name": "Trial by Trolley: Derailed Edition",
+                              "bggId": "299815",
                               "owned": true,
                               "amazonUrl": "https://www.amazon.co.uk/dp/B08K3MV18H"
                         }
-                  ]
+                  ],
+                  "bggId": "274961"
             },
             {
                   "name": "We're Not Really Strangers",
