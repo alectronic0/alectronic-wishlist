@@ -482,7 +482,6 @@ window.SITE_CONTENT = {
             "category": "Strategy / Push-Your-Luck",
             "badge": "Base + 2 Expansions",
             "img": "https://m.media-amazon.com/images/I/51-P4gC5EwL._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/244521/quacks",
             "publisher": "Schmidt Spiele",
             "expansions": [
                   {
@@ -505,7 +504,6 @@ window.SITE_CONTENT = {
             "category": "Family Strategy",
             "badge": "Days of Wonder",
             "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/14996/ticket-to-ride-europe",
             "publisher": "Days of Wonder"
       },
       {
@@ -514,7 +512,6 @@ window.SITE_CONTENT = {
             "category": "Co-op Strategy",
             "badge": "Z-Man Games",
             "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/30549/pandemic",
             "publisher": "Z-Man Games"
       },
       {
@@ -523,7 +520,6 @@ window.SITE_CONTENT = {
             "category": "Engine Building",
             "badge": "Lucky Duck Games",
             "img": "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__micro@2x/img/-O6pFVbU70841D8Q-OpI2IyWtiY=/fit-in/128x128/filters:strip_icc()/pic6605448.jpg",
-            "url": "https://boardgamegeek.com/boardgame/336986/flamecraft",
             "publisher": "Lucky Duck Games"
       },
       {
@@ -532,7 +528,6 @@ window.SITE_CONTENT = {
             "category": "Party Word Game",
             "badge": "CGE",
             "img": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__micro@2x/img/bM6RcsdZKY2Z--e66-QOBCsrAmA=/fit-in/128x128/filters:strip_icc()/pic8907965.jpg",
-            "url": "https://boardgamegeek.com/boardgame/178900/codenames",
             "publisher": "Czech Games Edition (CGE)"
       },
       {
@@ -541,7 +536,6 @@ window.SITE_CONTENT = {
             "category": "Dragon Engine Building",
             "badge": "Stonemaier Games",
             "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/410201/wyrmspan",
             "publisher": "Stonemaier Games"
       },
       {
@@ -550,7 +544,6 @@ window.SITE_CONTENT = {
             "category": "Bluffing / Party Game",
             "badge": "Space Cowboys",
             "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/92415/skull",
             "publisher": "Space Cowboys"
       },
       {
@@ -559,7 +552,6 @@ window.SITE_CONTENT = {
             "category": "2-Player Card Game",
             "badge": "Two-Player",
             "img": "https://cf.geekdo-images.com/79RzPdM2pxmtmNV-bdU7LQ__micro@2x/img/B9cJEFqHs31BDEvdwCCzrYgVaEs=/fit-in/128x128/filters:strip_icc()/pic1284667.jpg",
-            "url": "https://boardgamegeek.com/boardgame/122298/morels",
             "publisher": "Two-Player Games"
       },
       {
@@ -568,7 +560,6 @@ window.SITE_CONTENT = {
             "category": "Party Expansion",
             "badge": "Big Potato Games",
             "img": "https://cf.geekdo-images.com/PONN-CrQlHcgBx4MyOwrug__micro@2x/img/sEbbzG8QPyxIdFuTn543qG-tcAQ=/fit-in/128x128/filters:strip_icc()/pic5628068.jpg",
-            "url": "https://boardgamegeek.com/boardgameexpansion/317615/muffin-time-kickstarter-pack",
             "publisher": "Big Potato Games",
             "expansions": [
                   {
@@ -585,7 +576,6 @@ window.SITE_CONTENT = {
             "category": "Card Game",
             "badge": "TeeTurtle",
             "img": "https://m.media-amazon.com/images/I/51x88R6M6IL._SS135_.jpg",
-            "url": "https://boardgamegeek.com/boardgame/234190/unstable-unicorns",
             "publisher": "TeeTurtle"
       },
       {
@@ -594,7 +584,6 @@ window.SITE_CONTENT = {
             "badge": "Dire Wolf",
             "img": "https://cf.geekdo-images.com/cCLn9Mvb7jRSaZzHeUXhoQ__micro@2x/img/e6zKGJuRL11lk62ynlxnOLFOt9Q=/fit-in/128x128/filters:strip_icc()/pic6937913.jpg",
             "bggId": "365717",
-            "url": "https://boardgamegeek.com/boardgame/365717/clank-catacombs",
             "publisher": "Dire Wolf / Renegade"
       },
       {
@@ -603,7 +592,6 @@ window.SITE_CONTENT = {
             "badge": "Ravensburger",
             "img": "https://cf.geekdo-images.com/P8-3HeCgEa_CODQiQxq9SQ__micro@2x/img/k-gHtcDDJooT9u4wYAjjRb3aoJA=/fit-in/128x128/filters:strip_icc()/pic7849476.jpg",
             "bggId": "392023",
-            "url": "https://boardgamegeek.com/boardgame/392023/mycelia",
             "publisher": "Ravensburger"
       },
       {
@@ -619,7 +607,6 @@ window.SITE_CONTENT = {
             "badge": "Base Game",
             "img": "https://cf.geekdo-images.com/mTBI7mJdH00xBJQGzUJE7g__micro@2x/img/hLNVjtIGyyA4tHTETed4AFmX-Gc=/fit-in/128x128/filters:strip_icc()/pic4197173.jpg",
             "bggId": "255664",
-            "url": "https://boardgamegeek.com/boardgame/255664/the-binding-of-isaac-four-souls",
             "publisher": "Maestro Media"
       },
       {
@@ -650,7 +637,6 @@ window.SITE_CONTENT = {
             "badge": "Big Potato Games",
             "img": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__micro@2x/img/cv8rKWee8Kw4XA9Elt00BOyZoCM=/fit-in/128x128/filters:strip_icc()/pic3552344.png",
             "bggId": "227072",
-            "url": "https://boardgamegeek.com/boardgame/227072/the-chameleon",
             "publisher": "Big Potato Games"
       },
       {
@@ -659,7 +645,6 @@ window.SITE_CONTENT = {
             "badge": "Owned",
             "img": "https://cf.geekdo-images.com/zRSkp9ns94L0P3_v9v7AXQ__micro@2x/img/LddptFt2IzItcL1EZf17VzB-lSs=/fit-in/128x128/filters:strip_icc()/pic2486914.jpg",
             "bggId": "147209",
-            "url": "https://boardgamegeek.com/boardgameexpansion/147209/cards-against-humanity-the-bigger-blacker-box",
             "publisher": "Cards Against Humanity LLC"
       },
       {
@@ -674,8 +659,6 @@ window.SITE_CONTENT = {
       {
             "name": "Catan",
             "bggId": "13",
-            "price": "Want To Buy",
-            "url": "https://boardgamegeek.com/boardgame/13/catan",
             "img": "https://cf.geekdo-images.com/0XODRpReiZBFUffEcqT5-Q__micro@2x/img/t9Zf68knfLRN7Ntw-iFQ9SQx2sU=/fit-in/128x128/filters:strip_icc()/pic9156909.png",
             "publisher": "Catan Studio / Kosmos",
             "expansions": [
@@ -696,16 +679,12 @@ window.SITE_CONTENT = {
       {
             "name": "Citadels",
             "bggId": "478",
-            "price": "Want To Buy",
-            "url": "https://boardgamegeek.com/boardgame/478/citadels",
             "img": "https://cf.geekdo-images.com/shXqRK7Sfsp-jCLwoN3kqw__micro@2x/img/-2VGCD3h2KmyKKxGxREDcr0mbuE=/fit-in/128x128/filters:strip_icc()/pic636868.jpg",
             "publisher": "Z-Man Games / Asmodee"
       },
       {
             "name": "Dominion",
             "bggId": "36218",
-            "price": "Want To Buy",
-            "url": "https://boardgamegeek.com/boardgame/36218/dominion",
             "img": "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__micro@2x/img/4oRFbBzVQ3CuwGi68yb72-myHU8=/fit-in/128x128/filters:strip_icc()/pic394356.jpg",
             "publisher": "Rio Grande Games"
       },
@@ -713,7 +692,6 @@ window.SITE_CONTENT = {
             "name": "Terraforming Mars",
             "bggId": "167791",
             "publisher": "FryxGames / Stronghold",
-            "url": "https://boardgamegeek.com/boardgame/167791",
             "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG",
             "asin": "B01GSA8rGG",
             "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
@@ -734,8 +712,6 @@ window.SITE_CONTENT = {
       },
       {
             "name": "USAopoly The Legend of Zelda Chess Set",
-            "price": "Amazon Wishlist",
-            "url": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share",
             "img": "https://m.media-amazon.com/images/I/51KyoaHn6HL._SS135_.jpg",
             "publisher": "USAopoly",
             "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share"
@@ -743,8 +719,6 @@ window.SITE_CONTENT = {
       {
             "name": "Horrified: Greek Monsters",
             "asin": "B0C6QQM8X6",
-            "price": "\u00a342.44",
-            "url": "https://www.amazon.co.uk/dp/B0C6QQM8X6",
             "img": "https://cf.geekdo-images.com/AXNf3SxmIx125TDTK3CMtg__micro@2x/img/-PPqCZyspPq8HRc8sUdngCfqtaY=/fit-in/128x128/filters:strip_icc()/pic7669076.jpg",
             "bggId": "397897",
             "publisher": "Ravensburger",
@@ -753,8 +727,6 @@ window.SITE_CONTENT = {
       {
             "name": "Horrified: Dungeons & Dragons",
             "asin": "B0F2GVHLV2",
-            "price": "\u00a322.25",
-            "url": "https://www.amazon.co.uk/dp/B0F2GVHLV2",
             "img": "https://cf.geekdo-images.com/Drv6TfMDsEfjbau5ycKd7g__micro@2x/img/Jtv07h6IFzzefoK3tAeQZQqwSyQ=/fit-in/128x128/filters:strip_icc()/pic8718235.jpg",
             "bggId": "437705",
             "publisher": "Ravensburger",
@@ -763,8 +735,6 @@ window.SITE_CONTENT = {
       {
             "name": "No Thanks!",
             "asin": "B085KYB3R4",
-            "price": "\u00a316.60",
-            "url": "https://www.amazon.co.uk/dp/B085KYB3R4",
             "img": "https://m.media-amazon.com/images/I/51Fg8cPfqxL._SS220_.jpg",
             "publisher": "Amigo / ABACUSSPIELE",
             "amazonUrl": "https://www.amazon.co.uk/dp/B085KYB3R4"
@@ -772,8 +742,6 @@ window.SITE_CONTENT = {
       {
             "name": "Mystic Vale: Essential Edition",
             "asin": "B09MC7CWLV",
-            "price": "\u00a385.55",
-            "url": "https://www.amazon.co.uk/dp/B09MC7CWLV",
             "img": "https://cf.geekdo-images.com/LWBDMlof3I2Gc86_u3_4_A__micro@2x/img/FQ29ZDLk3NYV1LqT8q6D-aFGfW0=/fit-in/128x128/filters:strip_icc()/pic6771199.png",
             "bggId": "308762",
             "publisher": "AEG (Alderac Entertainment Group)",
@@ -782,8 +750,6 @@ window.SITE_CONTENT = {
       {
             "name": "Mattel UNO: The Legend of Zelda",
             "asin": "B07BMKV6MT",
-            "price": "\u00a315.99",
-            "url": "https://www.amazon.co.uk/dp/B07BMKV6MT",
             "img": "https://m.media-amazon.com/images/I/51QOjasH1NL._SS220_.jpg",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B07BMKV6MT"
@@ -791,8 +757,6 @@ window.SITE_CONTENT = {
       {
             "name": "Dark Souls: The Card Game",
             "asin": "B077BCRZ6F",
-            "price": "Wishlist",
-            "url": "https://www.amazon.co.uk/dp/B077BCRZ6F",
             "img": "https://cf.geekdo-images.com/0b46RIg3JEGsZVOiWFmkhg__micro@2x/img/DMTEzI5f4m82ZwMbBZlOmNQ_li0=/fit-in/128x128/filters:strip_icc()/pic4723835.jpg",
             "bggId": "242667",
             "publisher": "Publisher Unknown",
@@ -802,8 +766,6 @@ window.SITE_CONTENT = {
             "name": "Terraforming Mars",
             "bggId": "167791",
             "asin": "B01GSYA4K2",
-            "price": "\u00a347.99",
-            "url": "https://www.amazon.co.uk/dp/B01GSYA4K2",
             "img": "https://m.media-amazon.com/images/I/51n+hn5aZHL._SS220_.jpg",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B01GSYA4K2"
@@ -812,8 +774,6 @@ window.SITE_CONTENT = {
             "name": "Love Letter",
             "bggId": "277085",
             "asin": "B07PHHBWM9",
-            "price": "Wishlist",
-            "url": "https://www.amazon.co.uk/dp/B07PHHBWM9",
             "img": "https://cf.geekdo-images.com/V7WQjhAh0AatPXTYOrXtCQ__micro@2x/img/cOdCyDKKAp7sFcCL_pd7iGnUAqo=/fit-in/128x128/filters:strip_icc()/pic4766499.png",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B07PHHBWM9"
@@ -821,8 +781,6 @@ window.SITE_CONTENT = {
       {
             "name": "Jaipur (2nd Edition)",
             "asin": "B07SRMXRZB",
-            "price": "\u00a314.95",
-            "url": "https://www.amazon.co.uk/dp/B07SRMXRZB",
             "img": "https://cf.geekdo-images.com/_LTujSe_o16nvjDC-J0seA__micro@2x/img/7BPZa8QpGuXRRMdifjxXf2MXkxE=/fit-in/128x128/filters:strip_icc()/pic5100947.jpg",
             "bggId": "54043",
             "publisher": "Publisher Unknown",
@@ -831,8 +789,6 @@ window.SITE_CONTENT = {
       {
             "name": "Codenames: Pictures",
             "asin": "B01HT9DERU",
-            "price": "Wishlist",
-            "url": "https://www.amazon.co.uk/dp/B01HT9DERU",
             "img": "https://cf.geekdo-images.com/TGHPcdYEnD3_QzMohEIrNw__micro@2x/img/y3vkzDaNADwG3d0yd4STp3vW-sY=/fit-in/128x128/filters:strip_icc()/pic9206059.png",
             "bggId": "198773",
             "publisher": "Publisher Unknown",
@@ -842,8 +798,6 @@ window.SITE_CONTENT = {
             "name": "Coup",
             "bggId": "131357",
             "asin": "B00GDI4HX4",
-            "price": "\u00a38.73",
-            "url": "https://www.amazon.co.uk/dp/B00GDI4HX4",
             "img": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__micro@2x/img/Nh9TcxAEsvc17XnUsf1MyafYFcs=/fit-in/128x128/filters:strip_icc()/pic2016054.jpg",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B00GDI4HX4"
@@ -851,8 +805,6 @@ window.SITE_CONTENT = {
       {
             "name": "Camel Up (2nd Edition)",
             "asin": "B07HB88VXG",
-            "price": "\u00a339.59",
-            "url": "https://www.amazon.co.uk/dp/B07HB88VXG",
             "img": "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__micro@2x/img/HuR3p6KV5Nbp5GLgdN8XTtUYxZs=/fit-in/128x128/filters:strip_icc()/pic8584959.jpg",
             "bggId": "260605",
             "publisher": "Publisher Unknown",
@@ -861,8 +813,6 @@ window.SITE_CONTENT = {
       {
             "name": "Taco vs Burrito",
             "asin": "B07JZTBV9C",
-            "price": "Wishlist",
-            "url": "https://www.amazon.co.uk/dp/B07JZTBV9C",
             "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B07JZTBV9C"
@@ -870,8 +820,6 @@ window.SITE_CONTENT = {
       {
             "name": "On a Scale of One to T-Rex",
             "asin": "B07WC2Z9HF",
-            "price": "Wishlist",
-            "url": "https://www.amazon.co.uk/dp/B07WC2Z9HF",
             "img": "https://m.media-amazon.com/images/I/41vkCE88NxL._SS220_.jpg",
             "publisher": "Publisher Unknown",
             "amazonUrl": "https://www.amazon.co.uk/dp/B07WC2Z9HF"
