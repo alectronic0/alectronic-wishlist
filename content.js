@@ -642,7 +642,8 @@ window.SITE_CONTENT = {
                   "category": "Classic Strategy",
                   "badge": "Wooden Edition",
                   "img": "https://m.media-amazon.com/images/I/51-P4gC5EwL._SS135_.jpg",
-                  "publisher": "Handmade"
+                  "publisher": "Classic Strategy",
+                  "bggId": "171"
             }
       ],
       "wishlist": [
@@ -681,25 +682,47 @@ window.SITE_CONTENT = {
                   "publisher": "FryxGames / Stronghold",
                   "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG",
                   "asin": "B01GSA8rGG",
-                  "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
+                  "img": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__micro@2x/img/wZ_heOwTkV28exUAdwta8Pgv55w=/fit-in/128x128/filters:strip_icc()/pic3536616.jpg",
                   "expansions": [
                         {
                               "name": "Terraforming Mars: Prelude",
+                              "bggId": "247030",
                               "owned": false,
                               "amazonUrl": "https://www.amazon.co.uk/dp/B07BNBQP1V"
                         },
                         {
                               "name": "Terraforming Mars: Hellas & Elysium",
+                              "bggId": "218127",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B08NWY71B2"
+                        },
+                        {
+                              "name": "Terraforming Mars: Venus Next",
+                              "bggId": "231965",
                               "owned": false,
                               "amazonUrl": null
+                        },
+                        {
+                              "name": "Terraforming Mars: Colonies",
+                              "bggId": "255681",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07JJYYZKD"
+                        },
+                        {
+                              "name": "Terraforming Mars: Turmoil",
+                              "bggId": "273473",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07VHYNSGJ"
                         }
-                  ]
+                  ],
+                  "bggId": "167791"
             },
             {
                   "name": "USAopoly The Legend of Zelda Chess Set",
                   "img": "https://m.media-amazon.com/images/I/51KyoaHn6HL._SS135_.jpg",
                   "publisher": "USAopoly",
-                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share"
+                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share",
+                  "bggId": "254814"
             },
             {
                   "name": "Horrified: Greek Monsters",
@@ -721,8 +744,9 @@ window.SITE_CONTENT = {
                   "name": "No Thanks!",
                   "asin": "B085KYB3R4",
                   "img": "https://m.media-amazon.com/images/I/51Fg8cPfqxL._SS220_.jpg",
-                  "publisher": "Amigo / ABACUSSPIELE",
-                  "amazonUrl": "https://www.amazon.co.uk/dp/B085KYB3R4"
+                  "publisher": "AMIGO",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B085KYB3R4",
+                  "bggId": "12942"
             },
             {
                   "name": "Mystic Vale: Essential Edition",
@@ -750,9 +774,42 @@ window.SITE_CONTENT = {
             {
                   "name": "Terraforming Mars",
                   "asin": "B01GSYA4K2",
-                  "img": "https://m.media-amazon.com/images/I/51n+hn5aZHL._SS220_.jpg",
-                  "publisher": "Publisher Unknown",
-                  "amazonUrl": "https://www.amazon.co.uk/dp/B01GSYA4K2"
+                  "img": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__micro@2x/img/wZ_heOwTkV28exUAdwta8Pgv55w=/fit-in/128x128/filters:strip_icc()/pic3536616.jpg",
+                  "publisher": "FryxGames / Stronghold",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG",
+                  "bggId": "167791",
+                  "expansions": [
+                        {
+                              "name": "Terraforming Mars: Prelude",
+                              "bggId": "247030",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07BNBQP1V"
+                        },
+                        {
+                              "name": "Terraforming Mars: Hellas & Elysium",
+                              "bggId": "218127",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B08NWY71B2"
+                        },
+                        {
+                              "name": "Terraforming Mars: Venus Next",
+                              "bggId": "231965",
+                              "owned": false,
+                              "amazonUrl": null
+                        },
+                        {
+                              "name": "Terraforming Mars: Colonies",
+                              "bggId": "255681",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07JJYYZKD"
+                        },
+                        {
+                              "name": "Terraforming Mars: Turmoil",
+                              "bggId": "273473",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07VHYNSGJ"
+                        }
+                  ]
             },
             {
                   "name": "Love Letter",
@@ -797,9 +854,24 @@ window.SITE_CONTENT = {
             {
                   "name": "Taco vs Burrito",
                   "asin": "B07JZTBV9C",
-                  "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
-                  "publisher": "Publisher Unknown",
-                  "amazonUrl": "https://www.amazon.co.uk/dp/B07JZTBV9C"
+                  "img": "https://cf.geekdo-images.com/uzup0Vf48l1O-xrTrtZC-g__micro@2x/img/o-44HHz0Ss7-Ads0ecStd3li79o=/fit-in/128x128/filters:strip_icc()/pic8386226.jpg",
+                  "publisher": "Bait & Tackle / Hot Taco",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B07JZTBV9C",
+                  "bggId": "249816",
+                  "expansions": [
+                        {
+                              "name": "Foodie Expansion Pack",
+                              "bggId": "260464",
+                              "owned": false,
+                              "amazonUrl": null
+                        },
+                        {
+                              "name": "Tokyo vs Burrito Expansion Pack",
+                              "bggId": "408646",
+                              "owned": false,
+                              "amazonUrl": null
+                        }
+                  ]
             },
             {
                   "name": "On a Scale of One to T-Rex",
