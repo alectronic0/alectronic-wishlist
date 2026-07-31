@@ -21,7 +21,7 @@
       <div style="display: flex; align-items: center; gap: 12px;">
         <img src="https://unavatar.io/lego.com" alt="LEGO Logo" style="width: 42px; height: 42px; border-radius: 8px;">
         <div>
-          <h1>LEGO® Collection & Wishlist 🧱</h1>
+          <h1 id="lego-title">LEGO® Collection & Wishlist 🧱</h1>
           <p id="lego-subtitle"></p>
         </div>
       </div>
@@ -42,10 +42,11 @@
 <script src="nav.js"></script>
 <script>
 (function () {
-  const data = window.SITE_CONTENT.lego;
+  const data = window.SITE_CONTENT && window.SITE_CONTENT.lego;
   if (!data) return;
 
   const themes = data.themes;
+  if (data.title) document.getElementById('lego-title').textContent = data.title;
   document.getElementById('lego-subtitle').textContent =
     `${data.wishlist.length} Wishlist Sets · ${data.owned.length} Owned Sets`;
   document.getElementById('lego-wishlist-link').href = data.officialWishlistUrl;
