@@ -611,19 +611,12 @@ window.SITE_CONTENT = {
                   "publisher": "Maestro Media"
             },
             {
-                  "name": "Trial by Trolley + Derailed",
+                  "name": "Trial by Trolley: Derailed Edition",
                   "category": "Party Card Game",
                   "badge": "Cyanide & Happiness",
                   "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
                   "publisher": "Cyanide & Happiness / Skybound",
-                  "expansions": [
-                        {
-                              "name": "Trial by Trolley: Derailed Edition",
-                              "bggId": "299815",
-                              "owned": true,
-                              "amazonUrl": "https://www.amazon.co.uk/dp/B08K3MV18H"
-                        }
-                  ],
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B08K3MV18H",
                   "bggId": "274961"
             },
             {
