@@ -661,6 +661,20 @@ window.SITE_CONTENT = {
                   "publisher": "The Diary",
                   "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
                   "amazonUrl": "https://thediary.com/products/the-conversation-cards-1st-edition"
+            },
+            {
+                  "name": "The Conversation Cards (2nd Edition)",
+                  "category": "Conversation Card Game",
+                  "publisher": "The Diary",
+                  "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+                  "amazonUrl": "https://thediary.com/products/the-conversation-cards-2nd-edition"
+            },
+            {
+                  "name": "The Conversation Cards (3rd Edition)",
+                  "category": "Conversation Card Game",
+                  "publisher": "The Diary",
+                  "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+                  "amazonUrl": "https://thediary.com/products/the-conversation-cards-third-edition"
             }
       ],
       "wishlist": [
