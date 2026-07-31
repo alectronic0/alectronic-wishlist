@@ -485,13 +485,15 @@ window.SITE_CONTENT = {
                   "expansions": [
                         {
                               "name": "The Herb Witches Expansion",
+                              "bggId": "269383",
                               "owned": true,
-                              "amazonUrl": "https://www.amazon.co.uk/dp/B07QC7NWWZ"
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07PBF8TLL"
                         },
                         {
                               "name": "The Alchemists Expansion",
+                              "bggId": "300868",
                               "owned": true,
-                              "amazonUrl": "https://www.amazon.co.uk/dp/B08DFGJSB6"
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B08HW1YFX4"
                         }
                   ],
                   "bggId": "244521"

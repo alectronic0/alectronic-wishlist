@@ -103,9 +103,14 @@
         const expAmzUrl = exp.amazonUrl || (exp.asin ? `https://www.amazon.co.uk/dp/${exp.asin}` : null);
         const expBggUrl = exp.bggId ? `https://boardgamegeek.com/boardgameexpansion/${exp.bggId}` : null;
 
-        const expBtn = expAmzUrl 
-          ? `<a href="${expAmzUrl}" target="_blank" class="inv-action-btn" style="padding:3px 6px; font-size:0.68rem; display:inline-block; margin-top:4px; text-decoration:none;">Buy Online ↗</a>`
-          : `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.5; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Link Currently Missing</button>`;
+        let expBtn = '';
+        if (exp.owned) {
+          expBtn = `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.6; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Owned</button>`;
+        } else if (expAmzUrl) {
+          expBtn = `<a href="${expAmzUrl}" target="_blank" class="inv-action-btn" style="padding:3px 6px; font-size:0.68rem; display:inline-block; margin-top:4px; text-decoration:none;">Buy Online ↗</a>`;
+        } else {
+          expBtn = `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.5; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Link Currently Missing</button>`;
+        }
 
         return `
           <div style="background:var(--card-hover); padding:6px 8px; border-radius:6px; font-size:0.72rem; border:1px solid var(--border); margin-top:4px; display:flex; flex-direction:column; gap:2px;">
