@@ -78,18 +78,20 @@
     const publisher = item.publisher || item.badge || item.category || 'Tabletop Game';
     const publisherHTML = `<div style="font-size:0.72rem; color:var(--text-muted); margin-bottom:8px; font-weight:500;">${publisher}</div>`;
 
-    // 5. Buy on Amazon Button
+    // 5. Buy Online Button
     let amazonUrl = item.amazonUrl;
     if (!amazonUrl && item.asin) {
       amazonUrl = `https://www.amazon.co.uk/dp/${item.asin}`;
     }
-    if (!amazonUrl && item.url && (item.url.includes('amazon.co.uk') || item.url.includes('amazon.com'))) {
+    if (!amazonUrl && item.url && (item.url.includes('amazon.co.uk') || item.url.includes('amazon.com') || item.url.includes('thediary.com'))) {
       amazonUrl = item.url;
     }
 
     let buyButtonHTML = '';
-    if (amazonUrl) {
-      buyButtonHTML = `<a href="${amazonUrl}" target="_blank" class="inv-action-btn" style="display:block; text-align:center; padding:6px 10px; font-size:0.75rem; font-weight:700; margin-top:auto; border-radius:6px; text-decoration:none;">Buy on Amazon ↗</a>`;
+    if (!isWishlist) {
+      buyButtonHTML = `<button class="inv-action-btn btn-disabled" disabled style="display:block; width:100%; text-align:center; padding:6px 10px; font-size:0.73rem; font-weight:600; opacity:0.6; cursor:not-allowed; background:var(--card); border:1px solid var(--border); color:var(--text-muted); margin-top:auto; border-radius:6px;">Own</button>`;
+    } else if (amazonUrl) {
+      buyButtonHTML = `<a href="${amazonUrl}" target="_blank" class="inv-action-btn" style="display:block; text-align:center; padding:6px 10px; font-size:0.75rem; font-weight:700; margin-top:auto; border-radius:6px; text-decoration:none;">Buy Online ↗</a>`;
     } else {
       buyButtonHTML = `<button class="inv-action-btn btn-disabled" disabled style="display:block; width:100%; text-align:center; padding:6px 10px; font-size:0.73rem; font-weight:600; opacity:0.5; cursor:not-allowed; background:var(--card); border:1px solid var(--border); color:var(--text-muted); margin-top:auto; border-radius:6px;">Link Currently Missing</button>`;
     }
@@ -102,7 +104,7 @@
         const expBggUrl = exp.bggId ? `https://boardgamegeek.com/boardgameexpansion/${exp.bggId}` : null;
 
         const expBtn = expAmzUrl 
-          ? `<a href="${expAmzUrl}" target="_blank" class="inv-action-btn" style="padding:3px 6px; font-size:0.68rem; display:inline-block; margin-top:4px; text-decoration:none;">Buy on Amazon ↗</a>`
+          ? `<a href="${expAmzUrl}" target="_blank" class="inv-action-btn" style="padding:3px 6px; font-size:0.68rem; display:inline-block; margin-top:4px; text-decoration:none;">Buy Online ↗</a>`
           : `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.5; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Link Currently Missing</button>`;
 
         return `
