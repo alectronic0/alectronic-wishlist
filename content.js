@@ -427,68 +427,10 @@ window.SITE_CONTENT = {
   ]
 },
   "zelda": {
-    "title": "The Legend of Zelda Shrine ⚔️",
-    "owned": [
-      {
-        "name": "The Legend's Cookbook+",
-        "type": "Cookbook & Art"
-      },
-      {
-        "name": "Tears of the Kingdom",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Breath of the Wild",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Echoes of Wisdom",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Link's Awakening",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Skyward Sword HD",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Cadence of Hyrule",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Hyrule Warriors: Age of Calamity",
-        "type": "Nintendo Switch"
-      },
-      {
-        "name": "Hyrule Warriors: Definitive Edition",
-        "type": "Nintendo Switch"
-      }
-    ],
-    "wishlist": [
-      {
-        "name": "USAopoly The Legend of Zelda Chess Set",
-        "price": "Board Game Wishlist",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share"
-      },
-      {
-        "name": "Zelda Manga Legendary Edition Box Set",
-        "price": "5-Book Box Set",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-      },
-      {
-        "name": "Zelda: Twilight Princess Manga (Vol 1-7)",
-        "price": "Manga Collection",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-      },
-      {
-        "name": "Zelda Prima Collector's Guides",
-        "price": "Hardcover Guides",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-      }
-    ]
-  },
+  "title": "The Legend of Zelda Shrine \u2694\ufe0f",
+  "owned": [],
+  "wishlist": []
+},
   "clothing": {
     "title": "Clothing, Sizes & Style 👕",
     "philosophy": "I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.",
