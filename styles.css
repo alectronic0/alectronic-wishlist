@@ -472,8 +472,7 @@ section.wishlist-section, section.hero {
 
 .wishlist-item-img {
   width: 100%;
-  height: 130px;
-  background: #ffffff;
+  height: 162px;
   padding: 6px;
   overflow: hidden;
   position: relative;
@@ -498,6 +497,7 @@ section.wishlist-section, section.hero {
 .wishlist-item-info {
   padding: 8px 10px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex: 1;
 }

@@ -3550,34 +3550,6 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/pokemon-stadium"
       },
       {
-        "name": "The Legend of Zelda: A Link Between Worlds",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p0j.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-between-worlds"
-      },
-      {
-        "name": "The Legend of Zelda: Ocarina of Time 3D",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-3d"
-      },
-      {
-        "name": "The Legend of Zelda: Majora's Mask 3D",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-majoras-mask-3d"
-      },
-      {
-        "name": "The Legend of Zelda: Tri Force Heroes",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-tri-force-heroes"
-      },
-      {
         "name": "The Legend of Zelda: Phantom Hourglass",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
@@ -3590,20 +3562,6 @@ window.SITE_CONTENT = {
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
-      },
-      {
-        "name": "Super Mario 3D Land",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobab1.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/super-mario-3d-land"
-      },
-      {
-        "name": "Mario Kart 7",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2146.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/mario-kart-7"
       },
       {
         "name": "Mario Kart DS",
@@ -3620,27 +3578,6 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/super-mario-64-ds"
       },
       {
-        "name": "Pokémon X",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/pokemon-x"
-      },
-      {
-        "name": "Pokémon Moon",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/pokemon-moon"
-      },
-      {
-        "name": "Pokémon Alpha Sapphire",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/pokemon-alpha-sapphire"
-      },
-      {
         "name": "Pokémon Diamond Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
@@ -3653,20 +3590,6 @@ window.SITE_CONTENT = {
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/pokemon-black-version"
-      },
-      {
-        "name": "Kid Icarus: Uprising",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/kid-icarus-uprising"
-      },
-      {
-        "name": "Star Fox 64 3D",
-        "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3e.jpg",
-        "platform": "3ds",
-        "url": "https://www.igdb.com/games/star-fox-64-3d"
       },
       {
         "name": "Metroid Prime Hunters",
@@ -4311,6 +4234,111 @@ window.SITE_CONTENT = {
         "badge": "Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Mario/toad-amiibo-super-mario-series",
         "platform": "amiibo"
+      },
+      {
+        "name": "Nintendogs + Cats: Golden Retriever & New Friends",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l5l.jpg",
+        "url": "https://www.igdb.com/games/nintendogs-plus-cats-golden-retriever-and-new-friends",
+        "platform": "3ds"
+      },
+      {
+        "name": "Pokémon X",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
+        "url": "https://www.igdb.com/games/pokemon-x",
+        "platform": "3ds"
+      },
+      {
+        "name": "Pokémon Moon",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
+        "url": "https://www.igdb.com/games/pokemon-moon",
+        "platform": "3ds"
+      },
+      {
+        "name": "Super Smash Bros. for Nintendo 3DS",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wvk.jpg",
+        "url": "https://www.igdb.com/games/super-smash-bros-for-nintendo-3ds-ryu",
+        "platform": "3ds"
+      },
+      {
+        "name": "Super Mario 3D Land",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobab1.jpg",
+        "url": "https://www.igdb.com/games/super-mario-3d-land",
+        "platform": "3ds"
+      },
+      {
+        "name": "Pokémon Alpha Sapphire",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
+        "url": "https://www.igdb.com/games/pokemon-alpha-sapphire",
+        "platform": "3ds"
+      },
+      {
+        "name": "Star Fox 64 3D",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3e.jpg",
+        "url": "https://www.igdb.com/games/star-fox-64-3d",
+        "platform": "3ds"
+      },
+      {
+        "name": "Super Mario Maker for Nintendo 3DS",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7f7h.jpg",
+        "url": "https://www.igdb.com/games/super-smash-bros-for-nintendo-3ds-super-mario-maker",
+        "platform": "3ds"
+      },
+      {
+        "name": "The Legend of Zelda: Tri Force Heroes",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-tri-force-heroes",
+        "platform": "3ds"
+      },
+      {
+        "name": "Hyrule Warriors: Legends",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54x3.jpg",
+        "url": "https://www.igdb.com/games/hyrule-warriors-legends-of-hyrule-pack",
+        "platform": "3ds"
+      },
+      {
+        "name": "Kid Icarus: Uprising",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg",
+        "url": "https://www.igdb.com/games/kid-icarus-uprising",
+        "platform": "3ds"
+      },
+      {
+        "name": "The Legend of Zelda: A Link Between Worlds",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9p2.jpg",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-between-worlds",
+        "platform": "3ds"
+      },
+      {
+        "name": "Mario Kart 7",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2146.jpg",
+        "url": "https://www.igdb.com/games/mario-kart-7",
+        "platform": "3ds"
+      },
+      {
+        "name": "The Legend of Zelda: Majora's Mask 3D",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-majoras-mask-3d",
+        "platform": "3ds"
+      },
+      {
+        "name": "The Legend of Zelda: Ocarina of Time 3D",
+        "badge": "Nintendo 3DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba98.jpg",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-3d",
+        "platform": "3ds"
       }
     ],
     "platforms": {

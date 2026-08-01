@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 scripts/
 !scripts/app.js
+
+.idea/
