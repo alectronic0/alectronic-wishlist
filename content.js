@@ -455,7 +455,8 @@ window.SITE_CONTENT = {
       { "name": "Uniqlo", "notes": "Go-to for basic T-Shirts, trousers, and shorts" },
       { "name": "Ralph Lauren", "notes": "Smart casual, knitwear & collared shirts" },
       { "name": "Havaianas", "notes": "Preferred flip-flops" },
-      { "name": "Crocs", "notes": "Comfortable & collaboration clogs" }
+      { "name": "Crocs", "notes": "Comfortable & collaboration clogs" },
+      { "name": "Mahabis", "notes": "Preferred comfortable slippers" }
     ],
     "sizes": [
       {
@@ -506,6 +507,13 @@ window.SITE_CONTENT = {
         "color": "Any / LEGO",
         "size": "11 UK",
         "url": "https://www.crocs.co.uk/c/collaborations/lego"
+      },
+      {
+        "brand": "Mahabis",
+        "item": "Classic Slippers",
+        "color": "Dark Grey / Larvik Grey / Skagen Blue",
+        "size": "11 UK",
+        "url": "https://mahabis.com/products/classic-slippers?upper=dg&colour=sb"
       }
     ],
     "inventory": [
@@ -527,7 +535,7 @@ window.SITE_CONTENT = {
       { "name": "Classic Slip-Ons", "brand": "Vans", "size": "11 UK", "type": "Shoes (Trainer)" },
       { "name": "Rain Boots", "brand": "N/A", "size": "11 UK", "type": "Shoes (Wellington boots)" },
       { "name": "Oxford Shoes", "brand": "N/A", "size": "11 UK", "type": "Shoes (Smart)" },
-      { "name": "Fleece Slippers", "brand": "Uniqlo", "size": "11 UK", "type": "Shoes (Slipper)" },
+      { "name": "Classic Slippers", "brand": "Mahabis", "size": "11 UK", "type": "Shoes (Slipper)" },
       { "name": "Windbreaker Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Light)" },
       { "name": "Heavy Zip Hoodie", "brand": "Vans", "size": "3XL", "type": "Jacket / Hoodie / Coat (Heavy)" },
       { "name": "Puffer Winter Coat", "brand": "Uniqlo", "size": "3XL", "type": "Jacket / Hoodie / Coat (Winter)" },
