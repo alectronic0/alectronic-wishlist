@@ -522,6 +522,13 @@ window.SITE_CONTENT = {
         "color": "Black / Grey",
         "size": "XL",
         "url": "https://www.amazon.co.uk/dp/B0CNH1SGLJ"
+      },
+      {
+        "brand": "Smart Formal",
+        "item": "Perforated Pointed Laced Shoes",
+        "color": "Black",
+        "size": "10 - 11 UK",
+        "url": "https://www.amazon.co.uk/Formal-Perforated-Pointed-Patent-Leather/dp/B0CCSB39C5"
       }
     ],
     "inventory": [
@@ -542,7 +549,7 @@ window.SITE_CONTENT = {
       { "name": "Top Flip-Flops", "brand": "Havaianas", "size": "11/12 UK", "type": "Shoes (Flip flops)" },
       { "name": "Classic Slip-Ons", "brand": "Vans", "size": "11 UK", "type": "Shoes (Trainer)" },
       { "name": "Rain Boots", "brand": "N/A", "size": "11 UK", "type": "Shoes (Wellington boots)" },
-      { "name": "Oxford Shoes", "brand": "N/A", "size": "11 UK", "type": "Shoes (Smart)" },
+      { "name": "Perforated Pointed Laced Shoes", "brand": "Smart Formal", "size": "10 - 11 UK", "type": "Shoes (Smart)" },
       { "name": "Classic Slippers", "brand": "Mahabis", "size": "11 UK", "type": "Shoes (Slipper)" },
       { "name": "Windbreaker Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Light)" },
       { "name": "Heavy Zip Hoodie", "brand": "Vans", "size": "3XL", "type": "Jacket / Hoodie / Coat (Heavy)" },
@@ -1013,6 +1020,7 @@ window.SITE_CONTENT = {
         "author": "Akira Himekawa",
         "notes": "Official manga adaptation of Twilight Princess. Epic fantasy quest spanning 11 volumes.",
         "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/dp/1974749665",
         "volumes": [
           { "vol": 1, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421593475", "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda/akira-himekawa/9781421593470" },
           { "vol": 2, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421596547" },
@@ -1063,6 +1071,7 @@ window.SITE_CONTENT = {
       { "name": "Zelda: Twilight Princess HD Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
       { "name": "Zelda: Majora's Mask Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
       { "name": "The Legend of Zelda Manga Legendary Edition Box Set", "category": "Video Game Books", "status": "wanted", "badge": "5-Book Box Set", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "The Legend of Zelda: Twilight Princess Complete Box Set (Vols. 1-11)", "category": "Video Game Books", "status": "wanted", "badge": "11-Book Box Set", "img": "https://m.media-amazon.com/images/I/71u9sW4j2YL._SS135_.jpg", "url": "https://www.amazon.co.uk/dp/1974749665", "price": "Complete Box Set" },
 
       // Non-Fiction
       { "name": "Unfu*k Yourself (Gary John Bishop)", "category": "Non-Fiction", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1473668528" },
@@ -3091,6 +3100,20 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/61MvSg5K4uL._AC_SL1500_.jpg",
         "url": "https://www.omron-healthcare.co.uk/",
         "badge": "SpO2 & Pulse"
+      },
+      {
+        "name": "Withings Sleep Analyzer",
+        "category": "Wearables",
+        "img": "https://cdn-reichelt.de/bilder/web/artikel_ws/A300/ME120_01.jpg",
+        "url": "https://www.withings.com/en-uk/products/sleep-analyzer",
+        "badge": "Sleep Apnea & Tracking"
+      },
+      {
+        "name": "OMRON EVOLV™ Wireless Upper Arm Blood Pressure Monitor",
+        "category": "Biometrics",
+        "img": "https://omron-healthcare.com/storage/products/EVOLV_01-2.jpg",
+        "url": "https://www.amazon.co.uk/dp/B01MT54RFU",
+        "badge": "All-in-One Wireless"
       }
     ],
     "wishlist": [
@@ -3170,6 +3193,8 @@ window.SITE_CONTENT = {
               { "name": "Secretlab MAGNUS Desk Riser", "badge": "Desk Setup" },
               { "name": "Secretlab MAGNUS Dual Monitor Arm with Laptop Mount & Vertical Monitor Stand", "badge": "Monitor Setup" },
               { "name": "CyberPower Personal Gaming PC (Intel i7-14700KF, RTX 4070 Super, Lian Li Case)", "badge": "Workstation" },
+              { "name": "Targus USB-C Universal Quad 4K (QV4K) Docking Station (DOCK570EUZ)", "badge": "Connectivity" },
+              { "name": "Meaco MeacoCool MC Series 8,000R Portable Air Conditioner", "badge": "Climate Control" },
               { "name": "Secretlab Premium PC Mount", "badge": "Desk Setup" },
               { "name": "Secretlab Magnetic Headphone Hanger", "badge": "Accessories" },
               { "name": "Secretlab Magnetic Cable Management (Anchors, Sheaths, Straps)", "badge": "Cable Management" }
@@ -3223,7 +3248,9 @@ window.SITE_CONTENT = {
             "name": "Master Bedroom (Bedroom 1)",
             "lights": { "Bulb": 2, "Go": 2, "Lightstrip": 1, "FairyLight": 1 },
             "switches": ["Master Bedroom (Bed) 9", "Master Bedroom (Switch) 23"],
-            "inventory": [],
+            "inventory": [
+              { "name": "Withings Sleep Analyzer (Under-Mattress Tracker)", "badge": "Smart Health" }
+            ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
             ]
