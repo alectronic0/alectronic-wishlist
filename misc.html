@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="banner">Last updated on: 29th July 2026</div>
+<div class="banner">Last updated on: 1st August 2026</div>
 
 <header class="site-nav"></header>
 
@@ -19,8 +19,8 @@
     <div style="display: flex; align-items: center; gap: 12px;">
       <span style="font-size: 2.2rem;">🛒</span>
       <div>
-        <h1>Brands, Stores & Subscriptions 🛍️</h1>
-        <p>Favorite tech merch stores, household decor, and ongoing subscription boxes.</p>
+        <h1 id="misc-title">Brands, Stores & Subscriptions 🛍️</h1>
+        <p id="misc-subtitle">Favorite tech merch stores, household decor, and ongoing subscription boxes.</p>
       </div>
     </div>
   </section>
@@ -31,35 +31,8 @@
       <h2>🤓 Tech & Nerd Merch Stores</h2>
     </div>
 
-    <div class="horizontal-card-grid">
-      <a href="https://your.googlemerchandisestore.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/google.com" alt="Google Logo">
-        <span>Google Merch Store</span>
-      </a>
-      <a href="https://github.myshopify.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/github.com" alt="GitHub Logo">
-        <span>GitHub Shop</span>
-      </a>
-      <a href="https://www.gitkraken.com/store" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/gitkraken.com" alt="GitKraken Logo">
-        <span>GitKraken Store</span>
-      </a>
-      <a href="https://swag.devrant.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/devrant.com" alt="DevRant Logo">
-        <span>DevRant Swag</span>
-      </a>
-      <a href="https://www.merchoid.com/uk/" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/merchoid.com" alt="Merchoid Logo">
-        <span>Merchoid UK</span>
-      </a>
-      <a href="http://www.fangamer.com/" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/fangamer.com" alt="Fangamer Logo">
-        <span>Fangamer</span>
-      </a>
-      <a href="https://www.pokemoncenter.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/pokemoncenter.com" alt="Pokemon Center Logo">
-        <span>Pokemon Center</span>
-      </a>
+    <div class="horizontal-card-grid" id="tech-merch-grid">
+      <!-- Populated by JS -->
     </div>
   </section>
 
@@ -69,27 +42,8 @@
       <h2>🏠 Household Brands & Wall Decor</h2>
     </div>
 
-    <div class="horizontal-card-grid">
-      <a href="https://www.josephjoseph.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/josephjoseph.com" alt="Joseph Joseph Logo">
-        <span>Joseph Joseph</span>
-      </a>
-      <a href="https://www.oxouk.com" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/oxouk.com" alt="OXO Logo">
-        <span>OXO Kitchen</span>
-      </a>
-      <a href="https://www.simplehuman.co.uk" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/simplehuman.co.uk" alt="SimpleHuman Logo">
-        <span>SimpleHuman</span>
-      </a>
-      <a href="https://www.cityframes.de/" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/cityframes.de" alt="City Frames Logo">
-        <span>City Frames (Relief Maps)</span>
-      </a>
-      <a href="https://www.instagram.com/thinkaboutmaps/" target="_blank" class="horizontal-card">
-        <img src="https://unavatar.io/instagram.com" alt="Instagram Logo">
-        <span>ThinkAboutMaps</span>
-      </a>
+    <div class="horizontal-card-grid" id="household-grid">
+      <!-- Populated by JS -->
     </div>
   </section>
 
@@ -99,30 +53,8 @@
       <h2>📦 Subscription Boxes</h2>
     </div>
 
-    <div class="list-group">
-      <h3>Food & Snacks</h3>
-      <div class="clean-list">
-        <li><a href="https://www.bokksu.com/" target="_blank">Bokksu (Japanese Snacks)</a></li>
-        <li><a href="https://tokyotreat.com/" target="_blank">TokyoTreat</a></li>
-        <li><a href="https://www.fodabox.com/" target="_blank">Fodabox</a></li>
-        <li><a href="https://dryagedsteaks.co.uk/" target="_blank">Dry Aged Steaks</a></li>
-      </div>
-
-      <h3>Drinks (Non-Alcoholic & Gin)</h3>
-      <div class="clean-list">
-        <li><a href="https://jomoclub.co.uk/" target="_blank">JOMO Club (Non-Alcoholic)</a></li>
-        <li><a href="https://www.ilovegin.com/" target="_blank">I Love Gin</a></li>
-        <li><a href="https://www.craftginclub.co.uk/" target="_blank">Craft Gin Club</a></li>
-        <li><a href="https://tastecocktails.com/" target="_blank">Taste Cocktails</a></li>
-      </div>
-
-      <h3>Crafts & Activities</h3>
-      <div class="clean-list">
-        <li><a href="https://craftiosity.co.uk/" target="_blank">Craftiosity</a></li>
-        <li><a href="https://www.creationcrate.com/" target="_blank">Creation Crate (Tech Kits)</a></li>
-        <li><a href="https://www.pauseformind.org.uk/" target="_blank">Pause for Mind</a></li>
-        <li><a href="https://sillygreens.com/" target="_blank">Silly Greens Microgreens</a></li>
-      </div>
+    <div class="list-group" id="subscriptions-list-group">
+      <!-- Populated by JS -->
     </div>
   </section>
 </main>
@@ -132,6 +64,56 @@
   <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
 </footer>
 
+<script src="content.js"></script>
 <script src="nav.js"></script>
+<script>
+(function () {
+  const data = window.SITE_CONTENT && window.SITE_CONTENT.misc;
+  if (!data) return;
+
+  if (data.title) document.getElementById('misc-title').textContent = data.title;
+  if (data.subtitle) document.getElementById('misc-subtitle').textContent = data.subtitle;
+
+  // Render Tech Merch
+  const techGrid = document.getElementById('tech-merch-grid');
+  if (techGrid && data.techMerch) {
+    techGrid.innerHTML = data.techMerch.map(item => `
+      <a href="${item.url}" target="_blank" class="horizontal-card">
+        <img src="${item.icon}" alt="${item.name} Logo">
+        <span>${item.name}</span>
+      </a>
+    `).join('');
+  }
+
+  // Render Household
+  const householdGrid = document.getElementById('household-grid');
+  if (householdGrid && data.householdBrands) {
+    householdGrid.innerHTML = data.householdBrands.map(item => `
+      <a href="${item.url}" target="_blank" class="horizontal-card">
+        <img src="${item.icon}" alt="${item.name} Logo">
+        <span>${item.name}</span>
+      </a>
+    `).join('');
+  }
+
+  // Render Subscriptions grouped by category
+  const subsContainer = document.getElementById('subscriptions-list-group');
+  if (subsContainer && data.subscriptions) {
+    const categories = {};
+    data.subscriptions.forEach(item => {
+      const cat = item.category || 'Other';
+      if (!categories[cat]) categories[cat] = [];
+      categories[cat].push(item);
+    });
+
+    subsContainer.innerHTML = Object.entries(categories).map(([categoryName, items]) => `
+      <h3>${categoryName}</h3>
+      <div class="clean-list">
+        ${items.map(item => `<li><a href="${item.url}" target="_blank">${item.name}</a></li>`).join('')}
+      </div>
+    `).join('');
+  }
+})();
+</script>
 </body>
 </html>
