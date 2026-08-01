@@ -3550,217 +3550,217 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/pokemon-stadium"
       },
       {
-        "name": "The Legend of Zelda: A Link Between Worlds (3DS)",
+        "name": "The Legend of Zelda: A Link Between Worlds",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p0j.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-between-worlds"
       },
       {
-        "name": "The Legend of Zelda: Ocarina of Time 3D (3DS)",
+        "name": "The Legend of Zelda: Ocarina of Time 3D",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-3d"
       },
       {
-        "name": "The Legend of Zelda: Majora's Mask 3D (3DS)",
+        "name": "The Legend of Zelda: Majora's Mask 3D",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-majoras-mask-3d"
       },
       {
-        "name": "The Legend of Zelda: Tri Force Heroes (3DS)",
+        "name": "The Legend of Zelda: Tri Force Heroes",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-tri-force-heroes"
       },
       {
-        "name": "The Legend of Zelda: Phantom Hourglass (DS)",
+        "name": "The Legend of Zelda: Phantom Hourglass",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-phantom-hourglass"
       },
       {
-        "name": "The Legend of Zelda: Spirit Tracks - Tin Edition (DS)",
+        "name": "The Legend of Zelda: Spirit Tracks - Tin Edition",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
       },
       {
-        "name": "Super Mario 3D Land (3DS)",
+        "name": "Super Mario 3D Land",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobab1.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/super-mario-3d-land"
       },
       {
-        "name": "Mario Kart 7 (3DS)",
+        "name": "Mario Kart 7",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2146.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/mario-kart-7"
       },
       {
-        "name": "Mario Kart DS (DS)",
+        "name": "Mario Kart DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/mario-kart-ds"
       },
       {
-        "name": "Super Mario 64 DS (DS)",
+        "name": "Super Mario 64 DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/super-mario-64-ds"
       },
       {
-        "name": "Pokémon X (3DS)",
+        "name": "Pokémon X",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/pokemon-x"
       },
       {
-        "name": "Pokémon Moon (3DS)",
+        "name": "Pokémon Moon",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/pokemon-moon"
       },
       {
-        "name": "Pokémon Alpha Sapphire (3DS)",
+        "name": "Pokémon Alpha Sapphire",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/pokemon-alpha-sapphire"
       },
       {
-        "name": "Pokémon Diamond Version (DS)",
+        "name": "Pokémon Diamond Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/pokemon-diamond-version"
       },
       {
-        "name": "Pokémon Black Version (DS)",
+        "name": "Pokémon Black Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/pokemon-black-version"
       },
       {
-        "name": "Kid Icarus: Uprising (3DS)",
+        "name": "Kid Icarus: Uprising",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/kid-icarus-uprising"
       },
       {
-        "name": "Star Fox 64 3D (3DS)",
+        "name": "Star Fox 64 3D",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3e.jpg",
         "platform": "3ds",
         "url": "https://www.igdb.com/games/star-fox-64-3d"
       },
       {
-        "name": "Metroid Prime Hunters (DS)",
+        "name": "Metroid Prime Hunters",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/metroid-prime-hunters"
       },
       {
-        "name": "Animal Crossing: Wild World (DS)",
+        "name": "Animal Crossing: Wild World",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/animal-crossing-wild-world"
       },
       {
-        "name": "The Legend of Zelda: The Minish Cap (GBA)",
+        "name": "The Legend of Zelda: The Minish Cap",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
         "platform": "gba",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-the-minish-cap"
       },
       {
-        "name": "The Legend of Zelda: A Link to the Past & Four Swords (GBA)",
+        "name": "The Legend of Zelda: A Link to the Past & Four Swords",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsh.jpg",
         "platform": "gba",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past-and-four-swords"
       },
       {
-        "name": "The Legend of Zelda: Oracle of Ages (GBC)",
+        "name": "The Legend of Zelda: Oracle of Ages",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
         "platform": "gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
-        "name": "The Legend of Zelda: Oracle of Seasons (GBC)",
+        "name": "The Legend of Zelda: Oracle of Seasons",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
         "platform": "gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
       },
       {
-        "name": "The Legend of Zelda: Link's Awakening DX (GBC)",
+        "name": "The Legend of Zelda: Link's Awakening DX",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
         "platform": "gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-link-s-awakening-dx"
       },
       {
-        "name": "Metroid: Zero Mission (GBA)",
+        "name": "Metroid: Zero Mission",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
         "platform": "gba",
         "url": "https://www.igdb.com/games/metroid-zero-mission"
       },
       {
-        "name": "Metroid Fusion (GBA)",
+        "name": "Metroid Fusion",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
         "platform": "gba",
         "url": "https://www.igdb.com/games/metroid-fusion"
       },
       {
-        "name": "Pokémon Red Version (GB)",
+        "name": "Pokémon Red Version",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
         "platform": "gb",
         "url": "https://www.igdb.com/games/pokemon-red-version"
       },
       {
-        "name": "Pokémon Yellow Version (GB)",
+        "name": "Pokémon Yellow Version",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
         "platform": "gb",
         "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
-        "name": "Pokémon Silver Version (GBC)",
+        "name": "Pokémon Silver Version",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
         "platform": "gbc",
         "url": "https://www.igdb.com/games/pokemon-silver-version"
       },
       {
-        "name": "Super Mario Land 2: 6 Golden Coins (GB)",
+        "name": "Super Mario Land 2: 6 Golden Coins",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
         "platform": "gb",
         "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
-        "name": "Super Mario Bros. Deluxe (GBC)",
+        "name": "Super Mario Bros. Deluxe",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
         "platform": "gbc",
@@ -4180,60 +4180,11 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/call-of-duty-modern-warfare-2-campaign-remastered"
       },
       {
-        "name": "The Legend of Zelda: Phantom Hourglass",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-phantom-hourglass"
-      },
-      {
-        "name": "Pokémon Diamond Version",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/pokemon-diamond-version"
-      },
-      {
         "name": "The Legend of Zelda: Spirit Tracks",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
-      },
-      {
-        "name": "Mario Kart DS",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/mario-kart-ds"
-      },
-      {
-        "name": "Super Mario 64 DS",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/super-mario-64-ds"
-      },
-      {
-        "name": "Pokémon Black Version",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1x.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/pokemon-black-version"
-      },
-      {
-        "name": "Metroid Prime Hunters",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/metroid-prime-hunters"
-      },
-      {
-        "name": "Animal Crossing: Wild World",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/animal-crossing-wild-world"
       },
       {
         "name": "Tetris DS",
@@ -4299,32 +4250,11 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/star-wars-rogue-squadron-ii-rogue-leader"
       },
       {
-        "name": "Metroid Fusion",
-        "badge": "Game Boy Advance",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
-        "platform": "gba",
-        "url": "https://www.igdb.com/games/metroid-fusion"
-      },
-      {
         "name": "The Legend of Zelda: A Link to the Past",
         "badge": "Nintendo SNES",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.jpg",
         "platform": "snes",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past"
-      },
-      {
-        "name": "The Legend of Zelda: The Minish Cap",
-        "badge": "Game Boy Advance",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
-        "platform": "gba",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-the-minish-cap"
-      },
-      {
-        "name": "Metroid: Zero Mission",
-        "badge": "Game Boy Advance",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
-        "platform": "gba",
-        "url": "https://www.igdb.com/games/metroid-zero-mission"
       },
       {
         "name": "Rugrats: Scavenger Hunt",
@@ -4362,20 +4292,6 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
-        "name": "Pokémon Silver Version",
-        "badge": "Game Boy Color",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
-        "platform": "gbc",
-        "url": "https://www.igdb.com/games/pokemon-silver-version"
-      },
-      {
-        "name": "Pokémon Red Version",
-        "badge": "Game Boy",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jpg",
-        "platform": "gb",
-        "url": "https://www.igdb.com/games/pokemon-red-version"
-      },
-      {
         "name": "The Legend of Zelda: Oracle of Seasons",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
@@ -4388,13 +4304,6 @@ window.SITE_CONTENT = {
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
         "platform": "gb",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
-      },
-      {
-        "name": "The Legend of Zelda: Link's Awakening DX",
-        "badge": "Game Boy Color",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "gbc",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-link-s-awakening-dx"
       },
       {
         "name": "Pokémon Yellow Version: Special Pikachu Edition",
