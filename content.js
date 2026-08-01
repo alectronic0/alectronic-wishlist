@@ -3088,25 +3088,25 @@ window.SITE_CONTENT = {
       },
       {
         "name": "The Legend of Zelda: The Wind Waker",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6txb.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ohz.jpg",
         "platform": "gamecube"
       },
       {
         "name": "The Legend of Zelda: Twilight Princess",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w1h.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mtv.jpg",
         "platform": "gamecube"
       },
       {
         "name": "The Legend of Zelda: Collector's Edition",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4n26.jpg",
         "platform": "gamecube"
       },
       {
         "name": "The Legend of Zelda: Four Swords Adventures",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xf.jpg",
         "platform": "gamecube"
       },
@@ -3124,49 +3124,49 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Mario Kart: Double Dash!!",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ndu.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Super Smash Bros. Melee",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kpq.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Luigi's Mansion",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8pr.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wr1.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Pikmin",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98j3.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nqg.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Pikmin 2",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6r.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6q.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Metroid Prime",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m4m.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Metroid Prime 2: Echoes",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn6.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Star Fox Adventures",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pek.jpg",
         "platform": "gamecube"
       },
@@ -3178,8 +3178,8 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Donkey Konga 2",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rha.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b5z.jpg",
         "platform": "gamecube"
       },
       {
@@ -3190,19 +3190,19 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Harvest Moon: A Wonderful Life",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ae6.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Soulcalibur II",
-        "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x6l.jpg",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61zk.jpg",
         "platform": "gamecube"
       },
       {
         "name": "Spartan: Total Warrior",
-        "badge": "GameCube Physical",
+        "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pej.jpg",
         "platform": "gamecube"
       },
@@ -3215,7 +3215,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Ocarina of Time",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fxc.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.jpg",
         "platform": "n64"
       },
       {
@@ -3227,7 +3227,7 @@ window.SITE_CONTENT = {
       {
         "name": "Super Mario 64",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wv6.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co721v.jpg",
         "platform": "n64"
       },
       {
@@ -3245,7 +3245,7 @@ window.SITE_CONTENT = {
       {
         "name": "Super Smash Bros.",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ysr.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tso.jpg",
         "platform": "n64"
       },
       {
@@ -3269,19 +3269,19 @@ window.SITE_CONTENT = {
       {
         "name": "Banjo-Tooie",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bhb.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6c1w.jpg",
         "platform": "n64"
       },
       {
         "name": "GoldenEye 007",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yk.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocckw.jpg",
         "platform": "n64"
       },
       {
         "name": "Jet Force Gemini",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tav.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7l0k.jpg",
         "platform": "n64"
       },
       {
@@ -3293,7 +3293,7 @@ window.SITE_CONTENT = {
       {
         "name": "Bomberman 64",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25y5.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xq.jpg",
         "platform": "n64"
       },
       {
@@ -3305,13 +3305,13 @@ window.SITE_CONTENT = {
       {
         "name": "Wave Race 64",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ksa.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9f0.jpg",
         "platform": "n64"
       },
       {
         "name": "Pokémon Stadium",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w07.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yyd.jpg",
         "platform": "n64"
       },
       {
@@ -3883,6 +3883,252 @@ window.SITE_CONTENT = {
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adp.jpg"
+      },
+      {
+        "name": "The Legend of Zelda: Phantom Hourglass",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Pokémon Diamond Version",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "The Legend of Zelda: Spirit Tracks",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Mario Kart DS",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Super Mario 64 DS",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Pokémon Black Version",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1x.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Metroid Prime Hunters",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Animal Crossing: Wild World",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Tetris DS",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65xn.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Spider-Man 2",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4t0k.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "The Simpsons Game",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7zo7.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Brain Age: Train Your Brain in Minutes a Day!",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p93.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "Nintendogs: Dachshund & Friends",
+        "badge": "Nintendo DS",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23s0.jpg",
+        "platform": "ds"
+      },
+      {
+        "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zdv.jpg",
+        "platform": "gamecube"
+      },
+      {
+        "name": "Star Fox: Assault",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pem.jpg",
+        "platform": "gamecube"
+      },
+      {
+        "name": "Final Fantasy: Crystal Chronicles",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vjk.jpg",
+        "platform": "gamecube"
+      },
+      {
+        "name": "Star Wars: Rogue Squadron II - Rogue Leader",
+        "badge": "Nintendo GameCube",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v76.jpg",
+        "platform": "gamecube"
+      },
+      {
+        "name": "Metroid Fusion",
+        "badge": "Game Boy Advance",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
+        "platform": "gba"
+      },
+      {
+        "name": "The Legend of Zelda: A Link to the Past",
+        "badge": "Nintendo SNES",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.jpg",
+        "platform": "snes"
+      },
+      {
+        "name": "The Legend of Zelda: The Minish Cap",
+        "badge": "Game Boy Advance",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
+        "platform": "gba"
+      },
+      {
+        "name": "Metroid: Zero Mission",
+        "badge": "Game Boy Advance",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
+        "platform": "gba"
+      },
+      {
+        "name": "Rugrats: Scavenger Hunt",
+        "badge": "Nintendo 64",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dya.jpg",
+        "platform": "n64"
+      },
+      {
+        "name": "Glover",
+        "badge": "Nintendo 64",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whq.jpg",
+        "platform": "n64"
+      },
+      {
+        "name": "V-Rally Edition '99",
+        "badge": "Nintendo 64",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39y9.jpg",
+        "platform": "n64"
+      },
+      {
+        "name": "Super Mario Bros. Deluxe",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Super Mario Land 2: 6 Golden Coins",
+        "badge": "Game Boy Color",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
+        "platform": "gbc"
+      },
+      {
+        "name": "Pokémon Silver Version",
+        "badge": "Game Boy Color",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
+        "platform": "gbc"
+      },
+      {
+        "name": "Pokémon Red Version",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "The Legend of Zelda: Oracle of Seasons",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "The Legend of Zelda: Oracle of Ages",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "The Legend of Zelda: Link's Awakening DX",
+        "badge": "Game Boy Color",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
+        "platform": "gbc"
+      },
+      {
+        "name": "Pokémon Yellow Version: Special Pikachu Edition",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Super Mario Land",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o14.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Tetris",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufl.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Pokémon Puzzle Challenge",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ywc.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Pokémon Trading Card Game",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ojr.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Harvest Moon 2 GBC",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xl6.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Donkey Kong Land",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x2x.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Donkey Kong",
+        "badge": "Game Boy",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wd9.jpg",
+        "platform": "gb"
+      },
+      {
+        "name": "Super Mario Bros. / Duck Hunt",
+        "badge": "Nintendo NES",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22q8.jpg",
+        "platform": "nes"
+      },
+      {
+        "name": "The Legend of Zelda",
+        "badge": "Nintendo NES",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.jpg",
+        "platform": "nes"
       }
     ],
     "platforms": {
@@ -3925,6 +4171,14 @@ window.SITE_CONTENT = {
       "gb": {
         "label": "🟩 Game Boy Classic",
         "color": "#22c55e"
+      },
+      "snes": {
+        "label": "🎮 Nintendo SNES",
+        "color": "#9333ea"
+      },
+      "nes": {
+        "label": "👾 Nintendo NES",
+        "color": "#dc2626"
       },
       "amiibo": {
         "label": "🗿 Zelda & Mario Amiibo Collection",
