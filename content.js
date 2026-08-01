@@ -3698,23 +3698,23 @@ window.SITE_CONTENT = {
       },
       {
         "name": "The Legend of Zelda: Oracle of Ages",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
         "name": "The Legend of Zelda: Oracle of Seasons",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening DX",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-link-s-awakening-dx"
       },
       {
@@ -3733,37 +3733,37 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Pokémon Red Version",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-red-version"
       },
       {
         "name": "Pokémon Yellow Version",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
         "name": "Pokémon Silver Version",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-silver-version"
       },
       {
         "name": "Super Mario Land 2: 6 Golden Coins",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
         "name": "Super Mario Bros. Deluxe",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/super-mario-bros-deluxe"
       },
       {
@@ -4279,86 +4279,86 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Super Mario Bros. Deluxe",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/super-mario-bros-deluxe"
       },
       {
         "name": "Super Mario Land 2: 6 Golden Coins",
-        "badge": "Game Boy Color",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "gbc",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
         "name": "The Legend of Zelda: Oracle of Seasons",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
       },
       {
         "name": "The Legend of Zelda: Oracle of Ages",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
         "name": "Pokémon Yellow Version: Special Pikachu Edition",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
         "name": "Super Mario Land",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o14.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/wario-land-super-mario-land-3"
       },
       {
         "name": "Tetris",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufl.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/tetris--38"
       },
       {
         "name": "Pokémon Puzzle Challenge",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ywc.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-puzzle-challenge"
       },
       {
         "name": "Pokémon Trading Card Game",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ojr.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-trading-card-game"
       },
       {
         "name": "Harvest Moon 2 GBC",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xl6.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/harvest-moon-2-gbc"
       },
       {
         "name": "Donkey Kong Land",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x2x.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/donkey-kong-land"
       },
       {
         "name": "Donkey Kong",
-        "badge": "Game Boy",
+        "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wd9.jpg",
-        "platform": "gb",
+        "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/donkey-kong--1"
       },
       {
@@ -4409,13 +4409,9 @@ window.SITE_CONTENT = {
         "label": "🕹️ Nintendo 64 Classics",
         "color": "#eab308"
       },
-      "gbc": {
-        "label": "🟨 Game Boy Color",
-        "color": "#f59e0b"
-      },
-      "gb": {
-        "label": "🟩 Game Boy Classic",
-        "color": "#22c55e"
+      "gb_gbc": {
+        "label": "🟢 Game Boy & Game Boy Colour",
+        "color": "#10b981"
       },
       "snes": {
         "label": "🎮 Nintendo SNES",
