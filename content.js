@@ -1908,1747 +1908,2038 @@ window.SITE_CONTENT = {
         "name": "ACA NEOGEO METAL SLUG",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20gf.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/metal-slug"
       },
       {
         "name": "ARMS",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ro8.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/arms"
       },
       {
         "name": "ASTRAL CHAIN",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobd39.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/astral-chain"
       },
       {
         "name": "Among Us",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vdk.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/among-us"
       },
       {
         "name": "Animal Crossing: New Horizons",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/animal-crossing-new-horizons"
       },
       {
         "name": "Another Crab's Treasure",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coam1a.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/another-crabs-treasure"
       },
       {
         "name": "Arcade Archives VS. SUPER MARIO BROS.",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co43q4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/vs-super-mario-bros"
       },
       {
         "name": "Axiom Verge",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1kml.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/axiom-verge"
       },
       {
         "name": "Axiom Verge 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3k3x.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/axiom-verge-2"
       },
       {
         "name": "BOXBOY! + BOXGIRL!",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3um0.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/box-boy-plus-box-girl"
       },
       {
         "name": "BRAVELY DEFAULT Ⅱ",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrao.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/bravely-default-ii"
       },
       {
         "name": "Baba Is You",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ic6.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/baba-is-you"
       },
       {
         "name": "Bayonetta",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamt.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/bayonetta--1"
       },
       {
         "name": "Bayonetta 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9e8.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/bayonetta-2--1"
       },
       {
         "name": "Bayonetta 3",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4z2i.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/bayonetta-3"
       },
       {
         "name": "Blaster Master Zero",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jx6.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/blaster-master-zero-ii"
       },
       {
         "name": "Blaster Master Zero 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jx6.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/blaster-master-zero-ii"
       },
       {
         "name": "Blossom Tales",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tw2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/blossom-tales-2-the-minotaur-prince"
       },
       {
         "name": "Borderlands 2: Game of the Year Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k8e.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/borderlands-2-game-of-the-year-edition"
       },
       {
         "name": "Borderlands: Game of the Year Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwo4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/borderlands-game-of-the-year-edition"
       },
       {
         "name": "Borderlands: The Pre-Sequel Ultimate Edition",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tq.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/borderlands-the-pre-sequel"
       },
       {
         "name": "Brawlhalla",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6i3u.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/brawlhalla"
       },
       {
         "name": "Brawlout",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7b.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/brawlout"
       },
       {
         "name": "Bury me, my Love",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r4y.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/bury-me-my-love"
       },
       {
         "name": "Cadence of Hyrule: Crypt of the NecroDancer featuring The Legend of Zelda",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob88s.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cadence-of-hyrule-crypt-of-the-necrodancer-featuring-the-legend-of-zelda"
       },
       {
         "name": "Captain Toad: Treasure Tracker",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v2d.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/captain-toad-treasure-tracker"
       },
       {
         "name": "Cat Quest",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8cp4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cat-quest"
       },
       {
         "name": "Cat Quest II",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r4f.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cat-quest-ii"
       },
       {
         "name": "Cave Story+",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o6b.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cave-story-plus--1"
       },
       {
         "name": "Celeste",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9dh.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/celeste"
       },
       {
         "name": "Constance",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co937a.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/constance--2"
       },
       {
         "name": "Crash Bandicoot™ N. Sane Trilogy",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/crash-bandicoot-n-sane-trilogy"
       },
       {
         "name": "Cult of the Lamb",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbwj.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cult-of-the-lamb"
       },
       {
         "name": "Cuphead",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/cuphead"
       },
       {
         "name": "DARK SOULS™: REMASTERED",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobazz.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/dark-souls-remastered"
       },
       {
         "name": "DELTARUNE Chapter 1&2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r3q.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/deltarune"
       },
       {
         "name": "DOOM",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6wn4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/doom--2"
       },
       {
         "name": "Daggerhood",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gd4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/daggerhood"
       },
       {
         "name": "Dauntless",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99y3.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/dauntless--1"
       },
       {
         "name": "Devious Dungeon",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ok0.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/devious-dungeon"
       },
       {
         "name": "Don't Starve",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqw.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/don-t-starve"
       },
       {
         "name": "Donkey Kong Bananza",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobd1q.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/donkey-kong-bananza"
       },
       {
         "name": "Donkey Kong Country: Tropical Freeze",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pmi.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/donkey-kong-country-tropical-freeze--1"
       },
       {
         "name": "Downwell",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co284e.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/downwell"
       },
       {
         "name": "Exit the Gungeon",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmt.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/exit-the-gungeon"
       },
       {
         "name": "FEZ",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pj9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/fez"
       },
       {
         "name": "FINAL FANTASY",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vn2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy--5"
       },
       {
         "name": "FINAL FANTASY CRYSTAL CHRONICLES Remastered Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/c9i4xgwbm7gojuhtwwqx.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-crystal-chronicles-remastered-edition"
       },
       {
         "name": "FINAL FANTASY II",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xx4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-ii--1"
       },
       {
         "name": "FINAL FANTASY III",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ojk.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-iii--6"
       },
       {
         "name": "FINAL FANTASY IV",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2y76.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-iv"
       },
       {
         "name": "FINAL FANTASY IX",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9okj.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-ix--1"
       },
       {
         "name": "FINAL FANTASY V",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pld.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-v--2"
       },
       {
         "name": "FINAL FANTASY VI",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ple.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-vi--2"
       },
       {
         "name": "FINAL FANTASY VII",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vn2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-vii--6"
       },
       {
         "name": "FINAL FANTASY VIII Remastered",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oju.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-viii-remastered--2"
       },
       {
         "name": "FINAL FANTASY X/X-2 HD Remaster",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zpl.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-x-slash-x-2-hd-remaster"
       },
       {
         "name": "FINAL FANTASY XII THE ZODIAC AGE",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6o.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/final-fantasy-xii-the-zodiac-age"
       },
       {
         "name": "Fall Guys",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6byb.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/fall-guys"
       },
       {
         "name": "Fe",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p9p.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/fe"
       },
       {
         "name": "Flinthook",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/v0hjyw9dosp4qrz4v1lv.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/flinthook"
       },
       {
         "name": "Forager",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86yq.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/forager"
       },
       {
         "name": "Fortnite for Nintendo Switch",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89n1.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/fortnite--2"
       },
       {
         "name": "GRIS",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv5.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/gris"
       },
       {
         "name": "Goblin Sword",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zdd.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/goblin-sword"
       },
       {
         "name": "Hades",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hades--1"
       },
       {
         "name": "Hades II – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hades-ii"
       },
       {
         "name": "Hollow Knight – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaes9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hollow-knight--1"
       },
       {
         "name": "Hollow Knight: Silksong – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hollow-knight-silksong"
       },
       {
         "name": "Human Fall Flat",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajrp.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/human-fall-flat"
       },
       {
         "name": "Human Resource Machine",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u3r.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/human-resource-machine"
       },
       {
         "name": "Hyrule Warriors: Age of Calamity",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22n.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hyrule-warriors-age-of-calamity"
       },
       {
         "name": "Hyrule Warriors: Definitive Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob2j6.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/hyrule-warriors-definitive-edition"
       },
       {
         "name": "I am Setsuna.",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwt.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/i-am-setsuna"
       },
       {
         "name": "KAMIKO",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ap.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/kamiko"
       },
       {
         "name": "Katamari Damacy REROLL",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25sm.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/katamari-damacy-reroll"
       },
       {
         "name": "Kirby Star Allies",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ezz.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/kirby-star-allies"
       },
       {
         "name": "Kirby and the Forgotten Land",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4yjz.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/kirby-and-the-forgotten-land--1"
       },
       {
         "name": "LEGO® Voyagers",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgs.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/lego-voyagers"
       },
       {
         "name": "LIMBO",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/limbo"
       },
       {
         "name": "LIVE A LIVE",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rs2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/live-a-live"
       },
       {
         "name": "LOST SPHEAR",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwu.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/lost-sphear"
       },
       {
         "name": "Little Inferno",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co253v.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/little-inferno"
       },
       {
         "name": "Little Town Hero",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q9f.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/little-town-hero"
       },
       {
         "name": "Luigi's Mansion 3",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/luigis-mansion-3"
       },
       {
         "name": "MIGHTY GUNVOLT BURST",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1m.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mighty-gunvolt-burst"
       },
       {
         "name": "Mario + Rabbids Kingdom Battle",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2274.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mario-plus-rabbids-kingdom-battle"
       },
       {
         "name": "Mario + Rabbids® Sparks of Hope",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob89b.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mario-plus-rabbids-sparks-of-hope"
       },
       {
         "name": "Mario Kart 8 Deluxe",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ydc.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mario-kart-8-deluxe"
       },
       {
         "name": "Mario Kart World",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9s9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mario-kart-world"
       },
       {
         "name": "Mario Party Superstars",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8q08.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mario-party-superstars"
       },
       {
         "name": "Mars Power Industries",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ri.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mars-power-industries"
       },
       {
         "name": "Metroid Dread",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co935n.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/metroid-dread--2"
       },
       {
         "name": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xh.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/metroid-prime-4-beyond"
       },
       {
         "name": "Metroid Prime Remastered",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/metroid-prime-remastered"
       },
       {
         "name": "Mina the Hollower – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/mina-the-hollower"
       },
       {
         "name": "Minecraft",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/minecraft--1"
       },
       {
         "name": "Minit",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcj.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/minit"
       },
       {
         "name": "Monster Boy and the Cursed Kingdom",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27mg.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/monster-boy-and-the-cursed-kingdom"
       },
       {
         "name": "Moonlighter",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pnh.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/moonlighter--1"
       },
       {
         "name": "Morphite",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z39.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/morphite"
       },
       {
         "name": "New Pokémon Snap",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oil.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/new-pokemon-snap"
       },
       {
         "name": "New Super Mario Bros. U Deluxe",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uhl.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/new-super-mario-bros-u-deluxe"
       },
       {
         "name": "NieR:Automata The End of YoRHa Edition",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54t2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/nier-automata-the-end-of-yorha-edition"
       },
       {
         "name": "OCTOPATH TRAVELER",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa302.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/octopath-traveler"
       },
       {
         "name": "OCTOPATH TRAVELER II",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ds7.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/octopath-traveler-ii"
       },
       {
         "name": "Oceanhorn",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6gbz.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/oceanhorn"
       },
       {
         "name": "Ori and the Blind Forest: Definitive Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s0m.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/ori-and-the-blind-forest-definitive-edition"
       },
       {
         "name": "Ori and the Will of the Wisps",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjl7.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/ori-and-the-will-of-the-wisps"
       },
       {
         "name": "POKKÉN TOURNAMENT DX",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zj1.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokken-tournament"
       },
       {
         "name": "Paladins",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/nscvegfdn5mvo8hx1neb.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/paladins"
       },
       {
         "name": "Palia",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc1y2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/palia"
       },
       {
         "name": "Paper Mario: The Origami King",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob89j.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/paper-mario-the-origami-king"
       },
       {
         "name": "Paper Mario: The Thousand-Year Door",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25us.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/paper-mario-the-thousand-year-door"
       },
       {
         "name": "Pikmin 1",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba9i.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pikmin-1"
       },
       {
         "name": "Pikmin 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6r.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pikmin-2--4"
       },
       {
         "name": "Pikmin 3 Deluxe",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8grk.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pikmin-3-deluxe"
       },
       {
         "name": "Pikmin 4",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba9h.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pikmin-4"
       },
       {
         "name": "Pokémon Brilliant Diamond",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b9t.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-brilliant-diamond"
       },
       {
         "name": "Pokémon Champions",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gu3.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-champions"
       },
       {
         "name": "Pokémon FireRed Version",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ziq.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-firered-version"
       },
       {
         "name": "Pokémon Legends: Arceus",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-legends-arceus"
       },
       {
         "name": "Pokémon Mystery Dungeon Rescue Team DX",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobcnl.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-mystery-dungeon-rescue-team-dx"
       },
       {
         "name": "Pokémon Pokopia",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbur.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-pokopia"
       },
       {
         "name": "Pokémon Sword",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lj2.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-sword"
       },
       {
         "name": "Pokémon UNITE",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9avm.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-unite"
       },
       {
         "name": "Pokémon Violet",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5sfa.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-violet"
       },
       {
         "name": "Pokémon: Let's Go, Pikachu!",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zjy.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/pokemon-lets-go-pikachu"
       },
       {
         "name": "Portal",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/portal-maze-2"
       },
       {
         "name": "Portal 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/portal-2"
       },
       {
         "name": "Rayman Legends: Definitive Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m8e.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/rayman-legends-definitive-edition"
       },
       {
         "name": "Risk of Rain 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/risk-of-rain-2"
       },
       {
         "name": "Rocket League®",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocdio.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/rocket-league"
       },
       {
         "name": "SUPER BOMBERMAN R",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x7j.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-bomberman-r"
       },
       {
         "name": "SUPER MARIO MAKER 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21vy.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-maker-2"
       },
       {
         "name": "SUPER MARIO ODYSSEY",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63jd.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-odyssey-fludd"
       },
       {
         "name": "SUPERHOT",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ybp.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/superhot"
       },
       {
         "name": "Shantae: Half-Genie Hero",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ymj.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/shantae-half-genie-hero"
       },
       {
         "name": "Shovel Knight: Treasure Trove",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsx.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/shovel-knight-treasure-trove"
       },
       {
         "name": "Sky: Children of the Light",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavd.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/sky-children-of-the-light"
       },
       {
         "name": "Snake Pass",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86dd.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/snake-pass"
       },
       {
         "name": "Snipperclips",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27vu.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/snipperclips-cut-it-out-together"
       },
       {
         "name": "Sonic Mania",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uho.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/sonic-mania-and-sonic-plus"
       },
       {
         "name": "South Park™: The Fractured But Whole™",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/south-park-the-fractured-but-whole"
       },
       {
         "name": "South Park™: The Stick Of Truth™",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/south-park-the-stick-of-truth"
       },
       {
         "name": "Splatoon 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8g6r.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/splatoon-2"
       },
       {
         "name": "Split Fiction",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gf.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/split-fiction"
       },
       {
         "name": "Spyro Reignited Trilogy",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/spyro-reignited-trilogy"
       },
       {
         "name": "Squirrel with a Gun",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coal97.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/squirrel-with-a-gun"
       },
       {
         "name": "Star Fox",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxk8.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/star-fox-super-weekend"
       },
       {
         "name": "Stardew Valley",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/stardew-valley"
       },
       {
         "name": "SteamWorld Dig",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/steamworld-dig"
       },
       {
         "name": "SteamWorld Dig 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/steamworld-dig-2"
       },
       {
         "name": "SteamWorld Heist: Ultimate Edition",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co83o5.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/steamworld-heist-ultimate-edition"
       },
       {
         "name": "Super Kirby Clash",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q9d.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-kirby-clash"
       },
       {
         "name": "Super Mario 3D All-Stars",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8wk.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-3d-all-stars"
       },
       {
         "name": "Super Mario 3D World + Bowser's Fury",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobb2d.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-3d-world-plus-bowsers-fury"
       },
       {
         "name": "Super Mario Bros. Wonder",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nnl.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-bros-wonder"
       },
       {
         "name": "Super Mario Party",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaa9.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-party"
       },
       {
         "name": "Super Mario RPG",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kd0.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-mario-rpg"
       },
       {
         "name": "Super Meat Boy",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t36.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-meat-boy--1"
       },
       {
         "name": "Super Smash Bros. Ultimate",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/super-smash-bros-ultimate"
       },
       {
         "name": "Tales of Kenzera: ZAU",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h98.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/tales-of-kenzera-zau"
       },
       {
         "name": "The Binding of Isaac: Afterbirth+",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8p3u.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-binding-of-isaac-afterbirth-plus--1"
       },
       {
         "name": "The Elder Scrolls V: Skyrim",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobt0i.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-elder-scrolls-v-skyrim"
       },
       {
         "name": "The Jackbox Party Pack",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zel.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack"
       },
       {
         "name": "The Jackbox Party Pack 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vgp.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-2"
       },
       {
         "name": "The Jackbox Party Pack 3",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zen.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-3"
       },
       {
         "name": "The Jackbox Party Pack 4",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeo.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-4"
       },
       {
         "name": "The Jackbox Party Pack 5",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dhl.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-5"
       },
       {
         "name": "The Jackbox Party Pack 6",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zep.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-6"
       },
       {
         "name": "The Jackbox Party Pack 7",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeq.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-7"
       },
       {
         "name": "The Legend of Zelda: Breath of the Wild",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67oa.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-breath-of-the-wild"
       },
       {
         "name": "The Legend of Zelda: Echoes of Wisdom",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9b.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-echoes-of-wisdom"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-links-awakening--1"
       },
       {
         "name": "The Legend of Zelda: Skyward Sword HD",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8lb.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-skyward-sword-hd"
       },
       {
         "name": "The Legend of Zelda: Tears of the Kingdom",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-tears-of-the-kingdom"
       },
       {
         "name": "The Plucky Squire",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6z44.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-plucky-squire"
       },
       {
         "name": "The Touryst",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eix.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/the-touryst"
       },
       {
         "name": "Tunic",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/tunic"
       },
       {
         "name": "ULTRA STREET FIGHTER™ II The Final Challengers",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yen.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/ultra-street-fighter-ii-the-final-challengers"
       },
       {
         "name": "Untitled Goose Game",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqc.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/untitled-goose-game"
       },
       {
         "name": "Warframe",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95fk.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/warframe"
       },
       {
         "name": "Wargroove",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7c43.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/wargroove"
       },
       {
         "name": "Wolfenstein: Youngblood",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21by.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/wolfenstein-youngblood"
       },
       {
         "name": "Wonder Boy: The Dragon's Trap",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4q.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/wonder-boy-the-dragons-trap"
       },
       {
         "name": "World of Goo",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24jz.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/world-of-goo"
       },
       {
         "name": "Worms W.M.D",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrj.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/worms-wmd"
       },
       {
         "name": "Xenoblade Chronicles 2",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nb4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/xenoblade-chronicles-2"
       },
       {
         "name": "Xenoblade Chronicles 3",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jeg.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/xenoblade-chronicles-3"
       },
       {
         "name": "Xenoblade Chronicles: Definitive Edition",
         "badge": "Special Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r4.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/xenoblade-chronicles-definitive-edition"
       },
       {
         "name": "Yono and the Celestial Elephants",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rr5.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/yono-and-the-celestial-elephants"
       },
       {
         "name": "Yooka-Laylee",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4v.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/yooka-laylee"
       },
       {
         "name": "Yoshi and the Mysterious Book",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobr0r.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/yoshi-and-the-mysterious-book"
       },
       {
         "name": "Yoshi's Crafted World",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobav7.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/yoshis-crafted-world"
       },
       {
         "name": "forma.8",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wly.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/forma-dot-8"
       },
       {
         "name": "ŌKAMI HD",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22s8.jpg",
-        "platform": "switch"
+        "platform": "switch",
+        "url": "https://www.igdb.com/games/okami-hd"
       },
       {
         "name": "The Legend of Zelda: The Wind Waker",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ohz.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-the-wind-waker"
       },
       {
         "name": "The Legend of Zelda: Twilight Princess",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mtv.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-twilight-princess--1"
       },
       {
         "name": "The Legend of Zelda: Collector's Edition",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4n26.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-collectors-edition"
       },
       {
         "name": "The Legend of Zelda: Four Swords Adventures",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xf.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-four-swords-adventures"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time / Master Quest",
         "badge": "GameCube Physical",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zdv.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-master-quest"
       },
       {
         "name": "Super Mario Sunshine",
         "badge": "GameCube Physical",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co68sg.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/super-mario-sunshine--2"
       },
       {
         "name": "Mario Kart: Double Dash!!",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ndu.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/mario-kart-double-dash"
       },
       {
         "name": "Super Smash Bros. Melee",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/super-smash-bros-melee"
       },
       {
         "name": "Luigi's Mansion",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wr1.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/luigis-mansion"
       },
       {
         "name": "Pikmin",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nqg.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/pikmin2"
       },
       {
         "name": "Pikmin 2",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6q.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/pikmin-2--4"
       },
       {
         "name": "Metroid Prime",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/metroid-prime--2"
       },
       {
         "name": "Metroid Prime 2: Echoes",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn6.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/metroid-prime-2-echoes"
       },
       {
         "name": "Star Fox Adventures",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pek.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/star-fox-adventures"
       },
       {
         "name": "Star Fox Assault",
         "badge": "GameCube Physical",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pem.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/star-fox-assault"
       },
       {
         "name": "Donkey Konga 2",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b5z.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/donkey-konga-2"
       },
       {
         "name": "Final Fantasy Crystal Chronicles",
         "badge": "GameCube Physical",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vjk.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/final-fantasy-crystal-chronicles"
       },
       {
         "name": "Harvest Moon: A Wonderful Life",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ae6.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/harvest-moon-a-wonderful-life"
       },
       {
         "name": "Soulcalibur II",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61zk.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/soulcalibur-ii--3"
       },
       {
         "name": "Spartan: Total Warrior",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pej.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/spartan-total-warrior"
       },
       {
         "name": "Star Wars Rogue Leader: Rogue Squadron II",
         "badge": "GameCube Physical",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v76.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/star-wars-rogue-squadron-ii-rogue-leader"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time"
       },
       {
         "name": "The Legend of Zelda: Majora's Mask",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pah.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-majora-s-mask"
       },
       {
         "name": "Super Mario 64",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co721v.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/super-mario-64--2"
       },
       {
         "name": "Mario Kart 64",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67hm.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/mario-kart-64"
       },
       {
         "name": "Mario Party 3",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yu.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/mario-party-3"
       },
       {
         "name": "Super Smash Bros.",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tso.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/super-smash-bros-deluxe"
       },
       {
         "name": "Donkey Kong 64",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co289i.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/donkey-kong-64"
       },
       {
         "name": "Diddy Kong Racing",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wgj.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/diddy-kong-racing"
       },
       {
         "name": "Banjo-Kazooie",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbr5.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/banjo-kazooie"
       },
       {
         "name": "Banjo-Tooie",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6c1w.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/banjo-tooie--1"
       },
       {
         "name": "GoldenEye 007",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocckw.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/goldeneye-007--3"
       },
       {
         "name": "Jet Force Gemini",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7l0k.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/jet-force-gemini--1"
       },
       {
         "name": "Star Wars: Rogue Squadron",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k18.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/star-wars-rogue-squadron"
       },
       {
         "name": "Bomberman 64",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xq.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/bomberman-64--1"
       },
       {
         "name": "Yoshi's Story",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co260t.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/yoshi-s-story"
       },
       {
         "name": "Wave Race 64",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9f0.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/wave-race-64"
       },
       {
         "name": "Pokémon Stadium",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yyd.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/pokemon-stadium"
       },
       {
         "name": "The Legend of Zelda: A Link Between Worlds (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p0j.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-between-worlds"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time 3D (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-3d"
       },
       {
         "name": "The Legend of Zelda: Majora's Mask 3D (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-majoras-mask-3d"
       },
       {
         "name": "The Legend of Zelda: Tri Force Heroes (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-tri-force-heroes"
       },
       {
         "name": "The Legend of Zelda: Phantom Hourglass (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-phantom-hourglass"
       },
       {
         "name": "The Legend of Zelda: Spirit Tracks - Tin Edition (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
       },
       {
         "name": "Super Mario 3D Land (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobab1.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/super-mario-3d-land"
       },
       {
         "name": "Mario Kart 7 (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2146.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/mario-kart-7"
       },
       {
         "name": "Mario Kart DS (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/mario-kart-ds"
       },
       {
         "name": "Super Mario 64 DS (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/super-mario-64-ds"
       },
       {
         "name": "Pokémon X (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/pokemon-x"
       },
       {
         "name": "Pokémon Moon (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/pokemon-moon"
       },
       {
         "name": "Pokémon Alpha Sapphire (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/pokemon-alpha-sapphire"
       },
       {
         "name": "Pokémon Diamond Version (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/pokemon-diamond-version"
       },
       {
         "name": "Pokémon Black Version (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/pokemon-black-version"
       },
       {
         "name": "Kid Icarus: Uprising (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/kid-icarus-uprising"
       },
       {
         "name": "Star Fox 64 3D (3DS)",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3e.jpg",
-        "platform": "3ds"
+        "platform": "3ds",
+        "url": "https://www.igdb.com/games/star-fox-64-3d"
       },
       {
         "name": "Metroid Prime Hunters (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/metroid-prime-hunters"
       },
       {
         "name": "Animal Crossing: Wild World (DS)",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/animal-crossing-wild-world"
       },
       {
         "name": "The Legend of Zelda: The Minish Cap (GBA)",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-the-minish-cap"
       },
       {
         "name": "The Legend of Zelda: A Link to the Past & Four Swords (GBA)",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsh.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past-and-four-swords"
       },
       {
         "name": "The Legend of Zelda: Oracle of Ages (GBC)",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
         "name": "The Legend of Zelda: Oracle of Seasons (GBC)",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening DX (GBC)",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-link-s-awakening-dx"
       },
       {
         "name": "Metroid: Zero Mission (GBA)",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/metroid-zero-mission"
       },
       {
         "name": "Metroid Fusion (GBA)",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/metroid-fusion"
       },
       {
         "name": "Pokémon Red Version (GB)",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-red-version"
       },
       {
         "name": "Pokémon Yellow Version (GB)",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
         "name": "Pokémon Silver Version (GBC)",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/pokemon-silver-version"
       },
       {
         "name": "Super Mario Land 2: 6 Golden Coins (GB)",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
         "name": "Super Mario Bros. Deluxe (GBC)",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/super-mario-bros-deluxe"
       },
       {
         "name": "Age of Empires II: Definitive Edition",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0y.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-ii-definitive-edition"
       },
       {
         "name": "Age of Mythology: Retold",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zm5.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-mythology-retold"
       },
       {
         "name": "Baldur's Gate 3",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/baldurs-gate-iii"
       },
       {
         "name": "BioShock Infinite",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bioshock-infinite"
       },
       {
         "name": "Borderlands 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/borderlands-2"
       },
       {
         "name": "Call of Duty: Black Ops II",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkv.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-black-ops-ii"
       },
       {
         "name": "Clair Obscur: Expedition 33",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/clair-obscur-expedition-33"
       },
       {
         "name": "Counter-Strike 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaczd.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/counter-strike-2"
       },
       {
         "name": "Dark Souls: Prepare To Die Edition",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84kp.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/dark-souls-prepare-to-die-edition"
       },
       {
         "name": "Deep Rock Galactic",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deep-rock-galactic"
       },
       {
         "name": "Deus Ex: Human Revolution",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd2.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deus-ex-human-revolution"
       },
       {
         "name": "Factorio",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfy.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/factorio"
       },
       {
         "name": "Frostpunk",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar27.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/frostpunk"
       },
       {
         "name": "HELLDIVERS™ 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabbf.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/helldivers-2"
       },
       {
         "name": "Hades II",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hades-ii"
       },
       {
         "name": "Half-Life 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/half-life-2"
       },
       {
         "name": "Hollow Knight: Silksong",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hollow-knight-silksong"
       },
       {
         "name": "It Takes Two",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/it-takes-two"
       },
       {
         "name": "Left 4 Dead 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/left-4-dead-2"
       },
       {
         "name": "Portal 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/portal-2"
       },
       {
         "name": "STAR WARS Jedi: Survivor™",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzk.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/star-wars-jedi-survivor"
       },
       {
         "name": "Stardew Valley",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/stardew-valley"
       },
       {
         "name": "Valheim",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob24q.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/valheim"
       },
       {
         "name": "Vampire Survivors",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/vampire-survivors"
       },
       {
         "name": "Warhammer 40,000: Space Marine 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vab.jpg",
-        "platform": "pc"
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/warhammer-40000-space-marine-ii"
       },
       {
         "name": "8-Bit Link Amiibo (30th Anniversary)",
@@ -3864,271 +4155,316 @@ window.SITE_CONTENT = {
         "name": "Overwatch®",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjxl.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjxl.jpg",
+        "url": "https://www.igdb.com/games/overwatch-reign-of-talon-season-1-conquest"
       },
       {
         "name": "Call of Duty: Modern Warfare",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc4mu.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc4mu.jpg",
+        "url": "https://www.igdb.com/games/call-of-duty-modern-warfare"
       },
       {
         "name": "Call of Duty®: Black Ops Cold War",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg",
+        "url": "https://www.igdb.com/games/call-of-duty-black-ops-cold-war"
       },
       {
         "name": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adp.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adp.jpg",
+        "url": "https://www.igdb.com/games/call-of-duty-modern-warfare-2-campaign-remastered"
       },
       {
         "name": "The Legend of Zelda: Phantom Hourglass",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-phantom-hourglass"
       },
       {
         "name": "Pokémon Diamond Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/pokemon-diamond-version"
       },
       {
         "name": "The Legend of Zelda: Spirit Tracks",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
       },
       {
         "name": "Mario Kart DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/mario-kart-ds"
       },
       {
         "name": "Super Mario 64 DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/super-mario-64-ds"
       },
       {
         "name": "Pokémon Black Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1x.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/pokemon-black-version"
       },
       {
         "name": "Metroid Prime Hunters",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/metroid-prime-hunters"
       },
       {
         "name": "Animal Crossing: Wild World",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/animal-crossing-wild-world"
       },
       {
         "name": "Tetris DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65xn.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/tetris-ds--1"
       },
       {
         "name": "Spider-Man 2",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4t0k.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/spider-man-2"
       },
       {
         "name": "The Simpsons Game",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7zo7.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/the-simpsons-game--1"
       },
       {
         "name": "Brain Age: Train Your Brain in Minutes a Day!",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p93.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/brain-age-train-your-brain-in-minutes-a-day"
       },
       {
         "name": "Nintendogs: Dachshund & Friends",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23s0.jpg",
-        "platform": "ds"
+        "platform": "ds",
+        "url": "https://www.igdb.com/games/nintendogs-dachshund-and-friends"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zdv.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-master-quest"
       },
       {
         "name": "Star Fox: Assault",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pem.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/star-fox-assault"
       },
       {
         "name": "Final Fantasy: Crystal Chronicles",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vjk.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/final-fantasy-crystal-chronicles"
       },
       {
         "name": "Star Wars: Rogue Squadron II - Rogue Leader",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v76.jpg",
-        "platform": "gamecube"
+        "platform": "gamecube",
+        "url": "https://www.igdb.com/games/star-wars-rogue-squadron-ii-rogue-leader"
       },
       {
         "name": "Metroid Fusion",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/metroid-fusion"
       },
       {
         "name": "The Legend of Zelda: A Link to the Past",
         "badge": "Nintendo SNES",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.jpg",
-        "platform": "snes"
+        "platform": "snes",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past"
       },
       {
         "name": "The Legend of Zelda: The Minish Cap",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-the-minish-cap"
       },
       {
         "name": "Metroid: Zero Mission",
         "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
-        "platform": "gba"
+        "platform": "gba",
+        "url": "https://www.igdb.com/games/metroid-zero-mission"
       },
       {
         "name": "Rugrats: Scavenger Hunt",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dya.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/rugrats-scavenger-hunt"
       },
       {
         "name": "Glover",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whq.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/glover--2"
       },
       {
         "name": "V-Rally Edition '99",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39y9.jpg",
-        "platform": "n64"
+        "platform": "n64",
+        "url": "https://www.igdb.com/games/v-rally-edition-99"
       },
       {
         "name": "Super Mario Bros. Deluxe",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/super-mario-bros-deluxe"
       },
       {
         "name": "Super Mario Land 2: 6 Golden Coins",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
       },
       {
         "name": "Pokémon Silver Version",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/pokemon-silver-version"
       },
       {
         "name": "Pokémon Red Version",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-red-version"
       },
       {
         "name": "The Legend of Zelda: Oracle of Seasons",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
       },
       {
         "name": "The Legend of Zelda: Oracle of Ages",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening DX",
         "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "gbc"
+        "platform": "gbc",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-link-s-awakening-dx"
       },
       {
         "name": "Pokémon Yellow Version: Special Pikachu Edition",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
         "name": "Super Mario Land",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o14.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/wario-land-super-mario-land-3"
       },
       {
         "name": "Tetris",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufl.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/tetris--38"
       },
       {
         "name": "Pokémon Puzzle Challenge",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ywc.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-puzzle-challenge"
       },
       {
         "name": "Pokémon Trading Card Game",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ojr.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/pokemon-trading-card-game"
       },
       {
         "name": "Harvest Moon 2 GBC",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xl6.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/harvest-moon-2-gbc"
       },
       {
         "name": "Donkey Kong Land",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x2x.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/donkey-kong-land"
       },
       {
         "name": "Donkey Kong",
         "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wd9.jpg",
-        "platform": "gb"
+        "platform": "gb",
+        "url": "https://www.igdb.com/games/donkey-kong--1"
       },
       {
         "name": "Super Mario Bros. / Duck Hunt",
         "badge": "Nintendo NES",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22q8.jpg",
-        "platform": "nes"
+        "platform": "nes",
+        "url": "https://www.igdb.com/games/super-mario-bros-slash-duck-hunt"
       },
       {
         "name": "The Legend of Zelda",
         "badge": "Nintendo NES",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.jpg",
-        "platform": "nes"
+        "platform": "nes",
+        "url": "https://www.igdb.com/games/the-legend-of-zelda"
       }
     ],
     "platforms": {
