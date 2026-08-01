@@ -7,6 +7,7 @@
   <meta name="description" content="Alec Doran-Twyford's Home & Smart Tech — Room-by-room smart hardware, office setup, bathroom niches, and home improvement projects.">
   <meta name="theme-color" content="#160d14">
   <link rel="stylesheet" href="styles.css">
+  <script src="content.js"></script>
 </head>
 <body>
 
@@ -25,157 +26,175 @@
     </div>
   </section>
 
-  <section class="wishlist-section">
-    <div class="section-header">
-      <h2>📌 Room-by-Room Tech & Active Projects</h2>
-      <p>Current setup and planned home improvements across each space.</p>
-    </div>
+  <style>
+    .floor-section {
+      margin-bottom: 32px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .floor-section:last-of-type {
+      border-bottom: none;
+    }
+    .floor-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .floor-title h2 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: var(--text);
+    }
+    .floor-icon {
+      font-size: 1.8rem;
+    }
+    .room-layout-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .room-smart-tech {
+      background: rgba(153, 78, 168, 0.04);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-top: 10px;
+    }
+    .smart-tech-header {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 800;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      letter-spacing: 0.05em;
+    }
+    .smart-tech-detail {
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      color: var(--text-muted);
+    }
+    .hue-group-badge {
+      background: var(--accent-wash);
+      color: var(--accent);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 0.68rem;
+      font-weight: 800;
+    }
+  </style>
 
-    <div class="room-grid">
+  <div id="home-content-container" style="margin-top: 24px;"></div>
 
-      <!-- OFFICE -->
-      <div class="room-card">
-        <div class="room-header">
-          <div class="room-icon">🖥️</div>
-          <div class="room-title-group">
-            <h3>Office & Workstation</h3>
-            <span class="room-tag">Dev & Streaming Setup</span>
-          </div>
-        </div>
-        <p style="font-size: 0.84rem;">High-performance dev environment, mechanical keyboards, stream audio deck & dual display routing.</p>
-        <div style="margin-top: 10px;">
-          <strong style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted);">Active & Planned Projects:</strong>
-          <ul class="project-list">
-            <li class="project-item">
-              <span>Under-Desk Cable Management Routing</span>
-              <span class="project-badge badge-in-progress">In Progress</span>
-            </li>
-            <li class="project-item">
-              <span>Dual Monitor Arm Desk Mount</span>
-              <span class="project-badge badge-done">Completed</span>
-            </li>
-            <li class="project-item">
-              <span>Elgato Stream Deck Keybind Layout</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <script>
+  (function() {
+    const homeData = window.SITE_CONTENT && window.SITE_CONTENT.home;
+    if (!homeData) return;
 
-      <!-- LIVING ROOM -->
-      <div class="room-card">
-        <div class="room-header">
-          <div class="room-icon">🛋️</div>
-          <div class="room-title-group">
-            <h3>Living Room</h3>
-            <span class="room-tag">Media & Smart Ambient Lighting</span>
-          </div>
-        </div>
-        <p style="font-size: 0.84rem;">Entertainment hub, Philips Hue sync lighting, board game storage & console media hub.</p>
-        <div style="margin-top: 10px;">
-          <strong style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted);">Active & Planned Projects:</strong>
-          <ul class="project-list">
-            <li class="project-item">
-              <span>Philips Hue HDMI Sync Box Setup</span>
-              <span class="project-badge badge-in-progress">In Progress</span>
-            </li>
-            <li class="project-item">
-              <span>Kallax Board Game Storage Shelving</span>
-              <span class="project-badge badge-done">Completed</span>
-            </li>
-            <li class="project-item">
-              <span>AV Receiver Cable Concealment</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+    const container = document.getElementById('home-content-container');
+    if (!container) return;
 
-      <!-- KITCHEN -->
-      <div class="room-card">
-        <div class="room-header">
-          <div class="room-icon">🍳</div>
-          <div class="room-title-group">
-            <h3>Kitchen & Culinary Tech</h3>
-            <span class="room-tag">Food Science & Brew Bar</span>
-          </div>
-        </div>
-        <p style="font-size: 0.84rem;">Culinary precision tools, food science reference library, coffee station & Joseph Joseph hardware.</p>
-        <div style="margin-top: 10px;">
-          <strong style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted);">Active & Planned Projects:</strong>
-          <ul class="project-list">
-            <li class="project-item">
-              <span>Coffee Niche Espresso Corner</span>
-              <span class="project-badge badge-in-progress">In Progress</span>
-            </li>
-            <li class="project-item">
-              <span>Sous-Vide Water Oven Drawer</span>
-              <span class="project-badge badge-done">Completed</span>
-            </li>
-            <li class="project-item">
-              <span>Spice Rack & Container Labeling</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+    function formatLights(lights) {
+      if (!lights || Object.keys(lights).length === 0) return '';
+      return Object.entries(lights)
+        .map(([type, count]) => `${count} ${type}${count > 1 ? 's' : ''}`)
+        .join(', ');
+    }
 
-      <!-- BEDROOM -->
-      <div class="room-card">
-        <div class="room-header">
-          <div class="room-icon">🛏️</div>
-          <div class="room-title-group">
-            <h3>Bedroom</h3>
-            <span class="room-tag">Smart Sleep & Charging Hub</span>
-          </div>
-        </div>
-        <p style="font-size: 0.84rem;">Circadian smart lighting schedules, nightstand MagSafe charging station, minimal aesthetic.</p>
-        <div style="margin-top: 10px;">
-          <strong style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted);">Active & Planned Projects:</strong>
-          <ul class="project-list">
-            <li class="project-item">
-              <span>Dual Bedside Qi2 Fast Chargers</span>
-              <span class="project-badge badge-done">Completed</span>
-            </li>
-            <li class="project-item">
-              <span>Automated Smart Roller Blinds</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+    let html = '';
+    
+    if (homeData.floors) {
+      Object.entries(homeData.floors).forEach(([key, floor]) => {
+        let roomsHTML = '';
+        
+        if (floor.rooms) {
+          Object.entries(floor.rooms).forEach(([roomKey, room]) => {
+            // Render Projects List
+            let projectsHTML = '';
+            if (room.projects && room.projects.length > 0) {
+              projectsHTML = `
+                <div style="margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px;">
+                  <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">Active & Planned Projects:</strong>
+                  <ul class="project-list" style="margin-top: 8px;">
+                    ${room.projects.map(proj => {
+                      let badgeClass = 'badge-planned';
+                      let statusLabel = 'Planned';
+                      if (proj.status === 'in-progress') {
+                        badgeClass = 'badge-in-progress';
+                        statusLabel = 'In Progress';
+                      } else if (proj.status === 'completed') {
+                        badgeClass = 'badge-done';
+                        statusLabel = 'Completed';
+                      }
+                      return `
+                        <li class="project-item">
+                          <span>${proj.name}</span>
+                          <span class="project-badge ${badgeClass}">${statusLabel}</span>
+                        </li>
+                      `;
+                    }).join('')}
+                  </ul>
+                </div>
+              `;
+            }
 
-      <!-- BATHROOM -->
-      <div class="room-card">
-        <div class="room-header">
-          <div class="room-icon">🛁</div>
-          <div class="room-title-group">
-            <h3>Bathroom Hardware</h3>
-            <span class="room-tag">Renovation & Niche Installs</span>
-          </div>
-        </div>
-        <p style="font-size: 0.84rem;">Bathroom tile hardware, stainless steel shower niches, and humidity-proof fixtures.</p>
-        <div style="margin-top: 10px;">
-          <strong style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted);">Active & Planned Projects:</strong>
-          <ul class="project-list">
-            <li class="project-item">
-              <span>ELEGANT Stainless Steel Niche (90x30 cm)</span>
-              <span class="project-badge badge-in-progress">In Progress</span>
-            </li>
-            <li class="project-item">
-              <span>ELEGANT Stainless Steel Niche (60x30 cm)</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-            <li class="project-item">
-              <span>Waterproof Bluetooth Audio Speaker</span>
-              <span class="project-badge badge-planned">Planned</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+            // Render Smart Tech Details
+            let smartTechHTML = '';
+            const hasLights = room.lights && Object.keys(room.lights).length > 0;
+            const hasSwitches = room.switches && room.switches.length > 0;
+            const hasHueGroup = room.hueGroup !== undefined;
 
-    </div>
-  </section>
+            if (hasLights || hasSwitches || hasHueGroup) {
+              smartTechHTML = `
+                <div class="room-smart-tech">
+                  <div class="smart-tech-header">
+                    <span>💡 Smart Lighting</span>
+                    ${hasHueGroup ? `<span class="hue-group-badge">Hue Group ${room.hueGroup}</span>` : ''}
+                  </div>
+                  <div class="smart-tech-detail">
+                    ${hasLights ? `<div><strong>Lights:</strong> ${formatLights(room.lights)}</div>` : ''}
+                    ${hasSwitches ? `<div><strong>Switches:</strong> ${room.switches.join(', ')}</div>` : ''}
+                  </div>
+                </div>
+              `;
+            }
+
+            roomsHTML += `
+              <div class="room-card">
+                <div class="room-header" style="margin-bottom: 6px;">
+                  <div class="room-title-group">
+                    <h3 style="font-size: 1.05rem; margin: 0; color: var(--text); font-weight: 700;">${room.name}</h3>
+                  </div>
+                </div>
+                ${smartTechHTML}
+                ${projectsHTML}
+              </div>
+            `;
+          });
+        }
+
+        html += `
+          <section class="floor-section">
+            <div class="floor-title">
+              <span class="floor-icon">${floor.icon}</span>
+              <h2>${floor.name}</h2>
+            </div>
+            <div class="room-layout-grid">
+              ${roomsHTML}
+            </div>
+          </section>
+        `;
+      });
+    }
+
+    container.innerHTML = html;
+  })();
+  </script>
 </main>
 
 <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">

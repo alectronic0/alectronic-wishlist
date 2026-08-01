@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="banner">Last updated on: 29th July 2026</div>
+<div class="banner">Last updated on: 1st August 2026</div>
 
 <header class="site-nav"></header>
 
@@ -20,26 +20,49 @@
       <span style="font-size: 2.2rem;">👕</span>
       <div>
         <h1>Clothing, Sizes & Aesthetic 🧥</h1>
-        <p>Style notes, preferred color palette, exact sizing chart for Uniqlo, Vans, and basics.</p>
+        <p>Preferred brands, exact sizing charts, measurements, and future clothing inventory.</p>
       </div>
     </div>
   </section>
 
-  <!-- STYLE PHILOSOPHY -->
+  <!-- STYLE PHILOSOPHY & BRANDS -->
+  <section class="wishlist-section">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; min-width: 0; flex-wrap: wrap;">
+      <div>
+        <div class="section-header">
+          <h2>🖤 Style Philosophy</h2>
+        </div>
+        <p style="font-size: 0.95rem; line-height: 1.6; max-width: 65ch;" id="clothing-philosophy">
+          I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.
+        </p>
+      </div>
+      <div>
+        <div class="section-header">
+          <h2>🏷️ Brands I Wear</h2>
+        </div>
+        <div id="brands-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px;">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MY MEASUREMENTS -->
   <section class="wishlist-section">
     <div class="section-header">
-      <h2>🖤 Style Philosophy</h2>
+      <h2>📏 My Measurements</h2>
+      <p>Reference values shown in default cm & inches.</p>
     </div>
-    <p style="font-size: 0.95rem; line-height: 1.6; max-width: 65ch;" id="clothing-philosophy">
-      I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.
-    </p>
+    <div id="measurements-grid" class="horizontal-card-grid">
+      <!-- Populated by JS -->
+    </div>
   </section>
 
   <!-- SIZING TABLE -->
   <section class="wishlist-section">
     <div class="section-header">
       <h2>📐 Sizing & Preferred Items</h2>
-      <p>Exact measurements and brand preferences.</p>
+      <p>Exact measurements and brand preferences for common clothes.</p>
     </div>
 
     <div class="table-responsive">
@@ -59,6 +82,18 @@
       </table>
     </div>
   </section>
+
+  <!-- CLOTHING INVENTORY -->
+  <section class="wishlist-section">
+    <div class="section-header">
+      <h2>📦 Clothes Inventory</h2>
+      <p>My cataloged clothing categories & items (Dummy placeholders below, to be populated in the future).</p>
+    </div>
+
+    <div id="inventory-categories-container" style="display: flex; flex-direction: column; gap: 24px; margin-top: 16px;">
+      <!-- Populated by JS -->
+    </div>
+  </section>
 </main>
 
 <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
@@ -73,10 +108,69 @@
   const data = window.SITE_CONTENT.clothing;
   if (!data) return;
 
+  // Philosophy
   if (data.philosophy) {
     document.getElementById('clothing-philosophy').textContent = data.philosophy;
   }
 
+  // Brands I Wear
+  const brandsContainer = document.getElementById('brands-container');
+  if (brandsContainer && data.brands) {
+    brandsContainer.innerHTML = data.brands.map(b => `
+      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; display: flex; flex-direction: column; justify-content: center;">
+        <span style="font-weight: 700; color: var(--text); font-size: 0.9rem;">${b.name}</span>
+        <span style="font-size: 0.72rem; color: var(--text-muted); line-height: 1.2; margin-top: 2px;">${b.notes}</span>
+      </div>
+    `).join('');
+  }
+
+  // Measurements
+  const measurementsGrid = document.getElementById('measurements-grid');
+  if (measurementsGrid && data.measurements) {
+    measurementsGrid.innerHTML = data.measurements.map(m => {
+      let displayValue = '';
+      let displayNotes = '';
+
+      if (m.type === 'raw') {
+        displayValue = m.value;
+        displayNotes = m.notes || '';
+      } else if (m.type === 'length') {
+        displayValue = `${m.inches}"`;
+        const cm = Math.round(m.inches * 2.54);
+        displayNotes = `${cm} cm`;
+      } else if (m.type === 'length-range') {
+        displayValue = `${m.inchesMin} - ${m.inchesMax}"`;
+        const cmMin = Math.round(m.inchesMin * 2.54);
+        const cmMax = Math.round(m.inchesMax * 2.54);
+        displayNotes = `${cmMin} - ${cmMax} cm`;
+      } else if (m.type === 'height-range') {
+        const ftMin = Math.floor(m.inchesMin / 12);
+        const inMin = m.inchesMin % 12;
+        const ftMax = Math.floor(m.inchesMax / 12);
+        const inMax = m.inchesMax % 12;
+        displayValue = `${ftMin}'${inMin}" - ${ftMax}'${inMax}"`;
+        const cmMin = Math.round(m.inchesMin * 2.54);
+        const cmMax = Math.round(m.inchesMax * 2.54);
+        displayNotes = `${cmMin} - ${cmMax} cm`;
+      } else if (m.type === 'weight') {
+        displayValue = `${m.kg} kg`;
+        const totalLbs = m.kg * 2.20462;
+        const stones = Math.floor(totalLbs / 14);
+        const lbs = Math.round(totalLbs % 14);
+        displayNotes = `${stones} st ${lbs} lbs (${Math.round(totalLbs)} lbs)`;
+      }
+
+      return `
+        <div class="horizontal-card" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; min-height: 68px;">
+          <span style="font-size: 0.72rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">${m.label}</span>
+          <span style="font-size: 1.15rem; font-weight: 800; color: var(--text); margin: 2px 0 0 0;">${displayValue}</span>
+          <span style="font-size: 0.7rem; color: var(--text-muted); margin-top: 1px;">${displayNotes}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // Preferred items sizes table
   const tbody = document.getElementById('clothing-table-body');
   if (tbody && data.sizes) {
     tbody.innerHTML = data.sizes.map(row => `
@@ -88,6 +182,76 @@
         <td><a href="${row.url}" target="_blank" class="inv-action-btn">View Item ↗</a></td>
       </tr>
     `).join('');
+  }
+
+  // Inventory breakdown
+  const inventoryContainer = document.getElementById('inventory-categories-container');
+  if (inventoryContainer && data.inventory) {
+    // Define the distinct groups in order
+    const categoriesOrder = [
+      "Head (Hats)",
+      "Glasses",
+      "Scarves",
+      "Ties",
+      "Cufflinks",
+      "Shirts (Gym)",
+      "Shirts (Casual)",
+      "Shirts (Smart)",
+      "Trousers (Gym)",
+      "Trousers (Casual)",
+      "Trousers (PJ)",
+      "Trousers (Smart)",
+      "Underwear (Pants)",
+      "Socks",
+      "Shoes (Flip flops)",
+      "Shoes (Trainer)",
+      "Shoes (Wellington boots)",
+      "Shoes (Smart)",
+      "Shoes (Slipper)",
+      "Jacket / Hoodie / Coat (Light)",
+      "Jacket / Hoodie / Coat (Heavy)",
+      "Jacket / Hoodie / Coat (Winter)",
+      "Jacket / Hoodie / Coat (Rain)"
+    ];
+
+    // Group elements by matching key or generic grouping
+    const groupItems = {};
+    categoriesOrder.forEach(cat => { groupItems[cat] = []; });
+
+    data.inventory.forEach(item => {
+      // Find category key that matches item.type
+      const matchedCat = categoriesOrder.find(cat => item.type === cat || item.type.startsWith(cat)) || "Other";
+      if (!groupItems[matchedCat]) {
+        groupItems[matchedCat] = [];
+      }
+      groupItems[matchedCat].push(item);
+    });
+
+    let inventoryHTML = '';
+    categoriesOrder.forEach(category => {
+      const items = groupItems[category] || [];
+      inventoryHTML += `
+        <div style="background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 16px;">
+          <h3 style="color: var(--accent); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 6px; display: flex; align-items: center; justify-content: space-between;">
+            <span>📂 ${category}</span>
+            <span style="font-size: 0.75rem; background: var(--border); color: var(--text-muted); padding: 2px 6px; border-radius: 4px;">${items.length} Item(s)</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 10px;">
+            ${items.length > 0 ? items.map(item => `
+              <div style="background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; display: flex; flex-direction: column; justify-content: space-between;">
+                <span style="font-weight: 700; color: var(--text); font-size: 0.85rem;">${item.name}</span>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 6px; font-size: 0.75rem; color: var(--text-muted);">
+                  <span>Brand: <strong>${item.brand}</strong></span>
+                  <span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px;">Size: ${item.size}</span>
+                </div>
+              </div>
+            `).join('') : `<p style="font-size: 0.8rem; color: var(--text-muted); font-style: italic; margin: 0;">No items cataloged yet.</p>`}
+          </div>
+        </div>
+      `;
+    });
+
+    inventoryContainer.innerHTML = inventoryHTML;
   }
 })();
 </script>

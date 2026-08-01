@@ -434,13 +434,36 @@ window.SITE_CONTENT = {
   "clothing": {
     "title": "Clothing, Sizes & Style 👕",
     "philosophy": "I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.",
+    "measurements": [
+      { "label": "Shirt Size", "type": "raw", "value": "3XL / XXXL", "notes": "Preference for loose/casual fits" },
+      { "label": "Shoe Size", "type": "raw", "value": "10 - 11 UK", "notes": "Preference varies by brand fit" },
+      { "label": "Chest", "type": "length", "inches": 49 },
+      { "label": "Waist", "type": "length", "inches": 46 },
+      { "label": "Hips", "type": "length", "inches": 42 },
+      { "label": "Stomach (Widest)", "type": "length", "inches": 46 },
+      { "label": "Inseam", "type": "length", "inches": 32 },
+      { "label": "Neck/Collar", "type": "length", "inches": 19 },
+      { "label": "Sleeve Length", "type": "length", "inches": 24 },
+      { "label": "Shoulder (Single)", "type": "length-range", "inchesMin": 8, "inchesMax": 9 },
+      { "label": "Head Size", "type": "length", "inches": 23 },
+      { "label": "Height", "type": "height-range", "inchesMin": 67, "inchesMax": 68 },
+      { "label": "Weight", "type": "weight", "kg": 103 }
+    ],
+    "brands": [
+      { "name": "Vans", "notes": "Preferred shoes (Classic Slip-On)" },
+      { "name": "Nike", "notes": "Activewear & running trainers" },
+      { "name": "Uniqlo", "notes": "Go-to for basic T-Shirts, trousers, and shorts" },
+      { "name": "Ralph Lauren", "notes": "Smart casual, knitwear & collared shirts" },
+      { "name": "Havaianas", "notes": "Preferred flip-flops" },
+      { "name": "Crocs", "notes": "Comfortable & collaboration clogs" }
+    ],
     "sizes": [
       {
         "brand": "Uniqlo",
         "item": "UT Graphic T-Shirts",
         "color": "Black / Dark Gray",
         "size": "3XL",
-        "url": "https://www.uniqlo.com/uk/en/top/ut"
+        "url": "https://www.uniqlo.com/uk/en/men/tops/ut"
       },
       {
         "brand": "Uniqlo",
@@ -469,12 +492,52 @@ window.SITE_CONTENT = {
         "color": "Black",
         "size": "47/48 (11/12 UK)",
         "url": "https://www.havaianas-store.com/gb/en/havaianas-top/4000029-BLACK.html"
+      },
+      {
+        "brand": "Crocs",
+        "item": "Pokémon Collection Clogs",
+        "color": "Any / Pokémon",
+        "size": "11 UK",
+        "url": "https://www.crocs.co.uk/c/collections/more-collections/pokemon"
+      },
+      {
+        "brand": "Crocs",
+        "item": "LEGO® Collaboration Clogs",
+        "color": "Any / LEGO",
+        "size": "11 UK",
+        "url": "https://www.crocs.co.uk/c/collaborations/lego"
       }
+    ],
+    "inventory": [
+      { "name": "Dummy Hat", "brand": "Nike", "size": "N/A", "type": "Head (Hats)" },
+      { "name": "Dummy Sunglasses", "brand": "Vans", "size": "N/A", "type": "Glasses" },
+      { "name": "Dummy Scarf", "brand": "Ralph Lauren", "size": "N/A", "type": "Scarves" },
+      { "name": "Dummy Silk Tie", "brand": "Ralph Lauren", "size": "N/A", "type": "Ties" },
+      { "name": "Dummy Cufflinks", "brand": "Ralph Lauren", "size": "N/A", "type": "Cufflinks" },
+      { "name": "Black Casual T-Shirt", "brand": "Uniqlo", "size": "3XL", "type": "Shirts (Casual)" },
+      { "name": "Gym Tank", "brand": "Nike", "size": "3XL", "type": "Shirts (Gym)" },
+      { "name": "Button-down Shirt", "brand": "Ralph Lauren", "size": "3XL", "type": "Shirts (Smart)" },
+      { "name": "Linen Trousers", "brand": "Uniqlo", "size": "XL", "type": "Trousers (Casual)" },
+      { "name": "Gym Sweatpants", "brand": "Nike", "size": "XL", "type": "Trousers (Gym)" },
+      { "name": "Flannel PJ Bottoms", "brand": "Uniqlo", "size": "XL", "type": "Trousers (PJ)" },
+      { "name": "Chino Trousers", "brand": "Ralph Lauren", "size": "XL", "type": "Trousers (Smart)" },
+      { "name": "Cotton Boxers", "brand": "Uniqlo", "size": "XL", "type": "Underwear (Pants)" },
+      { "name": "Ankle Socks", "brand": "Nike", "size": "11 UK", "type": "Socks" },
+      { "name": "Top Flip-Flops", "brand": "Havaianas", "size": "11/12 UK", "type": "Shoes (Flip flops)" },
+      { "name": "Classic Slip-Ons", "brand": "Vans", "size": "11 UK", "type": "Shoes (Trainer)" },
+      { "name": "Rain Boots", "brand": "N/A", "size": "11 UK", "type": "Shoes (Wellington boots)" },
+      { "name": "Oxford Shoes", "brand": "N/A", "size": "11 UK", "type": "Shoes (Smart)" },
+      { "name": "Fleece Slippers", "brand": "Uniqlo", "size": "11 UK", "type": "Shoes (Slipper)" },
+      { "name": "Windbreaker Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Light)" },
+      { "name": "Heavy Zip Hoodie", "brand": "Vans", "size": "3XL", "type": "Jacket / Hoodie / Coat (Heavy)" },
+      { "name": "Puffer Winter Coat", "brand": "Uniqlo", "size": "3XL", "type": "Jacket / Hoodie / Coat (Winter)" },
+      { "name": "Rain Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Rain)" }
     ]
   },
   "boardgames": {
-      "title": "Board Games & Tabletop \ud83c\udfb2",
+      "title": "Board Games & Tabletop 🎲",
       "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
+      "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=list_d_wl_lfu_nav_3",
       "owned": [
             {
                   "name": "The Quacks of Quedlinburg (+ Expansions)",
@@ -3007,121 +3070,173 @@ window.SITE_CONTENT = {
   },
   "home": {
     "title": "Home & Smart Tech Setup 🏡",
-    "subtitle": "Room-by-room breakdown — Office workspace, Philips Hue smart lighting, bathroom shower niches & kitchen tools.",
-    "rooms": {
-      "office": {
-        "title": "🖥️ Office & Developer Workspace",
-        "items": [
-          {
-            "name": "JetBrains All Products Pack (GoLand, IntelliJ, RubyMine)",
-            "badge": "Primary IDEs"
+    "subtitle": "Room-by-room layout, smart home devices, and active projects.",
+    "floors": {
+      "ground": {
+        "name": "Ground Floor (Floor 0)",
+        "icon": "🟩",
+        "rooms": {
+          "hallway": {
+            "name": "Ground Floor Hallway",
+            "hueGroup": 11,
+            "lights": { "Bulb": 4 },
+            "switches": ["Hallway (Switch) 19"],
+            "projects": []
           },
-          {
-            "name": "Keychron K8 Pro Wireless Mechanical Keyboard",
-            "badge": "Tactile Switches"
+          "front_door": {
+            "name": "Front Door",
+            "hueGroup": 14,
+            "lights": { "Bulb": 1 },
+            "projects": []
           },
-          {
-            "name": "Dual 27\" 4K IPS Ergonomic Monitor Arms",
-            "badge": "Desk Setup"
+          "living": {
+            "name": "Lounge / Living Room",
+            "hueGroup": 6,
+            "lights": { "Bulb": 4, "Play": 2, "Lightstrip": 1 },
+            "switches": ["Living room (Switch) 21", "Living room (Tap) 24"],
+            "projects": [
+              { "name": "Philips Hue HDMI Sync Box Setup", "status": "in-progress" },
+              { "name": "Kallax Board Game Storage Shelving", "status": "completed" },
+              { "name": "AV Receiver Cable Concealment", "status": "planned" }
+            ]
+          },
+          "dining": {
+            "name": "Dining Room",
+            "projects": []
+          },
+          "kitchen": {
+            "name": "Kitchen & Culinary Tech",
+            "hueGroup": 5,
+            "lights": { "Bulb": 7 },
+            "switches": ["Kitchen (Switch) 18"],
+            "projects": [
+              { "name": "Coffee Niche Espresso Corner", "status": "in-progress" },
+              { "name": "Sous-Vide Water Oven Drawer", "status": "completed" },
+              { "name": "Spice Rack & Container Labeling", "status": "planned" }
+            ]
+          },
+          "toilet": {
+            "name": "Downstairs Toilet / Cloakroom",
+            "projects": []
           }
-        ]
+        }
       },
-      "living": {
-        "title": "💡 Living Room & Smart Lighting",
-        "items": [
-          {
-            "name": "Philips Hue Bridge v2 (192.168.86.25)",
-            "badge": "Smart Hub"
+      "first": {
+        "name": "Middle Floor (1st Floor)",
+        "icon": "🟨",
+        "rooms": {
+          "hallway": {
+            "name": "Middle Floor Hallway & Stairs",
+            "hueGroup": 2,
+            "lights": { "Bulb": 2, "Go": 1 },
+            "projects": []
           },
-          {
-            "name": "Philips Hue Play Gradient Lightstrip & Bar Lights",
-            "badge": "TV Sync"
+          "guest": {
+            "name": "Guest Room (Bedroom 2)",
+            "hueGroup": 85,
+            "lights": { "Bulb": 1, "Go": 1 },
+            "switches": ["Guest room (Switch) 17"],
+            "projects": []
           },
-          {
-            "name": "Philips Hue Tap Dial Switches & Dimmer V2",
-            "badge": "Physical Controls"
+          "office": {
+            "name": "Office & Workstation (Bedroom 3)",
+            "hueGroup": 7,
+            "lights": { "Bulb": 4, "FairyLight": 1 },
+            "switches": ["Office (Desk) [Dial] 7", "Office (Desk) [Button] 8", "Office (Switch) 22"],
+            "projects": [
+              { "name": "Under-Desk Cable Management Routing", "status": "in-progress" },
+              { "name": "Dual Monitor Arm Desk Mount", "status": "completed" },
+              { "name": "Elgato Stream Deck Keybind Layout", "status": "planned" }
+            ]
+          },
+          "bathroom": {
+            "name": "Main Bathroom",
+            "projects": []
           }
-        ]
+        }
       },
-      "bathroom": {
-        "title": "🛁 Bathroom Renovation",
-        "items": [
-          {
-            "name": "ELEGANT Stainless Steel Recessed Shower Niches (300x600mm)",
-            "badge": "Shower Niche"
+      "second": {
+        "name": "Top Floor (2nd Floor)",
+        "icon": "🟦",
+        "rooms": {
+          "hallway": {
+            "name": "Top Floor Stairs & Landing",
+            "hueGroup": 12,
+            "lights": { "Bulb": 1 },
+            "projects": []
           },
-          {
-            "name": "Brushed Brass Thermostatic Mixer Shower System",
-            "badge": "Fixtures"
-          }
-        ]
-      },
-      "kitchen": {
-        "title": "☕ Kitchen & Coffee Station",
-        "items": [
-          {
-            "name": "Heston Blumenthal Precision Dual Kitchen Scale",
-            "badge": "Food Tech"
+          "master": {
+            "name": "Master Bedroom (Bedroom 1)",
+            "hueGroup": 8,
+            "lights": { "Bulb": 2, "Go": 2, "Lightstrip": 1, "FairyLight": 1 },
+            "switches": ["Master Bedroom (Bed) 9", "Master Bedroom (Switch) 23"],
+            "projects": [
+              { "name": "Dual Bedside Qi2 Fast Chargers", "status": "completed" },
+              { "name": "Automated Smart Roller Blinds", "status": "planned" }
+            ]
           },
-          {
-            "name": "Joseph Joseph Elevate Carousel 6-Piece Tool Set",
-            "badge": "Utensils"
+          "ensuite": {
+            "name": "Master Ensuite",
+            "hueGroup": 81,
+            "lights": { "Ceiling": 1 },
+            "projects": [
+              { "name": "ELEGANT Stainless Steel Niche (90x30 cm)", "status": "in-progress" },
+              { "name": "ELEGANT Stainless Steel Niche (60x30 cm)", "status": "planned" },
+              { "name": "Waterproof Bluetooth Audio Speaker", "status": "planned" }
+            ]
+          },
+          "cosy": {
+            "name": "Cosy Room (Bedroom 4)",
+            "hueGroup": 4,
+            "lights": { "Bulb": 1 },
+            "switches": ["Cosy Room (Switch) 20"],
+            "projects": []
           }
-        ]
+        }
       }
     }
   },
   "misc": {
-    "title": "Stores & Subscription Boxes 🛒",
-    "subtitle": "Official merch stores, developer tools, household brands & curated subscription boxes.",
-    "merch": [
-      {
-        "name": "Google Merchandise Store",
-        "url": "https://shop.googlemerchandisestore.com/",
-        "icon": "🌐"
-      },
-      {
-        "name": "GitHub Official Shop",
-        "url": "https://github.myshopify.com/",
-        "icon": "🐙"
-      },
-      {
-        "name": "GitKraken Legendary Swag",
-        "url": "https://store.gitkraken.com/",
-        "icon": "🐙"
-      },
-      {
-        "name": "Fangamer Gaming Merch",
-        "url": "https://www.fangamer.com/",
-        "icon": "👾"
-      },
-      {
-        "name": "Pokémon Center UK",
-        "url": "https://www.pokemoncenter.com/en-gb",
-        "icon": "🔴"
-      }
+    "title": "Brands, Stores & Subscriptions 🛍️",
+    "subtitle": "Favorite tech merch stores, household decor, and ongoing subscription boxes.",
+    "techMerch": [
+      { "name": "Google Merch Store", "url": "https://your.merch.google/", "icon": "https://unavatar.io/google.com" },
+      { "name": "GitHub Shop", "url": "https://thegithubshop.com/", "icon": "https://unavatar.io/github.com" },
+      { "name": "GitKraken Store", "url": "https://www.gitkraken.com/store", "icon": "https://unavatar.io/gitkraken.com" },
+      { "name": "DevRant Swag", "url": "https://swag.devrant.com", "icon": "https://unavatar.io/devrant.com" },
+      { "name": "Merchoid UK", "url": "https://www.merchoid.com/uk/", "icon": "https://unavatar.io/merchoid.com" },
+      { "name": "Fangamer", "url": "http://www.fangamer.com/", "icon": "https://unavatar.io/fangamer.com" },
+      { "name": "Pokemon Center", "url": "https://www.pokemoncenter.com", "icon": "https://unavatar.io/pokemoncenter.com" },
+      { "name": "Nintendo Store", "url": "https://store.nintendo.com/en-gb", "icon": "https://unavatar.io/nintendo.com" },
+      { "name": "Warhammer (Tau)", "url": "https://www.warhammer.com/en-GB/home", "icon": "https://unavatar.io/warhammer.com" },
+      { "name": "Polaroid", "url": "https://www.polaroid.com/en_gb", "icon": "https://unavatar.io/polaroid.com" },
+      { "name": "Burgschneider (LARP)", "url": "https://burgschneider.com/en-uk", "icon": "https://unavatar.io/burgschneider.com" },
+      { "name": "Snorlax Pokémon Sleep Figure", "url": "https://meccha-japan.com/en/figures/156385-figure-master-class-snorlax-pokemon-sleep.html", "icon": "https://unavatar.io/meccha-japan.com" },
+      { "name": "D&D Accessories", "url": "https://dndstore.wizards.com/uk/en/accessories", "icon": "https://unavatar.io/wizards.com" }
+    ],
+    "householdBrands": [
+      { "name": "Joseph Joseph", "url": "https://www.josephjoseph.com", "icon": "https://unavatar.io/josephjoseph.com" },
+      { "name": "OXO Kitchen", "url": "https://www.oxouk.com", "icon": "https://unavatar.io/oxouk.com" },
+      { "name": "SimpleHuman", "url": "https://www.simplehuman.co.uk", "icon": "https://unavatar.io/simplehuman.co.uk" },
+      { "name": "City Frames (Relief Maps)", "url": "https://www.cityframes.de/", "icon": "https://unavatar.io/cityframes.de" },
+      { "name": "ThinkAboutMaps", "url": "https://thinkaboutmaps.com/", "icon": "https://unavatar.io/thinkaboutmaps.com" },
+      { "name": "Boneyard London (Plants)", "url": "https://boneyardlondon.com/", "icon": "https://unavatar.io/boneyardlondon.com" },
+      { "name": "SharkNinja", "url": "https://www.sharkninja.co.uk/", "icon": "https://unavatar.io/sharkninja.co.uk" }
     ],
     "subscriptions": [
-      {
-        "name": "Bokksu Authentic Japanese Snack Box",
-        "type": "Snack Box",
-        "url": "https://www.bokksu.com/"
-      },
-      {
-        "name": "JOMO Club Alcohol-Free Spirit Box",
-        "type": "Craft Drinks",
-        "url": "https://jomoclub.co.uk/"
-      },
-      {
-        "name": "Craftiosity Handcrafted DIY Box",
-        "type": "Crafts",
-        "url": "https://craftiosity.co.uk/"
-      },
-      {
-        "name": "Creation Crate STEM Electronics Kit",
-        "type": "Electronics",
-        "url": "https://www.creationcrate.com/"
-      }
+      { "name": "Bokksu (Japanese Snacks)", "category": "Food & Snacks", "url": "https://www.bokksu.com/" },
+      { "name": "TokyoTreat", "category": "Food & Snacks", "url": "https://tokyotreat.com/" },
+      { "name": "Fodabox", "category": "Food & Snacks", "url": "https://www.fodabox.com/" },
+      { "name": "JOMO Club (Non-Alcoholic)", "category": "Drinks (Non-Alcoholic & Gin)", "url": "https://jomoclub.co.uk/" },
+      { "name": "I Love Gin", "category": "Drinks (Non-Alcoholic & Gin)", "url": "https://www.ilovegin.com/" },
+      { "name": "Craft Gin Club", "category": "Drinks (Non-Alcoholic & Gin)", "url": "https://www.craftginclub.co.uk/" },
+      { "name": "Taste Cocktails", "category": "Drinks (Non-Alcoholic & Gin)", "url": "https://tastecocktails.com/" },
+      { "name": "Craftiosity", "category": "Crafts & Activities", "url": "https://craftiosity.co.uk/" },
+      { "name": "The Woobles (Crochet)", "category": "Crafts & Activities", "url": "https://thewoobles.com/en-gb" },
+      { "name": "CircuitMess (STEM Kits)", "category": "Crafts & Activities", "url": "https://circuitmess.com/gb-en/" },
+      { "name": "Makedo (Cardboard Tools - for nephews)", "category": "Crafts & Activities", "url": "https://www.make.do/" },
+      { "name": "Cernamic Dalston (Pottery Classes)", "category": "Crafts & Activities", "url": "https://www.cernamic.com/classes/dalston" },
+      { "name": "Pause for Mind", "category": "Crafts & Activities", "url": "https://www.pauseformind.org.uk/" }
     ]
   }
 };

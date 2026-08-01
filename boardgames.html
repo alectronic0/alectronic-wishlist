@@ -24,7 +24,10 @@
           <p id="boardgame-subtitle">Tabletop strategy, push-your-luck bag builders, card games, and expansions.</p>
         </div>
       </div>
-      <a id="bgg-link" href="https://boardgamegeek.com/collection/user/Alectronic" target="_blank" class="inv-action-btn" style="padding: 8px 18px; font-size: 0.88rem;">BoardGameGeek Profile ↗</a>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+        <a id="bgg-link" href="https://boardgamegeek.com/collection/user/Alectronic" target="_blank" class="inv-action-btn" style="padding: 8px 14px; font-size: 0.85rem;">BoardGameGeek Profile ↗</a>
+        <a id="amazon-wishlist-link" href="https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=list_d_wl_lfu_nav_3" target="_blank" class="inv-action-btn" style="padding: 8px 14px; font-size: 0.85rem;">Amazon Wishlist ↗</a>
+      </div>
     </div>
   </section>
 
@@ -51,6 +54,9 @@
     `${data.owned.length} Owned Games · ${data.wishlist.length} Wishlist Games`;
   if (data.bggUrl) {
     document.getElementById('bgg-link').href = data.bggUrl;
+  }
+  if (data.amazonWishlistUrl) {
+    document.getElementById('amazon-wishlist-link').href = data.amazonWishlistUrl;
   }
 
   function renderCard(item, isWishlist) {
