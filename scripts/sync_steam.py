@@ -34,7 +34,7 @@ def fetch_steam_games():
                 img = f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg"
                 formatted_games.append({
                     "name": name,
-                    "console": "steam",
+                    "platform": "steam",
                     "badge": f"{playtime_hours} hrs played",
                     "img": img,
                     "appid": appid
