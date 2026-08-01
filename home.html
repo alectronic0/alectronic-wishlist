@@ -28,7 +28,7 @@
 
   <style>
     .floor-section {
-      margin-bottom: 32px;
+      margin-bottom: 36px;
       padding: 16px 0;
       border-bottom: 1px solid var(--border);
     }
@@ -39,7 +39,7 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      margin-bottom: 18px;
+      margin-bottom: 20px;
     }
     .floor-title h2 {
       margin: 0;
@@ -50,16 +50,46 @@
       font-size: 1.8rem;
     }
     .room-layout-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 16px;
+    }
+    .room-card {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      padding: 20px;
+      align-items: stretch;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .room-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .room-info-side {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .room-projects-side {
+      flex: 1.2;
+      border-left: 1px dashed var(--border);
+      padding-left: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
     .room-smart-tech {
       background: rgba(153, 78, 168, 0.04);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 10px 12px;
-      margin-top: 10px;
+      padding: 12px 14px;
+      margin-top: 12px;
     }
     .smart-tech-header {
       font-size: 0.74rem;
@@ -87,6 +117,18 @@
       font-size: 0.68rem;
       font-weight: 800;
     }
+    @media (max-width: 768px) {
+      .room-card {
+        flex-direction: column;
+        gap: 16px;
+      }
+      .room-projects-side {
+        border-left: none;
+        border-top: 1px dashed var(--border);
+        padding-left: 0;
+        padding-top: 16px;
+      }
+    }
   </style>
 
   <div id="home-content-container" style="margin-top: 24px;"></div>
@@ -106,7 +148,104 @@
         .join(', ');
     }
 
-    let html = '';
+    // Render Whole House Row at the very top
+    let wholeHouseHTML = '';
+    const hasHouseLights = homeData.lights && Object.keys(homeData.lights).length > 0;
+    const hasHouseSwitches = homeData.switches && homeData.switches.length > 0;
+    
+    let houseSmartTechHTML = '';
+    if (hasHouseLights || hasHouseSwitches) {
+      houseSmartTechHTML = `
+        <div class="room-smart-tech">
+          <div class="smart-tech-header">
+            <span>💡 Whole-House Infrastructure</span>
+          </div>
+          <div class="smart-tech-detail">
+            ${hasHouseLights ? `<div><strong>Total Lights:</strong> ${formatLights(homeData.lights)}</div>` : ''}
+            ${hasHouseSwitches ? `<div><strong>Switches:</strong> ${homeData.switches.join(', ')}</div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+
+    let houseInventoryHTML = '';
+    if (homeData.inventory && homeData.inventory.length > 0) {
+      houseInventoryHTML = `
+        <div style="margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px;">
+          <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">House Inventory:</strong>
+          <ul style="margin: 8px 0 0 0; padding-left: 20px; font-size: 0.84rem; color: var(--text-muted);">
+            ${homeData.inventory.map(item => {
+              if (item.isHeader) {
+                return `
+                  <li style="margin: 12px 0 6px 0; list-style: none; margin-left: -20px; font-weight: 700; font-size: 0.8rem; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 2px;">
+                    ${item.name}
+                  </li>
+                `;
+              }
+              return `
+                <li style="margin-bottom: 4px;">
+                  <span>${item.name}</span>
+                  ${item.badge ? `<span class="inv-item-badge" style="margin-left:6px; font-size:0.68rem; padding:1px 5px; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:4px;">${item.badge}</span>` : ''}
+                </li>
+              `;
+            }).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    let houseProjectsHTML = '';
+    if (homeData.projects && homeData.projects.length > 0) {
+      houseProjectsHTML = `
+        <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">Whole House Projects:</strong>
+        <ul class="project-list" style="margin-top: 8px;">
+          ${homeData.projects.map(proj => {
+            let badgeClass = 'badge-planned';
+            let statusLabel = 'Planned';
+            if (proj.status === 'in-progress') {
+              badgeClass = 'badge-in-progress';
+              statusLabel = 'In Progress';
+            } else if (proj.status === 'completed') {
+              badgeClass = 'badge-done';
+              statusLabel = 'Completed';
+            }
+            return `
+              <li class="project-item">
+                <span>${proj.name}</span>
+                <span class="project-badge ${badgeClass}">${statusLabel}</span>
+              </li>
+            `;
+          }).join('')}
+        </ul>
+      `;
+    }
+
+    wholeHouseHTML = `
+      <section class="floor-section" style="border-bottom: 2px solid var(--border-strong); padding-bottom: 24px;">
+        <div class="floor-title">
+          <span class="floor-icon">🏡</span>
+          <h2>Whole House</h2>
+        </div>
+        <div class="room-card" style="border: 1px solid var(--border-strong);">
+          <div class="room-info-side">
+            <div class="room-header" style="margin-bottom: 4px;">
+              <div class="room-title-group">
+                <h3 style="font-size: 1.2rem; margin: 0; color: var(--text); font-weight: 700;">Home & Infrastructure</h3>
+              </div>
+            </div>
+            ${houseSmartTechHTML}
+            ${houseInventoryHTML}
+          </div>
+          ${houseProjectsHTML ? `
+            <div class="room-projects-side">
+              ${houseProjectsHTML}
+            </div>
+          ` : ''}
+        </div>
+      </section>
+    `;
+
+    let html = wholeHouseHTML;
     
     if (homeData.floors) {
       Object.entries(homeData.floors).forEach(([key, floor]) => {
@@ -118,28 +257,26 @@
             let projectsHTML = '';
             if (room.projects && room.projects.length > 0) {
               projectsHTML = `
-                <div style="margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px;">
-                  <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">Active & Planned Projects:</strong>
-                  <ul class="project-list" style="margin-top: 8px;">
-                    ${room.projects.map(proj => {
-                      let badgeClass = 'badge-planned';
-                      let statusLabel = 'Planned';
-                      if (proj.status === 'in-progress') {
-                        badgeClass = 'badge-in-progress';
-                        statusLabel = 'In Progress';
-                      } else if (proj.status === 'completed') {
-                        badgeClass = 'badge-done';
-                        statusLabel = 'Completed';
-                      }
-                      return `
-                        <li class="project-item">
-                          <span>${proj.name}</span>
-                          <span class="project-badge ${badgeClass}">${statusLabel}</span>
-                        </li>
-                      `;
-                    }).join('')}
-                  </ul>
-                </div>
+                <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">Active & Planned Projects:</strong>
+                <ul class="project-list" style="margin-top: 8px;">
+                  ${room.projects.map(proj => {
+                    let badgeClass = 'badge-planned';
+                    let statusLabel = 'Planned';
+                    if (proj.status === 'in-progress') {
+                      badgeClass = 'badge-in-progress';
+                      statusLabel = 'In Progress';
+                    } else if (proj.status === 'completed') {
+                      badgeClass = 'badge-done';
+                      statusLabel = 'Completed';
+                    }
+                    return `
+                      <li class="project-item">
+                        <span>${proj.name}</span>
+                        <span class="project-badge ${badgeClass}">${statusLabel}</span>
+                      </li>
+                    `;
+                  }).join('')}
+                </ul>
               `;
             }
 
@@ -147,14 +284,12 @@
             let smartTechHTML = '';
             const hasLights = room.lights && Object.keys(room.lights).length > 0;
             const hasSwitches = room.switches && room.switches.length > 0;
-            const hasHueGroup = room.hueGroup !== undefined;
 
-            if (hasLights || hasSwitches || hasHueGroup) {
+            if (hasLights || hasSwitches) {
               smartTechHTML = `
                 <div class="room-smart-tech">
                   <div class="smart-tech-header">
                     <span>💡 Smart Lighting</span>
-                    ${hasHueGroup ? `<span class="hue-group-badge">Hue Group ${room.hueGroup}</span>` : ''}
                   </div>
                   <div class="smart-tech-detail">
                     ${hasLights ? `<div><strong>Lights:</strong> ${formatLights(room.lights)}</div>` : ''}
@@ -164,15 +299,49 @@
               `;
             }
 
+            // Render Room Inventory List
+            let inventoryHTML = '';
+            if (room.inventory && room.inventory.length > 0) {
+              inventoryHTML = `
+                <div style="margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px;">
+                  <strong style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">Room Inventory:</strong>
+                  <ul style="margin: 8px 0 0 0; padding-left: 20px; font-size: 0.84rem; color: var(--text-muted);">
+                    ${room.inventory.map(item => {
+                      if (item.isHeader) {
+                        return `
+                          <li style="margin: 12px 0 6px 0; list-style: none; margin-left: -20px; font-weight: 700; font-size: 0.8rem; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 2px;">
+                            ${item.name}
+                          </li>
+                        `;
+                      }
+                      return `
+                        <li style="margin-bottom: 4px;">
+                          <span>${item.name}</span>
+                          ${item.badge ? `<span class="inv-item-badge" style="margin-left:6px; font-size:0.68rem; padding:1px 5px; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:4px;">${item.badge}</span>` : ''}
+                        </li>
+                      `;
+                    }).join('')}
+                  </ul>
+                </div>
+              `;
+            }
+
             roomsHTML += `
               <div class="room-card">
-                <div class="room-header" style="margin-bottom: 6px;">
-                  <div class="room-title-group">
-                    <h3 style="font-size: 1.05rem; margin: 0; color: var(--text); font-weight: 700;">${room.name}</h3>
+                <div class="room-info-side">
+                  <div class="room-header" style="margin-bottom: 4px;">
+                    <div class="room-title-group">
+                      <h3 style="font-size: 1.15rem; margin: 0; color: var(--text); font-weight: 700;">${room.name}</h3>
+                    </div>
                   </div>
+                  ${smartTechHTML}
+                  ${inventoryHTML}
                 </div>
-                ${smartTechHTML}
-                ${projectsHTML}
+                ${projectsHTML ? `
+                  <div class="room-projects-side">
+                    ${projectsHTML}
+                  </div>
+                ` : ''}
               </div>
             `;
           });

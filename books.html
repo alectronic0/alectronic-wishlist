@@ -7,6 +7,330 @@
   <meta name="description" content="Alec Doran-Twyford's Book Library — Cookbooks, manga, computer science textbooks, and pop non-fiction.">
   <meta name="theme-color" content="#160d14">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Manga Series container */
+    .manga-series-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      margin-bottom: 24px;
+      display: flex;
+      gap: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .manga-series-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .manga-cover {
+      width: 110px;
+      height: 160px;
+      background: #ffffff;
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+    .manga-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .manga-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .manga-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+    .manga-author {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .manga-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.45;
+    }
+    .volumes-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+    .vol-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      border: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.1s, opacity 0.15s;
+    }
+    .vol-btn:hover {
+      transform: scale(1.1);
+      opacity: 0.95;
+    }
+    .vol-btn.owned {
+      background: var(--mint);
+      color: var(--bg);
+    }
+    .vol-btn.wanted {
+      background: var(--rose);
+      color: var(--bg);
+    }
+
+    /* Modal Styling */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+    .modal-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-content {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-strong);
+      border-radius: 12px;
+      width: 90%;
+      max-width: 480px;
+      padding: 24px;
+      position: relative;
+      transform: translateY(20px);
+      transition: transform 0.2s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .modal-overlay.open .modal-content {
+      transform: translateY(0);
+    }
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 14px;
+      background: none;
+      border: none;
+      font-size: 1.6rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px;
+      transition: color 0.15s;
+    }
+    .modal-close:hover {
+      color: var(--text);
+    }
+    .modal-body {
+      display: flex;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    .modal-body-img {
+      width: 140px;
+      height: 200px;
+      background: #ffffff;
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+    .modal-body-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .modal-body-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .modal-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+      line-height: 1.25;
+    }
+    .modal-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .modal-status {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+    .modal-status.owned {
+      background: rgba(127, 194, 166, 0.15);
+      color: var(--mint);
+      border: 1px solid rgba(127, 194, 166, 0.3);
+    }
+    .modal-status.wanted {
+      background: rgba(255, 107, 138, 0.15);
+      color: var(--rose);
+      border: 1px solid rgba(255, 107, 138, 0.3);
+    }
+    .modal-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .modal-link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--border);
+      border: 1px solid var(--border-strong);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .modal-link-btn:hover {
+      background: var(--card-hover);
+      border-color: var(--accent);
+      color: var(--text);
+      text-decoration: none;
+    }
+    .modal-link-btn.amazon {
+      background: rgba(230, 169, 121, 0.12);
+      border-color: rgba(230, 169, 121, 0.4);
+      color: var(--gold);
+    }
+    .modal-link-btn.amazon:hover {
+      background: rgba(230, 169, 121, 0.2);
+      border-color: var(--gold);
+    }
+
+    /* Fallback cover style */
+    .fallback-cover {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, var(--border), var(--card-hover));
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 12px 10px;
+      color: var(--text-muted);
+      border: 1px solid var(--border-strong);
+      border-radius: 4px;
+    }
+    .fallback-cover-title {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.25;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .fallback-cover-author {
+      font-size: 0.6rem;
+      font-weight: 600;
+      opacity: 0.75;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      margin-top: auto;
+    }
+
+    @media (max-width: 576px) {
+      .manga-series-card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .manga-cover {
+        align-self: center;
+      }
+      .volumes-grid {
+        justify-content: flex-start;
+      }
+      .modal-body {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .modal-body-img {
+        width: 120px;
+        height: 170px;
+      }
+      .modal-status {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    /* Columns of 6 grid for standard books */
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+      margin-top: 12px;
+    }
+    
+    @media (max-width: 1200px) {
+      .book-grid {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+    @media (max-width: 992px) {
+      .book-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    @media (max-width: 768px) {
+      .book-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      .book-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -16,21 +340,40 @@
 
 <main class="container">
   <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
-    <div style="display: flex; align-items: center; gap: 12px;">
-      <span style="font-size: 2.2rem;">📚</span>
-      <div>
-        <h1>Books & Reference 📖</h1>
-        <p id="books-subtitle">Culinary reference books, hardcover manga collections, and CS textbooks.</p>
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 2.2rem;">📚</span>
+        <div>
+          <h1>Books & Reference 📖</h1>
+          <p id="books-subtitle">Culinary reference books, hardcover manga collections, and CS textbooks.</p>
+        </div>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+        <a id="amazon-wishlist-link" href="#" target="_blank" class="inv-action-btn" style="padding: 8px 14px; font-size: 0.85rem; display: none;">Amazon Wishlist ↗</a>
       </div>
     </div>
   </section>
 
-  <!-- OWNED BOOKS -->
-  <section class="wishlist-section" id="books-owned-section"></section>
+  <!-- MANGA & VOLUME SERIES -->
+  <section class="wishlist-section">
+    <div class="section-header">
+      <h2>📚 Manga & Graphic Novels</h2>
+      <p>Volume collections and series progress.</p>
+    </div>
+    <div id="manga-section" style="display: flex; flex-direction: column; gap: 16px;"></div>
+  </section>
 
-  <!-- WANTED BOOKS -->
-  <section class="wishlist-section" id="books-wanted-section"></section>
+  <!-- NORMAL CATEGORIZED BOOKS -->
+  <div id="books-section"></div>
 </main>
+
+<!-- MODAL OVERLAY -->
+<div id="book-modal" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" id="modal-close-btn" type="button" aria-label="Close Modal">&times;</button>
+    <div class="modal-body" id="modal-body-content"></div>
+  </div>
+</div>
 
 <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
   <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
@@ -44,71 +387,278 @@
   const data = window.SITE_CONTENT.books;
   if (!data) return;
 
+  // Calculate book counts across manga volumes and normal books
+  const ownedManga = data.manga ? data.manga.reduce((sum, s) => sum + s.volumes.filter(v => v.status === 'owned').length, 0) : 0;
+  const wantedManga = data.manga ? data.manga.reduce((sum, s) => sum + s.volumes.filter(v => v.status === 'wanted').length, 0) : 0;
+  
+  const ownedNormal = data.normal ? data.normal.filter(b => b.status === 'owned').length : 0;
+  const wantedNormal = data.normal ? data.normal.filter(b => b.status === 'wanted').length : 0;
+
   document.getElementById('books-subtitle').textContent = 
-    `${data.owned.length} Owned Books · ${data.wishlist.length} Wishlist Books`;
+    `${ownedManga + ownedNormal} Owned Books · ${wantedManga + wantedNormal} Wishlist Books`;
 
-  function renderCard(item, isWishlist) {
-    const card = document.createElement('div');
-    card.className = 'wishlist-item';
+  if (data.amazonWishlistUrl) {
+    const wishlistLink = document.getElementById('amazon-wishlist-link');
+    if (wishlistLink) {
+      wishlistLink.href = data.amazonWishlistUrl;
+      wishlistLink.style.display = 'inline-block';
+    }
+  }
 
-    let infoHTML = '';
-    if (isWishlist) {
-      infoHTML = `
-        <a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
-          <span class="wishlist-item-price">${item.price}</span>
-          <a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>
-        </div>`;
+  // Modal Setup
+  const modal = document.getElementById('book-modal');
+  const modalBody = document.getElementById('modal-body-content');
+  const closeBtn = document.getElementById('modal-close-btn');
+
+  function openModal(series, vol) {
+    let imgHTML = '';
+    if (vol.img && vol.img !== '') {
+      imgHTML = `<img src="${vol.img}" alt="${series.series} Vol. ${vol.vol}">`;
     } else {
-      infoHTML = `
-        <div class="wishlist-item-title">${item.name}</div>
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:4px;">
-          <span class="inv-item-badge">${item.badge || item.category}</span>
-          <span style="font-size:0.76rem; color:var(--mint); font-weight:600;">✓ Owned</span>
-        </div>`;
+      imgHTML = `
+        <div class="fallback-cover">
+          <div class="fallback-cover-title">${series.series}</div>
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--text); margin-top: 8px;">Vol. ${vol.vol}</div>
+          <div class="fallback-cover-author">${series.author}</div>
+        </div>
+      `;
     }
 
-    card.innerHTML = `
-      <div class="wishlist-item-img" style="background: #ffffff; padding: 10px; display: flex; align-items: center; justify-content: center;">
-        <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
+    const statusClass = vol.status === 'owned' ? 'owned' : 'wanted';
+    const statusLabel = vol.status === 'owned' ? '✓ Owned' : '🎁 Wanted';
+
+    let linksHTML = '';
+    if (vol.amazon) {
+      linksHTML += `<a href="${vol.amazon}" target="_blank" class="modal-link-btn amazon">Amazon.co.uk ↗</a>`;
+    }
+    if (vol.goodreads) {
+      linksHTML += `<a href="${vol.goodreads}" target="_blank" class="modal-link-btn">Goodreads ↗</a>`;
+    }
+    if (vol.waterstones) {
+      linksHTML += `<a href="${vol.waterstones}" target="_blank" class="modal-link-btn">Waterstones ↗</a>`;
+    }
+    if (linksHTML === '') {
+      const fallbackUrl = series.wishlistUrl || data.amazonWishlistUrl || '#';
+      linksHTML += `<a href="${fallbackUrl}" target="_blank" class="modal-link-btn amazon">Series Wishlist ↗</a>`;
+    }
+
+    modalBody.innerHTML = `
+      <div class="modal-body-img">
+        ${imgHTML}
       </div>
-      <div class="wishlist-item-info">${infoHTML}</div>`;
-    return card;
+      <div class="modal-body-info">
+        <div>
+          <div class="modal-title">${series.series}</div>
+          <div class="modal-subtitle">Volume ${vol.vol} &middot; By ${series.author}</div>
+          <div class="modal-status ${statusClass}">${statusLabel}</div>
+        </div>
+        <div class="modal-links">
+          ${linksHTML}
+        </div>
+      </div>
+    `;
+
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
   }
 
-  function renderGrid(containerId, title, subtitle, items, isWishlist) {
-    const container = document.getElementById(containerId);
-    if (!container) return;
-
-    const header = document.createElement('div');
-    header.className = 'section-header';
-    header.innerHTML = `<h2>${title}</h2><p>${subtitle}</p>`;
-    container.appendChild(header);
-
-    const grid = document.createElement('div');
-    grid.className = 'item-list';
-    grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(280px, 1fr))';
-    for (const item of items) {
-      grid.appendChild(renderCard(item, isWishlist));
-    }
-    container.appendChild(grid);
+  function closeModal() {
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
   }
 
-  renderGrid(
-    'books-owned-section',
-    `✅ Kitchen & Study Library (${data.owned.length})`,
-    'Books, cookbooks, and reference materials currently in my home library.',
-    data.owned,
-    false
-  );
+  if (closeBtn) closeBtn.addEventListener('click', closeModal);
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
 
-  renderGrid(
-    'books-wanted-section',
-    `🎁 Book Wishlist (${data.wishlist.length})`,
-    'Books and manga volumes I want to add to my shelves.',
-    data.wishlist,
-    true
-  );
+  // Render Manga Section
+  function renderMangaSection() {
+    const container = document.getElementById('manga-section');
+    if (!container || !data.manga) return;
+
+    data.manga.forEach(series => {
+      const card = document.createElement('div');
+      card.className = 'manga-series-card';
+
+      let imgHTML = '';
+      if (series.img && series.img !== '') {
+        imgHTML = `<img src="${series.img}" alt="${series.series}" loading="lazy">`;
+      } else {
+        imgHTML = `
+          <div class="fallback-cover">
+            <div class="fallback-cover-title">${series.series}</div>
+            <div class="fallback-cover-author">${series.author}</div>
+          </div>
+        `;
+      }
+
+      const volumesHTML = series.volumes.map(vol => {
+        return `<button class="vol-btn ${vol.status}" type="button" title="Volume ${vol.vol}">${vol.vol}</button>`;
+      }).join('');
+
+      card.innerHTML = `
+        <div class="manga-cover">
+          ${imgHTML}
+        </div>
+        <div class="manga-info">
+          <h3 class="manga-title">${series.series}</h3>
+          <div class="manga-author">By ${series.author}</div>
+          <p class="manga-desc">${series.notes}</p>
+          <div class="volumes-grid">
+            ${volumesHTML}
+          </div>
+        </div>
+      `;
+
+      // Attach click listeners to volume buttons
+      card.querySelectorAll('.vol-btn').forEach((btn, index) => {
+        btn.addEventListener('click', () => {
+          openModal(series, series.volumes[index]);
+        });
+      });
+
+      container.appendChild(card);
+    });
+  }
+
+  // Render Normal Books Section
+  function renderNormalBooksSection() {
+    const container = document.getElementById('books-section');
+    if (!container || !data.normal) return;
+
+    // Group books by category
+    const categories = {};
+    data.normal.forEach(book => {
+      if (!categories[book.category]) {
+        categories[book.category] = [];
+      }
+      categories[book.category].push(book);
+    });
+
+    // Generate section HTML for each category
+    Object.entries(categories).forEach(([catName, books]) => {
+      const section = document.createElement('section');
+      section.className = 'wishlist-section';
+
+      const header = document.createElement('div');
+      header.className = 'section-header';
+      header.innerHTML = `
+        <h2>${catName}</h2>
+        <p>Books and literature in the ${catName.toLowerCase()} category.</p>
+      `;
+      section.appendChild(header);
+
+      const ownedBooks = books.filter(b => b.status === 'owned');
+      const wishlistBooks = books.filter(b => b.status === 'wanted');
+
+      // Helper function to render a grid of books
+      function createBookGrid(itemsList) {
+        const grid = document.createElement('div');
+        grid.className = 'book-grid';
+
+        itemsList.forEach(book => {
+          const card = document.createElement('div');
+          card.className = 'wishlist-item';
+
+          // Check if there is a badge that is NOT equal to category name
+          const badgeText = (book.badge && book.badge !== book.category) ? book.badge : '';
+
+          let coverHTML = '';
+          if (book.img && book.img !== '') {
+            coverHTML = `<img src="${book.img}" alt="${book.name}" loading="lazy">`;
+          } else {
+            coverHTML = `
+              <div class="fallback-cover">
+                <div class="fallback-cover-title">${book.name}</div>
+                <div class="fallback-cover-author">${badgeText || 'Reference'}</div>
+              </div>
+            `;
+          }
+
+          let goodreadsHTML = '';
+          if (book.goodreads) {
+            goodreadsHTML = `<a href="${book.goodreads}" target="_blank" style="font-size:0.68rem; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:2px; margin-bottom:4px;">Goodreads ↗</a>`;
+          }
+
+          let actionHTML = '';
+          let titleHTML = '';
+          if (book.status === 'owned') {
+            const badgeHTML = badgeText ? `<span class="inv-item-badge" style="font-size:0.65rem; padding: 2px 6px;">${badgeText}</span>` : '';
+            actionHTML = `
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:6px; min-height: 28px; width: 100%;">
+                ${badgeHTML}
+                <span style="font-size:0.72rem; color:var(--mint); font-weight:600; margin-left:auto;">✓ Owned</span>
+              </div>
+            `;
+            const titleLink = book.amazon || book.url;
+            if (titleLink) {
+              titleHTML = `<a href="${titleLink}" target="_blank" class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); text-decoration:none; display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</a>`;
+            } else {
+              titleHTML = `<div class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</div>`;
+            }
+          } else {
+            const buyUrl = book.url || book.amazon || `https://www.amazon.co.uk/s?k=${encodeURIComponent(book.name)}`;
+            const hasPrice = book.price && book.price !== 'Amazon Wishlist' && book.price !== 'Wishlist';
+            const priceLabel = hasPrice ? `<span class="wishlist-item-price" style="font-size:0.8rem; font-weight:700; color:var(--gold);">${book.price}</span>` : '';
+            
+            actionHTML = `
+              <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto; padding-top:6px; width:100%;">
+                ${priceLabel ? `<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:2px;">${priceLabel}</div>` : ''}
+                <a href="${buyUrl}" target="_blank" class="inv-action-btn" style="display:block; text-align:center; padding:6px 10px; font-size:0.75rem; font-weight:700; border-radius:6px; text-decoration:none; width:100%;">Buy Online ↗</a>
+              </div>
+            `;
+            titleHTML = `<a href="${buyUrl}" target="_blank" class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); text-decoration:none; display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</a>`;
+          }
+
+          const imgBg = book.img ? 'background: #ffffff;' : 'background: transparent;';
+          card.innerHTML = `
+            <div class="wishlist-item-img" style="${imgBg} padding: 6px; display: flex; align-items: center; justify-content: center; height: 130px;">
+              ${coverHTML}
+            </div>
+            <div class="wishlist-item-info" style="display:flex; flex-direction:column; padding: 10px; flex: 1;">
+              ${titleHTML}
+              ${goodreadsHTML}
+              ${actionHTML}
+            </div>
+          `;
+
+          grid.appendChild(card);
+        });
+
+        return grid;
+      }
+
+      // 1. Render Wishlist Books subsection first
+      if (wishlistBooks.length > 0) {
+        const wSub = document.createElement('h3');
+        wSub.textContent = `🎁 Wanted / Wishlist (${wishlistBooks.length})`;
+        wSub.style.cssText = 'font-size:0.9rem; color:var(--gold); margin:16px 0 8px; font-weight:700;';
+        section.appendChild(wSub);
+        section.appendChild(createBookGrid(wishlistBooks));
+      }
+
+      // 2. Render Owned Books subsection second
+      if (ownedBooks.length > 0) {
+        const oSub = document.createElement('h3');
+        oSub.textContent = `✅ Library & Owned (${ownedBooks.length})`;
+        oSub.style.cssText = 'font-size:0.9rem; color:var(--mint); margin:24px 0 8px; font-weight:700;';
+        section.appendChild(oSub);
+        section.appendChild(createBookGrid(ownedBooks));
+      }
+
+      container.appendChild(section);
+    });
+  }
+
+  // Initialize
+  renderMangaSection();
+  renderNormalBooksSection();
 })();
 </script>
 </body>

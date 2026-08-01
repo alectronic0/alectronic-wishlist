@@ -58,7 +58,8 @@ window.SITE_CONTENT = {
       { "href": "books.html", "icon": "📚", "title": "Books", "badge": "Library", "notes": "Cookbooks, Fullmetal Alchemist manga & CS textbooks." },
       { "href": "home.html", "icon": "🏡", "title": "Home & Smart Tech", "badge": "Room Navigation", "notes": "Office setup, living room lighting, bathroom shower niches & projects." },
       { "href": "health.html", "icon": "🩺", "title": "Health & Gym", "badge": "ECG & Health", "notes": "OMRON ECG monitor, Hilo 24/7 bracelet & pulse oximeters." },
-      { "href": "misc.html", "icon": "🛒", "title": "Stores & Subscriptions", "badge": "Merch & Subs", "notes": "Google Merch, GitKraken, Bokksu, JOMO Club & craft boxes." }
+      { "href": "misc.html", "icon": "🛒", "title": "Stores & Subscriptions", "badge": "Merch & Subs", "notes": "Google Merch, GitKraken, Bokksu, JOMO Club & craft boxes." },
+      { "href": "consumables.html", "icon": "📦", "title": "Household Consumables", "badge": "Common Items", "notes": "Recurring cleaning, health, food, and utilities." }
     ],
     "priorityItems": []
   },
@@ -428,7 +429,13 @@ window.SITE_CONTENT = {
 },
   "zelda": {
   "title": "The Legend of Zelda Shrine \u2694\ufe0f",
-  "owned": [],
+  "owned": [
+    { "name": "Nintendo Joy-Con Pairs (Light Purple & Light Green)", "category": "Hardware", "badge": "Hardware" },
+    { "name": "Nintendo Joy-Con Pairs (Zelda: Skyward Sword Edition)", "category": "Hardware", "badge": "Hardware" },
+    { "name": "Nintendo Switch Pro Controller (Zelda: Tears of the Kingdom Edition)", "category": "Hardware", "badge": "Hardware" },
+    { "name": "The Legend of Zelda: Tears of the Kingdom Complete Guide", "category": "Video Game Books", "badge": "Collector's Guide" },
+    { "name": "Game & Watch: The Legend of Zelda", "category": "Console", "badge": "Retro Console" }
+  ],
   "wishlist": []
 },
   "clothing": {
@@ -554,7 +561,8 @@ window.SITE_CONTENT = {
       { "name": "Windbreaker Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Light)" },
       { "name": "Heavy Zip Hoodie", "brand": "Vans", "size": "3XL", "type": "Jacket / Hoodie / Coat (Heavy)" },
       { "name": "Puffer Winter Coat", "brand": "Uniqlo", "size": "3XL", "type": "Jacket / Hoodie / Coat (Winter)" },
-      { "name": "Rain Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Rain)" }
+      { "name": "Rain Jacket", "brand": "Nike", "size": "3XL", "type": "Jacket / Hoodie / Coat (Rain)" },
+      { "name": "Wenger Carbon 17-Inch Laptop Backpack (30L) (x2)", "brand": "Wenger", "size": "N/A", "type": "Bags" }
     ]
   },
   "boardgames": {
@@ -562,6 +570,8 @@ window.SITE_CONTENT = {
       "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
       "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=list_d_wl_lfu_nav_3",
       "owned": [
+            { "name": "Fungi Card Game", "category": "2-Player Card Game", "badge": "Two-Player" },
+            { "name": "Monopoly Deal Card Game", "category": "Card Game", "badge": "Card Game" },
             {
                   "name": "The Quacks of Quedlinburg (+ Expansions)",
                   "category": "Strategy / Push-Your-Luck",
@@ -863,7 +873,7 @@ window.SITE_CONTENT = {
                   "name": "USAopoly The Legend of Zelda Chess Set",
                   "img": "https://m.media-amazon.com/images/I/51KyoaHn6HL._SS135_.jpg",
                   "publisher": "USAopoly",
-                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share"
+                  "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC"
             },
             {
                   "name": "Horrified: Greek Monsters",
@@ -982,6 +992,167 @@ window.SITE_CONTENT = {
                   "publisher": "Exploding Kittens",
                   "amazonUrl": "https://www.amazon.co.uk/dp/B07WC2Z9HF",
                   "bggId": "289018"
+            },
+            {
+                  "name": "Throw Throw Burrito",
+                  "asin": "B07Y9M5H6Z",
+                  "bggId": "274533",
+                  "publisher": "Exploding Kittens",
+                  "img": "https://m.media-amazon.com/images/I/811m9e1UjQL._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B07Y9M5H6Z"
+            },
+            {
+                  "name": "Cryptid",
+                  "asin": "B079M49692",
+                  "bggId": "246784",
+                  "publisher": "Osprey Games",
+                  "img": "https://m.media-amazon.com/images/I/71N-zG4k-dL._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B079M49692"
+            },
+            {
+                  "name": "Bloodborne: The Card Game",
+                  "asin": "B01HYV585C",
+                  "bggId": "195856",
+                  "publisher": "CMON",
+                  "img": "https://m.media-amazon.com/images/I/91MhB7u%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B01HYV585C"
+            },
+            {
+                  "name": "These Cards Will Get You Drunk",
+                  "asin": "B0764M6P7Z",
+                  "publisher": "These Cards Will Get You Drunk",
+                  "img": "https://m.media-amazon.com/images/I/7144eK5KxML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B0764M6P7Z"
+            },
+            {
+                  "name": "Gloom (Second Edition)",
+                  "asin": "1589781449",
+                  "bggId": "12692",
+                  "publisher": "Atlas Games",
+                  "img": "https://m.media-amazon.com/images/I/81x08kH54ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/1589781449"
+            },
+            {
+                  "name": "Small World",
+                  "asin": "B0028K2A1S",
+                  "bggId": "40692",
+                  "publisher": "Days of Wonder",
+                  "img": "https://m.media-amazon.com/images/I/91r4YjL%2B4NL._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B0028K2A1S"
+            },
+            {
+                  "name": "Munchkin: Deluxe",
+                  "asin": "B004U7JJEY",
+                  "bggId": "19280",
+                  "publisher": "Steve Jackson Games",
+                  "img": "https://m.media-amazon.com/images/I/81U0oBf%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B004U7JJEY"
+            },
+            {
+                  "name": "The Resistance: Avalon",
+                  "asin": "B009SAAV0C",
+                  "bggId": "128882",
+                  "publisher": "Indie Boards & Cards",
+                  "img": "https://m.media-amazon.com/images/I/71K%2B61s%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B009SAAV0C"
+            },
+            {
+                  "name": "Carcassonne",
+                  "asin": "B00NX627HW",
+                  "bggId": "822",
+                  "publisher": "Z-Man Games",
+                  "img": "https://m.media-amazon.com/images/I/71%2B%2B9Zz%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B00NX627HW"
+            },
+            {
+                  "name": "Exploding Kittens: NSFW Edition",
+                  "asin": "B010TQY7BI",
+                  "bggId": "181303",
+                  "publisher": "Exploding Kittens",
+                  "img": "https://m.media-amazon.com/images/I/71%2B8d%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B010TQY7BI",
+                  "expansions": [
+                        {
+                              "name": "Streaking Kittens Expansion Pack",
+                              "bggId": "257762",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07F273M32"
+                        },
+                        {
+                              "name": "Imploding Kittens Expansion Pack",
+                              "bggId": "204301",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B01LW8392M"
+                        }
+                  ]
+            },
+            {
+                  "name": "Bears vs Babies",
+                  "asin": "B06XGBMLSV",
+                  "bggId": "211534",
+                  "publisher": "Exploding Kittens",
+                  "img": "https://m.media-amazon.com/images/I/71qS5m8%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B06XGBMLSV",
+                  "expansions": [
+                        {
+                              "name": "Bears vs Babies: NSFW Expansion Pack",
+                              "bggId": "226922",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B0733TDR3Q"
+                        }
+                  ]
+            },
+            {
+                  "name": "You've Got Crabs",
+                  "asin": "B07BDMWSWN",
+                  "bggId": "242555",
+                  "publisher": "Exploding Kittens",
+                  "img": "https://m.media-amazon.com/images/I/71s%2Bf%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B07BDMWSWN",
+                  "expansions": [
+                        {
+                              "name": "You've Got Crabs: Imitation Crab Expansion Kit",
+                              "bggId": "251645",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07BDM7TMT"
+                        }
+                  ]
+            },
+            {
+                  "name": "Joking Hazard",
+                  "asin": "B01IA9R6A6",
+                  "bggId": "198305",
+                  "publisher": "Cyanide & Happiness",
+                  "img": "https://m.media-amazon.com/images/I/71o%2Bd%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B01IA9R6A6",
+                  "expansions": [
+                        {
+                              "name": "Joking Hazard Deck Enhancement #1",
+                              "bggId": "220194",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B01MTD6M2A"
+                        },
+                        {
+                              "name": "Joking Hazard Deck Enhancement #3",
+                              "bggId": "257404",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07D3ZVPCR"
+                        },
+                        {
+                              "name": "Joking Hazard Enlarged Box",
+                              "bggId": "249673",
+                              "owned": false,
+                              "amazonUrl": "https://www.amazon.co.uk/dp/B07BDMWT49"
+                        }
+                  ]
+            },
+            {
+                  "name": "What Do You Meme? (Core Game)",
+                  "asin": "B01MRCR1A1",
+                  "bggId": "222956",
+                  "publisher": "What Do You Meme?",
+                  "img": "https://m.media-amazon.com/images/I/71%2B7v%2B4ML._SS135_.jpg",
+                  "amazonUrl": "https://www.amazon.co.uk/dp/B01MRCR1A1"
             }
       ]
 },
@@ -1038,22 +1209,22 @@ window.SITE_CONTENT = {
     ],
     "normal": [
       // Cookbooks
-      { "name": "Mastering the Art of French Cooking (Julia Child 2-Vol Box Set)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover Box Set", "img": "https://m.media-amazon.com/images/I/41K8L0z6vTL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0307593522" },
-      { "name": "The Flavour Thesaurus (Niki Segnit)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/41Zf6T+kR2L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0747599777" },
-      { "name": "Dishoom: From Bombay with Love", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51R8V270xVL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1408890674" },
-      { "name": "Wagamama: Feed Your Soul", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51+9T6H3-UL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1784724831" },
+      { "name": "Mastering the Art of French Cooking (Julia Child 2-Vol Box Set)", "category": "Cookbooks", "status": "owned", "img": "https://m.media-amazon.com/images/I/41K8L0z6vTL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0307593522" },
+      { "name": "The Flavour Thesaurus (Niki Segnit)", "category": "Cookbooks", "status": "owned", "img": "https://m.media-amazon.com/images/I/41Zf6T+kR2L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0747599777" },
+      { "name": "Dishoom: From Bombay with Love", "category": "Cookbooks", "status": "owned", "img": "https://m.media-amazon.com/images/I/51R8V270xVL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1408890674" },
+      { "name": "Wagamama: Feed Your Soul", "category": "Cookbooks", "status": "owned", "img": "https://m.media-amazon.com/images/I/51+9T6H3-UL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1784724831" },
       { "name": "Heston Is This A Cookbook? & Heston at Home", "category": "Cookbooks", "status": "owned", "badge": "Heston Blumenthal", "img": "https://m.media-amazon.com/images/I/51Y0y6N0w4L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1408804409" },
-      { "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51KzN+Xb-nL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1645674063" },
-      { "name": "Field Notes for Food Adventure (Brad Leone)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/0593138380" },
-      { "name": "Modern French Pastry (Cheryl Wakerhauser)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1624143781" },
-      { "name": "Japanese Pâtisserie (James Campbell)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/184975762X" },
-      { "name": "The Savoy Cocktail Book (Harry Craddock)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1472114251" },
-      { "name": "Edmonds Cookery Book", "category": "Cookbooks", "status": "owned", "badge": "Paperback", "img": "", "amazon": "https://www.amazon.co.uk/dp/0790016629" },
-      { "name": "The Food Lab: Better Home Cooking Through Science (Kenji López-Alt)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
-      { "name": "Salt, Fat, Acid, Heat (Samin Nosrat)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "https://m.media-amazon.com/images/I/51qB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
-      { "name": "Dessert Person (Claire Saffitz)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
-      { "name": "The Big Fat Duck Cookbook (Heston Blumenthal)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
-      { "name": "Momofuku (David Chang)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook", "category": "Cookbooks", "status": "owned", "img": "https://m.media-amazon.com/images/I/51KzN+Xb-nL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1645674063" },
+      { "name": "Field Notes for Food Adventure (Brad Leone)", "category": "Cookbooks", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/0593138380" },
+      { "name": "Modern French Pastry (Cheryl Wakerhauser)", "category": "Cookbooks", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/1624143781" },
+      { "name": "Japanese Pâtisserie (James Campbell)", "category": "Cookbooks", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/184975762X" },
+      { "name": "The Savoy Cocktail Book (Harry Craddock)", "category": "Cookbooks", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/1472114251" },
+      { "name": "Edmonds Cookery Book", "category": "Cookbooks", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/0790016629" },
+      { "name": "The Food Lab: Better Home Cooking Through Science (Kenji López-Alt)", "category": "Cookbooks", "status": "wanted", "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Salt, Fat, Acid, Heat (Samin Nosrat)", "category": "Cookbooks", "status": "wanted", "img": "https://m.media-amazon.com/images/I/51qB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Dessert Person (Claire Saffitz)", "category": "Cookbooks", "status": "wanted", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "The Big Fat Duck Cookbook (Heston Blumenthal)", "category": "Cookbooks", "status": "wanted", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Momofuku (David Chang)", "category": "Cookbooks", "status": "wanted", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
 
       // CS & Tech
       { "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)", "category": "CS & Tech", "status": "owned", "badge": "10th Anniv Ed", "img": "https://m.media-amazon.com/images/I/41hY9fN+VLL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1107002176" },
@@ -1061,20 +1232,20 @@ window.SITE_CONTENT = {
       { "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)", "category": "CS & Tech", "status": "owned", "badge": "2nd Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0470018666" },
       { "name": "Software Engineering (Sommerville)", "category": "CS & Tech", "status": "owned", "badge": "9th Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0137035152" },
       { "name": "The Robotics Primer (Maja J. Matarić, MIT Press)", "category": "CS & Tech", "status": "owned", "badge": "MIT Press", "img": "", "amazon": "https://www.amazon.co.uk/dp/026263354X" },
-      { "name": "Business Database Systems (Connolly & Begg)", "category": "CS & Tech", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1405874376" },
-      { "name": "Principles of Interactive Multimedia (Elsom-Cook)", "category": "CS & Tech", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/0077093343" },
+      { "name": "Business Database Systems (Connolly & Begg)", "category": "CS & Tech", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/1405874376" },
+      { "name": "Principles of Interactive Multimedia (Elsom-Cook)", "category": "CS & Tech", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/0077093343" },
       { "name": "Objects First With Java: Practical Intro Using BlueJ", "category": "CS & Tech", "status": "owned", "badge": "4th Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0136060862" },
       { "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)", "category": "CS & Tech", "status": "owned", "badge": "Google Ventures", "img": "", "amazon": "https://www.amazon.co.uk/dp/150112174X" },
       
       // Video Game Books
-      { "name": "The Legend's Cookbook+ (Zelda Recipes & Art)", "category": "Video Game Books", "status": "owned", "badge": "Hardcover Decor", "img": "", "amazon": "https://www.amazon.co.uk/dp/B08P1STST1" },
+      { "name": "The Legend's Cookbook+ (Zelda Recipes & Art)", "category": "Video Game Books", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/B08P1STST1" },
       { "name": "Zelda: Twilight Princess HD Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
       { "name": "Zelda: Majora's Mask Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
       { "name": "The Legend of Zelda Manga Legendary Edition Box Set", "category": "Video Game Books", "status": "wanted", "badge": "5-Book Box Set", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
       { "name": "The Legend of Zelda: Twilight Princess Complete Box Set (Vols. 1-11)", "category": "Video Game Books", "status": "wanted", "badge": "11-Book Box Set", "img": "https://m.media-amazon.com/images/I/71u9sW4j2YL._SS135_.jpg", "url": "https://www.amazon.co.uk/dp/1974749665", "price": "Complete Box Set" },
 
       // Non-Fiction
-      { "name": "Unfu*k Yourself (Gary John Bishop)", "category": "Non-Fiction", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1473668528" },
+      { "name": "Unfu*k Yourself (Gary John Bishop)", "category": "Non-Fiction", "status": "owned", "img": "", "amazon": "https://www.amazon.co.uk/dp/1473668528" },
       { "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms", "category": "Non-Fiction", "status": "owned", "badge": "LEGO Almanac", "img": "", "amazon": "https://www.amazon.co.uk/dp/1452183204" },
 
       // Misc
@@ -3114,7 +3285,13 @@ window.SITE_CONTENT = {
         "img": "https://omron-healthcare.com/storage/products/EVOLV_01-2.jpg",
         "url": "https://www.amazon.co.uk/dp/B01MT54RFU",
         "badge": "All-in-One Wireless"
-      }
+      },
+      { "name": "Withings ScanWatch (42mm Black)", "category": "Wearables", "badge": "ECG & SpO2 Hybrid Watch", "img": "https://m.media-amazon.com/images/I/71uK5c+T5hL._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B07YWMX39Q" },
+      { "name": "Withings Body Cardio Scale", "category": "Biometrics", "badge": "Premium Wi-Fi Scale", "img": "https://m.media-amazon.com/images/I/51yV+94o7pL._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B01F3LI734" },
+      { "name": "Withings Thermo Temporal Thermometer", "category": "Biometrics", "badge": "Temporal Contactless", "img": "https://m.media-amazon.com/images/I/51G+y8b0T2L._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B01H49J44C" },
+      { "name": "RENPHO Thermacool Massage Gun", "category": "Recovery", "badge": "Hot & Cold Deep Tissue", "img": "https://m.media-amazon.com/images/I/61k1jY4h62L._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B08CXS24N9" },
+      { "name": "YOLEO Adjustable Weight Bench", "category": "Gym", "badge": "Foldable Gym Bench", "img": "https://m.media-amazon.com/images/I/71gY5l5Y1ML._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B07ZQH717F" },
+      { "name": "AFAC Finger Pulse Oximeter", "category": "Biometrics", "badge": "SpO2 Finger Monitor", "img": "https://m.media-amazon.com/images/I/71Z+Lz3aZ2L._AC_SL1500_.jpg", "url": "https://www.amazon.co.uk/dp/B09VGR16T6" }
     ],
     "wishlist": [
       {
@@ -3144,7 +3321,9 @@ window.SITE_CONTENT = {
             "name": "Ground Floor Hallway",
             "lights": { "Bulb": 4 },
             "switches": ["Hallway (Switch) 19"],
-            "inventory": [],
+            "inventory": [
+              { "name": "TP-Link Deco X50-5G Whole Home Mesh Router", "badge": "Connectivity" }
+            ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
             ]
@@ -3152,8 +3331,13 @@ window.SITE_CONTENT = {
           "living": {
             "name": "Lounge / Living Room",
             "lights": { "Bulb": 4, "Play": 2, "Lightstrip": 1 },
-            "switches": ["Living room (Switch) 21", "Living room (Tap) 24"],
-            "inventory": [],
+            "switches": ["Living room (Switch) 21", "Living room (Tap) 24", "Philips Hue Smart Dimmer Switch V2 (x2)"],
+            "inventory": [
+              { "name": "Panasonic 55-Inch 4K Smart TV (TX-55MX650B)", "badge": "Display" },
+              { "name": "Panasonic Slim Soundbar with Wireless Subwoofer (SC-HTB150EBK)", "badge": "Audio" },
+              { "name": "Furnihold Lift Top Coffee Table (Black)", "badge": "Furniture" },
+              { "name": "TP-Link Tapo P110 Smart Plugs", "badge": "Smart Power" }
+            ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
             ]
@@ -3164,7 +3348,11 @@ window.SITE_CONTENT = {
             "switches": ["Kitchen (Switch) 18"],
             "inventory": [
               { "name": "Cole & Mason Dorchester Pestle and Mortar (100mm)", "badge": "Utensils" },
-              { "name": "Ninja Foodi 3-in-1 Hand Blender, Mixer & Chopper (CI100UK)", "badge": "Food Tech" }
+              { "name": "Ninja Foodi 3-in-1 Hand Blender, Mixer & Chopper (CI100UK)", "badge": "Food Tech" },
+              { "name": "H&S Recipe Book Stand (Metal, 7 Angles)", "badge": "Utensils" },
+              { "name": "VASAGLE Narrow Bar Table & Industrial Bar Stools (Set of 4)", "badge": "Furniture" },
+              { "name": "Breville 3-in-1 Ultimate Snack Maker (Toastie/Waffle/Panini)", "badge": "Food Tech" },
+              { "name": "Panasonic Solo Microwave Oven (20L, NN-E28JBMBPQ)", "badge": "Appliance" }
             ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
@@ -3185,19 +3373,35 @@ window.SITE_CONTENT = {
             ]
           },
           "office": {
-            "name": "Office & Workstation (Bedroom 3)",
+            "name": "Office & Gym (Bedroom 3)",
             "lights": { "Bulb": 4, "FairyLight": 1 },
             "switches": ["Office (Desk) [Dial] 7", "Office (Desk) [Button] 8", "Office (Switch) 22"],
             "inventory": [
+              { "name": "🖥️ Desk & Workstation Setup", "isHeader": true },
               { "name": "Secretlab MAGNUS Pro XL Motorised Desk (Metal Desk Top & Motorised Legs with Lockable Casters)", "badge": "Desk Setup" },
               { "name": "Secretlab MAGNUS Desk Riser", "badge": "Desk Setup" },
               { "name": "Secretlab MAGNUS Dual Monitor Arm with Laptop Mount & Vertical Monitor Stand", "badge": "Monitor Setup" },
+              { "name": "BenQ GW2480 23.8\" IPS LED Monitor", "badge": "Monitor Setup" },
               { "name": "CyberPower Personal Gaming PC (Intel i7-14700KF, RTX 4070 Super, Lian Li Case)", "badge": "Workstation" },
               { "name": "Targus USB-C Universal Quad 4K (QV4K) Docking Station (DOCK570EUZ)", "badge": "Connectivity" },
-              { "name": "Meaco MeacoCool MC Series 8,000R Portable Air Conditioner", "badge": "Climate Control" },
+              { "name": "Logitech MK710 Wireless Keyboard & Mouse Combo", "badge": "Peripherals" },
+              { "name": "Logitech C920S HD Pro Webcam", "badge": "Peripherals" },
+              { "name": "Blue Snowball iCE USB Microphone (on Blue Compass Premium Broadcast Boom Arm with AKORD Pop Filter)", "badge": "Peripherals" },
+              { "name": "Elgato Stream Deck MK.2 Studio Controller", "badge": "Peripherals" },
+              { "name": "Nintendo Switch (OLED Model) Zelda Tears of the Kingdom Limited Edition", "badge": "Console Setup" },
+              { "name": "Nintendo Switch Joy-Con Charging Grip & PowerA Charging Station", "badge": "Console Setup" },
+              { "name": "Elgato HD60 X External Capture Card", "badge": "Peripherals" },
+              { "name": "Lexar PLAY PRO 1TB MicroSDXC Card", "badge": "Console Setup" },
               { "name": "Secretlab Premium PC Mount", "badge": "Desk Setup" },
               { "name": "Secretlab Magnetic Headphone Hanger", "badge": "Accessories" },
-              { "name": "Secretlab Magnetic Cable Management (Anchors, Sheaths, Straps)", "badge": "Cable Management" }
+              { "name": "Secretlab Magnetic Cable Management (Anchors, Sheaths, Straps)", "badge": "Cable Management" },
+              { "name": "Anker 4-Port USB 3.0 Hub & rhinocables Dual C13 Power Splitter", "badge": "Cable Management" },
+              { "name": "🏃‍♂️ Gym & Fitness Equipment", "isHeader": true },
+              { "name": "Matrix Fitness TF30 Treadmill with XIR Console", "badge": "Gym Equipment" },
+              { "name": "Q Sports Free Standing Boxing Punch Bag", "badge": "Gym Equipment" },
+              { "name": "Body Power 20mm Floor Tiles (x22)", "badge": "Flooring" },
+              { "name": "❄️ Climate Control", "isHeader": true },
+              { "name": "Meaco MeacoCool MC Series 8,000R Portable Air Conditioner", "badge": "Climate Control" }
             ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
@@ -3215,17 +3419,6 @@ window.SITE_CONTENT = {
           "bathroom": {
             "name": "Guest Bathroom (Main Bathroom)",
             "inventory": [],
-            "projects": [
-              { "name": "Repaint Room", "status": "planned" }
-            ]
-          },
-          "gym": {
-            "name": "Gym",
-            "inventory": [
-              { "name": "Matrix Fitness TF30 Treadmill with XIR Console", "badge": "Gym Equipment" },
-              { "name": "Q Sports Free Standing Boxing Punch Bag", "badge": "Gym Equipment" },
-              { "name": "Body Power 20mm Floor Tiles (x22)", "badge": "Flooring" }
-            ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
             ]
@@ -3258,7 +3451,9 @@ window.SITE_CONTENT = {
           "ensuite": {
             "name": "Master Ensuite",
             "lights": { "Ceiling": 1 },
-            "inventory": [],
+            "inventory": [
+              { "name": "Temple Spring Wooden Bath Tray (Bamboo Caddy, Black)", "badge": "Bath" }
+            ],
             "projects": [
               { "name": "Repaint Room", "status": "planned" }
             ]
