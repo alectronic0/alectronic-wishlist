@@ -3316,339 +3316,339 @@ window.SITE_CONTENT = {
       },
       {
         "name": "The Legend of Zelda: A Link Between Worlds (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p0j.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time 3D (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "The Legend of Zelda: Majora's Mask 3D (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "The Legend of Zelda: Tri Force Heroes (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "The Legend of Zelda: Phantom Hourglass (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "The Legend of Zelda: Spirit Tracks - Tin Edition (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Super Mario 3D Land (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobab1.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Mario Kart 7 (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2146.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Mario Kart DS (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9rx.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Super Mario 64 DS (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u80.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Pokémon X (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Pokémon Moon (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Pokémon Alpha Sapphire (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Pokémon Diamond Version (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Pokémon Black Version (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Kid Icarus: Uprising (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Star Fox 64 3D (3DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba3e.jpg",
-        "platform": "ds_3ds"
+        "platform": "3ds"
       },
       {
         "name": "Metroid Prime Hunters (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "Animal Crossing: Wild World (DS)",
-        "badge": "3DS / DS",
+        "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wms.jpg",
-        "platform": "ds_3ds"
+        "platform": "ds"
       },
       {
         "name": "The Legend of Zelda: The Minish Cap (GBA)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
-        "platform": "retro_gb"
+        "platform": "gba"
       },
       {
         "name": "The Legend of Zelda: A Link to the Past & Four Swords (GBA)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsh.jpg",
-        "platform": "retro_gb"
+        "platform": "gba"
       },
       {
         "name": "The Legend of Zelda: Oracle of Ages (GBC)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "retro_gb"
+        "platform": "gbc"
       },
       {
         "name": "The Legend of Zelda: Oracle of Seasons (GBC)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "retro_gb"
+        "platform": "gbc"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening DX (GBC)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
-        "platform": "retro_gb"
+        "platform": "gbc"
       },
       {
         "name": "Metroid: Zero Mission (GBA)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
-        "platform": "retro_gb"
+        "platform": "gba"
       },
       {
         "name": "Metroid Fusion (GBA)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Advance",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
-        "platform": "retro_gb"
+        "platform": "gba"
       },
       {
         "name": "Pokémon Red Version (GB)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
-        "platform": "retro_gb"
+        "platform": "gb"
       },
       {
         "name": "Pokémon Yellow Version (GB)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "retro_gb"
+        "platform": "gb"
       },
       {
         "name": "Pokémon Silver Version (GBC)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
-        "platform": "retro_gb"
+        "platform": "gbc"
       },
       {
         "name": "Super Mario Land 2: 6 Golden Coins (GB)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "retro_gb"
+        "platform": "gb"
       },
       {
         "name": "Super Mario Bros. Deluxe (GBC)",
-        "badge": "Game Boy / GBA",
+        "badge": "Game Boy Color",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "retro_gb"
+        "platform": "gbc"
       },
       {
         "name": "Age of Empires II: Definitive Edition",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0y.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Age of Mythology: Retold",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zm5.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Baldur's Gate 3",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "BioShock Infinite",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Borderlands 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Call of Duty: Black Ops II",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkv.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Clair Obscur: Expedition 33",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Counter-Strike 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaczd.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Dark Souls: Prepare To Die Edition",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84kp.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Deep Rock Galactic",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Deus Ex: Human Revolution",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd2.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Factorio",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfy.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Frostpunk",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar27.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "HELLDIVERS™ 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabbf.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Hades II",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Half-Life 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Hollow Knight: Silksong",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "It Takes Two",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Left 4 Dead 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Portal 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "STAR WARS Jedi: Survivor™",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzk.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Stardew Valley",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Valheim",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob24q.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Vampire Survivors",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "Warhammer 40,000: Space Marine 2",
-        "badge": "Steam PC Library",
+        "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vab.jpg",
-        "platform": "steam"
+        "platform": "pc"
       },
       {
         "name": "8-Bit Link Amiibo (30th Anniversary)",
@@ -3862,65 +3862,73 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Overwatch®",
-        "platform": "battlenet",
-        "badge": "Battle.net",
+        "platform": "pc",
+        "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjxl.jpg"
       },
       {
         "name": "Call of Duty: Modern Warfare",
-        "platform": "battlenet",
-        "badge": "Battle.net",
+        "platform": "pc",
+        "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc4mu.jpg"
       },
       {
         "name": "Call of Duty®: Black Ops Cold War",
-        "platform": "battlenet",
-        "badge": "Battle.net",
+        "platform": "pc",
+        "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg"
       },
       {
         "name": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-        "platform": "battlenet",
-        "badge": "Battle.net",
+        "platform": "pc",
+        "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adp.jpg"
       }
     ],
     "platforms": {
-      "switch": {
-        "label": "🔴 Nintendo Switch Library (197 Games)",
-        "color": "#ef4444"
-      },
-      "steam": {
-        "label": "💨 Steam PC Library (270+ Games)",
+      "pc": {
+        "label": "💻 PC Games Library (Steam & Blizzard / Battle.net)",
         "color": "#a855f7"
       },
-      "gamecube": {
-        "label": "🟣 Nintendo GameCube Collection",
-        "color": "#8b5cf6"
-      },
-      "n64": {
-        "label": "🕹️ Nintendo 64 Classics",
-        "color": "#eab308"
-      },
-      "ds_3ds": {
-        "label": "🔵 Nintendo 3DS & DS Collection",
-        "color": "#3b82f6"
-      },
-      "retro_gb": {
-        "label": "🟢 Game Boy & GBA Retro",
-        "color": "#10b981"
+      "switch": {
+        "label": "🔴 Nintendo Switch Library",
+        "color": "#ef4444"
       },
       "wii_wiiu": {
         "label": "🌊 Wii & Wii U History",
         "color": "#06b6d4"
       },
-      "amiibo": {
-        "label": "🗿 Zelda & Mario Amiibo Collection (35 Figures)",
-        "color": "#f97316"
+      "3ds": {
+        "label": "🔵 Nintendo 3DS Collection",
+        "color": "#3b82f6"
       },
-      "battlenet": {
-        "label": "❄️ Blizzard / Battle.net Library",
-        "color": "#00aeef"
+      "ds": {
+        "label": "🔷 Nintendo DS Collection",
+        "color": "#2563eb"
+      },
+      "gamecube": {
+        "label": "🟣 Nintendo GameCube Collection",
+        "color": "#8b5cf6"
+      },
+      "gba": {
+        "label": "🟢 Game Boy Advance",
+        "color": "#10b981"
+      },
+      "n64": {
+        "label": "🕹️ Nintendo 64 Classics",
+        "color": "#eab308"
+      },
+      "gbc": {
+        "label": "🟨 Game Boy Color",
+        "color": "#f59e0b"
+      },
+      "gb": {
+        "label": "🟩 Game Boy Classic",
+        "color": "#22c55e"
+      },
+      "amiibo": {
+        "label": "🗿 Zelda & Mario Amiibo Collection",
+        "color": "#f97316"
       }
     }
   },
