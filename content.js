@@ -1913,7 +1913,7 @@ window.SITE_CONTENT = {
       {
         "name": "ARMS",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxn.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ro8.jpg",
         "platform": "switch"
       },
       {
@@ -1925,7 +1925,7 @@ window.SITE_CONTENT = {
       {
         "name": "Among Us",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vdk.jpg",
         "platform": "switch"
       },
       {
@@ -1937,7 +1937,7 @@ window.SITE_CONTENT = {
       {
         "name": "Another Crab's Treasure",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6mrs.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coam1a.jpg",
         "platform": "switch"
       },
       {
@@ -1967,19 +1967,19 @@ window.SITE_CONTENT = {
       {
         "name": "BRAVELY DEFAULT Ⅱ",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t40.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrao.jpg",
         "platform": "switch"
       },
       {
         "name": "Baba Is You",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hqt.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ic6.jpg",
         "platform": "switch"
       },
       {
         "name": "Bayonetta",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xp1.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamt.jpg",
         "platform": "switch"
       },
       {
@@ -1997,7 +1997,7 @@ window.SITE_CONTENT = {
       {
         "name": "Blaster Master Zero",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1q.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jx6.jpg",
         "platform": "switch"
       },
       {
@@ -2057,13 +2057,13 @@ window.SITE_CONTENT = {
       {
         "name": "Captain Toad: Treasure Tracker",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213z.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v2d.jpg",
         "platform": "switch"
       },
       {
         "name": "Cat Quest",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qlq.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8cp4.jpg",
         "platform": "switch"
       },
       {
@@ -2075,7 +2075,7 @@ window.SITE_CONTENT = {
       {
         "name": "Cave Story+",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2380.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o6b.jpg",
         "platform": "switch"
       },
       {
@@ -2123,7 +2123,7 @@ window.SITE_CONTENT = {
       {
         "name": "DOOM",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc7.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6wn4.jpg",
         "platform": "switch"
       },
       {
@@ -2141,7 +2141,7 @@ window.SITE_CONTENT = {
       {
         "name": "Devious Dungeon",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28xb.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ok0.jpg",
         "platform": "switch"
       },
       {
@@ -2177,13 +2177,13 @@ window.SITE_CONTENT = {
       {
         "name": "FEZ",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd9.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pj9.jpg",
         "platform": "switch"
       },
       {
         "name": "FINAL FANTASY",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3heg.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vn2.jpg",
         "platform": "switch"
       },
       {
@@ -2195,19 +2195,19 @@ window.SITE_CONTENT = {
       {
         "name": "FINAL FANTASY II",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob25b.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xx4.jpg",
         "platform": "switch"
       },
       {
         "name": "FINAL FANTASY III",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o87.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ojk.jpg",
         "platform": "switch"
       },
       {
         "name": "FINAL FANTASY IV",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6plc.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2y76.jpg",
         "platform": "switch"
       },
       {
@@ -2231,7 +2231,7 @@ window.SITE_CONTENT = {
       {
         "name": "FINAL FANTASY VII",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobn9o.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vn2.jpg",
         "platform": "switch"
       },
       {
@@ -2255,13 +2255,13 @@ window.SITE_CONTENT = {
       {
         "name": "Fall Guys",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7cs.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6byb.jpg",
         "platform": "switch"
       },
       {
         "name": "Fe",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28r1.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p9p.jpg",
         "platform": "switch"
       },
       {
@@ -2279,7 +2279,7 @@ window.SITE_CONTENT = {
       {
         "name": "Fortnite for Nintendo Switch",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj20.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89n1.jpg",
         "platform": "switch"
       },
       {
@@ -2297,7 +2297,7 @@ window.SITE_CONTENT = {
       {
         "name": "Hades",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rs3.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
         "platform": "switch"
       },
       {
@@ -2315,7 +2315,7 @@ window.SITE_CONTENT = {
       {
         "name": "Hollow Knight: Silksong – Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
         "platform": "switch"
       },
       {
@@ -2387,7 +2387,7 @@ window.SITE_CONTENT = {
       {
         "name": "LIVE A LIVE",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ywe.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rs2.jpg",
         "platform": "switch"
       },
       {
@@ -2435,7 +2435,7 @@ window.SITE_CONTENT = {
       {
         "name": "Mario Kart 8 Deluxe",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213p.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ydc.jpg",
         "platform": "switch"
       },
       {
@@ -2447,7 +2447,7 @@ window.SITE_CONTENT = {
       {
         "name": "Mario Party Superstars",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9yl.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8q08.jpg",
         "platform": "switch"
       },
       {
@@ -2501,7 +2501,7 @@ window.SITE_CONTENT = {
       {
         "name": "Moonlighter",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pnh.jpg",
         "platform": "switch"
       },
       {
@@ -2531,7 +2531,7 @@ window.SITE_CONTENT = {
       {
         "name": "OCTOPATH TRAVELER",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj93.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa302.jpg",
         "platform": "switch"
       },
       {
@@ -2567,7 +2567,7 @@ window.SITE_CONTENT = {
       {
         "name": "Paladins",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p3u.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/nscvegfdn5mvo8hx1neb.jpg",
         "platform": "switch"
       },
       {
@@ -2651,7 +2651,7 @@ window.SITE_CONTENT = {
       {
         "name": "Pokémon Sword",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zk2.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lj2.jpg",
         "platform": "switch"
       },
       {
@@ -2675,13 +2675,13 @@ window.SITE_CONTENT = {
       {
         "name": "Portal",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uiz.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
         "platform": "switch"
       },
       {
         "name": "Portal 2",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
         "platform": "switch"
       },
       {
@@ -2705,7 +2705,7 @@ window.SITE_CONTENT = {
       {
         "name": "SUPER BOMBERMAN R",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klt.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x7j.jpg",
         "platform": "switch"
       },
       {
@@ -2717,7 +2717,7 @@ window.SITE_CONTENT = {
       {
         "name": "SUPER MARIO ODYSSEY",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63jd.jpg",
         "platform": "switch"
       },
       {
@@ -2759,7 +2759,7 @@ window.SITE_CONTENT = {
       {
         "name": "Sonic Mania",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1t0.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uho.jpg",
         "platform": "switch"
       },
       {
@@ -2777,7 +2777,7 @@ window.SITE_CONTENT = {
       {
         "name": "Splatoon 2",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r9.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8g6r.jpg",
         "platform": "switch"
       },
       {
@@ -2801,7 +2801,7 @@ window.SITE_CONTENT = {
       {
         "name": "Star Fox",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99og.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxk8.jpg",
         "platform": "switch"
       },
       {
@@ -2813,19 +2813,19 @@ window.SITE_CONTENT = {
       {
         "name": "SteamWorld Dig",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1ud.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg",
         "platform": "switch"
       },
       {
         "name": "SteamWorld Dig 2",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24u8.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg",
         "platform": "switch"
       },
       {
         "name": "SteamWorld Heist: Ultimate Edition",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8gla.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co83o5.jpg",
         "platform": "switch"
       },
       {
@@ -2861,13 +2861,13 @@ window.SITE_CONTENT = {
       {
         "name": "Super Mario RPG",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba9n.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kd0.jpg",
         "platform": "switch"
       },
       {
         "name": "Super Meat Boy",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86cz.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t36.jpg",
         "platform": "switch"
       },
       {
@@ -2939,7 +2939,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Breath of the Wild",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67oa.jpg",
         "platform": "switch"
       },
       {
@@ -2951,7 +2951,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Link's Awakening",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qve.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
         "platform": "switch"
       },
       {
@@ -2999,13 +2999,13 @@ window.SITE_CONTENT = {
       {
         "name": "Warframe",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocase.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95fk.jpg",
         "platform": "switch"
       },
       {
         "name": "Wargroove",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hgb.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7c43.jpg",
         "platform": "switch"
       },
       {
@@ -3035,13 +3035,13 @@ window.SITE_CONTENT = {
       {
         "name": "Xenoblade Chronicles 2",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8r2.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nb4.jpg",
         "platform": "switch"
       },
       {
         "name": "Xenoblade Chronicles 3",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ocq.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jeg.jpg",
         "platform": "switch"
       },
       {
@@ -3089,7 +3089,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: The Wind Waker",
         "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ohz.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6txb.jpg",
         "platform": "gamecube"
       },
       {
@@ -3131,7 +3131,7 @@ window.SITE_CONTENT = {
       {
         "name": "Super Smash Bros. Melee",
         "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kpq.jpg",
         "platform": "gamecube"
       },
       {
@@ -3143,7 +3143,7 @@ window.SITE_CONTENT = {
       {
         "name": "Pikmin",
         "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6o.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98j3.jpg",
         "platform": "gamecube"
       },
       {
@@ -3179,7 +3179,7 @@ window.SITE_CONTENT = {
       {
         "name": "Donkey Konga 2",
         "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b5z.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rha.jpg",
         "platform": "gamecube"
       },
       {
@@ -3197,7 +3197,7 @@ window.SITE_CONTENT = {
       {
         "name": "Soulcalibur II",
         "badge": "GameCube Physical",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61yo.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x6l.jpg",
         "platform": "gamecube"
       },
       {
@@ -3215,7 +3215,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Ocarina of Time",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7pg.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fxc.jpg",
         "platform": "n64"
       },
       {
@@ -3245,7 +3245,7 @@ window.SITE_CONTENT = {
       {
         "name": "Super Smash Bros.",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tso.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ysr.jpg",
         "platform": "n64"
       },
       {
@@ -3263,7 +3263,7 @@ window.SITE_CONTENT = {
       {
         "name": "Banjo-Kazooie",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bha.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbr5.jpg",
         "platform": "n64"
       },
       {
@@ -3275,7 +3275,7 @@ window.SITE_CONTENT = {
       {
         "name": "GoldenEye 007",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2kn.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yk.jpg",
         "platform": "n64"
       },
       {
@@ -3305,13 +3305,13 @@ window.SITE_CONTENT = {
       {
         "name": "Wave Race 64",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9f0.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ksa.jpg",
         "platform": "n64"
       },
       {
         "name": "Pokémon Stadium",
         "badge": "Nintendo 64",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yyd.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w07.jpg",
         "platform": "n64"
       },
       {
@@ -3401,7 +3401,7 @@ window.SITE_CONTENT = {
       {
         "name": "Pokémon Black Version (DS)",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1x.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
         "platform": "ds_3ds"
       },
       {
@@ -3473,7 +3473,7 @@ window.SITE_CONTENT = {
       {
         "name": "Pokémon Red Version (GB)",
         "badge": "Game Boy / GBA",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
         "platform": "retro_gb"
       },
       {
@@ -3593,13 +3593,13 @@ window.SITE_CONTENT = {
       {
         "name": "Half-Life 2",
         "badge": "Steam PC Library",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg",
         "platform": "steam"
       },
       {
         "name": "Hollow Knight: Silksong",
         "badge": "Steam PC Library",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
         "platform": "steam"
       },
       {
@@ -3617,7 +3617,7 @@ window.SITE_CONTENT = {
       {
         "name": "Portal 2",
         "badge": "Steam PC Library",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
         "platform": "steam"
       },
       {
@@ -3864,13 +3864,13 @@ window.SITE_CONTENT = {
         "name": "Overwatch®",
         "platform": "battlenet",
         "badge": "Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjxl.jpg"
       },
       {
         "name": "Call of Duty: Modern Warfare",
         "platform": "battlenet",
         "badge": "Battle.net",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rsg.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc4mu.jpg"
       },
       {
         "name": "Call of Duty®: Black Ops Cold War",
