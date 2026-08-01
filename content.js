@@ -89,126 +89,126 @@ window.SITE_CONTENT = {
     }
   },
   "owned": [
-    {
-      "id": "10349",
-      "name": "Happy Plants",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt412bdab3d4d5bea6/1/10349_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/happy-plants-10349",
-      "theme": "botanical"
-    },
-    {
-      "id": "10340",
-      "name": "Wreath",
+      {
+            "id": "10349",
+            "name": "Happy Plants",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blt412bdab3d4d5bea6/1/10349_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/happy-plants-10349",
+            "theme": "botanical"
+      },
+      {
+            "id": "10340",
+            "name": "Wreath",
       "img": "https://www.lego.com/cdn/cs/catalog/assets/blte24682dee60b4177/1/10340_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/wreath-10340",
-      "theme": "botanical"
-    },
-    {
-      "id": "72046",
-      "name": "Game Boy\u2122",
+            "url": "https://www.lego.com/en-gb/product/wreath-10340",
+            "theme": "botanical"
+      },
+      {
+            "id": "72046",
+            "name": "Game Boy™",
       "img": "https://www.lego.com/cdn/cs/catalog/assets/blt93294b7b1307f20d/1/72046_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/game-boy-72046",
-      "theme": "videogames"
-    },
-    {
-      "id": "75244",
-      "name": "Tantive IV\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt6e6b847a2394f3bd/1/LEGO_75244_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/tantive-iv-75244",
-      "theme": "starwars"
-    },
-    {
-      "id": "75309",
-      "name": "Republic Gunship\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte83fb44f6c9d3a87/1/75309_box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/republic-gunship-75309",
-      "theme": "starwars"
-    },
-    {
-      "id": "71374",
-      "name": "Nintendo Entertainment System\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltf50620b09713cf61/1/LEGO_71374_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/nintendo-entertainment-system-71374",
-      "theme": "videogames"
-    },
-    {
-      "id": "75306",
-      "name": "Imperial Probe Droid\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7c756014857ce43f/1/LEGO_75306_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/imperial-probe-droid-75306",
-      "theme": "starwars"
-    },
-    {
-      "id": "10281",
-      "name": "Bonsai Tree",
+            "url": "https://www.lego.com/en-gb/product/game-boy-72046",
+            "theme": "videogames"
+      },
+      {
+            "id": "75244",
+            "name": "Tantive IV™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blt6e6b847a2394f3bd/1/LEGO_75244_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/tantive-iv-75244",
+            "theme": "starwars"
+      },
+      {
+            "id": "75309",
+            "name": "Republic Gunship™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blte83fb44f6c9d3a87/1/75309_box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/republic-gunship-75309",
+            "theme": "starwars"
+      },
+      {
+            "id": "71374",
+            "name": "Nintendo Entertainment System™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/bltf50620b09713cf61/1/LEGO_71374_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/nintendo-entertainment-system-71374",
+            "theme": "videogames"
+      },
+      {
+            "id": "75306",
+            "name": "Imperial Probe Droid™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7c756014857ce43f/1/LEGO_75306_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/imperial-probe-droid-75306",
+            "theme": "starwars"
+      },
+      {
+            "id": "10281",
+            "name": "Bonsai Tree",
       "img": "https://www.lego.com/cdn/cs/catalog/assets/blt5954abe42967ccf2/1/LEGO_10281_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/bonsai-tree-10281",
-      "theme": "botanical"
-    },
-    {
-      "id": "75275",
-      "name": "A-wing Starfighter\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte368d0acd8e1dc41/1/LEGO_75275_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/a-wing-starfighter-75275",
-      "theme": "starwars"
-    },
-    {
-      "id": "10343",
-      "name": "Mini Orchid",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte729a38fd79cf6e6/1/10343_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/mini-orchid-10343",
-      "theme": "botanical"
-    },
-    {
-      "id": "71426",
-      "name": "Piranha Plant",
+            "url": "https://www.lego.com/en-gb/product/bonsai-tree-10281",
+            "theme": "botanical"
+      },
+      {
+            "id": "75275",
+            "name": "A-wing Starfighter™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blte368d0acd8e1dc41/1/LEGO_75275_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/a-wing-starfighter-75275",
+            "theme": "starwars"
+      },
+      {
+            "id": "10343",
+            "name": "Mini Orchid",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blte729a38fd79cf6e6/1/10343_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/mini-orchid-10343",
+            "theme": "botanical"
+      },
+      {
+            "id": "71426",
+            "name": "Piranha Plant",
       "img": "https://www.lego.com/cdn/cs/catalog/assets/bltbbaf7e57f54b6957/1/71426_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/piranha-plant-71426",
-      "theme": "videogames"
-    },
-    {
-      "id": "10344",
-      "name": "Lucky Bamboo",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltb210b34a7ca83fd9/1/10344_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/lucky-bamboo-10344",
-      "theme": "botanical"
-    },
-    {
-      "id": "10311",
-      "name": "Orchid",
+            "url": "https://www.lego.com/en-gb/product/piranha-plant-71426",
+            "theme": "videogames"
+      },
+      {
+            "id": "10344",
+            "name": "Lucky Bamboo",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/bltb210b34a7ca83fd9/1/10344_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/lucky-bamboo-10344",
+            "theme": "botanical"
+      },
+      {
+            "id": "10311",
+            "name": "Orchid",
       "img": "https://www.lego.com/cdn/cs/catalog/assets/blt54ad4e80e08bb67c/1/10311_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/orchid-10311",
-      "theme": "botanical"
-    },
-    {
-      "id": "75252",
-      "name": "Imperial Star Destroyer\u2122",
-      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt22f6b53ba9fd13e3/1/75252_box1_v29_(1).png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
-      "url": "https://www.lego.com/en-gb/product/imperial-star-destroyer-75252",
-      "theme": "starwars"
-    },
-    {
-      "id": "11506",
-      "name": "Rocking Plants",
-      "img": "https://www.lego.com/cdn/cs/set/assets/blt0ecef35631d68f39/blte47c9a08c6295596-11506_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-      "url": "https://www.lego.com/en-gb/product/rocking-plants-11506",
-      "theme": "botanical"
-    },
-    {
-      "id": "77093",
-      "name": "Ocarina of Time\u2122 \u2013 The Final Battle",
-      "img": "https://www.lego.com/cdn/cs/set/assets/bltd7895bf495988a25/77093_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-      "url": "https://www.lego.com/en-gb/product/ocarina-of-time-the-final-battle-77093",
-      "theme": "videogames"
-    },
-    {
-      "id": "77092",
-      "name": "Great Deku Tree 2-in-1",
-      "img": "https://www.lego.com/cdn/cs/set/assets/blt6a8cb14aa4efef08/77092.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-      "url": "https://www.lego.com/en-gb/product/great-deku-tree-2-in-1-77092",
-      "theme": "videogames"
-    }
-  ],
+            "url": "https://www.lego.com/en-gb/product/orchid-10311",
+            "theme": "botanical"
+      },
+      {
+            "id": "75252",
+            "name": "Imperial Star Destroyer™",
+            "img": "https://www.lego.com/cdn/cs/catalog/assets/blt22f6b53ba9fd13e3/1/75252_box1_v29_(1).png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
+            "url": "https://www.lego.com/en-gb/product/imperial-star-destroyer-75252",
+            "theme": "starwars"
+      },
+      {
+            "id": "11506",
+            "name": "Rocking Plants",
+            "img": "https://www.lego.com/cdn/cs/set/assets/blt0ecef35631d68f39/blte47c9a08c6295596-11506_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+            "url": "https://www.lego.com/en-gb/product/rocking-plants-11506",
+            "theme": "botanical"
+      },
+      {
+            "id": "77093",
+            "name": "Ocarina of Time™ – The Final Battle",
+            "img": "https://www.lego.com/cdn/cs/set/assets/bltd7895bf495988a25/77093_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+            "url": "https://www.lego.com/en-gb/product/ocarina-of-time-the-final-battle-77093",
+            "theme": "videogames"
+      },
+      {
+            "id": "77092",
+            "name": "Great Deku Tree 2-in-1",
+            "img": "https://www.lego.com/cdn/cs/set/assets/blt6a8cb14aa4efef08/77092.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+            "url": "https://www.lego.com/en-gb/product/great-deku-tree-2-in-1-77092",
+            "theme": "videogames"
+      }
+],
   "wishlist": [
     {
       "id": "5009141",
@@ -2382,10 +2382,10 @@ window.SITE_CONTENT = {
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7b.jpg"
       },
       {
-        "name": "Warframe for Nintendo Switch",
+        "name": "Warframe",
         "console": "switch",
         "badge": "Nintendo Switch",
-        "img": ""
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95fk.jpg"
       },
       {
         "name": "Wargroove",
@@ -2709,31 +2709,31 @@ window.SITE_CONTENT = {
         "name": "The Legend of Zelda: Ocarina of Time 3D (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t1z.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg"
       },
       {
         "name": "The Legend of Zelda: Majora's Mask 3D (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t1y.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9x9.jpg"
       },
       {
         "name": "The Legend of Zelda: Tri Force Heroes (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t25.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p1a.jpg"
       },
       {
         "name": "The Legend of Zelda: Phantom Hourglass (DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t26.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ocu.jpg"
       },
       {
         "name": "The Legend of Zelda: Spirit Tracks - Tin Edition (DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t27.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg"
       },
       {
         "name": "Super Mario 3D Land (3DS)",
@@ -2769,31 +2769,31 @@ window.SITE_CONTENT = {
         "name": "Pokémon Moon (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r37.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg"
       },
       {
         "name": "Pokémon Alpha Sapphire (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r38.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg"
       },
       {
         "name": "Pokémon Diamond Version (DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r35.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg"
       },
       {
         "name": "Pokémon Black Version (DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r34.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg"
       },
       {
         "name": "Kid Icarus: Uprising (3DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t66.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9me.jpg"
       },
       {
         "name": "Star Fox 64 3D (3DS)",
@@ -2805,7 +2805,7 @@ window.SITE_CONTENT = {
         "name": "Metroid Prime Hunters (DS)",
         "console": "ds_3ds",
         "badge": "3DS / DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r72.jpg"
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j9t.jpg"
       },
       {
         "name": "Animal Crossing: Wild World (DS)",

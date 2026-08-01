@@ -66,54 +66,7 @@
 
 <script src="content.js"></script>
 <script src="nav.js"></script>
-<script>
-(function () {
-  const data = window.SITE_CONTENT && window.SITE_CONTENT.misc;
-  if (!data) return;
 
-  if (data.title) document.getElementById('misc-title').textContent = data.title;
-  if (data.subtitle) document.getElementById('misc-subtitle').textContent = data.subtitle;
-
-  // Render Tech Merch
-  const techGrid = document.getElementById('tech-merch-grid');
-  if (techGrid && data.techMerch) {
-    techGrid.innerHTML = data.techMerch.map(item => `
-      <a href="${item.url}" target="_blank" class="horizontal-card">
-        <img src="${item.icon}" alt="${item.name} Logo">
-        <span>${item.name}</span>
-      </a>
-    `).join('');
-  }
-
-  // Render Household
-  const householdGrid = document.getElementById('household-grid');
-  if (householdGrid && data.householdBrands) {
-    householdGrid.innerHTML = data.householdBrands.map(item => `
-      <a href="${item.url}" target="_blank" class="horizontal-card">
-        <img src="${item.icon}" alt="${item.name} Logo">
-        <span>${item.name}</span>
-      </a>
-    `).join('');
-  }
-
-  // Render Subscriptions grouped by category
-  const subsContainer = document.getElementById('subscriptions-list-group');
-  if (subsContainer && data.subscriptions) {
-    const categories = {};
-    data.subscriptions.forEach(item => {
-      const cat = item.category || 'Other';
-      if (!categories[cat]) categories[cat] = [];
-      categories[cat].push(item);
-    });
-
-    subsContainer.innerHTML = Object.entries(categories).map(([categoryName, items]) => `
-      <h3>${categoryName}</h3>
-      <div class="clean-list">
-        ${items.map(item => `<li><a href="${item.url}" target="_blank">${item.name}</a></li>`).join('')}
-      </div>
-    `).join('');
-  }
-})();
-</script>
+<script src="scripts/app.js"></script>
 </body>
 </html>

@@ -3,37 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Legend of Zelda Shrine ⚔️ | Gift Alec Today</title>
-  <meta name="description" content="Alec Doran-Twyford's Zelda Collection — Games, cookbooks, manga, guidebooks, and wanted items.">
+  <title>Household Consumables 📦 | Gift Alec Today</title>
+  <meta name="description" content="Recurring cleaning, health, food, and utilities that I buy regularly.">
   <meta name="theme-color" content="#160d14">
   <link rel="stylesheet" href="styles.css">
-  <script src="content.js"></script>
 </head>
 <body>
 
-<div class="banner">Last updated on: 29th July 2026</div>
+<div class="banner">Last updated on: <span class="header-date"></span></div>
 
 <header class="site-nav"></header>
 
 <main class="container">
   <section class="hero" style="padding: 16px 0; border-bottom: 1px solid var(--border);">
     <div style="display: flex; align-items: center; gap: 12px;">
-      <img src="https://unavatar.io/nintendo.com" alt="Zelda / Nintendo Logo" style="width: 42px; height: 42px; border-radius: 8px;">
+      <span style="font-size: 2.2rem;">📦</span>
       <div>
-        <h1 id="zelda-title">The Legend of Zelda™ Shrine 🗡️🛡️</h1>
-        <p id="zelda-subtitle">Dedicated Hyrule collection — games, lore books, cookbooks, soundtracks, and wanted collector items.</p>
+        <h1 id="consumables-title">Recurring Household Consumables 📦</h1>
+        <p>A reference list of common household items that need recurring top-ups.</p>
       </div>
     </div>
   </section>
 
-  <div id="zelda-content-container"></div>
+  <div id="consumables-container" style="margin-top: 24px; display: flex; flex-direction: column; gap: 32px;">
+    <!-- Populated by JS -->
+  </div>
 </main>
 
 <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
   <p>&copy; <span class="year"></span> Alec &middot; gift.alec.today</p>
-  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
 </footer>
 
+<script src="content.js"></script>
 <script src="nav.js"></script>
 
 <script src="scripts/app.js"></script>
