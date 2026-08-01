@@ -3970,13 +3970,6 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/call-of-duty-modern-warfare-2-campaign-remastered"
       },
       {
-        "name": "The Legend of Zelda: Spirit Tracks",
-        "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3oj6.jpg",
-        "platform": "ds",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-spirit-tracks"
-      },
-      {
         "name": "Tetris DS",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65xn.jpg",
