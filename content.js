@@ -3942,169 +3942,97 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/warhammer-40000-space-marine-ii"
       },
       {
-        "name": "8-Bit Link Amiibo (30th Anniversary)",
+        "name": "8-Bit Link Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/link-the-legend-of-zelda-amiibo-30th-anniversary-series",
         "platform": "amiibo"
       },
       {
-        "name": "Bokoblin Amiibo (Breath of the Wild)",
+        "name": "Bokoblin Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/bokoblin-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Daruk Amiibo (Goron Champion)",
+        "name": "Daruk Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/daruk-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Ganondorf Amiibo (Tears of the Kingdom)",
+        "name": "Ganondorf Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/ganondorf-tears-of-the-kingdom-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Ganondorf Amiibo (Twilight Princess / Smash Bros)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./ganondorf-amiibo-super-smash-bros-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Guardian Amiibo (Breath of the Wild)",
+        "name": "Guardian Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/guardian-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Link Amiibo (Breath of the Wild - Archer)",
+        "name": "Link Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/link-archer-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Link Amiibo (Breath of the Wild - Rider)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/link-rider-amiibo-the-legend-of-zelda-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Link's Awakening)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Link's%20Awakening/link-amiibo-the-legend-of-zelda-links-awakening-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Majora's Mask)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/link-majoras-mask-amiibo-the-legend-of-zelda-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Ocarina of Time)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/link-ocarina-of-time-amiibo-30th-anniversary-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Skyward Sword)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/link-skyward-sword-amiibo-the-legend-of-zelda-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Tears of the Kingdom)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/2023/link-totk/link-totk-amiibo",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (The Wind Waker / Toon Link)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/amiibo/toon-link-the-wind-waker-amiibo-30th-anniversary-series/toon-link-the-wind-waker-amiibo-30th-anniversary-series-figure",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Twilight Princess / Smash Bros)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./link-amiibo-super-smash-bros-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Link Amiibo (Twilight Princess 30th Anniv)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/link-twilight-princess-amiibo-the-legend-of-zelda-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Mineru's Construct Amiibo (Tears of the Kingdom)",
+        "name": "Mineru's Construct Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/120820-nintendo-amiibo-minerus-construct-2000x2000",
         "platform": "amiibo"
       },
       {
-        "name": "Mipha Amiibo (Zora Champion)",
+        "name": "Mipha Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/mipha-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Princess Zelda Amiibo (Breath of the Wild)",
+        "name": "Princess Zelda Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/zelda-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Princess Zelda Amiibo (Smash Bros / Twilight Princess)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./zelda-amiibo-super-smash-bros-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Princess Zelda Amiibo (The Wind Waker / Toon Zelda)",
-        "badge": "Official Amiibo Figure",
-        "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/toon-zelda-the-wind-waker-amiibo-30th-anniversary-series",
-        "platform": "amiibo"
-      },
-      {
-        "name": "Revali Amiibo (Rito Champion)",
+        "name": "Revali Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/revali-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Riju Amiibo (Tears of the Kingdom)",
+        "name": "Riju Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/riju-the-legend-of-zelda-tears-of-the-kingdom",
         "platform": "amiibo"
       },
       {
-        "name": "Sheik Amiibo (Smash Bros)",
+        "name": "Sheik Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./sheik-amiibo-super-smash-bros-series",
         "platform": "amiibo"
       },
       {
-        "name": "Sidon Amiibo (Tears of the Kingdom)",
+        "name": "Sidon Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/sidon-the-legend-of-zelda-tears-of-the-kingdom",
         "platform": "amiibo"
       },
       {
-        "name": "Toon Link Amiibo (Smash Bros)",
+        "name": "Toon Link Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./toon-link-amiibo-super-smash-bros-series",
         "platform": "amiibo"
       },
       {
-        "name": "Tulin Amiibo (Tears of the Kingdom)",
+        "name": "Tulin Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/tulin-the-legend-of-zelda-tears-of-the-kingdom-series",
         "platform": "amiibo"
       },
       {
-        "name": "Urbosa Amiibo (Gerudo Champion)",
+        "name": "Urbosa Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Breath%20of%20the%20Wild/urbosa-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
@@ -4116,37 +4044,37 @@ window.SITE_CONTENT = {
         "platform": "amiibo"
       },
       {
-        "name": "Young Link Amiibo (Smash Bros)",
+        "name": "Young Link Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Smash%20Bros./young-link-amiibo-super-smash-bros-series",
         "platform": "amiibo"
       },
       {
-        "name": "Yunobo Amiibo (Tears of the Kingdom)",
+        "name": "Yunobo Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/yunobo-the-legend-of-zelda-tears-of-the-kingdom",
         "platform": "amiibo"
       },
       {
-        "name": "Zelda Amiibo (Tears of the Kingdom)",
+        "name": "Zelda Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/Tears%20of%20the%20Kingdom/zelda-tears-of-the-kingdom-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "Zelda & Loftwing Amiibo (Skyward Sword)",
+        "name": "Zelda & Loftwing Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/The%20Legend%20of%20Zelda/zelda-and-loftwing-amiibo-the-legend-of-zelda-series",
         "platform": "amiibo"
       },
       {
-        "name": "8-Bit Mario Amiibo (30th Anniversary)",
+        "name": "8-Bit Mario Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Mario%20Bros.%2030th%20Anniversary/30th-anniversary-mario-classic-color-amiibo-30th-anniversary-series",
         "platform": "amiibo"
       },
       {
-        "name": "Toad Amiibo (Super Mario Series)",
+        "name": "Toad Amiibo",
         "badge": "Official Amiibo Figure",
         "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/amiibo/Super%20Mario/toad-amiibo-super-mario-series",
         "platform": "amiibo"
@@ -4276,34 +4204,6 @@ window.SITE_CONTENT = {
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39y9.jpg",
         "platform": "n64",
         "url": "https://www.igdb.com/games/v-rally-edition-99"
-      },
-      {
-        "name": "Super Mario Bros. Deluxe",
-        "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2299.jpg",
-        "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/super-mario-bros-deluxe"
-      },
-      {
-        "name": "Super Mario Land 2: 6 Golden Coins",
-        "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxg.jpg",
-        "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/super-mario-land-2-6-golden-coins"
-      },
-      {
-        "name": "The Legend of Zelda: Oracle of Seasons",
-        "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw0.jpg",
-        "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-seasons"
-      },
-      {
-        "name": "The Legend of Zelda: Oracle of Ages",
-        "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
-        "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-oracle-of-ages"
       },
       {
         "name": "Pokémon Yellow Version: Special Pikachu Edition",
