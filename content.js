@@ -456,7 +456,8 @@ window.SITE_CONTENT = {
       { "name": "Ralph Lauren", "notes": "Smart casual, knitwear & collared shirts" },
       { "name": "Havaianas", "notes": "Preferred flip-flops" },
       { "name": "Crocs", "notes": "Comfortable & collaboration clogs" },
-      { "name": "Mahabis", "notes": "Preferred comfortable slippers" }
+      { "name": "Mahabis", "notes": "Preferred comfortable slippers" },
+      { "name": "CityComfort", "notes": "Comfortable pyjamas & lounge pants" }
     ],
     "sizes": [
       {
@@ -514,6 +515,13 @@ window.SITE_CONTENT = {
         "color": "Dark Grey / Larvik Grey / Skagen Blue",
         "size": "11 UK",
         "url": "https://mahabis.com/products/classic-slippers?upper=dg&colour=sb"
+      },
+      {
+        "brand": "CityComfort",
+        "item": "Jersey PJ Lounge Bottoms (2-Pack)",
+        "color": "Black / Grey",
+        "size": "XL",
+        "url": "https://www.amazon.co.uk/dp/B0CNH1SGLJ"
       }
     ],
     "inventory": [
@@ -527,7 +535,7 @@ window.SITE_CONTENT = {
       { "name": "Button-down Shirt", "brand": "Ralph Lauren", "size": "3XL", "type": "Shirts (Smart)" },
       { "name": "Linen Trousers", "brand": "Uniqlo", "size": "XL", "type": "Trousers (Casual)" },
       { "name": "Gym Sweatpants", "brand": "Nike", "size": "XL", "type": "Trousers (Gym)" },
-      { "name": "Flannel PJ Bottoms", "brand": "Uniqlo", "size": "XL", "type": "Trousers (PJ)" },
+      { "name": "Jersey PJ Lounge Bottoms (2-Pack)", "brand": "CityComfort", "size": "XL", "type": "Trousers (PJ)" },
       { "name": "Chino Trousers", "brand": "Ralph Lauren", "size": "XL", "type": "Trousers (Smart)" },
       { "name": "Cotton Boxers", "brand": "Uniqlo", "size": "XL", "type": "Underwear (Pants)" },
       { "name": "Ankle Socks", "brand": "Nike", "size": "11 UK", "type": "Socks" },
@@ -972,77 +980,96 @@ window.SITE_CONTENT = {
 },
   "books": {
     "title": "Books, Manga & Reference 📚",
-    "owned": [
+    "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
+    "manga": [
       {
-        "name": "Mastering the Art of French Cooking (Julia Child 2-Vol Box Set)",
-        "category": "Cookbooks",
-        "badge": "Hardcover Box Set",
-        "img": "https://m.media-amazon.com/images/I/41K8L0z6vTL._SS135_.jpg"
+        "series": "Fullmetal Alchemist: Fullmetal Edition",
+        "author": "Hiromu Arakawa",
+        "notes": "Deluxe hardcover omnibus release. Highly recommended story and beautiful book production.",
+        "img": "https://m.media-amazon.com/images/I/51b5+3P04LL._SS135_.jpg",
+        "volumes": [
+          { "vol": 1, "status": "owned", "img": "https://m.media-amazon.com/images/I/51b5+3P04LL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706078", "goodreads": "https://www.goodreads.com/book/show/36387979-fullmetal-alchemist-1" },
+          { "vol": 2, "status": "owned", "img": "https://m.media-amazon.com/images/I/51G2E2XkRSL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706086", "goodreads": "https://www.goodreads.com/book/show/36582414-fullmetal-alchemist-2" },
+          { "vol": 3, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51L9Q9VFLSL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706094", "goodreads": "https://www.goodreads.com/book/show/36978311-fullmetal-alchemist-3" },
+          { "vol": 4, "status": "wanted", "img": "https://m.media-amazon.com/images/I/5123Wp2dJ3L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706108" },
+          { "vol": 5, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51n8bK3oTQL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706116" },
+          { "vol": 6, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51fEX258DqL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706124" },
+          { "vol": 7, "status": "wanted", "img": "https://m.media-amazon.com/images/I/511xQ5wJbWL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706132" },
+          { "vol": 8, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51uG989TqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706140" },
+          { "vol": 9, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Bq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706159" },
+          { "vol": 10, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Fq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706167" },
+          { "vol": 11, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Gq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706175" },
+          { "vol": 12, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Hq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706183" },
+          { "vol": 13, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Iq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706191" },
+          { "vol": 14, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Jq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706205" },
+          { "vol": 15, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Kq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706213" },
+          { "vol": 16, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Lq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974706221" },
+          { "vol": 17, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Mq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/197470623X" },
+          { "vol": 18, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51Nq98dTqEL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974720003" }
+        ]
       },
       {
-        "name": "The Flavour Thesaurus (Niki Segnit)",
-        "category": "Cookbooks",
-        "badge": "Hardcover",
-        "img": "https://m.media-amazon.com/images/I/41Zf6T+kR2L._SS135_.jpg"
-      },
-      {
-        "name": "Dishoom: From Bombay with Love",
-        "category": "Cookbooks",
-        "badge": "Hardcover",
-        "img": "https://m.media-amazon.com/images/I/51R8V270xVL._SS135_.jpg"
-      },
-      {
-        "name": "Wagamama: Feed Your Soul",
-        "category": "Cookbooks",
-        "badge": "Hardcover",
-        "img": "https://m.media-amazon.com/images/I/51+9T6H3-UL._SS135_.jpg"
-      },
-      {
-        "name": "Heston Is This A Cookbook? & Heston at Home",
-        "category": "Cookbooks",
-        "badge": "Heston Blumenthal",
-        "img": "https://m.media-amazon.com/images/I/51Y0y6N0w4L._SS135_.jpg"
-      },
-      {
-        "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook",
-        "category": "Cookbooks",
-        "badge": "Hardcover",
-        "img": "https://m.media-amazon.com/images/I/51KzN+Xb-nL._SS135_.jpg"
-      },
-      {
-        "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 01 & 02",
-        "category": "Manga",
-        "badge": "Deluxe Hardcover",
-        "img": "https://m.media-amazon.com/images/I/51b5+3P04LL._SS135_.jpg"
-      },
-      {
-        "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)",
-        "category": "CS & Tech",
-        "badge": "10th Anniv Ed",
-        "img": "https://m.media-amazon.com/images/I/41hY9fN+VLL._SS135_.jpg"
-      },
-      {
-        "name": "Computer Organization & Design (Patterson & Hennessy)",
-        "category": "CS & Tech",
-        "badge": "4th Ed",
-        "img": "https://m.media-amazon.com/images/I/51c-g4gXJYL._SS135_.jpg"
+        "series": "The Legend of Zelda: Twilight Princess Manga",
+        "author": "Akira Himekawa",
+        "notes": "Official manga adaptation of Twilight Princess. Epic fantasy quest spanning 11 volumes.",
+        "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg",
+        "volumes": [
+          { "vol": 1, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421593475", "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda/akira-himekawa/9781421593470" },
+          { "vol": 2, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421596547" },
+          { "vol": 3, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421598264" },
+          { "vol": 4, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1421598272" },
+          { "vol": 5, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974702250" },
+          { "vol": 6, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974708909" },
+          { "vol": 7, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974718106" },
+          { "vol": 8, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974720976" },
+          { "vol": 9, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974724491" },
+          { "vol": 10, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974732184" },
+          { "vol": 11, "status": "wanted", "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1974738980" }
+        ]
       }
     ],
-    "wishlist": [
-      {
-        "name": "The Food Lab (J. Kenji López-Alt)",
-        "category": "Cookbooks",
-        "price": "Amazon Wishlist",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg"
-      },
-      {
-        "name": "Salt, Fat, Acid, Heat (Samin Nosrat)",
-        "category": "Cookbooks",
-        "price": "Amazon Wishlist",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "img": "https://m.media-amazon.com/images/I/51qB7-7V9PL._SS135_.jpg"
-      }
+    "normal": [
+      // Cookbooks
+      { "name": "Mastering the Art of French Cooking (Julia Child 2-Vol Box Set)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover Box Set", "img": "https://m.media-amazon.com/images/I/41K8L0z6vTL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0307593522" },
+      { "name": "The Flavour Thesaurus (Niki Segnit)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/41Zf6T+kR2L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0747599777" },
+      { "name": "Dishoom: From Bombay with Love", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51R8V270xVL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1408890674" },
+      { "name": "Wagamama: Feed Your Soul", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51+9T6H3-UL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1784724831" },
+      { "name": "Heston Is This A Cookbook? & Heston at Home", "category": "Cookbooks", "status": "owned", "badge": "Heston Blumenthal", "img": "https://m.media-amazon.com/images/I/51Y0y6N0w4L._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1408804409" },
+      { "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "https://m.media-amazon.com/images/I/51KzN+Xb-nL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1645674063" },
+      { "name": "Field Notes for Food Adventure (Brad Leone)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/0593138380" },
+      { "name": "Modern French Pastry (Cheryl Wakerhauser)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1624143781" },
+      { "name": "Japanese Pâtisserie (James Campbell)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/184975762X" },
+      { "name": "The Savoy Cocktail Book (Harry Craddock)", "category": "Cookbooks", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1472114251" },
+      { "name": "Edmonds Cookery Book", "category": "Cookbooks", "status": "owned", "badge": "Paperback", "img": "", "amazon": "https://www.amazon.co.uk/dp/0790016629" },
+      { "name": "The Food Lab: Better Home Cooking Through Science (Kenji López-Alt)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Salt, Fat, Acid, Heat (Samin Nosrat)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "https://m.media-amazon.com/images/I/51qB7-7V9PL._SS135_.jpg", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Dessert Person (Claire Saffitz)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "The Big Fat Duck Cookbook (Heston Blumenthal)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Momofuku (David Chang)", "category": "Cookbooks", "status": "wanted", "badge": "Hardcover Wishlist", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share", "price": "Amazon Wishlist" },
+
+      // CS & Tech
+      { "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)", "category": "CS & Tech", "status": "owned", "badge": "10th Anniv Ed", "img": "https://m.media-amazon.com/images/I/41hY9fN+VLL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/1107002176" },
+      { "name": "Computer Organization & Design (Patterson & Hennessy)", "category": "CS & Tech", "status": "owned", "badge": "4th Ed", "img": "https://m.media-amazon.com/images/I/51c-g4gXJYL._SS135_.jpg", "amazon": "https://www.amazon.co.uk/dp/0123747503" },
+      { "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)", "category": "CS & Tech", "status": "owned", "badge": "2nd Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0470018666" },
+      { "name": "Software Engineering (Sommerville)", "category": "CS & Tech", "status": "owned", "badge": "9th Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0137035152" },
+      { "name": "The Robotics Primer (Maja J. Matarić, MIT Press)", "category": "CS & Tech", "status": "owned", "badge": "MIT Press", "img": "", "amazon": "https://www.amazon.co.uk/dp/026263354X" },
+      { "name": "Business Database Systems (Connolly & Begg)", "category": "CS & Tech", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1405874376" },
+      { "name": "Principles of Interactive Multimedia (Elsom-Cook)", "category": "CS & Tech", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/0077093343" },
+      { "name": "Objects First With Java: Practical Intro Using BlueJ", "category": "CS & Tech", "status": "owned", "badge": "4th Ed", "img": "", "amazon": "https://www.amazon.co.uk/dp/0136060862" },
+      { "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)", "category": "CS & Tech", "status": "owned", "badge": "Google Ventures", "img": "", "amazon": "https://www.amazon.co.uk/dp/150112174X" },
+      
+      // Video Game Books
+      { "name": "The Legend's Cookbook+ (Zelda Recipes & Art)", "category": "Video Game Books", "status": "owned", "badge": "Hardcover Decor", "img": "", "amazon": "https://www.amazon.co.uk/dp/B08P1STST1" },
+      { "name": "Zelda: Twilight Princess HD Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "Zelda: Majora's Mask Collector's Guide (Prima)", "category": "Video Game Books", "status": "wanted", "badge": "Collector's Guide", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
+      { "name": "The Legend of Zelda Manga Legendary Edition Box Set", "category": "Video Game Books", "status": "wanted", "badge": "5-Book Box Set", "img": "", "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share", "price": "Amazon Wishlist" },
+
+      // Non-Fiction
+      { "name": "Unfu*k Yourself (Gary John Bishop)", "category": "Non-Fiction", "status": "owned", "badge": "Hardcover", "img": "", "amazon": "https://www.amazon.co.uk/dp/1473668528" },
+      { "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms", "category": "Non-Fiction", "status": "owned", "badge": "LEGO Almanac", "img": "", "amazon": "https://www.amazon.co.uk/dp/1452183204" },
+
+      // Misc
+      { "name": "Ladybird: How It Works... The Computer (Ladybird 654)", "category": "Misc", "status": "owned", "badge": "Vintage Ladybird", "img": "", "amazon": "https://www.amazon.co.uk/dp/B0000CN6GD" }
     ]
   },
   "videogames": {
@@ -3078,7 +3105,13 @@ window.SITE_CONTENT = {
   },
   "home": {
     "title": "Home & Smart Tech Setup 🏡",
-    "subtitle": "Room-by-room layout, smart home devices, and active projects.",
+    "subtitle": "Whole-house layout, smart home devices, inventories, and active projects.",
+    "lights": { "Bulb": 28, "Play": 2, "Lightstrip": 2, "Go": 6, "FairyLight": 2, "Ceiling": 1 },
+    "switches": ["Whole House (Master Controls)"],
+    "inventory": [],
+    "projects": [
+      { "name": "Repaint House", "status": "planned" }
+    ],
     "floors": {
       "ground": {
         "name": "Ground Floor (Floor 0)",
@@ -3086,46 +3119,33 @@ window.SITE_CONTENT = {
         "rooms": {
           "hallway": {
             "name": "Ground Floor Hallway",
-            "hueGroup": 11,
             "lights": { "Bulb": 4 },
             "switches": ["Hallway (Switch) 19"],
-            "projects": []
-          },
-          "front_door": {
-            "name": "Front Door",
-            "hueGroup": 14,
-            "lights": { "Bulb": 1 },
-            "projects": []
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
           },
           "living": {
             "name": "Lounge / Living Room",
-            "hueGroup": 6,
             "lights": { "Bulb": 4, "Play": 2, "Lightstrip": 1 },
             "switches": ["Living room (Switch) 21", "Living room (Tap) 24"],
+            "inventory": [],
             "projects": [
-              { "name": "Philips Hue HDMI Sync Box Setup", "status": "in-progress" },
-              { "name": "Kallax Board Game Storage Shelving", "status": "completed" },
-              { "name": "AV Receiver Cable Concealment", "status": "planned" }
+              { "name": "Repaint Room", "status": "planned" }
             ]
-          },
-          "dining": {
-            "name": "Dining Room",
-            "projects": []
           },
           "kitchen": {
             "name": "Kitchen & Culinary Tech",
-            "hueGroup": 5,
             "lights": { "Bulb": 7 },
             "switches": ["Kitchen (Switch) 18"],
+            "inventory": [
+              { "name": "Cole & Mason Dorchester Pestle and Mortar (100mm)", "badge": "Utensils" },
+              { "name": "Ninja Foodi 3-in-1 Hand Blender, Mixer & Chopper (CI100UK)", "badge": "Food Tech" }
+            ],
             "projects": [
-              { "name": "Coffee Niche Espresso Corner", "status": "in-progress" },
-              { "name": "Sous-Vide Water Oven Drawer", "status": "completed" },
-              { "name": "Spice Rack & Container Labeling", "status": "planned" }
+              { "name": "Repaint Room", "status": "planned" }
             ]
-          },
-          "toilet": {
-            "name": "Downstairs Toilet / Cloakroom",
-            "projects": []
           }
         }
       },
@@ -3135,31 +3155,55 @@ window.SITE_CONTENT = {
         "rooms": {
           "hallway": {
             "name": "Middle Floor Hallway & Stairs",
-            "hueGroup": 2,
             "lights": { "Bulb": 2, "Go": 1 },
-            "projects": []
-          },
-          "guest": {
-            "name": "Guest Room (Bedroom 2)",
-            "hueGroup": 85,
-            "lights": { "Bulb": 1, "Go": 1 },
-            "switches": ["Guest room (Switch) 17"],
-            "projects": []
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
           },
           "office": {
             "name": "Office & Workstation (Bedroom 3)",
-            "hueGroup": 7,
             "lights": { "Bulb": 4, "FairyLight": 1 },
             "switches": ["Office (Desk) [Dial] 7", "Office (Desk) [Button] 8", "Office (Switch) 22"],
+            "inventory": [
+              { "name": "Secretlab MAGNUS Pro XL Motorised Desk (Metal Desk Top & Motorised Legs with Lockable Casters)", "badge": "Desk Setup" },
+              { "name": "Secretlab MAGNUS Desk Riser", "badge": "Desk Setup" },
+              { "name": "Secretlab MAGNUS Dual Monitor Arm with Laptop Mount & Vertical Monitor Stand", "badge": "Monitor Setup" },
+              { "name": "CyberPower Personal Gaming PC (Intel i7-14700KF, RTX 4070 Super, Lian Li Case)", "badge": "Workstation" },
+              { "name": "Secretlab Premium PC Mount", "badge": "Desk Setup" },
+              { "name": "Secretlab Magnetic Headphone Hanger", "badge": "Accessories" },
+              { "name": "Secretlab Magnetic Cable Management (Anchors, Sheaths, Straps)", "badge": "Cable Management" }
+            ],
             "projects": [
-              { "name": "Under-Desk Cable Management Routing", "status": "in-progress" },
-              { "name": "Dual Monitor Arm Desk Mount", "status": "completed" },
-              { "name": "Elgato Stream Deck Keybind Layout", "status": "planned" }
+              { "name": "Repaint Room", "status": "planned" }
+            ]
+          },
+          "guest": {
+            "name": "Guest Room (Bedroom 2)",
+            "lights": { "Bulb": 1, "Go": 1 },
+            "switches": ["Guest room (Switch) 17"],
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
             ]
           },
           "bathroom": {
-            "name": "Main Bathroom",
-            "projects": []
+            "name": "Guest Bathroom (Main Bathroom)",
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
+          },
+          "gym": {
+            "name": "Gym",
+            "inventory": [
+              { "name": "Matrix Fitness TF30 Treadmill with XIR Console", "badge": "Gym Equipment" },
+              { "name": "Q Sports Free Standing Boxing Punch Bag", "badge": "Gym Equipment" },
+              { "name": "Body Power 20mm Floor Tiles (x22)", "badge": "Flooring" }
+            ],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
           }
         }
       },
@@ -3169,36 +3213,37 @@ window.SITE_CONTENT = {
         "rooms": {
           "hallway": {
             "name": "Top Floor Stairs & Landing",
-            "hueGroup": 12,
             "lights": { "Bulb": 1 },
-            "projects": []
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
           },
           "master": {
             "name": "Master Bedroom (Bedroom 1)",
-            "hueGroup": 8,
             "lights": { "Bulb": 2, "Go": 2, "Lightstrip": 1, "FairyLight": 1 },
             "switches": ["Master Bedroom (Bed) 9", "Master Bedroom (Switch) 23"],
+            "inventory": [],
             "projects": [
-              { "name": "Dual Bedside Qi2 Fast Chargers", "status": "completed" },
-              { "name": "Automated Smart Roller Blinds", "status": "planned" }
+              { "name": "Repaint Room", "status": "planned" }
             ]
           },
           "ensuite": {
             "name": "Master Ensuite",
-            "hueGroup": 81,
             "lights": { "Ceiling": 1 },
+            "inventory": [],
             "projects": [
-              { "name": "ELEGANT Stainless Steel Niche (90x30 cm)", "status": "in-progress" },
-              { "name": "ELEGANT Stainless Steel Niche (60x30 cm)", "status": "planned" },
-              { "name": "Waterproof Bluetooth Audio Speaker", "status": "planned" }
+              { "name": "Repaint Room", "status": "planned" }
             ]
           },
           "cosy": {
             "name": "Cosy Room (Bedroom 4)",
-            "hueGroup": 4,
             "lights": { "Bulb": 1 },
             "switches": ["Cosy Room (Switch) 20"],
-            "projects": []
+            "inventory": [],
+            "projects": [
+              { "name": "Repaint Room", "status": "planned" }
+            ]
           }
         }
       }
