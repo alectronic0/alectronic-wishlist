@@ -36,7 +36,6 @@
       'ads_data_redaction': true
     });
   </script>
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -51,40 +50,77 @@
       "alternateName": ["Alectronic", "alectronic0"],
       "gender": "Male",
       "jobTitle": "Senior Software Engineer",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "London, United Kingdom"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Welwyn Garden City",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "GB"
+      },
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "English",
+          "alternateName": "en"
+        }
+      ],
+      "skills": [
+        "Go", "Java", "Ruby", "TypeScript", "React",
+        "gRPC", "Kafka", "Postgres", "Redis", "AWS",
+        "Docker", "Terraform", "Distributed Systems",
+        "Microservices", "Backend Engineering", "Full Stack Engineering"
+      ],
       "description": "Gift wishlist for Alec Doran-Twyford (Alectronic) — sizes, favourites, and gift ideas.",
       "url": "https://gift.alec.today/",
-      "image": "https://date.alec.today/img/og-image.webp",
+      "image": "https://date.alec.today/img/alec/alec-portrait-terracotta-wall.webp",
       "email": [
         "alec@alectronic.co",
         "date@alec.today"
       ],
-      "nationality": { "@type": "Country", "name": "United Kingdom" },
+      "nationality": [
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "New Zealand" }
+      ],
       "homeLocation": {
         "@type": "Place",
         "name": "Welwyn Garden City, Hertfordshire, England"
       },
       "worksFor": {
         "@type": "Organization",
-        "name": "Deliveroo"
+        "name": "Deliveroo",
+        "sameAs": "https://en.wikipedia.org/wiki/Deliveroo"
       },
       "alumniOf": [
-        { "@type": "Organization", "name": "Rightmove" },
-        { "@type": "Organization", "name": "Solirius" },
-        { "@type": "Organization", "name": "Sky" }
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Hertfordshire",
+          "sameAs": "https://en.wikipedia.org/wiki/University_of_Hertfordshire"
+        },
+        { "@type": "Organization", "name": "Rightmove", "sameAs": "https://en.wikipedia.org/wiki/Rightmove" },
+        { "@type": "Organization", "name": "Solirius Consulting" },
+        { "@type": "Organization", "name": "Sky", "sameAs": "https://en.wikipedia.org/wiki/Sky_Group" },
+        { "@type": "Organization", "name": "GLEAT" },
+        { "@type": "Organization", "name": "Welcome Break Waitrose" }
       ],
       "knowsAbout": [
-        "Software Engineering", "Backend Development",
-        "Go", "Java", "Ruby on Rails", "TypeScript",
-        "Spring Boot", "gRPC", "Kafka", "Postgres", "Redis",
-        "AWS", "Docker", "Terraform",
-        "Distributed Systems", "Microservices"
+        "Software Engineering", "Backend Development", "Full Stack Engineering",
+        "Go", "Java", "Ruby on Rails", "TypeScript", "React",
+        "gRPC", "Kafka", "Postgres", "Redis", "AWS",
+        "Docker", "Terraform", "Distributed Systems", "Microservices"
       ],
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
           "name": "BSc Computer Science (First Class Honours)",
           "credentialCategory": "degree",
-          "recognizedBy": { "@type": "Organization", "name": "University of Hertfordshire" }
+          "recognizedBy": {
+            "@type": "EducationalOrganization",
+            "name": "University of Hertfordshire",
+            "sameAs": "https://en.wikipedia.org/wiki/University_of_Hertfordshire"
+          }
         },
         {
           "@type": "EducationalOccupationalCredential",
