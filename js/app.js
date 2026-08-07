@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const headerHTML = `
+    <div class="banner">Last updated on: <span class="header-date"></span></div>
+    <header class="site-nav"></header>
+  `;
+  const footerHTML = `
+    <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
+      <p>&copy; <span class="year">${new Date().getFullYear()}</span> Alec &middot; gift.alec.today &middot; All rights reserved.</p>
+      <p style="margin-top: 4px; font-size: 0.8em; opacity: 0.8;">Powered by <a href="https://alec.today/" target="_blank" rel="noopener" style="text-decoration: underline; color: inherit;">Alec Doran-Twyford (Alectronic&trade;)</a></p>
+    </footer>
+  `;
+  document.body.insertAdjacentHTML('afterbegin', headerHTML);
+  document.body.insertAdjacentHTML('beforeend', footerHTML);
+});
+document.addEventListener('DOMContentLoaded', () => {
   const SITE_CONTENT = window.SITE_CONTENT;
   if (!SITE_CONTENT) return;
 
@@ -1397,3 +1411,339 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('inventory-app');
+  if (!container || !window.INVENTORY_DATA) return;
+
+  const data = window.INVENTORY_DATA;
+  let activeCategory = 'all';
+  let searchQuery = '';
+
+  // Render Skeleton HTML Structure inside #inventory-app
+  container.innerHTML = `
+    <div class="inventory-controls">
+      <div class="inventory-tabs" id="inventory-tabs"></div>
+      <div class="inventory-search-wrap">
+        <input 
+          type="text" 
+          id="inventory-search" 
+          class="inventory-search-input" 
+          placeholder="🔍 Search books, LEGO, games, vinyl..." 
+          aria-label="Search Inventory"
+        />
+      </div>
+    </div>
+    <div id="inventory-grid" class="inventory-grid"></div>
+  `;
+
+  const tabsContainer = document.getElementById('inventory-tabs');
+  const gridContainer = document.getElementById('inventory-grid');
+  const searchInput = document.getElementById('inventory-search');
+
+  // Build Tab Buttons
+  function renderTabs() {
+    let tabsHTML = `
+      <button class="inv-tab ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">
+        ✨ All Items
+      </button>
+    `;
+
+    data.categories.forEach(cat => {
+      tabsHTML += `
+        <button class="inv-tab ${activeCategory === cat.id ? 'active' : ''}" data-cat="${cat.id}">
+          ${cat.icon} ${cat.name}
+        </button>
+      `;
+    });
+
+    tabsContainer.innerHTML = tabsHTML;
+
+    tabsContainer.querySelectorAll('.inv-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeCategory = btn.getAttribute('data-cat');
+        renderTabs();
+        renderGrid();
+      });
+    });
+  }
+
+  // Render Grid Content
+  function renderGrid() {
+    let html = '';
+
+    const categoriesToRender = activeCategory === 'all' 
+      ? data.categories 
+      : data.categories.filter(c => c.id === activeCategory);
+
+    let totalItemsMatched = 0;
+
+    categoriesToRender.forEach(cat => {
+      // Filter items by search query
+      const filteredItems = cat.items.filter(item => {
+        if (!searchQuery) return true;
+        const q = searchQuery.toLowerCase();
+        const titleMatch = item.title.toLowerCase().includes(q);
+        const subMatch = (item.subtitle || '').toLowerCase().includes(q);
+        const notesMatch = (item.notes || '').toLowerCase().includes(q);
+        const alreadyMatch = (item.already || []).some(a => a.name.toLowerCase().includes(q));
+        const wantedMatch = (item.wanted || []).some(w => w.name.toLowerCase().includes(q));
+        return titleMatch || subMatch || notesMatch || alreadyMatch || wantedMatch;
+      });
+
+      if (filteredItems.length === 0) return;
+
+      totalItemsMatched += filteredItems.length;
+
+      html += `
+        <div class="inventory-category-block">
+          <div class="inv-cat-header">
+            <h3>${cat.icon} ${cat.name}</h3>
+            <p>${cat.description}</p>
+          </div>
+          
+          <div class="inv-cards-wrapper">
+      `;
+
+      filteredItems.forEach(item => {
+        const alreadyCount = (item.already || []).length;
+        const wantedCount = (item.wanted || []).length;
+        const totalCount = alreadyCount + wantedCount;
+        const progressPct = totalCount > 0 ? Math.round((alreadyCount / totalCount) * 100) : 100;
+
+        html += `
+          <div class="inv-shelf-card">
+            <div class="inv-card-header">
+              <div class="inv-title-group">
+                <span class="inv-card-icon">${cat.icon}</span>
+                <div>
+                  <h4 class="inv-card-title">${escapeHTML(item.title)}</h4>
+                  ${item.subtitle ? `<span class="inv-card-sub">${escapeHTML(item.subtitle)}</span>` : ''}
+                </div>
+              </div>
+              <div class="inv-progress-badge" title="${alreadyCount} of ${totalCount} items collected">
+                <span class="inv-progress-bar" style="width: ${progressPct}%"></span>
+                <span class="inv-progress-text">${progressPct}% Collected</span>
+              </div>
+            </div>
+
+            ${item.notes ? `<p class="inv-card-notes">${escapeHTML(item.notes)}</p>` : ''}
+
+            <div class="inv-card-body">
+              <!-- Already Owned Column -->
+              <div class="inv-col inv-col-owned">
+                <div class="inv-col-title">
+                  <span class="inv-dot inv-dot-owned"></span>
+                  <span>Already Have (${alreadyCount})</span>
+                </div>
+                <ul class="inv-list">
+                  ${(item.already || []).map(owned => `
+                    <li class="inv-list-item inv-owned-item">
+                      <span class="inv-check-icon">✓</span>
+                      <span class="inv-item-name">${escapeHTML(owned.name)}</span>
+                      ${owned.badge ? `<span class="inv-item-badge">${escapeHTML(owned.badge)}</span>` : ''}
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+
+              <!-- Wanted Column -->
+              <div class="inv-col inv-col-wanted">
+                <div class="inv-col-title">
+                  <span class="inv-dot inv-dot-wanted"></span>
+                  <span>Help Complete Collection (${wantedCount})</span>
+                </div>
+                ${wantedCount > 0 ? `
+                  <ul class="inv-list">
+                    ${(item.wanted || []).map(w => `
+                      <li class="inv-list-item inv-wanted-item">
+                        <div class="inv-wanted-info">
+                          <span class="inv-gift-icon">🎁</span>
+                          <span class="inv-item-name">${escapeHTML(w.name)}</span>
+                          ${w.note ? `<span class="inv-item-subnote">${escapeHTML(w.note)}</span>` : ''}
+                        </div>
+                        ${w.link ? `
+                          <a href="${escapeHTML(w.link)}" target="_blank" rel="noopener" class="inv-action-btn">
+                            Gift This ↗
+                          </a>
+                        ` : ''}
+                      </li>
+                    `).join('')}
+                  </ul>
+                ` : `
+                  <div class="inv-complete-banner">🎉 Collection Complete!</div>
+                `}
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      html += `
+          </div>
+        </div>
+      `;
+    });
+
+    if (totalItemsMatched === 0) {
+      html = `
+        <div class="inv-empty-state">
+          <p>No inventory items match your search for "<strong>${escapeHTML(searchQuery)}</strong>".</p>
+        </div>
+      `;
+    }
+
+    gridContainer.innerHTML = html;
+  }
+
+  // Helper escapeHTML
+  function escapeHTML(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  // Search input handler
+  searchInput.addEventListener('input', (e) => {
+    searchQuery = e.target.value.trim();
+    renderGrid();
+  });
+
+  // Init
+  renderTabs();
+  renderGrid();
+});
+/**
+ * Global Navigation Script for Alec's Wishlist & Home Inventory
+ * Implements the alectronic-date fold-down hamburger navigation bar.
+ */
+(function () {
+    const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+
+    const navLinks = [
+        {href: 'index.html', icon: '🏠', title: 'Wishlist Hub', sub: 'Main hub & money gifts'},
+        {href: 'lego.html', icon: '🧱', title: 'LEGO® Collection', sub: 'Star Wars, Botanical & Icons'},
+        {href: 'zelda.html', icon: '⚔️', title: 'The Zelda Shrine', sub: 'Relics, games & lore'},
+        {href: 'boardgames.html', icon: '🎲', title: 'Board Games', sub: 'Quacks, Ticket to Ride, Clank!'},
+        {href: 'videogames.html', icon: '🎮', title: 'Video Games', sub: 'Switch, 3DS & Steam library'},
+        {href: 'books.html', icon: '📚', title: 'Books & Reference', sub: 'Cookbooks, manga & CS textbooks'},
+        {href: 'home.html', icon: '🏡', title: 'Home & Smart Tech', sub: 'Office, living room & bathroom'},
+        {href: 'health.html', icon: '🩺', title: 'Health & Gym', sub: 'ECG monitor & Hilo bracelet'},
+        {href: 'clothing.html', icon: '👕', title: 'Clothing & Sizes', sub: 'Style philosophy & sizing chart'},
+        {href: 'misc.html', icon: '🛒', title: 'Stores & Subscriptions', sub: 'Tech merch & subscription boxes'},
+        {
+            href: 'consumables.html',
+            icon: '📦',
+            title: 'Recurring Household Consumables',
+            sub: 'A reference list of common household items that need recurring top-ups.'
+        }
+    ];
+
+    function renderNav() {
+        const siteHeader = document.querySelector('header.site-nav');
+        if (!siteHeader) return;
+
+        // Render fold-down top bar layout (matching alectronic-date pattern)
+        siteHeader.innerHTML = `
+      <div class="nav-bar">
+        <button class="nav-burger" id="navBurger" type="button" aria-expanded="false" aria-controls="nav-foldout" aria-label="Toggle Navigation Menu">
+          <span class="burger-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="burger-label" id="burgerLabel">Menu</span>
+        </button>
+        <a href="index.html" class="logo"><strong>Alec's Wishlist</strong></a>
+      </div>
+
+      <div class="nav-foldout" id="navFoldout">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+          <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent);">Explore Sections</span>
+          <span style="font-size:0.75rem; color:var(--text-muted);">${navLinks.length} Catalog Pages</span>
+        </div>
+        <div class="nav-grid">
+          ${navLinks
+            .map((item) => {
+                const isActive =
+                    currentPath === item.href || (currentPath === '' && item.href === 'index.html')
+                        ? 'active'
+                        : '';
+                return `
+                <a href="${item.href}" class="nav-link-card ${isActive}">
+                  <span class="nav-link-icon">${item.icon}</span>
+                  <div class="nav-link-info">
+                    <span class="nav-link-title">${item.title}</span>
+                    <span class="nav-link-sub">${item.sub}</span>
+                  </div>
+                </a>
+              `;
+            })
+            .join('')}
+        </div>
+      </div>
+    `;
+
+        const navBurger = document.getElementById('navBurger');
+        const burgerLabel = document.getElementById('burgerLabel');
+
+        function toggleMenu() {
+            const isOpen = siteHeader.classList.toggle('open');
+            navBurger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            if (burgerLabel) {
+                burgerLabel.textContent = isOpen ? 'Close' : 'Menu';
+            }
+        }
+
+        if (navBurger) {
+            navBurger.addEventListener('click', function (e) {
+                e.stopPropagation();
+                toggleMenu();
+            });
+        }
+
+        // Close menu when clicking outside header
+        document.addEventListener('click', function (e) {
+            if (siteHeader.classList.contains('open') && !siteHeader.contains(e.target)) {
+                siteHeader.classList.remove('open');
+                navBurger.setAttribute('aria-expanded', 'false');
+                if (burgerLabel) burgerLabel.textContent = 'Menu';
+            }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && siteHeader.classList.contains('open')) {
+                siteHeader.classList.remove('open');
+                navBurger.setAttribute('aria-expanded', 'false');
+                if (burgerLabel) burgerLabel.textContent = 'Menu';
+            }
+        });
+        // Render WIP Construction Banner on all pages
+        renderWipBanner();
+    }
+
+    function renderWipBanner() {
+        const mainContainer = document.querySelector('main.container') || document.querySelector('.container');
+        if (!mainContainer || mainContainer.querySelector('.wip-banner')) return;
+
+        const banner = document.createElement('div');
+        banner.className = 'wip-banner';
+        banner.style.cssText = 'background: linear-gradient(135deg, rgba(234, 179, 8, 0.14), rgba(249, 115, 22, 0.12)); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: 12px; padding: 14px 18px; margin: 16px 0 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);';
+        banner.innerHTML = `
+      <span style="font-size: 2rem; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(234, 179, 8, 0.4));">🚧</span>
+      <div>
+        <h3 style="margin: 0 0 3px; font-size: 0.95rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;">🚧 Work In Progress — Under Construction 🚧</h3>
+        <p style="margin: 0; font-size: 0.86rem; color: var(--text); line-height: 1.45;">
+          <strong>https://gift.alec.today/</strong> is currently under active construction and catalog reorganization! Explore collection hubs while items are being updated.
+        </p>
+      </div>`;
+
+        mainContainer.insertBefore(banner, mainContainer.firstChild);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', renderNav);
+    } else {
+        renderNav();
+    }
+})();
