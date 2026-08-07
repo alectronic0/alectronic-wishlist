@@ -6,3 +6,5 @@ js/
 !js/app.js
 
 .idea/
+!js/content.js
+!js/cookie.js
