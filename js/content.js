@@ -4485,378 +4485,109 @@ window.SITE_CONTENT = {
     ]
   },
   "home": {
-    "title": "Home & Smart Tech Setup 🏡",
-    "subtitle": "Whole-house layout, smart home devices, inventories, and active projects.",
-    "lights": {
-      "Bulb": 28,
-      "Play": 2,
-      "Lightstrip": 2,
-      "Go": 6,
-      "FairyLight": 2,
-      "Ceiling": 1
-    },
-    "switches": [
-      "Whole House (Master Controls)"
-    ],
-    "inventory": [],
-    "projects": [
+    "rooms": [
       {
-        "name": "Repaint House",
-        "status": "planned"
-      }
-    ],
-    "floors": {
-      "ground": {
-        "name": "Ground Floor (Floor 0)",
-        "icon": "🟩",
-        "rooms": {
-          "hallway": {
-            "name": "Ground Floor Hallway",
-            "lights": {
-              "Bulb": 4
-            },
-            "switches": [
-              "Hallway (Switch) 19"
-            ],
-            "inventory": [
-              {
-                "name": "TP-Link Deco X50-5G Whole Home Mesh Router",
-                "badge": "Connectivity"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+        "id": "office",
+        "icon": "🖥️",
+        "name": "Office & Workstation",
+        "tag": "Dev & Streaming Setup",
+        "description": "High-performance dev environment, mechanical keyboards, stream audio deck & dual display routing.",
+        "projects": [
+          {
+            "name": "Under-Desk Cable Management Routing",
+            "status": "in-progress"
           },
-          "living": {
-            "name": "Lounge / Living Room",
-            "lights": {
-              "Bulb": 4,
-              "Play": 2,
-              "Lightstrip": 1
-            },
-            "switches": [
-              "Living room (Switch) 21",
-              "Living room (Tap) 24",
-              "Philips Hue Smart Dimmer Switch V2 (x2)"
-            ],
-            "inventory": [
-              {
-                "name": "Panasonic 55-Inch 4K Smart TV (TX-55MX650B)",
-                "badge": "Display"
-              },
-              {
-                "name": "Panasonic Slim Soundbar with Wireless Subwoofer (SC-HTB150EBK)",
-                "badge": "Audio"
-              },
-              {
-                "name": "Furnihold Lift Top Coffee Table (Black)",
-                "badge": "Furniture"
-              },
-              {
-                "name": "TP-Link Tapo P110 Smart Plugs",
-                "badge": "Smart Power"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "Dual Monitor Arm Desk Mount",
+            "status": "completed"
           },
-          "kitchen": {
-            "name": "Kitchen & Culinary Tech",
-            "lights": {
-              "Bulb": 7
-            },
-            "switches": [
-              "Kitchen (Switch) 18"
-            ],
-            "inventory": [
-              {
-                "name": "Cole & Mason Dorchester Pestle and Mortar (100mm)",
-                "badge": "Utensils"
-              },
-              {
-                "name": "Ninja Foodi 3-in-1 Hand Blender, Mixer & Chopper (CI100UK)",
-                "badge": "Food Tech"
-              },
-              {
-                "name": "H&S Recipe Book Stand (Metal, 7 Angles)",
-                "badge": "Utensils"
-              },
-              {
-                "name": "VASAGLE Narrow Bar Table & Industrial Bar Stools (Set of 4)",
-                "badge": "Furniture"
-              },
-              {
-                "name": "Breville 3-in-1 Ultimate Snack Maker (Toastie/Waffle/Panini)",
-                "badge": "Food Tech"
-              },
-              {
-                "name": "Panasonic Solo Microwave Oven (20L, NN-E28JBMBPQ)",
-                "badge": "Appliance"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "Elgato Stream Deck Keybind Layout",
+            "status": "planned"
           }
-        }
+        ]
       },
-      "first": {
-        "name": "Middle Floor (1st Floor)",
-        "icon": "🟨",
-        "rooms": {
-          "hallway": {
-            "name": "Middle Floor Hallway & Stairs",
-            "lights": {
-              "Bulb": 2,
-              "Go": 1
-            },
-            "inventory": [],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+      {
+        "id": "living-room",
+        "icon": "🛋️",
+        "name": "Living Room",
+        "tag": "Media & Smart Ambient Lighting",
+        "description": "Entertainment hub, Philips Hue sync lighting, board game storage & console media hub.",
+        "projects": [
+          {
+            "name": "Philips Hue HDMI Sync Box Setup",
+            "status": "in-progress"
           },
-          "office": {
-            "name": "Office & Gym (Bedroom 3)",
-            "lights": {
-              "Bulb": 4,
-              "FairyLight": 1
-            },
-            "switches": [
-              "Office (Desk) [Dial] 7",
-              "Office (Desk) [Button] 8",
-              "Office (Switch) 22"
-            ],
-            "inventory": [
-              {
-                "name": "🖥️ Desk & Workstation Setup",
-                "isHeader": true
-              },
-              {
-                "name": "Secretlab MAGNUS Pro XL Motorised Desk (Metal Desk Top & Motorised Legs with Lockable Casters)",
-                "badge": "Desk Setup"
-              },
-              {
-                "name": "Secretlab MAGNUS Desk Riser",
-                "badge": "Desk Setup"
-              },
-              {
-                "name": "Secretlab MAGNUS Dual Monitor Arm with Laptop Mount & Vertical Monitor Stand",
-                "badge": "Monitor Setup"
-              },
-              {
-                "name": "BenQ GW2480 23.8\" IPS LED Monitor",
-                "badge": "Monitor Setup"
-              },
-              {
-                "name": "CyberPower Personal Gaming PC (Intel i7-14700KF, RTX 4070 Super, Lian Li Case)",
-                "badge": "Workstation"
-              },
-              {
-                "name": "Targus USB-C Universal Quad 4K (QV4K) Docking Station (DOCK570EUZ)",
-                "badge": "Connectivity"
-              },
-              {
-                "name": "Logitech MK710 Wireless Keyboard & Mouse Combo",
-                "badge": "Peripherals"
-              },
-              {
-                "name": "Logitech C920S HD Pro Webcam",
-                "badge": "Peripherals"
-              },
-              {
-                "name": "Blue Snowball iCE USB Microphone (on Blue Compass Premium Broadcast Boom Arm with AKORD Pop Filter)",
-                "badge": "Peripherals"
-              },
-              {
-                "name": "Elgato Stream Deck MK.2 Studio Controller",
-                "badge": "Peripherals"
-              },
-              {
-                "name": "Nintendo Switch (OLED Model) Zelda Tears of the Kingdom Limited Edition",
-                "badge": "Console Setup"
-              },
-              {
-                "name": "Nintendo Switch Joy-Con Charging Grip & PowerA Charging Station",
-                "badge": "Console Setup"
-              },
-              {
-                "name": "Elgato HD60 X External Capture Card",
-                "badge": "Peripherals"
-              },
-              {
-                "name": "Lexar PLAY PRO 1TB MicroSDXC Card",
-                "badge": "Console Setup"
-              },
-              {
-                "name": "Secretlab Premium PC Mount",
-                "badge": "Desk Setup"
-              },
-              {
-                "name": "Secretlab Magnetic Headphone Hanger",
-                "badge": "Accessories"
-              },
-              {
-                "name": "Secretlab Magnetic Cable Management (Anchors, Sheaths, Straps)",
-                "badge": "Cable Management"
-              },
-              {
-                "name": "Anker 4-Port USB 3.0 Hub & rhinocables Dual C13 Power Splitter",
-                "badge": "Cable Management"
-              },
-              {
-                "name": "🏃‍♂️ Gym & Fitness Equipment",
-                "isHeader": true
-              },
-              {
-                "name": "Matrix Fitness TF30 Treadmill with XIR Console",
-                "badge": "Gym Equipment"
-              },
-              {
-                "name": "Q Sports Free Standing Boxing Punch Bag",
-                "badge": "Gym Equipment"
-              },
-              {
-                "name": "Body Power 20mm Floor Tiles (x22)",
-                "badge": "Flooring"
-              },
-              {
-                "name": "❄️ Climate Control",
-                "isHeader": true
-              },
-              {
-                "name": "Meaco MeacoCool MC Series 8,000R Portable Air Conditioner",
-                "badge": "Climate Control"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "Kallax Board Game Storage Shelving",
+            "status": "completed"
           },
-          "guest": {
-            "name": "Guest Room (Bedroom 2)",
-            "lights": {
-              "Bulb": 1,
-              "Go": 1
-            },
-            "switches": [
-              "Guest room (Switch) 17"
-            ],
-            "inventory": [],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
-          },
-          "bathroom": {
-            "name": "Guest Bathroom (Main Bathroom)",
-            "inventory": [],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "AV Receiver Cable Concealment",
+            "status": "planned"
           }
-        }
+        ]
       },
-      "second": {
-        "name": "Top Floor (2nd Floor)",
-        "icon": "🟦",
-        "rooms": {
-          "hallway": {
-            "name": "Top Floor Stairs & Landing",
-            "lights": {
-              "Bulb": 1
-            },
-            "inventory": [],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+      {
+        "id": "kitchen",
+        "icon": "🍳",
+        "name": "Kitchen & Culinary Tech",
+        "tag": "Food Science & Brew Bar",
+        "description": "Culinary precision tools, food science reference library, coffee station & Joseph Joseph hardware.",
+        "projects": [
+          {
+            "name": "Coffee Niche Espresso Corner",
+            "status": "in-progress"
           },
-          "master": {
-            "name": "Master Bedroom (Bedroom 1)",
-            "lights": {
-              "Bulb": 2,
-              "Go": 2,
-              "Lightstrip": 1,
-              "FairyLight": 1
-            },
-            "switches": [
-              "Master Bedroom (Bed) 9",
-              "Master Bedroom (Switch) 23"
-            ],
-            "inventory": [
-              {
-                "name": "Withings Sleep Analyzer (Under-Mattress Tracker)",
-                "badge": "Smart Health"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "Sous-Vide Water Oven Drawer",
+            "status": "completed"
           },
-          "ensuite": {
-            "name": "Master Ensuite",
-            "lights": {
-              "Ceiling": 1
-            },
-            "inventory": [
-              {
-                "name": "Temple Spring Wooden Bath Tray (Bamboo Caddy, Black)",
-                "badge": "Bath"
-              }
-            ],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
-          },
-          "cosy": {
-            "name": "Cosy Room (Bedroom 4)",
-            "lights": {
-              "Bulb": 1
-            },
-            "switches": [
-              "Cosy Room (Switch) 20"
-            ],
-            "inventory": [],
-            "projects": [
-              {
-                "name": "Repaint Room",
-                "status": "planned"
-              }
-            ]
+          {
+            "name": "Spice Rack & Container Labeling",
+            "status": "planned"
           }
-        }
+        ]
+      },
+      {
+        "id": "bedroom",
+        "icon": "🛏️",
+        "name": "Bedroom",
+        "tag": "Smart Sleep & Charging Hub",
+        "description": "Circadian smart lighting schedules, nightstand MagSafe charging station, minimal aesthetic.",
+        "projects": [
+          {
+            "name": "Dual Bedside Qi2 Fast Chargers",
+            "status": "completed"
+          },
+          {
+            "name": "Automated Smart Roller Blinds",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "id": "bathroom",
+        "icon": "🛁",
+        "name": "Bathroom Hardware",
+        "tag": "Renovation & Niche Installs",
+        "description": "Bathroom tile hardware, stainless steel shower niches, and humidity-proof fixtures.",
+        "projects": [
+          {
+            "name": "ELEGANT Stainless Steel Niche (90x30 cm)",
+            "status": "in-progress"
+          },
+          {
+            "name": "ELEGANT Stainless Steel Niche (60x30 cm)",
+            "status": "planned"
+          },
+          {
+            "name": "Waterproof Bluetooth Audio Speaker",
+            "status": "planned"
+          }
+        ]
       }
-    }
+    ]
   },
   "misc": {
     "title": "Brands, Stores & Subscriptions 🛍️",
@@ -5034,6 +4765,7 @@ window.SITE_CONTENT = {
     ]
   }
 };
+
 window.INVENTORY_DATA = {
   "updatedAt": "2026-07-27",
   "categories": [
@@ -5049,20 +4781,62 @@ window.INVENTORY_DATA = {
           "subtitle": "Classic & Restaurant Cookbooks",
           "notes": "Essential reference books in my kitchen library.",
           "already": [
-            { "name": "Mastering the Art of French Cooking (Julia Child 2-Volume Box Set)", "badge": "Box Set" },
-            { "name": "The Flavour Thesaurus (Niki Segnit)", "badge": "Hardcover" },
-            { "name": "Dishoom: From Bombay with Love", "badge": "Hardcover" },
-            { "name": "Wagamama: Feed Your Soul", "badge": "Hardcover" },
-            { "name": "Heston Is This A Cookbook? (Heston Blumenthal)", "badge": "Hardcover" },
-            { "name": "Heston Blumenthal at Home", "badge": "Hardcover" },
-            { "name": "Joshua Weissman: Texture Over Taste", "badge": "Hardcover" },
-            { "name": "Joshua Weissman: An Unapologetic Cookbook", "badge": "Hardcover" },
-            { "name": "Field Notes for Food Adventure (Brad Leone)", "badge": "Hardcover" },
-            { "name": "Modern French Pastry (Cheryl Wakerhauser)", "badge": "Hardcover" },
-            { "name": "Japanese Pâtisserie (James Campbell)", "badge": "Hardcover" },
-            { "name": "The Legend's Cookbook+ (Zelda-inspired recipes)", "badge": "Hardcover" },
-            { "name": "The Savoy Cocktail Book (Harry Craddock)", "badge": "Hardcover" },
-            { "name": "Edmonds Cookery Book", "badge": "Paperback" }
+            {
+              "name": "Mastering the Art of French Cooking (Julia Child 2-Volume Box Set)",
+              "badge": "Box Set"
+            },
+            {
+              "name": "The Flavour Thesaurus (Niki Segnit)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Dishoom: From Bombay with Love",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Wagamama: Feed Your Soul",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Heston Is This A Cookbook? (Heston Blumenthal)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Heston Blumenthal at Home",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Joshua Weissman: Texture Over Taste",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Joshua Weissman: An Unapologetic Cookbook",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Field Notes for Food Adventure (Brad Leone)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Modern French Pastry (Cheryl Wakerhauser)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Japanese Pâtisserie (James Campbell)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "The Legend's Cookbook+ (Zelda-inspired recipes)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "The Savoy Cocktail Book (Harry Craddock)",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Edmonds Cookery Book",
+              "badge": "Paperback"
+            }
           ],
           "wanted": [
             {
@@ -5102,8 +4876,14 @@ window.INVENTORY_DATA = {
           "subtitle": "By Hiromu Arakawa",
           "notes": "Deluxe hardcover omnibus release.",
           "already": [
-            { "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 01", "badge": "Hardcover" },
-            { "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 02", "badge": "Hardcover" }
+            {
+              "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 01",
+              "badge": "Hardcover"
+            },
+            {
+              "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 02",
+              "badge": "Hardcover"
+            }
           ],
           "wanted": [
             {
@@ -5123,7 +4903,10 @@ window.INVENTORY_DATA = {
           "subtitle": "Collector's Prima Guides & Manga",
           "notes": "Official companion books & lore guides.",
           "already": [
-            { "name": "The Legend's Cookbook+ (Zelda Recipes & Art)", "badge": "Owned" }
+            {
+              "name": "The Legend's Cookbook+ (Zelda Recipes & Art)",
+              "badge": "Owned"
+            }
           ],
           "wanted": [
             {
@@ -5159,9 +4942,18 @@ window.INVENTORY_DATA = {
           "subtitle": "By Wolfgang Warsch (Schmidt Games)",
           "notes": "Push-your-luck bag-building favorite.",
           "already": [
-            { "name": "The Quacks of Quedlinburg (Base Game)", "badge": "Owned" },
-            { "name": "The Herb Witches Expansion", "badge": "Owned" },
-            { "name": "The Alchemists Expansion", "badge": "Owned" }
+            {
+              "name": "The Quacks of Quedlinburg (Base Game)",
+              "badge": "Owned"
+            },
+            {
+              "name": "The Herb Witches Expansion",
+              "badge": "Owned"
+            },
+            {
+              "name": "The Alchemists Expansion",
+              "badge": "Owned"
+            }
           ],
           "wanted": []
         },
@@ -5171,22 +4963,70 @@ window.INVENTORY_DATA = {
           "subtitle": "Strategy, Card & Social Games",
           "notes": "Board games currently on my shelf.",
           "already": [
-            { "name": "Ticket to Ride: Europe", "badge": "Owned" },
-            { "name": "Pandemic", "badge": "Owned" },
-            { "name": "Clank! Catacombs (Dire Wolf)", "badge": "Owned" },
-            { "name": "Flamecraft", "badge": "Owned" },
-            { "name": "Mycelia (Ravensburger)", "badge": "Owned" },
-            { "name": "Azul", "badge": "Owned" },
-            { "name": "Codenames", "badge": "Owned" },
-            { "name": "The Binding of Isaac: Four Souls", "badge": "Owned" },
-            { "name": "Trial by Trolley + Derailed Edition", "badge": "Owned" },
-            { "name": "We're Not Really Strangers", "badge": "Owned" },
-            { "name": "Unstable Unicorns", "badge": "Owned" },
-            { "name": "The Chameleon", "badge": "Owned" },
-            { "name": "Monopoly: Super Mario Celebration!", "badge": "Owned" },
-            { "name": "Fungi", "badge": "Owned" },
-            { "name": "Cards Against Humanity (Bigger Blacker Box)", "badge": "Owned" },
-            { "name": "Handmade Wooden Folding Chess Set", "badge": "Owned" }
+            {
+              "name": "Ticket to Ride: Europe",
+              "badge": "Owned"
+            },
+            {
+              "name": "Pandemic",
+              "badge": "Owned"
+            },
+            {
+              "name": "Clank! Catacombs (Dire Wolf)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Flamecraft",
+              "badge": "Owned"
+            },
+            {
+              "name": "Mycelia (Ravensburger)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Azul",
+              "badge": "Owned"
+            },
+            {
+              "name": "Codenames",
+              "badge": "Owned"
+            },
+            {
+              "name": "The Binding of Isaac: Four Souls",
+              "badge": "Owned"
+            },
+            {
+              "name": "Trial by Trolley + Derailed Edition",
+              "badge": "Owned"
+            },
+            {
+              "name": "We're Not Really Strangers",
+              "badge": "Owned"
+            },
+            {
+              "name": "Unstable Unicorns",
+              "badge": "Owned"
+            },
+            {
+              "name": "The Chameleon",
+              "badge": "Owned"
+            },
+            {
+              "name": "Monopoly: Super Mario Celebration!",
+              "badge": "Owned"
+            },
+            {
+              "name": "Fungi",
+              "badge": "Owned"
+            },
+            {
+              "name": "Cards Against Humanity (Bigger Blacker Box)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Handmade Wooden Folding Chess Set",
+              "badge": "Owned"
+            }
           ],
           "wanted": [
             {
@@ -5210,17 +5050,50 @@ window.INVENTORY_DATA = {
           "subtitle": "Hardware, Systems & Software Engineering",
           "notes": "Reference textbooks & academic guides.",
           "already": [
-            { "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)", "badge": "10th Anniv Ed" },
-            { "name": "Computer Organization & Design: Hardware/Software (Patterson & Hennessy)", "badge": "4th Ed" },
-            { "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)", "badge": "2nd Ed" },
-            { "name": "Software Engineering (Sommerville)", "badge": "9th Ed" },
-            { "name": "The Robotics Primer (Maja J. Matarić, MIT Press)", "badge": "Owned" },
-            { "name": "Business Database Systems (Connolly & Begg)", "badge": "Owned" },
-            { "name": "Principles of Interactive Multimedia (Elsom-Cook)", "badge": "Owned" },
-            { "name": "Objects First With Java: Practical Intro Using BlueJ", "badge": "4th Ed" },
-            { "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)", "badge": "Google Ventures" },
-            { "name": "Unfu*k Yourself (Gary John Bishop)", "badge": "Owned" },
-            { "name": "Ladybird: How It Works... The Computer (Ladybird 654)", "badge": "Vintage" }
+            {
+              "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)",
+              "badge": "10th Anniv Ed"
+            },
+            {
+              "name": "Computer Organization & Design: Hardware/Software (Patterson & Hennessy)",
+              "badge": "4th Ed"
+            },
+            {
+              "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)",
+              "badge": "2nd Ed"
+            },
+            {
+              "name": "Software Engineering (Sommerville)",
+              "badge": "9th Ed"
+            },
+            {
+              "name": "The Robotics Primer (Maja J. Matarić, MIT Press)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Business Database Systems (Connolly & Begg)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Principles of Interactive Multimedia (Elsom-Cook)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Objects First With Java: Practical Intro Using BlueJ",
+              "badge": "4th Ed"
+            },
+            {
+              "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)",
+              "badge": "Google Ventures"
+            },
+            {
+              "name": "Unfu*k Yourself (Gary John Bishop)",
+              "badge": "Owned"
+            },
+            {
+              "name": "Ladybird: How It Works... The Computer (Ladybird 654)",
+              "badge": "Vintage"
+            }
           ],
           "wanted": []
         }
@@ -5238,8 +5111,14 @@ window.INVENTORY_DATA = {
           "subtitle": "Brick-Built Displays & Art Prints",
           "notes": "Decor displays around the house.",
           "already": [
-            { "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms", "badge": "Hardcover Book" },
-            { "name": "Salt, Fat, Acid, Heat: 20 Art Prints Box Set", "badge": "Box Set" }
+            {
+              "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms",
+              "badge": "Hardcover Book"
+            },
+            {
+              "name": "Salt, Fat, Acid, Heat: 20 Art Prints Box Set",
+              "badge": "Box Set"
+            }
           ],
           "wanted": [
             {
