@@ -30,6 +30,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Prerender HTML
+        run: |
+          npm install puppeteer
+          node scripts/prerender.js
+
       - name: Install Minifiers
         run: npm install -g terser clean-css-cli
 
