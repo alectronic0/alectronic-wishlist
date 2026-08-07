@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const headerHTML = `
-    <div class="banner">Last updated on: <span class="header-date"></span></div>
+    <div class="banner wip-banner" style="background: linear-gradient(135deg, rgba(234, 179, 8, 0.14), rgba(249, 115, 22, 0.12)); border-bottom: 1px solid rgba(234, 179, 8, 0.35); padding: 14px 18px; text-align: center; color: var(--text);">
+      <div style="font-size: 1.5rem; margin-bottom: 8px;">🚧</div>
+      <h3 style="margin: 0 0 5px; font-size: 0.95rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;">🚧 Work In Progress — Under Construction 🚧</h3>
+      <p style="margin: 0 0 8px; font-size: 0.86rem; line-height: 1.45;">
+        <strong>https://gift.alec.today/</strong> is currently under active construction and catalog reorganization!<br>Explore collection hubs while items are being updated.
+      </p>
+      <div style="font-size: 0.8rem; opacity: 0.9; font-weight: 500;">Last updated on: <span class="header-date"></span></div>
+    </div>
     <header class="site-nav"></header>
   `;
   const footerHTML = `
@@ -1718,28 +1725,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (burgerLabel) burgerLabel.textContent = 'Menu';
             }
         });
-        // Render WIP Construction Banner on all pages
-        renderWipBanner();
     }
 
-    function renderWipBanner() {
-        const mainContainer = document.querySelector('main.container') || document.querySelector('.container');
-        if (!mainContainer || mainContainer.querySelector('.wip-banner')) return;
 
-        const banner = document.createElement('div');
-        banner.className = 'wip-banner';
-        banner.style.cssText = 'background: linear-gradient(135deg, rgba(234, 179, 8, 0.14), rgba(249, 115, 22, 0.12)); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: 12px; padding: 14px 18px; margin: 16px 0 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);';
-        banner.innerHTML = `
-      <span style="font-size: 2rem; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(234, 179, 8, 0.4));">🚧</span>
-      <div>
-        <h3 style="margin: 0 0 3px; font-size: 0.95rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;">🚧 Work In Progress — Under Construction 🚧</h3>
-        <p style="margin: 0; font-size: 0.86rem; color: var(--text); line-height: 1.45;">
-          <strong>https://gift.alec.today/</strong> is currently under active construction and catalog reorganization! Explore collection hubs while items are being updated.
-        </p>
-      </div>`;
-
-        mainContainer.insertBefore(banner, mainContainer.firstChild);
-    }
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', renderNav);
