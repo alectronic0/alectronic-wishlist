@@ -10,6 +10,7 @@ const requestHandler = (request, response) => {
   const mimeTypes = {
     '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css',
     '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpg',
+    '.jpeg': 'image/jpeg', '.gif': 'image/gif',
     '.svg': 'image/svg+xml', '.webp': 'image/webp'
   };
   const contentType = mimeTypes[extname] || 'application/octet-stream';
@@ -33,21 +34,36 @@ server.listen(0, async () => {
   try {
     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
+    page.on('console', msg => console.log('PAGE LOG:', msg.text()));
     
     await page.evaluateOnNewDocument(() => {
       window.gtag = function() {};
     });
 
-    await page.goto(`http://localhost:${port}/`, { waitUntil: 'networkidle0' });
-    await new Promise(r => setTimeout(r, 1000));
+    await page.goto(`http://localhost:${port}/`, { waitUntil: 'networkidle2' });
+    await new Promise(r => setTimeout(r, 2000));
     
-    await page.evaluate(() => {
+    await page.evaluate(async () => {
       const cc = document.getElementById('cc-main');
       if (cc) cc.remove();
       document.querySelectorAll("noscript").forEach(el => el.remove());
 
+      // Wait for all images to load (max 5s) to ensure naturalWidth is available
+      const images = Array.from(document.querySelectorAll("img"));
+      const loadPromises = images.map(img => {
+        if (img.complete) return Promise.resolve();
+        return new Promise(resolve => {
+          img.onload = resolve;
+          img.onerror = resolve;
+        });
+      });
+      await Promise.race([
+        Promise.all(loadPromises),
+        new Promise(r => setTimeout(r, 5000))
+      ]);
+
       // Optimize images: add lazy loading and explicit dimensions
-      document.querySelectorAll("img").forEach(img => {
+      images.forEach(img => {
         const rect = img.getBoundingClientRect();
         // Add lazy loading for images below the fold
         if (rect.top > window.innerHeight && !img.hasAttribute("loading")) {
