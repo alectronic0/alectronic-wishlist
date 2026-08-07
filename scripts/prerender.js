@@ -45,6 +45,23 @@ server.listen(0, async () => {
       const cc = document.getElementById('cc-main');
       if (cc) cc.remove();
       document.querySelectorAll("noscript").forEach(el => el.remove());
+
+      // Optimize images: add lazy loading and explicit dimensions
+      document.querySelectorAll("img").forEach(img => {
+        const rect = img.getBoundingClientRect();
+        // Add lazy loading for images below the fold
+        if (rect.top > window.innerHeight && !img.hasAttribute("loading")) {
+          img.setAttribute("loading", "lazy");
+        }
+        
+        // Add explicit width/height to prevent layout shifts
+        if (!img.getAttribute("width") && img.naturalWidth) {
+           img.setAttribute("width", img.naturalWidth);
+        }
+        if (!img.getAttribute("height") && img.naturalHeight) {
+           img.setAttribute("height", img.naturalHeight);
+        }
+      });
     });
     
     let html = await page.content();
