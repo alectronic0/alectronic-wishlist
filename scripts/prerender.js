@@ -44,6 +44,7 @@ server.listen(0, async () => {
     await page.evaluate(() => {
       const cc = document.getElementById('cc-main');
       if (cc) cc.remove();
+      document.querySelectorAll("noscript").forEach(el => el.remove());
     });
     
     let html = await page.content();
