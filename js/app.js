@@ -844,7 +844,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <h2>🏡 Whole House Infrastructure</h2>
               <p>Master controls and house-wide integrations.</p>
             </div>
-            <div class="room-grid">
+            <div class="room-grid" style="grid-template-columns: 1fr;">
               <div class="room-card">
                 <div class="room-header">
                   <div class="room-icon">💡</div>
@@ -870,7 +870,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="section-header">
                 <h2>${floor.icon || '📌'} ${floor.name}</h2>
               </div>
-              <div class="room-grid">
+              <div class="room-grid" style="grid-template-columns: 1fr;">
           `;
 
           if (floor.rooms) {
