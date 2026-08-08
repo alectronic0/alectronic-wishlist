@@ -819,9 +819,157 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // --- home.html ---
+  if (document.getElementById('home-content-container')) {
+    const homeData = SITE_CONTENT.home;
+    if (homeData) {
+      const container = document.getElementById('home-content-container');
+      let html = '';
 
+      function formatLights(lights) {
+        if (!lights || Object.keys(lights).length === 0) return '';
+        return Object.entries(lights)
+          .map(([type, count]) => `${count} ${type}${count > 1 ? 's' : ''}`)
+          .join(', ');
+      }
 
-  // --- lego.html ---
+      // Render Whole House
+      const hasHouseLights = homeData.lights && Object.keys(homeData.lights).length > 0;
+      const hasHouseSwitches = homeData.switches && homeData.switches.length > 0;
+
+      if (hasHouseLights || hasHouseSwitches || (homeData.inventory && homeData.inventory.length > 0)) {
+        html += `
+          <section class="wishlist-section">
+            <div class="section-header">
+              <h2>🏡 Whole House Infrastructure</h2>
+              <p>Master controls and house-wide integrations.</p>
+            </div>
+            <div class="room-grid">
+              <div class="room-card">
+                <div class="room-header">
+                  <div class="room-icon">💡</div>
+                  <div class="room-title-group">
+                    <h3>Smart Tech & Infrastructure</h3>
+                  </div>
+                </div>
+                <div class="room-smart-tech" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px;">
+                  ${hasHouseLights ? `<div style="margin-bottom: 4px;"><strong>Lights:</strong> ${formatLights(homeData.lights)}</div>` : ''}
+                  ${hasHouseSwitches ? `<div><strong>Switches:</strong> ${homeData.switches.join(', ')}</div>` : ''}
+                </div>
+              </div>
+            </div>
+          </section>
+        `;
+      }
+
+      // Render Floors
+      if (homeData.floors) {
+        Object.values(homeData.floors).forEach(floor => {
+          html += `
+            <section class="wishlist-section">
+              <div class="section-header">
+                <h2>${floor.icon || '📌'} ${floor.name}</h2>
+              </div>
+              <div class="room-grid">
+          `;
+
+          if (floor.rooms) {
+            Object.values(floor.rooms).forEach(room => {
+              // Build Projects HTML
+              let projectsHtml = '';
+              if (room.projects && room.projects.length > 0) {
+                let projectItems = room.projects.map(proj => {
+                  let badgeClass = 'badge-planned';
+                  let statusLabel = 'Planned';
+                  if (proj.status === 'in-progress') {
+                    badgeClass = 'badge-in-progress';
+                    statusLabel = 'In Progress';
+                  } else if (proj.status === 'completed') {
+                    badgeClass = 'badge-done';
+                    statusLabel = 'Completed';
+                  }
+                  return `
+                    <li class="project-item">
+                      <span>${proj.name}</span>
+                      <span class="project-badge ${badgeClass}">${statusLabel}</span>
+                    </li>
+                  `;
+                }).join('');
+                projectsHtml = `
+                  <div class="room-projects-container" style="margin-top: auto; padding-top: 16px;">
+                    <strong class="room-projects-title">Active & Planned Projects:</strong>
+                    <ul class="project-list">
+                      ${projectItems}
+                    </ul>
+                  </div>
+                `;
+              }
+
+              // Build Smart Tech HTML
+              let smartTechHtml = '';
+              const rLights = room.lights && Object.keys(room.lights).length > 0;
+              const rSwitches = room.switches && room.switches.length > 0;
+              if (rLights || rSwitches) {
+                smartTechHtml = `
+                  <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.02); padding: 8px; border-radius: 6px; border: 1px solid var(--border);">
+                    <div style="font-weight: bold; margin-bottom: 4px; color: var(--text);">💡 Smart Tech</div>
+                    ${rLights ? `<div style="margin-bottom: 2px;"><strong>Lights:</strong> ${formatLights(room.lights)}</div>` : ''}
+                    ${rSwitches ? `<div><strong>Switches:</strong> ${room.switches.join(', ')}</div>` : ''}
+                  </div>
+                `;
+              }
+
+              // Build Inventory HTML
+              let inventoryHtml = '';
+              if (room.inventory && room.inventory.length > 0) {
+                inventoryHtml = `
+                  <div style="margin-bottom: 12px;">
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; color: var(--text-muted);">
+                      ${room.inventory.map(item => {
+                        if (item.isHeader) {
+                          return `
+                            <li style="margin: 12px 0 6px 0; font-weight: 700; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 2px;">
+                              ${item.name}
+                            </li>
+                          `;
+                        }
+                        return `
+                          <li style="margin-bottom: 4px; display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;">
+                            <span>${item.name}</span>
+                            ${item.badge ? `<span style="font-size:0.65rem; padding:1px 5px; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:4px; white-space: nowrap; flex-shrink: 0;">${item.badge}</span>` : ''}
+                          </li>
+                        `;
+                      }).join('')}
+                    </ul>
+                  </div>
+                `;
+              }
+
+              html += `
+                <div class="room-card">
+                  <div class="room-header">
+                    <div class="room-title-group">
+                      <h3>${room.name}</h3>
+                    </div>
+                  </div>
+                  ${smartTechHtml}
+                  ${inventoryHtml}
+                  ${projectsHtml}
+                </div>
+              `;
+            });
+          }
+
+          html += `
+              </div>
+            </section>
+          `;
+        });
+      }
+
+      container.innerHTML = html;
+    }
+  }
   if (document.getElementById('lego-themes-container')) {
     const data = SITE_CONTENT.lego;
     if (data) {
