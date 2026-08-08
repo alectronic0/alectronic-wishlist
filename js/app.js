@@ -845,14 +845,14 @@ document.addEventListener('DOMContentLoaded', () => {
               <p>Master controls and house-wide integrations.</p>
             </div>
             <div class="room-grid" style="grid-template-columns: 1fr;">
-              <div class="room-card">
-                <div class="room-header">
+              <div class="room-card" style="display: block;">
+                <div class="room-header" style="margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">
                   <div class="room-icon">💡</div>
                   <div class="room-title-group">
-                    <h3>Smart Tech & Infrastructure</h3>
+                    <h3 style="font-size: 1.3rem;">Smart Tech & Infrastructure</h3>
                   </div>
                 </div>
-                <div class="room-smart-tech" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px;">
+                <div class="room-smart-tech" style="font-size: 0.9rem; color: var(--text-muted);">
                   ${hasHouseLights ? `<div style="margin-bottom: 4px;"><strong>Lights:</strong> ${formatLights(homeData.lights)}</div>` : ''}
                   ${hasHouseSwitches ? `<div><strong>Switches:</strong> ${homeData.switches.join(', ')}</div>` : ''}
                 </div>
@@ -896,7 +896,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   `;
                 }).join('');
                 projectsHtml = `
-                  <div class="room-projects-container" style="margin-top: auto; padding-top: 16px;">
+                  <div class="room-projects-container">
                     <strong class="room-projects-title">Active & Planned Projects:</strong>
                     <ul class="project-list">
                       ${projectItems}
@@ -946,15 +946,19 @@ document.addEventListener('DOMContentLoaded', () => {
               }
 
               html += `
-                <div class="room-card">
-                  <div class="room-header">
+                <div class="room-card" style="display: block;">
+                  <div class="room-header" style="margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border);">
                     <div class="room-title-group">
-                      <h3>${room.name}</h3>
+                      <h3 style="font-size: 1.3rem; margin: 0;">${room.name}</h3>
                     </div>
                   </div>
-                  ${smartTechHtml}
-                  ${inventoryHtml}
-                  ${projectsHtml}
+                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+                    <div style="display: flex; flex-direction: column; gap: 16px;">
+                      ${smartTechHtml}
+                      ${inventoryHtml}
+                    </div>
+                    ${projectsHtml ? `<div>${projectsHtml}</div>` : ''}
+                  </div>
                 </div>
               `;
             });
