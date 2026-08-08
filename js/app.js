@@ -820,69 +820,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  // --- home.html ---
-  if (document.getElementById('home-content-container')) {
-    const homeData = SITE_CONTENT.home;
-    if (homeData && homeData.rooms) {
-      const container = document.getElementById('home-content-container');
-      
-      let html = `
-        <section class="wishlist-section">
-          <div class="section-header">
-            <h2>📌 Room-by-Room Tech & Active Projects</h2>
-            <p>Current setup and planned home improvements across each space.</p>
-          </div>
-          <div class="room-grid">
-      `;
-      
-      homeData.rooms.forEach(room => {
-        let projectsHtml = '';
-        room.projects.forEach(proj => {
-          let badgeClass = 'badge-planned';
-          let statusLabel = 'Planned';
-          if (proj.status === 'in-progress') {
-            badgeClass = 'badge-in-progress';
-            statusLabel = 'In Progress';
-          } else if (proj.status === 'completed') {
-            badgeClass = 'badge-done';
-            statusLabel = 'Completed';
-          }
-          projectsHtml += `
-            <li class="project-item">
-              <span>${proj.name}</span>
-              <span class="project-badge ${badgeClass}">${statusLabel}</span>
-            </li>
-          `;
-        });
-      
-        html += `
-          <div class="room-card">
-            <div class="room-header">
-              <div class="room-icon">${room.icon}</div>
-              <div class="room-title-group">
-                <h3>${room.name}</h3>
-                <span class="room-tag">${room.tag}</span>
-              </div>
-            </div>
-            <p class="room-desc">${room.description}</p>
-            <div class="room-projects-container">
-              <strong class="room-projects-title">Active & Planned Projects:</strong>
-              <ul class="project-list">
-                ${projectsHtml}
-              </ul>
-            </div>
-          </div>
-        `;
-      });
-      
-      html += `
-          </div>
-        </section>
-      `;
-      
-      container.innerHTML = html;
-    }
-  }
 
   // --- lego.html ---
   if (document.getElementById('lego-themes-container')) {
