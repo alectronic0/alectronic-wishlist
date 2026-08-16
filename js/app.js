@@ -580,50 +580,98 @@ document.addEventListener('DOMContentLoaded', () => {
           `).join('');
         }
       
+        // Measurement formatting helper
+        const formatMeasurementCard = (m) => {
+          let displayValue = '—';
+          let displayNotes = m.notes || '';
+          let isPending = false;
+
+          if (m.type === 'raw') {
+            displayValue = m.value;
+            displayNotes = m.notes || '';
+          } else if (m.type === 'length') {
+            if (m.inches != null) {
+              displayValue = `${m.inches}"`;
+              const cm = Math.round(m.inches * 2.54);
+              displayNotes = m.notes ? `${cm} cm • ${m.notes}` : `${cm} cm`;
+            } else {
+              isPending = true;
+            }
+          } else if (m.type === 'cm') {
+            if (m.cm != null) {
+              displayValue = `${m.cm} cm`;
+              const inVal = (m.cm / 2.54).toFixed(1);
+              displayNotes = m.notes ? `${inVal}" • ${m.notes}` : `${inVal}"`;
+            } else {
+              isPending = true;
+            }
+          } else if (m.type === 'length-range') {
+            displayValue = `${m.inchesMin} - ${m.inchesMax}"`;
+            const cmMin = Math.round(m.inchesMin * 2.54);
+            const cmMax = Math.round(m.inchesMax * 2.54);
+            displayNotes = `${cmMin} - ${cmMax} cm`;
+          } else if (m.type === 'cm-range') {
+            displayValue = `${m.cmMin} - ${m.cmMax} cm`;
+            const inMin = (m.cmMin / 2.54).toFixed(1);
+            const inMax = (m.cmMax / 2.54).toFixed(1);
+            displayNotes = `${inMin} - ${inMax}"`;
+          } else if (m.type === 'height-range') {
+            const ftMin = Math.floor(m.inchesMin / 12);
+            const inMin = m.inchesMin % 12;
+            const ftMax = Math.floor(m.inchesMax / 12);
+            const inMax = m.inchesMax % 12;
+            displayValue = `${ftMin}'${inMin}" - ${ftMax}'${inMax}"`;
+            const cmMin = Math.round(m.inchesMin * 2.54);
+            const cmMax = Math.round(m.inchesMax * 2.54);
+            displayNotes = `${cmMin} - ${cmMax} cm`;
+          } else if (m.type === 'weight') {
+            displayValue = `${m.kg} kg`;
+            const totalLbs = m.kg * 2.20462;
+            const stones = Math.floor(totalLbs / 14);
+            const lbs = Math.round(totalLbs % 14);
+            displayNotes = `${stones} st ${lbs} lbs (${Math.round(totalLbs)} lbs)`;
+          }
+
+          const valueStyle = isPending
+            ? 'color: var(--text-muted); opacity: 0.6; font-style: italic;'
+            : 'color: var(--text);';
+
+          const keyBadge = m.key
+            ? `<code style="font-size: 0.65rem; color: var(--text-muted); background: var(--bg); padding: 1px 4px; border-radius: 3px; margin-left: 4px;">${m.key}</code>`
+            : '';
+
+          return `
+            <div class="horizontal-card" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; min-height: 68px;">
+              <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                <span style="font-size: 0.72rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">${m.label}</span>
+                ${keyBadge}
+              </div>
+              <span style="font-size: 1.15rem; font-weight: 800; margin: 2px 0 0 0; ${valueStyle}">${displayValue}</span>
+              <span style="font-size: 0.7rem; color: var(--text-muted); margin-top: 1px; line-height: 1.2;">${displayNotes}</span>
+            </div>
+          `;
+        };
+
         // Measurements
         const measurementsGrid = document.getElementById('measurements-grid');
         if (measurementsGrid && data.measurements) {
-          measurementsGrid.innerHTML = data.measurements.map(m => {
-            let displayValue = '';
-            let displayNotes = '';
-      
-            if (m.type === 'raw') {
-              displayValue = m.value;
-              displayNotes = m.notes || '';
-            } else if (m.type === 'length') {
-              displayValue = `${m.inches}"`;
-              const cm = Math.round(m.inches * 2.54);
-              displayNotes = `${cm} cm`;
-            } else if (m.type === 'length-range') {
-              displayValue = `${m.inchesMin} - ${m.inchesMax}"`;
-              const cmMin = Math.round(m.inchesMin * 2.54);
-              const cmMax = Math.round(m.inchesMax * 2.54);
-              displayNotes = `${cmMin} - ${cmMax} cm`;
-            } else if (m.type === 'height-range') {
-              const ftMin = Math.floor(m.inchesMin / 12);
-              const inMin = m.inchesMin % 12;
-              const ftMax = Math.floor(m.inchesMax / 12);
-              const inMax = m.inchesMax % 12;
-              displayValue = `${ftMin}'${inMin}" - ${ftMax}'${inMax}"`;
-              const cmMin = Math.round(m.inchesMin * 2.54);
-              const cmMax = Math.round(m.inchesMax * 2.54);
-              displayNotes = `${cmMin} - ${cmMax} cm`;
-            } else if (m.type === 'weight') {
-              displayValue = `${m.kg} kg`;
-              const totalLbs = m.kg * 2.20462;
-              const stones = Math.floor(totalLbs / 14);
-              const lbs = Math.round(totalLbs % 14);
-              displayNotes = `${stones} st ${lbs} lbs (${Math.round(totalLbs)} lbs)`;
-            }
-      
-            return `
-              <div class="horizontal-card" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; min-height: 68px;">
-                <span style="font-size: 0.72rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">${m.label}</span>
-                <span style="font-size: 1.15rem; font-weight: 800; color: var(--text); margin: 2px 0 0 0;">${displayValue}</span>
-                <span style="font-size: 0.7rem; color: var(--text-muted); margin-top: 1px;">${displayNotes}</span>
+          measurementsGrid.innerHTML = data.measurements.map(m => formatMeasurementCard(m)).join('');
+        }
+
+        // Bespoke / FreeSewing measurements
+        const bespokeContainer = document.getElementById('bespoke-measurements-container');
+        if (bespokeContainer && data.bespokeMeasurements) {
+          bespokeContainer.innerHTML = data.bespokeMeasurements.map(group => `
+            <div>
+              <h3 style="font-size: 0.92rem; font-weight: 700; color: var(--text); margin: 0 0 8px 0; display: flex; align-items: center; gap: 6px;">
+                <span>${group.category}</span>
+                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 400;">(${group.items.length} landmarks)</span>
+              </h3>
+              <div class="horizontal-card-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+                ${group.items.map(m => formatMeasurementCard(m)).join('')}
               </div>
-            `;
-          }).join('');
+            </div>
+          `).join('');
         }
       
         // Preferred items sizes table
@@ -1132,6 +1180,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // --- junk.html ---
+  if (document.getElementById('junk-categories-container')) {
+    const data = SITE_CONTENT.junk;
+    if (data) {
+      if (data.title && document.getElementById('junk-title')) {
+        document.getElementById('junk-title').textContent = data.title;
+      }
+      if (data.subtitle && document.getElementById('junk-subtitle')) {
+        document.getElementById('junk-subtitle').textContent = data.subtitle;
+      }
+
+      const container = document.getElementById('junk-categories-container');
+      if (container && Array.isArray(data.categories)) {
+        container.innerHTML = data.categories.map(category => `
+          <section class="wishlist-section">
+            <div class="section-header" style="border-bottom: 2px solid var(--accent); padding-bottom: 8px;">
+              <h2 style="font-size: 1.3rem;">${category.name}</h2>
+              ${category.description ? `<p style="margin: 4px 0 0; font-size: 0.85rem; color: var(--text-muted);">${category.description}</p>` : ''}
+            </div>
+
+            <div class="item-list" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 16px;">
+              ${category.items.map(item => `
+                <div class="wishlist-item" style="border-radius: 8px; overflow: hidden; position: relative; display: flex; flex-direction: column; background: var(--bg-card, #1e131b); border: 1px solid var(--border-color, rgba(255,255,255,0.1));">
+                  <div class="wishlist-item-img" style="height: 190px; background: #ffffff; padding: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                    <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
+                  </div>
+                  <div class="wishlist-item-info" style="padding: 12px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                    <div>
+                      ${item.theme ? `<span style="font-size: 0.72rem; font-weight: 800; color: var(--accent); display: block; letter-spacing: 0.02em; margin-bottom: 4px;">${item.theme}</span>` : ''}
+                      <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size: 0.88rem; font-weight: 700; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 6px;">${item.name}</a>
+                      ${item.notes ? `<p style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.4; margin: 0 0 10px;">${item.notes}</p>` : ''}
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--border-color-subtle, rgba(255,255,255,0.05));">
+                      <div style="display: flex; flex-direction: column;">
+                        <span class="wishlist-item-price" style="font-size: 0.82rem; font-weight: 700; color: var(--gold);">${item.price || 'Wishlist'}</span>
+                        ${item.size ? `<span style="font-size: 0.7rem; color: var(--text-muted);">Size: ${item.size}</span>` : ''}
+                      </div>
+                      <a href="${item.url}" target="_blank" class="inv-action-btn" style="padding: 4px 10px; font-size: 0.75rem; text-decoration: none; border-radius: 4px;">View ↗</a>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </section>
+        `).join('');
+      }
+    }
+  }
+
   // --- videogames.html ---
   if (document.getElementById('vg-owned-section')) {
     const data = SITE_CONTENT.videogames;
@@ -1567,6 +1664,12 @@ document.addEventListener('DOMContentLoaded', () => {
             icon: '📦',
             title: 'Recurring Household Consumables',
             sub: 'A reference list of common household items that need recurring top-ups.'
+        },
+        {
+            href: 'junk.html',
+            icon: '🗃️',
+            title: 'The Junk Box',
+            sub: 'Ideas, cool finds & unorganized wishlist items'
         }
     ];
 

@@ -119,6 +119,13 @@ window.SITE_CONTENT = {
         "title": "Household Consumables",
         "badge": "Common Items",
         "notes": "Recurring cleaning, health, food, and utilities."
+      },
+      {
+        "href": "junk.html",
+        "icon": "🗃️",
+        "title": "The Junk Box",
+        "badge": "Ideas & Stash",
+        "notes": "Temporary stash for cool finds, random wishlist ideas & unsorted items."
       }
     ],
     "priorityItems": []
@@ -592,6 +599,58 @@ window.SITE_CONTENT = {
         "kg": 103
       }
     ],
+    "bespokeMeasurements": [
+      {
+        "category": "Torso & Shoulders",
+        "items": [
+          { "label": "Chest", "key": "chest", "inches": 49, "type": "length", "notes": "Fullest part of chest" },
+          { "label": "Waist", "key": "waist", "inches": 46, "type": "length", "notes": "Natural waistline" },
+          { "label": "Hips", "key": "hips", "inches": 42, "type": "length", "notes": "High hips / hip bone" },
+          { "label": "Seat", "key": "seat", "inches": 46, "type": "length", "notes": "Fullest part of buttocks" },
+          { "label": "HPS to Waist (Front)", "key": "hpsToWaistFront", "cm": null, "type": "cm", "notes": "High Point Shoulder to front waist" },
+          { "label": "HPS to Waist (Back)", "key": "hpsToWaistBack", "cm": null, "type": "cm", "notes": "High Point Shoulder to back waist" },
+          { "label": "Shoulder to Shoulder", "key": "shoulderToShoulder", "cm": null, "type": "cm", "notes": "Acromion to acromion across back" },
+          { "label": "Shoulder Slope", "key": "shoulderSlope", "cm": null, "type": "cm", "notes": "Shoulder angle / drop" },
+          { "label": "Waist Back", "key": "waistBack", "cm": null, "type": "cm", "notes": "Across back waist side-to-side" },
+          { "label": "Waist to Armpit", "key": "waistToArmpit", "cm": null, "type": "cm", "notes": "Natural waist to armpit crease" }
+        ]
+      },
+      {
+        "category": "Arms & Hands",
+        "items": [
+          { "label": "Sleeve Length", "key": "shoulderToWrist", "inches": 24, "type": "length", "notes": "Shoulder point over elbow to wrist" },
+          { "label": "Shoulder to Elbow", "key": "shoulderToElbow", "cm": null, "type": "cm", "notes": "Shoulder tip to bent elbow" },
+          { "label": "Biceps Circumference", "key": "biceps", "cm": null, "type": "cm", "notes": "Widest part of relaxed upper arm" },
+          { "label": "Wrist Circumference", "key": "wrist", "cm": null, "type": "cm", "notes": "Around wrist bone" }
+        ]
+      },
+      {
+        "category": "Legs & Trousers",
+        "items": [
+          { "label": "Inseam", "key": "inseam", "inches": 32, "type": "length", "notes": "Crotch seam to floor / ankle" },
+          { "label": "Crotch Depth", "key": "crotchDepth", "cm": null, "type": "cm", "notes": "Natural waist to chair surface while seated" },
+          { "label": "Cross Seam", "key": "crossSeam", "cm": null, "type": "cm", "notes": "Front waist through crotch to back waist" },
+          { "label": "Cross Seam (Front)", "key": "crossSeamFront", "cm": null, "type": "cm", "notes": "Front waist to center crotch point" },
+          { "label": "Seat Back", "key": "seatBack", "cm": null, "type": "cm", "notes": "Across back seat side-to-side" },
+          { "label": "Upper Leg Circumference", "key": "upperLeg", "cm": null, "type": "cm", "notes": "Thigh just below crotch" },
+          { "label": "Knee Circumference", "key": "knee", "cm": null, "type": "cm", "notes": "Around center of knee cap" },
+          { "label": "Ankle Circumference", "key": "ankle", "cm": null, "type": "cm", "notes": "Above ankle bone" },
+          { "label": "Heel Circumference", "key": "heel", "cm": null, "type": "cm", "notes": "Diagonal heel to instep" },
+          { "label": "Waist to Floor", "key": "waistToFloor", "cm": null, "type": "cm", "notes": "Natural waist down outside to floor" },
+          { "label": "Waist to Knee", "key": "waistToKnee", "cm": null, "type": "cm", "notes": "Natural waist down outside to knee" },
+          { "label": "Waist to Seat", "key": "waistToSeat", "cm": null, "type": "cm", "notes": "Natural waist down to fullest seat" },
+          { "label": "Waist to Hips", "key": "waistToHips", "cm": null, "type": "cm", "notes": "Natural waist to hip bone" },
+          { "label": "Waist to Upper Leg", "key": "waistToUpperLeg", "cm": null, "type": "cm", "notes": "Natural waist to upper thigh" }
+        ]
+      },
+      {
+        "category": "Head & Neck",
+        "items": [
+          { "label": "Neck Circumference", "key": "neck", "inches": 19, "type": "length", "notes": "Base of neck above collarbone" },
+          { "label": "Head Size", "key": "head", "inches": 23, "type": "length", "notes": "Around widest part of skull" }
+        ]
+      }
+    ],
     "brands": [
       {
         "name": "Vans",
@@ -1054,6 +1113,34 @@ window.SITE_CONTENT = {
         "publisher": "The Diary",
         "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
         "amazonUrl": "https://thediary.com/products/the-conversation-cards-third-edition"
+      },
+      {
+        "name": "Pandemic Board Game",
+        "owned": true
+      },
+      {
+        "name": "The Quacks of Quedlinburg: The Alchemists Expansion",
+        "owned": true
+      },
+      {
+        "name": "The Quacks of Quedlinburg: The Herb Witches Expansion",
+        "owned": true
+      },
+      {
+        "name": "Mycelia Board Game",
+        "owned": true
+      },
+      {
+        "name": "We're Not Really Strangers Card Game",
+        "owned": true
+      },
+      {
+        "name": "Blend In Card Game",
+        "owned": true
+      },
+      {
+        "name": "Wooden Chess & Board Game Set (Blue Storage Box)",
+        "owned": true
       }
     ],
     "wishlist": [
@@ -1898,6 +1985,132 @@ window.SITE_CONTENT = {
         "badge": "Vintage Ladybird",
         "img": "",
         "amazon": "https://www.amazon.co.uk/dp/B0000CN6GD"
+      },
+      {
+        "name": "Usborne Cookery School: Cooking for Beginners",
+        "category": "Cookbooks",
+        "status": "owned"
+      },
+      {
+        "name": "Roald Dahl's Revolting Recipes & Even More Revolting Recipes",
+        "category": "Cookbooks",
+        "status": "owned"
+      },
+      {
+        "name": "Waitrose Cookery School Course Book",
+        "category": "Cookbooks",
+        "status": "owned"
+      },
+      {
+        "name": "Computer Organization and Design: The Hardware/Software Interface (4th Ed)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Software Engineering (9th Ed by Ian Sommerville)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Interaction Design: Beyond Human-Computer Interaction (2nd Ed)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Quantum Computation and Quantum Information (10th Anniversary Ed)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "The Robotics Primer (Maja J. Matarić)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Business Database Systems (Connolly, Begg & Holowczak)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "BTEC National Information Technology Practitioners (Book 1 & 2)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Objects First with Java: A Practical Introduction Using BlueJ",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "LogicWorks 4 Interactive Circuit Design Software Manual",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "Principles of Interactive Multimedia (Mark Elsom-Cook)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Textbook"
+      },
+      {
+        "name": "How It Works: The Computer (Ladybird Vintage Series)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Vintage"
+      },
+      {
+        "name": "Agil8 Certified ScrumMaster (CSM) Course Workbook",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Courseware"
+      },
+      {
+        "name": "Patrick Quick CS Course Notes (MC68000, CPU Architecture, FSMs & Boolean Logic)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Courseware"
+      },
+      {
+        "name": "Open University Notations and Models: Mathematical Modelling (Block A Units A1-A4)",
+        "category": "Computer Science",
+        "status": "owned",
+        "badge": "Courseware"
+      },
+      {
+        "name": "Lonely Planet Phrasebook Series (Italian, French, Russian, Polish, Greek)",
+        "category": "Travel & Culture",
+        "status": "owned",
+        "badge": "Language"
+      },
+      {
+        "name": "Japonisme: Exploring the Japanese Art of Living (Erin Niimi Longhurst)",
+        "category": "Travel & Culture",
+        "status": "owned",
+        "badge": "Japan"
+      },
+      {
+        "name": "Unf*ck Yourself: Get Out of Your Head and Into Your Life (Gary John Bishop)",
+        "category": "Personal Development",
+        "status": "owned"
+      },
+      {
+        "name": "Shibari Colouring Book Series (Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension)",
+        "category": "Art & Colouring",
+        "status": "owned"
+      },
+      {
+        "name": "Mindfulness & Extreme Colouring Mandalas Books",
+        "category": "Art & Colouring",
+        "status": "owned"
       }
     ]
   },
@@ -4522,6 +4735,10 @@ window.SITE_CONTENT = {
               {
                 "name": "TP-Link Deco X50-5G Whole Home Mesh Router",
                 "badge": "Connectivity"
+              },
+              {
+                "name": "Black Travel Backpack",
+                "badge": "Storage"
               }
             ],
             "projects": [
@@ -4559,6 +4776,46 @@ window.SITE_CONTENT = {
               {
                 "name": "TP-Link Tapo P110 Smart Plugs",
                 "badge": "Smart Power"
+              },
+              {
+                "name": "Chromecast Voice Remote & Panasonic TV Remote",
+                "badge": "Smart Hardware"
+              },
+              {
+                "name": "🍿 Home Media & Storage",
+                "isHeader": true
+              },
+              {
+                "name": "Black Board Game Backpack Bag",
+                "badge": "Storage"
+              },
+              {
+                "name": "The Lord of the Rings: The Motion Picture Trilogy (Extended DVD Box Set)",
+                "badge": "Media"
+              },
+              {
+                "name": "The Ultimate Matrix Collection (10-Disc DVD Box Set)",
+                "badge": "Media"
+              },
+              {
+                "name": "🪴 Decor & Furniture",
+                "isHeader": true
+              },
+              {
+                "name": "Retro Gaming Ceramic Plates",
+                "badge": "Decor"
+              },
+              {
+                "name": "Hand-painted Landscape Canvas Art",
+                "badge": "Decor"
+              },
+              {
+                "name": "Paper Mache Body Sculpting Form",
+                "badge": "Decor"
+              },
+              {
+                "name": "Wooden Folding Laptop Table",
+                "badge": "Furniture"
               }
             ],
             "projects": [
@@ -4600,6 +4857,22 @@ window.SITE_CONTENT = {
               {
                 "name": "Panasonic Solo Microwave Oven (20L, NN-E28JBMBPQ)",
                 "badge": "Appliance"
+              },
+              {
+                "name": "🫖 Kitchen Hardware & Teapots",
+                "isHeader": true
+              },
+              {
+                "name": "Cast Iron Japanese Teapot",
+                "badge": "Utensils"
+              },
+              {
+                "name": "Keep Calm and Carry On Enamel Teapot",
+                "badge": "Utensils"
+              },
+              {
+                "name": "Salt, Fat, Acid, Heat 20-Print Collection (Samin Nosrat & Wendy MacNaughton)",
+                "badge": "Decor"
               }
             ],
             "projects": [
@@ -4740,6 +5013,18 @@ window.SITE_CONTENT = {
               {
                 "name": "Meaco MeacoCool MC Series 8,000R Portable Air Conditioner",
                 "badge": "Climate Control"
+              },
+              {
+                "name": "📦 Office Hardware Accessories",
+                "isHeader": true
+              },
+              {
+                "name": "Dragon Eye Dice Bag",
+                "badge": "Accessories"
+              },
+              {
+                "name": "LogicWorks & SolidWorks Interactive Design Software CD Cases",
+                "badge": "Software"
               }
             ],
             "projects": [
@@ -5032,224 +5317,116 @@ window.SITE_CONTENT = {
         "url": "https://www.pauseformind.org.uk/"
       }
     ]
+  },
+  "junk": {
+    "title": "The Junk Box 🗃️",
+    "subtitle": "A temporary stash for cool finds, random wishlist ideas, and unorganized items to sort later.",
+    "categories": [
+      {
+        "id": "pokemon-shirts",
+        "name": "Pokémon Hawaiian & Patterned Shirts 🌺",
+        "icon": "👕",
+        "description": "Fun all-over-print tropical / Hawaiian button-down shirt patterns discovered online (preferred size: 3XL). Reference mockups below — search Etsy / BoxLunch / eBay for safe checkout with buyer protection.",
+        "items": [
+          {
+            "id": "psyduck-hawaiian",
+            "name": "Psyduck Unisex Hawaiian Shirt",
+            "theme": "Psyduck",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Psyduck_2.jpg?v=1776852380&width=750",
+            "url": "https://www.sevogue.com/products/psyduck-unisex-hawaiian-shirt",
+            "notes": "Yellow Psyduck headache / confusion tropical pattern with floral accents."
+          },
+          {
+            "id": "latias-latios-hawaiian",
+            "name": "Anime Pokémon Aloha Latias & Latios Hawaiian Shirt",
+            "theme": "Latias & Latios",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Anime_Pokemon_Aloha_Latias_Latios_Hawaiian_Shirt-1.jpg?v=1776850365&width=750",
+            "url": "https://www.sevogue.com/products/anime-pokemon-aloha-latias-latios-hawaiian-shirt",
+            "notes": "Eon Duo tropical pattern with palm leaves and ocean waves."
+          },
+          {
+            "id": "pokemon-hawaiian-pattern",
+            "name": "Classic Pokémon Aloha Hawaiian Shirt",
+            "theme": "Pikachu & Starters",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Pok_mon_Hawaiian_Shirt.jpg?v=1778232482&width=750",
+            "url": "https://www.sevogue.com/products/pokemon-hawaiian-shirt-1",
+            "notes": "Tropical Hawaiian floral pattern featuring classic Pikachu artwork."
+          },
+          {
+            "id": "blastoise-hawaiian",
+            "name": "Blastoise Unisex Hawaiian Shirt",
+            "theme": "Blastoise",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Blastoise_2.jpg?v=1776853053&width=750",
+            "url": "https://www.sevogue.com/products/blastoise-unisex-hawaiian-shirt",
+            "notes": "Water-type wave graphics with dynamic Blastoise hydro-pump art."
+          },
+          {
+            "id": "bulbasaur-line-hawaiian",
+            "name": "Bulbasaur, Ivysaur & Venusaur Unisex Hawaiian Shirt",
+            "theme": "Bulbasaur Line",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Bulbasaur_IvysaurandVenusaur_2.jpg?v=1776852982&width=750",
+            "url": "https://www.sevogue.com/products/bulbasaur-ivysaur-and-venusaur-unisex-hawaiian-shirt",
+            "notes": "Botanical grass-type evolution line with palm and monstera foliage."
+          },
+          {
+            "id": "charizard-line-hawaiian",
+            "name": "Charizard, Charmander & Charmeleon Unisex Hawaiian Shirt",
+            "theme": "Charmander Line",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Charizard_Charmander_andCharmeleon_2.jpg?v=1776852874&width=750",
+            "url": "https://www.sevogue.com/products/charizard-charmander-and-charmeleon-unisex-hawaiian-shirt",
+            "notes": "Fire-type evolution line vintage floral print with warm tones."
+          },
+          {
+            "id": "gengar-mimikyu-litwick-hawaiian",
+            "name": "Gengar, Mimikyu & Litwick Unisex Hawaiian Shirt",
+            "theme": "Ghost Types",
+            "price": "Spotted ~£25-30",
+            "size": "3XL",
+            "img": "https://www.sevogue.com/cdn/shop/files/Gengar_MimikyuandLitwick_2.jpg?v=1776852560&width=750",
+            "url": "https://www.sevogue.com/products/gengar-mimikyu-and-litwick-unisex-hawaiian-shirt",
+            "notes": "Spooky purple tropical aesthetic featuring Gengar, Mimikyu and Litwick."
+          }
+        ]
+      },
+      {
+        "id": "behind-couch-consoles",
+        "name": "Behind-Couch Console Tables & Gap Fillers 🛋️",
+        "icon": "🛋️",
+        "description": "Extra-slim gap-filler console tables with integrated power sockets and USB charging ports designed to sit behind the sofa.",
+        "items": [
+          {
+            "id": "hoobro-slim-sofa-table",
+            "name": "HOOBRO Slim Console Table with Power Outlets & USB",
+            "theme": "Behind Couch / Power",
+            "price": "Spotted ~£35-45",
+            "img": "https://m.media-amazon.com/images/I/71N-W7X0uEL._AC_SL1500_.jpg",
+            "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
+            "notes": "Ultra-slim (~15cm depth) metal & rustic wood console table with integrated 2x AC outlets and 2x USB charging ports."
+          },
+          {
+            "id": "vasagle-behind-couch-console",
+            "name": "VASAGLE Narrow Long Console Table with Charging Station",
+            "theme": "Behind Couch / Living Room",
+            "price": "Spotted ~£40-55",
+            "img": "https://m.media-amazon.com/images/I/71ZpT6p3gNL._AC_SL1500_.jpg",
+            "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
+            "notes": "Slimline long behind-couch organizer table with built-in charging ports, cable management, and adjustable leveling feet."
+          }
+        ]
+      }
+    ]
   }
 };
-window.INVENTORY_DATA = {
-  "updatedAt": "2026-07-27",
-  "categories": [
-    {
-      "id": "cookbooks",
-      "name": "Cookbooks & Food Science",
-      "icon": "🍳",
-      "description": "Culinary reference books, fine dining guides, and food science literature.",
-      "items": [
-        {
-          "id": "culinary-classics",
-          "title": "Culinary Reference & Fine Dining",
-          "subtitle": "Classic & Restaurant Cookbooks",
-          "notes": "Essential reference books in my kitchen library.",
-          "already": [
-            { "name": "Mastering the Art of French Cooking (Julia Child 2-Volume Box Set)", "badge": "Box Set" },
-            { "name": "The Flavour Thesaurus (Niki Segnit)", "badge": "Hardcover" },
-            { "name": "Dishoom: From Bombay with Love", "badge": "Hardcover" },
-            { "name": "Wagamama: Feed Your Soul", "badge": "Hardcover" },
-            { "name": "Heston Is This A Cookbook? (Heston Blumenthal)", "badge": "Hardcover" },
-            { "name": "Heston Blumenthal at Home", "badge": "Hardcover" },
-            { "name": "Joshua Weissman: Texture Over Taste", "badge": "Hardcover" },
-            { "name": "Joshua Weissman: An Unapologetic Cookbook", "badge": "Hardcover" },
-            { "name": "Field Notes for Food Adventure (Brad Leone)", "badge": "Hardcover" },
-            { "name": "Modern French Pastry (Cheryl Wakerhauser)", "badge": "Hardcover" },
-            { "name": "Japanese Pâtisserie (James Campbell)", "badge": "Hardcover" },
-            { "name": "The Legend's Cookbook+ (Zelda-inspired recipes)", "badge": "Hardcover" },
-            { "name": "The Savoy Cocktail Book (Harry Craddock)", "badge": "Hardcover" },
-            { "name": "Edmonds Cookery Book", "badge": "Paperback" }
-          ],
-          "wanted": [
-            {
-              "name": "The Food Lab: Better Home Cooking Through Science (Kenji López-Alt)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-              "note": "Hardcover"
-            },
-            {
-              "name": "Salt, Fat, Acid, Heat (Samin Nosrat)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share"
-            },
-            {
-              "name": "Dessert Person (Claire Saffitz)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share"
-            },
-            {
-              "name": "The Big Fat Duck Cookbook (Heston Blumenthal)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share"
-            },
-            {
-              "name": "Momofuku (David Chang)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "manga-art",
-      "name": "Manga & Zelda Collection",
-      "icon": "⚔️",
-      "description": "Hardcover manga editions, Zelda guidebooks, and art collections.",
-      "items": [
-        {
-          "id": "fma-series",
-          "title": "Fullmetal Alchemist: Fullmetal Edition",
-          "subtitle": "By Hiromu Arakawa",
-          "notes": "Deluxe hardcover omnibus release.",
-          "already": [
-            { "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 01", "badge": "Hardcover" },
-            { "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 02", "badge": "Hardcover" }
-          ],
-          "wanted": [
-            {
-              "name": "Fullmetal Alchemist: Fullmetal Edition Vol. 03 - 18",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share",
-              "note": "Matching Hardcover collection"
-            },
-            {
-              "name": "FMA: The Complete Four-Panel Comics",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-            }
-          ]
-        },
-        {
-          "id": "zelda-guides",
-          "title": "The Legend of Zelda Guides & Manga",
-          "subtitle": "Collector's Prima Guides & Manga",
-          "notes": "Official companion books & lore guides.",
-          "already": [
-            { "name": "The Legend's Cookbook+ (Zelda Recipes & Art)", "badge": "Owned" }
-          ],
-          "wanted": [
-            {
-              "name": "The Legend of Zelda Manga Legendary Edition Box Set",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share",
-              "note": "5-Book Box Set"
-            },
-            {
-              "name": "The Legend of Zelda: Twilight Princess Manga (Vol 1-7)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-            },
-            {
-              "name": "Zelda: Twilight Princess HD Collector's Guide (Prima)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-            },
-            {
-              "name": "Zelda: Majora's Mask Collector's Guide (Prima)",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "boardgames",
-      "name": "Board Games",
-      "icon": "🎲",
-      "description": "Tabletop games, strategy games, and expansions in my collection.",
-      "items": [
-        {
-          "id": "quacks-quedlinburg",
-          "title": "The Quacks of Quedlinburg",
-          "subtitle": "By Wolfgang Warsch (Schmidt Games)",
-          "notes": "Push-your-luck bag-building favorite.",
-          "already": [
-            { "name": "The Quacks of Quedlinburg (Base Game)", "badge": "Owned" },
-            { "name": "The Herb Witches Expansion", "badge": "Owned" },
-            { "name": "The Alchemists Expansion", "badge": "Owned" }
-          ],
-          "wanted": []
-        },
-        {
-          "id": "boardgames-tabletop",
-          "title": "Tabletop & Party Game Shelf",
-          "subtitle": "Strategy, Card & Social Games",
-          "notes": "Board games currently on my shelf.",
-          "already": [
-            { "name": "Ticket to Ride: Europe", "badge": "Owned" },
-            { "name": "Pandemic", "badge": "Owned" },
-            { "name": "Clank! Catacombs (Dire Wolf)", "badge": "Owned" },
-            { "name": "Flamecraft", "badge": "Owned" },
-            { "name": "Mycelia (Ravensburger)", "badge": "Owned" },
-            { "name": "Azul", "badge": "Owned" },
-            { "name": "Codenames", "badge": "Owned" },
-            { "name": "The Binding of Isaac: Four Souls", "badge": "Owned" },
-            { "name": "Trial by Trolley + Derailed Edition", "badge": "Owned" },
-            { "name": "We're Not Really Strangers", "badge": "Owned" },
-            { "name": "Unstable Unicorns", "badge": "Owned" },
-            { "name": "The Chameleon", "badge": "Owned" },
-            { "name": "Monopoly: Super Mario Celebration!", "badge": "Owned" },
-            { "name": "Fungi", "badge": "Owned" },
-            { "name": "Cards Against Humanity (Bigger Blacker Box)", "badge": "Owned" },
-            { "name": "Handmade Wooden Folding Chess Set", "badge": "Owned" }
-          ],
-          "wanted": [
-            {
-              "name": "USAopoly The Legend of Zelda Chess Set",
-              "link": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=wl_share",
-              "note": "Board Game Wishlist"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cs-tech",
-      "name": "CS & Engineering Textbooks",
-      "icon": "💻",
-      "description": "Computer Science textbooks, hardware engineering, and systems design.",
-      "items": [
-        {
-          "id": "cs-textbooks",
-          "title": "Computer Science Core Library",
-          "subtitle": "Hardware, Systems & Software Engineering",
-          "notes": "Reference textbooks & academic guides.",
-          "already": [
-            { "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)", "badge": "10th Anniv Ed" },
-            { "name": "Computer Organization & Design: Hardware/Software (Patterson & Hennessy)", "badge": "4th Ed" },
-            { "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)", "badge": "2nd Ed" },
-            { "name": "Software Engineering (Sommerville)", "badge": "9th Ed" },
-            { "name": "The Robotics Primer (Maja J. Matarić, MIT Press)", "badge": "Owned" },
-            { "name": "Business Database Systems (Connolly & Begg)", "badge": "Owned" },
-            { "name": "Principles of Interactive Multimedia (Elsom-Cook)", "badge": "Owned" },
-            { "name": "Objects First With Java: Practical Intro Using BlueJ", "badge": "4th Ed" },
-            { "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)", "badge": "Google Ventures" },
-            { "name": "Unfu*k Yourself (Gary John Bishop)", "badge": "Owned" },
-            { "name": "Ladybird: How It Works... The Computer (Ladybird 654)", "badge": "Vintage" }
-          ],
-          "wanted": []
-        }
-      ]
-    },
-    {
-      "id": "lego-botanicals",
-      "name": "LEGO & Decor",
-      "icon": "🧱",
-      "description": "LEGO sets, botanical guides, and art decor.",
-      "items": [
-        {
-          "id": "lego-botanical-collection",
-          "title": "LEGO & Botanical Collection",
-          "subtitle": "Brick-Built Displays & Art Prints",
-          "notes": "Decor displays around the house.",
-          "already": [
-            { "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms", "badge": "Hardcover Book" },
-            { "name": "Salt, Fat, Acid, Heat: 20 Art Prints Box Set", "badge": "Box Set" }
-          ],
-          "wanted": [
-            {
-              "name": "LEGO Guest Wishlist Items",
-              "link": "https://www.lego.com/guest/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
-              "note": "Check LEGO Wishlist"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-};
+
