@@ -1,36 +1,36 @@
 window.SITE_CONTENT = {
   "meta": {
-    "title": "Gift Alec Today 🎁",
+    "title": "Gift Alec Today \ud83c\udf81",
     "updatedAt": "2026-08-01",
     "owner": "Alec Doran-Twyford (Alectronic)"
   },
   "index": {
     "intro": {
-      "title": "The Wish List 🎁",
+      "title": "The Wish List \ud83c\udf81",
       "subtitle": "Welcome to my wishlist & home inventory hub!",
       "sections": {
         "info": {
-          "title": "ℹ️ About This Wishlist",
+          "title": "\u2139\ufe0f About This Wishlist",
           "text": "Welcome to my wishlist & home inventory hub! Browse through the dedicated collection hubs below to see what I own and what I'm looking for."
         },
         "warning": {
-          "title": "⚠️ Current Situation",
+          "title": "\u26a0\ufe0f Current Situation",
           "text": "Currently reorganizing the house and focusing on a health & weight loss journey. Please keep current space constraints and upcoming diet plans in mind!"
         },
         "dont": {
-          "title": "⛔ NEVER BUY THIS (Strict Don'ts)",
+          "title": "\u26d4 NEVER BUY THIS (Strict Don'ts)",
           "items": [
-            "👕 Shirts & Apparel — I have enough shirts in my life right now and am aiming to lose more weight.",
-            "📚 Books & 🎲 Board Games — Until I get some bookshelves in the house, I don't need more books or board games.",
-            "🍱 Food & Edibles — Please no food-related stuff as I will be on a Meal Replacement Diet in Jan."
+            "\ud83d\udc55 Shirts & Apparel \u2014 I have enough shirts in my life right now and am aiming to lose more weight.",
+            "\ud83d\udcda Books & \ud83c\udfb2 Board Games \u2014 Until I get some bookshelves in the house, I don't need more books or board games.",
+            "\ud83c\udf71 Food & Edibles \u2014 Please no food-related stuff as I will be on a Meal Replacement Diet in Jan."
           ]
         },
         "good": {
-          "title": "✅ Good Suggestions At Present",
+          "title": "\u2705 Good Suggestions At Present",
           "items": [
-            "💳 Direct Gift Money contributions via Monzo or PayPal.",
-            "🧱 Specific LEGO wishlist sets (Star Wars, Botanical, Nintendo & Deku Tree).",
-            "⚔️ Zelda Shrine collectibles, Prima guides & lore items."
+            "\ud83d\udcb3 Direct Gift Money contributions via Monzo or PayPal.",
+            "\ud83e\uddf1 Specific LEGO wishlist sets (Star Wars, Botanical, Nintendo & Deku Tree).",
+            "\u2694\ufe0f Zelda Shrine collectibles, Prima guides & lore items."
           ]
         }
       }
@@ -52,77 +52,77 @@ window.SITE_CONTENT = {
     "collectionHubs": [
       {
         "href": "lego.html",
-        "icon": "🧱",
-        "title": "LEGO® Collection",
+        "icon": "\ud83e\uddf1",
+        "title": "LEGO\u00ae Collection",
         "badge": "14 Sets",
         "notes": "Botanic plants, Star Wars UCS, NES console & Great Deku Tree wishlist."
       },
       {
         "href": "zelda.html",
-        "icon": "⚔️",
+        "icon": "\u2694\ufe0f",
         "title": "The Zelda Shrine",
         "badge": "Lore & Games",
         "notes": "Legend's Cookbook+, Symphony OST, manga box sets & Prima guides."
       },
       {
         "href": "clothing.html",
-        "icon": "👕",
+        "icon": "\ud83d\udc55",
         "title": "Clothing & Sizes",
         "badge": "Uniqlo / Vans",
         "notes": "Black simple aesthetic, exact sizing chart & shoes."
       },
       {
         "href": "boardgames.html",
-        "icon": "🎲",
+        "icon": "\ud83c\udfb2",
         "title": "Board Games",
         "badge": "Visual Grid",
         "notes": "Quacks of Quedlinburg, Ticket to Ride, Clank!, Four Souls & expansions."
       },
       {
         "href": "videogames.html",
-        "icon": "🎮",
+        "icon": "\ud83c\udfae",
         "title": "Video Games",
         "badge": "Switch & Steam",
         "notes": "Switch physical games, 3DS handhelds, retro Game Boy & Steam library."
       },
       {
         "href": "books.html",
-        "icon": "📚",
+        "icon": "\ud83d\udcda",
         "title": "Books",
         "badge": "Library",
         "notes": "Cookbooks, Fullmetal Alchemist manga & CS textbooks."
       },
       {
         "href": "home.html",
-        "icon": "🏡",
+        "icon": "\ud83c\udfe1",
         "title": "Home & Smart Tech",
         "badge": "Room Navigation",
         "notes": "Office setup, living room lighting, bathroom shower niches & projects."
       },
       {
         "href": "health.html",
-        "icon": "🩺",
+        "icon": "\ud83e\ude7a",
         "title": "Health & Gym",
         "badge": "ECG & Health",
         "notes": "OMRON ECG monitor, Hilo 24/7 bracelet & pulse oximeters."
       },
       {
         "href": "misc.html",
-        "icon": "🛒",
+        "icon": "\ud83d\uded2",
         "title": "Stores & Subscriptions",
         "badge": "Merch & Subs",
         "notes": "Google Merch, GitKraken, Bokksu, JOMO Club & craft boxes."
       },
       {
         "href": "consumables.html",
-        "icon": "📦",
+        "icon": "\ud83d\udce6",
         "title": "Household Consumables",
         "badge": "Common Items",
         "notes": "Recurring cleaning, health, food, and utilities."
       },
       {
         "href": "junk.html",
-        "icon": "🗃️",
+        "icon": "\ud83d\uddc3\ufe0f",
         "title": "The Junk Box",
         "badge": "Ideas & Stash",
         "notes": "Temporary stash for cool finds, random wishlist ideas & unsorted items."
@@ -131,27 +131,27 @@ window.SITE_CONTENT = {
     "priorityItems": []
   },
   "lego": {
-    "title": "LEGO® Collection & Wishlist 🧱",
+    "title": "LEGO\u00ae Collection & Wishlist \ud83e\uddf1",
     "officialWishlistUrl": "https://www.lego.com/en-gb/member/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
     "themes": {
       "starwars": {
-        "label": "⭐ Star Wars",
+        "label": "\u2b50 Star Wars",
         "color": "var(--gold)"
       },
       "botanical": {
-        "label": "🌿 Botanical Collection",
+        "label": "\ud83c\udf3f Botanical Collection",
         "color": "#7fc2a6"
       },
       "videogames": {
-        "label": "🎮 Video Games & Nintendo",
+        "label": "\ud83c\udfae Video Games & Nintendo",
         "color": "#ff6b6b"
       },
       "icons": {
-        "label": "🛸 Icons & Sci-Fi",
+        "label": "\ud83d\udef8 Icons & Sci-Fi",
         "color": "#a78bfa"
       },
       "adjacent": {
-        "label": "🧩 LEGO® Adjacent & Merch",
+        "label": "\ud83e\udde9 LEGO\u00ae Adjacent & Merch",
         "color": "#eab308"
       }
     },
@@ -172,35 +172,35 @@ window.SITE_CONTENT = {
       },
       {
         "id": "72046",
-        "name": "Game Boy™",
+        "name": "Game Boy\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blt93294b7b1307f20d/1/72046_Box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/game-boy-72046",
         "theme": "videogames"
       },
       {
         "id": "75244",
-        "name": "Tantive IV™",
+        "name": "Tantive IV\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blt6e6b847a2394f3bd/1/LEGO_75244_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/tantive-iv-75244",
         "theme": "starwars"
       },
       {
         "id": "75309",
-        "name": "Republic Gunship™",
+        "name": "Republic Gunship\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blte83fb44f6c9d3a87/1/75309_box1_v29.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/republic-gunship-75309",
         "theme": "starwars"
       },
       {
         "id": "71374",
-        "name": "Nintendo Entertainment System™",
+        "name": "Nintendo Entertainment System\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/bltf50620b09713cf61/1/LEGO_71374_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/nintendo-entertainment-system-71374",
         "theme": "videogames"
       },
       {
         "id": "75306",
-        "name": "Imperial Probe Droid™",
+        "name": "Imperial Probe Droid\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7c756014857ce43f/1/LEGO_75306_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/imperial-probe-droid-75306",
         "theme": "starwars"
@@ -214,7 +214,7 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75275",
-        "name": "A-wing Starfighter™",
+        "name": "A-wing Starfighter\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blte368d0acd8e1dc41/1/LEGO_75275_Box1_v29_1488.png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/a-wing-starfighter-75275",
         "theme": "starwars"
@@ -249,7 +249,7 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75252",
-        "name": "Imperial Star Destroyer™",
+        "name": "Imperial Star Destroyer\u2122",
         "img": "https://www.lego.com/cdn/cs/catalog/assets/blt22f6b53ba9fd13e3/1/75252_box1_v29_(1).png?format=webply&fit=bounds&quality=80&width=400&height=400&dpr=1",
         "url": "https://www.lego.com/en-gb/product/imperial-star-destroyer-75252",
         "theme": "starwars"
@@ -263,7 +263,7 @@ window.SITE_CONTENT = {
       },
       {
         "id": "77093",
-        "name": "Ocarina of Time™ – The Final Battle",
+        "name": "Ocarina of Time\u2122 \u2013 The Final Battle",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltd7895bf495988a25/77093_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/ocarina-of-time-the-final-battle-77093",
         "theme": "videogames"
@@ -279,8 +279,8 @@ window.SITE_CONTENT = {
     "wishlist": [
       {
         "id": "5009141",
-        "name": "The Force of Creativity – Standard Edition",
-        "price": "£35.99",
+        "name": "The Force of Creativity \u2013 Standard Edition",
+        "price": "\u00a335.99",
         "status": "40% Off Sale",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt0b4d1a25b7038d9d/5009141_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-standard-edition-5009141",
@@ -288,8 +288,8 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75355",
-        "name": "X-Wing Starfighter™",
-        "price": "£209.99",
+        "name": "X-Wing Starfighter\u2122",
+        "price": "\u00a3209.99",
         "status": "Retired Product",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt3e07af4c83a87efd/75355.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/x-wing-starfighter-75355",
@@ -298,31 +298,31 @@ window.SITE_CONTENT = {
       {
         "id": "10323",
         "name": "PAC-MAN Arcade",
-        "price": "£229.99",
+        "price": "\u00a3229.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt74da473b5ba874fe/10323.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/pac-man-arcade-10323",
         "theme": "videogames"
       },
       {
         "id": "75367",
-        "name": "Venator-Class Republic Attack Cruiser™",
-        "price": "£559.99",
+        "name": "Venator-Class Republic Attack Cruiser\u2122",
+        "price": "\u00a3559.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt06c6593d8e8d1c13/75367.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/venator-class-republic-attack-cruiser-75367",
         "theme": "starwars"
       },
       {
         "id": "75382",
-        "name": "TIE Interceptor™",
-        "price": "£199.99",
+        "name": "TIE Interceptor\u2122",
+        "price": "\u00a3199.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382",
         "theme": "starwars"
       },
       {
         "id": "75192",
-        "name": "Millennium Falcon™",
-        "price": "£734.99",
+        "name": "Millennium Falcon\u2122",
+        "price": "\u00a3734.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt3349f56c6f192e18/75192_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/millennium-falcon-75192",
         "theme": "starwars"
@@ -330,7 +330,7 @@ window.SITE_CONTENT = {
       {
         "id": "75409",
         "name": "Jango Fett's Firespray-Class Starship",
-        "price": "£259.99",
+        "price": "\u00a3259.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt616e72cc7801d6d0/75409_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/jango-fetts-firespray-class-starship-75409",
         "theme": "starwars"
@@ -338,7 +338,7 @@ window.SITE_CONTENT = {
       {
         "id": "5008878",
         "name": "The Force of Creativity Book",
-        "price": "£129.99",
+        "price": "\u00a3129.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt246301497bdc1f43/5008878.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-book-5008878",
         "theme": "adjacent"
@@ -346,7 +346,7 @@ window.SITE_CONTENT = {
       {
         "id": "75405",
         "name": "Home One Starcruiser",
-        "price": "£59.99",
+        "price": "\u00a359.99",
         "status": "Retiring Soon",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltb9adb5031a829a6d/75405_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405",
@@ -354,8 +354,8 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75356",
-        "name": "Executor Super Star Destroyer™",
-        "price": "£59.99",
+        "name": "Executor Super Star Destroyer\u2122",
+        "price": "\u00a359.99",
         "status": "Out of Stock / Retiring",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltc58d0af39ec2fc40/75356.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75356",
@@ -363,8 +363,8 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75404",
-        "name": "Acclamator-Class Assault Ship™",
-        "price": "£44.99",
+        "name": "Acclamator-Class Assault Ship\u2122",
+        "price": "\u00a344.99",
         "status": "Retiring Soon",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt0a600ef56c840250/75404_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/acclamator-class-assault-ship-75404",
@@ -372,8 +372,8 @@ window.SITE_CONTENT = {
       },
       {
         "id": "10356",
-        "name": "Star Trek: U.S.S. Enterprise NCC-1701-D™",
-        "price": "£349.99",
+        "name": "Star Trek: U.S.S. Enterprise NCC-1701-D\u2122",
+        "price": "\u00a3349.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356",
         "theme": "icons"
@@ -381,39 +381,39 @@ window.SITE_CONTENT = {
       {
         "id": "72153",
         "name": "Venusaur, Charizard and Blastoise",
-        "price": "£579.99",
+        "price": "\u00a3579.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt03c6f9be28fbf6ad/72153_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/venusaur-charizard-and-blastoise-72153",
         "theme": "videogames"
       },
       {
         "id": "72152",
-        "name": "Pikachu and Poké Ball",
-        "price": "£179.99",
+        "name": "Pikachu and Pok\u00e9 Ball",
+        "price": "\u00a3179.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/pikachu-and-poke-ball-72152",
         "theme": "videogames"
       },
       {
         "id": "75375",
-        "name": "Millennium Falcon™ (Starship Collection)",
-        "price": "£74.99",
+        "name": "Millennium Falcon\u2122 (Starship Collection)",
+        "price": "\u00a374.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/millennium-falcon-75375",
         "theme": "starwars"
       },
       {
         "id": "75417",
-        "name": "AT-ST™ Walker",
-        "price": "£179.99",
+        "name": "AT-ST\u2122 Walker",
+        "price": "\u00a3179.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/at-st-walker-75417",
         "theme": "starwars"
       },
       {
         "id": "75377",
-        "name": "Invisible Hand™",
-        "price": "£46.99",
+        "name": "Invisible Hand\u2122",
+        "price": "\u00a346.99",
         "status": "Retired Product",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt84584f9c968dadd1/75377.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/invisible-hand-75377",
@@ -422,15 +422,15 @@ window.SITE_CONTENT = {
       {
         "id": "75406",
         "name": "Kylo Ren's Command Shuttle",
-        "price": "£59.99",
+        "price": "\u00a359.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt65ff8f8d2cbde1e0/75406_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/kylo-rens-command-shuttle-75406",
         "theme": "starwars"
       },
       {
         "id": "75376",
-        "name": "Tantive IV™ (Starship Collection)",
-        "price": "£69.99",
+        "name": "Tantive IV\u2122 (Starship Collection)",
+        "price": "\u00a369.99",
         "status": "Retired Product",
         "img": "https://www.lego.com/cdn/cs/set/assets/blte06a85b596f9a078/75376.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/tantive-iv-75376",
@@ -438,32 +438,32 @@ window.SITE_CONTENT = {
       },
       {
         "id": "75440",
-        "name": "AT-AT™",
-        "price": "£59.99",
+        "name": "AT-AT\u2122",
+        "price": "\u00a359.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt26f813f1a1f499c6/75440_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/at-at-75440",
         "theme": "starwars"
       },
       {
         "id": "75441",
-        "name": "Venator-Class Attack Cruiser™",
-        "price": "£69.99",
+        "name": "Venator-Class Attack Cruiser\u2122",
+        "price": "\u00a369.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/venator-class-attack-cruiser-75441",
         "theme": "starwars"
       },
       {
         "id": "75452",
-        "name": "BB-8™ Astromech Droid",
-        "price": "£79.99",
+        "name": "BB-8\u2122 Astromech Droid",
+        "price": "\u00a379.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/bb-8-astromech-droid-75452",
         "theme": "starwars"
       },
       {
         "id": "75379",
-        "name": "R2-D2™",
-        "price": "£89.99",
+        "name": "R2-D2\u2122",
+        "price": "\u00a389.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/r2-d2-75379",
         "theme": "starwars"
@@ -471,15 +471,15 @@ window.SITE_CONTENT = {
       {
         "id": "11389",
         "name": "Project Hail Mary",
-        "price": "£99.99",
+        "price": "\u00a399.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/project-hail-mary-11389",
         "theme": "icons"
       },
       {
         "id": "5005886",
-        "name": "LEGO® Pumpkin Storage Head - Large",
-        "price": "£26.99",
+        "name": "LEGO\u00ae Pumpkin Storage Head - Large",
+        "price": "\u00a326.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/lego-pumpkin-storage-head-large-5005886",
         "theme": "adjacent"
@@ -487,7 +487,7 @@ window.SITE_CONTENT = {
       {
         "id": "5009960",
         "name": "Adults' Christmas Sweatshirt - Dark Blue",
-        "price": "£44.99",
+        "price": "\u00a344.99",
         "img": "https://images.brickset.com/sets/images/5009960-1.jpg",
         "url": "https://www.lego.com/en-gb/product/adults-christmas-sweatshirt-dark-blue-5009960",
         "theme": "adjacent"
@@ -498,35 +498,74 @@ window.SITE_CONTENT = {
     "title": "The Legend of Zelda Shrine ⚔️",
     "owned": [
       {
-        "name": "Nintendo Joy-Con Pairs (Light Purple & Light Green)",
-        "category": "Hardware",
-        "badge": "Hardware"
-      },
-      {
-        "name": "Nintendo Joy-Con Pairs (Zelda: Skyward Sword Edition)",
-        "category": "Hardware",
-        "badge": "Hardware"
+        "name": "Nintendo Switch – OLED Model (The Legend of Zelda: Tears of the Kingdom Edition)",
+        "type": "Console"
       },
       {
         "name": "Nintendo Switch Pro Controller (Zelda: Tears of the Kingdom Edition)",
-        "category": "Hardware",
-        "badge": "Hardware"
+        "type": "Hardware"
       },
       {
-        "name": "The Legend of Zelda: Tears of the Kingdom Complete Guide",
-        "category": "Video Game Books",
-        "badge": "Collector's Guide"
+        "name": "Nintendo 64 (N64) Controller for Nintendo Switch",
+        "type": "Hardware"
+      },
+      {
+        "name": "Nintendo Joy-Con Pairs (Zelda: Skyward Sword Edition)",
+        "type": "Hardware"
+      },
+      {
+        "name": "Nintendo Joy-Con Pairs (Light Purple & Light Green)",
+        "type": "Hardware"
       },
       {
         "name": "Game & Watch: The Legend of Zelda",
-        "category": "Console",
-        "badge": "Retro Console"
+        "type": "Console"
+      },
+      {
+        "name": "Nintendo Switch Carrying Case (The Legend of Zelda: Tears of the Kingdom Edition)",
+        "type": "Accessory"
+      },
+      {
+        "name": "The Legend of Zelda: Tears of the Kingdom Collector's Edition",
+        "type": "Special Edition"
+      },
+      {
+        "name": "The Legend of Zelda: Skyward Sword HD SteelBook® Edition",
+        "type": "Special Edition"
+      },
+      {
+        "name": "The Legend of Zelda: Tears of the Kingdom Complete Guide",
+        "type": "Collector's Guide"
+      },
+      {
+        "name": "Nintendo Switch 2 Carrying Case (Zelda 40th Anniversary Edition) & Screen Protector",
+        "type": "Pre-order (Amazon UK)"
+      },
+      {
+        "name": "The Legend of Zelda: Ocarina of Time (Switch 2) + Spiritual Stones Replica Set",
+        "type": "Pre-order (Nintendo)"
       }
     ],
-    "wishlist": []
+    "wishlist": [
+      {
+        "name": "Nintendo Switch 2 – The Legend of Zelda 40th Anniversary Edition Console",
+        "price": "£434.99",
+        "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-P00211"
+      },
+      {
+        "name": "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) + Display Stand",
+        "price": "£92.99",
+        "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437"
+      },
+      {
+        "name": "The Legend of Zelda: Ocarina of Time Pin",
+        "price": "Exclusive",
+        "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-ocarina-of-time-the-legend-of-zelda-ocarina-of-time-pin-B01068"
+      }
+    ]
   },
   "clothing": {
-    "title": "Clothing, Sizes & Style 👕",
+    "title": "Clothing, Sizes & Style \ud83d\udc55",
     "philosophy": "I am a simple person. Usually black, simple and comfortable. The Mark Zuckerberg vibe of wearing the same thing everyday.",
     "measurements": [
       {
@@ -603,51 +642,231 @@ window.SITE_CONTENT = {
       {
         "category": "Torso & Shoulders",
         "items": [
-          { "label": "Chest", "key": "chest", "inches": 49, "type": "length", "notes": "Fullest part of chest" },
-          { "label": "Waist", "key": "waist", "inches": 46, "type": "length", "notes": "Natural waistline" },
-          { "label": "Hips", "key": "hips", "inches": 42, "type": "length", "notes": "High hips / hip bone" },
-          { "label": "Seat", "key": "seat", "inches": 46, "type": "length", "notes": "Fullest part of buttocks" },
-          { "label": "HPS to Waist (Front)", "key": "hpsToWaistFront", "cm": null, "type": "cm", "notes": "High Point Shoulder to front waist" },
-          { "label": "HPS to Waist (Back)", "key": "hpsToWaistBack", "cm": null, "type": "cm", "notes": "High Point Shoulder to back waist" },
-          { "label": "Shoulder to Shoulder", "key": "shoulderToShoulder", "cm": null, "type": "cm", "notes": "Acromion to acromion across back" },
-          { "label": "Shoulder Slope", "key": "shoulderSlope", "cm": null, "type": "cm", "notes": "Shoulder angle / drop" },
-          { "label": "Waist Back", "key": "waistBack", "cm": null, "type": "cm", "notes": "Across back waist side-to-side" },
-          { "label": "Waist to Armpit", "key": "waistToArmpit", "cm": null, "type": "cm", "notes": "Natural waist to armpit crease" }
+          {
+            "label": "Chest",
+            "key": "chest",
+            "inches": 49,
+            "type": "length",
+            "notes": "Fullest part of chest"
+          },
+          {
+            "label": "Waist",
+            "key": "waist",
+            "inches": 46,
+            "type": "length",
+            "notes": "Natural waistline"
+          },
+          {
+            "label": "Hips",
+            "key": "hips",
+            "inches": 42,
+            "type": "length",
+            "notes": "High hips / hip bone"
+          },
+          {
+            "label": "Seat",
+            "key": "seat",
+            "inches": 46,
+            "type": "length",
+            "notes": "Fullest part of buttocks"
+          },
+          {
+            "label": "HPS to Waist (Front)",
+            "key": "hpsToWaistFront",
+            "cm": null,
+            "type": "cm",
+            "notes": "High Point Shoulder to front waist"
+          },
+          {
+            "label": "HPS to Waist (Back)",
+            "key": "hpsToWaistBack",
+            "cm": null,
+            "type": "cm",
+            "notes": "High Point Shoulder to back waist"
+          },
+          {
+            "label": "Shoulder to Shoulder",
+            "key": "shoulderToShoulder",
+            "cm": null,
+            "type": "cm",
+            "notes": "Acromion to acromion across back"
+          },
+          {
+            "label": "Shoulder Slope",
+            "key": "shoulderSlope",
+            "cm": null,
+            "type": "cm",
+            "notes": "Shoulder angle / drop"
+          },
+          {
+            "label": "Waist Back",
+            "key": "waistBack",
+            "cm": null,
+            "type": "cm",
+            "notes": "Across back waist side-to-side"
+          },
+          {
+            "label": "Waist to Armpit",
+            "key": "waistToArmpit",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist to armpit crease"
+          }
         ]
       },
       {
         "category": "Arms & Hands",
         "items": [
-          { "label": "Sleeve Length", "key": "shoulderToWrist", "inches": 24, "type": "length", "notes": "Shoulder point over elbow to wrist" },
-          { "label": "Shoulder to Elbow", "key": "shoulderToElbow", "cm": null, "type": "cm", "notes": "Shoulder tip to bent elbow" },
-          { "label": "Biceps Circumference", "key": "biceps", "cm": null, "type": "cm", "notes": "Widest part of relaxed upper arm" },
-          { "label": "Wrist Circumference", "key": "wrist", "cm": null, "type": "cm", "notes": "Around wrist bone" }
+          {
+            "label": "Sleeve Length",
+            "key": "shoulderToWrist",
+            "inches": 24,
+            "type": "length",
+            "notes": "Shoulder point over elbow to wrist"
+          },
+          {
+            "label": "Shoulder to Elbow",
+            "key": "shoulderToElbow",
+            "cm": null,
+            "type": "cm",
+            "notes": "Shoulder tip to bent elbow"
+          },
+          {
+            "label": "Biceps Circumference",
+            "key": "biceps",
+            "cm": null,
+            "type": "cm",
+            "notes": "Widest part of relaxed upper arm"
+          },
+          {
+            "label": "Wrist Circumference",
+            "key": "wrist",
+            "cm": null,
+            "type": "cm",
+            "notes": "Around wrist bone"
+          }
         ]
       },
       {
         "category": "Legs & Trousers",
         "items": [
-          { "label": "Inseam", "key": "inseam", "inches": 32, "type": "length", "notes": "Crotch seam to floor / ankle" },
-          { "label": "Crotch Depth", "key": "crotchDepth", "cm": null, "type": "cm", "notes": "Natural waist to chair surface while seated" },
-          { "label": "Cross Seam", "key": "crossSeam", "cm": null, "type": "cm", "notes": "Front waist through crotch to back waist" },
-          { "label": "Cross Seam (Front)", "key": "crossSeamFront", "cm": null, "type": "cm", "notes": "Front waist to center crotch point" },
-          { "label": "Seat Back", "key": "seatBack", "cm": null, "type": "cm", "notes": "Across back seat side-to-side" },
-          { "label": "Upper Leg Circumference", "key": "upperLeg", "cm": null, "type": "cm", "notes": "Thigh just below crotch" },
-          { "label": "Knee Circumference", "key": "knee", "cm": null, "type": "cm", "notes": "Around center of knee cap" },
-          { "label": "Ankle Circumference", "key": "ankle", "cm": null, "type": "cm", "notes": "Above ankle bone" },
-          { "label": "Heel Circumference", "key": "heel", "cm": null, "type": "cm", "notes": "Diagonal heel to instep" },
-          { "label": "Waist to Floor", "key": "waistToFloor", "cm": null, "type": "cm", "notes": "Natural waist down outside to floor" },
-          { "label": "Waist to Knee", "key": "waistToKnee", "cm": null, "type": "cm", "notes": "Natural waist down outside to knee" },
-          { "label": "Waist to Seat", "key": "waistToSeat", "cm": null, "type": "cm", "notes": "Natural waist down to fullest seat" },
-          { "label": "Waist to Hips", "key": "waistToHips", "cm": null, "type": "cm", "notes": "Natural waist to hip bone" },
-          { "label": "Waist to Upper Leg", "key": "waistToUpperLeg", "cm": null, "type": "cm", "notes": "Natural waist to upper thigh" }
+          {
+            "label": "Inseam",
+            "key": "inseam",
+            "inches": 32,
+            "type": "length",
+            "notes": "Crotch seam to floor / ankle"
+          },
+          {
+            "label": "Crotch Depth",
+            "key": "crotchDepth",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist to chair surface while seated"
+          },
+          {
+            "label": "Cross Seam",
+            "key": "crossSeam",
+            "cm": null,
+            "type": "cm",
+            "notes": "Front waist through crotch to back waist"
+          },
+          {
+            "label": "Cross Seam (Front)",
+            "key": "crossSeamFront",
+            "cm": null,
+            "type": "cm",
+            "notes": "Front waist to center crotch point"
+          },
+          {
+            "label": "Seat Back",
+            "key": "seatBack",
+            "cm": null,
+            "type": "cm",
+            "notes": "Across back seat side-to-side"
+          },
+          {
+            "label": "Upper Leg Circumference",
+            "key": "upperLeg",
+            "cm": null,
+            "type": "cm",
+            "notes": "Thigh just below crotch"
+          },
+          {
+            "label": "Knee Circumference",
+            "key": "knee",
+            "cm": null,
+            "type": "cm",
+            "notes": "Around center of knee cap"
+          },
+          {
+            "label": "Ankle Circumference",
+            "key": "ankle",
+            "cm": null,
+            "type": "cm",
+            "notes": "Above ankle bone"
+          },
+          {
+            "label": "Heel Circumference",
+            "key": "heel",
+            "cm": null,
+            "type": "cm",
+            "notes": "Diagonal heel to instep"
+          },
+          {
+            "label": "Waist to Floor",
+            "key": "waistToFloor",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist down outside to floor"
+          },
+          {
+            "label": "Waist to Knee",
+            "key": "waistToKnee",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist down outside to knee"
+          },
+          {
+            "label": "Waist to Seat",
+            "key": "waistToSeat",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist down to fullest seat"
+          },
+          {
+            "label": "Waist to Hips",
+            "key": "waistToHips",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist to hip bone"
+          },
+          {
+            "label": "Waist to Upper Leg",
+            "key": "waistToUpperLeg",
+            "cm": null,
+            "type": "cm",
+            "notes": "Natural waist to upper thigh"
+          }
         ]
       },
       {
         "category": "Head & Neck",
         "items": [
-          { "label": "Neck Circumference", "key": "neck", "inches": 19, "type": "length", "notes": "Base of neck above collarbone" },
-          { "label": "Head Size", "key": "head", "inches": 23, "type": "length", "notes": "Around widest part of skull" }
+          {
+            "label": "Neck Circumference",
+            "key": "neck",
+            "inches": 19,
+            "type": "length",
+            "notes": "Base of neck above collarbone"
+          },
+          {
+            "label": "Head Size",
+            "key": "head",
+            "inches": 23,
+            "type": "length",
+            "notes": "Around widest part of skull"
+          }
         ]
       }
     ],
@@ -723,14 +942,14 @@ window.SITE_CONTENT = {
       },
       {
         "brand": "Crocs",
-        "item": "Pokémon Collection Clogs",
-        "color": "Any / Pokémon",
+        "item": "Pok\u00e9mon Collection Clogs",
+        "color": "Any / Pok\u00e9mon",
         "size": "11 UK",
         "url": "https://www.crocs.co.uk/c/collections/more-collections/pokemon"
       },
       {
         "brand": "Crocs",
-        "item": "LEGO® Collaboration Clogs",
+        "item": "LEGO\u00ae Collaboration Clogs",
         "color": "Any / LEGO",
         "size": "11 UK",
         "url": "https://www.crocs.co.uk/c/collaborations/lego"
@@ -905,7 +1124,7 @@ window.SITE_CONTENT = {
     ]
   },
   "boardgames": {
-    "title": "Board Games & Tabletop 🎲",
+    "title": "Board Games & Tabletop \ud83c\udfb2",
     "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
     "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=list_d_wl_lfu_nav_3",
     "owned": [
@@ -1532,7 +1751,7 @@ window.SITE_CONTENT = {
     ]
   },
   "books": {
-    "title": "Books, Manga & Reference 📚",
+    "title": "Books, Manga & Reference \ud83d\udcda",
     "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
     "manga": [
       {
@@ -1790,7 +2009,7 @@ window.SITE_CONTENT = {
         "amazon": "https://www.amazon.co.uk/dp/1624143781"
       },
       {
-        "name": "Japanese Pâtisserie (James Campbell)",
+        "name": "Japanese P\u00e2tisserie (James Campbell)",
         "category": "Cookbooks",
         "status": "owned",
         "img": "",
@@ -1811,7 +2030,7 @@ window.SITE_CONTENT = {
         "amazon": "https://www.amazon.co.uk/dp/0790016629"
       },
       {
-        "name": "The Food Lab: Better Home Cooking Through Science (Kenji López-Alt)",
+        "name": "The Food Lab: Better Home Cooking Through Science (Kenji L\u00f3pez-Alt)",
         "category": "Cookbooks",
         "status": "wanted",
         "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg",
@@ -1883,7 +2102,7 @@ window.SITE_CONTENT = {
         "amazon": "https://www.amazon.co.uk/dp/0137035152"
       },
       {
-        "name": "The Robotics Primer (Maja J. Matarić, MIT Press)",
+        "name": "The Robotics Primer (Maja J. Matari\u0107, MIT Press)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "MIT Press",
@@ -2026,7 +2245,7 @@ window.SITE_CONTENT = {
         "badge": "Textbook"
       },
       {
-        "name": "The Robotics Primer (Maja J. Matarić)",
+        "name": "The Robotics Primer (Maja J. Matari\u0107)",
         "category": "Computer Science",
         "status": "owned",
         "badge": "Textbook"
@@ -2188,7 +2407,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/box-boy-plus-box-girl"
       },
       {
-        "name": "BRAVELY DEFAULT Ⅱ",
+        "name": "BRAVELY DEFAULT \u2161",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrao.jpg",
         "platform": "switch",
@@ -2335,7 +2554,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/constance--2"
       },
       {
-        "name": "Crash Bandicoot™ N. Sane Trilogy",
+        "name": "Crash Bandicoot\u2122 N. Sane Trilogy",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg",
         "platform": "switch",
@@ -2356,7 +2575,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/cuphead"
       },
       {
-        "name": "DARK SOULS™: REMASTERED",
+        "name": "DARK SOULS\u2122: REMASTERED",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobazz.jpg",
         "platform": "switch",
@@ -2580,21 +2799,21 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/hades--1"
       },
       {
-        "name": "Hades II – Nintendo Switch 2 Edition",
+        "name": "Hades II \u2013 Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/hades-ii"
       },
       {
-        "name": "Hollow Knight – Nintendo Switch 2 Edition",
+        "name": "Hollow Knight \u2013 Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaes9.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/hollow-knight--1"
       },
       {
-        "name": "Hollow Knight: Silksong – Nintendo Switch 2 Edition",
+        "name": "Hollow Knight: Silksong \u2013 Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
         "platform": "switch",
@@ -2664,7 +2883,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/kirby-and-the-forgotten-land--1"
       },
       {
-        "name": "LEGO® Voyagers",
+        "name": "LEGO\u00ae Voyagers",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgs.jpg",
         "platform": "switch",
@@ -2727,7 +2946,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/mario-plus-rabbids-kingdom-battle"
       },
       {
-        "name": "Mario + Rabbids® Sparks of Hope",
+        "name": "Mario + Rabbids\u00ae Sparks of Hope",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob89b.jpg",
         "platform": "switch",
@@ -2769,7 +2988,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/metroid-dread--2"
       },
       {
-        "name": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
+        "name": "Metroid Prime 4: Beyond \u2013 Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xh.jpg",
         "platform": "switch",
@@ -2783,7 +3002,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/metroid-prime-remastered"
       },
       {
-        "name": "Mina the Hollower – Nintendo Switch 2 Edition",
+        "name": "Mina the Hollower \u2013 Nintendo Switch 2 Edition",
         "badge": "Switch 2 Edition",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
         "platform": "switch",
@@ -2825,7 +3044,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/morphite"
       },
       {
-        "name": "New Pokémon Snap",
+        "name": "New Pok\u00e9mon Snap",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oil.jpg",
         "platform": "switch",
@@ -2881,7 +3100,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/ori-and-the-will-of-the-wisps"
       },
       {
-        "name": "POKKÉN TOURNAMENT DX",
+        "name": "POKK\u00c9N TOURNAMENT DX",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zj1.jpg",
         "platform": "switch",
@@ -2944,70 +3163,70 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/pikmin-4"
       },
       {
-        "name": "Pokémon Brilliant Diamond",
+        "name": "Pok\u00e9mon Brilliant Diamond",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b9t.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-brilliant-diamond"
       },
       {
-        "name": "Pokémon Champions",
+        "name": "Pok\u00e9mon Champions",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gu3.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-champions"
       },
       {
-        "name": "Pokémon FireRed Version",
+        "name": "Pok\u00e9mon FireRed Version",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ziq.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-firered-version"
       },
       {
-        "name": "Pokémon Legends: Arceus",
+        "name": "Pok\u00e9mon Legends: Arceus",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-legends-arceus"
       },
       {
-        "name": "Pokémon Mystery Dungeon Rescue Team DX",
+        "name": "Pok\u00e9mon Mystery Dungeon Rescue Team DX",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobcnl.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-mystery-dungeon-rescue-team-dx"
       },
       {
-        "name": "Pokémon Pokopia",
+        "name": "Pok\u00e9mon Pokopia",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbur.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-pokopia"
       },
       {
-        "name": "Pokémon Sword",
+        "name": "Pok\u00e9mon Sword",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lj2.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-sword"
       },
       {
-        "name": "Pokémon UNITE",
+        "name": "Pok\u00e9mon UNITE",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9avm.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-unite"
       },
       {
-        "name": "Pokémon Violet",
+        "name": "Pok\u00e9mon Violet",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5sfa.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/pokemon-violet"
       },
       {
-        "name": "Pokémon: Let's Go, Pikachu!",
+        "name": "Pok\u00e9mon: Let's Go, Pikachu!",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zjy.jpg",
         "platform": "switch",
@@ -3042,7 +3261,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/risk-of-rain-2"
       },
       {
-        "name": "Rocket League®",
+        "name": "Rocket League\u00ae",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocdio.jpg",
         "platform": "switch",
@@ -3119,14 +3338,14 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/sonic-mania-and-sonic-plus"
       },
       {
-        "name": "South Park™: The Fractured But Whole™",
+        "name": "South Park\u2122: The Fractured But Whole\u2122",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg",
         "platform": "switch",
         "url": "https://www.igdb.com/games/south-park-the-fractured-but-whole"
       },
       {
-        "name": "South Park™: The Stick Of Truth™",
+        "name": "South Park\u2122: The Stick Of Truth\u2122",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg",
         "platform": "switch",
@@ -3378,7 +3597,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/tunic"
       },
       {
-        "name": "ULTRA STREET FIGHTER™ II The Final Challengers",
+        "name": "ULTRA STREET FIGHTER\u2122 II The Final Challengers",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yen.jpg",
         "platform": "switch",
@@ -3490,7 +3709,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/forma-dot-8"
       },
       {
-        "name": "ŌKAMI HD",
+        "name": "\u014cKAMI HD",
         "badge": "Nintendo Switch",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22s8.jpg",
         "platform": "switch",
@@ -3756,7 +3975,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/wave-race-64"
       },
       {
-        "name": "Pokémon Stadium",
+        "name": "Pok\u00e9mon Stadium",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yyd.jpg",
         "platform": "n64",
@@ -3791,14 +4010,14 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/super-mario-64-ds"
       },
       {
-        "name": "Pokémon Diamond Version",
+        "name": "Pok\u00e9mon Diamond Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zht.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/pokemon-diamond-version"
       },
       {
-        "name": "Pokémon Black Version",
+        "name": "Pok\u00e9mon Black Version",
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
         "platform": "ds",
@@ -3868,21 +4087,21 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/metroid-fusion"
       },
       {
-        "name": "Pokémon Red Version",
+        "name": "Pok\u00e9mon Red Version",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
         "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-red-version"
       },
       {
-        "name": "Pokémon Yellow Version",
+        "name": "Pok\u00e9mon Yellow Version",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
         "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
-        "name": "Pokémon Silver Version",
+        "name": "Pok\u00e9mon Silver Version",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pid.jpg",
         "platform": "gb_gbc",
@@ -3994,7 +4213,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/frostpunk"
       },
       {
-        "name": "HELLDIVERS™ 2",
+        "name": "HELLDIVERS\u2122 2",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabbf.jpg",
         "platform": "pc",
@@ -4043,7 +4262,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/portal-2"
       },
       {
-        "name": "STAR WARS Jedi: Survivor™",
+        "name": "STAR WARS Jedi: Survivor\u2122",
         "badge": "Steam",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzk.jpg",
         "platform": "pc",
@@ -4078,7 +4297,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/warhammer-40000-space-marine-ii"
       },
       {
-        "name": "Overwatch®",
+        "name": "Overwatch\u00ae",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjxl.jpg",
@@ -4092,14 +4311,14 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/call-of-duty-modern-warfare"
       },
       {
-        "name": "Call of Duty®: Black Ops Cold War",
+        "name": "Call of Duty\u00ae: Black Ops Cold War",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg",
         "url": "https://www.igdb.com/games/call-of-duty-black-ops-cold-war"
       },
       {
-        "name": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+        "name": "Call of Duty\u00ae: Modern Warfare\u00ae 2 Campaign Remastered",
         "platform": "pc",
         "badge": "Blizzard / Battle.net",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adp.jpg",
@@ -4169,7 +4388,7 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/v-rally-edition-99"
       },
       {
-        "name": "Pokémon Yellow Version: Special Pikachu Edition",
+        "name": "Pok\u00e9mon Yellow Version: Special Pikachu Edition",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
         "platform": "gb_gbc",
@@ -4190,14 +4409,14 @@ window.SITE_CONTENT = {
         "url": "https://www.igdb.com/games/tetris--38"
       },
       {
-        "name": "Pokémon Puzzle Challenge",
+        "name": "Pok\u00e9mon Puzzle Challenge",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ywc.jpg",
         "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-puzzle-challenge"
       },
       {
-        "name": "Pokémon Trading Card Game",
+        "name": "Pok\u00e9mon Trading Card Game",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ojr.jpg",
         "platform": "gb_gbc",
@@ -4456,14 +4675,14 @@ window.SITE_CONTENT = {
         "platform": "3ds"
       },
       {
-        "name": "Pokémon X",
+        "name": "Pok\u00e9mon X",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.jpg",
         "url": "https://www.igdb.com/games/pokemon-x",
         "platform": "3ds"
       },
       {
-        "name": "Pokémon Moon",
+        "name": "Pok\u00e9mon Moon",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3co8.jpg",
         "url": "https://www.igdb.com/games/pokemon-moon",
@@ -4484,7 +4703,7 @@ window.SITE_CONTENT = {
         "platform": "3ds"
       },
       {
-        "name": "Pokémon Alpha Sapphire",
+        "name": "Pok\u00e9mon Alpha Sapphire",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjde.jpg",
         "url": "https://www.igdb.com/games/pokemon-alpha-sapphire",
@@ -4556,61 +4775,61 @@ window.SITE_CONTENT = {
     ],
     "platforms": {
       "pc": {
-        "label": "💻 PC Games Library (Steam & Blizzard / Battle.net)",
+        "label": "\ud83d\udcbb PC Games Library (Steam & Blizzard / Battle.net)",
         "color": "#a855f7"
       },
       "switch": {
-        "label": "🔴 Nintendo Switch Library",
+        "label": "\ud83d\udd34 Nintendo Switch Library",
         "color": "#ef4444"
       },
       "wii_wiiu": {
-        "label": "🌊 Wii & Wii U History",
+        "label": "\ud83c\udf0a Wii & Wii U History",
         "color": "#06b6d4"
       },
       "3ds": {
-        "label": "🔵 Nintendo 3DS Collection",
+        "label": "\ud83d\udd35 Nintendo 3DS Collection",
         "color": "#3b82f6"
       },
       "ds": {
-        "label": "🔷 Nintendo DS Collection",
+        "label": "\ud83d\udd37 Nintendo DS Collection",
         "color": "#2563eb"
       },
       "gamecube": {
-        "label": "🟣 Nintendo GameCube Collection",
+        "label": "\ud83d\udfe3 Nintendo GameCube Collection",
         "color": "#8b5cf6"
       },
       "gba": {
-        "label": "🟢 Game Boy Advance",
+        "label": "\ud83d\udfe2 Game Boy Advance",
         "color": "#10b981"
       },
       "n64": {
-        "label": "🕹️ Nintendo 64 Classics",
+        "label": "\ud83d\udd79\ufe0f Nintendo 64 Classics",
         "color": "#eab308"
       },
       "gb_gbc": {
-        "label": "🟢 Game Boy & Game Boy Colour",
+        "label": "\ud83d\udfe2 Game Boy & Game Boy Colour",
         "color": "#10b981"
       },
       "snes": {
-        "label": "🎮 Nintendo SNES",
+        "label": "\ud83c\udfae Nintendo SNES",
         "color": "#9333ea"
       },
       "nes": {
-        "label": "👾 Nintendo NES",
+        "label": "\ud83d\udc7e Nintendo NES",
         "color": "#dc2626"
       },
       "amiibo": {
-        "label": "🗿 Zelda & Mario Amiibo Collection",
+        "label": "\ud83d\uddff Zelda & Mario Amiibo Collection",
         "color": "#f97316"
       }
     }
   },
   "health": {
-    "title": "Health & Gym Gadgets 🩺",
+    "title": "Health & Gym Gadgets \ud83e\ude7a",
     "subtitle": "Biometric tracking, ECG monitors, blood pressure wearables, and wellness tech.",
     "owned": [
       {
-        "name": "OMRON Complete™ Blood Pressure & ECG Monitor",
+        "name": "OMRON Complete\u2122 Blood Pressure & ECG Monitor",
         "category": "Biometrics",
         "img": "https://m.media-amazon.com/images/I/61gR5i7X6AL._AC_SL1500_.jpg",
         "url": "https://www.omron-healthcare.co.uk/blood-pressure-monitors/complete.html",
@@ -4638,7 +4857,7 @@ window.SITE_CONTENT = {
         "badge": "Sleep Apnea & Tracking"
       },
       {
-        "name": "OMRON EVOLV™ Wireless Upper Arm Blood Pressure Monitor",
+        "name": "OMRON EVOLV\u2122 Wireless Upper Arm Blood Pressure Monitor",
         "category": "Biometrics",
         "img": "https://omron-healthcare.com/storage/products/EVOLV_01-2.jpg",
         "url": "https://www.amazon.co.uk/dp/B01MT54RFU",
@@ -4690,7 +4909,7 @@ window.SITE_CONTENT = {
     "wishlist": [
       {
         "name": "Withings Body Scan Smart Scale",
-        "price": "£349.95",
+        "price": "\u00a3349.95",
         "img": "https://m.media-amazon.com/images/I/61kC8b9yA-L._AC_SL1500_.jpg",
         "url": "https://www.withings.com/uk/en/body-scan",
         "status": "Segmented Body Comp"
@@ -4698,7 +4917,7 @@ window.SITE_CONTENT = {
     ]
   },
   "home": {
-    "title": "Home & Smart Tech Setup 🏡",
+    "title": "Home & Smart Tech Setup \ud83c\udfe1",
     "subtitle": "Whole-house layout, smart home devices, inventories, and active projects.",
     "lights": {
       "Bulb": 28,
@@ -4721,7 +4940,7 @@ window.SITE_CONTENT = {
     "floors": {
       "ground": {
         "name": "Ground Floor (Floor 0)",
-        "icon": "🟩",
+        "icon": "\ud83d\udfe9",
         "rooms": {
           "hallway": {
             "name": "Ground Floor Hallway",
@@ -4782,7 +5001,7 @@ window.SITE_CONTENT = {
                 "badge": "Smart Hardware"
               },
               {
-                "name": "🍿 Home Media & Storage",
+                "name": "\ud83c\udf7f Home Media & Storage",
                 "isHeader": true
               },
               {
@@ -4798,7 +5017,7 @@ window.SITE_CONTENT = {
                 "badge": "Media"
               },
               {
-                "name": "🪴 Decor & Furniture",
+                "name": "\ud83e\udeb4 Decor & Furniture",
                 "isHeader": true
               },
               {
@@ -4859,7 +5078,7 @@ window.SITE_CONTENT = {
                 "badge": "Appliance"
               },
               {
-                "name": "🫖 Kitchen Hardware & Teapots",
+                "name": "\ud83e\uded6 Kitchen Hardware & Teapots",
                 "isHeader": true
               },
               {
@@ -4886,7 +5105,7 @@ window.SITE_CONTENT = {
       },
       "first": {
         "name": "Middle Floor (1st Floor)",
-        "icon": "🟨",
+        "icon": "\ud83d\udfe8",
         "rooms": {
           "hallway": {
             "name": "Middle Floor Hallway & Stairs",
@@ -4915,7 +5134,7 @@ window.SITE_CONTENT = {
             ],
             "inventory": [
               {
-                "name": "🖥️ Desk & Workstation Setup",
+                "name": "\ud83d\udda5\ufe0f Desk & Workstation Setup",
                 "isHeader": true
               },
               {
@@ -4991,7 +5210,7 @@ window.SITE_CONTENT = {
                 "badge": "Cable Management"
               },
               {
-                "name": "🏃‍♂️ Gym & Fitness Equipment",
+                "name": "\ud83c\udfc3\u200d\u2642\ufe0f Gym & Fitness Equipment",
                 "isHeader": true
               },
               {
@@ -5007,7 +5226,7 @@ window.SITE_CONTENT = {
                 "badge": "Flooring"
               },
               {
-                "name": "❄️ Climate Control",
+                "name": "\u2744\ufe0f Climate Control",
                 "isHeader": true
               },
               {
@@ -5015,7 +5234,7 @@ window.SITE_CONTENT = {
                 "badge": "Climate Control"
               },
               {
-                "name": "📦 Office Hardware Accessories",
+                "name": "\ud83d\udce6 Office Hardware Accessories",
                 "isHeader": true
               },
               {
@@ -5065,7 +5284,7 @@ window.SITE_CONTENT = {
       },
       "second": {
         "name": "Top Floor (2nd Floor)",
-        "icon": "🟦",
+        "icon": "\ud83d\udfe6",
         "rooms": {
           "hallway": {
             "name": "Top Floor Stairs & Landing",
@@ -5144,7 +5363,7 @@ window.SITE_CONTENT = {
     }
   },
   "misc": {
-    "title": "Brands, Stores & Subscriptions 🛍️",
+    "title": "Brands, Stores & Subscriptions \ud83d\udecd\ufe0f",
     "subtitle": "Favorite tech merch stores, household decor, and ongoing subscription boxes.",
     "techMerch": [
       {
@@ -5203,7 +5422,7 @@ window.SITE_CONTENT = {
         "icon": "https://unavatar.io/burgschneider.com"
       },
       {
-        "name": "Snorlax Pokémon Sleep Figure",
+        "name": "Snorlax Pok\u00e9mon Sleep Figure",
         "url": "https://meccha-japan.com/en/figures/156385-figure-master-class-snorlax-pokemon-sleep.html",
         "icon": "https://unavatar.io/meccha-japan.com"
       },
@@ -5319,20 +5538,20 @@ window.SITE_CONTENT = {
     ]
   },
   "junk": {
-    "title": "The Junk Box 🗃️",
+    "title": "The Junk Box \ud83d\uddc3\ufe0f",
     "subtitle": "A temporary stash for cool finds, random wishlist ideas, and unorganized items to sort later.",
     "categories": [
       {
         "id": "pokemon-shirts",
-        "name": "Pokémon Hawaiian & Patterned Shirts 🌺",
-        "icon": "👕",
-        "description": "Fun all-over-print tropical / Hawaiian button-down shirt patterns discovered online (preferred size: 3XL). Reference mockups below — search Etsy / BoxLunch / eBay for safe checkout with buyer protection.",
+        "name": "Pok\u00e9mon Hawaiian & Patterned Shirts \ud83c\udf3a",
+        "icon": "\ud83d\udc55",
+        "description": "Fun all-over-print tropical / Hawaiian button-down shirt patterns discovered online (preferred size: 3XL). Reference mockups below \u2014 search Etsy / BoxLunch / eBay for safe checkout with buyer protection.",
         "items": [
           {
             "id": "psyduck-hawaiian",
             "name": "Psyduck Unisex Hawaiian Shirt",
             "theme": "Psyduck",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Psyduck_2.jpg?v=1776852380&width=750",
             "url": "https://www.sevogue.com/products/psyduck-unisex-hawaiian-shirt",
@@ -5340,9 +5559,9 @@ window.SITE_CONTENT = {
           },
           {
             "id": "latias-latios-hawaiian",
-            "name": "Anime Pokémon Aloha Latias & Latios Hawaiian Shirt",
+            "name": "Anime Pok\u00e9mon Aloha Latias & Latios Hawaiian Shirt",
             "theme": "Latias & Latios",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Anime_Pokemon_Aloha_Latias_Latios_Hawaiian_Shirt-1.jpg?v=1776850365&width=750",
             "url": "https://www.sevogue.com/products/anime-pokemon-aloha-latias-latios-hawaiian-shirt",
@@ -5350,9 +5569,9 @@ window.SITE_CONTENT = {
           },
           {
             "id": "pokemon-hawaiian-pattern",
-            "name": "Classic Pokémon Aloha Hawaiian Shirt",
+            "name": "Classic Pok\u00e9mon Aloha Hawaiian Shirt",
             "theme": "Pikachu & Starters",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Pok_mon_Hawaiian_Shirt.jpg?v=1778232482&width=750",
             "url": "https://www.sevogue.com/products/pokemon-hawaiian-shirt-1",
@@ -5362,7 +5581,7 @@ window.SITE_CONTENT = {
             "id": "blastoise-hawaiian",
             "name": "Blastoise Unisex Hawaiian Shirt",
             "theme": "Blastoise",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Blastoise_2.jpg?v=1776853053&width=750",
             "url": "https://www.sevogue.com/products/blastoise-unisex-hawaiian-shirt",
@@ -5372,7 +5591,7 @@ window.SITE_CONTENT = {
             "id": "bulbasaur-line-hawaiian",
             "name": "Bulbasaur, Ivysaur & Venusaur Unisex Hawaiian Shirt",
             "theme": "Bulbasaur Line",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Bulbasaur_IvysaurandVenusaur_2.jpg?v=1776852982&width=750",
             "url": "https://www.sevogue.com/products/bulbasaur-ivysaur-and-venusaur-unisex-hawaiian-shirt",
@@ -5382,7 +5601,7 @@ window.SITE_CONTENT = {
             "id": "charizard-line-hawaiian",
             "name": "Charizard, Charmander & Charmeleon Unisex Hawaiian Shirt",
             "theme": "Charmander Line",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Charizard_Charmander_andCharmeleon_2.jpg?v=1776852874&width=750",
             "url": "https://www.sevogue.com/products/charizard-charmander-and-charmeleon-unisex-hawaiian-shirt",
@@ -5392,7 +5611,7 @@ window.SITE_CONTENT = {
             "id": "gengar-mimikyu-litwick-hawaiian",
             "name": "Gengar, Mimikyu & Litwick Unisex Hawaiian Shirt",
             "theme": "Ghost Types",
-            "price": "Spotted ~£25-30",
+            "price": "Spotted ~\u00a325-30",
             "size": "3XL",
             "img": "https://www.sevogue.com/cdn/shop/files/Gengar_MimikyuandLitwick_2.jpg?v=1776852560&width=750",
             "url": "https://www.sevogue.com/products/gengar-mimikyu-and-litwick-unisex-hawaiian-shirt",
@@ -5402,15 +5621,15 @@ window.SITE_CONTENT = {
       },
       {
         "id": "behind-couch-consoles",
-        "name": "Behind-Couch Console Tables & Gap Fillers 🛋️",
-        "icon": "🛋️",
+        "name": "Behind-Couch Console Tables & Gap Fillers \ud83d\udecb\ufe0f",
+        "icon": "\ud83d\udecb\ufe0f",
         "description": "Extra-slim gap-filler console tables with integrated power sockets and USB charging ports designed to sit behind the sofa.",
         "items": [
           {
             "id": "hoobro-slim-sofa-table",
             "name": "HOOBRO Slim Console Table with Power Outlets & USB",
             "theme": "Behind Couch / Power",
-            "price": "Spotted ~£35-45",
+            "price": "Spotted ~\u00a335-45",
             "img": "https://m.media-amazon.com/images/I/71N-W7X0uEL._AC_SL1500_.jpg",
             "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
             "notes": "Ultra-slim (~15cm depth) metal & rustic wood console table with integrated 2x AC outlets and 2x USB charging ports."
@@ -5419,7 +5638,7 @@ window.SITE_CONTENT = {
             "id": "vasagle-behind-couch-console",
             "name": "VASAGLE Narrow Long Console Table with Charging Station",
             "theme": "Behind Couch / Living Room",
-            "price": "Spotted ~£40-55",
+            "price": "Spotted ~\u00a340-55",
             "img": "https://m.media-amazon.com/images/I/71ZpT6p3gNL._AC_SL1500_.jpg",
             "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
             "notes": "Slimline long behind-couch organizer table with built-in charging ports, cable management, and adjustable leveling feet."
@@ -5427,6 +5646,41 @@ window.SITE_CONTENT = {
         ]
       }
     ]
+  },
+  "consumables": {
+    "title": "Recurring Household Consumables \ud83d\udce6",
+    "categories": {
+      "who_gives_a_crap": {
+        "label": "Who Gives A Crap UK",
+        "items": [
+          "<a href='https://uk.whogivesacrap.org/products/premium-100-bamboo-toilet-paper' target='_blank' style='color: var(--accent); text-decoration: none;'>Premium 100% Bamboo Toilet Paper - Double Length Rolls</a>",
+          "<a href='https://uk.whogivesacrap.org/products/forest-friendly-paper-towels' target='_blank' style='color: var(--accent); text-decoration: none;'>100% Recycled Kitchen Roll / Forest Friendly Paper Towels</a>",
+          "<a href='https://uk.whogivesacrap.org/products/forest-friendly-tissues' target='_blank' style='color: var(--accent); text-decoration: none;'>Forest Friendly Tissues - 12 Boxes</a>",
+          "<a href='https://uk.whogivesacrap.org/products/eco-friendly-dog-poop-bags' target='_blank' style='color: var(--accent); text-decoration: none;'>100% Recycled Poo Bags</a>"
+        ]
+      },
+      "simplehuman": {
+        "label": "Simplehuman UK",
+        "items": [
+          "<a href='https://www.simplehuman.co.uk/products/custom-fit-bin-liner-h' target='_blank' style='color: var(--accent); text-decoration: none;'>Code H Custom Fit Liners</a>",
+          "<a href='https://www.simplehuman.co.uk/products/custom-fit-bin-liner-c' target='_blank' style='color: var(--accent); text-decoration: none;'>Code C Custom Fit Liners</a>",
+          "<a href='https://www.simplehuman.co.uk/products/custom-fit-compostable-bin-liner-z' target='_blank' style='color: var(--accent); text-decoration: none;'>Code Z Compostable Custom Fit Liners</a>",
+          "<a href='https://www.simplehuman.co.uk/products/compost-caddy' target='_blank' style='color: var(--accent); text-decoration: none;'>Compost Caddy</a>",
+          "<a href='https://www.simplehuman.co.uk/products/slim-open-recycler-20l' target='_blank' style='color: var(--accent); text-decoration: none;'>20 Litre, Slim Open Recycler</a>"
+        ]
+      },
+      "laundry_cleaning": {
+        "label": "Laundry & Cleaning",
+        "items": [
+          "<a href='https://www.amazon.co.uk/s?k=Lenor+Unstoppables' target='_blank' style='color: var(--accent); text-decoration: none;'>Lenor Unstoppables / Scent Boosters (Floral Fresh, Bluebells & Wild Berries)</a>",
+          "<a href='https://busterplugholes.co.uk/products/bathroom-plughole-unblocker' target='_blank' style='color: var(--accent); text-decoration: none;'>Buster Bathroom Plughole Unblocker</a>",
+          "<a href='https://www.finish.co.uk/products/additives/finish-dishwasher-salt-3kg/' target='_blank' style='color: var(--accent); text-decoration: none;'>Finish Dishwasher Salt & Dishwasher Cleaner</a>",
+          "<a href='https://www.ovenpride.com/' target='_blank' style='color: var(--accent); text-decoration: none;'>Oven Pride Cleaner</a>",
+          "<a href='https://scrubdaddy.co.uk/scrub-daddy-colors/' target='_blank' style='color: var(--accent); text-decoration: none;'>Scrub Daddy Colors Sponge</a>",
+          "<a href='https://www.amazon.co.uk/s?k=Domestos+Citrus+Fresh+Thick+Bleach' target='_blank' style='color: var(--accent); text-decoration: none;'>Domestos Citrus Fresh Thick Bleach</a>"
+        ]
+      }
+    }
   }
 };
 
