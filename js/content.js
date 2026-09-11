@@ -553,6 +553,10 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Ocarina of Time (Switch 2) + Spiritual Stones Replica Set",
         "type": "Pre-order (Nintendo)"
+      },
+      {
+        "name": "The Legend of Zelda: Link's Awakening Original Soundtrack [Limited Edition] (Japan Audio CD)",
+        "type": "Soundtrack (Play-Asia)"
       }
     ],
     "wishlist": [
@@ -588,8 +592,8 @@ window.SITE_CONTENT = {
       },
       {
         "name": "HORI Electric Ocarina (Switch 2 Mic Compatible)",
-        "price": "Late 2026",
-        "url": "https://zelda40th.nintendo.com"
+        "price": "Late 2026 (Pre-order / Import)",
+        "url": "https://www.play-asia.com/en/the-legend-of-zelda-ocarina-of-time-electric-ocarina-of-time/13/70kfb7"
       },
       {
         "name": "Playable Acoustic Ocarina (Switch 2 Mic Compatible)",
