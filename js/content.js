@@ -304,6 +304,15 @@ window.SITE_CONTENT = {
         "theme": "videogames"
       },
       {
+        "id": "lego-zelda-link-epona",
+        "name": "The Legend of Zelda: Ocarina of Time – Link & Epona (1,750 Pieces)",
+        "price": "Spring 2027 (Announced)",
+        "status": "Announced",
+        "img": "https://images.unsplash.com/photo-1563089145-599997674d42?w=500&auto=format&fit=crop&q=60",
+        "url": "https://zelda40th.nintendo.com",
+        "theme": "videogames"
+      },
+      {
         "id": "75367",
         "name": "Venator-Class Republic Attack Cruiser\u2122",
         "price": "\u00a3559.99",
@@ -558,9 +567,49 @@ window.SITE_CONTENT = {
         "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437"
       },
       {
+        "name": "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) – Standalone",
+        "price": "£64.99",
+        "url": "https://www.argos.co.uk/product/9754625"
+      },
+      {
         "name": "The Legend of Zelda: Ocarina of Time Pin",
         "price": "Exclusive",
         "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-ocarina-of-time-the-legend-of-zelda-ocarina-of-time-pin-B01068"
+      },
+      {
+        "name": "Nintendo amiibo – Young Link (Ocarina of Time Series)",
+        "price": "~£19.99 ($24.99)",
+        "url": "https://www.target.com/p/amiibo-young-link-the-legend-of-zelda-ocarina-of-time-series/-/A-1013536074"
+      },
+      {
+        "name": "Nintendo amiibo – Young Zelda (Ocarina of Time Series)",
+        "price": "~£19.99 ($24.99)",
+        "url": "https://www.target.com/p/amiibo-young-zelda-the-legend-of-zelda-ocarina-of-time-series/-/A-1013536073"
+      },
+      {
+        "name": "HORI Electric Ocarina (Switch 2 Mic Compatible)",
+        "price": "Late 2026",
+        "url": "https://zelda40th.nintendo.com"
+      },
+      {
+        "name": "Playable Acoustic Ocarina (Switch 2 Mic Compatible)",
+        "price": "Late 2026",
+        "url": "https://zelda40th.nintendo.com"
+      },
+      {
+        "name": "LEGO The Legend of Zelda: Ocarina of Time – Link & Epona (1,750 Pieces)",
+        "price": "Spring 2027",
+        "url": "https://zelda40th.nintendo.com"
+      },
+      {
+        "name": "Hasbro Legend of Zelda Electronic Master Sword (27-inch)",
+        "price": "Spring 2027",
+        "url": "https://zelda40th.nintendo.com"
+      },
+      {
+        "name": "The Legend of Zelda 40th Anniversary Concert – London (Royal Albert Hall with London Symphony Orchestra)",
+        "price": "3 & 4 April 2027 (Tickets On Sale Sept 2026)",
+        "url": "https://zelda.gameconcerts.com"
       }
     ]
   },
