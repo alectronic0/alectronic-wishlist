@@ -585,14 +585,14 @@ function syncKitchen(content, list) {
   });
 }
 
-function syncNintendo(content, nintendo, overrides) {
+function syncNintendo(content, nintendo, zeldaOverrides, removedFromJunk) {
   upsertJunkCategory(content, {
     id: 'nintendo-store',
     name: 'My Nintendo Store Wishlist \ud83c\udf44',
     icon: '\ud83c\udf44',
     description: 'Synced from the My Nintendo Store wishlist.',
     url: nintendo.url,
-    items: nintendo.wishlist.map(item => ({
+    items: nintendo.wishlist.filter(item => !removedFromJunk.includes(item.name)).map(item => ({
       id: item.id,
       name: item.name,
       theme: item.status || 'Nintendo',
@@ -604,8 +604,8 @@ function syncNintendo(content, nintendo, overrides) {
   });
 
   // Items Alec asked to take off the Zelda page stay off, even while the store wishlist still has them
-  const removed = overrides.removed.map(name => ({ name }));
-  content.zelda.wishlist = content.zelda.wishlist.filter(entry => !overrides.removed.includes(entry.name));
+  const removed = zeldaOverrides.removed.map(name => ({ name }));
+  content.zelda.wishlist = content.zelda.wishlist.filter(entry => !zeldaOverrides.removed.includes(entry.name));
   const { owned, wishlist } = content.zelda;
   for (const item of nintendo.wishlist.filter(entry => /zelda/i.test(entry.name))) {
     const words = titleWords(item.name);
@@ -666,7 +666,7 @@ function main() {
   syncBooks(content, amazon.lists.books, overrides.books);
   syncKitchen(content, amazon.lists.kitchen);
   syncGames(content, JSON.parse(fs.readFileSync(IGDB_FILE, 'utf8')), overrides.videogames);
-  syncNintendo(content, JSON.parse(fs.readFileSync(NINTENDO_FILE, 'utf8')), overrides.zelda);
+  syncNintendo(content, JSON.parse(fs.readFileSync(NINTENDO_FILE, 'utf8')), overrides.zelda, overrides.nintendo.removed);
   syncGoodreads(content, JSON.parse(fs.readFileSync(GOODREADS_FILE, 'utf8')), overrides.books);
   syncLego(content, JSON.parse(fs.readFileSync(LEGO_FILE, 'utf8')), overrides.lego);
   reportBgg(content, JSON.parse(fs.readFileSync(BGG_FILE, 'utf8')));

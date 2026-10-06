@@ -1154,17 +1154,31 @@ window.SITE_CONTENT = {
       },
       {
         "brand": "Uniqlo",
-        "item": "Linen Blend Easy Trousers",
-        "color": "Black",
-        "size": "XL",
-        "url": "https://www.uniqlo.com/uk/en/products/E478670-000/00?colorDisplayCode=09&sizeDisplayCode=006"
-      },
-      {
-        "brand": "Uniqlo",
         "item": "Ultra Stretch DRY-EX Shorts",
         "color": "Black",
         "size": "XL",
         "url": "https://www.uniqlo.com/uk/en/products/E467609-000/00?colorDisplayCode=09&sizeDisplayCode=006"
+      },
+      {
+        "brand": "Uniqlo",
+        "item": "Ultra Stretch DRY-EX Full-Zip Hoodie",
+        "color": "Black",
+        "size": "XXL",
+        "url": "https://www.uniqlo.com/uk/en/products/E465203-000/00?colorDisplayCode=09&sizeDisplayCode=008"
+      },
+      {
+        "brand": "French Connection",
+        "item": "Boxers",
+        "color": "Black",
+        "size": "XL",
+        "url": "https://www.amazon.co.uk/dp/B0DN1YML6T"
+      },
+      {
+        "brand": "Jack & Jones",
+        "item": "Socks",
+        "color": "Black",
+        "size": "11 UK",
+        "url": "https://www.amazon.co.uk/dp/B079KCTDR8"
       },
       {
         "brand": "Vans",
@@ -8727,6 +8741,26 @@ window.SITE_CONTENT = {
         "name": "D&D Accessories",
         "url": "https://dndstore.wizards.com/uk/en/accessories",
         "icon": "https://unavatar.io/wizards.com"
+      },
+      {
+        "name": "Juste un T-shirt (Gaming)",
+        "url": "https://justeuntshirt.com/collections/jeux",
+        "icon": "https://unavatar.io/justeuntshirt.com"
+      },
+      {
+        "name": "Geeks Outfit",
+        "url": "https://www.geeksoutfit.com/",
+        "icon": "https://unavatar.io/geeksoutfit.com"
+      },
+      {
+        "name": "Amazon Nintendo Merch",
+        "url": "https://www.amazon.com/nintendomerch",
+        "icon": "https://unavatar.io/amazon.com"
+      },
+      {
+        "name": "DJI Store",
+        "url": "https://store.dji.com/",
+        "icon": "https://unavatar.io/dji.com"
       }
     ],
     "householdBrands": [
@@ -8764,6 +8798,11 @@ window.SITE_CONTENT = {
         "name": "SharkNinja",
         "url": "https://www.sharkninja.co.uk/",
         "icon": "https://unavatar.io/sharkninja.co.uk"
+      },
+      {
+        "name": "Quite Nice London (Placemats)",
+        "url": "https://quitenicelondon.com/collections/placemats",
+        "icon": "https://unavatar.io/quitenicelondon.com"
       }
     ],
     "subscriptions": [
@@ -8781,6 +8820,11 @@ window.SITE_CONTENT = {
         "name": "Fodabox",
         "category": "Food & Snacks",
         "url": "https://www.fodabox.com/"
+      },
+      {
+        "name": "Dry Aged Steaks",
+        "category": "Food & Snacks",
+        "url": "https://dryagedsteaks.co.uk/"
       },
       {
         "name": "JOMO Club (Non-Alcoholic)",
@@ -8939,6 +8983,86 @@ window.SITE_CONTENT = {
             "img": "",
             "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
             "notes": "Slimline long behind-couch organizer table with built-in charging ports, cable management, and adjustable leveling feet."
+          }
+        ]
+      },
+      {
+        "id": "home-kitchen-ideas",
+        "name": "Home & Kitchen Ideas \ud83c\udfe0",
+        "icon": "\ud83c\udfe0",
+        "description": "Things for the house and kitchen without a specific product picked yet.",
+        "items": [
+          {
+            "id": "wand-company-poke-ball",
+            "name": "Pok\u00e9 Ball by The Wand Company",
+            "theme": "Pok\u00e9mon",
+            "price": "",
+            "img": "",
+            "url": "https://www.pokemoncenter.com/en-gb/product/710-95848/poke-ball-by-the-wand-company",
+            "notes": "Die-cast replica from Pok\u00e9mon Center."
+          },
+          {
+            "id": "sous-vide-setup",
+            "name": "Sous Vide, Vacuum Sealer & Smoker Setup",
+            "theme": "Kitchen",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": ""
+          },
+          {
+            "id": "cold-press-juicer",
+            "name": "Cold Press / Slow Juicer",
+            "theme": "Kitchen",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": ""
+          },
+          {
+            "id": "rice-cooker",
+            "name": "Rice Cooker",
+            "theme": "Kitchen",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": ""
+          },
+          {
+            "id": "stand-mixer",
+            "name": "Stand Mixer with Attachments",
+            "theme": "Kitchen",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": "Meat grinder, bread hook, whisk and pasta attachments."
+          },
+          {
+            "id": "lego-display-cabinet",
+            "name": "Black Tinted-Glass LEGO Display Cabinet",
+            "theme": "Living Room",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": "Lift-up tinted glass so the sun does not bleach the sets."
+          },
+          {
+            "id": "tinted-glass-bookcase",
+            "name": "Black Sliding Tinted-Glass Bookcase",
+            "theme": "Living Room",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": ""
+          },
+          {
+            "id": "waterfall-shower-head",
+            "name": "Waterfall Shower Head",
+            "theme": "Bathroom",
+            "price": "",
+            "img": "",
+            "url": "",
+            "notes": ""
           }
         ]
       },
@@ -9120,48 +9244,12 @@ window.SITE_CONTENT = {
             "notes": ""
           },
           {
-            "id": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
-            "name": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
-            "theme": "Out of stock",
-            "price": "\u00a361.98",
-            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/boorv8e7gqn6jsemj8cv",
-            "url": "https://store.nintendo.com/en-gb/account/wishlist",
-            "notes": "Out of stock"
-          },
-          {
             "id": "10008289",
             "name": "Pok\u00e9mon Die-Cast Pok\u00e9 Ball Replica",
             "theme": "Out of stock",
             "price": "\u00a399.99",
             "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008289/1.1_ProductTile_Merchandise_PokeBallDieCastReplica_BeautyShotStraight_enNOE",
             "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-poke-ball-replica-000000000010008289",
-            "notes": "Out of stock"
-          },
-          {
-            "id": "10019439",
-            "name": "Nintendo Switch 2 Carrying Case The Legend of Zelda 40th Anniversary Edition & Screen Protector",
-            "theme": "Out of stock",
-            "price": "\u00a329.99",
-            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/oqj3jpaeoaqdhauvtdz9",
-            "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-carrying-case-the-legend-of-zelda-40th-anniversary-edition-and-screen-protector-000000000010019439",
-            "notes": "Out of stock"
-          },
-          {
-            "id": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
-            "name": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
-            "theme": "Out of stock",
-            "price": "\u00a3434.99",
-            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/sdqbhoskhkrg5rndxmov",
-            "url": "https://store.nintendo.com/en-gb/account/wishlist",
-            "notes": "Out of stock"
-          },
-          {
-            "id": "10019437",
-            "name": "Nintendo Switch 2 Pro Controller The Legend of Zelda 40th Anniversary Edition + Display Stand",
-            "theme": "Out of stock",
-            "price": "\u00a392.99",
-            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/te4qlp9kdovjszuitomt",
-            "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437",
             "notes": "Out of stock"
           }
         ]
@@ -9291,24 +9379,6 @@ window.SITE_CONTENT = {
         "name": "SURI Plant-Based Sonic Toothbrush Heads (Midnight Black)",
         "url": "https://trysuri.com/products/suri-sonic-replacement-toothbrush-heads",
         "img": "https://cdn.shopify.com/s/files/1/0502/5929/6444/files/BlueHeadsx3.jpg?v=1686214218",
-        "group": "oral_care"
-      },
-      {
-        "name": "Brushd Toothpaste Tablets (Fresh Mint with Fluoride)",
-        "url": "https://brushd.co.uk/products/toothpaste-tablets",
-        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/ToothpasteTablets_6ee27ab4-db73-4510-8f0c-5891c8bbd95f.jpg?v=1683015234",
-        "group": "oral_care"
-      },
-      {
-        "name": "Brushd Mouthwash Tablets (Fresh Mint with Fluoride)",
-        "url": "https://brushd.co.uk/products/mouthwash-tablets",
-        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/FreshMintLifestyle1.jpg?v=1683625479",
-        "group": "oral_care"
-      },
-      {
-        "name": "Y-Kelin Stainless Steel Tongue Scrapers (4-Pack)",
-        "url": "",
-        "img": "https://m.media-amazon.com/images/I/71xsDVehFuL._AC_SL500_.jpg",
         "group": "oral_care"
       }
     ]
