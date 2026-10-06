@@ -192,20 +192,21 @@ function bookName(item, author) {
   return `${title} (${author})`;
 }
 
-function bookCategory(item, overrides) {
+function bookCategory(item, overrides, fallback) {
   for (const rule of overrides.categories) {
     if (new RegExp(rule.match, 'i').test(item.title)) {
       return rule.category;
     }
   }
-  return overrides.defaultCategory;
+  return fallback;
 }
 
 function upsertBook(content, item, overrides) {
   const { author, format } = parseByline(item.byline);
   const fields = {
     name: bookName(item, author),
-    category: bookCategory(item, overrides),
+    // Everything on the Amazon book list that is not manga or a game guide is a cookbook
+    category: bookCategory(item, overrides, overrides.amazonCategory),
     status: 'wanted',
     badge: format,
     img: item.img,
@@ -213,6 +214,11 @@ function upsertBook(content, item, overrides) {
     price: formatPrice(item.price),
     asin: item.asin
   };
+  // Still on the Amazon wishlist, but Alec already has it
+  if (overrides.owned[item.asin]) {
+    fields.status = 'owned';
+    fields.price = '';
+  }
   const existing = content.books.normal.find(entry => (entry.asin || asinOf(entry.url)) === item.asin);
   if (existing) {
     Object.assign(existing, fields);
@@ -258,6 +264,9 @@ function syncBooks(content, list, overrides) {
     if (!listed.has(book.asin || asinOf(book.url))) {
       report.push(`books: wanted on site but not on Amazon list — ${book.name}`);
     }
+  }
+  for (const title of Object.values(overrides.owned)) {
+    report.push(`books: owned but still on the Amazon wishlist — ${title}`);
   }
 }
 
@@ -435,7 +444,7 @@ function syncGoodreadsShelf(content, books, status, overrides) {
     const item = { title, asin: book.isbn || book.asin };
     content.books.normal.push({
       name: `${shortTitle(title)} (${goodreadsAuthor(book)})`,
-      category: bookCategory(item, overrides),
+      category: bookCategory(item, overrides, overrides.defaultCategory),
       status,
       img: book.img,
       url: book.url,

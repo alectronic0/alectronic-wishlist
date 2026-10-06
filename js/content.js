@@ -3156,7 +3156,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Simply Nigella (Nigella Lawson)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/51n4iVsXTOL._SS135_.jpg",
@@ -3176,7 +3176,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Momofuku (David Chang)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/51iUaL7Gx-L._SS135_.jpg",
@@ -3186,7 +3186,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Ottolenghi FLAVOUR (Yotam Ottolenghi)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/41-UqRz8cSL._SS135_.jpg",
@@ -3206,7 +3206,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "The Pie Room (Calum Franklin)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51-PrYhI-qL._SS135_.jpg",
@@ -3236,7 +3236,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "The French Chef Handbook: La cuisine de reference (Michel Maincent-Morel)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
@@ -3256,7 +3256,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Historic Heston (Heston Blumenthal)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51p+EUaBOHL._SS135_.jpg",
@@ -3266,7 +3266,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Hestons Fantastical Feast (Heston Blumenthal)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51-ji07y-SL._SS135_.jpg",
@@ -3336,7 +3336,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "Momofuku (David Chang)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41wLcvSme0L._SS135_.jpg",
@@ -3356,7 +3356,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "SALT FAT ACID HEAT. Cztery sk\u0142adniki (Nosrat Samin)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51wRJ0EI7nL._SS135_.jpg",
@@ -3377,7 +3377,7 @@ window.SITE_CONTENT = {
       },
       {
         "name": "In Search of Perfection: Reinventing Kitchen Classics (Heston Blumenthal)",
-        "category": "Non-Fiction",
+        "category": "Cookbooks",
         "status": "wanted",
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
@@ -3408,31 +3408,31 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: A Link to the Past (Shotaro Ishinomori)",
         "category": "Video Game Books",
-        "status": "wanted",
+        "status": "owned",
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/51+KiK0PokL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1421575418",
-        "price": "\u00a312.49",
+        "price": "",
         "asin": "1421575418"
       },
       {
         "name": "The Legend of Zelda Complete Box Set (Akira Himekawa)",
         "category": "Video Game Books",
-        "status": "wanted",
+        "status": "owned",
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/61u2BrHRNKL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1421542420",
-        "price": "\u00a351.57",
+        "price": "",
         "asin": "1421542420"
       },
       {
         "name": "The Legend of Zelda - Legendary Edition Box Set (Akira Himekawa)",
         "category": "Video Game Books",
-        "status": "wanted",
+        "status": "owned",
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/51NWrNi6pzL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1974718190",
-        "price": "\u00a364.05",
+        "price": "",
         "asin": "1974718190"
       },
       {

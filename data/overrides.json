@@ -200,7 +200,13 @@
         "match": "Cook|Recipe|Pasta|Preserve|Dessert|Cocktail|Pastry|Patisserie|Encyclopedia of"
       }
     ],
-    "defaultCategory": "Non-Fiction"
+    "defaultCategory": "Non-Fiction",
+    "owned": {
+      "1421575418": "The Legend of Zelda: A Link to the Past (Shotaro Ishinomori)",
+      "1421542420": "The Legend of Zelda Complete Box Set",
+      "1974718190": "The Legend of Zelda - Legendary Edition Box Set"
+    },
+    "amazonCategory": "Cookbooks"
   },
   "lego": {
     "themes": {
