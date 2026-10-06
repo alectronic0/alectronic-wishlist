@@ -19,6 +19,16 @@ function powershell(command) {
   return execFileSync(POWERSHELL, ['-NoProfile', '-Command', command], { encoding: 'utf8', cwd: '/mnt/c' }).trim();
 }
 
+// URLs reach PowerShell inside a single-quoted string, and some are scraped from pages (LEGO order
+// links), so anything that is not a plain https/http URL is refused and quotes are escaped.
+function shellSafeUrl(url) {
+  const parsed = new URL(url);
+  if (!['https:', 'http:'].includes(parsed.protocol)) {
+    throw new Error(`Refusing to open non-web URL: ${url}`);
+  }
+  return parsed.href.replace(/'/g, '%27');
+}
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -40,7 +50,10 @@ function evaluate(urlFilter, expression) {
  * Opens `url` in a new tab, evaluates `expression` there (it must return a JSON string) and closes the tab.
  */
 async function evalInNewTab(url, expression, waitMs = LOAD_WAIT_MS) {
-  const tabId = powershell(`(Invoke-RestMethod -Method Put -Uri '${DEVTOOLS}/json/new?${url}').id`);
+  const tabId = powershell(`(Invoke-RestMethod -Method Put -Uri '${DEVTOOLS}/json/new?${shellSafeUrl(url)}').id`);
+  if (!/^[A-F0-9]+$/i.test(tabId)) {
+    throw new Error(`Chrome did not return a tab id for ${url}`);
+  }
   try {
     await sleep(waitMs);
     // The bridge finds tabs by URL, and sites redirect or rewrite it, so ask Chrome where the tab ended up.
@@ -52,4 +65,4 @@ async function evalInNewTab(url, expression, waitMs = LOAD_WAIT_MS) {
   }
 }
 
-module.exports = { evalInNewTab };
+module.exports = { evalInNewTab, shellSafeUrl };

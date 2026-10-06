@@ -41,19 +41,26 @@ document.addEventListener('DOMContentLoaded', () => {
     return /^~?£/.test(text || '');
   }
 
+  // Card data is scraped from other sites: only plain web addresses may become links or pictures
+  function webUrl(url) {
+    return /^https?:\/\//i.test(url || '') ? url : '';
+  }
+
   function externalLink(href, label, className) {
-    return `<a class="${className}" href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
+    return `<a class="${className}" href="${escapeHtml(webUrl(href))}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
   }
 
   function itemCard(item) {
-    const picture = item.img
-      ? `<img src="${escapeHtml(item.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    const img = webUrl(item.img);
+    const url = webUrl(item.url);
+    const picture = img
+      ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
       : '<span class="item-card__blank">No picture yet</span>';
-    const mediaClass = `item-card__media${item.cover ? ' item-card__media--cover' : ''}${item.img ? '' : ' item-card__media--blank'}`;
-    const media = item.url
-      ? `<a class="${mediaClass}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${picture}</a>`
+    const mediaClass = `item-card__media${item.cover ? ' item-card__media--cover' : ''}${img ? '' : ' item-card__media--blank'}`;
+    const media = url
+      ? `<a class="${mediaClass}" href="${escapeHtml(url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${picture}</a>`
       : `<div class="${mediaClass}">${picture}</div>`;
-    const title = item.url ? externalLink(item.url, item.name, 'item-card__link') : escapeHtml(item.name);
+    const title = url ? externalLink(url, item.name, 'item-card__link') : escapeHtml(item.name);
     const footer = [
       item.price ? `<span class="item-card__price">${escapeHtml(item.price)}</span>` : '',
       item.status ? `<span class="tag">${escapeHtml(item.status)}</span>` : '',
@@ -364,13 +371,13 @@ document.addEventListener('DOMContentLoaded', () => {
         function openModal(series, vol) {
           let imgHTML = '';
           if (vol.img && vol.img !== '') {
-            imgHTML = `<img src="${vol.img}" alt="${series.series} Vol. ${vol.vol}">`;
+            imgHTML = `<img src="${escapeHtml(webUrl(vol.img))}" alt="${escapeHtml(series.series)} Vol. ${escapeHtml(vol.vol)}">`;
           } else {
             imgHTML = `
               <div class="fallback-cover">
-                <div class="fallback-cover-title">${series.series}</div>
-                <div style="font-size: 1.1rem; font-weight: 700; color: var(--text); margin-top: 8px;">Vol. ${vol.vol}</div>
-                <div class="fallback-cover-author">${series.author}</div>
+                <div class="fallback-cover-title">${escapeHtml(series.series)}</div>
+                <div style="font-size: 1.1rem; font-weight: 700; color: var(--text); margin-top: 8px;">Vol. ${escapeHtml(vol.vol)}</div>
+                <div class="fallback-cover-author">${escapeHtml(series.author)}</div>
               </div>
             `;
           }
@@ -380,17 +387,17 @@ document.addEventListener('DOMContentLoaded', () => {
       
           let linksHTML = '';
           if (vol.amazon) {
-            linksHTML += `<a href="${vol.amazon}" target="_blank" class="modal-link-btn amazon">Amazon.co.uk ↗</a>`;
+            linksHTML += `<a href="${escapeHtml(webUrl(vol.amazon))}" target="_blank" class="modal-link-btn amazon">Amazon.co.uk ↗</a>`;
           }
           if (vol.goodreads) {
-            linksHTML += `<a href="${vol.goodreads}" target="_blank" class="modal-link-btn">Goodreads ↗</a>`;
+            linksHTML += `<a href="${escapeHtml(webUrl(vol.goodreads))}" target="_blank" class="modal-link-btn">Goodreads ↗</a>`;
           }
           if (vol.waterstones) {
-            linksHTML += `<a href="${vol.waterstones}" target="_blank" class="modal-link-btn">Waterstones ↗</a>`;
+            linksHTML += `<a href="${escapeHtml(webUrl(vol.waterstones))}" target="_blank" class="modal-link-btn">Waterstones ↗</a>`;
           }
           if (linksHTML === '') {
-            const fallbackUrl = series.wishlistUrl || data.amazonWishlistUrl || '#';
-            linksHTML += `<a href="${fallbackUrl}" target="_blank" class="modal-link-btn amazon">Series Wishlist ↗</a>`;
+            const fallbackUrl = series.wishlistUrl || data.amazonWishlistUrl || data.goodreadsUrl;
+            linksHTML += `<a href="${escapeHtml(webUrl(fallbackUrl))}" target="_blank" class="modal-link-btn amazon">Series Wishlist ↗</a>`;
           }
       
           modalBody.innerHTML = `
@@ -399,8 +406,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="modal-body-info">
               <div>
-                <div class="modal-title">${series.series}</div>
-                <div class="modal-subtitle">Volume ${vol.vol} &middot; By ${series.author}</div>
+                <div class="modal-title">${escapeHtml(series.series)}</div>
+                <div class="modal-subtitle">Volume ${escapeHtml(vol.vol)} &middot; By ${escapeHtml(series.author)}</div>
                 <div class="modal-status ${statusClass}">${statusLabel}</div>
               </div>
               <div class="modal-links">
@@ -439,18 +446,18 @@ document.addEventListener('DOMContentLoaded', () => {
       
             let imgHTML = '';
             if (series.img && series.img !== '') {
-              imgHTML = `<img src="${series.img}" alt="${series.series}" loading="lazy">`;
+              imgHTML = `<img src="${escapeHtml(webUrl(series.img))}" alt="${escapeHtml(series.series)}" loading="lazy">`;
             } else {
               imgHTML = `
                 <div class="fallback-cover">
-                  <div class="fallback-cover-title">${series.series}</div>
-                  <div class="fallback-cover-author">${series.author}</div>
+                  <div class="fallback-cover-title">${escapeHtml(series.series)}</div>
+                  <div class="fallback-cover-author">${escapeHtml(series.author)}</div>
                 </div>
               `;
             }
       
             const volumesHTML = series.volumes.map(vol => {
-              return `<button class="vol-btn ${vol.status}" type="button" title="Volume ${vol.vol}">${vol.vol}</button>`;
+              return `<button class="vol-btn ${vol.status === 'owned' ? 'owned' : 'wanted'}" type="button" title="Volume ${escapeHtml(vol.vol)}">${escapeHtml(vol.vol)}</button>`;
             }).join('');
       
             card.innerHTML = `
@@ -458,9 +465,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${imgHTML}
               </div>
               <div class="manga-info">
-                <h3 class="manga-title">${series.series}</h3>
-                <div class="manga-author">By ${series.author}</div>
-                <p class="manga-desc">${series.notes}</p>
+                <h3 class="manga-title">${escapeHtml(series.series)}</h3>
+                <div class="manga-author">By ${escapeHtml(series.author)}</div>
+                <p class="manga-desc">${escapeHtml(series.notes)}</p>
                 <div class="volumes-grid">
                   ${volumesHTML}
                 </div>
