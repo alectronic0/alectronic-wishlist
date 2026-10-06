@@ -107,6 +107,13 @@ window.SITE_CONTENT = {
         "notes": "OMRON ECG monitor, Hilo 24/7 bracelet & pulse oximeters."
       },
       {
+        "href": "grooming.html",
+        "icon": "",
+        "title": "Grooming",
+        "badge": "Scents & refills",
+        "notes": "Favourite scents, colognes, refills and the kit I use."
+      },
+      {
         "href": "misc.html",
         "icon": "\ud83d\uded2",
         "title": "Stores & Subscriptions",
@@ -9162,47 +9169,307 @@ window.SITE_CONTENT = {
     ]
   },
   "consumables": {
-    "title": "Recurring Household Consumables \ud83d\udce6",
-    "categories": {
-      "who_gives_a_crap": {
-        "label": "Who Gives A Crap UK",
-        "items": [
-          "<a href='https://uk.whogivesacrap.org/products/premium-100-bamboo-toilet-paper' target='_blank' style='color: var(--accent); text-decoration: none;'>Premium 100% Bamboo Toilet Paper - Double Length Rolls</a>",
-          "<a href='https://uk.whogivesacrap.org/products/forest-friendly-paper-towels' target='_blank' style='color: var(--accent); text-decoration: none;'>100% Recycled Kitchen Roll / Forest Friendly Paper Towels</a>",
-          "<a href='https://uk.whogivesacrap.org/products/forest-friendly-tissues' target='_blank' style='color: var(--accent); text-decoration: none;'>Forest Friendly Tissues - 12 Boxes</a>",
-          "<a href='https://uk.whogivesacrap.org/products/eco-friendly-dog-poop-bags' target='_blank' style='color: var(--accent); text-decoration: none;'>100% Recycled Poo Bags</a>"
-        ]
+    "title": "Household refills",
+    "lede": "The everyday things that run out. Handy if you want to give something practical.",
+    "groups": [
+      {
+        "key": "who_gives_a_crap",
+        "label": "Who Gives A Crap UK"
       },
-      "simplehuman": {
-        "label": "Simplehuman UK",
-        "items": [
-          "<a href='https://www.simplehuman.co.uk/products/custom-fit-bin-liner-h' target='_blank' style='color: var(--accent); text-decoration: none;'>Code H Custom Fit Liners</a>",
-          "<a href='https://www.simplehuman.co.uk/products/custom-fit-bin-liner-c' target='_blank' style='color: var(--accent); text-decoration: none;'>Code C Custom Fit Liners</a>",
-          "<a href='https://www.simplehuman.co.uk/products/custom-fit-compostable-bin-liner-z' target='_blank' style='color: var(--accent); text-decoration: none;'>Code Z Compostable Custom Fit Liners</a>",
-          "<a href='https://www.simplehuman.co.uk/products/compost-caddy' target='_blank' style='color: var(--accent); text-decoration: none;'>Compost Caddy</a>",
-          "<a href='https://www.simplehuman.co.uk/products/slim-open-recycler-20l' target='_blank' style='color: var(--accent); text-decoration: none;'>20 Litre, Slim Open Recycler</a>"
-        ]
+      {
+        "key": "simplehuman",
+        "label": "Simplehuman UK"
       },
-      "laundry_cleaning": {
-        "label": "Laundry & Cleaning",
-        "items": [
-          "<a href='https://www.amazon.co.uk/s?k=Lenor+Unstoppables' target='_blank' style='color: var(--accent); text-decoration: none;'>Lenor Unstoppables / Scent Boosters (Floral Fresh, Bluebells & Wild Berries)</a>",
-          "<a href='https://busterplugholes.co.uk/products/bathroom-plughole-unblocker' target='_blank' style='color: var(--accent); text-decoration: none;'>Buster Bathroom Plughole Unblocker</a>",
-          "<a href='https://www.finish.co.uk/products/additives/finish-dishwasher-salt-3kg/' target='_blank' style='color: var(--accent); text-decoration: none;'>Finish Dishwasher Salt & Dishwasher Cleaner</a>",
-          "<a href='https://www.ovenpride.com/' target='_blank' style='color: var(--accent); text-decoration: none;'>Oven Pride Cleaner</a>",
-          "<a href='https://scrubdaddy.co.uk/scrub-daddy-colors/' target='_blank' style='color: var(--accent); text-decoration: none;'>Scrub Daddy Colors Sponge</a>",
-          "<a href='https://www.amazon.co.uk/s?k=Domestos+Citrus+Fresh+Thick+Bleach' target='_blank' style='color: var(--accent); text-decoration: none;'>Domestos Citrus Fresh Thick Bleach</a>"
-        ]
+      {
+        "key": "laundry_cleaning",
+        "label": "Laundry & Cleaning"
       },
-      "oral_care": {
-        "label": "Oral Care & Dental",
-        "items": [
-          "<a href='https://trysuri.com/products/plant-based-sonic-toothbrush-heads' target='_blank' style='color: var(--accent); text-decoration: none;'>SURI Plant-Based Sonic Toothbrush Heads (Midnight Black)</a>",
-          "<a href='https://brushd.co.uk/products/toothpaste-tablets' target='_blank' style='color: var(--accent); text-decoration: none;'>Brushd Toothpaste Tablets (Fresh Mint with Fluoride)</a>",
-          "<a href='https://brushd.co.uk/products/mouthwash-tablets' target='_blank' style='color: var(--accent); text-decoration: none;'>Brushd Mouthwash Tablets (Fresh Mint with Fluoride)</a>",
-          "<a href='https://www.amazon.co.uk/dp/B085HN6HVT' target='_blank' style='color: var(--accent); text-decoration: none;'>Y-Kelin Stainless Steel Tongue Scrapers (4-Pack)</a>"
-        ]
+      {
+        "key": "oral_care",
+        "label": "Oral Care & Dental"
       }
-    }
+    ],
+    "items": [
+      {
+        "name": "Premium 100% Bamboo Toilet Paper - Double Length Rolls",
+        "url": "https://uk.whogivesacrap.org/products/premium-100-bamboo-toilet-paper-double-length-rolls",
+        "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/WGACProductPrimaryPhotos.jpg?v=1753868198",
+        "group": "who_gives_a_crap"
+      },
+      {
+        "name": "100% Recycled Kitchen Roll / Forest Friendly Paper Towels",
+        "url": "https://uk.whogivesacrap.org/products/forest-friendly-paper-towels-6-rolls",
+        "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/UKPAPERTOWEL1.jpg?v=1781069408",
+        "group": "who_gives_a_crap"
+      },
+      {
+        "name": "Forest Friendly Tissues - 12 Boxes",
+        "url": "https://uk.whogivesacrap.org/products/100-bamboo-tissues",
+        "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/AU-PDP-1-Tissues-Copy_0648f2f4-09d7-43dd-9139-3edb41eaf9ee.jpg?v=1780550409",
+        "group": "who_gives_a_crap"
+      },
+      {
+        "name": "100% Recycled Poo Bags",
+        "url": "https://uk.whogivesacrap.org/products/recycled-dog-poo-bags",
+        "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/PDP_Pet_Tying.jpg?v=1759814888",
+        "group": "who_gives_a_crap"
+      },
+      {
+        "name": "58L Step Recycler (Brushed)",
+        "url": "https://www.simplehuman.co.uk/products/step-recycler-58l?variant=42113408467049",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CW2116_Gallery_1_80f53e32-4911-4cd7-98c0-8a701b7a8c54.png?v=1762559055",
+        "meta": "My kitchen bin. Already owned; it takes Code H liners.",
+        "group": "simplehuman"
+      },
+      {
+        "name": "Code H Custom Fit Liners",
+        "url": "https://www.simplehuman.co.uk/products/code-h-custom-fit-liners",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CODEH_3PACK.jpg?v=1773076719",
+        "group": "simplehuman"
+      },
+      {
+        "name": "Code C Custom Fit Liners",
+        "url": "https://www.simplehuman.co.uk/products/code-c-custom-fit-liners",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CODEC_3PACK.jpg?v=1774988177",
+        "group": "simplehuman"
+      },
+      {
+        "name": "Code Z Compostable Custom Fit Liners",
+        "url": "https://www.simplehuman.co.uk/products/custom-fit-liners-code-z-compostable",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CW0525TP_54241a5a-7d37-4c59-8ad5-ff265701ded2.png?v=1776107375",
+        "group": "simplehuman"
+      },
+      {
+        "name": "Compost Caddy",
+        "url": "https://www.simplehuman.co.uk/products/compost-caddy",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/compost_caddy_front_brushed.png?v=1787468571",
+        "group": "simplehuman"
+      },
+      {
+        "name": "20 Litre, Slim Open Recycler",
+        "url": "https://www.simplehuman.co.uk/products/small-slim-open-can-20l-dual-compartment",
+        "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CW1470_1_small-can-M_20L_slim-open_recycler_d2d02c06-034b-4247-a8d2-2531eae22da0.jpg?v=1737766904",
+        "group": "simplehuman"
+      },
+      {
+        "name": "Lenor Unstoppables / Scent Boosters (Floral Fresh, Bluebells & Wild Berries)",
+        "url": "https://www.amazon.co.uk/s?k=Lenor+Unstoppables",
+        "img": "https://m.media-amazon.com/images/I/71uC+XybBRL._AC_SL500_.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "Buster Bathroom Plughole Unblocker",
+        "url": "",
+        "img": "https://m.media-amazon.com/images/I/41kYl7tinaL._AC_SL500_.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "Finish Dishwasher Salt & Dishwasher Cleaner",
+        "url": "",
+        "img": "https://m.media-amazon.com/images/I/71ur86GN2PL._AC_SL500_.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "Oven Pride Cleaner",
+        "url": "https://www.ovenpride.com/",
+        "img": "https://m.media-amazon.com/images/I/715kZlYv+EL._AC_SL500_.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "Scrub Daddy Colors Sponge",
+        "url": "https://scrubdaddy.co.uk/scrub-daddy-colors/",
+        "img": "https://scrubdaddy.co.uk/wp-content/uploads/2021/06/3_Pack_Colours_Web.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "Domestos Citrus Fresh Thick Bleach",
+        "url": "https://www.amazon.co.uk/s?k=Domestos+Citrus+Fresh+Thick+Bleach",
+        "img": "https://m.media-amazon.com/images/I/71o27cPcvFL._AC_SL500_.jpg",
+        "group": "laundry_cleaning"
+      },
+      {
+        "name": "SURI Plant-Based Sonic Toothbrush Heads (Midnight Black)",
+        "url": "https://trysuri.com/products/suri-sonic-replacement-toothbrush-heads",
+        "img": "https://cdn.shopify.com/s/files/1/0502/5929/6444/files/BlueHeadsx3.jpg?v=1686214218",
+        "group": "oral_care"
+      },
+      {
+        "name": "Brushd Toothpaste Tablets (Fresh Mint with Fluoride)",
+        "url": "https://brushd.co.uk/products/toothpaste-tablets",
+        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/ToothpasteTablets_6ee27ab4-db73-4510-8f0c-5891c8bbd95f.jpg?v=1683015234",
+        "group": "oral_care"
+      },
+      {
+        "name": "Brushd Mouthwash Tablets (Fresh Mint with Fluoride)",
+        "url": "https://brushd.co.uk/products/mouthwash-tablets",
+        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/FreshMintLifestyle1.jpg?v=1683625479",
+        "group": "oral_care"
+      },
+      {
+        "name": "Y-Kelin Stainless Steel Tongue Scrapers (4-Pack)",
+        "url": "",
+        "img": "https://m.media-amazon.com/images/I/71xsDVehFuL._AC_SL500_.jpg",
+        "group": "oral_care"
+      }
+    ]
+  },
+  "grooming": {
+    "title": "Grooming",
+    "lede": "The scents I like and the exact products I use day to day, so a refill or a new fragrance is an easy gift.",
+    "likes": [
+      "Fresh fruit and citrus: grapefruit, mandarin, pink pomegranate, pineapple",
+      "Aromatic woods and musk: cedarwood, bergamot, patchouli"
+    ],
+    "avoid": [
+      "Heavy vanilla",
+      "Tobacco",
+      "Sweet, dessert-like winter scents"
+    ],
+    "items": [
+      {
+        "category": "Deodorant",
+        "brand": "Make Waves",
+        "name": "Refill: Bergamot & Amber",
+        "detail": "Citrus and warm wood",
+        "url": "https://wearemakewaves.com/products/buy-refills",
+        "img": "https://cdn.shopify.com/s/files/1/0725/9465/3482/files/Web-ScentBundle-3Capsules.png?v=1693834633"
+      },
+      {
+        "category": "Deodorant",
+        "brand": "Make Waves",
+        "name": "Applicator: Sage Green",
+        "detail": "Reusable case",
+        "url": "https://wearemakewaves.com/products/refillable-antiperspirant-natural-deodorant",
+        "img": "https://cdn.shopify.com/s/files/1/0725/9465/3482/products/Web-ColourPick-2Applicators-Blue.png?v=1692177537"
+      },
+      {
+        "category": "Fragrance",
+        "brand": "Solid Cologne UK",
+        "name": "Malcolm",
+        "detail": "Pineapple, black currant, musk",
+        "url": "https://solidcologne.co.uk/products/malcolm-solid-cologne-uk",
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/files/Sikandar.jpg?v=1774479590"
+      },
+      {
+        "category": "Fragrance",
+        "brand": "Solid Cologne UK",
+        "name": "Felix",
+        "detail": "Grapefruit, mint, bergamot, cedarwood",
+        "url": "https://solidcologne.co.uk/products/felix-solid-cologne",
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Felix_Solid_Cologne_UK.jpg?v=1579979067"
+      },
+      {
+        "category": "Fragrance",
+        "brand": "Solid Cologne UK",
+        "name": "Xavier",
+        "detail": "Lemon, lavender, patchouli, vetiver",
+        "url": "https://solidcologne.co.uk/products/xavier-solid-cologne",
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Xavier_Solid_Cologne_UK.jpg?v=1579979348"
+      },
+      {
+        "category": "Fragrance",
+        "brand": "Solid Cologne UK",
+        "name": "Kahn",
+        "detail": "Citrus, peppermint, green herbs, lily",
+        "url": "https://solidcologne.co.uk/products/kahn-solid-cologne",
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Kahn_Solid_Cologne_UK.jpg?v=1579979130"
+      },
+      {
+        "category": "Fragrance",
+        "brand": "Perfect Shine",
+        "name": "80\u00b0 Lemon Cologne (400ml)",
+        "detail": "Traditional Turkish barber cologne",
+        "url": "https://barbertonpro.co.uk/products/perfect-shine-80-lemon-cologne-400ml",
+        "img": "https://cdn.shopify.com/s/files/1/0996/0439/8421/files/perfectshine.webp?v=1779871599"
+      },
+      {
+        "category": "Body wash and shampoo",
+        "brand": "Faith In Nature",
+        "name": "Lavender & Geranium Body Wash (5L)",
+        "detail": "Bulk refill",
+        "url": "https://www.faithinnature.co.uk/products/lavender-geranium-body-wash-5l",
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Lavender-Geranium-Shower-Gel-5L-Refill_150d9549-a9b5-4402-af8b-495632bda5a4.png?v=1718367110"
+      },
+      {
+        "category": "Body wash and shampoo",
+        "brand": "Faith In Nature",
+        "name": "Grapefruit & Orange Body Wash (5L)",
+        "detail": "Bulk refill",
+        "url": "https://www.faithinnature.co.uk/products/grapefruit-orange-body-wash-5l-refill",
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Grapefruit-Orange-Shower-Gel-5L-Refill_16aa7751-6675-4f1e-835d-3d0565b3f6b7.png?v=1718367106"
+      },
+      {
+        "category": "Body wash and shampoo",
+        "brand": "Faith In Nature",
+        "name": "Seaweed & Citrus Shampoo (5L)",
+        "detail": "Bulk refill",
+        "url": "https://www.faithinnature.co.uk/products/citrus-seaweed-shampoo-5l-refill",
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Seaweed-Citrus-Shampoo-5L-Refill_f438cc8a-a409-4cc9-ac27-e9741818240a.png?v=1718367158"
+      },
+      {
+        "category": "Trimmers and shavers",
+        "brand": "Manscaped",
+        "name": "The Lawn Mower 4.0",
+        "detail": "Body groomer",
+        "url": "https://uk.manscaped.com/products/the-lawn-mower-4",
+        "img": "https://assets.manscaped.com/image/upload/f_auto,q_auto/v1709676451/product-assets/store/product-thumbnails/lawn-mower-4-pro.png"
+      },
+      {
+        "category": "Trimmers and shavers",
+        "brand": "Manscaped",
+        "name": "The Beard Hedger",
+        "detail": "Beard trimmer",
+        "url": "https://uk.manscaped.com/products/the-beard-hedger",
+        "img": "https://m.media-amazon.com/images/I/71Sp4oOlRvL._AC_SL500_.jpg"
+      },
+      {
+        "category": "Trimmers and shavers",
+        "brand": "Manscaped",
+        "name": "The Handyman",
+        "detail": "Face foil shaver",
+        "url": "https://uk.manscaped.com/",
+        "img": "https://m.media-amazon.com/images/I/61S7j+JusoL._AC_SL500_.jpg"
+      },
+      {
+        "category": "Teeth",
+        "brand": "SURI",
+        "name": "SURI Pro 2.0 (Midnight Black)",
+        "detail": "Sonic toothbrush with UV cleaning case",
+        "url": "https://trysuri.com/products/suri-pro-2-sonic-toothbrush-uv-c-led-case",
+        "img": "https://cdn.shopify.com/s/files/1/0502/5929/6444/files/pro_canyon-sunrise_1.png?v=1787829989"
+      },
+      {
+        "category": "Teeth",
+        "brand": "SURI",
+        "name": "Plant-Based Brush Heads (Midnight Black)",
+        "detail": "Replacement heads",
+        "url": "https://trysuri.com/products/suri-sonic-replacement-toothbrush-heads",
+        "img": "https://cdn.shopify.com/s/files/1/0502/5929/6444/files/BlueHeadsx3.jpg?v=1686214218"
+      },
+      {
+        "category": "Teeth",
+        "brand": "Brushd",
+        "name": "Toothpaste Tablets",
+        "detail": "Fresh mint with fluoride",
+        "url": "https://brushd.co.uk/products/toothpaste-tablets",
+        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/ToothpasteTablets_6ee27ab4-db73-4510-8f0c-5891c8bbd95f.jpg?v=1683015234"
+      },
+      {
+        "category": "Teeth",
+        "brand": "Brushd",
+        "name": "Mouthwash Tablets",
+        "detail": "Fresh mint with fluoride",
+        "url": "https://brushd.co.uk/products/mouthwash-tablets",
+        "img": "https://cdn.shopify.com/s/files/1/0015/3082/2755/files/FreshMintLifestyle1.jpg?v=1683625479"
+      },
+      {
+        "category": "Teeth",
+        "brand": "Y-Kelin",
+        "name": "Stainless Steel Tongue Scrapers (4-pack)",
+        "detail": "",
+        "url": "",
+        "img": "https://m.media-amazon.com/images/I/71xsDVehFuL._AC_SL500_.jpg"
+      }
+    ]
   }
 };

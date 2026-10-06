@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.header-date').forEach(el => el.textContent = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }));
   }
 
-  // --- shared catalogue (index, lego, zelda, videogames, boardgames, books, junk, health) ---
+  // --- shared catalogue (index, lego, zelda, videogames, boardgames, books, junk, health, grooming, consumables) ---
   const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 
   function escapeHtml(value) {
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /**
    * One list page: heading, everything/wanted/owned tabs, group chips and card grids.
-   * config: { title, lede, links[{label, href}], note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
+   * config: { title, lede, links[{label, href}], introHtml, note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
    */
   function renderCatalogue(root, config) {
     const VIEWS = [
@@ -125,6 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="catalogue__links">${(config.links || []).filter(link => link.href).map(link => externalLink(link.href, link.label, 'button button--quiet')).join('')}</div>
         </div>
+        ${config.introHtml || ''}
         ${config.note ? `<div class="catalogue__note"><p>${escapeHtml(config.note)}</p><p class="catalogue__links">${(config.noteLinks || []).map(link => externalLink(link.href, link.label, 'button')).join('')}</p></div>` : ''}
         ${VIEWS.length > 1 ? `<div class="tabs" role="group" aria-label="Show">${tab('all', 'Everything', VIEWS.reduce((sum, view) => sum + config[view.key].length, 0))}${VIEWS.map(view => tab(view.key, view.label, config[view.key].length)).join('')}</div>` : ''}
         ${groups.length > 1 ? `<div class="chips" role="group" aria-label="Filter">${chip('all', 'All')}${groups.map(group => chip(group.key, group.label)).join('')}</div>` : ''}
@@ -295,6 +296,42 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  function groomingCatalogue(data) {
+    const categories = [...new Set(data.items.map(item => item.category))];
+    const bullet = text => `<li>${escapeHtml(text)}</li>`;
+    return {
+      title: data.title,
+      lede: data.lede,
+      introHtml: `
+        <div class="rules">
+          <section class="rules__yes"><h2>Scents I like</h2><ul>${data.likes.map(bullet).join('')}</ul></section>
+          <section class="rules__no"><h2>Please avoid</h2><ul>${data.avoid.map(bullet).join('')}</ul></section>
+        </div>`,
+      groups: categories.map(category => ({ key: category, label: category })),
+      sectioned: true,
+      wanted: data.items.map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: [item.brand, item.detail].filter(Boolean).join(', '),
+        group: item.category
+      })),
+      owned: []
+    };
+  }
+
+  // { title, lede, groups[], items[{name, url, img, meta, group}] }
+  function plainListCatalogue(data) {
+    return {
+      title: data.title,
+      lede: data.lede,
+      groups: data.groups,
+      sectioned: true,
+      wanted: data.items.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.meta, group: item.group })),
+      owned: []
+    };
+  }
+
   const CATALOGUES = {
     lego: () => legoCatalogue(SITE_CONTENT.lego),
     zelda: () => zeldaCatalogue(SITE_CONTENT.zelda),
@@ -302,7 +339,9 @@ document.addEventListener('DOMContentLoaded', () => {
     boardgames: () => boardgamesCatalogue(SITE_CONTENT.boardgames),
     books: () => booksCatalogue(SITE_CONTENT.books),
     junk: () => junkCatalogue(SITE_CONTENT.junk),
-    health: () => healthCatalogue(SITE_CONTENT.health)
+    health: () => healthCatalogue(SITE_CONTENT.health),
+    grooming: () => groomingCatalogue(SITE_CONTENT.grooming),
+    consumables: () => plainListCatalogue(SITE_CONTENT.consumables)
   };
 
   const catalogueRoot = document.getElementById('catalogue');
@@ -687,28 +726,6 @@ document.addEventListener('DOMContentLoaded', () => {
       
           inventoryContainer.innerHTML = inventoryHTML;
         }
-    }
-  }
-
-  // --- consumables.html ---
-  if (document.getElementById('consumables-title')) {
-    const data = SITE_CONTENT.consumables;
-    if (data) {
-
-      if (data.title) document.getElementById('consumables-title').textContent = data.title;
-      const container = document.getElementById('consumables-container');
-      if (container && data.categories) {
-        container.innerHTML = Object.values(data.categories).map(cat => `
-          <section class="wishlist-section">
-            <div class="section-header">
-              <h2>${cat.label}</h2>
-            </div>
-            <div class="clean-list" style="margin-top: 12px;">
-              ${cat.items.map(item => `<li>${item}</li>`).join('')}
-            </div>
-          </section>
-        `).join('');
-      }
     }
   }
 
@@ -1138,6 +1155,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {href: 'junk.html', title: 'Junk Box'},
         {href: 'home.html', title: 'Home'},
         {href: 'health.html', title: 'Health'},
+        {href: 'grooming.html', title: 'Grooming'},
         {href: 'clothing.html', title: 'Clothing'},
         {href: 'misc.html', title: 'Stores'},
         {href: 'consumables.html', title: 'Consumables'}
