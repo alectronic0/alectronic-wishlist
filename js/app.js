@@ -1,21 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
   const headerHTML = `
-    <div class="banner wip-banner" style="background: linear-gradient(135deg, rgba(234, 179, 8, 0.14), rgba(249, 115, 22, 0.12)); border-bottom: 1px solid rgba(234, 179, 8, 0.35); padding: 14px 18px; text-align: center; color: var(--text);">
-      <div style="font-size: 1.5rem; margin-bottom: 8px;">🚧</div>
-      <h3 style="margin: 0 0 5px; font-size: 0.95rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;">🚧 Work In Progress — Under Construction 🚧</h3>
-      <p style="margin: 0 0 8px; font-size: 0.86rem; line-height: 1.45;">
-        <strong>https://gift.alec.today/</strong> is currently under active construction and catalog reorganization!<br>Explore collection hubs while items are being updated.
-      </p>
-      <div style="font-size: 0.8rem; opacity: 0.9; font-weight: 500;">Last updated on: <span class="header-date"></span></div>
-    </div>
+    <div class="site-strip">This list is still being organised. Last updated <span class="header-date"></span>.</div>
     <header class="site-nav"></header>
   `;
   const footerHTML = `
-    <footer id="footer" style="text-align: center; padding: 24px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 24px;">
-      <p>&copy; <span class="year">${new Date().getFullYear()}</span> Alec &middot; gift.alec.today &middot; All rights reserved.</p>
-      <p style="margin-top: 4px; font-size: 0.8em; opacity: 0.8;">Powered by <a href="https://alec.today/" target="_blank" rel="noopener" style="text-decoration: underline; color: inherit;">Alec Doran-Twyford (Alectronic&trade;)</a></p>
+    <footer id="footer" class="site-footer">
+      <p>&copy; <span class="year">${new Date().getFullYear()}</span> Alec, gift.alec.today. All rights reserved.</p>
+      <p>Powered by <a href="https://alec.today/" target="_blank" rel="noopener">Alec Doran-Twyford (Alectronic&trade;)</a></p>
     </footer>
   `;
+  // The deployed index.html is prerendered with this layout already baked in
+  if (document.querySelector('header.site-nav')) {
+    return;
+  }
   document.body.insertAdjacentHTML('afterbegin', headerHTML);
   document.body.insertAdjacentHTML('beforeend', footerHTML);
 });
@@ -28,280 +25,337 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.header-date').forEach(el => el.textContent = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }));
   }
 
+  // --- shared catalogue (index, lego, zelda, videogames, boardgames, books, junk, health) ---
+  const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, char => HTML_ESCAPES[char]);
+  }
+
+  // Data titles carry emoji from the old design; headings and chips are plain text now
+  function plainLabel(text) {
+    return String(text || '').replace(/\p{Extended_Pictographic}|️|‍/gu, '').replace(/\s+/g, ' ').trim();
+  }
+
+  function isPrice(text) {
+    return /^~?£/.test(text || '');
+  }
+
+  function externalLink(href, label, className) {
+    return `<a class="${className}" href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
+  }
+
+  function itemCard(item) {
+    const picture = item.img
+      ? `<img src="${escapeHtml(item.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+      : '<span class="item-card__blank">No picture yet</span>';
+    const mediaClass = `item-card__media${item.cover ? ' item-card__media--cover' : ''}${item.img ? '' : ' item-card__media--blank'}`;
+    const media = item.url
+      ? `<a class="${mediaClass}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${picture}</a>`
+      : `<div class="${mediaClass}">${picture}</div>`;
+    const title = item.url ? externalLink(item.url, item.name, 'item-card__link') : escapeHtml(item.name);
+    const footer = [
+      item.price ? `<span class="item-card__price">${escapeHtml(item.price)}</span>` : '',
+      item.status ? `<span class="tag">${escapeHtml(item.status)}</span>` : '',
+      item.owned ? '<span class="tag tag--owned">Owned</span>' : ''
+    ].join('');
+    return `
+      <article class="item-card" title="${escapeHtml(item.name)}">
+        ${media}
+        <h3 class="item-card__title">${title}</h3>
+        ${item.meta ? `<p class="item-card__meta">${escapeHtml(item.meta)}</p>` : ''}
+        <div class="item-card__footer">${footer}</div>
+        ${item.extraHtml || ''}
+      </article>`;
+  }
+
+  /**
+   * One list page: heading, everything/wanted/owned tabs, group chips and card grids.
+   * config: { title, lede, links[{label, href}], note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
+   */
+  function renderCatalogue(root, config) {
+    const VIEWS = [
+      { key: 'wanted', label: 'Wanted' },
+      { key: 'owned', label: 'Already owned' }
+    ].filter(view => config[view.key].length > 0);
+    const state = { tab: 'all', group: 'all' };
+
+    function listHtml(items, groups, headingTag) {
+      if (items.length === 0) {
+        return '<p class="catalogue__empty">Nothing here for this filter.</p>';
+      }
+      const grid = cards => `<div class="item-grid">${cards.map(itemCard).join('')}</div>`;
+      const inGroups = groups.filter(group => items.some(item => item.group === group.key));
+      if (!config.sectioned || state.group !== 'all' || inGroups.length < 2) {
+        return grid(items);
+      }
+      return inGroups.map(group => {
+        const inGroup = items.filter(item => item.group === group.key);
+        return `<section class="catalogue__group"><${headingTag}>${escapeHtml(group.label)} <span class="count">${inGroup.length}</span></${headingTag}>${grid(inGroup)}</section>`;
+      }).join('');
+    }
+
+    function draw() {
+      const shown = VIEWS.filter(view => state.tab === 'all' || state.tab === view.key);
+      const everything = shown.flatMap(view => config[view.key]);
+      const groups = (config.groups || []).filter(group => everything.some(item => item.group === group.key));
+      if (!groups.some(group => group.key === state.group)) {
+        state.group = 'all';
+      }
+      const filtered = view => config[view.key].filter(item => state.group === 'all' || item.group === state.group);
+      const tab = (key, label, count) => `<button type="button" data-tab="${key}" aria-pressed="${state.tab === key}">${label} ${count}</button>`;
+      const chip = (key, label) => `<button type="button" data-group="${escapeHtml(key)}" aria-pressed="${state.group === key}">${escapeHtml(label)}</button>`;
+      // With both lists on the page each gets its own heading; a single list needs none
+      const lists = shown.length > 1
+        ? shown.map(view => `<section class="catalogue__section"><h2>${view.label} <span class="count">${filtered(view).length}</span></h2>${listHtml(filtered(view), groups, 'h3')}</section>`).join('')
+        : shown.map(view => listHtml(filtered(view), groups, 'h2')).join('');
+
+      root.innerHTML = `
+        <div class="catalogue__head">
+          <div>
+            <h1>${escapeHtml(config.title)}</h1>
+            <p class="lede">${escapeHtml(config.lede)}</p>
+          </div>
+          <div class="catalogue__links">${(config.links || []).filter(link => link.href).map(link => externalLink(link.href, link.label, 'button button--quiet')).join('')}</div>
+        </div>
+        ${config.note ? `<div class="catalogue__note"><p>${escapeHtml(config.note)}</p><p class="catalogue__links">${(config.noteLinks || []).map(link => externalLink(link.href, link.label, 'button')).join('')}</p></div>` : ''}
+        ${VIEWS.length > 1 ? `<div class="tabs" role="group" aria-label="Show">${tab('all', 'Everything', VIEWS.reduce((sum, view) => sum + config[view.key].length, 0))}${VIEWS.map(view => tab(view.key, view.label, config[view.key].length)).join('')}</div>` : ''}
+        ${groups.length > 1 ? `<div class="chips" role="group" aria-label="Filter">${chip('all', 'All')}${groups.map(group => chip(group.key, group.label)).join('')}</div>` : ''}
+        ${lists}`;
+    }
+
+    root.addEventListener('click', event => {
+      const button = event.target.closest('button[data-tab], button[data-group]');
+      if (!button) {
+        return;
+      }
+      if (button.dataset.tab) {
+        state.tab = button.dataset.tab;
+      }
+      if (button.dataset.group) {
+        state.group = button.dataset.group;
+      }
+      draw();
+    });
+    draw();
+  }
+
+  function legoCatalogue(data) {
+    const card = (set, owned) => ({
+      name: set.name,
+      img: set.img,
+      url: set.url,
+      meta: /^\d+$/.test(String(set.id)) ? `Set ${set.id}` : '',
+      price: owned ? '' : set.price,
+      status: owned ? '' : set.status,
+      owned,
+      group: set.theme
+    });
+    return {
+      title: 'LEGO',
+      lede: 'Sets Alec would love, and the ones already built.',
+      links: (data.wishlistUrls || []).map((href, index) => ({ label: `Open list ${index + 1} on LEGO.com`, href })),
+      groups: Object.entries(data.themes).map(([key, theme]) => ({ key, label: plainLabel(theme.label) })),
+      sectioned: true,
+      wanted: data.wishlist.map(set => card(set, false)),
+      owned: data.owned.map(set => card(set, true))
+    };
+  }
+
+  function zeldaCatalogue(data) {
+    return {
+      title: 'Zelda',
+      lede: 'Collector pieces for the shelf, plus what is already on it.',
+      wanted: data.wishlist.map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        price: isPrice(item.price) ? item.price : '',
+        status: isPrice(item.price) ? '' : item.price
+      })),
+      owned: data.owned.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.type, owned: true }))
+    };
+  }
+
+  function gamesCatalogue(data) {
+    const card = (game, owned) => ({
+      name: game.name,
+      img: game.img,
+      url: game.url,
+      meta: game.badge,
+      owned,
+      group: game.platform,
+      cover: true
+    });
+    return {
+      title: 'Video games',
+      lede: 'Games on the wishlist, and the library by platform.',
+      links: [{ label: 'Open the wishlist on IGDB', href: data.wishlistUrl }],
+      note: data.note,
+      noteLinks: [...(data.noteLinks || []), ...SITE_CONTENT.index.giftMoney.map(money => ({ label: `Send money with ${money.name}`, href: money.url }))],
+      groups: Object.entries(data.platforms).map(([key, platform]) => ({ key, label: plainLabel(platform.label) })),
+      sectioned: true,
+      wanted: (data.wishlist || []).map(game => card(game, false)),
+      owned: data.owned.map(game => card(game, true))
+    };
+  }
+
+  function expansionsHtml(expansions) {
+    if (!Array.isArray(expansions) || expansions.length === 0) {
+      return '';
+    }
+    const rows = expansions.map(expansion => {
+      const url = expansion.amazonUrl || (expansion.asin ? `https://www.amazon.co.uk/dp/${expansion.asin}` : '');
+      const name = url ? externalLink(url, expansion.name, 'item-card__link') : escapeHtml(expansion.name);
+      return `<li>${name}${expansion.owned ? ' <span class="tag tag--owned">Owned</span>' : ''}</li>`;
+    }).join('');
+    return `<details class="item-card__more"><summary>Expansions (${expansions.length})</summary><ul>${rows}</ul></details>`;
+  }
+
+  function boardgamesCatalogue(data) {
+    const card = (game, owned) => ({
+      name: game.name,
+      img: game.img,
+      url: game.amazonUrl || (game.asin ? `https://www.amazon.co.uk/dp/${game.asin}` : ''),
+      meta: game.publisher || game.category || '',
+      owned,
+      extraHtml: expansionsHtml(game.expansions)
+    });
+    return {
+      title: 'Board games',
+      lede: 'Card games, co-op and party games for the table.',
+      links: [
+        { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
+        { label: 'Collection on BoardGameGeek', href: data.bggUrl }
+      ],
+      wanted: data.wishlist.map(game => card(game, false)),
+      owned: data.owned.map(game => card(game, true))
+    };
+  }
+
+  function booksCatalogue(data) {
+    const categories = [...new Set(data.normal.map(book => book.category))];
+    const card = book => ({
+      name: book.name,
+      img: book.img,
+      url: book.url || book.amazon || book.goodreads,
+      meta: book.badge && book.badge !== book.category ? book.badge : '',
+      price: book.status === 'wanted' && isPrice(book.price) ? book.price : '',
+      owned: book.status === 'owned',
+      group: book.category,
+      cover: true,
+      extraHtml: book.goodreads ? `<p class="item-card__meta">${externalLink(book.goodreads, 'On Goodreads', 'item-card__link')}</p>` : ''
+    });
+    return {
+      title: 'Books',
+      lede: 'Cookbooks, game guides and reference books. Manga series are further down.',
+      links: [
+        { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
+        { label: 'Shelves on Goodreads', href: data.goodreadsUrl }
+      ],
+      groups: categories.map(category => ({ key: category, label: category })),
+      sectioned: true,
+      wanted: data.normal.filter(book => book.status === 'wanted').map(card),
+      owned: data.normal.filter(book => book.status === 'owned').map(card)
+    };
+  }
+
+  function junkCatalogue(data) {
+    return {
+      title: plainLabel(data.title) || 'Other ideas',
+      lede: 'Loose ideas that do not belong on another list yet.',
+      groups: data.categories.map(category => ({ key: category.id, label: plainLabel(category.name) })),
+      sectioned: true,
+      wanted: data.categories.flatMap(category => category.items.map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: item.size ? `${item.theme}, size ${item.size}` : item.theme,
+        price: isPrice(item.price) ? item.price : '',
+        status: isPrice(item.price) ? '' : item.price,
+        group: category.id
+      }))),
+      owned: []
+    };
+  }
+
+  function healthCatalogue(data) {
+    return {
+      title: 'Health and gym',
+      lede: 'Health trackers and gym kit: what is wanted, and what is already in use.',
+      wanted: data.wishlist.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.status, price: item.price })),
+      owned: data.owned.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.badge, owned: true }))
+    };
+  }
+
+  const CATALOGUES = {
+    lego: () => legoCatalogue(SITE_CONTENT.lego),
+    zelda: () => zeldaCatalogue(SITE_CONTENT.zelda),
+    videogames: () => gamesCatalogue(SITE_CONTENT.videogames),
+    boardgames: () => boardgamesCatalogue(SITE_CONTENT.boardgames),
+    books: () => booksCatalogue(SITE_CONTENT.books),
+    junk: () => junkCatalogue(SITE_CONTENT.junk),
+    health: () => healthCatalogue(SITE_CONTENT.health)
+  };
+
+  const catalogueRoot = document.getElementById('catalogue');
+  if (catalogueRoot && CATALOGUES[catalogueRoot.dataset.page]) {
+    renderCatalogue(catalogueRoot, CATALOGUES[catalogueRoot.dataset.page]());
+  }
+
   // --- index.html ---
-  if (document.getElementById('hero-title')) {
-    const indexData = SITE_CONTENT.index;
-    if (indexData) {
-      
-        // Render Intro Header
-        const intro = indexData.intro;
-        if (intro) {
-          if (intro.title) document.getElementById('hero-title').textContent = intro.title;
-          if (intro.subtitle) document.getElementById('hero-subtitle').textContent = intro.subtitle;
-      
-          const sectionsContainer = document.getElementById('intro-sections-container');
-          if (sectionsContainer && intro.sections) {
-            const s = intro.sections;
-            
-            // 1. Info Box (Blue/Neutral)
-            if (s.info) {
-              const infoDiv = document.createElement('div');
-              infoDiv.style.cssText = 'background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);';
-              infoDiv.innerHTML = `<h3 style="margin:0 0 8px; font-size:0.95rem; color:#60a5fa; font-weight:700;">${s.info.title}</h3><p style="margin:0; font-size:0.86rem; line-height:1.5;">${s.info.text}</p>`;
-              sectionsContainer.appendChild(infoDiv);
-            }
-      
-            // 2. Warning Box (Amber/Orange)
-            if (s.warning) {
-              const warnDiv = document.createElement('div');
-              warnDiv.style.cssText = 'background: rgba(234, 179, 8, 0.09); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);';
-              warnDiv.innerHTML = `<h3 style="margin:0 0 8px; font-size:0.95rem; color:var(--gold); font-weight:700;">${s.warning.title}</h3><p style="margin:0; font-size:0.86rem; line-height:1.5;">${s.warning.text}</p>`;
-              sectionsContainer.appendChild(warnDiv);
-            }
-      
-            // 3. Don't Box (Red - NEVER BUY THIS)
-            if (s.dont) {
-              const dontDiv = document.createElement('div');
-              dontDiv.style.cssText = 'background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.4); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2); grid-column: 1 / -1;';
-              dontDiv.innerHTML = `
-                <h3 style="margin:0 0 10px; font-size:0.98rem; color:#f87171; font-weight:800; text-transform:uppercase; letter-spacing:0.04em;">${s.dont.title}</h3>
-                <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6; color:var(--text);">
-                  ${s.dont.items.map(item => `<li style="margin-bottom:6px;">${item}</li>`).join('')}
-                </ul>`;
-              sectionsContainer.appendChild(dontDiv);
-            }
-      
-            // 4. Good Suggestions Box (Green)
-            if (s.good) {
-              const goodDiv = document.createElement('div');
-              goodDiv.style.cssText = 'background: rgba(34, 197, 94, 0.09); border: 1px solid rgba(34, 197, 94, 0.35); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2); grid-column: 1 / -1;';
-              goodDiv.innerHTML = `
-                <h3 style="margin:0 0 10px; font-size:0.98rem; color:#4ade80; font-weight:800; text-transform:uppercase; letter-spacing:0.04em;">${s.good.title}</h3>
-                <ul style="margin:0; padding-left:18px; font-size:0.88rem; line-height:1.6; color:var(--text);">
-                  ${s.good.items.map(item => `<li style="margin-bottom:6px;">${item}</li>`).join('')}
-                </ul>`;
-              sectionsContainer.appendChild(goodDiv);
-            }
-          }
-        }
-      
-        // Render Gift Money
-        const moneyContainer = document.getElementById('gift-money-container');
-        if (moneyContainer && Array.isArray(indexData.giftMoney)) {
-          moneyContainer.innerHTML = indexData.giftMoney.map(m => `
-            <a href="${m.url}" target="_blank" class="horizontal-card" style="padding: 12px 16px; display: flex; align-items: center; gap: 10px;">
-              <img src="${m.logo}" alt="${m.name} Logo" style="width: 28px; height: 28px; border-radius: 6px;">
-              <span style="font-weight: 700; font-size: 0.95rem;">${m.name}</span>
-            </a>
-          `).join('');
-        }
-      
-        // Render Collection Hubs
-        const hubsContainer = document.getElementById('collection-hubs-container');
-        if (hubsContainer && Array.isArray(indexData.collectionHubs)) {
-          hubsContainer.innerHTML = indexData.collectionHubs.map(h => `
-            <a href="${h.href}" class="inv-shelf-card" style="text-decoration: none; color: inherit; transition: transform 0.15s;">
-              <div class="inv-card-header" style="margin-bottom: 4px;">
-                <div class="inv-title-group">
-                  <span class="inv-card-icon">${h.icon}</span>
-                  <h3 class="inv-card-title">${h.title}</h3>
-                </div>
-              </div>
-              <p class="inv-card-notes" style="margin: 0; font-size: 0.82rem;">${h.notes}</p>
-            </a>
-          `).join('');
-        }
-      
-        // Render Priority Items
-        const priorityContainer = document.getElementById('priority-items-container');
-        if (priorityContainer) {
-          if (Array.isArray(indexData.priorityItems) && indexData.priorityItems.length > 0) {
-            // Render priority cards when populated
-            priorityContainer.innerHTML = `<div class="wishlist-grid">${indexData.priorityItems.map(item => `
-              <div class="wishlist-item">
-                <div class="wishlist-item-img"><img src="${item.img}" alt="${item.name}"></div>
-                <div class="wishlist-item-content">
-                  <h4>${item.name}</h4>
-                  <p>${item.desc || ''}</p>
-                </div>
-              </div>
-            `).join('')}</div>`;
-          } else {
-            // Empty priority box state
-            priorityContainer.innerHTML = `
-              <div class="empty-priority-box">
-                <span class="empty-priority-icon">🎁</span>
-                <div class="empty-priority-title">No Active Priority Wishlist Items</div>
-                <div class="empty-priority-desc">Check back soon! Explore dedicated collection pages above for LEGO, Zelda, Books, Board Games, and Tech.</div>
-              </div>`;
-          }
-        }
-    }
-  }
+  const homeRoot = document.getElementById('home');
+  if (homeRoot && SITE_CONTENT.index) {
+    const index = SITE_CONTENT.index;
+    const sections = index.intro.sections;
+    const books = SITE_CONTENT.books;
+    const volumes = status => books.manga.reduce((sum, series) => sum + series.volumes.filter(volume => volume.status === status).length, 0);
+    const counts = {
+      'lego.html': [SITE_CONTENT.lego.wishlist.length, SITE_CONTENT.lego.owned.length],
+      'zelda.html': [SITE_CONTENT.zelda.wishlist.length, SITE_CONTENT.zelda.owned.length],
+      'videogames.html': [(SITE_CONTENT.videogames.wishlist || []).length, SITE_CONTENT.videogames.owned.length],
+      'boardgames.html': [SITE_CONTENT.boardgames.wishlist.length, SITE_CONTENT.boardgames.owned.length],
+      'books.html': [
+        books.normal.filter(book => book.status === 'wanted').length + volumes('wanted'),
+        books.normal.filter(book => book.status === 'owned').length + volumes('owned')
+      ]
+    };
+    const rule = text => {
+      const [head, ...rest] = plainLabel(text).split(' — ');
+      return `<li><strong>${escapeHtml(head)}</strong>${escapeHtml(rest.join(' — '))}</li>`;
+    };
+    const shelf = hub => {
+      const count = counts[hub.href];
+      const numbers = count
+        ? `<span class="shelf__numbers"><span class="shelf__wanted">${count[0]} wanted</span>, <span class="shelf__owned">${count[1]} owned</span></span>`
+        : '<span class="shelf__numbers"></span>';
+      return `<a class="shelf" href="${escapeHtml(hub.href)}">
+        <span class="shelf__name">${escapeHtml(plainLabel(hub.title))}</span>
+        <span class="shelf__note">${escapeHtml(hub.notes)}</span>
+        ${numbers}</a>`;
+    };
 
-  // --- boardgames.html ---
-  if (document.getElementById('boardgames-owned-section')) {
-    const data = SITE_CONTENT.boardgames;
-    if (data) {
-      
-        document.getElementById('boardgame-subtitle').textContent = 
-          `${data.owned.length} Owned Games · ${data.wishlist.length} Wishlist Games`;
-        if (data.bggUrl) {
-          document.getElementById('bgg-link').href = data.bggUrl;
-        }
-        if (data.amazonWishlistUrl) {
-          document.getElementById('amazon-wishlist-link').href = data.amazonWishlistUrl;
-        }
-      
-        function renderCard(item, isWishlist) {
-          const card = document.createElement('div');
-          card.className = 'wishlist-item';
-          card.style.cssText = 'border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;';
-      
-          // 1. Image
-          const imgHTML = `
-            <div class="wishlist-item-img">
-              <img src="${item.img}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer">
-            </div>`;
-      
-          // 2. BGG ID (clickable link to BGG profile page)
-          let bggLinkHTML = '';
-          if (item.bggId) {
-            const bggUrl = `https://boardgamegeek.com/boardgame/${item.bggId}`;
-            bggLinkHTML = `<a href="${bggUrl}" target="_blank" class="bgg-id-badge" style="font-size:0.72rem; font-weight:800; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:2px; margin-bottom:2px;">BGG #${item.bggId} ↗</a>`;
-          }
-      
-          // 3. Name
-          const titleHTML = `<div class="wishlist-item-title" style="font-size:0.85rem; font-weight:700; color:var(--text); line-height:1.2; margin-bottom:2px;">${item.name}</div>`;
-      
-          // 4. Publisher / Creator
-          const publisher = item.publisher || item.badge || item.category || 'Tabletop Game';
-          const publisherHTML = `<div style="font-size:0.72rem; color:var(--text-muted); margin-bottom:8px; font-weight:500;">${publisher}</div>`;
-      
-          // 5. Buy Online Button
-          let amazonUrl = item.amazonUrl;
-          if (!amazonUrl && item.asin) {
-            amazonUrl = `https://www.amazon.co.uk/dp/${item.asin}`;
-          }
-          if (!amazonUrl && item.url && (item.url.includes('amazon.co.uk') || item.url.includes('amazon.com') || item.url.includes('thediary.com'))) {
-            amazonUrl = item.url;
-          }
-      
-          let buyButtonHTML = '';
-          if (!isWishlist) {
-            buyButtonHTML = `<button class="inv-action-btn btn-disabled" disabled style="display:block; width:100%; text-align:center; padding:6px 10px; font-size:0.73rem; font-weight:600; opacity:0.6; cursor:not-allowed; background:var(--card); border:1px solid var(--border); color:var(--text-muted); margin-top:auto; border-radius:6px;">Own</button>`;
-          } else if (amazonUrl) {
-            buyButtonHTML = `<a href="${amazonUrl}" target="_blank" class="inv-action-btn" style="display:block; text-align:center; padding:6px 10px; font-size:0.75rem; font-weight:700; margin-top:auto; border-radius:6px; text-decoration:none;">Buy Online ↗</a>`;
-          } else {
-            buyButtonHTML = `<button class="inv-action-btn btn-disabled" disabled style="display:block; width:100%; text-align:center; padding:6px 10px; font-size:0.73rem; font-weight:600; opacity:0.5; cursor:not-allowed; background:var(--card); border:1px solid var(--border); color:var(--text-muted); margin-top:auto; border-radius:6px;">Link Currently Missing</button>`;
-          }
-      
-          // 6. Expansions & Accessories Dropdown
-          let expansionsHTML = '';
-          if (Array.isArray(item.expansions) && item.expansions.length > 0) {
-            const expItemsHTML = item.expansions.map(exp => {
-              const expAmzUrl = exp.amazonUrl || (exp.asin ? `https://www.amazon.co.uk/dp/${exp.asin}` : null);
-              const expBggUrl = exp.bggId ? `https://boardgamegeek.com/boardgameexpansion/${exp.bggId}` : null;
-      
-              let expBtn = '';
-              if (exp.owned) {
-                expBtn = `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.6; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Owned</button>`;
-              } else if (expAmzUrl) {
-                expBtn = `<a href="${expAmzUrl}" target="_blank" class="inv-action-btn" style="padding:3px 6px; font-size:0.68rem; display:inline-block; margin-top:4px; text-decoration:none;">Buy Online ↗</a>`;
-              } else {
-                expBtn = `<button disabled style="padding:3px 6px; font-size:0.68rem; opacity:0.5; cursor:not-allowed; background:none; border:1px solid var(--border); color:var(--text-muted); margin-top:4px;">Link Currently Missing</button>`;
-              }
-      
-              return `
-                <div style="background:var(--card-hover); padding:6px 8px; border-radius:6px; font-size:0.72rem; border:1px solid var(--border); margin-top:4px; display:flex; flex-direction:column; gap:2px;">
-                  <div style="font-weight:700; color:var(--text); line-height:1.2;">
-                    ${exp.owned ? '<span style="color:var(--mint); font-weight:800; margin-right:3px;">✓ </span>' : ''}${exp.name}
-                  </div>
-                  ${expBggUrl ? `<div><a href="${expBggUrl}" target="_blank" style="color:var(--accent); font-weight:800; font-size:0.68rem; text-decoration:none;">BGG #${exp.bggId} ↗</a></div>` : ''}
-                  <div style="margin-top:2px;">${expBtn}</div>
-                </div>`;
-            }).join('');
-      
-            expansionsHTML = `
-              <details class="expansions-dropdown" style="margin-top:8px; border-top:1px dashed var(--border); padding-top:6px;">
-                <summary style="font-size:0.73rem; font-weight:700; cursor:pointer; color:var(--accent); user-select:none;">Expansions & Accessories (${item.expansions.length})</summary>
-                <div style="display:flex; flex-direction:column; gap:4px; margin-top:4px;">
-                  ${expItemsHTML}
-                </div>
-              </details>`;
-          }
-      
-          card.innerHTML = `
-            ${imgHTML}
-            <div class="wishlist-item-info" style="display:flex; flex-direction:column; padding:10px; flex:1;">
-              ${bggLinkHTML}
-              ${titleHTML}
-              ${publisherHTML}
-              ${buyButtonHTML}
-              ${expansionsHTML}
-            </div>`;
-      
-          return card;
-        }
-      
-        function renderGrid(containerId, title, subtitle, items, isWishlist) {
-          const container = document.getElementById(containerId);
-          if (!container) return;
-      
-          const header = document.createElement('div');
-          header.className = 'section-header';
-          header.innerHTML = `<h2 style="font-size:1.3rem;">${title}</h2><p style="font-size:0.85rem;">${subtitle}</p>`;
-          container.appendChild(header);
-      
-          const grid = document.createElement('div');
-          grid.className = 'item-list grid-5-cols';
-          for (const item of items) {
-            grid.appendChild(renderCard(item, isWishlist));
-          }
-          container.appendChild(grid);
-        }
-      
-        renderGrid(
-          'boardgames-wanted-section',
-          `🎁 Board Game Wishlist (${data.wishlist.length})`,
-          'Games I would love to add to the table.',
-          data.wishlist,
-          true
-        );
-      
-        renderGrid(
-          'boardgames-owned-section',
-          `✅ Owned Tabletop Games (${data.owned.length})`,
-          'Games currently in my home board game collection.',
-          data.owned,
-          false
-        );
-    }
+    homeRoot.innerHTML = `
+      <h1>What to get Alec, and what he already has</h1>
+      <p class="lede">${escapeHtml(sections.warning.text)}</p>
+      <div class="rules">
+        <section class="rules__yes">
+          <h2>Good ideas right now</h2>
+          <ul>${sections.good.items.map(rule).join('')}</ul>
+          <p class="rules__money">${index.giftMoney.map(money => externalLink(money.url, `Send money with ${money.name}`, 'button')).join('')}</p>
+        </section>
+        <section class="rules__no">
+          <h2>Please don't buy</h2>
+          <ul>${sections.dont.items.map(rule).join('')}</ul>
+        </section>
+      </div>
+      <h2>Browse the lists</h2>
+      <div class="shelves">${index.collectionHubs.map(shelf).join('')}</div>`;
   }
-
-  // --- books.html ---
-  if (document.getElementById('books-section')) {
+  // --- books.html (manga series) ---
+  if (document.getElementById('manga-section')) {
     const data = SITE_CONTENT.books;
     if (data) {
-      
-        // Calculate book counts across manga volumes and normal books
-        const ownedManga = data.manga ? data.manga.reduce((sum, s) => sum + s.volumes.filter(v => v.status === 'owned').length, 0) : 0;
-        const wantedManga = data.manga ? data.manga.reduce((sum, s) => sum + s.volumes.filter(v => v.status === 'wanted').length, 0) : 0;
-        
-        const ownedNormal = data.normal ? data.normal.filter(b => b.status === 'owned').length : 0;
-        const wantedNormal = data.normal ? data.normal.filter(b => b.status === 'wanted').length : 0;
-      
-        document.getElementById('books-subtitle').textContent = 
-          `${ownedManga + ownedNormal} Owned Books · ${wantedManga + wantedNormal} Wishlist Books`;
-      
-        if (data.amazonWishlistUrl) {
-          const wishlistLink = document.getElementById('amazon-wishlist-link');
-          if (wishlistLink) {
-            wishlistLink.href = data.amazonWishlistUrl;
-            wishlistLink.style.display = 'inline-block';
-          }
-        }
-      
         // Modal Setup
         const modal = document.getElementById('book-modal');
         const modalBody = document.getElementById('modal-body-content');
@@ -423,139 +477,8 @@ document.addEventListener('DOMContentLoaded', () => {
             container.appendChild(card);
           });
         }
-      
-        // Render Normal Books Section
-        function renderNormalBooksSection() {
-          const container = document.getElementById('books-section');
-          if (!container || !data.normal) return;
-      
-          // Group books by category
-          const categories = {};
-          data.normal.forEach(book => {
-            if (!categories[book.category]) {
-              categories[book.category] = [];
-            }
-            categories[book.category].push(book);
-          });
-      
-          // Generate section HTML for each category
-          Object.entries(categories).forEach(([catName, books]) => {
-            const section = document.createElement('section');
-            section.className = 'wishlist-section';
-      
-            const header = document.createElement('div');
-            header.className = 'section-header';
-            header.innerHTML = `
-              <h2>${catName}</h2>
-              <p>Books and literature in the ${catName.toLowerCase()} category.</p>
-            `;
-            section.appendChild(header);
-      
-            const ownedBooks = books.filter(b => b.status === 'owned');
-            const wishlistBooks = books.filter(b => b.status === 'wanted');
-      
-            // Helper function to render a grid of books
-            function createBookGrid(itemsList) {
-              const grid = document.createElement('div');
-              grid.className = 'book-grid';
-      
-              itemsList.forEach(book => {
-                const card = document.createElement('div');
-                card.className = 'wishlist-item';
-      
-                // Check if there is a badge that is NOT equal to category name
-                const badgeText = (book.badge && book.badge !== book.category) ? book.badge : '';
-      
-                let coverHTML = '';
-                if (book.img && book.img !== '') {
-                  coverHTML = `<img src="${book.img}" alt="${book.name}" loading="lazy">`;
-                } else {
-                  coverHTML = `
-                    <div class="fallback-cover">
-                      <div class="fallback-cover-title">${book.name}</div>
-                      <div class="fallback-cover-author">${badgeText || 'Reference'}</div>
-                    </div>
-                  `;
-                }
-      
-                let goodreadsHTML = '';
-                if (book.goodreads) {
-                  goodreadsHTML = `<a href="${book.goodreads}" target="_blank" style="font-size:0.68rem; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:2px; margin-bottom:4px;">Goodreads ↗</a>`;
-                }
-      
-                let actionHTML = '';
-                let titleHTML = '';
-                if (book.status === 'owned') {
-                  const badgeHTML = badgeText ? `<span class="inv-item-badge" style="font-size:0.65rem; padding: 2px 6px;">${badgeText}</span>` : '';
-                  actionHTML = `
-                    <div style="display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:6px; min-height: 28px; width: 100%;">
-                      ${badgeHTML}
-                      <span style="font-size:0.72rem; color:var(--mint); font-weight:600; margin-left:auto;">✓ Owned</span>
-                    </div>
-                  `;
-                  const titleLink = book.amazon || book.url;
-                  if (titleLink) {
-                    titleHTML = `<a href="${titleLink}" target="_blank" class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); text-decoration:none; display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</a>`;
-                  } else {
-                    titleHTML = `<div class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</div>`;
-                  }
-                } else {
-                  const buyUrl = book.url || book.amazon || `https://www.amazon.co.uk/s?k=${encodeURIComponent(book.name)}`;
-                  const hasPrice = book.price && book.price !== 'Amazon Wishlist' && book.price !== 'Wishlist';
-                  const priceLabel = hasPrice ? `<span class="wishlist-item-price" style="font-size:0.8rem; font-weight:700; color:var(--gold);">${book.price}</span>` : '';
-                  
-                  actionHTML = `
-                    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto; padding-top:6px; width:100%;">
-                      ${priceLabel ? `<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:2px;">${priceLabel}</div>` : ''}
-                      <a href="${buyUrl}" target="_blank" class="inv-action-btn" style="display:block; text-align:center; padding:6px 10px; font-size:0.75rem; font-weight:700; border-radius:6px; text-decoration:none; width:100%;">Buy Online ↗</a>
-                    </div>
-                  `;
-                  titleHTML = `<a href="${buyUrl}" target="_blank" class="wishlist-item-title" style="font-size: 0.8rem; line-height: 1.25; margin-bottom: 4px; font-weight: 700; color: var(--text); text-decoration:none; display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow:hidden;">${book.name}</a>`;
-                }
-      
-                const imgBg = book.img ? 'background: #ffffff;' : 'background: transparent;';
-                card.innerHTML = `
-                  <div class="wishlist-item-img" style="${imgBg} padding: 6px; display: flex; align-items: center; justify-content: center; height: 130px;">
-                    ${coverHTML}
-                  </div>
-                  <div class="wishlist-item-info" style="display:flex; flex-direction:column; padding: 10px; flex: 1;">
-                    ${titleHTML}
-                    ${goodreadsHTML}
-                    ${actionHTML}
-                  </div>
-                `;
-      
-                grid.appendChild(card);
-              });
-      
-              return grid;
-            }
-      
-            // 1. Render Wishlist Books subsection first
-            if (wishlistBooks.length > 0) {
-              const wSub = document.createElement('h3');
-              wSub.textContent = `🎁 Wanted / Wishlist (${wishlistBooks.length})`;
-              wSub.style.cssText = 'font-size:0.9rem; color:var(--gold); margin:16px 0 8px; font-weight:700;';
-              section.appendChild(wSub);
-              section.appendChild(createBookGrid(wishlistBooks));
-            }
-      
-            // 2. Render Owned Books subsection second
-            if (ownedBooks.length > 0) {
-              const oSub = document.createElement('h3');
-              oSub.textContent = `✅ Library & Owned (${ownedBooks.length})`;
-              oSub.style.cssText = 'font-size:0.9rem; color:var(--mint); margin:24px 0 8px; font-weight:700;';
-              section.appendChild(oSub);
-              section.appendChild(createBookGrid(ownedBooks));
-            }
-      
-            container.appendChild(section);
-          });
-        }
-      
-        // Initialize
+
         renderMangaSection();
-        renderNormalBooksSection();
     }
   }
 
@@ -782,91 +705,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- health.html ---
-  if (document.getElementById('health-title')) {
-    const data = SITE_CONTENT.health;
-    if (data) {
-        const container = document.getElementById('health-content-container');
-      
-        const owned = data.owned || [];
-        const wishlist = data.wishlist || [];
-      
-        if (data.title) document.getElementById('health-title').textContent = data.title;
-        if (data.subtitle) document.getElementById('health-subtitle').textContent = data.subtitle;
-      
-        if (owned.length === 0 && wishlist.length === 0) {
-          container.innerHTML = `
-            <div style="background: var(--card); border: 1px dashed var(--border); border-radius: 12px; padding: 48px 24px; text-align: center; margin: 36px 0;">
-              <span style="font-size: 2.8rem; display: block; margin-bottom: 12px;">🩺</span>
-              <h2 style="font-size: 1.4rem; margin-bottom: 8px; color: var(--gold);">Health & Gym Gadgets</h2>
-              <p style="color: var(--text-muted); max-width: 480px; margin: 0 auto 20px; line-height: 1.5;">This section is currently empty and will be updated soon with health tracking and gym gear.</p>
-              <a href="index.html" class="inv-action-btn">← Back to Main Wishlist Hub</a>
-            </div>`;
-          return;
-        }
-      
-        function renderCard(item, isWishlist) {
-          const card = document.createElement('div');
-          card.className = 'wishlist-item';
-      
-          let infoHTML = '';
-          if (isWishlist) {
-            infoHTML = `
-              <a href="${item.url || '#'}" target="_blank" class="wishlist-item-title">${item.name}</a>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
-                <span class="wishlist-item-price">${item.price || 'Wishlist'}</span>
-                ${item.url ? `<a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>` : ''}
-              </div>
-              ${item.status ? `<div style="margin-top:6px; font-size:0.75rem; color:var(--text-muted);">${item.status}</div>` : ''}`;
-          } else {
-            infoHTML = `
-              ${item.url ? `<a href="${item.url}" target="_blank" class="wishlist-item-title">${item.name}</a>` : `<div class="wishlist-item-title">${item.name}</div>`}
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
-                <span class="inv-item-badge">${item.badge || item.category || 'Biometrics'}</span>
-                <span style="font-size: 0.76rem; color: var(--mint); font-weight: 600;">✓ Owned</span>
-              </div>`;
-          }
-      
-          card.innerHTML = `
-            ${item.img ? `<div class="wishlist-item-img"><img src="${item.img}" alt="${item.name}" loading="lazy"></div>` : ''}
-            <div class="wishlist-item-info">${infoHTML}</div>`;
-          return card;
-        }
-      
-        if (wishlist.length > 0) {
-          const wSection = document.createElement('section');
-          wSection.className = 'wishlist-section';
-          wSection.innerHTML = `
-            <div class="section-header">
-              <h2>🎁 Health & Fitness Tech Wishlist</h2>
-              <p>Precision health monitoring equipment and fitness tools.</p>
-            </div>`;
-          const wGrid = document.createElement('div');
-          wGrid.className = 'item-list';
-          wGrid.style.cssText = 'grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));';
-          wishlist.forEach(item => wGrid.appendChild(renderCard(item, true)));
-          wSection.appendChild(wGrid);
-          container.appendChild(wSection);
-        }
-      
-        if (owned.length > 0) {
-          const ownedSection = document.createElement('section');
-          ownedSection.className = 'wishlist-section';
-          ownedSection.innerHTML = `
-            <div class="section-header">
-              <h2>✅ Owned Biometrics & Gym Tech</h2>
-              <p>Biometric monitors and wearables currently in use.</p>
-            </div>`;
-          const ownedGrid = document.createElement('div');
-          ownedGrid.className = 'item-list';
-          ownedGrid.style.cssText = 'grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));';
-          owned.forEach(item => ownedGrid.appendChild(renderCard(item, false)));
-          ownedSection.appendChild(ownedGrid);
-          container.appendChild(ownedSection);
-        }
-    }
-  }
-
   // --- home.html ---
   if (document.getElementById('home-content-container')) {
     const homeData = SITE_CONTENT.home;
@@ -1022,113 +860,6 @@ document.addEventListener('DOMContentLoaded', () => {
       container.innerHTML = html;
     }
   }
-  if (document.getElementById('lego-themes-container')) {
-    const data = SITE_CONTENT.lego;
-    if (data) {
-      
-        const themes = data.themes;
-        if (data.title) document.getElementById('lego-title').textContent = data.title;
-        document.getElementById('lego-subtitle').textContent =
-          `${data.wishlist.length} Wishlist Sets · ${data.owned.length} Owned Sets`;
-        document.getElementById('lego-wishlist-link').href = data.officialWishlistUrl;
-      
-        function renderCard(item, isWishlist) {
-          const card = document.createElement('div');
-          card.className = 'wishlist-item';
-          card.style.cssText = 'border-radius: 8px; overflow: hidden; position: relative;';
-      
-          let infoHTML = '';
-          if (isWishlist) {
-            const statusBadge = item.status
-              ? `<span style="font-size:0.65rem; color:var(--gold); display:block; margin-top:2px; font-weight:600;">${item.status}</span>`
-              : '';
-            infoHTML = `
-              <span style="font-size:0.72rem; font-weight:800; color:var(--accent); display:block; letter-spacing:0.02em; margin-bottom:2px;">#${item.id}</span>
-              <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name}</a>
-              ${statusBadge}
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
-                <span class="wishlist-item-price" style="font-size:0.78rem; font-weight:700;">${item.price || 'Wishlist'}</span>
-                <a href="${item.url}" target="_blank" class="inv-action-btn" style="padding:3px 8px; font-size:0.72rem;">Gift ↗</a>
-              </div>`;
-          } else {
-            infoHTML = `
-              <span style="font-size:0.72rem; font-weight:800; color:var(--text-muted); display:block; letter-spacing:0.02em; margin-bottom:2px;">#${item.id}</span>
-              <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size:0.8rem; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">${item.name}</a>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:6px;">
-                <span style="font-size:0.72rem; color:var(--mint); font-weight:600;">✓ Owned</span>
-              </div>`;
-          }
-      
-          card.innerHTML = `
-            <div class="wishlist-item-img" style="height: 130px; background: #ffffff; padding: 6px; display: flex; align-items: center; justify-content: center;">
-              <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
-            </div>
-            <div class="wishlist-item-info" style="padding: 8px 10px;">${infoHTML}</div>`;
-          return card;
-        }
-      
-        const container = document.getElementById('lego-themes-container');
-      
-        for (const [themeKey, themeCfg] of Object.entries(themes)) {
-          const wishlistItems = data.wishlist
-            .filter(i => i.theme === themeKey)
-            .sort((a, b) => String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
-          const ownedItems = data.owned
-            .filter(i => i.theme === themeKey)
-            .sort((a, b) => String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
-      
-          if (wishlistItems.length === 0 && ownedItems.length === 0) continue;
-      
-          const section = document.createElement('section');
-          section.className = 'wishlist-section';
-      
-          // Theme Header
-          const sectionHeader = document.createElement('div');
-          sectionHeader.className = 'section-header';
-          sectionHeader.style.borderBottom = `2px solid ${themeCfg.color}`;
-          sectionHeader.style.paddingBottom = '8px';
-          sectionHeader.innerHTML = `
-            <h2 style="color:${themeCfg.color}; font-size:1.3rem;">${themeCfg.label}</h2>
-            <p style="margin:2px 0 0; font-size:0.85rem; color:var(--text-muted);">${wishlistItems.length} Wanted Sets &middot; ${ownedItems.length} Registered Owned Sets</p>
-          `;
-          section.appendChild(sectionHeader);
-      
-          // 1. Wishlist Sets first under Theme
-          if (wishlistItems.length > 0) {
-            const wSub = document.createElement('h3');
-            wSub.textContent = `🎁 Wanted / Wishlist Sets (${wishlistItems.length})`;
-            wSub.style.cssText = 'font-size:0.95rem; color:var(--gold); margin:16px 0 8px; font-weight:700;';
-            section.appendChild(wSub);
-      
-            const wGrid = document.createElement('div');
-            wGrid.className = 'item-list';
-            wGrid.style.cssText = 'grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-top: 8px;';
-            for (const item of wishlistItems) {
-              wGrid.appendChild(renderCard(item, true));
-            }
-            section.appendChild(wGrid);
-          }
-      
-          // 2. Owned Sets second under Theme
-          if (ownedItems.length > 0) {
-            const oSub = document.createElement('h3');
-            oSub.textContent = `✅ Owned Sets (${ownedItems.length})`;
-            oSub.style.cssText = 'font-size:0.95rem; color:var(--mint); margin:20px 0 8px; font-weight:700;';
-            section.appendChild(oSub);
-      
-            const oGrid = document.createElement('div');
-            oGrid.className = 'item-list';
-            oGrid.style.cssText = 'grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-top: 8px;';
-            for (const item of ownedItems) {
-              oGrid.appendChild(renderCard(item, false));
-            }
-            section.appendChild(oGrid);
-          }
-      
-          container.appendChild(section);
-        }
-    }
-  }
 
   // --- misc.html ---
   if (document.getElementById('misc-title')) {
@@ -1176,262 +907,6 @@ document.addEventListener('DOMContentLoaded', () => {
               ${items.map(item => `<li><a href="${item.url}" target="_blank">${item.name}</a></li>`).join('')}
             </div>
           `).join('');
-        }
-    }
-  }
-
-  // --- junk.html ---
-  if (document.getElementById('junk-categories-container')) {
-    const data = SITE_CONTENT.junk;
-    if (data) {
-      if (data.title && document.getElementById('junk-title')) {
-        document.getElementById('junk-title').textContent = data.title;
-      }
-      if (data.subtitle && document.getElementById('junk-subtitle')) {
-        document.getElementById('junk-subtitle').textContent = data.subtitle;
-      }
-
-      const container = document.getElementById('junk-categories-container');
-      if (container && Array.isArray(data.categories)) {
-        container.innerHTML = data.categories.map(category => `
-          <section class="wishlist-section">
-            <div class="section-header" style="border-bottom: 2px solid var(--accent); padding-bottom: 8px;">
-              <h2 style="font-size: 1.3rem;">${category.name}</h2>
-              ${category.description ? `<p style="margin: 4px 0 0; font-size: 0.85rem; color: var(--text-muted);">${category.description}</p>` : ''}
-            </div>
-
-            <div class="item-list" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 16px;">
-              ${category.items.map(item => `
-                <div class="wishlist-item" style="border-radius: 8px; overflow: hidden; position: relative; display: flex; flex-direction: column; background: var(--bg-card, #1e131b); border: 1px solid var(--border-color, rgba(255,255,255,0.1));">
-                  <div class="wishlist-item-img" style="height: 190px; background: #ffffff; padding: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-                    <img src="${item.img}" alt="${item.name}" loading="lazy" style="object-fit: contain; width: 100%; height: 100%;">
-                  </div>
-                  <div class="wishlist-item-info" style="padding: 12px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                    <div>
-                      ${item.theme ? `<span style="font-size: 0.72rem; font-weight: 800; color: var(--accent); display: block; letter-spacing: 0.02em; margin-bottom: 4px;">${item.theme}</span>` : ''}
-                      <a href="${item.url}" target="_blank" class="wishlist-item-title" style="font-size: 0.88rem; font-weight: 700; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 6px;">${item.name}</a>
-                      ${item.notes ? `<p style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.4; margin: 0 0 10px;">${item.notes}</p>` : ''}
-                    </div>
-                    <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--border-color-subtle, rgba(255,255,255,0.05));">
-                      <div style="display: flex; flex-direction: column;">
-                        <span class="wishlist-item-price" style="font-size: 0.82rem; font-weight: 700; color: var(--gold);">${item.price || 'Wishlist'}</span>
-                        ${item.size ? `<span style="font-size: 0.7rem; color: var(--text-muted);">Size: ${item.size}</span>` : ''}
-                      </div>
-                      <a href="${item.url}" target="_blank" class="inv-action-btn" style="padding: 4px 10px; font-size: 0.75rem; text-decoration: none; border-radius: 4px;">View ↗</a>
-                    </div>
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </section>
-        `).join('');
-      }
-    }
-  }
-
-  // --- videogames.html ---
-  if (document.getElementById('vg-owned-section')) {
-    const data = SITE_CONTENT.videogames;
-    if (data) {
-      
-        const platforms = data.platforms || data.consoles || {};
-        document.getElementById('vg-subtitle').textContent = `${data.owned.length} Registered Games & Titles`;
-      
-        function groupByPlatform(items) {
-          const groups = {};
-          for (const item of items) {
-            const key = item.platform || item.console || 'other';
-            if (!groups[key]) groups[key] = [];
-            groups[key].push(item);
-          }
-          return groups;
-        }
-      
-        function getPlatformEmoji(platformKey) {
-          const map = {
-            switch: '🔴',
-            pc: '💻',
-            steam: '💨',
-            battlenet: '❄️',
-            gamecube: '🟣',
-            n64: '🕹️',
-            '3ds': '🔵',
-            ds: '🔷',
-            gba: '🟢',
-            gbc: '🟨',
-            gb: '🟩',
-            snes: '🎮',
-            nes: '👾',
-            ds_3ds: '🔵',
-            gb_gbc: '🟢',
-            retro_gb: '🟢',
-            wii_wiiu: '🌊',
-            amiibo: '🗿',
-            zelda: '⚔️',
-            mario: '🍄',
-            pokemon: '🔴',
-            nintendo_flagship: '🌟',
-            rpg: '🗡️',
-            indie_masterpieces: '💎',
-            collection: '🎮'
-          };
-          return map[platformKey] || '🎮';
-        }
-      
-        function renderCard(item) {
-          const card = document.createElement('div');
-          card.className = 'wishlist-item';
-      
-          const isValidImg = item.img && !item.img.includes('unavatar.io') && item.img.startsWith('http');
-          const platformKey = item.platform || item.console;
-          const url = item.url || item.igdb_url;
-      
-          const imgHtml = isValidImg
-            ? `<div class="wishlist-item-img"><img src="${item.img}" alt="${item.name}" loading="lazy"></div>`
-            : `<div class="wishlist-item-img placeholder-card" style="background: linear-gradient(135deg, rgba(40, 20, 36, 0.9), rgba(15, 8, 14, 0.95)); border: 1px solid var(--border-strong); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 14px; text-align: center; gap: 8px;">
-                 <span style="font-size: 2.2rem; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));">${getPlatformEmoji(platformKey)}</span>
-                 <span style="font-size: 0.85rem; font-weight: 800; color: var(--gold); line-height: 1.2; text-shadow: 0 1px 3px rgba(0,0,0,0.8);">${item.name}</span>
-               </div>`;
-
-          const imgWrapped = url
-            ? `<a href="${url}" target="_blank" rel="noopener noreferrer" style="display:block; text-decoration:none;">${imgHtml}</a>`
-            : imgHtml;
-
-          const titleHtml = url
-            ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="wishlist-item-title" style="color:inherit; text-decoration:none; display:inline-flex; align-items:center; gap:4px;">
-                 <span>${item.name}</span>
-               </a>`
-            : `<div class="wishlist-item-title">${item.name}</div>`;
-      
-          card.innerHTML = `
-            ${imgWrapped}
-            <div class="wishlist-item-info">
-              ${titleHtml}
-              <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin-top:6px; flex-wrap:wrap;">
-                ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer" style="font-size:0.72rem; color:var(--accent); text-decoration:underline; font-weight:600;">IGDB ↗</a>` : ''}
-                <span style="font-size:0.76rem; color:var(--mint); font-weight:600;">✓ In Collection</span>
-              </div>
-            </div>`;
-          return card;
-        }
-      
-        function renderPlatformsSection(containerId, items) {
-          const container = document.getElementById(containerId);
-          if (!container) return;
-      
-          const groups = groupByPlatform(items);
-      
-          const header = document.createElement('div');
-          header.className = 'section-header';
-          header.innerHTML = `<h2>🎮 Video Game Collection (${items.length} Games)</h2><p>Grouped by gaming platforms (Nintendo, Steam, Battle.net).</p>`;
-          container.appendChild(header);
-      
-          const platformOrder = Object.keys(platforms);
-          for (const key of Object.keys(groups)) {
-            if (!platformOrder.includes(key)) platformOrder.push(key);
-          }
-      
-          for (const platformKey of platformOrder) {
-            const platformItems = groups[platformKey];
-            if (!platformItems || platformItems.length === 0) continue;
-      
-            const cfg = platforms[platformKey] || { label: platformKey, color: 'var(--accent)' };
-      
-            const h3 = document.createElement('h3');
-            h3.textContent = `${cfg.label} (${platformItems.length})`;
-            h3.style.cssText = `color:${cfg.color}; margin:24px 0 12px; font-size:1.1rem; border-bottom:1px solid ${cfg.color}33; padding-bottom:8px;`;
-            container.appendChild(h3);
-      
-            const grid = document.createElement('div');
-            grid.className = 'item-list';
-            for (const item of platformItems) {
-              grid.appendChild(renderCard(item));
-            }
-            container.appendChild(grid);
-          }
-        }
-      
-        renderPlatformsSection('vg-owned-section', data.owned);
-    }
-  }
-
-  // --- zelda.html ---
-  if (document.getElementById('zelda-title')) {
-    const data = SITE_CONTENT.zelda;
-    if (data) {
-        const container = document.getElementById('zelda-content-container');
-      
-        const owned = data.owned || [];
-        const wishlist = data.wishlist || [];
-      
-        if (owned.length === 0 && wishlist.length === 0) {
-          container.innerHTML = `
-            <div style="background: var(--card); border: 1px dashed var(--border); border-radius: 12px; padding: 48px 24px; text-align: center; margin: 36px 0;">
-              <span style="font-size: 2.8rem; display: block; margin-bottom: 12px;">🗡️🛡️</span>
-              <h2 style="font-size: 1.4rem; margin-bottom: 8px; color: var(--gold);">Zelda Shrine Collection</h2>
-              <p style="color: var(--text-muted); max-width: 480px; margin: 0 auto 20px; line-height: 1.5;">This collection is currently empty and will be updated soon with Alec's Zelda games, lore books, and wanted collector items.</p>
-              <a href="index.html" class="inv-action-btn">← Back to Main Wishlist Hub</a>
-            </div>`;
-          return;
-        }
-      
-        function renderCard(item, isWishlist) {
-          const card = document.createElement('div');
-          card.className = 'wishlist-item';
-          
-          let infoHTML = '';
-          if (isWishlist) {
-            infoHTML = `
-              <a href="${item.url || '#'}" target="_blank" class="wishlist-item-title">${item.name}</a>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
-                <span class="wishlist-item-price">${item.price || 'Wishlist'}</span>
-                ${item.url ? `<a href="${item.url}" target="_blank" class="inv-action-btn">Gift This ↗</a>` : ''}
-              </div>`;
-          } else {
-            infoHTML = `
-              <div class="wishlist-item-title">${item.name}</div>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
-                <span class="inv-item-badge">${item.type || 'Zelda Relic'}</span>
-                <span style="font-size: 0.76rem; color: var(--mint); font-weight: 600;">✓ Owned</span>
-              </div>`;
-          }
-      
-          card.innerHTML = `
-            ${item.img ? `<div class="wishlist-item-img"><img src="${item.img}" alt="${item.name}" loading="lazy"></div>` : ''}
-            <div class="wishlist-item-info">${infoHTML}</div>`;
-          return card;
-        }
-      
-        let html = '';
-      
-        if (owned.length > 0) {
-          const ownedSection = document.createElement('section');
-          ownedSection.className = 'wishlist-section';
-          ownedSection.innerHTML = `
-            <div class="section-header">
-              <h2>✅ Owned Zelda Relics & Games</h2>
-              <p>Physical games, music, and cookbooks in my collection.</p>
-            </div>`;
-          const ownedGrid = document.createElement('div');
-          ownedGrid.className = 'item-list';
-          owned.forEach(item => ownedGrid.appendChild(renderCard(item, false)));
-          ownedSection.appendChild(ownedGrid);
-          container.appendChild(ownedSection);
-        }
-      
-        if (wishlist.length > 0) {
-          const wSection = document.createElement('section');
-          wSection.className = 'wishlist-section';
-          wSection.innerHTML = `
-            <div class="section-header">
-              <h2>🎁 Wanted / Wishlist Items</h2>
-              <p>Zelda collector's items and wanted games.</p>
-            </div>`;
-          const wGrid = document.createElement('div');
-          wGrid.className = 'item-list';
-          wishlist.forEach(item => wGrid.appendChild(renderCard(item, true)));
-          wSection.appendChild(wGrid);
-          container.appendChild(wSection);
         }
     }
   }
@@ -1642,116 +1117,36 @@ document.addEventListener('DOMContentLoaded', () => {
   renderGrid();
 });
 /**
- * Global Navigation Script for Alec's Wishlist & Home Inventory
- * Implements the alectronic-date fold-down hamburger navigation bar.
+ * Global navigation: a row of plain links, scrollable sideways on narrow screens.
  */
 (function () {
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
 
     const navLinks = [
-        {href: 'index.html', icon: '🏠', title: 'Wishlist Hub', sub: 'Main hub & money gifts'},
-        {href: 'lego.html', icon: '🧱', title: 'LEGO® Collection', sub: 'Star Wars, Botanical & Icons'},
-        {href: 'zelda.html', icon: '⚔️', title: 'The Zelda Shrine', sub: 'Relics, games & lore'},
-        {href: 'boardgames.html', icon: '🎲', title: 'Board Games', sub: 'Quacks, Ticket to Ride, Clank!'},
-        {href: 'videogames.html', icon: '🎮', title: 'Video Games', sub: 'Switch, 3DS & Steam library'},
-        {href: 'books.html', icon: '📚', title: 'Books & Reference', sub: 'Cookbooks, manga & CS textbooks'},
-        {href: 'home.html', icon: '🏡', title: 'Home & Smart Tech', sub: 'Office, living room & bathroom'},
-        {href: 'health.html', icon: '🩺', title: 'Health & Gym', sub: 'ECG monitor & Hilo bracelet'},
-        {href: 'clothing.html', icon: '👕', title: 'Clothing & Sizes', sub: 'Style philosophy & sizing chart'},
-        {href: 'misc.html', icon: '🛒', title: 'Stores & Subscriptions', sub: 'Tech merch & subscription boxes'},
-        {
-            href: 'consumables.html',
-            icon: '📦',
-            title: 'Recurring Household Consumables',
-            sub: 'A reference list of common household items that need recurring top-ups.'
-        },
-        {
-            href: 'junk.html',
-            icon: '🗃️',
-            title: 'The Junk Box',
-            sub: 'Ideas, cool finds & unorganized wishlist items'
-        }
+        {href: 'lego.html', title: 'LEGO'},
+        {href: 'zelda.html', title: 'Zelda'},
+        {href: 'videogames.html', title: 'Video games'},
+        {href: 'boardgames.html', title: 'Board games'},
+        {href: 'books.html', title: 'Books'},
+        {href: 'junk.html', title: 'Junk Box'},
+        {href: 'home.html', title: 'Home'},
+        {href: 'health.html', title: 'Health'},
+        {href: 'clothing.html', title: 'Clothing'},
+        {href: 'misc.html', title: 'Stores'},
+        {href: 'consumables.html', title: 'Consumables'}
     ];
 
     function renderNav() {
         const siteHeader = document.querySelector('header.site-nav');
         if (!siteHeader) return;
 
-        // Render fold-down top bar layout (matching alectronic-date pattern)
         siteHeader.innerHTML = `
-      <div class="nav-bar">
-        <button class="nav-burger" id="navBurger" type="button" aria-expanded="false" aria-controls="nav-foldout" aria-label="Toggle Navigation Menu">
-          <span class="burger-lines" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span class="burger-label" id="burgerLabel">Menu</span>
-        </button>
-        <a href="index.html" class="logo"><strong>Alec's Wishlist</strong></a>
-      </div>
-
-      <div class="nav-foldout" id="navFoldout">
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
-          <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent);">Explore Sections</span>
-          <span style="font-size:0.75rem; color:var(--text-muted);">${navLinks.length} Catalog Pages</span>
-        </div>
-        <div class="nav-grid">
-          ${navLinks
-            .map((item) => {
-                const isActive =
-                    currentPath === item.href || (currentPath === '' && item.href === 'index.html')
-                        ? 'active'
-                        : '';
-                return `
-                <a href="${item.href}" class="nav-link-card ${isActive}">
-                  <span class="nav-link-icon">${item.icon}</span>
-                  <div class="nav-link-info">
-                    <span class="nav-link-title">${item.title}</span>
-                    <span class="nav-link-sub">${item.sub}</span>
-                  </div>
-                </a>
-              `;
-            })
-            .join('')}
-        </div>
-      </div>
+      <a href="index.html" class="site-name">Gift Alec</a>
+      <nav aria-label="Lists">
+        ${navLinks.map(item => `<a href="${item.href}"${currentPath === item.href ? ' aria-current="page"' : ''}>${item.title}</a>`).join('')}
+      </nav>
     `;
-
-        const navBurger = document.getElementById('navBurger');
-        const burgerLabel = document.getElementById('burgerLabel');
-
-        function toggleMenu() {
-            const isOpen = siteHeader.classList.toggle('open');
-            navBurger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-            if (burgerLabel) {
-                burgerLabel.textContent = isOpen ? 'Close' : 'Menu';
-            }
-        }
-
-        if (navBurger) {
-            navBurger.addEventListener('click', function (e) {
-                e.stopPropagation();
-                toggleMenu();
-            });
-        }
-
-        // Close menu when clicking outside header
-        document.addEventListener('click', function (e) {
-            if (siteHeader.classList.contains('open') && !siteHeader.contains(e.target)) {
-                siteHeader.classList.remove('open');
-                navBurger.setAttribute('aria-expanded', 'false');
-                if (burgerLabel) burgerLabel.textContent = 'Menu';
-            }
-        });
-
-        // Close on Escape key
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && siteHeader.classList.contains('open')) {
-                siteHeader.classList.remove('open');
-                navBurger.setAttribute('aria-expanded', 'false');
-                if (burgerLabel) burgerLabel.textContent = 'Menu';
-            }
-        });
     }
-
-
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', renderNav);

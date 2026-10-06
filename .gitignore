@@ -8,4 +8,6 @@ js/*
 !js/cookie.js
 
 .idea/
-
+node_modules/
+package-lock.json
+data/shop_session.json

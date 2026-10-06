@@ -1,0 +1,22 @@
+{
+  "name": "alectronic-wishlist",
+  "version": "1.0.0",
+  "description": "Alec's wishlist and home inventory site",
+  "scripts": {
+    "prerender": "node scripts/prerender.js",
+    "scrape:shop": "node scripts/scrape_shop.js",
+    "scrape:shop:saved": "node scripts/scrape_shop.js --saved --interactive",
+    "sync:amazon": "node scripts/sync/amazon.js",
+    "sync:igdb": "node scripts/sync/igdb.js",
+    "sync:bgg": "node scripts/sync/bgg.js",
+    "sync:lego": "node scripts/sync/lego.js",
+    "sync:nintendo": "node scripts/sync/nintendo.js",
+    "sync:goodreads": "node scripts/sync/goodreads.js",
+    "sync": "npm run sync:amazon && npm run sync:igdb && npm run sync:bgg && npm run sync:lego && npm run sync:nintendo && npm run sync:goodreads && npm run build",
+    "build": "node scripts/build_content.js",
+    "check:links": "node scripts/check_links.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}

@@ -1,0 +1,704 @@
+{
+  "scrapedAt": "2026-10-06T00:17:28.330Z",
+  "urls": [
+    "https://www.lego.com/en-gb/guest/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
+    "https://www.lego.com/en-gb/guest/wishlist/09f2ac1f-8b53-4750-a5c4-8050b0e37976"
+  ],
+  "wishlist": [
+    {
+      "id": "75367",
+      "name": "Venator-Class Republic Attack Cruiser™",
+      "price": "£559.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt06c6593d8e8d1c13/75367.png",
+      "url": "https://www.lego.com/en-gb/product/venator-class-republic-attack-cruiser-75367"
+    },
+    {
+      "id": "75192",
+      "name": "Millennium Falcon™",
+      "price": "£734.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt3349f56c6f192e18/75192_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/millennium-falcon-75192"
+    },
+    {
+      "id": "10323",
+      "name": "PAC-MAN Arcade",
+      "price": "£229.99",
+      "salePrice": "",
+      "status": "Retired Product",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt74da473b5ba874fe/10323.png",
+      "url": "https://www.lego.com/en-gb/product/pac-man-arcade-10323"
+    },
+    {
+      "id": "75382",
+      "name": "TIE Interceptor™",
+      "price": "£199.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
+      "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382"
+    },
+    {
+      "id": "75355",
+      "name": "X-Wing Starfighter™",
+      "price": "£209.99",
+      "salePrice": "",
+      "status": "Retired Product",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt3e07af4c83a87efd/75355.png",
+      "url": "https://www.lego.com/en-gb/product/x-wing-starfighter-75355"
+    },
+    {
+      "id": "75409",
+      "name": "Jango Fett's Firespray-Class Starship",
+      "price": "£259.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt616e72cc7801d6d0/75409_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/jango-fetts-firespray-class-starship-75409"
+    },
+    {
+      "id": "75406",
+      "name": "Kylo Ren's Command Shuttle",
+      "price": "£59.99",
+      "salePrice": "",
+      "status": "Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt65ff8f8d2cbde1e0/75406_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/kylo-rens-command-shuttle-75406"
+    },
+    {
+      "id": "75356",
+      "name": "Executor Super Star Destroyer™",
+      "price": "£59.99",
+      "salePrice": "",
+      "status": "Out of stock / Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltc58d0af39ec2fc40/75356.png",
+      "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75356"
+    },
+    {
+      "id": "75404",
+      "name": "Acclamator-Class Assault Ship™",
+      "price": "£44.99",
+      "salePrice": "",
+      "status": "Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt0a600ef56c840250/75404_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/acclamator-class-assault-ship-75404"
+    },
+    {
+      "id": "10356",
+      "name": "Star Trek: U.S.S. Enterprise NCC-1701-D™",
+      "price": "£349.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356"
+    },
+    {
+      "id": "72153",
+      "name": "Venusaur, Charizard and Blastoise",
+      "price": "£579.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt03c6f9be28fbf6ad/72153_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/venusaur-charizard-and-blastoise-72153"
+    },
+    {
+      "id": "72152",
+      "name": "Pikachu and Poké Ball",
+      "price": "£179.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/pikachu-and-poke-ball-72152"
+    },
+    {
+      "id": "72051",
+      "name": "Donkey Kong™ Arcade",
+      "price": "£149.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt40ba11f38226fc58/72051_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/donkey-kong-arcade-72051"
+    },
+    {
+      "id": "11512",
+      "name": "Hanging Golden Pothos",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt621a9fb4f7d5deba/bltc8cac287dd2bee85-11512_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/hanging-golden-pothos-11512"
+    },
+    {
+      "id": "11382",
+      "name": "Hubble Space Telescope",
+      "price": "£119.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltda4e9e67b861a4bc/blt3b2030f0dc24971b-11382_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/hubble-space-telescope-11382"
+    },
+    {
+      "id": "11513",
+      "name": "Dark Flower Arrangement",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt32c02114972bc8d0/blt154e6c0d4002bf4f-11513_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/dark-flower-arrangement-11513"
+    },
+    {
+      "id": "5010262",
+      "name": "Nike x LEGO® Collection Soccer Ball",
+      "price": "£32.99",
+      "salePrice": "",
+      "status": "Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltd6ca764dfa653355/IM2524-739_472383822_D_A_4X5.PNG",
+      "url": "https://www.lego.com/en-gb/product/nike-x-lego-collection-soccer-ball-5010262"
+    },
+    {
+      "id": "75375",
+      "name": "Millennium Falcon™",
+      "price": "£74.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png",
+      "url": "https://www.lego.com/en-gb/product/millennium-falcon-75375"
+    },
+    {
+      "id": "75417",
+      "name": "AT-ST™ Walker",
+      "price": "£179.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/at-st-walker-75417"
+    },
+    {
+      "id": "5008878",
+      "name": "The Force of Creativity Book",
+      "price": "£129.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt246301497bdc1f43/5008878.png",
+      "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-book-5008878"
+    },
+    {
+      "id": "75377",
+      "name": "Invisible Hand™",
+      "price": "£46.99",
+      "salePrice": "",
+      "status": "Retired Product",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt84584f9c968dadd1/75377.png",
+      "url": "https://www.lego.com/en-gb/product/invisible-hand-75377"
+    },
+    {
+      "id": "75405",
+      "name": "Home One Starcruiser",
+      "price": "£59.99",
+      "salePrice": "£41.99",
+      "status": "Retired Product",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltb9adb5031a829a6d/75405_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405"
+    },
+    {
+      "id": "75376",
+      "name": "Tantive IV™",
+      "price": "£69.99",
+      "salePrice": "",
+      "status": "Retired Product",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blte06a85b596f9a078/75376.png",
+      "url": "https://www.lego.com/en-gb/product/tantive-iv-75376"
+    },
+    {
+      "id": "75440",
+      "name": "AT-AT™",
+      "price": "£59.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt26f813f1a1f499c6/75440_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/at-at-75440"
+    },
+    {
+      "id": "75441",
+      "name": "Venator-Class Attack Cruiser™",
+      "price": "£69.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/venator-class-attack-cruiser-75441"
+    },
+    {
+      "id": "75452",
+      "name": "BB-8™ Astromech Droid",
+      "price": "£79.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/bb-8-astromech-droid-75452"
+    },
+    {
+      "id": "75379",
+      "name": "R2-D2™",
+      "price": "£89.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png",
+      "url": "https://www.lego.com/en-gb/product/r2-d2-75379"
+    },
+    {
+      "id": "5009141",
+      "name": "The Force of Creativity – Standard Edition",
+      "price": "£59.99",
+      "salePrice": "£35.99",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt0b4d1a25b7038d9d/5009141_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-standard-edition-5009141"
+    },
+    {
+      "id": "11389",
+      "name": "Project Hail Mary",
+      "price": "£99.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/project-hail-mary-11389"
+    },
+    {
+      "id": "72154",
+      "name": "Iconic Trainer Moments Poké Ball",
+      "price": "£229.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt59f10fadf173c1ba/blt3435be8c14df0276-72154_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/iconic-trainer-moments-poke-ball-72154"
+    },
+    {
+      "id": "72306",
+      "name": "PlayStation™",
+      "price": "£139.99",
+      "salePrice": "",
+      "status": "Back order",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt59f8e9c961cb7e14/72306_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/playstation-72306"
+    },
+    {
+      "id": "40862",
+      "name": "Holiday Ornament Selection 2",
+      "price": "£10.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltf53a6463dbfd2356/bltf53a6463dbfd2356",
+      "url": "https://www.lego.com/en-gb/product/holiday-ornament-selection-2-40862"
+    },
+    {
+      "id": "40874",
+      "name": "Santa's Holiday Countdown",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "Back order",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltae642d0bcbe15f54/blt6caf97af32ad6473-40874_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/santas-holiday-countdown-40874"
+    },
+    {
+      "id": "40872",
+      "name": "Halloween Pumpkin Lantern",
+      "price": "£24.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt8a5b33fbe2efbe39/blt11ecdc92ea69a278-40872_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/halloween-pumpkin-lantern-40872"
+    },
+    {
+      "id": "40516",
+      "name": "Everyone Is Awesome",
+      "price": "£30.99",
+      "salePrice": "",
+      "status": "Back order",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltced1e10e43211f84/40516_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/everyone-is-awesome-40516"
+    },
+    {
+      "id": "75457",
+      "name": "Executor Super Star Destroyer™",
+      "price": "£649.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blta4cee150c80403bd/blta6d4a31cdd14d65d-75457_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75457"
+    },
+    {
+      "id": "5009960",
+      "name": "Adults Christmas Sweatshirt - Dark Blue",
+      "price": "£42.99",
+      "salePrice": "",
+      "status": "Out of stock / Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltc687e0675e2aaa49/5009960_Prod.jpg",
+      "url": "https://www.lego.com/en-gb/product/adults-christmas-sweatshirt-dark-blue-5009960"
+    },
+    {
+      "id": "75442",
+      "name": "The Mandalorian's N-1 Starfighter™",
+      "price": "£229.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt99c6a9bf2e0c2d9a/blt2f8fb720e38f6e09-75442_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/the-mandalorians-n-1-starfighter-75442"
+    },
+    {
+      "id": "10309",
+      "name": "Succulents",
+      "price": "£44.99",
+      "salePrice": "",
+      "status": "Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png",
+      "url": "https://www.lego.com/en-gb/product/succulents-10309"
+    },
+    {
+      "id": "10371",
+      "name": "Cozy Plants",
+      "price": "£17.99",
+      "salePrice": "",
+      "status": "Coming Soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt253c1cfce17d3a48/10371_Prod.png",
+      "url": "https://www.lego.com/en-gb/product/cozy-plants-10371"
+    },
+    {
+      "id": "40958",
+      "name": "Christmas Stocking",
+      "price": "£29.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt4cc32e184a314402/blt3904de066105e8e7-40958_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/christmas-stocking-40958"
+    },
+    {
+      "id": "21345",
+      "name": "Polaroid OneStep SX-70 Camera",
+      "price": "£69.99",
+      "salePrice": "",
+      "status": "Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltb0d4865e1765d9bc/21345.png",
+      "url": "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
+    },
+    {
+      "id": "5005352",
+      "name": "LEGO CINCH BUCKET- BLUE",
+      "price": "£17.99",
+      "salePrice": "",
+      "status": "Out of stock / Retiring soon",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt6f4646b75e492bbb/5005352.jpg",
+      "url": "https://www.lego.com/en-gb/product/lego-cinch-bucket-blue-5005352"
+    },
+    {
+      "id": "5005886",
+      "name": "LEGO® Pumpkin Storage Head - Large",
+      "price": "£29.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png",
+      "url": "https://www.lego.com/en-gb/product/lego-pumpkin-storage-head-large-5005886"
+    },
+    {
+      "id": "11501",
+      "name": "Tulip Bouquet",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt230df6ac4329bc62/11501_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/tulip-bouquet-11501"
+    },
+    {
+      "id": "10329",
+      "name": "Tiny Plants",
+      "price": "£44.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltb2f845ffd52a25b0/10329.png",
+      "url": "https://www.lego.com/en-gb/product/tiny-plants-10329"
+    },
+    {
+      "id": "10373",
+      "name": "Mini Bonsai Trees",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt2c4d86926d510d45/10373_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/mini-bonsai-trees-10373"
+    },
+    {
+      "id": "40725",
+      "name": "Cherry Blossoms",
+      "price": "£12.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltf876ca701fbacd4a/40725.png",
+      "url": "https://www.lego.com/en-gb/product/cherry-blossoms-40725"
+    },
+    {
+      "id": "10328",
+      "name": "Bouquet of Roses",
+      "price": "£54.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/blt08f4d88d801a4cf8/10328.png",
+      "url": "https://www.lego.com/en-gb/product/bouquet-of-roses-10328"
+    },
+    {
+      "id": "40812",
+      "name": "Snowman Ornaments",
+      "price": "£10.99",
+      "salePrice": "",
+      "status": "",
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltbf73c0b586db9e8c/40812_Prod_en-gb.png",
+      "url": "https://www.lego.com/en-gb/product/snowman-ornaments-40812"
+    }
+  ],
+  "collection": [
+    {
+      "id": "72154",
+      "name": "Iconic Trainer Moments Poké Ball",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt05f606c7a5137461/1/bltb9806cd998b56321-72154_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "77092",
+      "name": "Great Deku Tree 2-in-1",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt2bc4f36976c58368/1/77092_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "77093",
+      "name": "Ocarina of Time™ – The Final Battle",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt1b430d197c414b98/1/blt1e80cd4077ab13ba-77093_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "75440",
+      "name": "AT-AT™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7b496139ea53ccc9/1/75440_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "75441",
+      "name": "Venator-Class Attack Cruiser™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltfd5b5bf2c0878301/1/75441_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "40911",
+      "name": "Mini Pokémon Centre",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blted367a95972d3e26/1/40911_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "11506",
+      "name": "Rocking Plants",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt68572f55b008ebaa/1/11506_Box1_v29.png",
+      "added": "5 October 2026"
+    },
+    {
+      "id": "10349",
+      "name": "Happy Plants",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt412bdab3d4d5bea6/1/10349_Box1_v29.png",
+      "added": "14 February 2026"
+    },
+    {
+      "id": "10340",
+      "name": "Wreath",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte24682dee60b4177/1/10340_Box1_v29.png",
+      "added": "14 December 2025"
+    },
+    {
+      "id": "72046",
+      "name": "Game Boy™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt93294b7b1307f20d/1/72046_Box1_v29.png",
+      "added": "2 October 2025"
+    },
+    {
+      "id": "75244",
+      "name": "Tantive IV™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt6e6b847a2394f3bd/1/LEGO_75244_Box1_v29_1488.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "75309",
+      "name": "Republic Gunship™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte83fb44f6c9d3a87/1/75309_box1_v29.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "71374",
+      "name": "Nintendo Entertainment System™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltf50620b09713cf61/1/LEGO_71374_Box1_v29_1488.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "75306",
+      "name": "Imperial Probe Droid™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7c756014857ce43f/1/LEGO_75306_Box1_v29_1488.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "10281",
+      "name": "Bonsai Tree",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt5954abe42967ccf2/1/LEGO_10281_Box1_v29_1488.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "75275",
+      "name": "A-wing Starfighter™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte368d0acd8e1dc41/1/LEGO_75275_Box1_v29_1488.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "10343",
+      "name": "Mini Orchid",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blte729a38fd79cf6e6/1/10343_Box1_v29.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "71426",
+      "name": "Piranha Plant",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltbbaf7e57f54b6957/1/71426_Box1_v29.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "10344",
+      "name": "Lucky Bamboo",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/bltb210b34a7ca83fd9/1/10344_Box1_v29.png",
+      "added": "1 October 2025"
+    },
+    {
+      "id": "10311",
+      "name": "Orchid",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt54ad4e80e08bb67c/1/10311_Box1_v29.png",
+      "added": "28 July 2024"
+    },
+    {
+      "id": "75252",
+      "name": "Imperial Star Destroyer™",
+      "img": "https://www.lego.com/cdn/cs/catalog/assets/blt22f6b53ba9fd13e3/1/75252_box1_v29_(1).png",
+      "added": "25 April 2020"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": "10421",
+          "name": "Alphabet Truck",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt5b3bf48f37ebfc73/10421_alt1.png",
+          "url": "https://www.lego.com/en-gb/product/alphabet-truck-10421"
+        },
+        {
+          "id": "10954",
+          "name": "Number Train - Learn To Count",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt4cd999af64e1f8c8/10954.png",
+          "url": "https://www.lego.com/en-gb/product/number-train-learn-to-count-10954"
+        },
+        {
+          "id": "40911",
+          "name": "Mini Pokémon Center",
+          "img": "https://www.lego.com/cdn/cs/set/assets/bltc5517776c8e6d24f/40911_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/mini-pokemon-center-40911"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "72154",
+          "name": "Iconic Trainer Moments Poké Ball",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt59f10fadf173c1ba/blt3435be8c14df0276-72154_Prod_en-gb.png",
+          "url": "https://www.lego.com/en-gb/product/iconic-trainer-moments-poke-ball-72154"
+        },
+        {
+          "id": "30729",
+          "name": "Premier Ball",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blte73338ab8203486d/blt69bbba09c488dd56-30729_Prod_en-gb.png",
+          "url": "https://www.lego.com/en-gb/product/premier-ball-30729"
+        },
+        {
+          "id": "40908",
+          "name": "Restaurants of the World: Greece",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt41b7a9ef16623deb/40908_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/restaurants-of-the-world-greece-40908"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "5010313",
+          "name": "Masterbrand Creativity Clog",
+          "img": "https://www.lego.com/cdn/cs/set/assets/bltf871dc2d576514a9/213655_90H_ALT110.png",
+          "url": "https://www.lego.com/en-gb/product/masterbrand-creativity-clog-5010313"
+        },
+        {
+          "id": "40890",
+          "name": "Easter Decorations",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt1e60cc91d01e0ca1/bltcd50bd38ccbc5142-40890_Prod_en-gb.png",
+          "url": "https://www.lego.com/en-gb/product/easter-decorations-40890"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "77093",
+          "name": "Ocarina of Time™ – The Final Battle",
+          "img": "https://www.lego.com/cdn/cs/set/assets/bltd7895bf495988a25/77093_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/ocarina-of-time-the-final-battle-77093"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "72046",
+          "name": "Game Boy™",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt96a11f71928f8103/72046_Prod_en-gb.png",
+          "url": "https://www.lego.com/en-gb/product/game-boy-72046"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "10340",
+          "name": "Wreath",
+          "img": "https://www.lego.com/cdn/cs/set/assets/bltf6729e5606d1909f/10340_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/wreath-10340"
+        },
+        {
+          "id": "40689",
+          "name": "Firework Celebration",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt5e367866dd0a60c7/40689_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/firework-celebration-40689"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "10340",
+          "name": "Wreath",
+          "img": "https://www.lego.com/cdn/cs/set/assets/bltf6729e5606d1909f/10340_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/wreath-10340"
+        },
+        {
+          "id": "40689",
+          "name": "Firework Celebration",
+          "img": "https://www.lego.com/cdn/cs/set/assets/blt5e367866dd0a60c7/40689_Prod.png",
+          "url": "https://www.lego.com/en-gb/product/firework-celebration-40689"
+        }
+      ]
+    },
+    {
+      "items": []
+    }
+  ]
+}

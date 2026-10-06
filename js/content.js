@@ -1,7 +1,7 @@
 window.SITE_CONTENT = {
   "meta": {
     "title": "Gift Alec Today \ud83c\udf81",
-    "updatedAt": "2026-08-01",
+    "updatedAt": "2026-10-05",
     "owner": "Alec Doran-Twyford (Alectronic)"
   },
   "index": {
@@ -54,7 +54,7 @@ window.SITE_CONTENT = {
         "href": "lego.html",
         "icon": "\ud83e\uddf1",
         "title": "LEGO\u00ae Collection",
-        "badge": "14 Sets",
+        "badge": "22 Sets",
         "notes": "Botanic plants, Star Wars UCS, NES console & Great Deku Tree wishlist."
       },
       {
@@ -132,7 +132,6 @@ window.SITE_CONTENT = {
   },
   "lego": {
     "title": "LEGO\u00ae Collection & Wishlist \ud83e\uddf1",
-    "officialWishlistUrl": "https://www.lego.com/en-gb/member/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
     "themes": {
       "starwars": {
         "label": "\u2b50 Star Wars",
@@ -149,6 +148,10 @@ window.SITE_CONTENT = {
       "icons": {
         "label": "\ud83d\udef8 Icons & Sci-Fi",
         "color": "#a78bfa"
+      },
+      "seasonal": {
+        "label": "Seasonal",
+        "color": "var(--mint)"
       },
       "adjacent": {
         "label": "\ud83e\udde9 LEGO\u00ae Adjacent & Merch",
@@ -274,99 +277,109 @@ window.SITE_CONTENT = {
         "img": "https://www.lego.com/cdn/cs/set/assets/blt6a8cb14aa4efef08/77092.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
         "url": "https://www.lego.com/en-gb/product/great-deku-tree-2-in-1-77092",
         "theme": "videogames"
+      },
+      {
+        "id": "40911",
+        "name": "Mini Pok\u00e9mon Center",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltc5517776c8e6d24f/40911_Prod.png",
+        "theme": "videogames",
+        "url": "https://www.lego.com/en-gb/product/mini-pokemon-center-40911"
+      },
+      {
+        "id": "72154",
+        "name": "Iconic Trainer Moments Pok\u00e9 Ball",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt59f10fadf173c1ba/blt3435be8c14df0276-72154_Prod_en-gb.png",
+        "theme": "videogames",
+        "url": "https://www.lego.com/en-gb/product/iconic-trainer-moments-poke-ball-72154"
+      },
+      {
+        "id": "30729",
+        "name": "Premier Ball",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blte73338ab8203486d/blt69bbba09c488dd56-30729_Prod_en-gb.png",
+        "theme": "videogames",
+        "url": "https://www.lego.com/en-gb/product/premier-ball-30729"
+      },
+      {
+        "id": "75440",
+        "name": "AT-AT\u2122",
+        "img": "https://www.lego.com/cdn/cs/catalog/assets/blt7b496139ea53ccc9/1/75440_Box1_v29.png",
+        "theme": "starwars",
+        "url": "https://www.lego.com/en-gb/product/at-at-75440"
+      },
+      {
+        "id": "75441",
+        "name": "Venator-Class Attack Cruiser\u2122",
+        "img": "https://www.lego.com/cdn/cs/catalog/assets/bltfd5b5bf2c0878301/1/75441_Box1_v29.png",
+        "theme": "starwars",
+        "url": "https://www.lego.com/en-gb/product/venator-class-attack-cruiser-75441"
       }
     ],
     "wishlist": [
       {
-        "id": "5009141",
-        "name": "The Force of Creativity \u2013 Standard Edition",
-        "price": "\u00a335.99",
-        "status": "40% Off Sale",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt0b4d1a25b7038d9d/5009141_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-standard-edition-5009141",
-        "theme": "adjacent"
-      },
-      {
-        "id": "75355",
-        "name": "X-Wing Starfighter\u2122",
-        "price": "\u00a3209.99",
-        "status": "Retired Product",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt3e07af4c83a87efd/75355.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/x-wing-starfighter-75355",
-        "theme": "starwars"
-      },
-      {
-        "id": "10323",
-        "name": "PAC-MAN Arcade",
-        "price": "\u00a3229.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt74da473b5ba874fe/10323.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/pac-man-arcade-10323",
-        "theme": "videogames"
-      },
-      {
-        "id": "lego-zelda-link-epona",
-        "name": "The Legend of Zelda: Ocarina of Time – Link & Epona (1,750 Pieces)",
-        "price": "Spring 2027 (Announced)",
-        "status": "Announced",
-        "img": "https://images.unsplash.com/photo-1563089145-599997674d42?w=500&auto=format&fit=crop&q=60",
-        "url": "https://zelda40th.nintendo.com",
-        "theme": "videogames"
-      },
-      {
         "id": "75367",
         "name": "Venator-Class Republic Attack Cruiser\u2122",
         "price": "\u00a3559.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt06c6593d8e8d1c13/75367.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt06c6593d8e8d1c13/75367.png",
         "url": "https://www.lego.com/en-gb/product/venator-class-republic-attack-cruiser-75367",
-        "theme": "starwars"
-      },
-      {
-        "id": "75382",
-        "name": "TIE Interceptor\u2122",
-        "price": "\u00a3199.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382",
         "theme": "starwars"
       },
       {
         "id": "75192",
         "name": "Millennium Falcon\u2122",
         "price": "\u00a3734.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt3349f56c6f192e18/75192_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt3349f56c6f192e18/75192_Prod.png",
         "url": "https://www.lego.com/en-gb/product/millennium-falcon-75192",
+        "theme": "starwars"
+      },
+      {
+        "id": "10323",
+        "name": "PAC-MAN Arcade",
+        "price": "\u00a3229.99",
+        "status": "Retired Product",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt74da473b5ba874fe/10323.png",
+        "url": "https://www.lego.com/en-gb/product/pac-man-arcade-10323",
+        "theme": "videogames"
+      },
+      {
+        "id": "75382",
+        "name": "TIE Interceptor\u2122",
+        "price": "\u00a3199.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
+        "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382",
+        "theme": "starwars"
+      },
+      {
+        "id": "75355",
+        "name": "X-Wing Starfighter\u2122",
+        "price": "\u00a3209.99",
+        "status": "Retired Product",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt3e07af4c83a87efd/75355.png",
+        "url": "https://www.lego.com/en-gb/product/x-wing-starfighter-75355",
         "theme": "starwars"
       },
       {
         "id": "75409",
         "name": "Jango Fett's Firespray-Class Starship",
         "price": "\u00a3259.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt616e72cc7801d6d0/75409_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt616e72cc7801d6d0/75409_Prod.png",
         "url": "https://www.lego.com/en-gb/product/jango-fetts-firespray-class-starship-75409",
         "theme": "starwars"
       },
       {
-        "id": "5008878",
-        "name": "The Force of Creativity Book",
-        "price": "\u00a3129.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt246301497bdc1f43/5008878.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-book-5008878",
-        "theme": "adjacent"
-      },
-      {
-        "id": "75405",
-        "name": "Home One Starcruiser",
+        "id": "75406",
+        "name": "Kylo Ren's Command Shuttle",
         "price": "\u00a359.99",
-        "status": "Retiring Soon",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltb9adb5031a829a6d/75405_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405",
+        "status": "Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt65ff8f8d2cbde1e0/75406_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/kylo-rens-command-shuttle-75406",
         "theme": "starwars"
       },
       {
         "id": "75356",
         "name": "Executor Super Star Destroyer\u2122",
         "price": "\u00a359.99",
-        "status": "Out of Stock / Retiring",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltc58d0af39ec2fc40/75356.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "status": "Out of stock / Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltc58d0af39ec2fc40/75356.png",
         "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75356",
         "theme": "starwars"
       },
@@ -374,8 +387,8 @@ window.SITE_CONTENT = {
         "id": "75404",
         "name": "Acclamator-Class Assault Ship\u2122",
         "price": "\u00a344.99",
-        "status": "Retiring Soon",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt0a600ef56c840250/75404_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "status": "Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt0a600ef56c840250/75404_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/acclamator-class-assault-ship-75404",
         "theme": "starwars"
       },
@@ -383,7 +396,7 @@ window.SITE_CONTENT = {
         "id": "10356",
         "name": "Star Trek: U.S.S. Enterprise NCC-1701-D\u2122",
         "price": "\u00a3349.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356",
         "theme": "icons"
       },
@@ -391,7 +404,7 @@ window.SITE_CONTENT = {
         "id": "72153",
         "name": "Venusaur, Charizard and Blastoise",
         "price": "\u00a3579.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt03c6f9be28fbf6ad/72153_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt03c6f9be28fbf6ad/72153_Prod.png",
         "url": "https://www.lego.com/en-gb/product/venusaur-charizard-and-blastoise-72153",
         "theme": "videogames"
       },
@@ -399,15 +412,56 @@ window.SITE_CONTENT = {
         "id": "72152",
         "name": "Pikachu and Pok\u00e9 Ball",
         "price": "\u00a3179.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/pikachu-and-poke-ball-72152",
         "theme": "videogames"
       },
       {
+        "id": "72051",
+        "name": "Donkey Kong\u2122 Arcade",
+        "price": "\u00a3149.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt40ba11f38226fc58/72051_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/donkey-kong-arcade-72051",
+        "theme": "videogames"
+      },
+      {
+        "id": "11512",
+        "name": "Hanging Golden Pothos",
+        "price": "\u00a354.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt621a9fb4f7d5deba/bltc8cac287dd2bee85-11512_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/hanging-golden-pothos-11512",
+        "theme": "botanical"
+      },
+      {
+        "id": "11382",
+        "name": "Hubble Space Telescope",
+        "price": "\u00a3119.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltda4e9e67b861a4bc/blt3b2030f0dc24971b-11382_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/hubble-space-telescope-11382",
+        "theme": "icons"
+      },
+      {
+        "id": "11513",
+        "name": "Dark Flower Arrangement",
+        "price": "\u00a354.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt32c02114972bc8d0/blt154e6c0d4002bf4f-11513_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/dark-flower-arrangement-11513",
+        "theme": "botanical"
+      },
+      {
+        "id": "5010262",
+        "name": "Nike x LEGO\u00ae Collection Soccer Ball",
+        "price": "\u00a332.99",
+        "status": "Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltd6ca764dfa653355/IM2524-739_472383822_D_A_4X5.PNG",
+        "url": "https://www.lego.com/en-gb/product/nike-x-lego-collection-soccer-ball-5010262",
+        "theme": "adjacent"
+      },
+      {
         "id": "75375",
-        "name": "Millennium Falcon\u2122 (Starship Collection)",
+        "name": "Millennium Falcon\u2122",
         "price": "\u00a374.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png",
         "url": "https://www.lego.com/en-gb/product/millennium-falcon-75375",
         "theme": "starwars"
       },
@@ -415,57 +469,50 @@ window.SITE_CONTENT = {
         "id": "75417",
         "name": "AT-ST\u2122 Walker",
         "price": "\u00a3179.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/at-st-walker-75417",
         "theme": "starwars"
+      },
+      {
+        "id": "5008878",
+        "name": "The Force of Creativity Book",
+        "price": "\u00a3129.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt246301497bdc1f43/5008878.png",
+        "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-book-5008878",
+        "theme": "adjacent"
       },
       {
         "id": "75377",
         "name": "Invisible Hand\u2122",
         "price": "\u00a346.99",
         "status": "Retired Product",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt84584f9c968dadd1/75377.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt84584f9c968dadd1/75377.png",
         "url": "https://www.lego.com/en-gb/product/invisible-hand-75377",
         "theme": "starwars"
       },
       {
-        "id": "75406",
-        "name": "Kylo Ren's Command Shuttle",
-        "price": "\u00a359.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt65ff8f8d2cbde1e0/75406_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/kylo-rens-command-shuttle-75406",
+        "id": "75405",
+        "name": "Home One Starcruiser",
+        "price": "\u00a341.99",
+        "status": "Retired Product",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltb9adb5031a829a6d/75405_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405",
         "theme": "starwars"
       },
       {
         "id": "75376",
-        "name": "Tantive IV\u2122 (Starship Collection)",
+        "name": "Tantive IV\u2122",
         "price": "\u00a369.99",
         "status": "Retired Product",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blte06a85b596f9a078/75376.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blte06a85b596f9a078/75376.png",
         "url": "https://www.lego.com/en-gb/product/tantive-iv-75376",
-        "theme": "starwars"
-      },
-      {
-        "id": "75440",
-        "name": "AT-AT\u2122",
-        "price": "\u00a359.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt26f813f1a1f499c6/75440_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/at-at-75440",
-        "theme": "starwars"
-      },
-      {
-        "id": "75441",
-        "name": "Venator-Class Attack Cruiser\u2122",
-        "price": "\u00a369.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
-        "url": "https://www.lego.com/en-gb/product/venator-class-attack-cruiser-75441",
         "theme": "starwars"
       },
       {
         "id": "75452",
         "name": "BB-8\u2122 Astromech Droid",
         "price": "\u00a379.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/bb-8-astromech-droid-75452",
         "theme": "starwars"
       },
@@ -473,86 +520,262 @@ window.SITE_CONTENT = {
         "id": "75379",
         "name": "R2-D2\u2122",
         "price": "\u00a389.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png",
         "url": "https://www.lego.com/en-gb/product/r2-d2-75379",
         "theme": "starwars"
+      },
+      {
+        "id": "5009141",
+        "name": "The Force of Creativity \u2013 Standard Edition",
+        "price": "\u00a335.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt0b4d1a25b7038d9d/5009141_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/the-force-of-creativity-standard-edition-5009141",
+        "theme": "adjacent"
       },
       {
         "id": "11389",
         "name": "Project Hail Mary",
         "price": "\u00a399.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png",
         "url": "https://www.lego.com/en-gb/product/project-hail-mary-11389",
         "theme": "icons"
       },
       {
+        "id": "72306",
+        "name": "PlayStation\u2122",
+        "price": "\u00a3139.99",
+        "status": "Back order",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt59f8e9c961cb7e14/72306_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/playstation-72306",
+        "theme": "videogames"
+      },
+      {
+        "id": "40862",
+        "name": "Holiday Ornament Selection 2",
+        "price": "\u00a310.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltf53a6463dbfd2356/bltf53a6463dbfd2356",
+        "url": "https://www.lego.com/en-gb/product/holiday-ornament-selection-2-40862",
+        "theme": "seasonal"
+      },
+      {
+        "id": "40874",
+        "name": "Santa's Holiday Countdown",
+        "price": "\u00a354.99",
+        "status": "Back order",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltae642d0bcbe15f54/blt6caf97af32ad6473-40874_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/santas-holiday-countdown-40874",
+        "theme": "seasonal"
+      },
+      {
+        "id": "40872",
+        "name": "Halloween Pumpkin Lantern",
+        "price": "\u00a324.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt8a5b33fbe2efbe39/blt11ecdc92ea69a278-40872_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/halloween-pumpkin-lantern-40872",
+        "theme": "seasonal"
+      },
+      {
+        "id": "40516",
+        "name": "Everyone Is Awesome",
+        "price": "\u00a330.99",
+        "status": "Back order",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltced1e10e43211f84/40516_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/everyone-is-awesome-40516",
+        "theme": "icons"
+      },
+      {
+        "id": "75457",
+        "name": "Executor Super Star Destroyer\u2122",
+        "price": "\u00a3649.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blta4cee150c80403bd/blta6d4a31cdd14d65d-75457_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75457",
+        "theme": "starwars"
+      },
+      {
+        "id": "5009960",
+        "name": "Adults Christmas Sweatshirt - Dark Blue",
+        "price": "\u00a342.99",
+        "status": "Out of stock / Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltc687e0675e2aaa49/5009960_Prod.jpg",
+        "url": "https://www.lego.com/en-gb/product/adults-christmas-sweatshirt-dark-blue-5009960",
+        "theme": "adjacent"
+      },
+      {
+        "id": "75442",
+        "name": "The Mandalorian's N-1 Starfighter\u2122",
+        "price": "\u00a3229.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt99c6a9bf2e0c2d9a/blt2f8fb720e38f6e09-75442_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/the-mandalorians-n-1-starfighter-75442",
+        "theme": "starwars"
+      },
+      {
+        "id": "10309",
+        "name": "Succulents",
+        "price": "\u00a344.99",
+        "status": "Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png",
+        "url": "https://www.lego.com/en-gb/product/succulents-10309",
+        "theme": "botanical"
+      },
+      {
+        "id": "10371",
+        "name": "Cozy Plants",
+        "price": "\u00a317.99",
+        "status": "Coming Soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt253c1cfce17d3a48/10371_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/cozy-plants-10371",
+        "theme": "botanical"
+      },
+      {
+        "id": "40958",
+        "name": "Christmas Stocking",
+        "price": "\u00a329.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt4cc32e184a314402/blt3904de066105e8e7-40958_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/christmas-stocking-40958",
+        "theme": "seasonal"
+      },
+      {
+        "id": "21345",
+        "name": "Polaroid OneStep SX-70 Camera",
+        "price": "\u00a369.99",
+        "status": "Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltb0d4865e1765d9bc/21345.png",
+        "url": "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345",
+        "theme": "icons"
+      },
+      {
+        "id": "5005352",
+        "name": "LEGO CINCH BUCKET- BLUE",
+        "price": "\u00a317.99",
+        "status": "Out of stock / Retiring soon",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt6f4646b75e492bbb/5005352.jpg",
+        "url": "https://www.lego.com/en-gb/product/lego-cinch-bucket-blue-5005352",
+        "theme": "adjacent"
+      },
+      {
         "id": "5005886",
         "name": "LEGO\u00ae Pumpkin Storage Head - Large",
-        "price": "\u00a326.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png?fit=bounds&format=jpg&quality=80&width=400&height=400",
+        "price": "\u00a329.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltadd893e7f590f019/5005886.png",
         "url": "https://www.lego.com/en-gb/product/lego-pumpkin-storage-head-large-5005886",
         "theme": "adjacent"
       },
       {
-        "id": "5009960",
-        "name": "Adults' Christmas Sweatshirt - Dark Blue",
+        "id": "11501",
+        "name": "Tulip Bouquet",
+        "price": "\u00a354.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt230df6ac4329bc62/11501_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/tulip-bouquet-11501",
+        "theme": "botanical"
+      },
+      {
+        "id": "10329",
+        "name": "Tiny Plants",
         "price": "\u00a344.99",
-        "img": "https://images.brickset.com/sets/images/5009960-1.jpg",
-        "url": "https://www.lego.com/en-gb/product/adults-christmas-sweatshirt-dark-blue-5009960",
-        "theme": "adjacent"
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltb2f845ffd52a25b0/10329.png",
+        "url": "https://www.lego.com/en-gb/product/tiny-plants-10329",
+        "theme": "botanical"
+      },
+      {
+        "id": "10373",
+        "name": "Mini Bonsai Trees",
+        "price": "\u00a354.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt2c4d86926d510d45/10373_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/mini-bonsai-trees-10373",
+        "theme": "botanical"
+      },
+      {
+        "id": "40725",
+        "name": "Cherry Blossoms",
+        "price": "\u00a312.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltf876ca701fbacd4a/40725.png",
+        "url": "https://www.lego.com/en-gb/product/cherry-blossoms-40725",
+        "theme": "botanical"
+      },
+      {
+        "id": "10328",
+        "name": "Bouquet of Roses",
+        "price": "\u00a354.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt08f4d88d801a4cf8/10328.png",
+        "url": "https://www.lego.com/en-gb/product/bouquet-of-roses-10328",
+        "theme": "botanical"
+      },
+      {
+        "id": "40812",
+        "name": "Snowman Ornaments",
+        "price": "\u00a310.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltbf73c0b586db9e8c/40812_Prod_en-gb.png",
+        "url": "https://www.lego.com/en-gb/product/snowman-ornaments-40812",
+        "theme": "seasonal"
       }
+    ],
+    "wishlistUrls": [
+      "https://www.lego.com/en-gb/guest/wishlist/e528e377-3adc-49b5-ad36-d93c01dc9466",
+      "https://www.lego.com/en-gb/guest/wishlist/09f2ac1f-8b53-4750-a5c4-8050b0e37976"
     ]
   },
   "zelda": {
-    "title": "The Legend of Zelda Shrine ⚔️",
+    "title": "The Legend of Zelda Shrine \u2694\ufe0f",
     "owned": [
       {
-        "name": "Nintendo Switch – OLED Model (The Legend of Zelda: Tears of the Kingdom Edition)",
-        "type": "Console"
+        "name": "Nintendo Switch \u2013 OLED Model (The Legend of Zelda: Tears of the Kingdom Edition)",
+        "type": "Console",
+        "img": "https://m.media-amazon.com/images/I/81Yiw8Zk0uL._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo Switch Pro Controller (Zelda: Tears of the Kingdom Edition)",
-        "type": "Hardware"
+        "type": "Hardware",
+        "img": "https://m.media-amazon.com/images/I/51FuIrA7umL._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo 64 (N64) Controller for Nintendo Switch",
-        "type": "Hardware"
+        "type": "Hardware",
+        "img": "https://m.media-amazon.com/images/I/41c37LrBvqL._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo Joy-Con Pairs (Zelda: Skyward Sword Edition)",
-        "type": "Hardware"
+        "type": "Hardware",
+        "img": "https://m.media-amazon.com/images/I/61X2WFzV1SL._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo Joy-Con Pairs (Light Purple & Light Green)",
-        "type": "Hardware"
+        "type": "Hardware",
+        "img": "https://m.media-amazon.com/images/I/61qzLRhqN0L._AC_SL500_.jpg"
       },
       {
         "name": "Game & Watch: The Legend of Zelda",
-        "type": "Console"
+        "type": "Console",
+        "img": "https://m.media-amazon.com/images/I/61+dNhJowXL._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo Switch Carrying Case (The Legend of Zelda: Tears of the Kingdom Edition)",
-        "type": "Accessory"
+        "type": "Accessory",
+        "img": "https://m.media-amazon.com/images/I/81uuqWKzJpL._AC_SL500_.jpg"
       },
       {
         "name": "The Legend of Zelda: Tears of the Kingdom Collector's Edition",
-        "type": "Special Edition"
+        "type": "Special Edition",
+        "img": "https://m.media-amazon.com/images/I/61BDhHa306L._AC_SL500_.jpg"
       },
       {
-        "name": "The Legend of Zelda: Skyward Sword HD SteelBook® Edition",
-        "type": "Special Edition"
+        "name": "The Legend of Zelda: Skyward Sword HD SteelBook\u00ae Edition",
+        "type": "Special Edition",
+        "img": "https://m.media-amazon.com/images/I/81HdUJn4jHL._AC_SL500_.jpg"
       },
       {
         "name": "The Legend of Zelda: Tears of the Kingdom Complete Guide",
-        "type": "Collector's Guide"
+        "type": "Collector's Guide",
+        "img": "https://m.media-amazon.com/images/I/81Ge3v6ro8L._AC_SL500_.jpg"
       },
       {
         "name": "Nintendo Switch 2 Carrying Case (Zelda 40th Anniversary Edition) & Screen Protector",
-        "type": "Pre-order (Amazon UK)"
+        "type": "Pre-order (Amazon UK)",
+        "img": "https://m.media-amazon.com/images/I/71svc8lRKjL._AC_SL500_.jpg"
       },
       {
         "name": "The Legend of Zelda: Ocarina of Time (Switch 2) + Spiritual Stones Replica Set",
-        "type": "Pre-order (Nintendo)"
+        "type": "Pre-order (Nintendo)",
+        "img": "https://m.media-amazon.com/images/I/71CeL+qLfqL._AC_SL500_.jpg"
       },
       {
         "name": "The Legend of Zelda: Link's Awakening Original Soundtrack [Limited Edition] (Japan Audio CD)",
@@ -561,59 +784,16 @@ window.SITE_CONTENT = {
     ],
     "wishlist": [
       {
-        "name": "Nintendo Switch 2 – The Legend of Zelda 40th Anniversary Edition Console",
-        "price": "£434.99",
-        "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-P00211"
+        "name": "The Legend of Zelda Hylian Shield Soft Toy",
+        "price": "\u00a329.99",
+        "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-hylian-shield-soft-toy-000000000010016896",
+        "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xapv6vqusziu48zlfrvt"
       },
       {
-        "name": "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) + Display Stand",
-        "price": "£92.99",
-        "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437"
-      },
-      {
-        "name": "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) – Standalone",
-        "price": "£64.99",
-        "url": "https://www.argos.co.uk/product/9754625"
-      },
-      {
-        "name": "The Legend of Zelda: Ocarina of Time Pin",
-        "price": "Exclusive",
-        "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-ocarina-of-time-the-legend-of-zelda-ocarina-of-time-pin-B01068"
-      },
-      {
-        "name": "Nintendo amiibo – Young Link (Ocarina of Time Series)",
-        "price": "~£19.99 ($24.99)",
-        "url": "https://www.target.com/p/amiibo-young-link-the-legend-of-zelda-ocarina-of-time-series/-/A-1013536074"
-      },
-      {
-        "name": "Nintendo amiibo – Young Zelda (Ocarina of Time Series)",
-        "price": "~£19.99 ($24.99)",
-        "url": "https://www.target.com/p/amiibo-young-zelda-the-legend-of-zelda-ocarina-of-time-series/-/A-1013536073"
-      },
-      {
-        "name": "HORI Electric Ocarina (Switch 2 Mic Compatible)",
-        "price": "Late 2026 (Pre-order / Import)",
-        "url": "https://www.play-asia.com/en/the-legend-of-zelda-ocarina-of-time-electric-ocarina-of-time/13/70kfb7"
-      },
-      {
-        "name": "Playable Acoustic Ocarina (Switch 2 Mic Compatible)",
-        "price": "Late 2026",
-        "url": "https://zelda40th.nintendo.com"
-      },
-      {
-        "name": "LEGO The Legend of Zelda: Ocarina of Time – Link & Epona (1,750 Pieces)",
-        "price": "Spring 2027",
-        "url": "https://zelda40th.nintendo.com"
-      },
-      {
-        "name": "Hasbro Legend of Zelda Electronic Master Sword (27-inch)",
-        "price": "Spring 2027",
-        "url": "https://zelda40th.nintendo.com"
-      },
-      {
-        "name": "The Legend of Zelda 40th Anniversary Concert – London (Royal Albert Hall with London Symphony Orchestra)",
-        "price": "3 & 4 April 2027 (Tickets On Sale Sept 2026)",
-        "url": "https://zelda.gameconcerts.com"
+        "name": "The Legend of Zelda Heart Container Large Soft Toy",
+        "price": "\u00a333.99",
+        "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-heart-container-large-soft-toy-000000000010020195",
+        "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/gyjjufdzfh2ilcq9lcpx"
       }
     ]
   },
@@ -1179,36 +1359,36 @@ window.SITE_CONTENT = {
   "boardgames": {
     "title": "Board Games & Tabletop \ud83c\udfb2",
     "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
-    "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC?ref_=list_d_wl_lfu_nav_3",
+    "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC",
     "owned": [
       {
         "name": "Fungi Card Game",
         "category": "2-Player Card Game",
-        "badge": "Two-Player"
+        "badge": "Two-Player",
+        "img": "https://m.media-amazon.com/images/I/81sMvV0Pe8L._AC_SL500_.jpg"
       },
       {
         "name": "Monopoly Deal Card Game",
         "category": "Card Game",
-        "badge": "Card Game"
+        "badge": "Card Game",
+        "img": "https://m.media-amazon.com/images/I/71Oo+PGwfnL._AC_SL500_.jpg"
       },
       {
         "name": "The Quacks of Quedlinburg (+ Expansions)",
         "category": "Strategy / Push-Your-Luck",
         "badge": "Base + 2 Expansions",
-        "img": "https://m.media-amazon.com/images/I/51-P4gC5EwL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/B1bLRWzTASZ-xx9NoAE79A__itemrep/img/gBYgKZ_1JWxGnvnxw8570K65kXQ=/fit-in/246x300/filters:strip_icc()/pic8780293.png",
         "publisher": "Schmidt Spiele",
         "expansions": [
           {
             "name": "The Herb Witches Expansion",
             "bggId": "269383",
-            "owned": true,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B07PBF8TLL"
+            "owned": true
           },
           {
             "name": "The Alchemists Expansion",
             "bggId": "300868",
-            "owned": true,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B08HW1YFX4"
+            "owned": true
           }
         ],
         "bggId": "244521"
@@ -1217,7 +1397,7 @@ window.SITE_CONTENT = {
         "name": "Ticket to Ride: Europe",
         "category": "Family Strategy",
         "badge": "Days of Wonder",
-        "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/EQJZDO1Jq8KL-HxmWLwL-Q__itemrep/img/h7OOSrsNnMRZPpIk3H6uJWA9tHI=/fit-in/246x300/filters:strip_icc()/pic9580918.jpg",
         "publisher": "Days of Wonder",
         "bggId": "14996"
       },
@@ -1225,7 +1405,7 @@ window.SITE_CONTENT = {
         "name": "Pandemic",
         "category": "Co-op Strategy",
         "badge": "Z-Man Games",
-        "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__itemrep/img/wAMLbgihOl7dJDHnvqt7OXKEV-4=/fit-in/246x300/filters:strip_icc()/pic1534148.jpg",
         "publisher": "Z-Man Games",
         "bggId": "30549"
       },
@@ -1249,7 +1429,7 @@ window.SITE_CONTENT = {
         "name": "Wyrmspan",
         "category": "Dragon Engine Building",
         "badge": "Stonemaier Games",
-        "img": "https://m.media-amazon.com/images/I/51r5Y+f-1kL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/cNc-FMsYo-mcRTGaXV2qcQ__itemrep/img/YPrpU3fNa0_L_R_frKKXdPpU-EA=/fit-in/246x300/filters:strip_icc()/pic8894992.jpg",
         "publisher": "Stonemaier Games",
         "bggId": "410201"
       },
@@ -1257,7 +1437,7 @@ window.SITE_CONTENT = {
         "name": "Skull",
         "category": "Bluffing / Party Game",
         "badge": "Space Cowboys",
-        "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/GVbKORueiHezUaLfVZKlfQ__itemrep/img/IIjNSyysVdQZVUN6FEICYee8bcA=/fit-in/246x300/filters:strip_icc()/pic9315848.jpg",
         "publisher": "Space Cowboys",
         "bggId": "92415"
       },
@@ -1279,8 +1459,7 @@ window.SITE_CONTENT = {
         "expansions": [
           {
             "name": "Muffin Time Base Game",
-            "owned": true,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B0892BV5R4"
+            "owned": true
           }
         ]
       },
@@ -1288,7 +1467,7 @@ window.SITE_CONTENT = {
         "name": "Unstable Unicorns",
         "category": "Card Game",
         "badge": "TeeTurtle",
-        "img": "https://m.media-amazon.com/images/I/51x88R6M6IL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__itemrep/img/kT4sb4fba2KTsd2IODcZCjq75YQ=/fit-in/246x300/filters:strip_icc()/pic3912914.jpg",
         "publisher": "TeeTurtle",
         "bggId": "234190"
       },
@@ -1312,7 +1491,7 @@ window.SITE_CONTENT = {
         "name": "Azul",
         "category": "Tile Placement",
         "badge": "Plan B Games",
-        "img": "https://m.media-amazon.com/images/I/51fT4QpXfNL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__itemrep/img/6oRLPDvy4zz3gOZM6e6NzIk8Seg=/fit-in/246x300/filters:strip_icc()/pic6973671.png",
         "publisher": "Plan B Games",
         "bggId": "230802",
         "amazonUrl": "https://www.amazon.co.uk/dp/B077MZ2MPW"
@@ -1329,16 +1508,15 @@ window.SITE_CONTENT = {
         "name": "Trial by Trolley: Derailed Edition",
         "category": "Party Card Game",
         "badge": "Cyanide & Happiness",
-        "img": "https://m.media-amazon.com/images/I/51g7k-T9qML._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/4Doc2YrwpS4mAeuolDP0ew__itemrep/img/SL7t7f20p2HXQGhRTUtKN36bdps=/fit-in/246x300/filters:strip_icc()/pic4835110.png",
         "publisher": "Cyanide & Happiness / Skybound",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B08K3MV18H",
         "bggId": "299815"
       },
       {
         "name": "We're Not Really Strangers",
         "category": "Social Game",
         "badge": "Card Game",
-        "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+        "img": "",
         "publisher": "Koreen Odiney"
       },
       {
@@ -1361,7 +1539,7 @@ window.SITE_CONTENT = {
         "name": "Handmade Wooden Folding Chess Set",
         "category": "Classic Strategy",
         "badge": "Wooden Edition",
-        "img": "https://m.media-amazon.com/images/I/51-P4gC5EwL._SS135_.jpg",
+        "img": "https://cf.geekdo-images.com/0_RWFMNapgr5yCrdhvGi_Q__itemrep/img/MGSJENt0kDDET0K-IGz-KbeEPRE=/fit-in/246x300/filters:strip_icc()/pic8785991.jpg",
         "publisher": "Classic Strategy",
         "bggId": "171"
       },
@@ -1369,50 +1547,42 @@ window.SITE_CONTENT = {
         "name": "The Conversation Cards (1st Edition)",
         "category": "Conversation Card Game",
         "publisher": "The Diary",
-        "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+        "img": "https://thediary.com/cdn/shop/files/1_e87b669d-04ab-4f85-81c8-df353bbb2188.png?v=1749210128&width=600",
         "amazonUrl": "https://thediary.com/products/the-conversation-cards-1st-edition"
       },
       {
         "name": "The Conversation Cards (2nd Edition)",
         "category": "Conversation Card Game",
         "publisher": "The Diary",
-        "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+        "img": "https://thediary.com/cdn/shop/files/1_b75fbc90-9bfe-49f2-baf5-3767c7992627.png?v=1762444332&width=600",
         "amazonUrl": "https://thediary.com/products/the-conversation-cards-2nd-edition"
       },
       {
         "name": "The Conversation Cards (3rd Edition)",
         "category": "Conversation Card Game",
         "publisher": "The Diary",
-        "img": "https://m.media-amazon.com/images/I/51n8N806BML._SS135_.jpg",
+        "img": "https://thediary.com/cdn/shop/files/CC3_Web_Image_3.jpg?v=1762859458&width=600",
         "amazonUrl": "https://thediary.com/products/the-conversation-cards-third-edition"
       },
       {
-        "name": "Pandemic Board Game",
-        "owned": true
-      },
-      {
-        "name": "The Quacks of Quedlinburg: The Alchemists Expansion",
-        "owned": true
-      },
-      {
-        "name": "The Quacks of Quedlinburg: The Herb Witches Expansion",
-        "owned": true
-      },
-      {
-        "name": "Mycelia Board Game",
-        "owned": true
-      },
-      {
-        "name": "We're Not Really Strangers Card Game",
-        "owned": true
-      },
-      {
         "name": "Blend In Card Game",
-        "owned": true
+        "owned": true,
+        "img": ""
       },
       {
         "name": "Wooden Chess & Board Game Set (Blue Storage Box)",
-        "owned": true
+        "owned": true,
+        "img": ""
+      },
+      {
+        "name": "Horrified: Dungeons & Dragons",
+        "asin": "B0F2GVHLV2",
+        "img": "https://cf.geekdo-images.com/Drv6TfMDsEfjbau5ycKd7g__micro@2x/img/Jtv07h6IFzzefoK3tAeQZQqwSyQ=/fit-in/128x128/filters:strip_icc()/pic8718235.jpg",
+        "bggId": "437705",
+        "publisher": "Ravensburger",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0F2GVHLV2",
+        "category": "Co-operative",
+        "badge": "Ravensburger"
       }
     ],
     "wishlist": [
@@ -1424,15 +1594,15 @@ window.SITE_CONTENT = {
         "expansions": [
           {
             "name": "Catan: Cities & Knights Expansion",
-            "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B000W7D7E0"
+            "owned": false
           },
           {
             "name": "Catan: Seafarers Expansion",
-            "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B000W7F82I"
+            "owned": false
           }
-        ]
+        ],
+        "asin": "B00U26V4VQ",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B00U26V4VQ"
       },
       {
         "name": "Citadels",
@@ -1449,8 +1619,8 @@ window.SITE_CONTENT = {
       {
         "name": "Terraforming Mars",
         "publisher": "FryxGames / Stronghold",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B01GSA8rGG",
-        "asin": "B01GSA8rGG",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B01GSYA4K2",
+        "asin": "B01GSYA4K2",
         "img": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__micro@2x/img/wZ_heOwTkV28exUAdwta8Pgv55w=/fit-in/128x128/filters:strip_icc()/pic3536616.jpg",
         "expansions": [
           {
@@ -1531,17 +1701,9 @@ window.SITE_CONTENT = {
         "amazonUrl": "https://www.amazon.co.uk/dp/B0C6QQM8X6"
       },
       {
-        "name": "Horrified: Dungeons & Dragons",
-        "asin": "B0F2GVHLV2",
-        "img": "https://cf.geekdo-images.com/Drv6TfMDsEfjbau5ycKd7g__micro@2x/img/Jtv07h6IFzzefoK3tAeQZQqwSyQ=/fit-in/128x128/filters:strip_icc()/pic8718235.jpg",
-        "bggId": "437705",
-        "publisher": "Ravensburger",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B0F2GVHLV2"
-      },
-      {
         "name": "No Thanks!",
         "asin": "B085KYB3R4",
-        "img": "https://m.media-amazon.com/images/I/51Fg8cPfqxL._SS220_.jpg",
+        "img": "https://m.media-amazon.com/images/I/51Fg8cPfqxL._SS135_.jpg",
         "publisher": "AMIGO",
         "amazonUrl": "https://www.amazon.co.uk/dp/B085KYB3R4",
         "bggId": "12942"
@@ -1557,7 +1719,7 @@ window.SITE_CONTENT = {
       {
         "name": "Mattel UNO: The Legend of Zelda",
         "asin": "B07BMKV6MT",
-        "img": "https://m.media-amazon.com/images/I/51QOjasH1NL._SS220_.jpg",
+        "img": "https://m.media-amazon.com/images/I/51QOjasH1NL._SS135_.jpg",
         "publisher": "Mattel Games",
         "amazonUrl": "https://www.amazon.co.uk/dp/B07BMKV6MT",
         "bggId": "254814"
@@ -1635,72 +1797,72 @@ window.SITE_CONTENT = {
       {
         "name": "On a Scale of One to T-Rex",
         "asin": "B07WC2Z9HF",
-        "img": "https://m.media-amazon.com/images/I/41vkCE88NxL._SS220_.jpg",
+        "img": "https://m.media-amazon.com/images/I/41vkCE88NxL._SS135_.jpg",
         "publisher": "Exploding Kittens",
         "amazonUrl": "https://www.amazon.co.uk/dp/B07WC2Z9HF",
         "bggId": "289018"
       },
       {
         "name": "Throw Throw Burrito",
-        "asin": "B07Y9M5H6Z",
+        "asin": "B07TS96J7Q",
         "bggId": "274533",
         "publisher": "Exploding Kittens",
-        "img": "https://m.media-amazon.com/images/I/811m9e1UjQL._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B07Y9M5H6Z"
+        "img": "https://m.media-amazon.com/images/I/31RFpfWOhrL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B07TS96J7Q"
       },
       {
         "name": "Cryptid",
-        "asin": "B079M49692",
+        "asin": "1472830652",
         "bggId": "246784",
         "publisher": "Osprey Games",
-        "img": "https://m.media-amazon.com/images/I/71N-zG4k-dL._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B079M49692"
+        "img": "https://m.media-amazon.com/images/I/51Lj5wy02FL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/1472830652"
       },
       {
         "name": "Bloodborne: The Card Game",
-        "asin": "B01HYV585C",
+        "asin": "B01HYVKY80",
         "bggId": "195856",
         "publisher": "CMON",
-        "img": "https://m.media-amazon.com/images/I/91MhB7u%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B01HYV585C"
+        "img": "https://m.media-amazon.com/images/I/51h-YNw-ibL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B01HYVKY80"
       },
       {
         "name": "These Cards Will Get You Drunk",
-        "asin": "B0764M6P7Z",
+        "asin": "B073R59XYF",
         "publisher": "These Cards Will Get You Drunk",
-        "img": "https://m.media-amazon.com/images/I/7144eK5KxML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B0764M6P7Z"
+        "img": "https://m.media-amazon.com/images/I/51gNYCvZb6L._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B073R59XYF"
       },
       {
         "name": "Gloom (Second Edition)",
         "asin": "1589781449",
         "bggId": "12692",
         "publisher": "Atlas Games",
-        "img": "https://m.media-amazon.com/images/I/81x08kH54ML._SS135_.jpg",
+        "img": "https://m.media-amazon.com/images/I/51Gw3h7HAlL._SS135_.jpg",
         "amazonUrl": "https://www.amazon.co.uk/dp/1589781449"
       },
       {
         "name": "Small World",
-        "asin": "B0028K2A1S",
+        "asin": "B0024H7OF6",
         "bggId": "40692",
         "publisher": "Days of Wonder",
-        "img": "https://m.media-amazon.com/images/I/91r4YjL%2B4NL._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B0028K2A1S"
+        "img": "https://m.media-amazon.com/images/I/51Us+XtzyFL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0024H7OF6"
       },
       {
         "name": "Munchkin: Deluxe",
-        "asin": "B004U7JJEY",
+        "asin": "B004U7JJWE",
         "bggId": "19280",
         "publisher": "Steve Jackson Games",
-        "img": "https://m.media-amazon.com/images/I/81U0oBf%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B004U7JJEY"
+        "img": "https://m.media-amazon.com/images/I/51aU3CqxDRL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B004U7JJWE"
       },
       {
         "name": "The Resistance: Avalon",
         "asin": "B009SAAV0C",
         "bggId": "128882",
         "publisher": "Indie Boards & Cards",
-        "img": "https://m.media-amazon.com/images/I/71K%2B61s%2B4ML._SS135_.jpg",
+        "img": "https://m.media-amazon.com/images/I/51JTC0T+MGL._SS135_.jpg",
         "amazonUrl": "https://www.amazon.co.uk/dp/B009SAAV0C"
       },
       {
@@ -1708,297 +1870,904 @@ window.SITE_CONTENT = {
         "asin": "B00NX627HW",
         "bggId": "822",
         "publisher": "Z-Man Games",
-        "img": "https://m.media-amazon.com/images/I/71%2B%2B9Zz%2B4ML._SS135_.jpg",
+        "img": "https://m.media-amazon.com/images/I/41z2xu1w1sL._SS135_.jpg",
         "amazonUrl": "https://www.amazon.co.uk/dp/B00NX627HW"
       },
       {
         "name": "Exploding Kittens: NSFW Edition",
-        "asin": "B010TQY7BI",
+        "asin": "B010TU7LP2",
         "bggId": "181303",
         "publisher": "Exploding Kittens",
-        "img": "https://m.media-amazon.com/images/I/71%2B8d%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B010TQY7BI",
+        "img": "https://m.media-amazon.com/images/I/41mF+VQFPiL._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B010TU7LP2",
         "expansions": [
           {
             "name": "Streaking Kittens Expansion Pack",
             "bggId": "257762",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B07F273M32"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B07FKWS4R6",
+            "asin": "B07FKWS4R6"
           },
           {
             "name": "Imploding Kittens Expansion Pack",
             "bggId": "204301",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B01LW8392M"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B01HSIIFQ2",
+            "asin": "B01HSIIFQ2"
           }
         ]
       },
       {
         "name": "Bears vs Babies",
-        "asin": "B06XGBMLSV",
+        "asin": "B071GS97RT",
         "bggId": "211534",
         "publisher": "Exploding Kittens",
-        "img": "https://m.media-amazon.com/images/I/71qS5m8%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B06XGBMLSV",
+        "img": "https://m.media-amazon.com/images/I/51hKuiQJc-L._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B071GS97RT",
         "expansions": [
           {
             "name": "Bears vs Babies: NSFW Expansion Pack",
             "bggId": "226922",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B0733TDR3Q"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B0736K8BWJ",
+            "asin": "B0736K8BWJ"
           }
         ]
       },
       {
         "name": "You've Got Crabs",
-        "asin": "B07BDMWSWN",
         "bggId": "242555",
         "publisher": "Exploding Kittens",
-        "img": "https://m.media-amazon.com/images/I/71s%2Bf%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B07BDMWSWN",
+        "img": "https://m.media-amazon.com/images/I/71AO8+EX8iL._AC_SL500_.jpg",
         "expansions": [
           {
             "name": "You've Got Crabs: Imitation Crab Expansion Kit",
             "bggId": "251645",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B07BDM7TMT"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B07BKNMJ84",
+            "asin": "B07BKNMJ84"
           }
         ]
       },
       {
         "name": "Joking Hazard",
-        "asin": "B01IA9R6A6",
         "bggId": "198305",
         "publisher": "Cyanide & Happiness",
-        "img": "https://m.media-amazon.com/images/I/71o%2Bd%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B01IA9R6A6",
+        "img": "https://m.media-amazon.com/images/I/81YAmwzBnfL._AC_SL500_.jpg",
         "expansions": [
           {
             "name": "Joking Hazard Deck Enhancement #1",
             "bggId": "220194",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B01MTD6M2A"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B01MZ8P4D6",
+            "asin": "B01MZ8P4D6"
           },
           {
             "name": "Joking Hazard Deck Enhancement #3",
             "bggId": "257404",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B07D3ZVPCR"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B07H634GJ8",
+            "asin": "B07H634GJ8"
           },
           {
             "name": "Joking Hazard Enlarged Box",
             "bggId": "249673",
             "owned": false,
-            "amazonUrl": "https://www.amazon.co.uk/dp/B07BDMWT49"
+            "amazonUrl": "https://www.amazon.co.uk/dp/B07D8JDPWF",
+            "asin": "B07D8JDPWF"
           }
         ]
       },
       {
         "name": "What Do You Meme? (Core Game)",
-        "asin": "B01MRCR1A1",
+        "asin": "B07C844C3C",
         "bggId": "222956",
         "publisher": "What Do You Meme?",
-        "img": "https://m.media-amazon.com/images/I/71%2B7v%2B4ML._SS135_.jpg",
-        "amazonUrl": "https://www.amazon.co.uk/dp/B01MRCR1A1"
+        "img": "https://m.media-amazon.com/images/I/31ZBYh8CViS._SS135_.jpg",
+        "amazonUrl": "https://www.amazon.co.uk/dp/B07C844C3C"
       }
     ]
   },
   "books": {
     "title": "Books, Manga & Reference \ud83d\udcda",
-    "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
+    "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
     "manga": [
       {
         "series": "Fullmetal Alchemist: Fullmetal Edition",
         "author": "Hiromu Arakawa",
         "notes": "Deluxe hardcover omnibus release. Highly recommended story and beautiful book production.",
-        "img": "https://m.media-amazon.com/images/I/51b5+3P04LL._SS135_.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519613766l/36495876.jpg",
         "volumes": [
           {
             "vol": 1,
             "status": "owned",
-            "img": "https://m.media-amazon.com/images/I/51b5+3P04LL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706078",
-            "goodreads": "https://www.goodreads.com/book/show/36387979-fullmetal-alchemist-1"
+            "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519613766l/36495876.jpg",
+            "goodreads": "https://www.goodreads.com/book/show/36495876-fullmetal-alchemist"
           },
           {
             "vol": 2,
             "status": "owned",
-            "img": "https://m.media-amazon.com/images/I/51G2E2XkRSL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706086",
-            "goodreads": "https://www.goodreads.com/book/show/36582414-fullmetal-alchemist-2"
+            "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495086l/36538817.jpg",
+            "goodreads": "https://www.goodreads.com/book/show/36538817-fullmetal-alchemist"
           },
           {
             "vol": 3,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51L9Q9VFLSL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706094",
-            "goodreads": "https://www.goodreads.com/book/show/36978311-fullmetal-alchemist-3"
+            "img": "https://m.media-amazon.com/images/I/41E2iJyOtOL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599805",
+            "goodreads": "https://www.goodreads.com/book/show/36978311-fullmetal-alchemist-3",
+            "price": "\u00a316.25"
           },
           {
             "vol": 4,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/5123Wp2dJ3L._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706108"
+            "img": "https://m.media-amazon.com/images/I/51Uy0ZqOwPL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599856",
+            "price": "\u00a316.25"
           },
           {
             "vol": 5,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51n8bK3oTQL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706116"
+            "img": "https://m.media-amazon.com/images/I/51w99EDcq4L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599872",
+            "price": "\u00a315.85"
           },
           {
             "vol": 6,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51fEX258DqL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706124"
+            "img": "https://m.media-amazon.com/images/I/41uUnSBEJ2L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599880",
+            "price": "\u00a316.00"
           },
           {
             "vol": 7,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/511xQ5wJbWL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706132"
+            "img": "https://m.media-amazon.com/images/I/51wfSH6OIOL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599899",
+            "price": "\u00a316.25"
           },
           {
             "vol": 8,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51uG989TqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706140"
+            "img": "https://m.media-amazon.com/images/I/511cn1DWh8L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/197470047X",
+            "price": "\u00a316.25"
           },
           {
             "vol": 9,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Bq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706159"
+            "img": "https://m.media-amazon.com/images/I/51Q6Jx-7-FL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599902",
+            "price": "\u00a315.85"
           },
           {
             "vol": 10,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Fq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706167"
+            "img": "https://m.media-amazon.com/images/I/41uzVmM1GBL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599929",
+            "price": "\u00a316.93"
           },
           {
             "vol": 11,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Gq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706175"
+            "img": "https://m.media-amazon.com/images/I/51RUNoAvz9L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599945",
+            "price": "\u00a316.39"
           },
           {
             "vol": 12,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Hq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706183"
+            "img": "https://m.media-amazon.com/images/I/51xQesEYzNL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599953",
+            "price": "\u00a316.25"
           },
           {
             "vol": 13,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Iq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706191"
+            "img": "https://m.media-amazon.com/images/I/51O54wvgjKL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421599961",
+            "price": "\u00a316.00"
           },
           {
             "vol": 14,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Jq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706205"
+            "img": "https://m.media-amazon.com/images/I/41CVpKhPGpS._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700003",
+            "price": "\u00a316.39"
           },
           {
             "vol": 15,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Kq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706213"
+            "img": "https://m.media-amazon.com/images/I/51mOt6aZocL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700011",
+            "price": "\u00a316.25"
           },
           {
             "vol": 16,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Lq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974706221"
+            "img": "https://m.media-amazon.com/images/I/518f5rEawwL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700046",
+            "price": "\u00a316.25"
           },
           {
             "vol": 17,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Mq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/197470623X"
+            "img": "https://m.media-amazon.com/images/I/51SvQt4K3nL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700054",
+            "price": "\u00a316.39"
           },
           {
             "vol": 18,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51Nq98dTqEL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974720003"
+            "img": "https://m.media-amazon.com/images/I/51eQ2NpHh7L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700062",
+            "price": "\u00a316.39"
           }
-        ]
+        ],
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF"
       },
       {
         "series": "The Legend of Zelda: Twilight Princess Manga",
         "author": "Akira Himekawa",
         "notes": "Official manga adaptation of Twilight Princess. Epic fantasy quest spanning 11 volumes.",
-        "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg",
-        "wishlistUrl": "https://www.amazon.co.uk/dp/1974749665",
+        "img": "https://m.media-amazon.com/images/I/51JDf9DJa9L._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
         "volumes": [
           {
             "vol": 1,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51E2a2VvMSL._SS135_.jpg",
+            "img": "https://m.media-amazon.com/images/I/51JDf9DJa9L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421593475",
-            "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda/akira-himekawa/9781421593470"
+            "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda/akira-himekawa/9781421593470",
+            "price": "\u00a31.20"
           },
           {
             "vol": 2,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1421596547"
+            "img": "https://m.media-amazon.com/images/I/510x1O+HhNL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421596563",
+            "price": "\u00a37.65"
           },
           {
             "vol": 3,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1421598264"
+            "img": "https://m.media-amazon.com/images/I/51P+c4njCyL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421598264",
+            "price": "\u00a37.65"
           },
           {
             "vol": 4,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1421598272"
+            "img": "https://m.media-amazon.com/images/I/51qocDojtkL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/197470226X",
+            "price": "\u00a37.65"
           },
           {
             "vol": 5,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974702250"
+            "img": "https://m.media-amazon.com/images/I/51JUkKwgDwL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974705641",
+            "price": "\u00a37.65"
           },
           {
             "vol": 6,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51zS3pG1iQL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974708909"
+            "img": "https://m.media-amazon.com/images/I/517OMnyEdGL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974711633",
+            "price": "\u00a38.54"
           },
           {
             "vol": 7,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974718106"
+            "img": "https://m.media-amazon.com/images/I/51jQ2h2WL5L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974715337",
+            "price": "\u00a39.78"
           },
           {
             "vol": 8,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974720976"
+            "img": ""
           },
           {
             "vol": 9,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974724491"
+            "img": ""
           },
           {
             "vol": 10,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974732184"
+            "img": ""
           },
           {
             "vol": 11,
             "status": "wanted",
-            "img": "https://m.media-amazon.com/images/I/51U63tN0mPL._SS135_.jpg",
-            "amazon": "https://www.amazon.co.uk/dp/1974738980"
+            "img": ""
+          }
+        ]
+      },
+      {
+        "series": "Kaguya-sama: Love Is War",
+        "author": "Aka Akasaka",
+        "notes": "Romantic comedy of two geniuses trying to make the other confess first.",
+        "img": "https://m.media-amazon.com/images/I/51HFQfT7OFL._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 1,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51HFQfT7OFL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700305",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 2,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51uFn4be9LL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700313",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/5149x4YLjlL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700321",
+            "price": "\u00a37.35"
+          },
+          {
+            "vol": 4,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51lCx-XLbpL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974700496",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 5,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51x9nQ4MzJL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/197470050X",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 6,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51AUyNUJrYL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974701387",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 7,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51Y+fPjslIL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974701395",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 8,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51WEEdukSZL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974704408",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 9,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51Q-OK2ybzL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974705099",
+            "price": "\u00a37.35"
+          },
+          {
+            "vol": 10,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/518qDO7pTBL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/197470663X",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 11,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51P5iFIXI7L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974707792",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 12,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51ySGGgIyVL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974709574",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 13,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51Xk0J8PkUL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974710718",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 14,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/513ckFO9ChL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974714721",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 15,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51lzi-bRZWL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/197471473X",
+            "price": "\u00a38.71"
+          },
+          {
+            "vol": 16,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51-iwybOcIL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974717100",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 17,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51TJYiSIitL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974718743",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 18,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/511fF9F3Q1L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974721000",
+            "price": "\u00a312.05"
+          },
+          {
+            "vol": 19,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51z4dOqMbhL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974722864",
+            "price": "\u00a37.36"
+          }
+        ]
+      },
+      {
+        "series": "Fly Me to the Moon (Kindle)",
+        "author": "Kenjiro Hata",
+        "notes": "Kindle editions.",
+        "img": "https://m.media-amazon.com/images/I/51ADmRu9z3L._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 1,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51ADmRu9z3L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08GNJR6SL",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 2,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51WVQ6sA2WL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08M112WGP",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51D6Y2xwdzL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08R6R7RNW",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 4,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51KbH9OPTcL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08X11439K",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 5,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/5189hxmkBPL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B093NTCST2",
+            "price": "\u00a34.99"
+          }
+        ]
+      },
+      {
+        "series": "Spy x Family (Kindle)",
+        "author": "Tatsuya Endo",
+        "notes": "Kindle editions.",
+        "img": "https://m.media-amazon.com/images/I/41WcpST5nHL._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 1,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/41WcpST5nHL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B088W7RWXS",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 2,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/41tzVU2VCYL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08G7KGVGG",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/41Xl5sv91wL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/B08NSP7LY3",
+            "price": "\u00a34.99"
+          }
+        ]
+      },
+      {
+        "series": "Food Wars!: Shokugeki no Soma",
+        "author": "Yuto Tsukuda & Shun Saeki",
+        "notes": "Cooking battle manga, 36 volumes.",
+        "img": "https://m.media-amazon.com/images/I/51PCavRPU5L._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 1,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51PCavRPU5L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421572540",
+            "price": "\u00a35.74"
+          },
+          {
+            "vol": 2,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61HG1QOMn1L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421572559",
+            "price": "\u00a34.99"
+          },
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/617WIuIKp+L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421572567",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 4,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61QJbWliv4L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421572575",
+            "price": "\u00a32.26"
+          },
+          {
+            "vol": 5,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61doTiZEdhL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421573857",
+            "price": "\u00a37.59"
+          },
+          {
+            "vol": 6,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61fa1nk+sIL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421576880",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 7,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51eU4eyyOBL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421579650",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 8,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61l5vGJAa9L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421579669",
+            "price": "\u00a37.99"
+          },
+          {
+            "vol": 9,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51N35Y9FywL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421580284",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 10,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51xna1WpmJL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421584468",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 11,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61v0YsOAjAL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/142158445X",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 12,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61BURRFnZSL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421585081",
+            "price": "\u00a37.59"
+          },
+          {
+            "vol": 13,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/5155rzYzbKL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/142158509X",
+            "price": "\u00a312.76"
+          },
+          {
+            "vol": 14,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/512tLzPIyLL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/142158655X",
+            "price": "\u00a37.59"
+          },
+          {
+            "vol": 15,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61rHYapiOSL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421588145",
+            "price": "\u00a38.54"
+          },
+          {
+            "vol": 16,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51I6TFUa-TL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421590182",
+            "price": "\u00a37.43"
+          },
+          {
+            "vol": 17,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61McqDUyJdL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421590948",
+            "price": "\u00a38.52"
+          },
+          {
+            "vol": 18,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/611fdCHyIvL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421593343",
+            "price": "\u00a39.05"
+          },
+          {
+            "vol": 19,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51gMQpiaj9L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421593351",
+            "price": "\u00a36.55"
+          },
+          {
+            "vol": 20,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51Sh5dajLoL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421594358",
+            "price": "\u00a38.08"
+          },
+          {
+            "vol": 21,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61-qjk4En+L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421594366",
+            "price": "\u00a36.55"
+          },
+          {
+            "vol": 22,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61HQyqw6zgL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421597047",
+            "price": "\u00a38.79"
+          },
+          {
+            "vol": 23,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61AWxyPiMhL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421597624",
+            "price": "\u00a37.03"
+          },
+          {
+            "vol": 24,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51KfZsznV6L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421598213",
+            "price": "\u00a38.86"
+          },
+          {
+            "vol": 25,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61yIVfP9bxL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/142159949X",
+            "price": "\u00a36.55"
+          },
+          {
+            "vol": 26,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61Mw9No193L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974701018",
+            "price": "\u00a35.37"
+          },
+          {
+            "vol": 27,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51VdwBN5GHL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974701468",
+            "price": "\u00a37.82"
+          },
+          {
+            "vol": 28,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51MgDYLQ1cL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974702545",
+            "price": "\u00a36.64"
+          },
+          {
+            "vol": 29,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51XBBX0bbYL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974705102",
+            "price": "\u00a36.64"
+          },
+          {
+            "vol": 30,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51KSeiW7PnL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974706389",
+            "price": "\u00a312.55"
+          },
+          {
+            "vol": 31,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51b1s7ufIvL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974707741",
+            "price": "\u00a38.99"
+          },
+          {
+            "vol": 32,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51LEXNywDnL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974709477",
+            "price": "\u00a38.79"
+          },
+          {
+            "vol": 33,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51pAtY1jiRL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974709922",
+            "price": "\u00a37.69"
+          },
+          {
+            "vol": 34,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51HrMKlo-ML._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974711714",
+            "price": "\u00a38.84"
+          },
+          {
+            "vol": 35,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51fl-Ia3QEL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974712583",
+            "price": "\u00a312.74"
+          },
+          {
+            "vol": 36,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61q2Mcn3X6L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1974715426",
+            "price": "\u00a39.58"
+          }
+        ]
+      },
+      {
+        "series": "The Legend of Zelda (Original Manga)",
+        "author": "Akira Himekawa",
+        "notes": "Original single-volume run covering Ocarina of Time through Phantom Hourglass.",
+        "img": "https://m.media-amazon.com/images/I/51vp7Y53jqL._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51vp7Y53jqL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523299",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 4,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61erkxIS6VL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523302",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 5,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51FELk8P3IL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523310",
+            "price": "\u00a38.99"
+          },
+          {
+            "vol": 6,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61-hquXPjwL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523329",
+            "price": "\u00a38.99"
+          },
+          {
+            "vol": 7,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51c1L2KcTzL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523337",
+            "price": "\u00a31.77"
+          },
+          {
+            "vol": 8,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51buAnhulhL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523345",
+            "price": "\u00a37.65"
+          },
+          {
+            "vol": 9,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/514BSlWVbxL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421523353",
+            "price": "\u00a37.09"
+          },
+          {
+            "vol": 10,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/61qG+YAkmKL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421537249",
+            "price": "\u00a37.54"
+          }
+        ]
+      },
+      {
+        "series": "The Legend of Zelda: Legendary Edition",
+        "author": "Akira Himekawa",
+        "notes": "Deluxe 2-in-1 omnibus editions of the original Zelda manga.",
+        "img": "https://m.media-amazon.com/images/I/51O7yY4lH7L._SS135_.jpg",
+        "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
+        "volumes": [
+          {
+            "vol": 1,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51O7yY4lH7L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421589591",
+            "price": "\u00a38.99"
+          },
+          {
+            "vol": 2,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51YX87FAB3L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421589605",
+            "price": "\u00a312.65"
+          },
+          {
+            "vol": 3,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51dntrNcw2L._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421589613",
+            "price": "\u00a312.45"
+          },
+          {
+            "vol": 4,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/519nfe0cESL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/1421589621",
+            "price": "\u00a312.65"
+          },
+          {
+            "vol": 5,
+            "status": "wanted",
+            "img": "https://m.media-amazon.com/images/I/51j14brTSIL._SS135_.jpg",
+            "amazon": "https://www.amazon.co.uk/dp/142158963X",
+            "price": "\u00a312.65"
           }
         ]
       }
@@ -2008,230 +2777,174 @@ window.SITE_CONTENT = {
         "name": "Mastering the Art of French Cooking (Julia Child 2-Vol Box Set)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "https://m.media-amazon.com/images/I/41K8L0z6vTL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/0307593522"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390054341l/10914447.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/132692.Mastering_the_Art_of_French_Cooking"
       },
       {
         "name": "The Flavour Thesaurus (Niki Segnit)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "https://m.media-amazon.com/images/I/41Zf6T+kR2L._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/0747599777"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327769281l/8487890.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/0747599777",
+        "goodreads": "https://www.goodreads.com/book/show/8487890-the-flavour-thesaurus"
       },
       {
         "name": "Dishoom: From Bombay with Love",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "https://m.media-amazon.com/images/I/51R8V270xVL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/1408890674"
+        "img": "https://m.media-amazon.com/images/I/71nky8ZLyZL._SL500_.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/1408890674",
+        "goodreads": "https://www.goodreads.com/book/show/200382584-dishoom"
       },
       {
         "name": "Wagamama: Feed Your Soul",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "https://m.media-amazon.com/images/I/51+9T6H3-UL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/1784724831"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561823021l/51253651.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/1784724831",
+        "goodreads": "https://www.goodreads.com/book/show/51253651-wagamama-feed-your-soul"
       },
       {
         "name": "Heston Is This A Cookbook? & Heston at Home",
         "category": "Cookbooks",
         "status": "owned",
         "badge": "Heston Blumenthal",
-        "img": "https://m.media-amazon.com/images/I/51Y0y6N0w4L._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/1408804409"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/1408804409",
+        "goodreads": "https://www.goodreads.com/book/show/59808407-is-this-a-cookbook-adventures-in-the-kitchen"
       },
       {
         "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "https://m.media-amazon.com/images/I/51KzN+Xb-nL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/1645674063"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623012580l/57485191.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/160047617-texture-over-taste"
       },
       {
         "name": "Field Notes for Food Adventure (Brad Leone)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0593138380"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626719879l/58078528.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/58078528-field-notes-for-food-adventure"
       },
       {
         "name": "Modern French Pastry (Cheryl Wakerhauser)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/1624143781"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500608048l/35715070.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/35715070-modern-french-pastry"
       },
       {
         "name": "Japanese P\u00e2tisserie (James Campbell)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/184975762X"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489923533l/31301820.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/31301820-japanese-patisserie"
       },
       {
         "name": "The Savoy Cocktail Book (Harry Craddock)",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/1472114251"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328840837l/2087365.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/2087365.The_Savoy_Cocktail_Book"
       },
       {
         "name": "Edmonds Cookery Book",
         "category": "Cookbooks",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0790016629"
-      },
-      {
-        "name": "The Food Lab: Better Home Cooking Through Science (Kenji L\u00f3pez-Alt)",
-        "category": "Cookbooks",
-        "status": "wanted",
-        "img": "https://m.media-amazon.com/images/I/51wB7-7V9PL._SS135_.jpg",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "Salt, Fat, Acid, Heat (Samin Nosrat)",
-        "category": "Cookbooks",
-        "status": "wanted",
-        "img": "https://m.media-amazon.com/images/I/51qB7-7V9PL._SS135_.jpg",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "Dessert Person (Claire Saffitz)",
-        "category": "Cookbooks",
-        "status": "wanted",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "The Big Fat Duck Cookbook (Heston Blumenthal)",
-        "category": "Cookbooks",
-        "status": "wanted",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "Momofuku (David Chang)",
-        "category": "Cookbooks",
-        "status": "wanted",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE?ref_=wl_share",
-        "price": "Amazon Wishlist"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337411638l/4144478.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/4144478-edmonds-cookery-book"
       },
       {
         "name": "Quantum Computation & Quantum Information (Nielsen & Chuang)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "10th Anniv Ed",
-        "img": "https://m.media-amazon.com/images/I/41hY9fN+VLL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/1107002176"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348285880l/153910.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/1107002176",
+        "goodreads": "https://www.goodreads.com/book/show/153910.Quantum_Computation_and_Quantum_Information"
       },
       {
         "name": "Computer Organization & Design (Patterson & Hennessy)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "4th Ed",
-        "img": "https://m.media-amazon.com/images/I/51c-g4gXJYL._SS135_.jpg",
-        "amazon": "https://www.amazon.co.uk/dp/0123747503"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697814562l/142298147.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/0123747503",
+        "goodreads": "https://www.goodreads.com/book/show/142298147-computer-organization-and-design"
       },
       {
         "name": "Interaction Design: Beyond HCI (Sharp, Rogers, Preece)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "2nd Ed",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0470018666"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340226l/344711.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/0470018666",
+        "goodreads": "https://www.goodreads.com/book/show/344711.Interaction_Design"
       },
       {
         "name": "Software Engineering (Sommerville)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "9th Ed",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0137035152"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699760559l/137433498.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/0137035152",
+        "goodreads": "https://www.goodreads.com/book/show/137433498-by-ian-sommerville---software-engineering"
       },
       {
         "name": "The Robotics Primer (Maja J. Matari\u0107, MIT Press)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "MIT Press",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/026263354X"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348016781l/2052141.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/026263354X",
+        "goodreads": "https://www.goodreads.com/book/show/2052141.The_Robotics_Primer"
       },
       {
         "name": "Business Database Systems (Connolly & Begg)",
         "category": "CS & Tech",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/1405874376"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372055509l/5684120.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/1405874376",
+        "goodreads": "https://www.goodreads.com/book/show/5684120-business-database-systems"
       },
       {
         "name": "Principles of Interactive Multimedia (Elsom-Cook)",
         "category": "CS & Tech",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0077093343"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394405623l/13655756.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/13655756-principles-of-interactive-multimedia"
       },
       {
         "name": "Objects First With Java: Practical Intro Using BlueJ",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "4th Ed",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/0136060862"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356136155l/14795496.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/0136060862",
+        "goodreads": "https://www.goodreads.com/book/show/14795496-objects-first-with-java"
       },
       {
         "name": "Sprint: How to Solve Big Problems in 5 Days (Jake Knapp)",
         "category": "CS & Tech",
         "status": "owned",
         "badge": "Google Ventures",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/150112174X"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284924l/25814544.jpg",
+        "amazon": "https://www.amazon.co.uk/dp/150112174X",
+        "goodreads": "https://www.goodreads.com/book/show/25814544-sprint"
       },
       {
         "name": "The Legend's Cookbook+ (Zelda Recipes & Art)",
         "category": "Video Game Books",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/B08P1STST1"
-      },
-      {
-        "name": "Zelda: Twilight Princess HD Collector's Guide (Prima)",
-        "category": "Video Game Books",
-        "status": "wanted",
-        "badge": "Collector's Guide",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "Zelda: Majora's Mask Collector's Guide (Prima)",
-        "category": "Video Game Books",
-        "status": "wanted",
-        "badge": "Collector's Guide",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share",
-        "price": "Amazon Wishlist"
-      },
-      {
-        "name": "The Legend of Zelda Manga Legendary Edition Box Set",
-        "category": "Video Game Books",
-        "status": "wanted",
-        "badge": "5-Book Box Set",
-        "img": "",
-        "url": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF?ref_=wl_share",
-        "price": "Amazon Wishlist"
+        "img": "https://m.media-amazon.com/images/I/915kRYljm3L._AC_SL500_.jpg"
       },
       {
         "name": "The Legend of Zelda: Twilight Princess Complete Box Set (Vols. 1-11)",
         "category": "Video Game Books",
         "status": "wanted",
         "badge": "11-Book Box Set",
-        "img": "https://m.media-amazon.com/images/I/71u9sW4j2YL._SS135_.jpg",
+        "img": "https://m.media-amazon.com/images/I/81Sp6fSC8YL._AC_SL500_.jpg",
         "url": "https://www.amazon.co.uk/dp/1974749665",
         "price": "Complete Box Set"
       },
@@ -2239,34 +2952,36 @@ window.SITE_CONTENT = {
         "name": "Unfu*k Yourself (Gary John Bishop)",
         "category": "Non-Fiction",
         "status": "owned",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/1473668528"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543953780l/32738672.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/32738672-unfu-k-yourself"
       },
       {
         "name": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms",
         "category": "Non-Fiction",
         "status": "owned",
         "badge": "LEGO Almanac",
-        "img": "",
-        "amazon": "https://www.amazon.co.uk/dp/1452183204"
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696959742l/194805515.jpg",
+        "goodreads": "https://www.goodreads.com/book/show/194805515-lego-botanical-almanac"
       },
       {
         "name": "Ladybird: How It Works... The Computer (Ladybird 654)",
         "category": "Misc",
         "status": "owned",
         "badge": "Vintage Ladybird",
-        "img": "",
+        "img": "https://m.media-amazon.com/images/I/71kgAWOqO-L._AC_SL500_.jpg",
         "amazon": "https://www.amazon.co.uk/dp/B0000CN6GD"
       },
       {
         "name": "Usborne Cookery School: Cooking for Beginners",
         "category": "Cookbooks",
-        "status": "owned"
+        "status": "owned",
+        "img": "https://m.media-amazon.com/images/I/910g1Pxi0RL._AC_SL500_.jpg"
       },
       {
         "name": "Roald Dahl's Revolting Recipes & Even More Revolting Recipes",
         "category": "Cookbooks",
-        "status": "owned"
+        "status": "owned",
+        "img": "https://m.media-amazon.com/images/I/815rBUPNN0L._AC_SL500_.jpg"
       },
       {
         "name": "Waitrose Cookery School Course Book",
@@ -2274,86 +2989,34 @@ window.SITE_CONTENT = {
         "status": "owned"
       },
       {
-        "name": "Computer Organization and Design: The Hardware/Software Interface (4th Ed)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Software Engineering (9th Ed by Ian Sommerville)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Interaction Design: Beyond Human-Computer Interaction (2nd Ed)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Quantum Computation and Quantum Information (10th Anniversary Ed)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "The Robotics Primer (Maja J. Matari\u0107)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Business Database Systems (Connolly, Begg & Holowczak)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
         "name": "BTEC National Information Technology Practitioners (Book 1 & 2)",
-        "category": "Computer Science",
+        "category": "CS & Tech",
         "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Objects First with Java: A Practical Introduction Using BlueJ",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
+        "badge": "Textbook",
+        "img": "https://m.media-amazon.com/images/I/91MyxAaNrzL._AC_SL500_.jpg"
       },
       {
         "name": "LogicWorks 4 Interactive Circuit Design Software Manual",
-        "category": "Computer Science",
+        "category": "CS & Tech",
         "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "Principles of Interactive Multimedia (Mark Elsom-Cook)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Textbook"
-      },
-      {
-        "name": "How It Works: The Computer (Ladybird Vintage Series)",
-        "category": "Computer Science",
-        "status": "owned",
-        "badge": "Vintage"
+        "badge": "Textbook",
+        "img": "https://m.media-amazon.com/images/I/514nq5MYcGL._AC_SL500_.jpg"
       },
       {
         "name": "Agil8 Certified ScrumMaster (CSM) Course Workbook",
-        "category": "Computer Science",
+        "category": "CS & Tech",
         "status": "owned",
         "badge": "Courseware"
       },
       {
         "name": "Patrick Quick CS Course Notes (MC68000, CPU Architecture, FSMs & Boolean Logic)",
-        "category": "Computer Science",
+        "category": "CS & Tech",
         "status": "owned",
         "badge": "Courseware"
       },
       {
         "name": "Open University Notations and Models: Mathematical Modelling (Block A Units A1-A4)",
-        "category": "Computer Science",
+        "category": "CS & Tech",
         "status": "owned",
         "badge": "Courseware"
       },
@@ -2361,30 +3024,724 @@ window.SITE_CONTENT = {
         "name": "Lonely Planet Phrasebook Series (Italian, French, Russian, Polish, Greek)",
         "category": "Travel & Culture",
         "status": "owned",
-        "badge": "Language"
+        "badge": "Language",
+        "goodreads": "https://www.goodreads.com/book/show/7704162-lonely-planet-phrasebook",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348631525l/7704162.jpg"
       },
       {
         "name": "Japonisme: Exploring the Japanese Art of Living (Erin Niimi Longhurst)",
         "category": "Travel & Culture",
         "status": "owned",
-        "badge": "Japan"
-      },
-      {
-        "name": "Unf*ck Yourself: Get Out of Your Head and Into Your Life (Gary John Bishop)",
-        "category": "Personal Development",
-        "status": "owned"
+        "badge": "Japan",
+        "img": "https://m.media-amazon.com/images/I/71DPpbn8mUL._AC_SL500_.jpg"
       },
       {
         "name": "Shibari Colouring Book Series (Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension)",
         "category": "Art & Colouring",
-        "status": "owned"
+        "status": "owned",
+        "img": "https://m.media-amazon.com/images/I/71lcfjugeUL._AC_SL500_.jpg"
       },
       {
         "name": "Mindfulness & Extreme Colouring Mandalas Books",
         "category": "Art & Colouring",
-        "status": "owned"
+        "status": "owned",
+        "img": "https://m.media-amazon.com/images/I/7143UAWJtXL._AC_SL500_.jpg"
+      },
+      {
+        "name": "Delicious in Dungeon: The Complete Box Set: 15 (Ryoko Kui)",
+        "category": "Manga",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51LPSRDbqCL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B0D91K43HK",
+        "price": "\u00a3113.25",
+        "asin": "B0D91K43HK"
+      },
+      {
+        "name": "The Encyclopedia of Pasta (Thomas Nelson)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51XiuEiVvwL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/140034610X",
+        "price": "\u00a316.49",
+        "asin": "140034610X",
+        "goodreads": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta"
+      },
+      {
+        "name": "The Encyclopedia of Cast Iron (Cider Mill Press)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51m4Mxm+ojL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/140034462X",
+        "price": "\u00a317.99",
+        "asin": "140034462X",
+        "goodreads": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron"
+      },
+      {
+        "name": "The Encyclopedia of Tapas: 400 Small Plates for All Occasions (The Coastal Kitchen)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51VkWQYnhIL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1646433432",
+        "price": "\u00a320.70",
+        "asin": "1646433432",
+        "goodreads": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas"
+      },
+      {
+        "name": "The Encyclopedia of Cookies (Editors of Cider Mill Press)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51tidKljDwL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1646431804",
+        "price": "\u00a316.13",
+        "asin": "1646431804",
+        "goodreads": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies"
+      },
+      {
+        "name": "The Encyclopedia of Cocktails: Over 1,000 Cocktails for Every Occasion (The Coastal Kitchen)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51+NjS7lteL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1646430980",
+        "price": "\u00a321.73",
+        "asin": "1646430980",
+        "goodreads": "https://www.goodreads.com/book/show/55711190-the-encyclopedia-of-cocktails"
+      },
+      {
+        "name": "The Encyclopedia of Desserts (The Coastal Kitchen)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51bhkHuC3UL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1646434102",
+        "price": "\u00a317.95",
+        "asin": "1646434102",
+        "goodreads": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts"
+      },
+      {
+        "name": "Game Boy: The Box Art Collection (Bitmap Books)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/319Jd5OrWhL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1838019138",
+        "price": "\u00a332.49",
+        "asin": "1838019138",
+        "goodreads": "https://www.goodreads.com/book/show/56497936-game-boy"
+      },
+      {
+        "name": "What's for Dessert: Simple Recipes for Dessert People (Claire Saffitz)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51c9Qu7WnjL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1922616621",
+        "price": "\u00a318.07",
+        "asin": "1922616621"
+      },
+      {
+        "name": "Cook, Eat, Repeat (Nigella Lawson)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/41p0OFSG+CS._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B0856WXZPB",
+        "price": "\u00a34.99",
+        "asin": "B0856WXZPB"
+      },
+      {
+        "name": "Simply Nigella (Nigella Lawson)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/51n4iVsXTOL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B011LOCSAI",
+        "price": "\u00a312.99",
+        "asin": "B011LOCSAI"
+      },
+      {
+        "name": "The Science of Cooking (Stuart Farrimond)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/51ZtYh-Ai4L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B07HY1T7PR",
+        "price": "",
+        "asin": "B07HY1T7PR"
+      },
+      {
+        "name": "Momofuku (David Chang)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/51iUaL7Gx-L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B07F2ZRZR5",
+        "price": "\u00a318.20",
+        "asin": "B07F2ZRZR5"
+      },
+      {
+        "name": "Ottolenghi FLAVOUR (Yotam Ottolenghi)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/41-UqRz8cSL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B0852XM4M7",
+        "price": "\u00a316.99",
+        "asin": "B0852XM4M7"
+      },
+      {
+        "name": "The Food Lab: Better Home Cooking Through Science (J. Kenji L\u00f3pez-Alt)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Kindle Edition",
+        "img": "https://m.media-amazon.com/images/I/411ZgcxhXyL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/B00TG24C34",
+        "price": "\u00a324.69",
+        "asin": "B00TG24C34"
+      },
+      {
+        "name": "The Pie Room (Calum Franklin)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51-PrYhI-qL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1472973615",
+        "price": "\u00a321.13",
+        "asin": "1472973615"
+      },
+      {
+        "name": "Cook This Book: Recipes and Techniques That Actually Teach (Molly Baz)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41Dfb6MiFWL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0593138279",
+        "price": "\u00a323.86",
+        "asin": "0593138279"
+      },
+      {
+        "name": "Gordon Ramsay's Ultimate Cookery Course (Gordon Ramsay)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51mwWA2hqML._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1444756699",
+        "price": "\u00a318.99",
+        "asin": "1444756699"
+      },
+      {
+        "name": "The French Chef Handbook: La cuisine de reference (Michel Maincent-Morel)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/2857086954",
+        "price": "\u00a3103.60",
+        "asin": "2857086954"
+      },
+      {
+        "name": "The Big Fat Duck Cookbook (Heston Blumenthal)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/31ozd9LfZ-L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0747583692",
+        "price": "",
+        "asin": "0747583692"
+      },
+      {
+        "name": "Historic Heston (Heston Blumenthal)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51p+EUaBOHL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/140885757X",
+        "price": "\u00a342.42",
+        "asin": "140885757X"
+      },
+      {
+        "name": "Hestons Fantastical Feast (Heston Blumenthal)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51-ji07y-SL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1408808609",
+        "price": "\u00a326.00",
+        "asin": "1408808609"
+      },
+      {
+        "name": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza (Ken Forkish)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51u9oR5Yr4L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/160774273X",
+        "price": "\u00a322.82",
+        "asin": "160774273X"
+      },
+      {
+        "name": "The Essentials of Classic Italian Cooking (Marcella Hazan)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/512FT9PBlcL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0752227904",
+        "price": "\u00a323.57",
+        "asin": "0752227904"
+      },
+      {
+        "name": "The Slim Palate Paleo Cookbook (Joshua Weissman)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51cDlM10VjL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/162860011X",
+        "price": "\u00a323.27",
+        "asin": "162860011X"
+      },
+      {
+        "name": "Bon Appetit: The Food Lover's Cleanse (Sara Dickerman)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51GLHiH9jcL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0062390236",
+        "price": "\u00a321.84",
+        "asin": "0062390236"
+      },
+      {
+        "name": "Eat What You Watch: A Cookbook for Movie Lovers (Andrew Rea)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41hVtD-8vpL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0008283656",
+        "price": "\u00a313.19",
+        "asin": "0008283656"
+      },
+      {
+        "name": "Binging with Babish (Andrew Rea)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51RRlTy+moL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1328589897",
+        "price": "\u00a322.26",
+        "asin": "1328589897"
+      },
+      {
+        "name": "Momofuku (David Chang)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41wLcvSme0L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1906650357",
+        "price": "\u00a321.15",
+        "asin": "1906650357"
+      },
+      {
+        "name": "The Food Lab: Better Home Cooking Through Science (J. Kenji L\u00f3pez-alt)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/411ZgcxhXyL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0393081087",
+        "price": "\u00a333.69",
+        "asin": "0393081087"
+      },
+      {
+        "name": "SALT FAT ACID HEAT. Cztery sk\u0142adniki (Nosrat Samin)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51wRJ0EI7nL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/8324070370",
+        "price": "",
+        "asin": "8324070370"
+      },
+      {
+        "name": "Dessert Person: Recipes and Guidance for Baking with Confidence (Claire Saffitz)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51I5OgmRgOL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1984826964",
+        "price": "\u00a324.70",
+        "asin": "1984826964",
+        "goodreads": "https://www.goodreads.com/book/show/52028349-dessert-person"
+      },
+      {
+        "name": "In Search of Perfection: Reinventing Kitchen Classics (Heston Blumenthal)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0747584095",
+        "price": "\u00a330.19",
+        "asin": "0747584095"
+      },
+      {
+        "name": "The Fat Duck Cookbook (Heston Blumenthal)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/61XGM4VoQML._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0747597375",
+        "price": "\u00a347.14",
+        "asin": "0747597375"
+      },
+      {
+        "name": "Fullmetal Alchemist: The Complete Four-Panel Comics (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51egPYkSh6L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1974706176",
+        "price": "\u00a37.65",
+        "asin": "1974706176"
+      },
+      {
+        "name": "The Legend of Zelda: A Link to the Past (Shotaro Ishinomori)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51+KiK0PokL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1421575418",
+        "price": "\u00a312.49",
+        "asin": "1421575418"
+      },
+      {
+        "name": "The Legend of Zelda Complete Box Set (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/61u2BrHRNKL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1421542420",
+        "price": "\u00a351.57",
+        "asin": "1421542420"
+      },
+      {
+        "name": "The Legend of Zelda - Legendary Edition Box Set (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51NWrNi6pzL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1974718190",
+        "price": "\u00a364.05",
+        "asin": "1974718190"
+      },
+      {
+        "name": "Hyrule Warriors Legends (Garitt Rocha)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51dMdF6Zu-L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0744017114",
+        "price": "\u00a338.39",
+        "asin": "0744017114"
+      },
+      {
+        "name": "Hyrule Warriors (Prima Games)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51zxspxQEaL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1101898151",
+        "price": "\u00a325.39",
+        "asin": "1101898151"
+      },
+      {
+        "name": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide (Prima Games)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51Wsa06U0CL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/074401669X",
+        "price": "\u00a342.63",
+        "asin": "074401669X"
+      },
+      {
+        "name": "The Legend of Zelda: a Link Between Worlds Collector's Edition (Prima Games)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51C7McoDzBL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0804162727",
+        "price": "\u00a362.15",
+        "asin": "0804162727"
+      },
+      {
+        "name": "The Legend of Zelda: Twilight Princess HD Collector's Edition (Prima Games)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41tBNMp7I7L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/0744017033",
+        "price": "\u00a3480.00",
+        "asin": "0744017033"
+      },
+      {
+        "name": "The Legend of Zelda: Majora's Mask Collector's Edition (Prima Games)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/41hQWibSV+L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1101898437",
+        "price": "\u00a3146.66",
+        "asin": "1101898437"
+      },
+      {
+        "name": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking (Samin Nosrat)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Hardcover",
+        "img": "https://m.media-amazon.com/images/I/51ocrgXUB4L._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1782112308",
+        "price": "\u00a327.44",
+        "asin": "1782112308"
+      },
+      {
+        "name": "Cooking for Geeks, 2e: Real Science, Great Cooks, and Good Food (Jeff Potter)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51w-RKUiZZL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1491928050",
+        "price": "\u00a326.69",
+        "asin": "1491928050"
+      },
+      {
+        "name": "The Legend of Zelda: Encyclopedia (Nintendo)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506375358l/36304310.jpg",
+        "url": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda",
+        "goodreadsId": "36304310"
+      },
+      {
+        "name": "The Legend of Zelda Symphony of the Goddesses: Piano Solos (Koji Kondo)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440725185l/26178414.jpg",
+        "url": "https://www.goodreads.com/book/show/26178414-the-legend-of-zelda-symphony-of-the-goddesses",
+        "goodreads": "https://www.goodreads.com/book/show/26178414-the-legend-of-zelda-symphony-of-the-goddesses",
+        "goodreadsId": "26178414"
+      },
+      {
+        "name": "Pok\u00e9mon Crochet (Sabrina Somers)",
+        "category": "Crafts",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618291798l/50611213.jpg",
+        "url": "https://www.goodreads.com/book/show/50611213-pok-mon-crochet",
+        "goodreads": "https://www.goodreads.com/book/show/50611213-pok-mon-crochet",
+        "goodreadsId": "50611213"
+      },
+      {
+        "name": "Pok\u00e9mon Crochet Vol 2 (Lee Sartori)",
+        "category": "Crafts",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671056987l/67991914.jpg",
+        "url": "https://www.goodreads.com/book/show/67991914-pok-mon-crochet-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/67991914-pok-mon-crochet-vol-2",
+        "goodreadsId": "67991914"
+      },
+      {
+        "name": "Do Preserve: Make your own jams, chutneys, pickles and cordials (Anja Dunk)",
+        "category": "Cookbooks",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444881827l/26782673.jpg",
+        "url": "https://www.goodreads.com/book/show/26782673-do-preserve",
+        "goodreads": "https://www.goodreads.com/book/show/26782673-do-preserve",
+        "goodreadsId": "26782673"
+      },
+      {
+        "name": "The Legend of Zelda: Breath of the Wild (Piggyback)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491248256l/34774665.jpg",
+        "url": "https://www.goodreads.com/book/show/34774665-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/34774665-the-legend-of-zelda",
+        "goodreadsId": "34774665"
+      },
+      {
+        "name": "The Legend of Zelda: Art & Artifacts (Nintendo)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474771267l/31625256.jpg",
+        "url": "https://www.goodreads.com/book/show/31625256-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/31625256-the-legend-of-zelda",
+        "goodreadsId": "31625256"
+      },
+      {
+        "name": "The Legend of Zelda: Hyrule Historia (Nintendo)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399700757l/15845097.jpg",
+        "url": "https://www.goodreads.com/book/show/15845097-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/15845097-the-legend-of-zelda",
+        "goodreadsId": "15845097"
+      },
+      {
+        "name": "Italian Phrasebook & Dictionary (Lonely Planet)",
+        "category": "Travel & Culture",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411150213l/16032833.jpg",
+        "url": "https://www.goodreads.com/book/show/16032833-italian-phrasebook-dictionary",
+        "goodreads": "https://www.goodreads.com/book/show/16032833-italian-phrasebook-dictionary",
+        "goodreadsId": "16032833"
+      },
+      {
+        "name": "Russian Phrasebook & Dictionary (Lonely Planet)",
+        "category": "Travel & Culture",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411149396l/15899835.jpg",
+        "url": "https://www.goodreads.com/book/show/15899835-russian-phrasebook-dictionary",
+        "goodreads": "https://www.goodreads.com/book/show/15899835-russian-phrasebook-dictionary",
+        "goodreadsId": "15899835"
+      },
+      {
+        "name": "Arduino For Dummies (John Nussey)",
+        "category": "CS & Tech",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355992337l/15941487.jpg",
+        "url": "https://www.goodreads.com/book/show/15941487-arduino-for-dummies",
+        "goodreads": "https://www.goodreads.com/book/show/15941487-arduino-for-dummies",
+        "goodreadsId": "15941487"
+      },
+      {
+        "name": "A Court of Thorns and Roses (Sarah J. Maas)",
+        "category": "Fiction & Mythology",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620324329l/50659467.jpg",
+        "url": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses",
+        "goodreads": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses",
+        "goodreadsId": "50659467"
+      },
+      {
+        "name": "A Court of Mist and Fury (Sarah J. Maas)",
+        "category": "Fiction & Mythology",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620325671l/50659468.jpg",
+        "url": "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury",
+        "goodreads": "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury",
+        "goodreadsId": "50659468"
+      },
+      {
+        "name": "Mythos - The Greek Myths Retold (Stephen Fry)",
+        "category": "Fiction & Mythology",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502518360l/35074096.jpg",
+        "url": "https://www.goodreads.com/book/show/35074096-mythos---the-greek-myths-retold",
+        "goodreads": "https://www.goodreads.com/book/show/35074096-mythos---the-greek-myths-retold",
+        "goodreadsId": "35074096"
+      },
+      {
+        "name": "Norse Mythology (Neil Gaiman)",
+        "category": "Fiction & Mythology",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770.jpg",
+        "url": "https://www.goodreads.com/book/show/37903770-norse-mythology",
+        "goodreads": "https://www.goodreads.com/book/show/37903770-norse-mythology",
+        "goodreadsId": "37903770"
+      },
+      {
+        "name": "The Phoenix Project (Gene Kim)",
+        "category": "CS & Tech",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426.jpg",
+        "url": "https://www.goodreads.com/book/show/38191426-the-phoenix-project",
+        "goodreads": "https://www.goodreads.com/book/show/38191426-the-phoenix-project",
+        "goodreadsId": "38191426"
+      },
+      {
+        "name": "The Pasta Man: The Art of Making Spectacular Pasta \u2013 with 40 Recipes (Mateo Zielonka)",
+        "category": "Cookbooks",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604383827l/55278624.jpg",
+        "url": "https://www.goodreads.com/book/show/55278624-the-pasta-man",
+        "goodreads": "https://www.goodreads.com/book/show/55278624-the-pasta-man",
+        "goodreadsId": "55278624"
+      },
+      {
+        "name": "A \u200bCourt of Silver Flames (Sarah J. Maas)",
+        "category": "Fiction & Mythology",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734440950l/53138095.jpg",
+        "url": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames",
+        "goodreads": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames",
+        "goodreadsId": "53138095"
+      },
+      {
+        "name": "A Court of Wings and Ruin (Sarah J. Maas)",
+        "category": "Fiction & Mythology",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623092l/50659472.jpg",
+        "url": "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin",
+        "goodreads": "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin",
+        "goodreadsId": "50659472"
+      },
+      {
+        "name": "A Court of Frost and Starlight (Sarah J. Maas)",
+        "category": "Fiction & Mythology",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585622963l/50659471.jpg",
+        "url": "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-starlight",
+        "goodreads": "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-starlight",
+        "goodreadsId": "50659471"
+      },
+      {
+        "name": "SPY\u00d7FAMILY 1 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562168651l/52961491.jpg",
+        "url": "https://www.goodreads.com/book/show/52961491-spy-family-1",
+        "goodreads": "https://www.goodreads.com/book/show/52961491-spy-family-1",
+        "goodreadsId": "52961491"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 1 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546502507l/40893782.jpg",
+        "url": "https://www.goodreads.com/book/show/40893782-witch-hat-atelier-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/40893782-witch-hat-atelier-vol-1",
+        "goodreadsId": "40893782"
+      },
+      {
+        "name": "My Hero Academia, Vol. 1 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426466596l/25074597.jpg",
+        "url": "https://www.goodreads.com/book/show/25074597-my-hero-academia-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/25074597-my-hero-academia-vol-1",
+        "goodreadsId": "25074597"
+      },
+      {
+        "name": "Horimiya 1 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727083089l/16155151.jpg",
+        "url": "https://www.goodreads.com/book/show/16155151-1-horimiya-1",
+        "goodreads": "https://www.goodreads.com/book/show/16155151-1-horimiya-1",
+        "goodreadsId": "16155151"
+      },
+      {
+        "name": "Kusuriya no Hitorigoto 1 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508432170l/36441259.jpg",
+        "url": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
+        "goodreads": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
+        "goodreadsId": "36441259"
       }
-    ]
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/user/show/194943775"
   },
   "videogames": {
     "title": "Video Games & Platforms Collection (330 Items)",
@@ -2497,9 +3854,9 @@ window.SITE_CONTENT = {
       {
         "name": "Blaster Master Zero",
         "badge": "Nintendo Switch",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jx6.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1q.jpg",
         "platform": "switch",
-        "url": "https://www.igdb.com/games/blaster-master-zero-ii"
+        "url": "https://www.igdb.com/games/blaster-master-zero"
       },
       {
         "name": "Blaster Master Zero 2",
@@ -3780,7 +5137,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3mtv.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/the-legend-of-zelda-twilight-princess--1"
+        "url": "https://www.igdb.com/games/the-legend-of-zelda-twilight-princess"
       },
       {
         "name": "The Legend of Zelda: Collector's Edition",
@@ -3829,28 +5186,28 @@ window.SITE_CONTENT = {
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wr1.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/luigis-mansion"
+        "url": "https://www.igdb.com/games/luigi-s-mansion"
       },
       {
         "name": "Pikmin",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nqg.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/pikmin2"
+        "url": "https://www.igdb.com/games/pikmin"
       },
       {
         "name": "Pikmin 2",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5y6q.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/pikmin-2--4"
+        "url": "https://www.igdb.com/games/pikmin-2"
       },
       {
         "name": "Metroid Prime",
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/metroid-prime--2"
+        "url": "https://www.igdb.com/games/metroid-prime"
       },
       {
         "name": "Metroid Prime 2: Echoes",
@@ -3899,7 +5256,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo GameCube",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61zk.jpg",
         "platform": "gamecube",
-        "url": "https://www.igdb.com/games/soulcalibur-ii--3"
+        "url": "https://www.igdb.com/games/soulcalibur-ii--2"
       },
       {
         "name": "Spartan: Total Warrior",
@@ -3934,7 +5291,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co721v.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/super-mario-64--2"
+        "url": "https://www.igdb.com/games/super-mario-64"
       },
       {
         "name": "Mario Kart 64",
@@ -3955,7 +5312,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tso.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/super-smash-bros-deluxe"
+        "url": "https://www.igdb.com/games/super-smash-bros"
       },
       {
         "name": "Donkey Kong 64",
@@ -3983,21 +5340,21 @@ window.SITE_CONTENT = {
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6c1w.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/banjo-tooie--1"
+        "url": "https://www.igdb.com/games/banjo-tooie"
       },
       {
         "name": "GoldenEye 007",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocckw.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/goldeneye-007--3"
+        "url": "https://www.igdb.com/games/goldeneye-007"
       },
       {
         "name": "Jet Force Gemini",
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7l0k.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/jet-force-gemini--1"
+        "url": "https://www.igdb.com/games/jet-force-gemini"
       },
       {
         "name": "Star Wars: Rogue Squadron",
@@ -4011,7 +5368,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xq.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/bomberman-64--1"
+        "url": "https://www.igdb.com/games/bomberman-64"
       },
       {
         "name": "Yoshi's Story",
@@ -4072,7 +5429,7 @@ window.SITE_CONTENT = {
       {
         "name": "Pok\u00e9mon Black Version",
         "badge": "Nintendo DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8d.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1x.jpg",
         "platform": "ds",
         "url": "https://www.igdb.com/games/pokemon-black-version"
       },
@@ -4142,16 +5499,9 @@ window.SITE_CONTENT = {
       {
         "name": "Pok\u00e9mon Red Version",
         "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k6q.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.jpg",
         "platform": "gb_gbc",
         "url": "https://www.igdb.com/games/pokemon-red-version"
-      },
-      {
-        "name": "Pok\u00e9mon Yellow Version",
-        "badge": "Game Boy & Game Boy Colour",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
-        "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/pokemon-yellow-version-special-pikachu-edition"
       },
       {
         "name": "Pok\u00e9mon Silver Version",
@@ -4282,14 +5632,14 @@ window.SITE_CONTENT = {
       {
         "name": "Half-Life 2",
         "badge": "Steam",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.jpg",
         "platform": "pc",
         "url": "https://www.igdb.com/games/half-life-2"
       },
       {
         "name": "Hollow Knight: Silksong",
         "badge": "Steam",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
         "platform": "pc",
         "url": "https://www.igdb.com/games/hollow-knight-silksong"
       },
@@ -4310,7 +5660,7 @@ window.SITE_CONTENT = {
       {
         "name": "Portal 2",
         "badge": "Steam",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
         "platform": "pc",
         "url": "https://www.igdb.com/games/portal-2"
       },
@@ -4331,7 +5681,7 @@ window.SITE_CONTENT = {
       {
         "name": "Valheim",
         "badge": "Steam",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob24q.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocygu.jpg",
         "platform": "pc",
         "url": "https://www.igdb.com/games/valheim"
       },
@@ -4389,7 +5739,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4t0k.jpg",
         "platform": "ds",
-        "url": "https://www.igdb.com/games/spider-man-2"
+        "url": "https://www.igdb.com/games/spider-man-2--1"
       },
       {
         "name": "The Simpsons Game",
@@ -4431,7 +5781,7 @@ window.SITE_CONTENT = {
         "badge": "Nintendo 64",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whq.jpg",
         "platform": "n64",
-        "url": "https://www.igdb.com/games/glover--2"
+        "url": "https://www.igdb.com/games/glover"
       },
       {
         "name": "V-Rally Edition '99",
@@ -4452,14 +5802,14 @@ window.SITE_CONTENT = {
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o14.jpg",
         "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/wario-land-super-mario-land-3"
+        "url": "https://www.igdb.com/games/super-mario-land"
       },
       {
         "name": "Tetris",
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufl.jpg",
         "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/tetris--38"
+        "url": "https://www.igdb.com/games/tetris--1"
       },
       {
         "name": "Pok\u00e9mon Puzzle Challenge",
@@ -4494,7 +5844,7 @@ window.SITE_CONTENT = {
         "badge": "Game Boy & Game Boy Colour",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wd9.jpg",
         "platform": "gb_gbc",
-        "url": "https://www.igdb.com/games/donkey-kong--1"
+        "url": "https://www.igdb.com/games/donkey-kong--2"
       },
       {
         "name": "Super Mario Bros. / Duck Hunt",
@@ -4745,7 +6095,7 @@ window.SITE_CONTENT = {
         "name": "Super Smash Bros. for Nintendo 3DS",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wvk.jpg",
-        "url": "https://www.igdb.com/games/super-smash-bros-for-nintendo-3ds-ryu",
+        "url": "https://www.igdb.com/games/super-smash-bros-for-nintendo-3ds",
         "platform": "3ds"
       },
       {
@@ -4773,7 +6123,7 @@ window.SITE_CONTENT = {
         "name": "Super Mario Maker for Nintendo 3DS",
         "badge": "Nintendo 3DS",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7f7h.jpg",
-        "url": "https://www.igdb.com/games/super-smash-bros-for-nintendo-3ds-super-mario-maker",
+        "url": "https://www.igdb.com/games/super-mario-maker-for-nintendo-3ds",
         "platform": "3ds"
       },
       {
@@ -4786,8 +6136,8 @@ window.SITE_CONTENT = {
       {
         "name": "Hyrule Warriors: Legends",
         "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54x3.jpg",
-        "url": "https://www.igdb.com/games/hyrule-warriors-legends-of-hyrule-pack",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j9o.jpg",
+        "url": "https://www.igdb.com/games/hyrule-warriors-legends",
         "platform": "3ds"
       },
       {
@@ -4800,7 +6150,7 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: A Link Between Worlds",
         "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9p2.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p0j.jpg",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-a-link-between-worlds",
         "platform": "3ds"
       },
@@ -4821,9 +6171,1703 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Ocarina of Time 3D",
         "badge": "Nintendo 3DS",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coba98.jpg",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.jpg",
         "url": "https://www.igdb.com/games/the-legend-of-zelda-ocarina-of-time-3d",
         "platform": "3ds"
+      },
+      {
+        "name": "BioShock",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mli.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bioshock"
+      },
+      {
+        "name": "BioShock 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mlj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bioshock-2"
+      },
+      {
+        "name": "Deus Ex: Invisible War",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coboyb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deus-ex-invisible-war"
+      },
+      {
+        "name": "Portal",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay61.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/portal"
+      },
+      {
+        "name": "MDK2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co255w.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/mdk2"
+      },
+      {
+        "name": "MDK",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co255x.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/mdk"
+      },
+      {
+        "name": "Rome: Total War",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zt9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/rome-total-war"
+      },
+      {
+        "name": "Rome: Total War - Alexander",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xjw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/rome-total-war-alexander"
+      },
+      {
+        "name": "Borderlands",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/borderlands"
+      },
+      {
+        "name": "Hitman: Absolution",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hitman-absolution"
+      },
+      {
+        "name": "Call of Duty: Black Ops",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-black-ops"
+      },
+      {
+        "name": "Call of Duty: Modern Warfare 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cwt.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-modern-warfare-2"
+      },
+      {
+        "name": "Call of Duty",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n19.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty"
+      },
+      {
+        "name": "Call of Duty 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3acf.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-2"
+      },
+      {
+        "name": "Call of Duty 4: Modern Warfare",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wko.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-4-modern-warfare"
+      },
+      {
+        "name": "Call of Duty: United Offensive",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ib.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-united-offensive"
+      },
+      {
+        "name": "Call of Duty: World at War",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wl8.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-world-at-war"
+      },
+      {
+        "name": "Darwinia",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o5u.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/darwinia"
+      },
+      {
+        "name": "Hitman 2: Silent Assassin",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pdt.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hitman-2-silent-assassin"
+      },
+      {
+        "name": "Saints Row 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yt7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/saints-row-2"
+      },
+      {
+        "name": "Sid Meier's Civilization V",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20up.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/sid-meier-s-civilization-v"
+      },
+      {
+        "name": "Saints Row: The Third",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2634.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/saints-row-the-third"
+      },
+      {
+        "name": "Super Meat Boy",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co276m.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/super-meat-boy"
+      },
+      {
+        "name": "Team Fortress 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/team-fortress-2"
+      },
+      {
+        "name": "Call of Duty: Modern Warfare 3",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkn.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-modern-warfare-3"
+      },
+      {
+        "name": "Hitman: Blood Money",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dm6.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hitman-blood-money"
+      },
+      {
+        "name": "Hitman: Contracts",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ovw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hitman-contracts"
+      },
+      {
+        "name": "Hitman: Codename 47",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bkw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hitman-codename-47"
+      },
+      {
+        "name": "South Park: The Stick of Truth",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/south-park-the-stick-of-truth"
+      },
+      {
+        "name": "Limbo",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/limbo"
+      },
+      {
+        "name": "Prison Architect",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/prison-architect"
+      },
+      {
+        "name": "Journey",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9lk.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/journey"
+      },
+      {
+        "name": "Company of Heroes 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaayw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/company-of-heroes-2"
+      },
+      {
+        "name": "Spore",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ac9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/spore"
+      },
+      {
+        "name": "Terraria",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/terraria"
+      },
+      {
+        "name": "Saints Row IV",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nrn.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/saints-row-iv"
+      },
+      {
+        "name": "Bastion",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qlj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bastion"
+      },
+      {
+        "name": "Fez",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/fez"
+      },
+      {
+        "name": "Call of Duty: Ghosts",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b15.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-ghosts"
+      },
+      {
+        "name": "The Cave",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7aig.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-cave"
+      },
+      {
+        "name": "DEFCON",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ob4.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/defcon"
+      },
+      {
+        "name": "Warframe",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocytd.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/warframe"
+      },
+      {
+        "name": "Age of Empires II: HD Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xxx.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-ii-hd-edition"
+      },
+      {
+        "name": "Anno 2070",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1niy.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/anno-2070"
+      },
+      {
+        "name": "Transistor",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob23o.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/transistor"
+      },
+      {
+        "name": "The Stanley Parable",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-stanley-parable"
+      },
+      {
+        "name": "FTL: Faster Than Light",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9chw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/ftl-faster-than-light"
+      },
+      {
+        "name": "Kerbal Space Program",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26n5.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/kerbal-space-program"
+      },
+      {
+        "name": "Don't Starve",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/don-t-starve"
+      },
+      {
+        "name": "Garry's Mod",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pgw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/garry-s-mod"
+      },
+      {
+        "name": "Spore: Galactic Adventures",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co41zm.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/spore-galactic-adventures"
+      },
+      {
+        "name": "Democracy 3",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pw6.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/democracy-3"
+      },
+      {
+        "name": "Deus Ex: The Fall",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ojo.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deus-ex-the-fall"
+      },
+      {
+        "name": "The Witness",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3hih.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-witness"
+      },
+      {
+        "name": "Borderlands: The Pre-Sequel",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tq.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/borderlands-the-pre-sequel"
+      },
+      {
+        "name": "SuperHot",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ybp.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/superhot"
+      },
+      {
+        "name": "Ori and the Blind Forest",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y41.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/ori-and-the-blind-forest"
+      },
+      {
+        "name": "The Talos Principle",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rb5.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-talos-principle"
+      },
+      {
+        "name": "Saints Row: Gat Out of Hell",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23fw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/saints-row-gat-out-of-hell"
+      },
+      {
+        "name": "Dark Souls II: Scholar of the First Sin",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobb02.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/dark-souls-ii-scholar-of-the-first-sin"
+      },
+      {
+        "name": "Tabletop Simulator",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xe.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/tabletop-simulator"
+      },
+      {
+        "name": "Uplink",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co220r.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/uplink"
+      },
+      {
+        "name": "Axiom Verge",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1kml.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/axiom-verge"
+      },
+      {
+        "name": "Grim Fandango Remastered",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27pj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/grim-fandango-remastered"
+      },
+      {
+        "name": "The Basement Collection",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jtb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-basement-collection"
+      },
+      {
+        "name": "Grow Home",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co217x.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/grow-home"
+      },
+      {
+        "name": "Praetorians",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctnr.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/praetorians"
+      },
+      {
+        "name": "Ibb & Obb",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qu9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/ibb-and-obb"
+      },
+      {
+        "name": "Little Nightmares",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/little-nightmares"
+      },
+      {
+        "name": "Worms",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xqn.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/worms"
+      },
+      {
+        "name": "Half-Life 2: Deathmatch",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw4.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/half-life-2-deathmatch"
+      },
+      {
+        "name": "Titan Souls",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xo0.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/titan-souls"
+      },
+      {
+        "name": "The Flame in the Flood",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23e4.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-flame-in-the-flood"
+      },
+      {
+        "name": "Deus Ex: Human Revolution - Director's Cut",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tgb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deus-ex-human-revolution-directors-cut"
+      },
+      {
+        "name": "Magicka 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrv.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/magicka-2"
+      },
+      {
+        "name": "Age of Mythology: Extended Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xm0.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-mythology-extended-edition"
+      },
+      {
+        "name": "Yooka-Laylee",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4v.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/yooka-laylee"
+      },
+      {
+        "name": "Brawlhalla",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6i3u.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/brawlhalla"
+      },
+      {
+        "name": "South Park: The Fractured But Whole",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/south-park-the-fractured-but-whole"
+      },
+      {
+        "name": "Gang Beasts",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24is.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/gang-beasts"
+      },
+      {
+        "name": "Enter the Gungeon",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobl6c.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/enter-the-gungeon"
+      },
+      {
+        "name": "Rocket League",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocyri.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/rocket-league"
+      },
+      {
+        "name": "Armello",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1m.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/armello"
+      },
+      {
+        "name": "The Jackbox Party Pack",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zel.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack"
+      },
+      {
+        "name": "Relic Hunters Zero",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pj8.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/relic-hunters-zero"
+      },
+      {
+        "name": "Undertale",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1t2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/undertale"
+      },
+      {
+        "name": "Manifold Garden",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ws9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/manifold-garden"
+      },
+      {
+        "name": "Final Fantasy X/X-2 HD Remaster",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zpl.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-x-slash-x-2-hd-remaster"
+      },
+      {
+        "name": "Impossible Creatures",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21a0.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/impossible-creatures"
+      },
+      {
+        "name": "Hollow Knight",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobfzp.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hollow-knight"
+      },
+      {
+        "name": "Mount Your Friends",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qry.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/mount-your-friends"
+      },
+      {
+        "name": "Pac-Man: Championship Edition DX+",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28o7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/pac-man-championship-edition-dx-plus"
+      },
+      {
+        "name": "Human: Fall Flat",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocx4j.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/human-fall-flat"
+      },
+      {
+        "name": "Pandora: First Contact",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qsp.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/pandora-first-contact"
+      },
+      {
+        "name": "The Sun and Moon",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23fk.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-sun-and-moon"
+      },
+      {
+        "name": "Don't Starve Together",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqp.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/dont-starve-together"
+      },
+      {
+        "name": "ShellShock Live",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u4u.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/shellshock-live"
+      },
+      {
+        "name": "Northgard",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/guqifzispzew1rubnyzd.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/northgard"
+      },
+      {
+        "name": "The Jackbox Party Pack 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vgp.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-2"
+      },
+      {
+        "name": "The Jackbox Party Pack 3",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zen.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-3"
+      },
+      {
+        "name": "Borderlands 3",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r3.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/borderlands-3"
+      },
+      {
+        "name": "Unravel Two",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95jr.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/unravel-two"
+      },
+      {
+        "name": "Half-Life Deathmatch: Source",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc32g.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/half-life-deathmatch-source"
+      },
+      {
+        "name": "Ori and the Blind Forest: Definitive Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s0m.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/ori-and-the-blind-forest-definitive-edition"
+      },
+      {
+        "name": "Fe",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28r1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/fe"
+      },
+      {
+        "name": "Grow Up",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6e.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/grow-up"
+      },
+      {
+        "name": "For the King",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hxc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/for-the-king"
+      },
+      {
+        "name": "Multiwinia: Survival of the Flattest",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1og6.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/multiwinia-survival-of-the-flattest"
+      },
+      {
+        "name": "Rise of Nations: Extended Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h27.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/rise-of-nations-extended-edition"
+      },
+      {
+        "name": "Reigns",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8j.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/reigns"
+      },
+      {
+        "name": "Giga Wrecker",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5462.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/giga-wrecker"
+      },
+      {
+        "name": "Tunic",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/tunic"
+      },
+      {
+        "name": "Zup!",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w5z.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/zup"
+      },
+      {
+        "name": "Deus Ex: Game of the Year Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hm2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deus-ex-game-of-the-year-edition"
+      },
+      {
+        "name": "Lost Ark",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w4j.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/lost-ark"
+      },
+      {
+        "name": "Celeste",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9dh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/celeste"
+      },
+      {
+        "name": "Star Wars Battlefront II",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/star-wars-battlefront-ii--1"
+      },
+      {
+        "name": "Blasphemous",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0xj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/blasphemous"
+      },
+      {
+        "name": "Shovel Knight: Treasure Trove",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsx.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/shovel-knight-treasure-trove"
+      },
+      {
+        "name": "Raft",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xdc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/raft"
+      },
+      {
+        "name": "We Were Here",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1odo.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/we-were-here"
+      },
+      {
+        "name": "Yoku's Island Express",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob89x.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/yokus-island-express"
+      },
+      {
+        "name": "SimCity 4: Deluxe Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc53o.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/simcity-4-deluxe-edition"
+      },
+      {
+        "name": "The Jackbox Party Pack 4",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeo.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-4"
+      },
+      {
+        "name": "Risk of Rain 2",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/risk-of-rain-2"
+      },
+      {
+        "name": "Age of Empires III: Complete Collection",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s8r.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-iii-complete-collection"
+      },
+      {
+        "name": "Total War: Rome II - Emperor Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co44sh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/total-war-rome-ii-emperor-edition"
+      },
+      {
+        "name": "Frequent Flyer",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26w4.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/frequent-flyer"
+      },
+      {
+        "name": "Pico Park",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yks.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/pico-park"
+      },
+      {
+        "name": "BioShock Remastered",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bioshock-remastered"
+      },
+      {
+        "name": "BioShock 2 Remastered",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bioshock-2-remastered"
+      },
+      {
+        "name": "Barony",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ums.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/barony"
+      },
+      {
+        "name": "The Swords of Ditto",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27bh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-swords-of-ditto"
+      },
+      {
+        "name": "A Way Out",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/a-way-out"
+      },
+      {
+        "name": "Monster Hunter: World",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rst.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/monster-hunter-world"
+      },
+      {
+        "name": "Age of Empires: Definitive Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdy.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-definitive-edition"
+      },
+      {
+        "name": "Slay the Spire",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iyf.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/slay-the-spire"
+      },
+      {
+        "name": "BattleBit Remastered",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m2s.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/battlebit-remastered"
+      },
+      {
+        "name": "Age of Empires IV",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39tg.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-iv"
+      },
+      {
+        "name": "Age of Empires III: Definitive Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fin.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/age-of-empires-iii-definitive-edition"
+      },
+      {
+        "name": "Reigns: Her Majesty",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4a5e.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/reigns-her-majesty"
+      },
+      {
+        "name": "Superliminal",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/superliminal"
+      },
+      {
+        "name": "Spore: Creepy and Cute",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2re1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/spore-creepy-and-cute"
+      },
+      {
+        "name": "Star Wars Jedi: Fallen Order",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/star-wars-jedi-fallen-order"
+      },
+      {
+        "name": "Lazy Galaxy",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co274q.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/lazy-galaxy"
+      },
+      {
+        "name": "Plants vs. Zombies: Garden Warfare 2 - Deluxe Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7i39.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/plants-vs-zombies-garden-warfare-2-deluxe-edition"
+      },
+      {
+        "name": "Monster Sanctuary",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/monster-sanctuary"
+      },
+      {
+        "name": "The Jackbox Party Pack 5",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dhl.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-5"
+      },
+      {
+        "name": "Lazy Galaxy: Rebel Story",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2cgn.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/lazy-galaxy-rebel-story"
+      },
+      {
+        "name": "Halo Infinite",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dto.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/halo-infinite"
+      },
+      {
+        "name": "Remnant: From the Ashes",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coct8j.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/remnant-from-the-ashes"
+      },
+      {
+        "name": "Gato Roboto",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ugu.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/gato-roboto"
+      },
+      {
+        "name": "Stray",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/stray"
+      },
+      {
+        "name": "Minecraft Dungeons",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co233r.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/minecraft-dungeons"
+      },
+      {
+        "name": "Project Winter",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t2u.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/project-winter"
+      },
+      {
+        "name": "Among Us",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/among-us"
+      },
+      {
+        "name": "Hades",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hades--1"
+      },
+      {
+        "name": "Merchant of the Skies",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qe2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/merchant-of-the-skies"
+      },
+      {
+        "name": "Islanders",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s93.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/islanders"
+      },
+      {
+        "name": "Sniper Elite 5",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/sniper-elite-5"
+      },
+      {
+        "name": "Borderlands: Game of the Year Enhanced",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqa.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/borderlands-game-of-the-year-enhanced"
+      },
+      {
+        "name": "Yooka-Laylee and the Impossible Lair",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z9b.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/yooka-laylee-and-the-impossible-lair"
+      },
+      {
+        "name": "Fall Guys",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7cs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/fall-guys"
+      },
+      {
+        "name": "Before We Leave",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k34.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/before-we-leave"
+      },
+      {
+        "name": "Biped",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62i1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/biped"
+      },
+      {
+        "name": "Wingspan",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xh8.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/wingspan"
+      },
+      {
+        "name": "Humankind",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xs1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/humankind"
+      },
+      {
+        "name": "Exit the Gungeon",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmt.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/exit-the-gungeon"
+      },
+      {
+        "name": "The Jackbox Party Pack 6",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zep.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-6"
+      },
+      {
+        "name": "Endzone: A World Apart",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jh2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/endzone-a-world-apart"
+      },
+      {
+        "name": "Timberborn",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtu9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/timberborn"
+      },
+      {
+        "name": "The Survivalists",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1usq.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-survivalists"
+      },
+      {
+        "name": "Screaming Chicken: Ultimate Showdown",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hrv.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/screaming-chicken-ultimate-showdown"
+      },
+      {
+        "name": "Sheepo",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gpx.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/sheepo"
+      },
+      {
+        "name": "Gunfire Reborn",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c0p.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/gunfire-reborn"
+      },
+      {
+        "name": "Star Wars: Squadrons",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/star-wars-squadrons"
+      },
+      {
+        "name": "Dorfromantik",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lzk.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/dorfromantik"
+      },
+      {
+        "name": "Townscaper",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50bc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/townscaper"
+      },
+      {
+        "name": "Party Animals",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ljw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/party-animals"
+      },
+      {
+        "name": "The Jackbox Party Pack 7",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zeq.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-7"
+      },
+      {
+        "name": "PowerWash Simulator",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gek.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/powerwash-simulator"
+      },
+      {
+        "name": "Root",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2myz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/root--1"
+      },
+      {
+        "name": "Prodigal",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hf8.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/prodigal"
+      },
+      {
+        "name": "The Wandering Village",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa54d.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-wandering-village"
+      },
+      {
+        "name": "Capcom Arcade Stadium",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mgd.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/capcom-arcade-stadium"
+      },
+      {
+        "name": "Viewfinder",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaev1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/viewfinder"
+      },
+      {
+        "name": "ALTF4",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48gq.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/altf4"
+      },
+      {
+        "name": "Goose Goose Duck",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uqr.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/goose-goose-duck"
+      },
+      {
+        "name": "Total War: Rome Remastered",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w4b.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/total-war-rome-remastered"
+      },
+      {
+        "name": "Death's Door",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45xc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deaths-door"
+      },
+      {
+        "name": "Escape Simulator",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49cc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/escape-simulator"
+      },
+      {
+        "name": "PlateUp!",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ty9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/plateup"
+      },
+      {
+        "name": "Palworld",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7n02.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/palworld"
+      },
+      {
+        "name": "The Anacrusis",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bgn.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-anacrusis"
+      },
+      {
+        "name": "Vampire: The Masquerade - Bloodhunt",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4lbc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/vampire-the-masquerade-bloodhunt"
+      },
+      {
+        "name": "A Little to the Left",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887d.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/a-little-to-the-left"
+      },
+      {
+        "name": "Settlement Survival",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3v7t.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/settlement-survival"
+      },
+      {
+        "name": "Final Fantasy",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pl8.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy--3"
+      },
+      {
+        "name": "Final Fantasy II",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pla.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-ii--3"
+      },
+      {
+        "name": "Final Fantasy III",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6plb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-iii--3"
+      },
+      {
+        "name": "Final Fantasy IV",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6plc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-iv--2"
+      },
+      {
+        "name": "Final Fantasy V",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pld.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-v--2"
+      },
+      {
+        "name": "Final Fantasy VI",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ple.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-vi--2"
+      },
+      {
+        "name": "Trolley Problem, Inc.",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4n8h.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/trolley-problem-inc"
+      },
+      {
+        "name": "Cult of the Lamb",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbwj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/cult-of-the-lamb"
+      },
+      {
+        "name": "Blasphemous II",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ej3.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/blasphemous-ii"
+      },
+      {
+        "name": "Islets",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47vv.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/islets"
+      },
+      {
+        "name": "Just King",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jf1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/just-king"
+      },
+      {
+        "name": "Aperture Desk Job",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ibh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/aperture-desk-job"
+      },
+      {
+        "name": "Bokura",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wx7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/bokura"
+      },
+      {
+        "name": "Stacklands",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rpb.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/stacklands"
+      },
+      {
+        "name": "Another Crab's Treasure",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6mrs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/another-crabs-treasure"
+      },
+      {
+        "name": "The Knight Witch",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vht.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-knight-witch"
+      },
+      {
+        "name": "The Plucky Squire",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6z44.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-plucky-squire"
+      },
+      {
+        "name": "The Lord of the Rings: Return to Moria",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7a7g.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-lord-of-the-rings-return-to-moria"
+      },
+      {
+        "name": "The Entropy Centre",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53fg.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-entropy-centre"
+      },
+      {
+        "name": "High on Life",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67qo.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/high-on-life"
+      },
+      {
+        "name": "Final Fantasy VII",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobnm9.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-vii--11"
+      },
+      {
+        "name": "Omega Strikers",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5382.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/omega-strikers--1"
+      },
+      {
+        "name": "Spellmasons",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ie4.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/spellmasons"
+      },
+      {
+        "name": "Portal with RTX",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5b9z.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/portal-with-rtx"
+      },
+      {
+        "name": "Tiny Glade",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vaz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/tiny-glade"
+      },
+      {
+        "name": "Risk of Rain Returns",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xm2.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/risk-of-rain-returns"
+      },
+      {
+        "name": "Deep Rock Galactic: Survivor",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co68ah.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deep-rock-galactic-survivor"
+      },
+      {
+        "name": "Crypt Custodian",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lf7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/crypt-custodian"
+      },
+      {
+        "name": "Constance",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6z3r.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/constance--1"
+      },
+      {
+        "name": "Veritus",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8654.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/veritus"
+      },
+      {
+        "name": "Lockdown Protocol",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pnz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/lockdown-protocol--2"
+      },
+      {
+        "name": "Marvel Rivals",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocvia.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/marvel-rivals"
+      },
+      {
+        "name": "Deadlock",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc7s.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/deadlock--2"
+      },
+      {
+        "name": "Wanderstop",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bil.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/wanderstop"
+      },
+      {
+        "name": "FragPunk",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocsjf.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/fragpunk"
+      },
+      {
+        "name": "Mio: Memories in Orbit",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tkh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/mio-memories-in-orbit"
+      },
+      {
+        "name": "Date Everything!",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa01y.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/date-everything"
+      },
+      {
+        "name": "Two Point Museum",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9t39.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/two-point-museum"
+      },
+      {
+        "name": "Split Fiction",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gf.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/split-fiction"
+      },
+      {
+        "name": "R.E.P.O.",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9lxz.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/repo"
+      },
+      {
+        "name": "LEGO Voyagers",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/lego-voyagers"
+      },
+      {
+        "name": "Peak",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocokj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/peak--1"
+      },
+      {
+        "name": "Little Nightmares: Enhanced Edition",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa17d.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/little-nightmares-enhanced-edition"
+      },
+      {
+        "name": "Control",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/control"
+      },
+      {
+        "name": "Control Resonant",
+        "badge": "Steam",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc64f.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/control-resonant--1"
       }
     ],
     "platforms": {
@@ -4875,7 +7919,206 @@ window.SITE_CONTENT = {
         "label": "\ud83d\uddff Zelda & Mario Amiibo Collection",
         "color": "#f97316"
       }
-    }
+    },
+    "wishlistUrl": "https://www.igdb.com/users/alectronic0/lists/steam-wishlist",
+    "wishlist": [
+      {
+        "name": "Call of Duty: Advanced Warfare",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wky.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/call-of-duty-advanced-warfare"
+      },
+      {
+        "name": "A Hat in Time",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1uc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/a-hat-in-time"
+      },
+      {
+        "name": "NieR: Automata",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/nier-automata"
+      },
+      {
+        "name": "Golf With Your Friends",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaazs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/golf-with-your-friends"
+      },
+      {
+        "name": "Pepper Grinder",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rgd.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/pepper-grinder"
+      },
+      {
+        "name": "Ori and the Will of the Wisps",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjl7.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/ori-and-the-will-of-the-wisps"
+      },
+      {
+        "name": "Horizon Zero Dawn: Complete Edition",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tem.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/horizon-zero-dawn-complete-edition"
+      },
+      {
+        "name": "The Talos Principle II",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-talos-principle-ii"
+      },
+      {
+        "name": "Elden Ring",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/elden-ring"
+      },
+      {
+        "name": "Grounded",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5d1l.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/grounded"
+      },
+      {
+        "name": "Sackboy: A Big Adventure",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4522.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/sackboy-a-big-adventure"
+      },
+      {
+        "name": "The Jackbox Party Pack 8",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4sma.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/the-jackbox-party-pack-8"
+      },
+      {
+        "name": "Final Fantasy V",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ycd.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/final-fantasy-v--1"
+      },
+      {
+        "name": "Frostpunk 2",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yrc.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/frostpunk-2"
+      },
+      {
+        "name": "Nightingale",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8sxo.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/nightingale--2"
+      },
+      {
+        "name": "Momodora: Moonlit Farewell",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7mxs.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/momodora-moonlit-farewell"
+      },
+      {
+        "name": "Mina the Hollower",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/mina-the-hollower"
+      },
+      {
+        "name": "Nine Sols",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4l2s.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/nine-sols"
+      },
+      {
+        "name": "Godsworn",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53ag.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/godsworn"
+      },
+      {
+        "name": "New Cycle",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nxh.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/new-cycle"
+      },
+      {
+        "name": "Goblin Cleanup",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaiec.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/goblin-cleanup"
+      },
+      {
+        "name": "Pipsqueak!",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ar1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/pipsqueak"
+      },
+      {
+        "name": "Hawthorn",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xb5.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/hawthorn"
+      },
+      {
+        "name": "Moonlighter 2: The Endless Vault",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94bw.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/moonlighter-2-the-endless-vault"
+      },
+      {
+        "name": "Escape Simulator 2",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarix.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/escape-simulator-2"
+      },
+      {
+        "name": "Golf With Your Friends 2",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyw1.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/golf-with-your-friends-2"
+      },
+      {
+        "name": "Octopath Traveler 0",
+        "badge": "Steam Wishlist",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7is.jpg",
+        "platform": "pc",
+        "url": "https://www.igdb.com/games/octopath-traveler-0"
+      }
+    ],
+    "note": "Please don't buy me video games. This page is here to show what I play and like. If you'd like to help me pick up a game, money or a Steam or Nintendo eShop gift card is perfect.",
+    "noteLinks": [
+      {
+        "label": "Send a Steam gift card",
+        "href": "https://store.steampowered.com/digitalgiftcards/selectgiftcard"
+      }
+    ]
   },
   "health": {
     "title": "Health & Gym Gadgets \ud83e\ude7a",
@@ -4884,28 +8127,28 @@ window.SITE_CONTENT = {
       {
         "name": "OMRON Complete\u2122 Blood Pressure & ECG Monitor",
         "category": "Biometrics",
-        "img": "https://m.media-amazon.com/images/I/61gR5i7X6AL._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/71FP3PnJ3vL._AC_SL500_.jpg",
         "url": "https://www.omron-healthcare.co.uk/blood-pressure-monitors/complete.html",
         "badge": "ECG + BP 2-in-1"
       },
       {
         "name": "Hilo 24/7 Wearable Continuous Blood Pressure Band",
         "category": "Wearables",
-        "img": "https://hilo-health.com/cdn/shop/files/hilo_band_black.jpg",
+        "img": "https://m.media-amazon.com/images/I/619jo8Kmc3L._AC_SL500_.jpg",
         "url": "https://hilo-health.com/",
         "badge": "24/7 Monitoring"
       },
       {
         "name": "OMRON Pulse Oximeter P300 Smart",
         "category": "Biometrics",
-        "img": "https://m.media-amazon.com/images/I/61MvSg5K4uL._AC_SL1500_.jpg",
+        "img": "",
         "url": "https://www.omron-healthcare.co.uk/",
         "badge": "SpO2 & Pulse"
       },
       {
         "name": "Withings Sleep Analyzer",
         "category": "Wearables",
-        "img": "https://cdn-reichelt.de/bilder/web/artikel_ws/A300/ME120_01.jpg",
+        "img": "https://m.media-amazon.com/images/I/710gt6QQs9S._AC_SL500_.jpg",
         "url": "https://www.withings.com/en-uk/products/sleep-analyzer",
         "badge": "Sleep Apnea & Tracking"
       },
@@ -4920,50 +8163,44 @@ window.SITE_CONTENT = {
         "name": "Withings ScanWatch (42mm Black)",
         "category": "Wearables",
         "badge": "ECG & SpO2 Hybrid Watch",
-        "img": "https://m.media-amazon.com/images/I/71uK5c+T5hL._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B07YWMX39Q"
+        "img": ""
       },
       {
         "name": "Withings Body Cardio Scale",
         "category": "Biometrics",
         "badge": "Premium Wi-Fi Scale",
-        "img": "https://m.media-amazon.com/images/I/51yV+94o7pL._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B01F3LI734"
+        "img": ""
       },
       {
         "name": "Withings Thermo Temporal Thermometer",
         "category": "Biometrics",
         "badge": "Temporal Contactless",
-        "img": "https://m.media-amazon.com/images/I/51G+y8b0T2L._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B01H49J44C"
+        "img": ""
       },
       {
         "name": "RENPHO Thermacool Massage Gun",
         "category": "Recovery",
         "badge": "Hot & Cold Deep Tissue",
-        "img": "https://m.media-amazon.com/images/I/61k1jY4h62L._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B08CXS24N9"
+        "img": "https://m.media-amazon.com/images/I/61Q+8htRhdL._AC_SL500_.jpg"
       },
       {
         "name": "YOLEO Adjustable Weight Bench",
         "category": "Gym",
         "badge": "Foldable Gym Bench",
-        "img": "https://m.media-amazon.com/images/I/71gY5l5Y1ML._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B07ZQH717F"
+        "img": "https://m.media-amazon.com/images/I/81pu4FK5uSL._AC_SL500_.jpg"
       },
       {
         "name": "AFAC Finger Pulse Oximeter",
         "category": "Biometrics",
         "badge": "SpO2 Finger Monitor",
-        "img": "https://m.media-amazon.com/images/I/71Z+Lz3aZ2L._AC_SL1500_.jpg",
-        "url": "https://www.amazon.co.uk/dp/B09VGR16T6"
+        "img": "https://m.media-amazon.com/images/I/81rEJFEZ-lS._AC_SL500_.jpg"
       }
     ],
     "wishlist": [
       {
         "name": "Withings Body Scan Smart Scale",
         "price": "\u00a3349.95",
-        "img": "https://m.media-amazon.com/images/I/61kC8b9yA-L._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/61Jz9i5sA+L._AC_SL500_.jpg",
         "url": "https://www.withings.com/uk/en/body-scan",
         "status": "Segmented Body Comp"
       }
@@ -5683,7 +8920,7 @@ window.SITE_CONTENT = {
             "name": "HOOBRO Slim Console Table with Power Outlets & USB",
             "theme": "Behind Couch / Power",
             "price": "Spotted ~\u00a335-45",
-            "img": "https://m.media-amazon.com/images/I/71N-W7X0uEL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/613mH7ZbYbL._AC_SL500_.jpg",
             "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
             "notes": "Ultra-slim (~15cm depth) metal & rustic wood console table with integrated 2x AC outlets and 2x USB charging ports."
           },
@@ -5692,9 +8929,233 @@ window.SITE_CONTENT = {
             "name": "VASAGLE Narrow Long Console Table with Charging Station",
             "theme": "Behind Couch / Living Room",
             "price": "Spotted ~\u00a340-55",
-            "img": "https://m.media-amazon.com/images/I/71ZpT6p3gNL._AC_SL1500_.jpg",
+            "img": "",
             "url": "https://www.amazon.co.uk/s?k=skinny+table+for+behind+couch",
             "notes": "Slimline long behind-couch organizer table with built-in charging ports, cable management, and adjustable leveling feet."
+          }
+        ]
+      },
+      {
+        "id": "amazon-kitchen",
+        "name": "Kitchen Wishlist \ud83c\udf73",
+        "icon": "\ud83c\udf73",
+        "description": "Synced from the Amazon \"Kitchen\" wishlist.",
+        "url": "https://www.amazon.co.uk/hz/wishlist/ls/3CXJS9K6IVTSE",
+        "items": [
+          {
+            "id": "B09MXL1W9H",
+            "name": "ProKeeper+ 9 Piece Clear Plastic Airtight Food Flour and Sugar Baker's Kitchen Storage Organization Container Canister Set with Magnetic Accessories",
+            "theme": "Kitchen",
+            "price": "\u00a3108.36",
+            "img": "https://m.media-amazon.com/images/I/41imNwcIxTL._SS135_.jpg",
+            "url": "https://www.amazon.co.uk/dp/B09MXL1W9H",
+            "notes": "by ProKeeper (Kitchen & Home)"
+          }
+        ]
+      },
+      {
+        "id": "shop-app-stuff",
+        "name": "Shop.app Saved \ud83d\udecd\ufe0f",
+        "icon": "\ud83d\udecd\ufe0f",
+        "description": "Synced from Shop.app collections and saved items.",
+        "items": [
+          {
+            "id": "6585852526710-gift-a-pizza-kit",
+            "name": "Gift A Pizza Kit",
+            "theme": "Pizza Pilgrims",
+            "price": "\u00a333.00",
+            "img": "https://cdn.shopify.com/s/files/1/0268/8843/7878/products/PIZZAPILGRIMS2270_a357850b-8298-4231-8ed5-541d2ed9edbb.jpg?v=1679090001&width=256",
+            "url": "https://shop.app/products/6585852526710/gift-a-pizza-kit?variantId=39381677539446",
+            "notes": "Pizza Pilgrims \u2014 Margherita / Regular / Add Gift Note"
+          },
+          {
+            "id": "10337061994832-the-discovery-box",
+            "name": "The Discovery Box",
+            "theme": "Barnaby Bars",
+            "price": "\u00a319.99",
+            "img": "https://cdn.shopify.com/s/files/1/0869/7387/4512/files/Barnaby_Dec25-065.jpg?v=1774431167&width=256",
+            "url": "https://shop.app/products/10337061994832/the-discovery-box?variantId=52764542173520",
+            "notes": "By Barnaby Bars"
+          },
+          {
+            "id": "9252630495522-the-butty-box-for-4",
+            "name": "The Butty Box for 4",
+            "theme": "Le Swine",
+            "price": "\u00a340.00",
+            "img": "https://cdn.shopify.com/s/files/1/0499/5412/8029/files/23.11.20_LeSwine_3072.jpg?v=1748354568&width=256",
+            "url": "https://shop.app/products/9252630495522/the-butty-box-for-4?variantId=48537683919138",
+            "notes": "By Le Swine"
+          }
+        ]
+      },
+      {
+        "id": "nintendo-store",
+        "name": "My Nintendo Store Wishlist \ud83c\udf44",
+        "icon": "\ud83c\udf44",
+        "description": "Synced from the My Nintendo Store wishlist.",
+        "url": "https://store.nintendo.com/en-gb/account/wishlist",
+        "items": [
+          {
+            "id": "10014446",
+            "name": "Super Mario Super Mushroom Soft Toy",
+            "theme": "Nintendo",
+            "price": "\u00a339.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/uchwfdscxieusghurkk8",
+            "url": "https://store.nintendo.com/en-gb/super-mario-super-mushroom-soft-toy-000000000010014446",
+            "notes": ""
+          },
+          {
+            "id": "10015318",
+            "name": "Super Mario 1-Up Mushroom Soft Toy",
+            "theme": "Nintendo",
+            "price": "\u00a339.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/pl2m8dw2nfd2hy6mc76m",
+            "url": "https://store.nintendo.com/en-gb/super-mario-1-up-mushroom-soft-toy-000000000010015318",
+            "notes": ""
+          },
+          {
+            "id": "10016896",
+            "name": "The Legend of Zelda Hylian Shield Soft Toy",
+            "theme": "Nintendo",
+            "price": "\u00a329.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xapv6vqusziu48zlfrvt",
+            "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-hylian-shield-soft-toy-000000000010016896",
+            "notes": ""
+          },
+          {
+            "id": "10017463",
+            "name": "Metroid Silicone Tray",
+            "theme": "Nintendo",
+            "price": "\u00a312.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/tialoskwls8ggxvlpj1w",
+            "url": "https://store.nintendo.com/en-gb/metroid-silicone-tray-000000000010017463",
+            "notes": ""
+          },
+          {
+            "id": "10019243",
+            "name": "Super Mario (Yoshi) \u2013 Yoshi's Egg Soft Toy (Yellow)",
+            "theme": "Nintendo",
+            "price": "\u00a324.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/ymfocpernlanwcsmqsea",
+            "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-yellow-000000000010019243",
+            "notes": ""
+          },
+          {
+            "id": "10019242",
+            "name": "Super Mario (Yoshi) \u2013 Yoshi's Egg Soft Toy (Pink)",
+            "theme": "Nintendo",
+            "price": "\u00a324.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xl7wmxiqtzyfsn1es8jl",
+            "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-pink-000000000010019242",
+            "notes": ""
+          },
+          {
+            "id": "10019241",
+            "name": "Super Mario (Yoshi) \u2013 Yoshi's Egg Soft Toy (Light Blue)",
+            "theme": "Nintendo",
+            "price": "\u00a324.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/s2n1f3c07zyl9mubkn4k",
+            "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-light-blue-000000000010019241",
+            "notes": ""
+          },
+          {
+            "id": "10019240",
+            "name": "Super Mario (Yoshi) \u2013 Yoshi's Egg Soft Toy (Green)",
+            "theme": "Nintendo",
+            "price": "\u00a324.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/yfpndsrrzjcsocxlfhnh",
+            "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-green-000000000010019240",
+            "notes": ""
+          },
+          {
+            "id": "10020195",
+            "name": "The Legend of Zelda Heart Container Large Soft Toy",
+            "theme": "Nintendo",
+            "price": "\u00a333.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/gyjjufdzfh2ilcq9lcpx",
+            "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-heart-container-large-soft-toy-000000000010020195",
+            "notes": ""
+          },
+          {
+            "id": "10020181",
+            "name": "Green Shell Large Soft Toy \u2013 Super Mario",
+            "theme": "Nintendo",
+            "price": "\u00a333.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/r59n5khrslvnmes14tej",
+            "url": "https://store.nintendo.com/en-gb/green-shell-large-soft-toy-super-mario-000000000010020181",
+            "notes": ""
+          },
+          {
+            "id": "10020183",
+            "name": "Spiny Shell Large Soft Toy \u2013 Super Mario",
+            "theme": "Nintendo",
+            "price": "\u00a333.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xpdse43shobvssykc3k4",
+            "url": "https://store.nintendo.com/en-gb/spiny-shell-large-soft-toy-super-mario-000000000010020183",
+            "notes": ""
+          },
+          {
+            "id": "10008290",
+            "name": "Pok\u00e9mon Die-Cast Great Ball Replica",
+            "theme": "Nintendo",
+            "price": "\u00a399.99",
+            "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008290/1.1_ProductTile_Merchandise_GreatBallDieCastReplica_BeautyShot_enNOE",
+            "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-great-ball-replica-000000000010008290",
+            "notes": ""
+          },
+          {
+            "id": "10008291",
+            "name": "Pok\u00e9mon Die-Cast Ultra Ball Replica",
+            "theme": "Nintendo",
+            "price": "\u00a399.99",
+            "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008291/1.1_ProductTile_Merchandise_UltraBallDieCastReplica_BeautyShot_enNOE",
+            "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-ultra-ball-replica-000000000010008291",
+            "notes": ""
+          },
+          {
+            "id": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
+            "name": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
+            "theme": "Out of stock",
+            "price": "\u00a361.98",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/boorv8e7gqn6jsemj8cv",
+            "url": "https://store.nintendo.com/en-gb/account/wishlist",
+            "notes": "Out of stock"
+          },
+          {
+            "id": "10008289",
+            "name": "Pok\u00e9mon Die-Cast Pok\u00e9 Ball Replica",
+            "theme": "Out of stock",
+            "price": "\u00a399.99",
+            "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008289/1.1_ProductTile_Merchandise_PokeBallDieCastReplica_BeautyShotStraight_enNOE",
+            "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-poke-ball-replica-000000000010008289",
+            "notes": "Out of stock"
+          },
+          {
+            "id": "10019439",
+            "name": "Nintendo Switch 2 Carrying Case The Legend of Zelda 40th Anniversary Edition & Screen Protector",
+            "theme": "Out of stock",
+            "price": "\u00a329.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/oqj3jpaeoaqdhauvtdz9",
+            "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-carrying-case-the-legend-of-zelda-40th-anniversary-edition-and-screen-protector-000000000010019439",
+            "notes": "Out of stock"
+          },
+          {
+            "id": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
+            "name": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
+            "theme": "Out of stock",
+            "price": "\u00a3434.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/sdqbhoskhkrg5rndxmov",
+            "url": "https://store.nintendo.com/en-gb/account/wishlist",
+            "notes": "Out of stock"
+          },
+          {
+            "id": "10019437",
+            "name": "Nintendo Switch 2 Pro Controller The Legend of Zelda 40th Anniversary Edition + Display Stand",
+            "theme": "Out of stock",
+            "price": "\u00a392.99",
+            "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/te4qlp9kdovjszuitomt",
+            "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437",
+            "notes": "Out of stock"
           }
         ]
       }
@@ -5732,8 +9193,16 @@ window.SITE_CONTENT = {
           "<a href='https://scrubdaddy.co.uk/scrub-daddy-colors/' target='_blank' style='color: var(--accent); text-decoration: none;'>Scrub Daddy Colors Sponge</a>",
           "<a href='https://www.amazon.co.uk/s?k=Domestos+Citrus+Fresh+Thick+Bleach' target='_blank' style='color: var(--accent); text-decoration: none;'>Domestos Citrus Fresh Thick Bleach</a>"
         ]
+      },
+      "oral_care": {
+        "label": "Oral Care & Dental",
+        "items": [
+          "<a href='https://trysuri.com/products/plant-based-sonic-toothbrush-heads' target='_blank' style='color: var(--accent); text-decoration: none;'>SURI Plant-Based Sonic Toothbrush Heads (Midnight Black)</a>",
+          "<a href='https://brushd.co.uk/products/toothpaste-tablets' target='_blank' style='color: var(--accent); text-decoration: none;'>Brushd Toothpaste Tablets (Fresh Mint with Fluoride)</a>",
+          "<a href='https://brushd.co.uk/products/mouthwash-tablets' target='_blank' style='color: var(--accent); text-decoration: none;'>Brushd Mouthwash Tablets (Fresh Mint with Fluoride)</a>",
+          "<a href='https://www.amazon.co.uk/dp/B085HN6HVT' target='_blank' style='color: var(--accent); text-decoration: none;'>Y-Kelin Stainless Steel Tongue Scrapers (4-Pack)</a>"
+        ]
       }
     }
   }
 };
-

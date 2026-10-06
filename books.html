@@ -10,36 +10,14 @@
   <script src="./js/cookie.js"></script>
 </head>
 <body>
-
-
-
 <main class="container">
-  <section class="hero" >
-    <div class="hero-wrapper">
-      <div class="hero-title-container">
-        <span class="hero-icon">📚</span>
-        <div>
-          <h1>Books & Reference 📖</h1>
-          <p id="books-subtitle">Culinary reference books, hardcover manga collections, and CS textbooks.</p>
-        </div>
-      </div>
-      <div class="hero-actions">
-        <a id="amazon-wishlist-link" href="#" target="_blank" class="inv-action-btn hero-action-btn" style="display: none;">Amazon Wishlist ↗</a>
-      </div>
-    </div>
-  </section>
+  <div id="catalogue" data-page="books"></div>
 
-  <!-- MANGA & VOLUME SERIES -->
-  <section class="wishlist-section">
-    <div class="section-header">
-      <h2>📚 Manga & Graphic Novels</h2>
-      <p>Volume collections and series progress.</p>
-    </div>
-    <div id="manga-section" style="display: flex; flex-direction: column; gap: 16px;"></div>
+  <section class="catalogue__section">
+    <h2>Manga series</h2>
+    <p class="lede">Pick a volume number to see where to get it. Green volumes are already on the shelf; pink ones are wanted.</p>
+    <div id="manga-section" class="manga-list"></div>
   </section>
-
-  <!-- NORMAL CATEGORIZED BOOKS -->
-  <div id="books-section"></div>
 </main>
 
 <!-- MODAL OVERLAY -->
@@ -49,7 +27,6 @@
     <div class="modal-body" id="modal-body-content"></div>
   </div>
 </div>
-
 
 <script src="./js/content.js"></script>
 <script src="./js/app.js"></script>

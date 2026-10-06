@@ -1,0 +1,38 @@
+{
+  "scrapedAt": "2026-08-16T19:00:43.639Z",
+  "collections": {
+    "Stuff": [
+      {
+        "id": "6585852526710-gift-a-pizza-kit",
+        "name": "Gift A Pizza Kit",
+        "merchant": "Pizza Pilgrims",
+        "price": "£33.00",
+        "url": "https://shop.app/products/6585852526710/gift-a-pizza-kit?variantId=39381677539446",
+        "img": "https://cdn.shopify.com/s/files/1/0268/8843/7878/products/PIZZAPILGRIMS2270_a357850b-8298-4231-8ed5-541d2ed9edbb.jpg?v=1679090001&width=256",
+        "notes": "Pizza Pilgrims — Margherita / Regular / Add Gift Note",
+        "category": "stuff"
+      },
+      {
+        "id": "10337061994832-the-discovery-box",
+        "name": "The Discovery Box",
+        "merchant": "Barnaby Bars",
+        "price": "£19.99",
+        "url": "https://shop.app/products/10337061994832/the-discovery-box?variantId=52764542173520",
+        "img": "https://cdn.shopify.com/s/files/1/0869/7387/4512/files/Barnaby_Dec25-065.jpg?v=1774431167&width=256",
+        "notes": "By Barnaby Bars",
+        "category": "stuff"
+      },
+      {
+        "id": "9252630495522-the-butty-box-for-4",
+        "name": "The Butty Box for 4",
+        "merchant": "Le Swine",
+        "price": "£40.00",
+        "url": "https://shop.app/products/9252630495522/the-butty-box-for-4?variantId=48537683919138",
+        "img": "https://cdn.shopify.com/s/files/1/0499/5412/8029/files/23.11.20_LeSwine_3072.jpg?v=1748354568&width=256",
+        "notes": "By Le Swine",
+        "category": "stuff"
+      }
+    ]
+  },
+  "saved": []
+}

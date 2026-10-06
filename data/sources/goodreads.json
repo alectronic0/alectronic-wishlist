@@ -1,0 +1,987 @@
+{
+  "scrapedAt": "2026-10-05T21:16:07.194Z",
+  "url": "https://www.goodreads.com/user/show/194943775",
+  "shelves": {
+    "my-bookcase": [
+      {
+        "id": "57485191",
+        "title": "An Unapologetic Cookbook",
+        "author": "Weissman, Joshua",
+        "isbn": "1615649980",
+        "isbn13": "9781615649983",
+        "asin": "1615649980",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623012580l/57485191.jpg",
+        "url": "https://www.goodreads.com/book/show/57485191-an-unapologetic-cookbook"
+      },
+      {
+        "id": "36304310",
+        "title": "The Legend of Zelda: Encyclopedia",
+        "author": "Nintendo",
+        "isbn": "150670638X",
+        "isbn13": "9781506706382",
+        "asin": "150670638X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506375358l/36304310.jpg",
+        "url": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda"
+      },
+      {
+        "id": "26178414",
+        "title": "The Legend of Zelda Symphony of the Goddesses: Piano Solos",
+        "author": "Kondo, Koji",
+        "isbn": "1470626292",
+        "isbn13": "9781470626297",
+        "asin": "1470626292",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440725185l/26178414.jpg",
+        "url": "https://www.goodreads.com/book/show/26178414-the-legend-of-zelda-symphony-of-the-goddesses"
+      },
+      {
+        "id": "50611213",
+        "title": "Pokémon Crochet: Bring Your Favorite Pokémon to Life with 20 Cute Crochet Patterns",
+        "author": "Somers, Sabrina",
+        "isbn": "1446308332",
+        "isbn13": "9781446308332",
+        "asin": "1446308332",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618291798l/50611213.jpg",
+        "url": "https://www.goodreads.com/book/show/50611213-pok-mon-crochet"
+      },
+      {
+        "id": "67991914",
+        "title": "Pokémon Crochet Vol 2: Bring even more Pokémon to life with 20 cute crochet patterns",
+        "author": "Sartori, Lee",
+        "isbn": "1446309355",
+        "isbn13": "9781446309353",
+        "asin": "1446309355",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671056987l/67991914.jpg",
+        "url": "https://www.goodreads.com/book/show/67991914-pok-mon-crochet-vol-2"
+      },
+      {
+        "id": "26782673",
+        "title": "Do Preserve: Make your own jams, chutneys, pickles and cordials (Do Books, 14)",
+        "author": "Dunk, Anja",
+        "isbn": "1907974245",
+        "isbn13": "9781907974243",
+        "asin": "1907974245",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444881827l/26782673.jpg",
+        "url": "https://www.goodreads.com/book/show/26782673-do-preserve"
+      },
+      {
+        "id": "10914447",
+        "title": "Mastering the Art of French Cooking (Vol 1 & 2)",
+        "author": "Child, Julia",
+        "isbn": "1846143659",
+        "isbn13": "9781846143656",
+        "asin": "1846143659",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390054341l/10914447.jpg",
+        "url": "https://www.goodreads.com/book/show/10914447-mastering-the-art-of-french-cooking"
+      },
+      {
+        "id": "34774665",
+        "title": "The Legend of Zelda: Breath of the Wild: The Complete Official Guide - Deluxe Edition",
+        "author": "Piggyback",
+        "isbn": "1911015249",
+        "isbn13": "9781911015246",
+        "asin": "1911015249",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491248256l/34774665.jpg",
+        "url": "https://www.goodreads.com/book/show/34774665-the-legend-of-zelda"
+      },
+      {
+        "id": "31625256",
+        "title": "The Legend of Zelda: Art & Artifacts",
+        "author": "Nintendo",
+        "isbn": "1506703356",
+        "isbn13": "9781506703350",
+        "asin": "1506703356",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474771267l/31625256.jpg",
+        "url": "https://www.goodreads.com/book/show/31625256-the-legend-of-zelda"
+      },
+      {
+        "id": "15845097",
+        "title": "The Legend of Zelda: Hyrule Historia",
+        "author": "Nintendo",
+        "isbn": "1616550414",
+        "isbn13": "9781616550417",
+        "asin": "1616550414",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399700757l/15845097.jpg",
+        "url": "https://www.goodreads.com/book/show/15845097-the-legend-of-zelda"
+      },
+      {
+        "id": "16032833",
+        "title": "Italian Phrasebook & Dictionary",
+        "author": "Lonely Planet",
+        "isbn": "1742208088",
+        "isbn13": "9781742208084",
+        "asin": "1742208088",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411150213l/16032833.jpg",
+        "url": "https://www.goodreads.com/book/show/16032833-italian-phrasebook-dictionary"
+      },
+      {
+        "id": "153910",
+        "title": "Quantum Computation and Quantum Information",
+        "author": "Nielsen, Michael A.",
+        "isbn": "0521635039",
+        "isbn13": "9780521635035",
+        "asin": "0521635039",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348285880l/153910.jpg",
+        "url": "https://www.goodreads.com/book/show/153910.Quantum_Computation_and_Quantum_Information"
+      },
+      {
+        "id": "1187377",
+        "title": "Lonely Planet Polish Phrasebook",
+        "author": "Lonely Planet",
+        "isbn": "1741041414",
+        "isbn13": "9781741041415",
+        "asin": "1741041414",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347546949l/1187377.jpg",
+        "url": "https://www.goodreads.com/book/show/1187377.Lonely_Planet_Polish_Phrasebook"
+      },
+      {
+        "id": "7704162",
+        "title": "Lonely Planet Phrasebook: Greek",
+        "author": "Lonely Planet",
+        "isbn": "1741047080",
+        "isbn13": "9781741047080",
+        "asin": "1741047080",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348631525l/7704162.jpg",
+        "url": "https://www.goodreads.com/book/show/7704162-lonely-planet-phrasebook"
+      },
+      {
+        "id": "15899835",
+        "title": "Russian Phrasebook & Dictionary (Lonely Planet Phrasebooks)",
+        "author": "Lonely Planet",
+        "isbn": "174220189X",
+        "isbn13": "9781742201894",
+        "asin": "174220189X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411149396l/15899835.jpg",
+        "url": "https://www.goodreads.com/book/show/15899835-russian-phrasebook-dictionary"
+      },
+      {
+        "id": "15941487",
+        "title": "Arduino For Dummies",
+        "author": "Nussey, John",
+        "isbn": "1118446372",
+        "isbn13": "9781118446379",
+        "asin": "1118446372",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355992337l/15941487.jpg",
+        "url": "https://www.goodreads.com/book/show/15941487-arduino-for-dummies"
+      },
+      {
+        "id": "50659467",
+        "title": "A Court of Thorns and Roses (A Court of Thorns and Roses, #1)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575567",
+        "isbn13": "9781635575569",
+        "asin": "1635575567",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620324329l/50659467.jpg",
+        "url": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses"
+      },
+      {
+        "id": "50659468",
+        "title": "A Court of Mist and Fury (A Court of Thorns and Roses, #2)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575583",
+        "isbn13": "9781635575583",
+        "asin": "1635575583",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620325671l/50659468.jpg",
+        "url": "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury"
+      },
+      {
+        "id": "35074096",
+        "title": "Mythos - The Greek Myths Retold (Stephen Fry's Great Mythology, #1)",
+        "author": "Fry, Stephen",
+        "isbn": "0718188721",
+        "isbn13": "9780718188726",
+        "asin": "0718188721",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502518360l/35074096.jpg",
+        "url": "https://www.goodreads.com/book/show/35074096-mythos---the-greek-myths-retold"
+      },
+      {
+        "id": "37903770",
+        "title": "Norse Mythology",
+        "author": "Gaiman, Neil",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770.jpg",
+        "url": "https://www.goodreads.com/book/show/37903770-norse-mythology"
+      },
+      {
+        "id": "36495876",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 1",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599775",
+        "isbn13": "9781421599779",
+        "asin": "1421599775",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519613766l/36495876.jpg",
+        "url": "https://www.goodreads.com/book/show/36495876-fullmetal-alchemist"
+      },
+      {
+        "id": "36538817",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 2",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599791",
+        "isbn13": "9781421599793",
+        "asin": "1421599791",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495086l/36538817.jpg",
+        "url": "https://www.goodreads.com/book/show/36538817-fullmetal-alchemist"
+      },
+      {
+        "id": "162520832",
+        "title": "[Mastering the Art of French Cooking: Vol.2] [By: Child, Julia] [March, 2011]",
+        "author": "Child, Julia",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00NBJX0RC",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699598697l/162520832.jpg",
+        "url": "https://www.goodreads.com/book/show/162520832-mastering-the-art-of-french-cooking"
+      },
+      {
+        "id": "132692",
+        "title": "Mastering the Art of French Cooking: Vol. 2",
+        "author": "Child, Julia",
+        "isbn": "0394721772",
+        "isbn13": "9780394721774",
+        "asin": "0394721772",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388190532l/132692.jpg",
+        "url": "https://www.goodreads.com/book/show/132692.Mastering_the_Art_of_French_Cooking"
+      },
+      {
+        "id": "8487890",
+        "title": "The Flavour Thesaurus",
+        "author": "Segnit, Niki",
+        "isbn": "0747599777",
+        "isbn13": "9780747599777",
+        "asin": "0747599777",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327769281l/8487890.jpg",
+        "url": "https://www.goodreads.com/book/show/8487890-the-flavour-thesaurus"
+      },
+      {
+        "id": "200382584",
+        "title": "Dishoom: From Bombay with Love",
+        "author": "Nasir, Naved Shamil",
+        "isbn": "9123979836",
+        "isbn13": "9789123979837",
+        "asin": "9123979836",
+        "img": "",
+        "url": "https://www.goodreads.com/book/show/200382584-dishoom"
+      },
+      {
+        "id": "51253651",
+        "title": "wagamama Feed Your Soul: Fresh + simple recipes from the wagamama kitchen",
+        "author": "Limited, Wagamama",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B07RTYLBMH",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561823021l/51253651.jpg",
+        "url": "https://www.goodreads.com/book/show/51253651-wagamama-feed-your-soul"
+      },
+      {
+        "id": "59808407",
+        "title": "Is This A Cookbook? Adventures in the Kitchen",
+        "author": "Blumenthal, Heston",
+        "isbn": "1526621509",
+        "isbn13": "9781526621504",
+        "asin": "1526621509",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
+        "url": "https://www.goodreads.com/book/show/59808407-is-this-a-cookbook-adventures-in-the-kitchen"
+      },
+      {
+        "id": "160047617",
+        "title": "Texture Over Taste",
+        "author": "Weissman, Joshua",
+        "isbn": "0744063507",
+        "isbn13": "9780744063509",
+        "asin": "0744063507",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685991216l/160047617.jpg",
+        "url": "https://www.goodreads.com/book/show/160047617-texture-over-taste"
+      },
+      {
+        "id": "58078528",
+        "title": "Field Notes for Food Adventure: Recipes and Stories from the Woods to the Ocean",
+        "author": "Leone, Brad",
+        "isbn": "0316497355",
+        "isbn13": "9780316497350",
+        "asin": "0316497355",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626719879l/58078528.jpg",
+        "url": "https://www.goodreads.com/book/show/58078528-field-notes-for-food-adventure"
+      },
+      {
+        "id": "35715070",
+        "title": "Modern French Pastry: Innovative Techniques, Tools and Design",
+        "author": "Wakerhauser, Cheryl",
+        "isbn": "1624144381",
+        "isbn13": "9781624144387",
+        "asin": "B06XFYVZMV",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500608048l/35715070.jpg",
+        "url": "https://www.goodreads.com/book/show/35715070-modern-french-pastry"
+      },
+      {
+        "id": "31301820",
+        "title": "Japanese Patisserie: Exploring the beautiful and delicious fusion of East meets West",
+        "author": "Campbell, James",
+        "isbn": "1849758107",
+        "isbn13": "9781849758109",
+        "asin": "1849758107",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489923533l/31301820.jpg",
+        "url": "https://www.goodreads.com/book/show/31301820-japanese-patisserie"
+      },
+      {
+        "id": "2087365",
+        "title": "The Savoy Cocktail Book",
+        "author": "Craddock, Harry",
+        "isbn": "1862057729",
+        "isbn13": "9781862057722",
+        "asin": "1862057729",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328840837l/2087365.jpg",
+        "url": "https://www.goodreads.com/book/show/2087365.The_Savoy_Cocktail_Book"
+      },
+      {
+        "id": "4144478",
+        "title": "Edmonds Cookery Book",
+        "author": "Foods, Bluebird",
+        "isbn": "0473053802",
+        "isbn13": "9780473053802",
+        "asin": "0473053802",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337411638l/4144478.jpg",
+        "url": "https://www.goodreads.com/book/show/4144478-edmonds-cookery-book"
+      },
+      {
+        "id": "142298147",
+        "title": "[(Computer Organization and Design: The Hardware/software Interface)] [Author: David A. Patterson] published on (Computer Organization and Design: The Hardware/software Interface)] [Author: David A. Patterson] published on (December, 2008)",
+        "author": "Patterson, David A.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00Y2QOOE6",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697814562l/142298147.jpg",
+        "url": "https://www.goodreads.com/book/show/142298147-computer-organization-and-design"
+      },
+      {
+        "id": "344711",
+        "title": "Interaction Design: Beyond Human-Computer Interaction",
+        "author": "Rogers, Yvonne",
+        "isbn": "0470018666",
+        "isbn13": "9780470018668",
+        "asin": "0470018666",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340226l/344711.jpg",
+        "url": "https://www.goodreads.com/book/show/344711.Interaction_Design"
+      },
+      {
+        "id": "137433498",
+        "title": "By Ian Sommerville - Software Engineering: International Version (9)",
+        "author": "Sommerville, Ian",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00I60UUQ0",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699760559l/137433498.jpg",
+        "url": "https://www.goodreads.com/book/show/137433498-by-ian-sommerville---software-engineering"
+      },
+      {
+        "id": "2052141",
+        "title": "The Robotics Primer",
+        "author": "Mataric, Maja J.",
+        "isbn": "026263354X",
+        "isbn13": "9780262633543",
+        "asin": "026263354X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348016781l/2052141.jpg",
+        "url": "https://www.goodreads.com/book/show/2052141.The_Robotics_Primer"
+      },
+      {
+        "id": "5684120",
+        "title": "Business Database Systems",
+        "author": "Connolly, Thomas M.",
+        "isbn": "1405874376",
+        "isbn13": "9781405874373",
+        "asin": "1405874376",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372055509l/5684120.jpg",
+        "url": "https://www.goodreads.com/book/show/5684120-business-database-systems"
+      },
+      {
+        "id": "13655756",
+        "title": "Principles of Interactive Multimedia",
+        "author": "Elsom-Cook, Mark (University of",
+        "isbn": "007709610X",
+        "isbn13": "9780077096106",
+        "asin": "007709610X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394405623l/13655756.jpg",
+        "url": "https://www.goodreads.com/book/show/13655756-principles-of-interactive-multimedia"
+      },
+      {
+        "id": "14795496",
+        "title": "Objects First with Java: A Practical Introduction Using Bluej.",
+        "author": "Barnes, D.",
+        "isbn": "0132835541",
+        "isbn13": "9780132835541",
+        "asin": "0132835541",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356136155l/14795496.jpg",
+        "url": "https://www.goodreads.com/book/show/14795496-objects-first-with-java"
+      },
+      {
+        "id": "25814544",
+        "title": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+        "author": "Knapp, Jake",
+        "isbn": "",
+        "isbn13": "9781501121746",
+        "asin": "150112174X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284924l/25814544.jpg",
+        "url": "https://www.goodreads.com/book/show/25814544-sprint"
+      },
+      {
+        "id": "32738672",
+        "title": "Unfu*k Yourself: Get Out of Your Head and Into Your Life",
+        "author": "Bishop, Gary John",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B01M8LUTO2",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543953780l/32738672.jpg",
+        "url": "https://www.goodreads.com/book/show/32738672-unfu-k-yourself"
+      },
+      {
+        "id": "194805515",
+        "title": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms",
+        "author": "Lego",
+        "isbn": "1797227807",
+        "isbn13": "9781797227801",
+        "asin": "1797227807",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696959742l/194805515.jpg",
+        "url": "https://www.goodreads.com/book/show/194805515-lego-botanical-almanac"
+      }
+    ],
+    "my-wishlist": [
+      {
+        "id": "52028349",
+        "title": "Dessert Person: Recipes and Guidance for Baking with Confidence",
+        "author": "Saffitz, Claire",
+        "isbn": "1984826964",
+        "isbn13": "9781984826961",
+        "asin": "1984826964",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588215952l/52028349.jpg",
+        "url": "https://www.goodreads.com/book/show/52028349-dessert-person"
+      },
+      {
+        "id": "38191426",
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "author": "Kim, Gene",
+        "isbn": "1942788320",
+        "isbn13": "9781942788324",
+        "asin": "B078Y98RG8",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426.jpg",
+        "url": "https://www.goodreads.com/book/show/38191426-the-phoenix-project"
+      },
+      {
+        "id": "55278624",
+        "title": "The Pasta Man: The Art of Making Spectacular Pasta – with 40 Recipes",
+        "author": "Zielonka, Mateo",
+        "isbn": "1787136191",
+        "isbn13": "9781787136199",
+        "asin": "1787136191",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604383827l/55278624.jpg",
+        "url": "https://www.goodreads.com/book/show/55278624-the-pasta-man"
+      },
+      {
+        "id": "53138095",
+        "title": "A ​Court of Silver Flames (A Court of Thorns and Roses, #5)",
+        "author": "Maas, Sarah J.",
+        "isbn": "168119628X",
+        "isbn13": "9781681196282",
+        "asin": "168119628X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734440950l/53138095.jpg",
+        "url": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames"
+      },
+      {
+        "id": "50659472",
+        "title": "A Court of Wings and Ruin (A Court of Thorns and Roses, #3)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575605",
+        "isbn13": "9781635575606",
+        "asin": "1635575605",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623092l/50659472.jpg",
+        "url": "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin"
+      },
+      {
+        "id": "50659471",
+        "title": "A Court of Frost and Starlight (A Court of Thorns and Roses, #4)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575621",
+        "isbn13": "9781635575620",
+        "asin": "1635575621",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585622963l/50659471.jpg",
+        "url": "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-starlight"
+      },
+      {
+        "id": "52961491",
+        "title": "SPY×FAMILY 1",
+        "author": "Endo, Tatsuya",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B07S5K4L4H",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562168651l/52961491.jpg",
+        "url": "https://www.goodreads.com/book/show/52961491-spy-family-1"
+      },
+      {
+        "id": "40893782",
+        "title": "Witch Hat Atelier, Vol. 1",
+        "author": "Shirahama, Kamome",
+        "isbn": "163236770X",
+        "isbn13": "9781632367709",
+        "asin": "163236770X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546502507l/40893782.jpg",
+        "url": "https://www.goodreads.com/book/show/40893782-witch-hat-atelier-vol-1"
+      },
+      {
+        "id": "25074597",
+        "title": "My Hero Academia, Vol. 1",
+        "author": "Horikoshi, Kohei",
+        "isbn": "1421582694",
+        "isbn13": "9781421582696",
+        "asin": "1421582694",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426466596l/25074597.jpg",
+        "url": "https://www.goodreads.com/book/show/25074597-my-hero-academia-vol-1"
+      },
+      {
+        "id": "16155151",
+        "title": "ホリミヤ 1 [Horimiya 1]",
+        "author": "Hero",
+        "isbn": "4757535430",
+        "isbn13": "9784757535435",
+        "asin": "4757535430",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727083089l/16155151.jpg",
+        "url": "https://www.goodreads.com/book/show/16155151-1-horimiya-1"
+      },
+      {
+        "id": "36441259",
+        "title": "薬屋のひとりごと 1 [Kusuriya no Hitorigoto 1]",
+        "author": "Nekokurage",
+        "isbn": "4757554893",
+        "isbn13": "9784757554894",
+        "asin": "4757554893",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508432170l/36441259.jpg",
+        "url": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1"
+      },
+      {
+        "id": "55711190",
+        "title": "The Encyclopedia of Cocktails: Over 1,000 Cocktails for Every Occasion (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646430980",
+        "isbn13": "9781646430987",
+        "asin": "1646430980",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622046810l/55711190.jpg",
+        "url": "https://www.goodreads.com/book/show/55711190-the-encyclopedia-of-cocktails"
+      },
+      {
+        "id": "56497936",
+        "title": "Game Boy: The Box Art Collection",
+        "author": "Books, Bitmap",
+        "isbn": "1838019138",
+        "isbn13": "9781838019136",
+        "asin": "1838019138",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609468412l/56497936.jpg",
+        "url": "https://www.goodreads.com/book/show/56497936-game-boy"
+      },
+      {
+        "id": "56897775",
+        "title": "The Encyclopedia of Cookies: Over 500 Tasty Recipes for Cookie Lovers of All Ages (Encyclopedia Cookbooks)",
+        "author": "Press, Editors of Cider Mill",
+        "isbn": "1646431804",
+        "isbn13": "9781646431809",
+        "asin": "1646431804",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624806700l/56897775.jpg",
+        "url": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies"
+      },
+      {
+        "id": "61273021",
+        "title": "The Encyclopedia of Tapas: 400 Small Plates for All Occasions (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646433432",
+        "isbn13": "9781646433438",
+        "asin": "1646433432",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684083978l/61273021.jpg",
+        "url": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas"
+      },
+      {
+        "id": "63006724",
+        "title": "The Encyclopedia of Desserts: 400 Internationally Inspired Sweets and Confections (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646434102",
+        "isbn13": "9781646434107",
+        "asin": "1646434102",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682971098l/63006724.jpg",
+        "url": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts"
+      },
+      {
+        "id": "201335430",
+        "title": "The Encyclopedia of Cast Iron: Over 350 Recipes for the Cast Iron Connoisseur (Encyclopedia Cookbooks)",
+        "author": "Press, Cider Mill",
+        "isbn": "140034462X",
+        "isbn13": "9781400344628",
+        "asin": "140034462X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719742067l/201335430.jpg",
+        "url": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron"
+      },
+      {
+        "id": "210137355",
+        "title": "The Encyclopedia of Pasta: Over 350 Recipes for the Ultimate Comfort Food (Encyclopedia Cookbooks)",
+        "author": "Nelson, Thomas",
+        "isbn": "140034610X",
+        "isbn13": "9781400346103",
+        "asin": "140034610X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710812969l/210137355.jpg",
+        "url": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta"
+      }
+    ],
+    "to-read": [
+      {
+        "id": "51702292",
+        "title": "It's Cocktail Time!: Recipes for Every Occasion",
+        "author": "Summersdale",
+        "isbn": "1786855194",
+        "isbn13": "9781786855190",
+        "asin": "1786855194",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582589428l/51702292.jpg",
+        "url": "https://www.goodreads.com/book/show/51702292-it-s-cocktail-time"
+      },
+      {
+        "id": "32708007",
+        "title": "鬼滅の刃 1 [Kimetsu no Yaiba 1]",
+        "author": "Gotouge, Koyoharu",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B01EJ7AK5O",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476910723l/32708007.jpg",
+        "url": "https://www.goodreads.com/book/show/32708007-1-kimetsu-no-yaiba-1"
+      },
+      {
+        "id": "31572149",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 1",
+        "author": "Himekawa, Akira",
+        "isbn": "1421593475",
+        "isbn13": "9781421593470",
+        "asin": "1421593475",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489527128l/31572149.jpg",
+        "url": "https://www.goodreads.com/book/show/31572149-the-legend-of-zelda"
+      },
+      {
+        "id": "52353352",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 8",
+        "author": "Arakawa, Hiromu",
+        "isbn": "197470047X",
+        "isbn13": "9781974700479",
+        "asin": "197470047X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570968459l/52353352.jpg",
+        "url": "https://www.goodreads.com/book/show/52353352-fullmetal-alchemist"
+      },
+      {
+        "id": "38926408",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 3",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599805",
+        "isbn13": "9781421599809",
+        "asin": "1421599805",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534666360l/38926408.jpg",
+        "url": "https://www.goodreads.com/book/show/38926408-fullmetal-alchemist"
+      },
+      {
+        "id": "42800902",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 5",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599872",
+        "isbn13": "9781421599878",
+        "asin": "1421599872",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549011551l/42800902.jpg",
+        "url": "https://www.goodreads.com/book/show/42800902-fullmetal-alchemist"
+      },
+      {
+        "id": "55710509",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 13",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599961",
+        "isbn13": "9781421599960",
+        "asin": "1421599961",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612105147l/55710509.jpg",
+        "url": "https://www.goodreads.com/book/show/55710509-fullmetal-alchemist"
+      },
+      {
+        "id": "54303366",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 12",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599953",
+        "isbn13": "9781421599953",
+        "asin": "1421599953",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600611094l/54303366.jpg",
+        "url": "https://www.goodreads.com/book/show/54303366-fullmetal-alchemist"
+      },
+      {
+        "id": "40637179",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 4",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599856",
+        "isbn13": "9781421599854",
+        "asin": "1421599856",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545477535l/40637179.jpg",
+        "url": "https://www.goodreads.com/book/show/40637179-fullmetal-alchemist"
+      },
+      {
+        "id": "43909459",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 7",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599899",
+        "isbn13": "9781421599892",
+        "asin": "1421599899",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564945799l/43909459.jpg",
+        "url": "https://www.goodreads.com/book/show/43909459-fullmetal-alchemist"
+      },
+      {
+        "id": "59365968",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 18",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974700062",
+        "isbn13": "9781974700066",
+        "asin": "1974700062",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649605077l/59365968.jpg",
+        "url": "https://www.goodreads.com/book/show/59365968-fullmetal-alchemist"
+      },
+      {
+        "id": "59365966",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 17",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974700054",
+        "isbn13": "9781974700059",
+        "asin": "1974700054",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642043128l/59365966.jpg",
+        "url": "https://www.goodreads.com/book/show/59365966-fullmetal-alchemist"
+      },
+      {
+        "id": "52758061",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 9",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599902",
+        "isbn13": "9781421599908",
+        "asin": "1421599902",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579444327l/52758061.jpg",
+        "url": "https://www.goodreads.com/book/show/52758061-fullmetal-alchemist"
+      },
+      {
+        "id": "52758053",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 10",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599929",
+        "isbn13": "9781421599922",
+        "asin": "1421599929",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592496399l/52758053.jpg",
+        "url": "https://www.goodreads.com/book/show/52758053-fullmetal-alchemist"
+      },
+      {
+        "id": "50891198",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 11",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599945",
+        "isbn13": "9781421599946",
+        "asin": "1421599945",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593355687l/50891198.jpg",
+        "url": "https://www.goodreads.com/book/show/50891198-fullmetal-alchemist"
+      },
+      {
+        "id": "55711411",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 14",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974700003",
+        "isbn13": "9781974700004",
+        "asin": "1974700003",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618758726l/55711411.jpg",
+        "url": "https://www.goodreads.com/book/show/55711411-fullmetal-alchemist"
+      },
+      {
+        "id": "56897984",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 15",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974700011",
+        "isbn13": "9781974700011",
+        "asin": "1974700011",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627828264l/56897984.jpg",
+        "url": "https://www.goodreads.com/book/show/56897984-fullmetal-alchemist"
+      },
+      {
+        "id": "58438346",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 16",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974700046",
+        "isbn13": "9781974700042",
+        "asin": "1974700046",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635089760l/58438346.jpg",
+        "url": "https://www.goodreads.com/book/show/58438346-fullmetal-alchemist"
+      },
+      {
+        "id": "42800903",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 6",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599880",
+        "isbn13": "9781421599885",
+        "asin": "1421599880",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555271636l/42800903.jpg",
+        "url": "https://www.goodreads.com/book/show/42800903-fullmetal-alchemist"
+      },
+      {
+        "id": "255049190",
+        "title": "Fullmetal Alchemist: Fullmetal Edition Series Vol 1-18 Collection 18 Books Set by Hiromu Arakawa",
+        "author": "Arakawa, Hiromu",
+        "isbn": "",
+        "isbn13": "9798897227990",
+        "asin": "B0H7VPVH6K",
+        "img": "",
+        "url": "https://www.goodreads.com/book/show/255049190-fullmetal-alchemist"
+      },
+      {
+        "id": "146317416",
+        "title": "The Legend of Zelda Twilight Princess Manga Complete Series Vols. 1-11 Set",
+        "author": "Himekawa, Akira",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0C41Y1736",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699895995l/146317416.jpg",
+        "url": "https://www.goodreads.com/book/show/146317416-the-legend-of-zelda-twilight-princess-manga-complete-series-vols-1-11-s"
+      },
+      {
+        "id": "58269545",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 1",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096M9Y5KP",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622950530l/58269545.jpg",
+        "url": "https://www.goodreads.com/book/show/58269545-the-legend-of-zelda"
+      },
+      {
+        "id": "58284445",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 2",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096MC1FC4",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623069073l/58284445.jpg",
+        "url": "https://www.goodreads.com/book/show/58284445-the-legend-of-zelda"
+      },
+      {
+        "id": "58617572",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 3",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096MCXQVQ",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627103933l/58617572.jpg",
+        "url": "https://www.goodreads.com/book/show/58617572-the-legend-of-zelda"
+      },
+      {
+        "id": "58617575",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 4",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096MFMN3T",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627103936l/58617575.jpg",
+        "url": "https://www.goodreads.com/book/show/58617575-the-legend-of-zelda"
+      },
+      {
+        "id": "58617574",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 6",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096MHDY1P",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627103934l/58617574.jpg",
+        "url": "https://www.goodreads.com/book/show/58617574-the-legend-of-zelda"
+      },
+      {
+        "id": "58617573",
+        "title": "The-Legend-Of-Zelda: Twilight-Princess- Manga: Complete-Edition Vol. 5",
+        "author": "Mendoza, Alejandro",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B096MF8QNX",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627103933l/58617573.jpg",
+        "url": "https://www.goodreads.com/book/show/58617573-the-legend-of-zelda"
+      }
+    ],
+    "read": [
+      {
+        "id": "113436",
+        "title": "Eragon (The Inheritance Cycle #1)",
+        "author": "Paolini, Christopher",
+        "isbn": "0375826696",
+        "isbn13": "9780375826696",
+        "asin": "B0042B4JAK",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366212852l/113436.jpg",
+        "url": "https://www.goodreads.com/book/show/113436.Eragon"
+      },
+      {
+        "id": "58613224",
+        "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+        "author": "Rowling, J.K.",
+        "isbn": "0545010225",
+        "isbn13": "9780545010221",
+        "asin": "B004JZJE4U",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627042661l/58613224.jpg",
+        "url": "https://www.goodreads.com/book/show/58613224-harry-potter-and-the-deathly-hallows"
+      },
+      {
+        "id": "58613345",
+        "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+        "author": "Rowling, J.K.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627043894l/58613345.jpg",
+        "url": "https://www.goodreads.com/book/show/58613345-harry-potter-and-the-half-blood-prince"
+      },
+      {
+        "id": "58613451",
+        "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+        "author": "Rowling, J.K.",
+        "isbn": "043935806X",
+        "isbn13": "9780439358064",
+        "asin": "043935806X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627045351l/58613451.jpg",
+        "url": "https://www.goodreads.com/book/show/58613451-harry-potter-and-the-order-of-the-phoenix"
+      },
+      {
+        "id": "58613424",
+        "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+        "author": "Rowling, J.K.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DV2Y66LK",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627044952l/58613424.jpg",
+        "url": "https://www.goodreads.com/book/show/58613424-harry-potter-and-the-goblet-of-fire"
+      },
+      {
+        "id": "15881",
+        "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+        "author": "Rowling, J.K.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00ES27LCQ",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474169725l/15881.jpg",
+        "url": "https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets"
+      },
+      {
+        "id": "42844155",
+        "title": "Harry Potter and the Philosopher's Stone (Harry Potter, #1)",
+        "author": "Rowling, J.K.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B07SBCZ16W",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598823299l/42844155.jpg",
+        "url": "https://www.goodreads.com/book/show/42844155-harry-potter-and-the-philosopher-s-stone"
+      }
+    ],
+    "currently-reading": [],
+    "did-not-finish": [
+      {
+        "id": "125695959",
+        "title": "Inheritance or the Vault of Souls",
+        "author": "Paolini, Christopher",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00ES28OQI",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697880628l/125695959.jpg",
+        "url": "https://www.goodreads.com/book/show/125695959-inheritance-or-the-vault-of-souls"
+      }
+    ]
+  }
+}

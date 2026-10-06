@@ -1,0 +1,150 @@
+{
+  "scrapedAt": "2026-10-05T21:15:26.590Z",
+  "url": "https://store.nintendo.com/en-gb/account/wishlist",
+  "wishlist": [
+    {
+      "id": "10014446",
+      "name": "Super Mario Super Mushroom Soft Toy",
+      "price": "£39.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/uchwfdscxieusghurkk8",
+      "url": "https://store.nintendo.com/en-gb/super-mario-super-mushroom-soft-toy-000000000010014446"
+    },
+    {
+      "id": "10015318",
+      "name": "Super Mario 1-Up Mushroom Soft Toy",
+      "price": "£39.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/pl2m8dw2nfd2hy6mc76m",
+      "url": "https://store.nintendo.com/en-gb/super-mario-1-up-mushroom-soft-toy-000000000010015318"
+    },
+    {
+      "id": "10016896",
+      "name": "The Legend of Zelda Hylian Shield Soft Toy",
+      "price": "£29.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xapv6vqusziu48zlfrvt",
+      "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-hylian-shield-soft-toy-000000000010016896"
+    },
+    {
+      "id": "10017463",
+      "name": "Metroid Silicone Tray",
+      "price": "£12.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/tialoskwls8ggxvlpj1w",
+      "url": "https://store.nintendo.com/en-gb/metroid-silicone-tray-000000000010017463"
+    },
+    {
+      "id": "10019243",
+      "name": "Super Mario (Yoshi) – Yoshi's Egg Soft Toy (Yellow)",
+      "price": "£24.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/ymfocpernlanwcsmqsea",
+      "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-yellow-000000000010019243"
+    },
+    {
+      "id": "10019242",
+      "name": "Super Mario (Yoshi) – Yoshi's Egg Soft Toy (Pink)",
+      "price": "£24.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xl7wmxiqtzyfsn1es8jl",
+      "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-pink-000000000010019242"
+    },
+    {
+      "id": "10019241",
+      "name": "Super Mario (Yoshi) – Yoshi's Egg Soft Toy (Light Blue)",
+      "price": "£24.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/s2n1f3c07zyl9mubkn4k",
+      "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-light-blue-000000000010019241"
+    },
+    {
+      "id": "10019240",
+      "name": "Super Mario (Yoshi) – Yoshi's Egg Soft Toy (Green)",
+      "price": "£24.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/yfpndsrrzjcsocxlfhnh",
+      "url": "https://store.nintendo.com/en-gb/super-mario-yoshi-yoshis-egg-soft-toy-green-000000000010019240"
+    },
+    {
+      "id": "10020195",
+      "name": "The Legend of Zelda Heart Container Large Soft Toy",
+      "price": "£33.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/gyjjufdzfh2ilcq9lcpx",
+      "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-heart-container-large-soft-toy-000000000010020195"
+    },
+    {
+      "id": "10020181",
+      "name": "Green Shell Large Soft Toy – Super Mario",
+      "price": "£33.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/r59n5khrslvnmes14tej",
+      "url": "https://store.nintendo.com/en-gb/green-shell-large-soft-toy-super-mario-000000000010020181"
+    },
+    {
+      "id": "10020183",
+      "name": "Spiny Shell Large Soft Toy – Super Mario",
+      "price": "£33.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/xpdse43shobvssykc3k4",
+      "url": "https://store.nintendo.com/en-gb/spiny-shell-large-soft-toy-super-mario-000000000010020183"
+    },
+    {
+      "id": "10008290",
+      "name": "Pokémon Die-Cast Great Ball Replica",
+      "price": "£99.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008290/1.1_ProductTile_Merchandise_GreatBallDieCastReplica_BeautyShot_enNOE",
+      "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-great-ball-replica-000000000010008290"
+    },
+    {
+      "id": "10008291",
+      "name": "Pokémon Die-Cast Ultra Ball Replica",
+      "price": "£99.99",
+      "status": "",
+      "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008291/1.1_ProductTile_Merchandise_UltraBallDieCastReplica_BeautyShot_enNOE",
+      "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-ultra-ball-replica-000000000010008291"
+    },
+    {
+      "id": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
+      "name": "The Legend of Zelda: Ocarina of Time + The Legend of Zelda Ocarina of Time Pin",
+      "price": "£61.98",
+      "status": "Out of stock",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/boorv8e7gqn6jsemj8cv",
+      "url": ""
+    },
+    {
+      "id": "10008289",
+      "name": "Pokémon Die-Cast Poké Ball Replica",
+      "price": "£99.99",
+      "status": "Out of stock",
+      "img": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_380,q_auto:eco:sensitive/MNS/NOE/000000000010008289/1.1_ProductTile_Merchandise_PokeBallDieCastReplica_BeautyShotStraight_enNOE",
+      "url": "https://store.nintendo.com/en-gb/pokemon-die-cast-poke-ball-replica-000000000010008289"
+    },
+    {
+      "id": "10019439",
+      "name": "Nintendo Switch 2 Carrying Case The Legend of Zelda 40th Anniversary Edition & Screen Protector",
+      "price": "£29.99",
+      "status": "Out of stock",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/oqj3jpaeoaqdhauvtdz9",
+      "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-carrying-case-the-legend-of-zelda-40th-anniversary-edition-and-screen-protector-000000000010019439"
+    },
+    {
+      "id": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
+      "name": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition",
+      "price": "£434.99",
+      "status": "Out of stock",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/sdqbhoskhkrg5rndxmov",
+      "url": ""
+    },
+    {
+      "id": "10019437",
+      "name": "Nintendo Switch 2 Pro Controller The Legend of Zelda 40th Anniversary Edition + Display Stand",
+      "price": "£92.99",
+      "status": "Out of stock",
+      "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_380,q_auto:eco:sensitive/te4qlp9kdovjszuitomt",
+      "url": "https://store.nintendo.com/en-gb/nintendo-switch-2-pro-controller-the-legend-of-zelda-40th-anniversary-edition-display-stand-000000000010019437"
+    }
+  ]
+}

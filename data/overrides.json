@@ -1,0 +1,279 @@
+{
+  "boardgames": {
+    "amazon": {
+      "B0C6QQM8X6": {
+        "game": "Horrified: Greek Monsters"
+      },
+      "B085KYB3R4": {
+        "game": "No Thanks!"
+      },
+      "B09MC7CWLV": {
+        "game": "Mystic Vale: Essential Edition"
+      },
+      "B07BMKV6MT": {
+        "game": "Mattel UNO: The Legend of Zelda"
+      },
+      "B077BCRZ6F": {
+        "game": "Dark Souls: The Card Game"
+      },
+      "B01GSYA4K2": {
+        "game": "Terraforming Mars"
+      },
+      "B07PHHBWM9": {
+        "game": "Love Letter"
+      },
+      "B07SRMXRZB": {
+        "game": "Jaipur (2nd Edition)"
+      },
+      "B01HT9DERU": {
+        "game": "Codenames: Pictures"
+      },
+      "B00GDI4HX4": {
+        "game": "Coup"
+      },
+      "B07HB88VXG": {
+        "game": "Camel Up (2nd Edition)"
+      },
+      "B07JZTBV9C": {
+        "game": "Taco vs Burrito"
+      },
+      "B07WC2Z9HF": {
+        "game": "On a Scale of One to T-Rex"
+      },
+      "B07TS96J7Q": {
+        "game": "Throw Throw Burrito"
+      },
+      "1472830652": {
+        "game": "Cryptid"
+      },
+      "B01HYVKY80": {
+        "game": "Bloodborne: The Card Game"
+      },
+      "B073R59XYF": {
+        "game": "These Cards Will Get You Drunk"
+      },
+      "1589781449": {
+        "game": "Gloom (Second Edition)"
+      },
+      "B0024H7OF6": {
+        "game": "Small World"
+      },
+      "B004U7JJWE": {
+        "game": "Munchkin: Deluxe"
+      },
+      "B009SAAV0C": {
+        "game": "The Resistance: Avalon"
+      },
+      "B00NX627HW": {
+        "game": "Carcassonne"
+      },
+      "B00U26V4VQ": {
+        "game": "Catan"
+      },
+      "B010TU7LP2": {
+        "game": "Exploding Kittens: NSFW Edition"
+      },
+      "B07FKWS4R6": {
+        "game": "Exploding Kittens: NSFW Edition",
+        "expansion": "Streaking Kittens Expansion Pack"
+      },
+      "B01HSIIFQ2": {
+        "game": "Exploding Kittens: NSFW Edition",
+        "expansion": "Imploding Kittens Expansion Pack"
+      },
+      "B071GS97RT": {
+        "game": "Bears vs Babies"
+      },
+      "B0736K8BWJ": {
+        "game": "Bears vs Babies",
+        "expansion": "Bears vs Babies: NSFW Expansion Pack"
+      },
+      "B07BKNMJ84": {
+        "game": "You've Got Crabs",
+        "expansion": "You've Got Crabs: Imitation Crab Expansion Kit"
+      },
+      "B01MZ8P4D6": {
+        "game": "Joking Hazard",
+        "expansion": "Joking Hazard Deck Enhancement #1"
+      },
+      "B07H634GJ8": {
+        "game": "Joking Hazard",
+        "expansion": "Joking Hazard Deck Enhancement #3"
+      },
+      "B07D8JDPWF": {
+        "game": "Joking Hazard",
+        "expansion": "Joking Hazard Enlarged Box"
+      },
+      "B07C844C3C": {
+        "game": "What Do You Meme? (Core Game)"
+      }
+    },
+    "purchased": {
+      "Horrified: Dungeons & Dragons": {
+        "category": "Co-operative",
+        "badge": "Ravensburger"
+      }
+    }
+  },
+  "books": {
+    "series": [
+      {
+        "series": "Fullmetal Alchemist: Fullmetal Edition",
+        "author": "Hiromu Arakawa",
+        "match": "^Fullmetal Alchemist: Fullmetal Edition, Vol\\. (\\d+)"
+      },
+      {
+        "series": "The Legend of Zelda: Twilight Princess Manga",
+        "author": "Akira Himekawa",
+        "match": "^The Legend of Zelda: Twilight Princess, Vol\\. (\\d+)"
+      },
+      {
+        "series": "The Legend of Zelda (Original Manga)",
+        "author": "Akira Himekawa",
+        "notes": "Original single-volume run covering Ocarina of Time through Phantom Hourglass.",
+        "match": "^The Legend of Zelda, Vol(?:\\.|ume) (\\d+)"
+      },
+      {
+        "series": "Food Wars!: Shokugeki no Soma",
+        "author": "Yuto Tsukuda & Shun Saeki",
+        "notes": "Cooking battle manga, 36 volumes.",
+        "match": "^Food Wars!?:? Shokugeki no Soma,? (?:GN )?Vol\\.? ?0*(\\d+)"
+      },
+      {
+        "series": "Kaguya-sama: Love Is War",
+        "author": "Aka Akasaka",
+        "notes": "Romantic comedy of two geniuses trying to make the other confess first.",
+        "match": "^Kaguya-sama: Love Is War, Vol\\. (\\d+)"
+      },
+      {
+        "series": "Spy x Family (Kindle)",
+        "author": "Tatsuya Endo",
+        "notes": "Kindle editions.",
+        "match": "^Spy x Family, Vol\\. (\\d+)"
+      },
+      {
+        "series": "Fly Me to the Moon (Kindle)",
+        "author": "Kenjiro Hata",
+        "notes": "Kindle editions.",
+        "match": "^Fly Me to the Moon, Vol\\. (\\d+)"
+      }
+    ],
+    "legendaryEditions": {
+      "series": "The Legend of Zelda: Legendary Edition",
+      "author": "Akira Himekawa",
+      "notes": "Deluxe 2-in-1 omnibus editions of the original Zelda manga.",
+      "volumes": {
+        "1421589591": 1,
+        "1421589605": 2,
+        "1421589613": 3,
+        "1421589621": 4,
+        "142158963X": 5
+      }
+    },
+    "categories": [
+      {
+        "category": "Video Game Books",
+        "match": "Zelda|Hyrule|Game Boy|Prima"
+      },
+      {
+        "category": "Manga",
+        "match": "Delicious in Dungeon|Fullmetal Alchemist|Vol\\. ?\\d|SPY.FAMILY|Horimiya|Kusuriya"
+      },
+      {
+        "category": "Travel & Culture",
+        "match": "Phrasebook|Lonely Planet"
+      },
+      {
+        "category": "CS & Tech",
+        "match": "Arduino|Phoenix Project|DevOps|Software|Computer"
+      },
+      {
+        "category": "Crafts",
+        "match": "Crochet"
+      },
+      {
+        "category": "Fiction & Mythology",
+        "match": "Court of|Mythos|Mythology|American Gods"
+      },
+      {
+        "category": "Cookbooks",
+        "match": "Cook|Recipe|Pasta|Preserve|Dessert|Cocktail|Pastry|Patisserie|Encyclopedia of"
+      }
+    ],
+    "defaultCategory": "Non-Fiction"
+  },
+  "lego": {
+    "themes": {
+      "72051": "videogames",
+      "72154": "videogames",
+      "11512": "botanical",
+      "11513": "botanical",
+      "11382": "icons",
+      "5010262": "adjacent",
+      "40911": "videogames",
+      "30729": "videogames",
+      "72306": "videogames",
+      "40862": "seasonal",
+      "40874": "seasonal",
+      "40872": "seasonal",
+      "40958": "seasonal",
+      "40812": "seasonal",
+      "40516": "icons",
+      "75457": "starwars",
+      "75442": "starwars",
+      "10309": "botanical",
+      "10371": "botanical",
+      "11501": "botanical",
+      "10329": "botanical",
+      "10373": "botanical",
+      "40725": "botanical",
+      "10328": "botanical",
+      "21345": "icons",
+      "5005352": "adjacent",
+      "5005886": "adjacent",
+      "5009960": "adjacent"
+    },
+    "defaultTheme": "adjacent",
+    "gifted": [
+      "10421",
+      "10954",
+      "40908",
+      "40890",
+      "40689",
+      "5010313"
+    ]
+  },
+  "videogames": {
+    "sameGame": [
+      {
+        "platform": "gba",
+        "listed": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past--1",
+        "actual": "https://www.igdb.com/games/the-legend-of-zelda-a-link-to-the-past-and-four-swords"
+      }
+    ],
+    "duplicates": [
+      {
+        "platform": "gba",
+        "name": "The Legend of Zelda: A Link to the Past"
+      },
+      {
+        "platform": "gb_gbc",
+        "name": "Pokémon Yellow Version"
+      }
+    ]
+  },
+  "zelda": {
+    "removed": [
+      "Nintendo Switch 2 – The Legend of Zelda 40th Anniversary Edition Console",
+      "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) + Display Stand",
+      "Nintendo Switch 2 Pro Controller (Zelda 40th Anniversary Edition) – Standalone",
+      "The Legend of Zelda: Ocarina of Time Pin",
+      "Nintendo amiibo – Young Link (Ocarina of Time Series)",
+      "Nintendo amiibo – Young Zelda (Ocarina of Time Series)",
+      "HORI Electric Ocarina (Switch 2 Mic Compatible)",
+      "Playable Acoustic Ocarina (Switch 2 Mic Compatible)",
+      "Hasbro Legend of Zelda Electronic Master Sword (27-inch)",
+      "The Legend of Zelda 40th Anniversary Concert – London (Royal Albert Hall with London Symphony Orchestra)"
+    ]
+  }
+}
