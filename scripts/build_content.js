@@ -585,23 +585,58 @@ function syncKitchen(content, list) {
   });
 }
 
+function getNintendoGroup(item) {
+  const n = (item.name || '').toLowerCase();
+  const u = (item.url || '').toLowerCase();
+  if (/pok[eé]mon|pikachu|eevee|gengar|snorlax|charizard|wand company|luxury ball|level ball|ball by/i.test(n) || /pokemoncenter/i.test(u)) return 'pokemon';
+  if (/zelda|link|triforce|hylian|sheikah|ganon|korok|rupee|hyrule|secret stone|heart container/i.test(n)) return 'zelda';
+  if (/pikmin|olimar|bulborb/i.test(n)) return 'pikmin';
+  if (/metroid|samus/i.test(n)) return 'metroid';
+  if (/mario|luigi|peach|bowser|yoshi|toad|donkey kong|wario|koopa|boo\b|spiny|goomba|super star|1-up|mushroom|fire flower/i.test(n)) return 'mario';
+  return 'other';
+}
+
 function syncNintendo(content, nintendo, zeldaOverrides, removedFromJunk) {
-  upsertJunkCategory(content, {
-    id: 'nintendo-store',
-    name: 'My Nintendo Store Wishlist \ud83c\udf44',
-    icon: '\ud83c\udf44',
-    description: 'Synced from the My Nintendo Store wishlist.',
+  content.junk.categories = (content.junk.categories || []).filter(cat => cat.id !== 'nintendo-store');
+
+  content.nintendo = {
+    title: 'Nintendo & Pokémon \ud83c\udf44',
+    lede: 'Official merchandise from Nintendo Store UK and Pokémon Center UK.',
     url: nintendo.url,
-    items: nintendo.wishlist.filter(item => !removedFromJunk.includes(item.name)).map(item => ({
+    groups: [
+      { key: 'pokemon', label: 'Pokémon' },
+      { key: 'mario', label: 'Super Mario & Yoshi' },
+      { key: 'pikmin', label: 'Pikmin' },
+      { key: 'metroid', label: 'Metroid' },
+      { key: 'zelda', label: 'The Legend of Zelda' },
+      { key: 'other', label: 'Other' }
+    ],
+    wishlist: nintendo.wishlist.filter(item => !removedFromJunk.includes(item.name)).map(item => ({
       id: item.id,
       name: item.name,
-      theme: item.status || 'Nintendo',
       price: item.price,
+      status: item.status || '',
       img: item.img,
       url: item.url || nintendo.url,
-      notes: item.status
+      group: getNintendoGroup(item)
     }))
-  });
+  };
+
+  if (!content.index.collectionHubs.some(hub => hub.href === 'nintendo.html')) {
+    const zeldaIdx = content.index.collectionHubs.findIndex(hub => hub.href === 'zelda.html');
+    const hubEntry = {
+      href: 'nintendo.html',
+      icon: '\ud83c\udf44',
+      title: 'Nintendo & Pokémon',
+      badge: `${content.nintendo.wishlist.length} Items`,
+      notes: 'Official Pop-Up Store gear, Die-Cast replicas, plush toys, and home goods.'
+    };
+    if (zeldaIdx !== -1) {
+      content.index.collectionHubs.splice(zeldaIdx + 1, 0, hubEntry);
+    } else {
+      content.index.collectionHubs.push(hubEntry);
+    }
+  }
 
   // Items Alec asked to take off the Zelda page stay off, even while the store wishlist still has them
   const removed = zeldaOverrides.removed.map(name => ({ name }));
@@ -649,10 +684,13 @@ function syncShop(content, shop) {
 
 function syncHubBadges(content) {
   const lego = content.index.collectionHubs.find(hub => hub.href === 'lego.html');
-  if (!lego) {
-    return;
+  if (lego) {
+    lego.badge = `${content.lego.owned.length} Sets`;
   }
-  lego.badge = `${content.lego.owned.length} Sets`;
+  const nintendo = content.index.collectionHubs.find(hub => hub.href === 'nintendo.html');
+  if (nintendo && content.nintendo) {
+    nintendo.badge = `${content.nintendo.wishlist.length} Items`;
+  }
 }
 
 function main() {

@@ -287,6 +287,38 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  function nintendoCatalogue(data) {
+    if (!data) return { title: 'Nintendo & Pokémon', lede: '', groups: [], wanted: [], owned: [] };
+    const groups = data.groups || [
+      { key: 'pokemon', label: 'Pokémon' },
+      { key: 'mario', label: 'Super Mario & Yoshi' },
+      { key: 'pikmin', label: 'Pikmin' },
+      { key: 'metroid', label: 'Metroid' },
+      { key: 'zelda', label: 'The Legend of Zelda' },
+      { key: 'other', label: 'Other' }
+    ];
+    return {
+      title: 'Nintendo & Pokémon',
+      lede: 'Official merchandise from Nintendo Store UK and Pokémon Center UK.',
+      links: [
+        { label: 'My Nintendo Store UK', href: 'https://store.nintendo.com/en-gb' },
+        { label: 'Pokémon Center UK', href: 'https://www.pokemoncenter.com/en-gb' }
+      ],
+      groups,
+      sectioned: true,
+      wanted: (data.wishlist || []).map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: item.status || '',
+        price: isPrice(item.price) ? item.price : '',
+        status: isPrice(item.price) ? '' : item.price,
+        group: item.group || 'other'
+      })),
+      owned: []
+    };
+  }
+
   function healthCatalogue(data) {
     return {
       title: 'Health and gym',
@@ -335,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const CATALOGUES = {
     lego: () => legoCatalogue(SITE_CONTENT.lego),
     zelda: () => zeldaCatalogue(SITE_CONTENT.zelda),
+    nintendo: () => nintendoCatalogue(SITE_CONTENT.nintendo),
     videogames: () => gamesCatalogue(SITE_CONTENT.videogames),
     boardgames: () => boardgamesCatalogue(SITE_CONTENT.boardgames),
     books: () => booksCatalogue(SITE_CONTENT.books),
@@ -359,6 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const counts = {
       'lego.html': [SITE_CONTENT.lego.wishlist.length, SITE_CONTENT.lego.owned.length],
       'zelda.html': [SITE_CONTENT.zelda.wishlist.length, SITE_CONTENT.zelda.owned.length],
+      'nintendo.html': [SITE_CONTENT.nintendo ? SITE_CONTENT.nintendo.wishlist.length : 0, 0],
       'videogames.html': [(SITE_CONTENT.videogames.wishlist || []).length, SITE_CONTENT.videogames.owned.length],
       'boardgames.html': [SITE_CONTENT.boardgames.wishlist.length, SITE_CONTENT.boardgames.owned.length],
       'books.html': [
