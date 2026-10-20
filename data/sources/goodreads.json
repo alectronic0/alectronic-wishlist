@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-05T21:16:07.194Z",
+  "scrapedAt": "2026-10-20T22:08:19.739Z",
   "url": "https://www.goodreads.com/user/show/194943775",
   "shelves": {
     "my-bookcase": [
@@ -442,6 +442,526 @@
         "asin": "1797227807",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696959742l/194805515.jpg",
         "url": "https://www.goodreads.com/book/show/194805515-lego-botanical-almanac"
+      },
+      {
+        "id": "12991832",
+        "title": "Heston Blumenthal at Home",
+        "author": "Blumenthal, Heston",
+        "isbn": "1408804409",
+        "isbn13": "9781408804407",
+        "asin": "1408804409",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338980695l/12991832.jpg",
+        "url": "https://www.goodreads.com/book/show/12991832-heston-blumenthal-at-home"
+      },
+      {
+        "id": "40960189",
+        "title": "Beauty Food: 85 recipes for health & beauty from within",
+        "author": "Ahlgren, Maria",
+        "isbn": "1784724831",
+        "isbn13": "9781784724832",
+        "asin": "1784724831",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532701368l/40960189.jpg",
+        "url": "https://www.goodreads.com/book/show/40960189-beauty-food"
+      },
+      {
+        "id": "210005915",
+        "title": "Developer Experience",
+        "author": "Osmani, Addy",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DVDKHGWH",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710541871l/210005915.jpg",
+        "url": "https://www.goodreads.com/book/show/210005915-developer-experience"
+      },
+      {
+        "id": "36100762",
+        "title": "Kaguya-sama: Love Is War, Vol. 1",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700305",
+        "isbn13": "9781974700301",
+        "asin": "1974700305",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721936l/36100762.jpg",
+        "url": "https://www.goodreads.com/book/show/36100762-kaguya-sama"
+      },
+      {
+        "id": "36495869",
+        "title": "Kaguya-sama: Love Is War, Vol. 2",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700313",
+        "isbn13": "9781974700318",
+        "asin": "1974700313",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721943l/36495869.jpg",
+        "url": "https://www.goodreads.com/book/show/36495869-kaguya-sama"
+      },
+      {
+        "id": "36538804",
+        "title": "Kaguya-sama: Love Is War, Vol. 3",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700321",
+        "isbn13": "9781974700325",
+        "asin": "1974700321",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721949l/36538804.jpg",
+        "url": "https://www.goodreads.com/book/show/36538804-kaguya-sama"
+      },
+      {
+        "id": "38926438",
+        "title": "Kaguya-sama: Love Is War, Vol. 4",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700496",
+        "isbn13": "9781974700493",
+        "asin": "1974700496",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721955l/38926438.jpg",
+        "url": "https://www.goodreads.com/book/show/38926438-kaguya-sama"
+      },
+      {
+        "id": "38926416",
+        "title": "Kaguya-sama: Love Is War, Vol. 5",
+        "author": "Akasaka, Aka",
+        "isbn": "197470050X",
+        "isbn13": "9781974700509",
+        "asin": "197470050X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721959l/38926416.jpg",
+        "url": "https://www.goodreads.com/book/show/38926416-kaguya-sama"
+      },
+      {
+        "id": "34226423",
+        "title": "Kaguya-sama: Love Is War, Vol. 6",
+        "author": "Akasaka, Aka",
+        "isbn": "1974701387",
+        "isbn13": "9781974701384",
+        "asin": "1974701387",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538255423l/34226423.jpg",
+        "url": "https://www.goodreads.com/book/show/34226423-kaguya-sama"
+      },
+      {
+        "id": "40639136",
+        "title": "Kaguya-sama: Love Is War, Vol. 7",
+        "author": "Akasaka, Aka",
+        "isbn": "1974701395",
+        "isbn13": "9781974701391",
+        "asin": "1974701395",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541421817l/40639136.jpg",
+        "url": "https://www.goodreads.com/book/show/40639136-kaguya-sama"
+      },
+      {
+        "id": "42633882",
+        "title": "Kaguya-sama: Love Is War, Vol. 8",
+        "author": "Akasaka, Aka",
+        "isbn": "1974704408",
+        "isbn13": "9781974704408",
+        "asin": "1974704408",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544925766l/42633882.jpg",
+        "url": "https://www.goodreads.com/book/show/42633882-kaguya-sama"
+      },
+      {
+        "id": "42633866",
+        "title": "Kaguya-sama: Love Is War, Vol. 9",
+        "author": "Akasaka, Aka",
+        "isbn": "1974705099",
+        "isbn13": "9781974705092",
+        "asin": "1974705099",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551617679l/42633866.jpg",
+        "url": "https://www.goodreads.com/book/show/42633866-kaguya-sama"
+      },
+      {
+        "id": "43909391",
+        "title": "Kaguya-sama: Love Is War, Vol. 10",
+        "author": "Akasaka, Aka",
+        "isbn": "197470663X",
+        "isbn13": "9781974706631",
+        "asin": "197470663X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555270780l/43909391.jpg",
+        "url": "https://www.goodreads.com/book/show/43909391-kaguya-sama"
+      },
+      {
+        "id": "43909393",
+        "title": "Kaguya-sama: Love Is War, Vol. 11",
+        "author": "Akasaka, Aka",
+        "isbn": "1974707792",
+        "isbn13": "9781974707799",
+        "asin": "1974707792",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561287394l/43909393.jpg",
+        "url": "https://www.goodreads.com/book/show/43909393-kaguya-sama"
+      },
+      {
+        "id": "51096665",
+        "title": "Kaguya-sama: Love Is War, Vol. 12",
+        "author": "Akasaka, Aka",
+        "isbn": "1974709574",
+        "isbn13": "9781974709571",
+        "asin": "1974709574",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566731654l/51096665.jpg",
+        "url": "https://www.goodreads.com/book/show/51096665-kaguya-sama"
+      },
+      {
+        "id": "51160956",
+        "title": "Kaguya-sama: Love Is War, Vol. 13",
+        "author": "Akasaka, Aka",
+        "isbn": "1974710718",
+        "isbn13": "9781974710713",
+        "asin": "1974710718",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570970117l/51160956.jpg",
+        "url": "https://www.goodreads.com/book/show/51160956-kaguya-sama"
+      },
+      {
+        "id": "52757931",
+        "title": "Kaguya-sama: Love Is War, Vol. 14",
+        "author": "Akasaka, Aka",
+        "isbn": "1974714721",
+        "isbn13": "9781974714728",
+        "asin": "1974714721",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577015934l/52757931.jpg",
+        "url": "https://www.goodreads.com/book/show/52757931-kaguya-sama"
+      },
+      {
+        "id": "52757930",
+        "title": "Kaguya-sama: Love Is War, Vol. 15",
+        "author": "Akasaka, Aka",
+        "isbn": "197471473X",
+        "isbn13": "9781974714735",
+        "asin": "197471473X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583900205l/52757930.jpg",
+        "url": "https://www.goodreads.com/book/show/52757930-kaguya-sama"
+      },
+      {
+        "id": "50891138",
+        "title": "Kaguya-sama: Love Is War, Vol. 16",
+        "author": "Akasaka, Aka",
+        "isbn": "1974717100",
+        "isbn13": "9781974717101",
+        "asin": "1974717100",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104835l/50891138.jpg",
+        "url": "https://www.goodreads.com/book/show/50891138-kaguya-sama"
+      },
+      {
+        "id": "50891154",
+        "title": "Kaguya-sama: Love Is War, Vol. 17",
+        "author": "Akasaka, Aka",
+        "isbn": "1974718743",
+        "isbn13": "9781974718740",
+        "asin": "1974718743",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595161940l/50891154.jpg",
+        "url": "https://www.goodreads.com/book/show/50891154-kaguya-sama"
+      },
+      {
+        "id": "54303330",
+        "title": "Kaguya-sama: Love Is War, Vol. 18",
+        "author": "Akasaka, Aka",
+        "isbn": "1974721000",
+        "isbn13": "9781974721009",
+        "asin": "1974721000",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598798091l/54303330.jpg",
+        "url": "https://www.goodreads.com/book/show/54303330-kaguya-sama"
+      },
+      {
+        "id": "55711501",
+        "title": "Kaguya-sama: Love Is War, Vol. 19",
+        "author": "Akasaka, Aka",
+        "isbn": "1974722864",
+        "isbn13": "9781974722860",
+        "asin": "1974722864",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614528675l/55711501.jpg",
+        "url": "https://www.goodreads.com/book/show/55711501-kaguya-sama"
+      },
+      {
+        "id": "55711525",
+        "title": "Kaguya-sama: Love Is War, Vol. 20",
+        "author": "Akasaka, Aka",
+        "isbn": "1974724034",
+        "isbn13": "9781974724031",
+        "asin": "1974724034",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616939798l/55711525.jpg",
+        "url": "https://www.goodreads.com/book/show/55711525-kaguya-sama"
+      },
+      {
+        "id": "56898067",
+        "title": "Kaguya-sama: Love Is War, Vol. 21",
+        "author": "Akasaka, Aka",
+        "isbn": "1974725189",
+        "isbn13": "9781974725182",
+        "asin": "1974725189",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626644818l/56898067.jpg",
+        "url": "https://www.goodreads.com/book/show/56898067-kaguya-sama"
+      },
+      {
+        "id": "58438435",
+        "title": "Kaguya-sama: Love Is War, Vol. 22",
+        "author": "Akasaka, Aka",
+        "isbn": "1974728471",
+        "isbn13": "9781974728473",
+        "asin": "1974728471",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635692474l/58438435.jpg",
+        "url": "https://www.goodreads.com/book/show/58438435-kaguya-sama"
+      },
+      {
+        "id": "59366067",
+        "title": "Kaguya-sama: Love Is War, Vol. 23",
+        "author": "Akasaka, Aka",
+        "isbn": "1974732185",
+        "isbn13": "9781974732180",
+        "asin": "1974732185",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384715l/59366067.jpg",
+        "url": "https://www.goodreads.com/book/show/59366067-kaguya-sama"
+      },
+      {
+        "id": "60321382",
+        "title": "Kaguya-sama: Love Is War, Vol. 24",
+        "author": "Akasaka, Aka",
+        "isbn": "197473448X",
+        "isbn13": "9781974734481",
+        "asin": "197473448X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660147898l/60321382.jpg",
+        "url": "https://www.goodreads.com/book/show/60321382-kaguya-sama"
+      },
+      {
+        "id": "30111553",
+        "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+        "author": "Christian, Brian",
+        "isbn": "0008166099",
+        "isbn13": "9780008166090",
+        "asin": "0008166099",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462401688l/30111553.jpg",
+        "url": "https://www.goodreads.com/book/show/30111553-algorithms-to-live-by"
+      },
+      {
+        "id": "23626987",
+        "title": "The Angel's Game (The Cemetery of Forgotten Books, #2)",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "1921656719",
+        "isbn13": "9781921656712",
+        "asin": "1921656719",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446953951l/23626987.jpg",
+        "url": "https://www.goodreads.com/book/show/23626987-the-angel-s-game"
+      },
+      {
+        "id": "60211710",
+        "title": "The Prisoner of Heaven",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "192207988X",
+        "isbn13": "9781922079886",
+        "asin": "192207988X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643126577l/60211710.jpg",
+        "url": "https://www.goodreads.com/book/show/60211710-the-prisoner-of-heaven"
+      },
+      {
+        "id": "53376895",
+        "title": "The Shadow Of The Wind",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "1921520396",
+        "isbn13": "9781921520396",
+        "asin": "1921520396",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589202501l/53376895.jpg",
+        "url": "https://www.goodreads.com/book/show/53376895-the-shadow-of-the-wind"
+      },
+      {
+        "id": "12969025",
+        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+        "author": "Eric, Ries",
+        "isbn": "0670921602",
+        "isbn13": "9780670921607",
+        "asin": "0670921602",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645396848l/12969025.jpg",
+        "url": "https://www.goodreads.com/book/show/12969025-the-lean-startup"
+      },
+      {
+        "id": "30227373",
+        "title": "The Secrets to App Success on Google Play",
+        "author": "Inc., Google",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DM1GS3QD",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463583235l/30227373.jpg",
+        "url": "https://www.goodreads.com/book/show/30227373-the-secrets-to-app-success-on-google-play"
+      },
+      {
+        "id": "43617306",
+        "title": "The Complete Tales of H.P. Lovecraft",
+        "author": "Lovecraft, H.P.",
+        "isbn": "1631066463",
+        "isbn13": "9781631066467",
+        "asin": "1631066463",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767713333l/43617306.jpg",
+        "url": "https://www.goodreads.com/book/show/43617306-the-complete-tales-of-h-p-lovecraft"
+      },
+      {
+        "id": "873",
+        "title": "Fullmetal Alchemist, Vol. 2",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1591169232",
+        "isbn13": "9781591169239",
+        "asin": "1591169232",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348990451l/873.jpg",
+        "url": "https://www.goodreads.com/book/show/873.Fullmetal_Alchemist_Vol_2"
+      },
+      {
+        "id": "25955849",
+        "title": "The Practitioner's Guide to Product Management",
+        "author": "Busuttil, Jock",
+        "isbn": "034940674X",
+        "isbn13": "9780349406749",
+        "asin": "034940674X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437551758l/25955849.jpg",
+        "url": "https://www.goodreads.com/book/show/25955849-the-practitioner-s-guide-to-product-management"
+      },
+      {
+        "id": "51323379",
+        "title": "Fly Me to the Moon, Vol. 1",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717496",
+        "isbn13": "9781974717491",
+        "asin": "1974717496",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916994l/51323379.jpg",
+        "url": "https://www.goodreads.com/book/show/51323379-fly-me-to-the-moon-vol-1"
+      },
+      {
+        "id": "51323371",
+        "title": "Fly Me to the Moon, Vol. 2",
+        "author": "Hata, Kenjirō",
+        "isbn": "197471750X",
+        "isbn13": "9781974717507",
+        "asin": "197471750X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162376l/51323371.jpg",
+        "url": "https://www.goodreads.com/book/show/51323371-fly-me-to-the-moon-vol-2"
+      },
+      {
+        "id": "54303390",
+        "title": "Fly Me to the Moon, Vol. 3",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717518",
+        "isbn13": "9781974717514",
+        "asin": "1974717518",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600610847l/54303390.jpg",
+        "url": "https://www.goodreads.com/book/show/54303390-fly-me-to-the-moon-vol-3"
+      },
+      {
+        "id": "54308142",
+        "title": "Fly Me to the Moon, Vol. 4",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717526",
+        "isbn13": "9781974717521",
+        "asin": "1974717526",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607263572l/54308142.jpg",
+        "url": "https://www.goodreads.com/book/show/54308142-fly-me-to-the-moon-vol-4"
+      },
+      {
+        "id": "55711442",
+        "title": "Fly Me to the Moon, Vol. 5",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719235",
+        "isbn13": "9781974719235",
+        "asin": "1974719235",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612104489l/55711442.jpg",
+        "url": "https://www.goodreads.com/book/show/55711442-fly-me-to-the-moon-vol-5"
+      },
+      {
+        "id": "55711443",
+        "title": "Fly Me to the Moon, Vol. 6",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719243",
+        "isbn13": "9781974719242",
+        "asin": "1974719243",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544621l/55711443.jpg",
+        "url": "https://www.goodreads.com/book/show/55711443-fly-me-to-the-moon-vol-6"
+      },
+      {
+        "id": "56898000",
+        "title": "Fly Me to the Moon, Vol. 7",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719251",
+        "isbn13": "9781974719259",
+        "asin": "1974719251",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621173928l/56898000.jpg",
+        "url": "https://www.goodreads.com/book/show/56898000-fly-me-to-the-moon-vol-7"
+      },
+      {
+        "id": "56898038",
+        "title": "Fly Me to the Moon, Vol. 8",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723542",
+        "isbn13": "9781974723546",
+        "asin": "1974723542",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429846l/56898038.jpg",
+        "url": "https://www.goodreads.com/book/show/56898038-fly-me-to-the-moon-vol-8"
+      },
+      {
+        "id": "58438372",
+        "title": "Fly Me to the Moon, Vol. 9",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723550",
+        "isbn13": "9781974723553",
+        "asin": "1974723550",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632912238l/58438372.jpg",
+        "url": "https://www.goodreads.com/book/show/58438372-fly-me-to-the-moon-vol-9"
+      },
+      {
+        "id": "58438373",
+        "title": "Fly Me to the Moon, Vol. 10",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723569",
+        "isbn13": "9781974723560",
+        "asin": "1974723569",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635362660l/58438373.jpg",
+        "url": "https://www.goodreads.com/book/show/58438373-fly-me-to-the-moon-vol-10"
+      },
+      {
+        "id": "59862682",
+        "title": "Learning Patterns",
+        "author": "Hallie, Lydia",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DV3CBD7S",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639996199l/59862682.jpg",
+        "url": "https://www.goodreads.com/book/show/59862682-learning-patterns"
+      },
+      {
+        "id": "51826697",
+        "title": "Everything Is F*cked: A Book About Hope",
+        "author": "Manson, Mark",
+        "isbn": "0062956566",
+        "isbn13": "9780062956569",
+        "asin": "0062956566",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595813035l/51826697.jpg",
+        "url": "https://www.goodreads.com/book/show/51826697-everything-is-f-cked"
+      },
+      {
+        "id": "28259130",
+        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "author": "Manson, Mark",
+        "isbn": "0062457713",
+        "isbn13": "9780062457714",
+        "asin": "0062457713",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761873l/28259130.jpg",
+        "url": "https://www.goodreads.com/book/show/28259130-the-subtle-art-of-not-giving-a-f-ck"
+      },
+      {
+        "id": "24796699",
+        "title": "The Legend of Zelda: A Link to the Past",
+        "author": "Ishinomori, Shōtarō",
+        "isbn": "1421575418",
+        "isbn13": "9781421575414",
+        "asin": "1421575418",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422848719l/24796699.jpg",
+        "url": "https://www.goodreads.com/book/show/24796699-the-legend-of-zelda"
+      },
+      {
+        "id": "42643896",
+        "title": "Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry's Great Mythology, #2)",
+        "author": "Fry, Stephen",
+        "isbn": "1405940360",
+        "isbn13": "9781405940368",
+        "asin": "1405940360",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555336384l/42643896.jpg",
+        "url": "https://www.goodreads.com/book/show/42643896-heroes"
+      },
+      {
+        "id": "57188408",
+        "title": "Troy",
+        "author": "Fry, Stephen",
+        "isbn": "1405944463",
+        "isbn13": "9781405944465",
+        "asin": "1405944463",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625333859l/57188408.jpg",
+        "url": "https://www.goodreads.com/book/show/57188408-troy"
       }
     ],
     "my-wishlist": [
@@ -554,98 +1074,6 @@
         "asin": "4757554893",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508432170l/36441259.jpg",
         "url": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1"
-      },
-      {
-        "id": "55711190",
-        "title": "The Encyclopedia of Cocktails: Over 1,000 Cocktails for Every Occasion (Encyclopedia Cookbooks)",
-        "author": "Kitchen, The Coastal",
-        "isbn": "1646430980",
-        "isbn13": "9781646430987",
-        "asin": "1646430980",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622046810l/55711190.jpg",
-        "url": "https://www.goodreads.com/book/show/55711190-the-encyclopedia-of-cocktails"
-      },
-      {
-        "id": "56497936",
-        "title": "Game Boy: The Box Art Collection",
-        "author": "Books, Bitmap",
-        "isbn": "1838019138",
-        "isbn13": "9781838019136",
-        "asin": "1838019138",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609468412l/56497936.jpg",
-        "url": "https://www.goodreads.com/book/show/56497936-game-boy"
-      },
-      {
-        "id": "56897775",
-        "title": "The Encyclopedia of Cookies: Over 500 Tasty Recipes for Cookie Lovers of All Ages (Encyclopedia Cookbooks)",
-        "author": "Press, Editors of Cider Mill",
-        "isbn": "1646431804",
-        "isbn13": "9781646431809",
-        "asin": "1646431804",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624806700l/56897775.jpg",
-        "url": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies"
-      },
-      {
-        "id": "61273021",
-        "title": "The Encyclopedia of Tapas: 400 Small Plates for All Occasions (Encyclopedia Cookbooks)",
-        "author": "Kitchen, The Coastal",
-        "isbn": "1646433432",
-        "isbn13": "9781646433438",
-        "asin": "1646433432",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684083978l/61273021.jpg",
-        "url": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas"
-      },
-      {
-        "id": "63006724",
-        "title": "The Encyclopedia of Desserts: 400 Internationally Inspired Sweets and Confections (Encyclopedia Cookbooks)",
-        "author": "Kitchen, The Coastal",
-        "isbn": "1646434102",
-        "isbn13": "9781646434107",
-        "asin": "1646434102",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682971098l/63006724.jpg",
-        "url": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts"
-      },
-      {
-        "id": "201335430",
-        "title": "The Encyclopedia of Cast Iron: Over 350 Recipes for the Cast Iron Connoisseur (Encyclopedia Cookbooks)",
-        "author": "Press, Cider Mill",
-        "isbn": "140034462X",
-        "isbn13": "9781400344628",
-        "asin": "140034462X",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719742067l/201335430.jpg",
-        "url": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron"
-      },
-      {
-        "id": "210137355",
-        "title": "The Encyclopedia of Pasta: Over 350 Recipes for the Ultimate Comfort Food (Encyclopedia Cookbooks)",
-        "author": "Nelson, Thomas",
-        "isbn": "140034610X",
-        "isbn13": "9781400346103",
-        "asin": "140034610X",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710812969l/210137355.jpg",
-        "url": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta"
-      }
-    ],
-    "to-read": [
-      {
-        "id": "51702292",
-        "title": "It's Cocktail Time!: Recipes for Every Occasion",
-        "author": "Summersdale",
-        "isbn": "1786855194",
-        "isbn13": "9781786855190",
-        "asin": "1786855194",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582589428l/51702292.jpg",
-        "url": "https://www.goodreads.com/book/show/51702292-it-s-cocktail-time"
-      },
-      {
-        "id": "32708007",
-        "title": "鬼滅の刃 1 [Kimetsu no Yaiba 1]",
-        "author": "Gotouge, Koyoharu",
-        "isbn": "",
-        "isbn13": "",
-        "asin": "B01EJ7AK5O",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476910723l/32708007.jpg",
-        "url": "https://www.goodreads.com/book/show/32708007-1-kimetsu-no-yaiba-1"
       },
       {
         "id": "31572149",
@@ -818,6 +1246,2302 @@
         "url": "https://www.goodreads.com/book/show/42800903-fullmetal-alchemist"
       },
       {
+        "id": "55711190",
+        "title": "The Encyclopedia of Cocktails: Over 1,000 Cocktails for Every Occasion (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646430980",
+        "isbn13": "9781646430987",
+        "asin": "1646430980",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622046810l/55711190.jpg",
+        "url": "https://www.goodreads.com/book/show/55711190-the-encyclopedia-of-cocktails"
+      },
+      {
+        "id": "56497936",
+        "title": "Game Boy: The Box Art Collection",
+        "author": "Books, Bitmap",
+        "isbn": "1838019138",
+        "isbn13": "9781838019136",
+        "asin": "1838019138",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609468412l/56497936.jpg",
+        "url": "https://www.goodreads.com/book/show/56497936-game-boy"
+      },
+      {
+        "id": "56897775",
+        "title": "The Encyclopedia of Cookies: Over 500 Tasty Recipes for Cookie Lovers of All Ages (Encyclopedia Cookbooks)",
+        "author": "Press, Editors of Cider Mill",
+        "isbn": "1646431804",
+        "isbn13": "9781646431809",
+        "asin": "1646431804",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624806700l/56897775.jpg",
+        "url": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies"
+      },
+      {
+        "id": "61273021",
+        "title": "The Encyclopedia of Tapas: 400 Small Plates for All Occasions (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646433432",
+        "isbn13": "9781646433438",
+        "asin": "1646433432",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684083978l/61273021.jpg",
+        "url": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas"
+      },
+      {
+        "id": "63006724",
+        "title": "The Encyclopedia of Desserts: 400 Internationally Inspired Sweets and Confections (Encyclopedia Cookbooks)",
+        "author": "Kitchen, The Coastal",
+        "isbn": "1646434102",
+        "isbn13": "9781646434107",
+        "asin": "1646434102",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682971098l/63006724.jpg",
+        "url": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts"
+      },
+      {
+        "id": "201335430",
+        "title": "The Encyclopedia of Cast Iron: Over 350 Recipes for the Cast Iron Connoisseur (Encyclopedia Cookbooks)",
+        "author": "Press, Cider Mill",
+        "isbn": "140034462X",
+        "isbn13": "9781400344628",
+        "asin": "140034462X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719742067l/201335430.jpg",
+        "url": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron"
+      },
+      {
+        "id": "210137355",
+        "title": "The Encyclopedia of Pasta: Over 350 Recipes for the Ultimate Comfort Food (Encyclopedia Cookbooks)",
+        "author": "Nelson, Thomas",
+        "isbn": "140034610X",
+        "isbn13": "9781400346103",
+        "asin": "140034610X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710812969l/210137355.jpg",
+        "url": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta"
+      },
+      {
+        "id": "52854190",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Himekawa, Akira",
+        "isbn": "1974718190",
+        "isbn13": "9781974718191",
+        "asin": "1974718190",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162105l/52854190.jpg",
+        "url": "https://www.goodreads.com/book/show/52854190-the-legend-of-zelda---legendary-edition-box-set"
+      },
+      {
+        "id": "31140468",
+        "title": "The Legend of Zelda: Majora's Mask / A Link to the Past -Legendary Edition-: Majora's Mask/A Link to the Past",
+        "author": "Himekawa, Akira",
+        "isbn": "1421589613",
+        "isbn13": "9781421589619",
+        "asin": "1421589613",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482995011l/31140468.jpg",
+        "url": "https://www.goodreads.com/book/show/31140468-the-legend-of-zelda"
+      },
+      {
+        "id": "29934239",
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "author": "Himekawa, Akira",
+        "isbn": "1421589591",
+        "isbn13": "9781421589596",
+        "asin": "1421589591",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469370495l/29934239.jpg",
+        "url": "https://www.goodreads.com/book/show/29934239-the-legend-of-zelda"
+      },
+      {
+        "id": "29934243",
+        "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages -Legendary Edition-: Oracle of Seasons / Oracle of Ages",
+        "author": "Himekawa, Akira",
+        "isbn": "1421589605",
+        "isbn13": "9781421589602",
+        "asin": "1421589605",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475881151l/29934243.jpg",
+        "url": "https://www.goodreads.com/book/show/29934243-the-legend-of-zelda"
+      },
+      {
+        "id": "31140465",
+        "title": "The Legend of Zelda: The Minish Cap / Phantom Hourglass -Legendary Edition-: The Minish Cap/Phantom Hourglass",
+        "author": "Himekawa, Akira",
+        "isbn": "1421589621",
+        "isbn13": "9781421589626",
+        "asin": "1421589621",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486855854l/31140465.jpg",
+        "url": "https://www.goodreads.com/book/show/31140465-the-legend-of-zelda"
+      },
+      {
+        "id": "4885189",
+        "title": "The Legend of Zelda: Majora's Mask (Zelda, #3)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523299",
+        "isbn13": "9781421523293",
+        "asin": "1421523299",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388489640l/4885189.jpg",
+        "url": "https://www.goodreads.com/book/show/4885189-the-legend-of-zelda"
+      },
+      {
+        "id": "4885190",
+        "title": "The Legend of Zelda: Oracle of Seasons (Zelda, #4)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523302",
+        "isbn13": "9781421523309",
+        "asin": "1421523302",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388637253l/4885190.jpg",
+        "url": "https://www.goodreads.com/book/show/4885190-the-legend-of-zelda"
+      },
+      {
+        "id": "6186199",
+        "title": "The Legend of Zelda: Oracle of Ages (Zelda, #5)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523310",
+        "isbn13": "9781421523316",
+        "asin": "1421523310",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388955562l/6186199.jpg",
+        "url": "https://www.goodreads.com/book/show/6186199-the-legend-of-zelda"
+      },
+      {
+        "id": "6186198",
+        "title": "The Legend of Zelda: Four Swords - Part 1 (Zelda, #6)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523329",
+        "isbn13": "9781421523323",
+        "asin": "1421523329",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391029754l/6186198.jpg",
+        "url": "https://www.goodreads.com/book/show/6186198-the-legend-of-zelda"
+      },
+      {
+        "id": "6476708",
+        "title": "The Legend of Zelda: Four Swords - Part 2 (Zelda, #7)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523337",
+        "isbn13": "9781421523330",
+        "asin": "1421523337",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388465357l/6476708.jpg",
+        "url": "https://www.goodreads.com/book/show/6476708-the-legend-of-zelda"
+      },
+      {
+        "id": "6476709",
+        "title": "The Legend of Zelda: The Minish Cap (Zelda, #8)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523345",
+        "isbn13": "9781421523347",
+        "asin": "1421523345",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/6476709.jpg",
+        "url": "https://www.goodreads.com/book/show/6476709-the-legend-of-zelda"
+      },
+      {
+        "id": "6852350",
+        "title": "The Legend of Zelda: A Link to the Past (Zelda, #9)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421523353",
+        "isbn13": "9781421523354",
+        "asin": "1421523353",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388465357l/6852350.jpg",
+        "url": "https://www.goodreads.com/book/show/6852350-the-legend-of-zelda"
+      },
+      {
+        "id": "7171902",
+        "title": "The Legend of Zelda: Phantom Hourglass (Zelda, #10)",
+        "author": "Himekawa, Akira",
+        "isbn": "1421537249",
+        "isbn13": "9781421537245",
+        "asin": "1421537249",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/7171902.jpg",
+        "url": "https://www.goodreads.com/book/show/7171902-the-legend-of-zelda"
+      },
+      {
+        "id": "32918996",
+        "title": "The Legend of Zelda: Legendary Edition, Vol. 5: Four Swords",
+        "author": "Himekawa, Akira",
+        "isbn": "142158963X",
+        "isbn13": "9781421589633",
+        "asin": "142158963X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493548071l/32918996.jpg",
+        "url": "https://www.goodreads.com/book/show/32918996-the-legend-of-zelda"
+      },
+      {
+        "id": "34055091",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 2",
+        "author": "Himekawa, Akira",
+        "isbn": "1421596563",
+        "isbn13": "9781421596563",
+        "asin": "1421596563",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490524350l/34055091.jpg",
+        "url": "https://www.goodreads.com/book/show/34055091-the-legend-of-zelda"
+      },
+      {
+        "id": "35664116",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 3",
+        "author": "Himekawa, Akira",
+        "isbn": "1421598264",
+        "isbn13": "9781421598260",
+        "asin": "1421598264",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510482002l/35664116.jpg",
+        "url": "https://www.goodreads.com/book/show/35664116-the-legend-of-zelda"
+      },
+      {
+        "id": "38926454",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 4",
+        "author": "Himekawa, Akira",
+        "isbn": "197470226X",
+        "isbn13": "9781974702268",
+        "asin": "197470226X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527540317l/38926454.jpg",
+        "url": "https://www.goodreads.com/book/show/38926454-the-legend-of-zelda"
+      },
+      {
+        "id": "40639176",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 5",
+        "author": "Himekawa, Akira",
+        "isbn": "1974705641",
+        "isbn13": "9781974705641",
+        "asin": "1974705641",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551249165l/40639176.jpg",
+        "url": "https://www.goodreads.com/book/show/40639176-the-legend-of-zelda"
+      },
+      {
+        "id": "52402406",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 6",
+        "author": "Himekawa, Akira",
+        "isbn": "1974711633",
+        "isbn13": "9781974711635",
+        "asin": "1974711633",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567950953l/52402406.jpg",
+        "url": "https://www.goodreads.com/book/show/52402406-the-legend-of-zelda"
+      },
+      {
+        "id": "52758052",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 7",
+        "author": "Himekawa, Akira",
+        "isbn": "1974715337",
+        "isbn13": "9781974715336",
+        "asin": "1974715337",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592078015l/52758052.jpg",
+        "url": "https://www.goodreads.com/book/show/52758052-the-legend-of-zelda"
+      },
+      {
+        "id": "7935732",
+        "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers (The Strategyzer series)",
+        "author": "Osterwalder, Alexander",
+        "isbn": "0470876417",
+        "isbn13": "9780470876411",
+        "asin": "0470876417",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742883179l/7935732.jpg",
+        "url": "https://www.goodreads.com/book/show/7935732-business-model-generation"
+      },
+      {
+        "id": "22505488",
+        "title": "Value Proposition Design: How to Create Products and Services Customers Want",
+        "author": "Osterwalder, Alexander",
+        "isbn": "1118968050",
+        "isbn13": "9781118968055",
+        "asin": "1118968050",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410066532l/22505488.jpg",
+        "url": "https://www.goodreads.com/book/show/22505488-value-proposition-design"
+      },
+      {
+        "id": "43261151",
+        "title": "Binging with Babish: 100 Recipes Recreated from Your Favorite Movies and TV Shows",
+        "author": "Rea, Andrew",
+        "isbn": "1328589897",
+        "isbn13": "9781328589897",
+        "asin": "1328589897",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560068419l/43261151.jpg",
+        "url": "https://www.goodreads.com/book/show/43261151-binging-with-babish"
+      },
+      {
+        "id": "36514017",
+        "title": "Eat What You Watch",
+        "author": "Rea, Andrew",
+        "isbn": "0008283656",
+        "isbn13": "9780008283650",
+        "asin": "0008283656",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509520858l/36514017.jpg",
+        "url": "https://www.goodreads.com/book/show/36514017-eat-what-you-watch"
+      },
+      {
+        "id": "9596993",
+        "title": "42 Rules of Product Management: Learn the Rules of Product Management from Leading Experts \"from\" Around the World",
+        "author": "Lawley, Brian",
+        "isbn": "1607730863",
+        "isbn13": "9781607730866",
+        "asin": "1607730863",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347432811l/9596993.jpg",
+        "url": "https://www.goodreads.com/book/show/9596993-42-rules-of-product-management"
+      },
+      {
+        "id": "52778472",
+        "title": "The Pie Room: 80 achievable and show-stopping pies and sides for pie lovers everywhere",
+        "author": "Franklin, Calum",
+        "isbn": "1472973615",
+        "isbn13": "9781472973610",
+        "asin": "1472973615",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600634504l/52778472.jpg",
+        "url": "https://www.goodreads.com/book/show/52778472-the-pie-room"
+      },
+      {
+        "id": "5970233",
+        "title": "Brisingr (Inheritance, #3)",
+        "author": "Paolini, Christopher",
+        "isbn": "0552552127",
+        "isbn13": "9780552552127",
+        "asin": "0552552127",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962480l/5970233.jpg",
+        "url": "https://www.goodreads.com/book/show/5970233-brisingr"
+      },
+      {
+        "id": "839223",
+        "title": "Eldest (Inheritance, #2)",
+        "author": "Paolini, Christopher",
+        "isbn": "0552552119",
+        "isbn13": "9780552552110",
+        "asin": "0552552119",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485117387l/839223.jpg",
+        "url": "https://www.goodreads.com/book/show/839223.Eldest"
+      },
+      {
+        "id": "17426214",
+        "title": "Eragon",
+        "author": "Paolini, Christopher",
+        "isbn": "1407047205",
+        "isbn13": "9781407047201",
+        "asin": "1407047205",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413130816l/17426214.jpg",
+        "url": "https://www.goodreads.com/book/show/17426214-eragon"
+      },
+      {
+        "id": "16116659",
+        "title": "Inheritance (Inheritance, #4)",
+        "author": "Paolini, Christopher",
+        "isbn": "0552560243",
+        "isbn13": "9780552560245",
+        "asin": "0552560243",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351514899l/16116659.jpg",
+        "url": "https://www.goodreads.com/book/show/16116659-inheritance"
+      },
+      {
+        "id": "68000686",
+        "title": "What's for Dessert: Simple recipes for Dessert People",
+        "author": "Saffitz, Claire",
+        "isbn": "1922616621",
+        "isbn13": "9781922616623",
+        "asin": "1922616621",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671100764l/68000686.jpg",
+        "url": "https://www.goodreads.com/book/show/68000686-what-s-for-dessert"
+      },
+      {
+        "id": "7959048",
+        "title": "Momofuku",
+        "author": "Chang, David",
+        "isbn": "1906650357",
+        "isbn13": "9781906650353",
+        "asin": "1906650357",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347324890l/7959048.jpg",
+        "url": "https://www.goodreads.com/book/show/7959048-momofuku"
+      },
+      {
+        "id": "62623618",
+        "title": "The Arctic Incident (Artemis Fowl, #2)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141339101",
+        "isbn13": "9780141339108",
+        "asin": "B01LYF2SJT",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483179l/62623618.jpg",
+        "url": "https://www.goodreads.com/book/show/62623618-the-arctic-incident"
+      },
+      {
+        "id": "62623946",
+        "title": "Artemis Fowl and the Atlantis Complex (Artemis Fowl, #7)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141328037",
+        "isbn13": "9780141328034",
+        "asin": "0141328037",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488084l/62623946.jpg",
+        "url": "https://www.goodreads.com/book/show/62623946-artemis-fowl-and-the-atlantis-complex"
+      },
+      {
+        "id": "62623626",
+        "title": "Artemis Fowl and the Eternity Code (Artemis Fowl, #3)",
+        "author": "Colfer, Eoin",
+        "isbn": "014133911X",
+        "isbn13": "9780141339115",
+        "asin": "014133911X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483368l/62623626.jpg",
+        "url": "https://www.goodreads.com/book/show/62623626-artemis-fowl-and-the-eternity-code"
+      },
+      {
+        "id": "62623948",
+        "title": "Artemis Fowl and the Last Guardian",
+        "author": "Colfer, Eoin",
+        "isbn": "0141340762",
+        "isbn13": "9780141340760",
+        "asin": "0141340762",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488212l/62623948.jpg",
+        "url": "https://www.goodreads.com/book/show/62623948-artemis-fowl-and-the-last-guardian"
+      },
+      {
+        "id": "62623929",
+        "title": "Artemis Fowl and the Lost Colony (Artemis Fowl, #5)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141339144",
+        "isbn13": "9780141339146",
+        "asin": "B01LZPZAX1",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487734l/62623929.jpg",
+        "url": "https://www.goodreads.com/book/show/62623929-artemis-fowl-and-the-lost-colony"
+      },
+      {
+        "id": "62623912",
+        "title": "Artemis Fowl and the Opal Deception (Artemis Fowl, #4)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141339136",
+        "isbn13": "9780141339139",
+        "asin": "0141339136",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487562l/62623912.jpg",
+        "url": "https://www.goodreads.com/book/show/62623912-artemis-fowl-and-the-opal-deception"
+      },
+      {
+        "id": "62623938",
+        "title": "Artemis Fowl and the Time Paradox (Artemis Fowl, #6)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141339128",
+        "isbn13": "9780141339122",
+        "asin": "B01EKIGX9Y",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487876l/62623938.jpg",
+        "url": "https://www.goodreads.com/book/show/62623938-artemis-fowl-and-the-time-paradox"
+      },
+      {
+        "id": "62623604",
+        "title": "Artemis Fowl (Artemis Fowl, #1)",
+        "author": "Colfer, Eoin",
+        "isbn": "0141339098",
+        "isbn13": "9780141339092",
+        "asin": "0141339098",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663482979l/62623604.jpg",
+        "url": "https://www.goodreads.com/book/show/62623604-artemis-fowl"
+      },
+      {
+        "id": "217255756",
+        "title": "Tomorrow, and Tomorrow, and Tomorrow",
+        "author": "Zevin, Gabrielle",
+        "isbn": "152911554X",
+        "isbn13": "9781529115543",
+        "asin": "152911554X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723027081l/217255756.jpg",
+        "url": "https://www.goodreads.com/book/show/217255756-tomorrow-and-tomorrow-and-tomorrow"
+      },
+      {
+        "id": "28687243",
+        "title": "Hyrule Warriors Legends Collector's Edition: Prima Official Guide",
+        "author": "Rocha, Garitt",
+        "isbn": "0744017114",
+        "isbn13": "9780744017113",
+        "asin": "0744017114",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457891995l/28687243.jpg",
+        "url": "https://www.goodreads.com/book/show/28687243-hyrule-warriors-legends-collector-s-edition"
+      },
+      {
+        "id": "15946151",
+        "title": "Gordon Ramsay's Ultimate Cookery Course",
+        "author": "Ramsay, Gordon",
+        "isbn": "1444756699",
+        "isbn13": "9781444756692",
+        "asin": "1444756699",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354629727l/15946151.jpg",
+        "url": "https://www.goodreads.com/book/show/15946151-gordon-ramsay-s-ultimate-cookery-course"
+      },
+      {
+        "id": "8441504",
+        "title": "Heston's Fantastical Feasts",
+        "author": "Blumenthal, Heston",
+        "isbn": "1408808609",
+        "isbn13": "9781408808603",
+        "asin": "1408808609",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351765575l/8441504.jpg",
+        "url": "https://www.goodreads.com/book/show/8441504-heston-s-fantastical-feasts"
+      },
+      {
+        "id": "22174899",
+        "title": "Historic Heston",
+        "author": "Blumenthal, Heston",
+        "isbn": "140885757X",
+        "isbn13": "9781408857571",
+        "asin": "140885757X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405301070l/22174899.jpg",
+        "url": "https://www.goodreads.com/book/show/22174899-historic-heston"
+      },
+      {
+        "id": "1908493",
+        "title": "In Search of Perfection: Reinventing Kitchen Classics",
+        "author": "Blumenthal, Heston",
+        "isbn": "0747584095",
+        "isbn13": "9780747584094",
+        "asin": "0747584095",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348109774l/1908493.jpg",
+        "url": "https://www.goodreads.com/book/show/1908493.In_Search_of_Perfection"
+      },
+      {
+        "id": "3158083",
+        "title": "The Big Fat Duck Cookbook [Import Edition]",
+        "author": "Blumenthal, Heston",
+        "isbn": "0747583692",
+        "isbn13": "9780747583691",
+        "asin": "0747583692",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348040962l/3158083.jpg",
+        "url": "https://www.goodreads.com/book/show/3158083-the-big-fat-duck-cookbook-import-edition"
+      },
+      {
+        "id": "40944447",
+        "title": "Fullmetal Alchemist: The Complete Four-Panel Comics",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1974706176",
+        "isbn13": "9781974706174",
+        "asin": "1974706176",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545469635l/40944447.jpg",
+        "url": "https://www.goodreads.com/book/show/40944447-fullmetal-alchemist"
+      },
+      {
+        "id": "24861842",
+        "title": "The Food Lab: Better Home Cooking Through Science",
+        "author": "López-Alt, J. Kenji",
+        "isbn": "0393081087",
+        "isbn13": "9780393081084",
+        "asin": "0393081087",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430990153l/24861842.jpg",
+        "url": "https://www.goodreads.com/book/show/24861842-the-food-lab"
+      },
+      {
+        "id": "22841994",
+        "title": "Harry Potter and the Philosopher's Stone (Harry Potter, #1)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855658",
+        "isbn13": "9781408855652",
+        "asin": "1408855658",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677116082l/22841994.jpg",
+        "url": "https://www.goodreads.com/book/show/22841994-harry-potter-and-the-philosopher-s-stone"
+      },
+      {
+        "id": "22841998",
+        "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855666",
+        "isbn13": "9781408855669",
+        "asin": "1408855666",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622223522l/22841998.jpg",
+        "url": "https://www.goodreads.com/book/show/22841998-harry-potter-and-the-chamber-of-secrets"
+      },
+      {
+        "id": "22842001",
+        "title": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855676",
+        "isbn13": "9781408855676",
+        "asin": "1408855674",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677117275l/22842001.jpg",
+        "url": "https://www.goodreads.com/book/show/22842001-harry-potter-and-the-prisoner-of-azkaban"
+      },
+      {
+        "id": "58542309",
+        "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855682",
+        "isbn13": "9781408855683",
+        "asin": "B00RGGG5WS",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626094883l/58542309.jpg",
+        "url": "https://www.goodreads.com/book/show/58542309-harry-potter-and-the-goblet-of-fire"
+      },
+      {
+        "id": "22844196",
+        "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855690",
+        "isbn13": "9781408855690",
+        "asin": "1408855690",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677124143l/22844196.jpg",
+        "url": "https://www.goodreads.com/book/show/22844196-harry-potter-and-the-order-of-the-phoenix"
+      },
+      {
+        "id": "22844208",
+        "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+        "author": "Rowling, J.K.",
+        "isbn": "1408855712",
+        "isbn13": "9781408855713",
+        "asin": "1408855712",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677127160l/22844208.jpg",
+        "url": "https://www.goodreads.com/book/show/22844208-harry-potter-and-the-deathly-hallows"
+      },
+      {
+        "id": "25770528",
+        "title": "Cooking for Geeks: Real Science, Great Cooks, and Good Food",
+        "author": "Potter, Jeff",
+        "isbn": "1491928050",
+        "isbn13": "9781491928059",
+        "asin": "1491928050",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445789813l/25770528.jpg",
+        "url": "https://www.goodreads.com/book/show/25770528-cooking-for-geeks"
+      },
+      {
+        "id": "18668443",
+        "title": "Slim Palate Paleo Cookbook",
+        "author": "Weissman, Joshua",
+        "isbn": "162860011X",
+        "isbn13": "9781628600117",
+        "asin": "162860011X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391139025l/18668443.jpg",
+        "url": "https://www.goodreads.com/book/show/18668443-slim-palate-paleo-cookbook"
+      },
+      {
+        "id": "13414492",
+        "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza",
+        "author": "Forkish, Ken",
+        "isbn": "160774273X",
+        "isbn13": "9781607742739",
+        "asin": "160774273X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333580868l/13414492.jpg",
+        "url": "https://www.goodreads.com/book/show/13414492-flour-water-salt-yeast"
+      },
+      {
+        "id": "101159066",
+        "title": "Fly Me to the Moon, Vol. 20",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974740781",
+        "isbn13": "9781974740789",
+        "asin": "1974740781",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700600692l/101159066.jpg",
+        "url": "https://www.goodreads.com/book/show/101159066-fly-me-to-the-moon-vol-20"
+      },
+      {
+        "id": "52758090",
+        "title": "The Way of the Househusband, Vol. 3",
+        "author": "Oono, Kousuke",
+        "isbn": "1974713466",
+        "isbn13": "9781974713462",
+        "asin": "1974713466",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623548l/52758090.jpg",
+        "url": "https://www.goodreads.com/book/show/52758090-the-way-of-the-househusband-vol-3"
+      },
+      {
+        "id": "50891209",
+        "title": "The Way of the Househusband, Vol. 4",
+        "author": "Oono, Kousuke",
+        "isbn": "1974717674",
+        "isbn13": "9781974717675",
+        "asin": "1974717674",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916886l/50891209.jpg",
+        "url": "https://www.goodreads.com/book/show/50891209-the-way-of-the-househusband-vol-4"
+      },
+      {
+        "id": "12832217",
+        "title": "Essentials of Classic Italian Cooking",
+        "author": "Hazan, Marcella",
+        "isbn": "0752227904",
+        "isbn13": "9780752227900",
+        "asin": "0752227904",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400447145l/12832217.jpg",
+        "url": "https://www.goodreads.com/book/show/12832217-essentials-of-classic-italian-cooking"
+      },
+      {
+        "id": "51075309",
+        "title": "The French Chef Handbook: La cuisine de reference",
+        "author": "Maincent-Morel, Michel",
+        "isbn": "2857086954",
+        "isbn13": "9782857086956",
+        "asin": "2857086954",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581173847l/51075309.jpg",
+        "url": "https://www.goodreads.com/book/show/51075309-the-french-chef-handbook"
+      },
+      {
+        "id": "54895707",
+        "title": "Cook This Book: Techniques That Teach and Recipes To Repeat",
+        "author": "Baz, Molly",
+        "isbn": "0593138279",
+        "isbn13": "9780593138274",
+        "asin": "0593138279",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603141183l/54895707.jpg",
+        "url": "https://www.goodreads.com/book/show/54895707-cook-this-book"
+      },
+      {
+        "id": "57697768",
+        "title": "American Gods (American Gods, #1)",
+        "author": "Gaiman, Neil",
+        "isbn": "0755322819",
+        "isbn13": "9780755322817",
+        "asin": "0755322819",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618174025l/57697768.jpg",
+        "url": "https://www.goodreads.com/book/show/57697768-american-gods"
+      },
+      {
+        "id": "40116474",
+        "title": "The Legend of Zelda: Breath of the Wild — Creating a Champion",
+        "author": "Nintendo",
+        "isbn": "1506710107",
+        "isbn13": "9781506710105",
+        "asin": "1506710107",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547308286l/40116474.jpg",
+        "url": "https://www.goodreads.com/book/show/40116474-the-legend-of-zelda"
+      },
+      {
+        "id": "52965840",
+        "title": "Salt Fat Acid Heat. Cztery składniki",
+        "author": "Nosrat, Samin",
+        "isbn": "8324070370",
+        "isbn13": "9788324070374",
+        "asin": "8324070370",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586107940l/52965840.jpg",
+        "url": "https://www.goodreads.com/book/show/52965840-salt-fat-acid-heat-cztery-sk-adniki"
+      },
+      {
+        "id": "22716527",
+        "title": "Hyrule Warriors: Prima Official Game Guide",
+        "author": "Games, Prima",
+        "isbn": "1101898151",
+        "isbn13": "9781101898154",
+        "asin": "1101898151",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408311445l/22716527.jpg",
+        "url": "https://www.goodreads.com/book/show/22716527-hyrule-warriors"
+      },
+      {
+        "id": "18282978",
+        "title": "The Legend of Zelda: A Link Between Worlds: Prima Official Game Guide",
+        "author": "Stratton, Stephen",
+        "isbn": "0804162727",
+        "isbn13": "9780804162722",
+        "asin": "0804162727",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381289470l/18282978.jpg",
+        "url": "https://www.goodreads.com/book/show/18282978-the-legend-of-zelda"
+      },
+      {
+        "id": "26796726",
+        "title": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide",
+        "author": "Games, Prima",
+        "isbn": "074401669X",
+        "isbn13": "9780744016697",
+        "asin": "074401669X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444870699l/26796726.jpg",
+        "url": "https://www.goodreads.com/book/show/26796726-the-legend-of-zelda"
+      },
+      {
+        "id": "59427537",
+        "title": "Roald Dahl Danny the Champion of the World /anglais",
+        "author": "Dahl, Roald",
+        "isbn": "0241558514",
+        "isbn13": "9780241558515",
+        "asin": "0241558514",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673703263l/59427537.jpg",
+        "url": "https://www.goodreads.com/book/show/59427537-roald-dahl-danny-the-champion-of-the-world-anglais"
+      },
+      {
+        "id": "60388591",
+        "title": "Esio Trot",
+        "author": "Dahl, Roald",
+        "isbn": "024156865X",
+        "isbn13": "9780241568651",
+        "asin": "024156865X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656931389l/60388591.jpg",
+        "url": "https://www.goodreads.com/book/show/60388591-esio-trot"
+      },
+      {
+        "id": "59527513",
+        "title": "The BFG",
+        "author": "Dahl, Roald",
+        "isbn": "0241558344",
+        "isbn13": "9780241558348",
+        "asin": "0241558344",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656932126l/59527513.jpg",
+        "url": "https://www.goodreads.com/book/show/59527513-the-bfg"
+      },
+      {
+        "id": "17573220",
+        "title": "The Complete Adventures of Charlie and Mr Willy Wonka (Charlie Bucket, #1-2)",
+        "author": "Dahl, Roald",
+        "isbn": "0141346531",
+        "isbn13": "9780141346533",
+        "asin": "0141346531",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386403050l/17573220.jpg",
+        "url": "https://www.goodreads.com/book/show/17573220-the-complete-adventures-of-charlie-and-mr-willy-wonka"
+      },
+      {
+        "id": "60388593",
+        "title": "The magic finger",
+        "author": "Dahl, Roald",
+        "isbn": "0241568676",
+        "isbn13": "9780241568675",
+        "asin": "0241568676",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677852273l/60388593.jpg",
+        "url": "https://www.goodreads.com/book/show/60388593-the-magic-finger"
+      },
+      {
+        "id": "59452792",
+        "title": "The Witches",
+        "author": "Dahl, Roald",
+        "isbn": "0241578175",
+        "isbn13": "9780241578179",
+        "asin": "0241578175",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656929507l/59452792.jpg",
+        "url": "https://www.goodreads.com/book/show/59452792-the-witches"
+      },
+      {
+        "id": "59427532",
+        "title": "Charlie and the Chocolate Factory",
+        "author": "Dahl, Roald",
+        "isbn": "0241558328",
+        "isbn13": "9780241558324",
+        "asin": "0241558328",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677851532l/59427532.jpg",
+        "url": "https://www.goodreads.com/book/show/59427532-charlie-and-the-chocolate-factory"
+      },
+      {
+        "id": "60388596",
+        "title": "Charlie and the Great Glass Elevator",
+        "author": "Dahl, Roald",
+        "isbn": "0241568706",
+        "isbn13": "9780241568705",
+        "asin": "0241568706",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673943577l/60388596.jpg",
+        "url": "https://www.goodreads.com/book/show/60388596-charlie-and-the-great-glass-elevator"
+      },
+      {
+        "id": "35019164",
+        "title": "Salt Fat Acid Heat",
+        "author": "Nosrat, Samin",
+        "isbn": "1782112308",
+        "isbn13": "9781782112303",
+        "asin": "1782112308",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732435939l/35019164.jpg",
+        "url": "https://www.goodreads.com/book/show/35019164-salt-fat-acid-heat"
+      },
+      {
+        "id": "25817394",
+        "title": "The Bon Appetit Food Lover's Cleanse : 140 Delicious, nourishing recipes that will tempt you back into healthful eating",
+        "author": "Dickerman, Sara",
+        "isbn": "0062390236",
+        "isbn13": "9780062390233",
+        "asin": "0062390236",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449997158l/25817394.jpg",
+        "url": "https://www.goodreads.com/book/show/25817394-the-bon-appetit-food-lover-s-cleanse"
+      },
+      {
+        "id": "236902394",
+        "title": "Odyssey (Stephen Fry's Great Mythology, #4)",
+        "author": "Fry, Stephen",
+        "isbn": "1405948426",
+        "isbn13": "9781405948425",
+        "asin": "1405948426",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750428931l/236902394.jpg",
+        "url": "https://www.goodreads.com/book/show/236902394-odyssey"
+      },
+      {
+        "id": "52757974",
+        "title": "Spy x Family, Vol. 1",
+        "author": "Endo, Tatsuya",
+        "isbn": "1974715469",
+        "isbn13": "9781974715466",
+        "asin": "1974715469",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854337l/52757974.jpg",
+        "url": "https://www.goodreads.com/book/show/52757974-spy-x-family-vol-1"
+      },
+      {
+        "id": "50891127",
+        "title": "Spy x Family, Vol. 2",
+        "author": "Endo, Tatsuya",
+        "isbn": "1974717240",
+        "isbn13": "9781974717248",
+        "asin": "1974717240",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104880l/50891127.jpg",
+        "url": "https://www.goodreads.com/book/show/50891127-spy-x-family-vol-2"
+      },
+      {
+        "id": "50891122",
+        "title": "Spy x Family, Vol. 3",
+        "author": "Endo, Tatsuya",
+        "isbn": "1974718166",
+        "isbn13": "9781974718160",
+        "asin": "1974718166",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162342l/50891122.jpg",
+        "url": "https://www.goodreads.com/book/show/50891122-spy-x-family-vol-3"
+      },
+      {
+        "id": "52758160",
+        "title": "Komi Can't Communicate, Vol. 7",
+        "author": "Oda, Tomohito",
+        "isbn": "1974707180",
+        "isbn13": "9781974707188",
+        "asin": "1974707180",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854302l/52758160.jpg",
+        "url": "https://www.goodreads.com/book/show/52758160-komi-can-t-communicate-vol-7"
+      },
+      {
+        "id": "50891233",
+        "title": "Komi Can't Communicate, Vol. 9",
+        "author": "Oda, Tomohito",
+        "isbn": "1974717402",
+        "isbn13": "9781974717408",
+        "asin": "1974717402",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593356308l/50891233.jpg",
+        "url": "https://www.goodreads.com/book/show/50891233-komi-can-t-communicate-vol-9"
+      },
+      {
+        "id": "52856156",
+        "title": "Man's Search For Meaning: Classic Editions",
+        "author": "Frankl, Viktor E.",
+        "isbn": "1846046386",
+        "isbn13": "9781846046384",
+        "asin": "1846046386",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616541214l/52856156.jpg",
+        "url": "https://www.goodreads.com/book/show/52856156-man-s-search-for-meaning"
+      },
+      {
+        "id": "51781451",
+        "title": "Ottolenghi Flavour",
+        "author": "Ottolenghi, Yotam",
+        "isbn": "1785038931",
+        "isbn13": "9781785038938",
+        "asin": "1785038931",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599233888l/51781451.jpg",
+        "url": "https://www.goodreads.com/book/show/51781451-ottolenghi-flavour"
+      },
+      {
+        "id": "18774875",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 1",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421572540",
+        "isbn13": "9781421572543",
+        "asin": "1421572540",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395667978l/18774875.jpg",
+        "url": "https://www.goodreads.com/book/show/18774875-food-wars"
+      },
+      {
+        "id": "21412044",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 2",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421572559",
+        "isbn13": "9781421572550",
+        "asin": "1421572559",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390058l/21412044.jpg",
+        "url": "https://www.goodreads.com/book/show/21412044-food-wars"
+      },
+      {
+        "id": "21412020",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 3",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421572567",
+        "isbn13": "9781421572567",
+        "asin": "1421572567",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390766l/21412020.jpg",
+        "url": "https://www.goodreads.com/book/show/21412020-food-wars"
+      },
+      {
+        "id": "22609126",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 4",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421572575",
+        "isbn13": "9781421572574",
+        "asin": "1421572575",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411349886l/22609126.jpg",
+        "url": "https://www.goodreads.com/book/show/22609126-food-wars"
+      },
+      {
+        "id": "22609123",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 5",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421573857",
+        "isbn13": "9781421573854",
+        "asin": "1421573857",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419212706l/22609123.jpg",
+        "url": "https://www.goodreads.com/book/show/22609123-food-wars"
+      },
+      {
+        "id": "23492394",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 6",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421576880",
+        "isbn13": "9781421576886",
+        "asin": "1421576880",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425611168l/23492394.jpg",
+        "url": "https://www.goodreads.com/book/show/23492394-food-wars"
+      },
+      {
+        "id": "23492376",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 7",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421579650",
+        "isbn13": "9781421579658",
+        "asin": "1421579650",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429096943l/23492376.jpg",
+        "url": "https://www.goodreads.com/book/show/23492376-food-wars"
+      },
+      {
+        "id": "25110932",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 8",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421579669",
+        "isbn13": "9781421579665",
+        "asin": "1421579669",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437370208l/25110932.jpg",
+        "url": "https://www.goodreads.com/book/show/25110932-food-wars"
+      },
+      {
+        "id": "25111314",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 9",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421580284",
+        "isbn13": "9781421580289",
+        "asin": "1421580284",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440992978l/25111314.jpg",
+        "url": "https://www.goodreads.com/book/show/25111314-food-wars"
+      },
+      {
+        "id": "25814245",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 10",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421584468",
+        "isbn13": "9781421584461",
+        "asin": "1421584468",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444274267l/25814245.jpg",
+        "url": "https://www.goodreads.com/book/show/25814245-food-wars"
+      },
+      {
+        "id": "25814246",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 11",
+        "author": "Tsukuda, Yūto",
+        "isbn": "142158445X",
+        "isbn13": "9781421584454",
+        "asin": "142158445X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449431487l/25814246.jpg",
+        "url": "https://www.goodreads.com/book/show/25814246-food-wars"
+      },
+      {
+        "id": "27406746",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 12",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421585081",
+        "isbn13": "9781421585086",
+        "asin": "1421585081",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457907730l/27406746.jpg",
+        "url": "https://www.goodreads.com/book/show/27406746-food-wars"
+      },
+      {
+        "id": "27406748",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 13",
+        "author": "Tsukuda, Yūto",
+        "isbn": "142158509X",
+        "isbn13": "9781421585093",
+        "asin": "142158509X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459703695l/27406748.jpg",
+        "url": "https://www.goodreads.com/book/show/27406748-food-wars"
+      },
+      {
+        "id": "29499068",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 14: The Magician Returns!",
+        "author": "Tsukuda, Yūto",
+        "isbn": "142158655X",
+        "isbn13": "9781421586557",
+        "asin": "142158655X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470580001l/29499068.jpg",
+        "url": "https://www.goodreads.com/book/show/29499068-food-wars"
+      },
+      {
+        "id": "29499034",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 15: The Moon Festival",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421588145",
+        "isbn13": "9781421588148",
+        "asin": "1421588145",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473607634l/29499034.jpg",
+        "url": "https://www.goodreads.com/book/show/29499034-food-wars"
+      },
+      {
+        "id": "31140402",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 16: Captured Queen",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421590182",
+        "isbn13": "9781421590189",
+        "asin": "1421590182",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479661474l/31140402.jpg",
+        "url": "https://www.goodreads.com/book/show/31140402-food-wars"
+      },
+      {
+        "id": "31140457",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 17: Making an Example",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421590948",
+        "isbn13": "9781421590943",
+        "asin": "1421590948",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484919742l/31140457.jpg",
+        "url": "https://www.goodreads.com/book/show/31140457-food-wars"
+      },
+      {
+        "id": "32867467",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 18",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421593343",
+        "isbn13": "9781421593340",
+        "asin": "1421593343",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488107695l/32867467.jpg",
+        "url": "https://www.goodreads.com/book/show/32867467-food-wars"
+      },
+      {
+        "id": "32919024",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 19: Those Who Reach For The Top",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421593351",
+        "isbn13": "9781421593357",
+        "asin": "1421593351",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494760134l/32919024.jpg",
+        "url": "https://www.goodreads.com/book/show/32919024-food-wars"
+      },
+      {
+        "id": "34466631",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 20: Frozen Thoughts",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421594358",
+        "isbn13": "9781421594354",
+        "asin": "1421594358",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497084185l/34466631.jpg",
+        "url": "https://www.goodreads.com/book/show/34466631-food-wars"
+      },
+      {
+        "id": "34466634",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 21",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421594366",
+        "isbn13": "9781421594361",
+        "asin": "1421594366",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502043920l/34466634.jpg",
+        "url": "https://www.goodreads.com/book/show/34466634-food-wars"
+      },
+      {
+        "id": "35742739",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 22: Rematch With A Rival",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421597047",
+        "isbn13": "9781421597041",
+        "asin": "1421597047",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505658995l/35742739.jpg",
+        "url": "https://www.goodreads.com/book/show/35742739-food-wars"
+      },
+      {
+        "id": "35742741",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 23: Wilderness Pioneer",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421597624",
+        "isbn13": "9781421597621",
+        "asin": "1421597624",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517190493l/35742741.jpg",
+        "url": "https://www.goodreads.com/book/show/35742741-food-wars"
+      },
+      {
+        "id": "36538810",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 24: Welcome To The Final Battleground",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1421598213",
+        "isbn13": "9781421598215",
+        "asin": "1421598213",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527496231l/36538810.jpg",
+        "url": "https://www.goodreads.com/book/show/36538810-food-wars"
+      },
+      {
+        "id": "36538806",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 25: The Life of a Reject",
+        "author": "Tsukuda, Yūto",
+        "isbn": "142159949X",
+        "isbn13": "9781421599496",
+        "asin": "142159949X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495408l/36538806.jpg",
+        "url": "https://www.goodreads.com/book/show/36538806-food-wars"
+      },
+      {
+        "id": "38926435",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 26: Second Bout",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974701018",
+        "isbn13": "9781974701018",
+        "asin": "1974701018",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530434248l/38926435.jpg",
+        "url": "https://www.goodreads.com/book/show/38926435-food-wars"
+      },
+      {
+        "id": "38926389",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 27",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974701468",
+        "isbn13": "9781974701469",
+        "asin": "1974701468",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532867640l/38926389.jpg",
+        "url": "https://www.goodreads.com/book/show/38926389-food-wars"
+      },
+      {
+        "id": "40680071",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 28: First-Year Kid",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974702545",
+        "isbn13": "9781974702541",
+        "asin": "1974702545",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537492538l/40680071.jpg",
+        "url": "https://www.goodreads.com/book/show/40680071-food-wars"
+      },
+      {
+        "id": "40680072",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 29: Final Battle",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974705102",
+        "isbn13": "9781974705108",
+        "asin": "1974705102",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498336l/40680072.jpg",
+        "url": "https://www.goodreads.com/book/show/40680072-food-wars"
+      },
+      {
+        "id": "42640872",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 30",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974706389",
+        "isbn13": "9781974706389",
+        "asin": "1974706389",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549839238l/42640872.jpg",
+        "url": "https://www.goodreads.com/book/show/42640872-food-wars"
+      },
+      {
+        "id": "42640859",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 31",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974707741",
+        "isbn13": "9781974707744",
+        "asin": "1974707741",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552848135l/42640859.jpg",
+        "url": "https://www.goodreads.com/book/show/42640859-food-wars"
+      },
+      {
+        "id": "43909420",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 32: A Subversive Visitor",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974709477",
+        "isbn13": "9781974709472",
+        "asin": "1974709477",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560073674l/43909420.jpg",
+        "url": "https://www.goodreads.com/book/show/43909420-food-wars"
+      },
+      {
+        "id": "43909431",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 33",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974709922",
+        "isbn13": "9781974709922",
+        "asin": "1974709922",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564946090l/43909431.jpg",
+        "url": "https://www.goodreads.com/book/show/43909431-food-wars"
+      },
+      {
+        "id": "52197561",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 34",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974711714",
+        "isbn13": "9781974711710",
+        "asin": "1974711714",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569152778l/52197561.jpg",
+        "url": "https://www.goodreads.com/book/show/52197561-food-wars"
+      },
+      {
+        "id": "51012608",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 35",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974712583",
+        "isbn13": "9781974712588",
+        "asin": "1974712583",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573919172l/51012608.jpg",
+        "url": "https://www.goodreads.com/book/show/51012608-food-wars"
+      },
+      {
+        "id": "52757965",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 36",
+        "author": "Tsukuda, Yūto",
+        "isbn": "1974715426",
+        "isbn13": "9781974715428",
+        "asin": "1974715426",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854436l/52757965.jpg",
+        "url": "https://www.goodreads.com/book/show/52757965-food-wars"
+      },
+      {
+        "id": "21801491",
+        "title": "No Game, No Life, Vol. 1",
+        "author": "Kamiya, Yuu",
+        "isbn": "1626920796",
+        "isbn13": "9781626920798",
+        "asin": "1626920796",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410247217l/21801491.jpg",
+        "url": "https://www.goodreads.com/book/show/21801491-no-game-no-life-vol-1"
+      },
+      {
+        "id": "39863195",
+        "title": "No Game, No Life, Vol. 2",
+        "author": "Kamiya, Yuu",
+        "isbn": "1642750379",
+        "isbn13": "9781642750379",
+        "asin": "1642750379",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680091946l/39863195.jpg",
+        "url": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2"
+      }
+    ],
+    "owned-physical": [
+      {
+        "id": "57485191",
+        "title": "An Unapologetic Cookbook",
+        "author": "Weissman, Joshua",
+        "isbn": "1615649980",
+        "isbn13": "9781615649983",
+        "asin": "1615649980",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623012580l/57485191.jpg",
+        "url": "https://www.goodreads.com/book/show/57485191-an-unapologetic-cookbook"
+      },
+      {
+        "id": "36304310",
+        "title": "The Legend of Zelda: Encyclopedia",
+        "author": "Nintendo",
+        "isbn": "150670638X",
+        "isbn13": "9781506706382",
+        "asin": "150670638X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506375358l/36304310.jpg",
+        "url": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda"
+      },
+      {
+        "id": "26178414",
+        "title": "The Legend of Zelda Symphony of the Goddesses: Piano Solos",
+        "author": "Kondo, Koji",
+        "isbn": "1470626292",
+        "isbn13": "9781470626297",
+        "asin": "1470626292",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440725185l/26178414.jpg",
+        "url": "https://www.goodreads.com/book/show/26178414-the-legend-of-zelda-symphony-of-the-goddesses"
+      },
+      {
+        "id": "50611213",
+        "title": "Pokémon Crochet: Bring Your Favorite Pokémon to Life with 20 Cute Crochet Patterns",
+        "author": "Somers, Sabrina",
+        "isbn": "1446308332",
+        "isbn13": "9781446308332",
+        "asin": "1446308332",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618291798l/50611213.jpg",
+        "url": "https://www.goodreads.com/book/show/50611213-pok-mon-crochet"
+      },
+      {
+        "id": "67991914",
+        "title": "Pokémon Crochet Vol 2: Bring even more Pokémon to life with 20 cute crochet patterns",
+        "author": "Sartori, Lee",
+        "isbn": "1446309355",
+        "isbn13": "9781446309353",
+        "asin": "1446309355",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671056987l/67991914.jpg",
+        "url": "https://www.goodreads.com/book/show/67991914-pok-mon-crochet-vol-2"
+      },
+      {
+        "id": "26782673",
+        "title": "Do Preserve: Make your own jams, chutneys, pickles and cordials (Do Books, 14)",
+        "author": "Dunk, Anja",
+        "isbn": "1907974245",
+        "isbn13": "9781907974243",
+        "asin": "1907974245",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444881827l/26782673.jpg",
+        "url": "https://www.goodreads.com/book/show/26782673-do-preserve"
+      },
+      {
+        "id": "10914447",
+        "title": "Mastering the Art of French Cooking (Vol 1 & 2)",
+        "author": "Child, Julia",
+        "isbn": "1846143659",
+        "isbn13": "9781846143656",
+        "asin": "1846143659",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390054341l/10914447.jpg",
+        "url": "https://www.goodreads.com/book/show/10914447-mastering-the-art-of-french-cooking"
+      },
+      {
+        "id": "34774665",
+        "title": "The Legend of Zelda: Breath of the Wild: The Complete Official Guide - Deluxe Edition",
+        "author": "Piggyback",
+        "isbn": "1911015249",
+        "isbn13": "9781911015246",
+        "asin": "1911015249",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491248256l/34774665.jpg",
+        "url": "https://www.goodreads.com/book/show/34774665-the-legend-of-zelda"
+      },
+      {
+        "id": "16032833",
+        "title": "Italian Phrasebook & Dictionary",
+        "author": "Lonely Planet",
+        "isbn": "1742208088",
+        "isbn13": "9781742208084",
+        "asin": "1742208088",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411150213l/16032833.jpg",
+        "url": "https://www.goodreads.com/book/show/16032833-italian-phrasebook-dictionary"
+      },
+      {
+        "id": "153910",
+        "title": "Quantum Computation and Quantum Information",
+        "author": "Nielsen, Michael A.",
+        "isbn": "0521635039",
+        "isbn13": "9780521635035",
+        "asin": "0521635039",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348285880l/153910.jpg",
+        "url": "https://www.goodreads.com/book/show/153910.Quantum_Computation_and_Quantum_Information"
+      },
+      {
+        "id": "1187377",
+        "title": "Lonely Planet Polish Phrasebook",
+        "author": "Lonely Planet",
+        "isbn": "1741041414",
+        "isbn13": "9781741041415",
+        "asin": "1741041414",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347546949l/1187377.jpg",
+        "url": "https://www.goodreads.com/book/show/1187377.Lonely_Planet_Polish_Phrasebook"
+      },
+      {
+        "id": "15899835",
+        "title": "Russian Phrasebook & Dictionary (Lonely Planet Phrasebooks)",
+        "author": "Lonely Planet",
+        "isbn": "174220189X",
+        "isbn13": "9781742201894",
+        "asin": "174220189X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411149396l/15899835.jpg",
+        "url": "https://www.goodreads.com/book/show/15899835-russian-phrasebook-dictionary"
+      },
+      {
+        "id": "15941487",
+        "title": "Arduino For Dummies",
+        "author": "Nussey, John",
+        "isbn": "1118446372",
+        "isbn13": "9781118446379",
+        "asin": "1118446372",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355992337l/15941487.jpg",
+        "url": "https://www.goodreads.com/book/show/15941487-arduino-for-dummies"
+      },
+      {
+        "id": "36495876",
+        "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 1",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1421599775",
+        "isbn13": "9781421599779",
+        "asin": "1421599775",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519613766l/36495876.jpg",
+        "url": "https://www.goodreads.com/book/show/36495876-fullmetal-alchemist"
+      },
+      {
+        "id": "162520832",
+        "title": "[Mastering the Art of French Cooking: Vol.2] [By: Child, Julia] [March, 2011]",
+        "author": "Child, Julia",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00NBJX0RC",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699598697l/162520832.jpg",
+        "url": "https://www.goodreads.com/book/show/162520832-mastering-the-art-of-french-cooking"
+      },
+      {
+        "id": "8487890",
+        "title": "The Flavour Thesaurus",
+        "author": "Segnit, Niki",
+        "isbn": "0747599777",
+        "isbn13": "9780747599777",
+        "asin": "0747599777",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327769281l/8487890.jpg",
+        "url": "https://www.goodreads.com/book/show/8487890-the-flavour-thesaurus"
+      },
+      {
+        "id": "200382584",
+        "title": "Dishoom: From Bombay with Love",
+        "author": "Nasir, Naved Shamil",
+        "isbn": "9123979836",
+        "isbn13": "9789123979837",
+        "asin": "9123979836",
+        "img": "",
+        "url": "https://www.goodreads.com/book/show/200382584-dishoom"
+      },
+      {
+        "id": "51253651",
+        "title": "wagamama Feed Your Soul: Fresh + simple recipes from the wagamama kitchen",
+        "author": "Limited, Wagamama",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B07RTYLBMH",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561823021l/51253651.jpg",
+        "url": "https://www.goodreads.com/book/show/51253651-wagamama-feed-your-soul"
+      },
+      {
+        "id": "59808407",
+        "title": "Is This A Cookbook? Adventures in the Kitchen",
+        "author": "Blumenthal, Heston",
+        "isbn": "1526621509",
+        "isbn13": "9781526621504",
+        "asin": "1526621509",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
+        "url": "https://www.goodreads.com/book/show/59808407-is-this-a-cookbook-adventures-in-the-kitchen"
+      },
+      {
+        "id": "160047617",
+        "title": "Texture Over Taste",
+        "author": "Weissman, Joshua",
+        "isbn": "0744063507",
+        "isbn13": "9780744063509",
+        "asin": "0744063507",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685991216l/160047617.jpg",
+        "url": "https://www.goodreads.com/book/show/160047617-texture-over-taste"
+      },
+      {
+        "id": "58078528",
+        "title": "Field Notes for Food Adventure: Recipes and Stories from the Woods to the Ocean",
+        "author": "Leone, Brad",
+        "isbn": "0316497355",
+        "isbn13": "9780316497350",
+        "asin": "0316497355",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626719879l/58078528.jpg",
+        "url": "https://www.goodreads.com/book/show/58078528-field-notes-for-food-adventure"
+      },
+      {
+        "id": "35715070",
+        "title": "Modern French Pastry: Innovative Techniques, Tools and Design",
+        "author": "Wakerhauser, Cheryl",
+        "isbn": "1624144381",
+        "isbn13": "9781624144387",
+        "asin": "B06XFYVZMV",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500608048l/35715070.jpg",
+        "url": "https://www.goodreads.com/book/show/35715070-modern-french-pastry"
+      },
+      {
+        "id": "31301820",
+        "title": "Japanese Patisserie: Exploring the beautiful and delicious fusion of East meets West",
+        "author": "Campbell, James",
+        "isbn": "1849758107",
+        "isbn13": "9781849758109",
+        "asin": "1849758107",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489923533l/31301820.jpg",
+        "url": "https://www.goodreads.com/book/show/31301820-japanese-patisserie"
+      },
+      {
+        "id": "2087365",
+        "title": "The Savoy Cocktail Book",
+        "author": "Craddock, Harry",
+        "isbn": "1862057729",
+        "isbn13": "9781862057722",
+        "asin": "1862057729",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328840837l/2087365.jpg",
+        "url": "https://www.goodreads.com/book/show/2087365.The_Savoy_Cocktail_Book"
+      },
+      {
+        "id": "4144478",
+        "title": "Edmonds Cookery Book",
+        "author": "Foods, Bluebird",
+        "isbn": "0473053802",
+        "isbn13": "9780473053802",
+        "asin": "0473053802",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337411638l/4144478.jpg",
+        "url": "https://www.goodreads.com/book/show/4144478-edmonds-cookery-book"
+      },
+      {
+        "id": "142298147",
+        "title": "[(Computer Organization and Design: The Hardware/software Interface)] [Author: David A. Patterson] published on (Computer Organization and Design: The Hardware/software Interface)] [Author: David A. Patterson] published on (December, 2008)",
+        "author": "Patterson, David A.",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00Y2QOOE6",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697814562l/142298147.jpg",
+        "url": "https://www.goodreads.com/book/show/142298147-computer-organization-and-design"
+      },
+      {
+        "id": "344711",
+        "title": "Interaction Design: Beyond Human-Computer Interaction",
+        "author": "Rogers, Yvonne",
+        "isbn": "0470018666",
+        "isbn13": "9780470018668",
+        "asin": "0470018666",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340226l/344711.jpg",
+        "url": "https://www.goodreads.com/book/show/344711.Interaction_Design"
+      },
+      {
+        "id": "137433498",
+        "title": "By Ian Sommerville - Software Engineering: International Version (9)",
+        "author": "Sommerville, Ian",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B00I60UUQ0",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699760559l/137433498.jpg",
+        "url": "https://www.goodreads.com/book/show/137433498-by-ian-sommerville---software-engineering"
+      },
+      {
+        "id": "2052141",
+        "title": "The Robotics Primer",
+        "author": "Mataric, Maja J.",
+        "isbn": "026263354X",
+        "isbn13": "9780262633543",
+        "asin": "026263354X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348016781l/2052141.jpg",
+        "url": "https://www.goodreads.com/book/show/2052141.The_Robotics_Primer"
+      },
+      {
+        "id": "5684120",
+        "title": "Business Database Systems",
+        "author": "Connolly, Thomas M.",
+        "isbn": "1405874376",
+        "isbn13": "9781405874373",
+        "asin": "1405874376",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372055509l/5684120.jpg",
+        "url": "https://www.goodreads.com/book/show/5684120-business-database-systems"
+      },
+      {
+        "id": "13655756",
+        "title": "Principles of Interactive Multimedia",
+        "author": "Elsom-Cook, Mark (University of",
+        "isbn": "007709610X",
+        "isbn13": "9780077096106",
+        "asin": "007709610X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394405623l/13655756.jpg",
+        "url": "https://www.goodreads.com/book/show/13655756-principles-of-interactive-multimedia"
+      },
+      {
+        "id": "14795496",
+        "title": "Objects First with Java: A Practical Introduction Using Bluej.",
+        "author": "Barnes, D.",
+        "isbn": "0132835541",
+        "isbn13": "9780132835541",
+        "asin": "0132835541",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356136155l/14795496.jpg",
+        "url": "https://www.goodreads.com/book/show/14795496-objects-first-with-java"
+      },
+      {
+        "id": "25814544",
+        "title": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+        "author": "Knapp, Jake",
+        "isbn": "",
+        "isbn13": "9781501121746",
+        "asin": "150112174X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284924l/25814544.jpg",
+        "url": "https://www.goodreads.com/book/show/25814544-sprint"
+      },
+      {
+        "id": "32738672",
+        "title": "Unfu*k Yourself: Get Out of Your Head and Into Your Life",
+        "author": "Bishop, Gary John",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B01M8LUTO2",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543953780l/32738672.jpg",
+        "url": "https://www.goodreads.com/book/show/32738672-unfu-k-yourself"
+      },
+      {
+        "id": "194805515",
+        "title": "LEGO Botanical Almanac: A Field Guide to Brick-Built Blooms",
+        "author": "Lego",
+        "isbn": "1797227807",
+        "isbn13": "9781797227801",
+        "asin": "1797227807",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696959742l/194805515.jpg",
+        "url": "https://www.goodreads.com/book/show/194805515-lego-botanical-almanac"
+      },
+      {
+        "id": "12991832",
+        "title": "Heston Blumenthal at Home",
+        "author": "Blumenthal, Heston",
+        "isbn": "1408804409",
+        "isbn13": "9781408804407",
+        "asin": "1408804409",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338980695l/12991832.jpg",
+        "url": "https://www.goodreads.com/book/show/12991832-heston-blumenthal-at-home"
+      },
+      {
+        "id": "40960189",
+        "title": "Beauty Food: 85 recipes for health & beauty from within",
+        "author": "Ahlgren, Maria",
+        "isbn": "1784724831",
+        "isbn13": "9781784724832",
+        "asin": "1784724831",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532701368l/40960189.jpg",
+        "url": "https://www.goodreads.com/book/show/40960189-beauty-food"
+      },
+      {
+        "id": "873",
+        "title": "Fullmetal Alchemist, Vol. 2",
+        "author": "Arakawa, Hiromu",
+        "isbn": "1591169232",
+        "isbn13": "9781591169239",
+        "asin": "1591169232",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348990451l/873.jpg",
+        "url": "https://www.goodreads.com/book/show/873.Fullmetal_Alchemist_Vol_2"
+      },
+      {
+        "id": "24796699",
+        "title": "The Legend of Zelda: A Link to the Past",
+        "author": "Ishinomori, Shōtarō",
+        "isbn": "1421575418",
+        "isbn13": "9781421575414",
+        "asin": "1421575418",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422848719l/24796699.jpg",
+        "url": "https://www.goodreads.com/book/show/24796699-the-legend-of-zelda"
+      }
+    ],
+    "owned-digital": [
+      {
+        "id": "36304310",
+        "title": "The Legend of Zelda: Encyclopedia",
+        "author": "Nintendo",
+        "isbn": "150670638X",
+        "isbn13": "9781506706382",
+        "asin": "150670638X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506375358l/36304310.jpg",
+        "url": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda"
+      },
+      {
+        "id": "31625256",
+        "title": "The Legend of Zelda: Art & Artifacts",
+        "author": "Nintendo",
+        "isbn": "1506703356",
+        "isbn13": "9781506703350",
+        "asin": "1506703356",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474771267l/31625256.jpg",
+        "url": "https://www.goodreads.com/book/show/31625256-the-legend-of-zelda"
+      },
+      {
+        "id": "15845097",
+        "title": "The Legend of Zelda: Hyrule Historia",
+        "author": "Nintendo",
+        "isbn": "1616550414",
+        "isbn13": "9781616550417",
+        "asin": "1616550414",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399700757l/15845097.jpg",
+        "url": "https://www.goodreads.com/book/show/15845097-the-legend-of-zelda"
+      },
+      {
+        "id": "50659467",
+        "title": "A Court of Thorns and Roses (A Court of Thorns and Roses, #1)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575567",
+        "isbn13": "9781635575569",
+        "asin": "1635575567",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620324329l/50659467.jpg",
+        "url": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses"
+      },
+      {
+        "id": "50659468",
+        "title": "A Court of Mist and Fury (A Court of Thorns and Roses, #2)",
+        "author": "Maas, Sarah J.",
+        "isbn": "1635575583",
+        "isbn13": "9781635575583",
+        "asin": "1635575583",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620325671l/50659468.jpg",
+        "url": "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury"
+      },
+      {
+        "id": "35074096",
+        "title": "Mythos - The Greek Myths Retold (Stephen Fry's Great Mythology, #1)",
+        "author": "Fry, Stephen",
+        "isbn": "0718188721",
+        "isbn13": "9780718188726",
+        "asin": "0718188721",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502518360l/35074096.jpg",
+        "url": "https://www.goodreads.com/book/show/35074096-mythos---the-greek-myths-retold"
+      },
+      {
+        "id": "37903770",
+        "title": "Norse Mythology",
+        "author": "Gaiman, Neil",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770.jpg",
+        "url": "https://www.goodreads.com/book/show/37903770-norse-mythology"
+      },
+      {
+        "id": "210005915",
+        "title": "Developer Experience",
+        "author": "Osmani, Addy",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DVDKHGWH",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710541871l/210005915.jpg",
+        "url": "https://www.goodreads.com/book/show/210005915-developer-experience"
+      },
+      {
+        "id": "36100762",
+        "title": "Kaguya-sama: Love Is War, Vol. 1",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700305",
+        "isbn13": "9781974700301",
+        "asin": "1974700305",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721936l/36100762.jpg",
+        "url": "https://www.goodreads.com/book/show/36100762-kaguya-sama"
+      },
+      {
+        "id": "36495869",
+        "title": "Kaguya-sama: Love Is War, Vol. 2",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700313",
+        "isbn13": "9781974700318",
+        "asin": "1974700313",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721943l/36495869.jpg",
+        "url": "https://www.goodreads.com/book/show/36495869-kaguya-sama"
+      },
+      {
+        "id": "36538804",
+        "title": "Kaguya-sama: Love Is War, Vol. 3",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700321",
+        "isbn13": "9781974700325",
+        "asin": "1974700321",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721949l/36538804.jpg",
+        "url": "https://www.goodreads.com/book/show/36538804-kaguya-sama"
+      },
+      {
+        "id": "38926438",
+        "title": "Kaguya-sama: Love Is War, Vol. 4",
+        "author": "Akasaka, Aka",
+        "isbn": "1974700496",
+        "isbn13": "9781974700493",
+        "asin": "1974700496",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721955l/38926438.jpg",
+        "url": "https://www.goodreads.com/book/show/38926438-kaguya-sama"
+      },
+      {
+        "id": "38926416",
+        "title": "Kaguya-sama: Love Is War, Vol. 5",
+        "author": "Akasaka, Aka",
+        "isbn": "197470050X",
+        "isbn13": "9781974700509",
+        "asin": "197470050X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721959l/38926416.jpg",
+        "url": "https://www.goodreads.com/book/show/38926416-kaguya-sama"
+      },
+      {
+        "id": "34226423",
+        "title": "Kaguya-sama: Love Is War, Vol. 6",
+        "author": "Akasaka, Aka",
+        "isbn": "1974701387",
+        "isbn13": "9781974701384",
+        "asin": "1974701387",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538255423l/34226423.jpg",
+        "url": "https://www.goodreads.com/book/show/34226423-kaguya-sama"
+      },
+      {
+        "id": "40639136",
+        "title": "Kaguya-sama: Love Is War, Vol. 7",
+        "author": "Akasaka, Aka",
+        "isbn": "1974701395",
+        "isbn13": "9781974701391",
+        "asin": "1974701395",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541421817l/40639136.jpg",
+        "url": "https://www.goodreads.com/book/show/40639136-kaguya-sama"
+      },
+      {
+        "id": "42633882",
+        "title": "Kaguya-sama: Love Is War, Vol. 8",
+        "author": "Akasaka, Aka",
+        "isbn": "1974704408",
+        "isbn13": "9781974704408",
+        "asin": "1974704408",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544925766l/42633882.jpg",
+        "url": "https://www.goodreads.com/book/show/42633882-kaguya-sama"
+      },
+      {
+        "id": "42633866",
+        "title": "Kaguya-sama: Love Is War, Vol. 9",
+        "author": "Akasaka, Aka",
+        "isbn": "1974705099",
+        "isbn13": "9781974705092",
+        "asin": "1974705099",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551617679l/42633866.jpg",
+        "url": "https://www.goodreads.com/book/show/42633866-kaguya-sama"
+      },
+      {
+        "id": "43909391",
+        "title": "Kaguya-sama: Love Is War, Vol. 10",
+        "author": "Akasaka, Aka",
+        "isbn": "197470663X",
+        "isbn13": "9781974706631",
+        "asin": "197470663X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555270780l/43909391.jpg",
+        "url": "https://www.goodreads.com/book/show/43909391-kaguya-sama"
+      },
+      {
+        "id": "43909393",
+        "title": "Kaguya-sama: Love Is War, Vol. 11",
+        "author": "Akasaka, Aka",
+        "isbn": "1974707792",
+        "isbn13": "9781974707799",
+        "asin": "1974707792",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561287394l/43909393.jpg",
+        "url": "https://www.goodreads.com/book/show/43909393-kaguya-sama"
+      },
+      {
+        "id": "51096665",
+        "title": "Kaguya-sama: Love Is War, Vol. 12",
+        "author": "Akasaka, Aka",
+        "isbn": "1974709574",
+        "isbn13": "9781974709571",
+        "asin": "1974709574",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566731654l/51096665.jpg",
+        "url": "https://www.goodreads.com/book/show/51096665-kaguya-sama"
+      },
+      {
+        "id": "51160956",
+        "title": "Kaguya-sama: Love Is War, Vol. 13",
+        "author": "Akasaka, Aka",
+        "isbn": "1974710718",
+        "isbn13": "9781974710713",
+        "asin": "1974710718",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570970117l/51160956.jpg",
+        "url": "https://www.goodreads.com/book/show/51160956-kaguya-sama"
+      },
+      {
+        "id": "52757931",
+        "title": "Kaguya-sama: Love Is War, Vol. 14",
+        "author": "Akasaka, Aka",
+        "isbn": "1974714721",
+        "isbn13": "9781974714728",
+        "asin": "1974714721",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577015934l/52757931.jpg",
+        "url": "https://www.goodreads.com/book/show/52757931-kaguya-sama"
+      },
+      {
+        "id": "52757930",
+        "title": "Kaguya-sama: Love Is War, Vol. 15",
+        "author": "Akasaka, Aka",
+        "isbn": "197471473X",
+        "isbn13": "9781974714735",
+        "asin": "197471473X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583900205l/52757930.jpg",
+        "url": "https://www.goodreads.com/book/show/52757930-kaguya-sama"
+      },
+      {
+        "id": "50891138",
+        "title": "Kaguya-sama: Love Is War, Vol. 16",
+        "author": "Akasaka, Aka",
+        "isbn": "1974717100",
+        "isbn13": "9781974717101",
+        "asin": "1974717100",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104835l/50891138.jpg",
+        "url": "https://www.goodreads.com/book/show/50891138-kaguya-sama"
+      },
+      {
+        "id": "50891154",
+        "title": "Kaguya-sama: Love Is War, Vol. 17",
+        "author": "Akasaka, Aka",
+        "isbn": "1974718743",
+        "isbn13": "9781974718740",
+        "asin": "1974718743",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595161940l/50891154.jpg",
+        "url": "https://www.goodreads.com/book/show/50891154-kaguya-sama"
+      },
+      {
+        "id": "54303330",
+        "title": "Kaguya-sama: Love Is War, Vol. 18",
+        "author": "Akasaka, Aka",
+        "isbn": "1974721000",
+        "isbn13": "9781974721009",
+        "asin": "1974721000",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598798091l/54303330.jpg",
+        "url": "https://www.goodreads.com/book/show/54303330-kaguya-sama"
+      },
+      {
+        "id": "55711501",
+        "title": "Kaguya-sama: Love Is War, Vol. 19",
+        "author": "Akasaka, Aka",
+        "isbn": "1974722864",
+        "isbn13": "9781974722860",
+        "asin": "1974722864",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614528675l/55711501.jpg",
+        "url": "https://www.goodreads.com/book/show/55711501-kaguya-sama"
+      },
+      {
+        "id": "55711525",
+        "title": "Kaguya-sama: Love Is War, Vol. 20",
+        "author": "Akasaka, Aka",
+        "isbn": "1974724034",
+        "isbn13": "9781974724031",
+        "asin": "1974724034",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616939798l/55711525.jpg",
+        "url": "https://www.goodreads.com/book/show/55711525-kaguya-sama"
+      },
+      {
+        "id": "56898067",
+        "title": "Kaguya-sama: Love Is War, Vol. 21",
+        "author": "Akasaka, Aka",
+        "isbn": "1974725189",
+        "isbn13": "9781974725182",
+        "asin": "1974725189",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626644818l/56898067.jpg",
+        "url": "https://www.goodreads.com/book/show/56898067-kaguya-sama"
+      },
+      {
+        "id": "58438435",
+        "title": "Kaguya-sama: Love Is War, Vol. 22",
+        "author": "Akasaka, Aka",
+        "isbn": "1974728471",
+        "isbn13": "9781974728473",
+        "asin": "1974728471",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635692474l/58438435.jpg",
+        "url": "https://www.goodreads.com/book/show/58438435-kaguya-sama"
+      },
+      {
+        "id": "59366067",
+        "title": "Kaguya-sama: Love Is War, Vol. 23",
+        "author": "Akasaka, Aka",
+        "isbn": "1974732185",
+        "isbn13": "9781974732180",
+        "asin": "1974732185",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384715l/59366067.jpg",
+        "url": "https://www.goodreads.com/book/show/59366067-kaguya-sama"
+      },
+      {
+        "id": "60321382",
+        "title": "Kaguya-sama: Love Is War, Vol. 24",
+        "author": "Akasaka, Aka",
+        "isbn": "197473448X",
+        "isbn13": "9781974734481",
+        "asin": "197473448X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660147898l/60321382.jpg",
+        "url": "https://www.goodreads.com/book/show/60321382-kaguya-sama"
+      },
+      {
+        "id": "30111553",
+        "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+        "author": "Christian, Brian",
+        "isbn": "0008166099",
+        "isbn13": "9780008166090",
+        "asin": "0008166099",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462401688l/30111553.jpg",
+        "url": "https://www.goodreads.com/book/show/30111553-algorithms-to-live-by"
+      },
+      {
+        "id": "23626987",
+        "title": "The Angel's Game (The Cemetery of Forgotten Books, #2)",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "1921656719",
+        "isbn13": "9781921656712",
+        "asin": "1921656719",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446953951l/23626987.jpg",
+        "url": "https://www.goodreads.com/book/show/23626987-the-angel-s-game"
+      },
+      {
+        "id": "60211710",
+        "title": "The Prisoner of Heaven",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "192207988X",
+        "isbn13": "9781922079886",
+        "asin": "192207988X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643126577l/60211710.jpg",
+        "url": "https://www.goodreads.com/book/show/60211710-the-prisoner-of-heaven"
+      },
+      {
+        "id": "53376895",
+        "title": "The Shadow Of The Wind",
+        "author": "Ruiz Zafón, Carlos",
+        "isbn": "1921520396",
+        "isbn13": "9781921520396",
+        "asin": "1921520396",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589202501l/53376895.jpg",
+        "url": "https://www.goodreads.com/book/show/53376895-the-shadow-of-the-wind"
+      },
+      {
+        "id": "12969025",
+        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+        "author": "Eric, Ries",
+        "isbn": "0670921602",
+        "isbn13": "9780670921607",
+        "asin": "0670921602",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645396848l/12969025.jpg",
+        "url": "https://www.goodreads.com/book/show/12969025-the-lean-startup"
+      },
+      {
+        "id": "30227373",
+        "title": "The Secrets to App Success on Google Play",
+        "author": "Inc., Google",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DM1GS3QD",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463583235l/30227373.jpg",
+        "url": "https://www.goodreads.com/book/show/30227373-the-secrets-to-app-success-on-google-play"
+      },
+      {
+        "id": "43617306",
+        "title": "The Complete Tales of H.P. Lovecraft",
+        "author": "Lovecraft, H.P.",
+        "isbn": "1631066463",
+        "isbn13": "9781631066467",
+        "asin": "1631066463",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767713333l/43617306.jpg",
+        "url": "https://www.goodreads.com/book/show/43617306-the-complete-tales-of-h-p-lovecraft"
+      },
+      {
+        "id": "25955849",
+        "title": "The Practitioner's Guide to Product Management",
+        "author": "Busuttil, Jock",
+        "isbn": "034940674X",
+        "isbn13": "9780349406749",
+        "asin": "034940674X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437551758l/25955849.jpg",
+        "url": "https://www.goodreads.com/book/show/25955849-the-practitioner-s-guide-to-product-management"
+      },
+      {
+        "id": "51323379",
+        "title": "Fly Me to the Moon, Vol. 1",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717496",
+        "isbn13": "9781974717491",
+        "asin": "1974717496",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916994l/51323379.jpg",
+        "url": "https://www.goodreads.com/book/show/51323379-fly-me-to-the-moon-vol-1"
+      },
+      {
+        "id": "51323371",
+        "title": "Fly Me to the Moon, Vol. 2",
+        "author": "Hata, Kenjirō",
+        "isbn": "197471750X",
+        "isbn13": "9781974717507",
+        "asin": "197471750X",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162376l/51323371.jpg",
+        "url": "https://www.goodreads.com/book/show/51323371-fly-me-to-the-moon-vol-2"
+      },
+      {
+        "id": "54303390",
+        "title": "Fly Me to the Moon, Vol. 3",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717518",
+        "isbn13": "9781974717514",
+        "asin": "1974717518",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600610847l/54303390.jpg",
+        "url": "https://www.goodreads.com/book/show/54303390-fly-me-to-the-moon-vol-3"
+      },
+      {
+        "id": "54308142",
+        "title": "Fly Me to the Moon, Vol. 4",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974717526",
+        "isbn13": "9781974717521",
+        "asin": "1974717526",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607263572l/54308142.jpg",
+        "url": "https://www.goodreads.com/book/show/54308142-fly-me-to-the-moon-vol-4"
+      },
+      {
+        "id": "55711442",
+        "title": "Fly Me to the Moon, Vol. 5",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719235",
+        "isbn13": "9781974719235",
+        "asin": "1974719235",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612104489l/55711442.jpg",
+        "url": "https://www.goodreads.com/book/show/55711442-fly-me-to-the-moon-vol-5"
+      },
+      {
+        "id": "55711443",
+        "title": "Fly Me to the Moon, Vol. 6",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719243",
+        "isbn13": "9781974719242",
+        "asin": "1974719243",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544621l/55711443.jpg",
+        "url": "https://www.goodreads.com/book/show/55711443-fly-me-to-the-moon-vol-6"
+      },
+      {
+        "id": "56898000",
+        "title": "Fly Me to the Moon, Vol. 7",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974719251",
+        "isbn13": "9781974719259",
+        "asin": "1974719251",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621173928l/56898000.jpg",
+        "url": "https://www.goodreads.com/book/show/56898000-fly-me-to-the-moon-vol-7"
+      },
+      {
+        "id": "56898038",
+        "title": "Fly Me to the Moon, Vol. 8",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723542",
+        "isbn13": "9781974723546",
+        "asin": "1974723542",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429846l/56898038.jpg",
+        "url": "https://www.goodreads.com/book/show/56898038-fly-me-to-the-moon-vol-8"
+      },
+      {
+        "id": "58438372",
+        "title": "Fly Me to the Moon, Vol. 9",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723550",
+        "isbn13": "9781974723553",
+        "asin": "1974723550",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632912238l/58438372.jpg",
+        "url": "https://www.goodreads.com/book/show/58438372-fly-me-to-the-moon-vol-9"
+      },
+      {
+        "id": "58438373",
+        "title": "Fly Me to the Moon, Vol. 10",
+        "author": "Hata, Kenjirō",
+        "isbn": "1974723569",
+        "isbn13": "9781974723560",
+        "asin": "1974723569",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635362660l/58438373.jpg",
+        "url": "https://www.goodreads.com/book/show/58438373-fly-me-to-the-moon-vol-10"
+      },
+      {
+        "id": "59862682",
+        "title": "Learning Patterns",
+        "author": "Hallie, Lydia",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B0DV3CBD7S",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639996199l/59862682.jpg",
+        "url": "https://www.goodreads.com/book/show/59862682-learning-patterns"
+      },
+      {
+        "id": "51826697",
+        "title": "Everything Is F*cked: A Book About Hope",
+        "author": "Manson, Mark",
+        "isbn": "0062956566",
+        "isbn13": "9780062956569",
+        "asin": "0062956566",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595813035l/51826697.jpg",
+        "url": "https://www.goodreads.com/book/show/51826697-everything-is-f-cked"
+      },
+      {
+        "id": "28259130",
+        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "author": "Manson, Mark",
+        "isbn": "0062457713",
+        "isbn13": "9780062457714",
+        "asin": "0062457713",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761873l/28259130.jpg",
+        "url": "https://www.goodreads.com/book/show/28259130-the-subtle-art-of-not-giving-a-f-ck"
+      },
+      {
+        "id": "42643896",
+        "title": "Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry's Great Mythology, #2)",
+        "author": "Fry, Stephen",
+        "isbn": "1405940360",
+        "isbn13": "9781405940368",
+        "asin": "1405940360",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555336384l/42643896.jpg",
+        "url": "https://www.goodreads.com/book/show/42643896-heroes"
+      },
+      {
+        "id": "57188408",
+        "title": "Troy",
+        "author": "Fry, Stephen",
+        "isbn": "1405944463",
+        "isbn13": "9781405944465",
+        "asin": "1405944463",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625333859l/57188408.jpg",
+        "url": "https://www.goodreads.com/book/show/57188408-troy"
+      }
+    ],
+    "to-read": [
+      {
+        "id": "51702292",
+        "title": "It's Cocktail Time!: Recipes for Every Occasion",
+        "author": "Summersdale",
+        "isbn": "1786855194",
+        "isbn13": "9781786855190",
+        "asin": "1786855194",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582589428l/51702292.jpg",
+        "url": "https://www.goodreads.com/book/show/51702292-it-s-cocktail-time"
+      },
+      {
+        "id": "32708007",
+        "title": "鬼滅の刃 1 [Kimetsu no Yaiba 1]",
+        "author": "Gotouge, Koyoharu",
+        "isbn": "",
+        "isbn13": "",
+        "asin": "B01EJ7AK5O",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476910723l/32708007.jpg",
+        "url": "https://www.goodreads.com/book/show/32708007-1-kimetsu-no-yaiba-1"
+      },
+      {
         "id": "255049190",
         "title": "Fullmetal Alchemist: Fullmetal Edition Series Vol 1-18 Collection 18 Books Set by Hiromu Arakawa",
         "author": "Arakawa, Hiromu",
@@ -968,6 +3692,16 @@
         "asin": "B07SBCZ16W",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598823299l/42844155.jpg",
         "url": "https://www.goodreads.com/book/show/42844155-harry-potter-and-the-philosopher-s-stone"
+      },
+      {
+        "id": "12073592",
+        "title": "The Legend of Zelda Complete Box Set",
+        "author": "Himekawa, Akira",
+        "isbn": "1421542420",
+        "isbn13": "9781421542423",
+        "asin": "1421542420",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347727068l/12073592.jpg",
+        "url": "https://www.goodreads.com/book/show/12073592-the-legend-of-zelda-complete-box-set"
       }
     ],
     "currently-reading": [],

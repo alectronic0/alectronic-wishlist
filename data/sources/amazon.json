@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-19T22:54:12.719Z",
+  "scrapedAt": "2026-10-20T20:30:06.248Z",
   "lists": {
     "boardgames": {
       "id": "13S66685VZMFC",
@@ -10,7 +10,7 @@
           "asin": "B0C6QQM8X6",
           "title": "Ravensburger Horrified Greek Monsters - Immersive Cooperative Strategy Board Game for Adults and Kids Age 10 Years Up",
           "byline": "by Ravensburger (Toy)",
-          "price": 39.53,
+          "price": 39.93,
           "img": "https://m.media-amazon.com/images/I/518e1LeaZwL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B0C6QQM8X6",
           "dateAdded": ""
@@ -28,7 +28,7 @@
           "asin": "B09MC7CWLV",
           "title": "AEG Mystic Vale: Essential Edition | Fantasy Card-Crafting Game | Base Game",
           "byline": "by AEG (Toy)",
-          "price": 78.58,
+          "price": 86.39,
           "img": "https://m.media-amazon.com/images/I/51vFnNnK7LL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B09MC7CWLV",
           "dateAdded": ""
@@ -37,7 +37,7 @@
           "asin": "B07BMKV6MT",
           "title": "Mattel Games - UNO - The Legend of Zelda - Exclusive Edition Card Game with Special Rule",
           "byline": "by Mattel Games (Toy)",
-          "price": 11.12,
+          "price": 10,
           "img": "https://m.media-amazon.com/images/I/51QOjasH1NL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B07BMKV6MT",
           "dateAdded": ""
@@ -127,7 +127,7 @@
           "asin": "B07TS96J7Q",
           "title": "Exploding Kittens Throw Throw Burrito, 2-6 Players, Age 7+ Card Game | Collect matching cards, score points, and throw squishy foam burritos in this fast-paced dodgeball card game.",
           "byline": "by Exploding Kittens (Toy)",
-          "price": 24.97,
+          "price": 21.8,
           "img": "https://m.media-amazon.com/images/I/31RFpfWOhrL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B07TS96J7Q",
           "dateAdded": ""
@@ -136,7 +136,7 @@
           "asin": "1472830652",
           "title": "Osprey Games, Cryptid, Deduction Board Game, Ages 10+, 3-5 Players, 30-50 Minutes Playing Time",
           "byline": "by Osprey Games (Game)",
-          "price": 32.45,
+          "price": 32.81,
           "img": "https://m.media-amazon.com/images/I/51Lj5wy02FL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1472830652",
           "dateAdded": ""
@@ -298,7 +298,7 @@
           "asin": "B07D8JDPWF",
           "title": "Joking Hazard Enlarged Box",
           "byline": "by Joking Hazard (Toy)",
-          "price": 17.16,
+          "price": 17.17,
           "img": "https://m.media-amazon.com/images/I/5100FF9d6zL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B07D8JDPWF",
           "dateAdded": ""
@@ -314,7 +314,7 @@
           "asin": "B0D91K43HK",
           "title": "Delicious in Dungeon: The Complete Box Set: 15",
           "byline": "by Ryoko Kui (Paperback)",
-          "price": 125.08,
+          "price": 114,
           "img": "https://m.media-amazon.com/images/I/51LPSRDbqCL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B0D91K43HK",
           "dateAdded": ""
@@ -440,7 +440,7 @@
           "asin": "1974722864",
           "title": "Kaguya-sama: Love Is War, Vol. 19: Volume 19",
           "byline": "by Aka Akasaka (Paperback)",
-          "price": 7.99,
+          "price": 7.29,
           "img": "https://m.media-amazon.com/images/I/51z4dOqMbhL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1974722864",
           "dateAdded": ""
@@ -512,7 +512,7 @@
           "asin": "B08GNJR6SL",
           "title": "Fly Me to the Moon, Vol. 1",
           "byline": "by Kenijro Hata, Kenjiro,Hata (Kindle Edition)",
-          "price": 4.99,
+          "price": 3.59,
           "img": "https://m.media-amazon.com/images/I/51ADmRu9z3L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B08GNJR6SL",
           "dateAdded": ""
@@ -584,7 +584,7 @@
           "asin": "0593138279",
           "title": "Cook This Book: Recipes and Techniques That Actually Teach",
           "byline": "by Molly Baz (Hardcover)",
-          "price": 23.23,
+          "price": 23.18,
           "img": "https://m.media-amazon.com/images/I/41Dfb6MiFWL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/0593138279",
           "dateAdded": ""
@@ -593,7 +593,7 @@
           "asin": "1444756699",
           "title": "Gordon Ramsay's Ultimate Cookery Course",
           "byline": "by Gordon Ramsay (Hardcover)",
-          "price": 17.14,
+          "price": 16.66,
           "img": "https://m.media-amazon.com/images/I/51mwWA2hqML._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1444756699",
           "dateAdded": ""
@@ -602,7 +602,7 @@
           "asin": "2857086954",
           "title": "The French Chef Handbook: La cuisine de reference",
           "byline": "by Michel Maincent-Morel (Hardcover)",
-          "price": 72.98,
+          "price": 72.92,
           "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/2857086954",
           "dateAdded": ""
@@ -611,7 +611,7 @@
           "asin": "0747583692",
           "title": "The Big Fat Duck Cookbook",
           "byline": "by Heston Blumenthal (Hardcover)",
-          "price": 263.78,
+          "price": 264.3,
           "img": "https://m.media-amazon.com/images/I/31ozd9LfZ-L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/0747583692",
           "dateAdded": ""
@@ -656,7 +656,7 @@
           "asin": "162860011X",
           "title": "The Slim Palate Paleo Cookbook",
           "byline": "by Joshua Weissman (Paperback)",
-          "price": 14.77,
+          "price": 14.71,
           "img": "https://m.media-amazon.com/images/I/51cDlM10VjL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/162860011X",
           "dateAdded": ""
@@ -692,7 +692,7 @@
           "asin": "1906650357",
           "title": "Momofuku",
           "byline": "by David Chang (Hardcover)",
-          "price": 21.13,
+          "price": 21.15,
           "img": "https://m.media-amazon.com/images/I/41wLcvSme0L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1906650357",
           "dateAdded": ""
@@ -728,7 +728,7 @@
           "asin": "0747584095",
           "title": "In Search of Perfection: Reinventing Kitchen Classics",
           "byline": "by Heston Blumenthal, Simon Wheeler (Hardcover)",
-          "price": 29.44,
+          "price": 29.29,
           "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/0747584095",
           "dateAdded": ""
@@ -791,7 +791,7 @@
           "asin": "1421599929",
           "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 10: Volume 10",
           "byline": "by Hiromu Arakawa (Hardcover)",
-          "price": 17.54,
+          "price": 17.44,
           "img": "https://m.media-amazon.com/images/I/41uzVmM1GBL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421599929",
           "dateAdded": ""
@@ -818,7 +818,7 @@
           "asin": "1421599899",
           "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 7: Volume 7",
           "byline": "by Hiromu Arakawa (Hardcover)",
-          "price": 16.25,
+          "price": 14.43,
           "img": "https://m.media-amazon.com/images/I/51wfSH6OIOL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421599899",
           "dateAdded": ""
@@ -881,7 +881,7 @@
           "asin": "1421572575",
           "title": "FOOD WARS SHOKUGEKI NO SOMA GN VOL 04: Resemblances: Volume 4",
           "byline": "by Yuto Tsukuda, Shun Saeki (Paperback)",
-          "price": 2.24,
+          "price": 2.23,
           "img": "https://m.media-amazon.com/images/I/61QJbWliv4L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421572575",
           "dateAdded": ""
@@ -935,7 +935,7 @@
           "asin": "1974709477",
           "title": "Food Wars!: Shokugeki no Soma, Vol. 32: A Subversive Visitor: Volume 32",
           "byline": "by Yuto Tsukuda, Shun Saeki (Paperback)",
-          "price": 8.83,
+          "price": 9.49,
           "img": "https://m.media-amazon.com/images/I/51LEXNywDnL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1974709477",
           "dateAdded": ""
@@ -1007,7 +1007,7 @@
           "asin": "1421597624",
           "title": "Food Wars!: Shokugeki no Soma, Vol. 23: Wilderness Pioneer: Volume 23",
           "byline": "by Yuto Tsukuda, Shun Saeki (Paperback)",
-          "price": 8.98,
+          "price": 8.93,
           "img": "https://m.media-amazon.com/images/I/61AWxyPiMhL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421597624",
           "dateAdded": ""
@@ -1025,7 +1025,7 @@
           "asin": "1421594358",
           "title": "Food Wars!: Shokugeki no Soma, Vol. 20: Frozen Thoughts: Volume 20",
           "byline": "by Yuto Tsukuda, Shun Saeki (Paperback)",
-          "price": 7.08,
+          "price": 7.05,
           "img": "https://m.media-amazon.com/images/I/51Sh5dajLoL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421594358",
           "dateAdded": ""
@@ -1286,7 +1286,7 @@
           "asin": "1974715337",
           "title": "The Legend of Zelda: Twilight Princess, Vol. 7: Volume 7",
           "byline": "by Akira Himekawa (Paperback)",
-          "price": 7.85,
+          "price": 7.84,
           "img": "https://m.media-amazon.com/images/I/51jQ2h2WL5L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1974715337",
           "dateAdded": ""
@@ -1349,7 +1349,7 @@
           "asin": "1421589591",
           "title": "The Legend of Zelda: Ocarina of Time -Legendary Edition-: Ocarina of Time",
           "byline": "by Akira Himekawa (Paperback)",
-          "price": 14.23,
+          "price": 14.25,
           "img": "https://m.media-amazon.com/images/I/51O7yY4lH7L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/1421589591",
           "dateAdded": ""
@@ -1394,7 +1394,7 @@
           "asin": "074401669X",
           "title": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide",
           "byline": "by Prima Games (Hardcover)",
-          "price": 22.45,
+          "price": 29.49,
           "img": "https://m.media-amazon.com/images/I/51Wsa06U0CL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/074401669X",
           "dateAdded": ""
@@ -1403,7 +1403,7 @@
           "asin": "0804162727",
           "title": "The Legend of Zelda: a Link Between Worlds Collector's Edition: Prima's Official Game Guide",
           "byline": "by Prima Games, Stephen Stratton (Hardcover)",
-          "price": 81.39,
+          "price": 81.21,
           "img": "https://m.media-amazon.com/images/I/51C7McoDzBL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/0804162727",
           "dateAdded": ""
@@ -1412,7 +1412,7 @@
           "asin": "0744017033",
           "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
           "byline": "by Prima Games (Hardcover)",
-          "price": 75.17,
+          "price": 480,
           "img": "https://m.media-amazon.com/images/I/41tBNMp7I7L._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/0744017033",
           "dateAdded": ""
@@ -1493,7 +1493,7 @@
           "asin": "197471473X",
           "title": "Kaguya-sama: Love Is War, Vol. 15: Volume 15",
           "byline": "by Aka Akasaka (Paperback)",
-          "price": 8.91,
+          "price": 8.92,
           "img": "https://m.media-amazon.com/images/I/51lzi-bRZWL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/197471473X",
           "dateAdded": ""
@@ -1626,7 +1626,7 @@
           "asin": "B09MXL1W9H",
           "title": "ProKeeper+ 9 Piece Clear Plastic Airtight Food Flour and Sugar Baker's Kitchen Storage Organization Container Canister Set with Magnetic Accessories",
           "byline": "by ProKeeper (Kitchen & Home)",
-          "price": 58.25,
+          "price": 57.2,
           "img": "https://m.media-amazon.com/images/I/41imNwcIxTL._SS135_.jpg",
           "url": "https://www.amazon.co.uk/dp/B09MXL1W9H",
           "dateAdded": ""

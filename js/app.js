@@ -83,12 +83,14 @@ document.addEventListener('DOMContentLoaded', () => {
       item.price ? `<span class="item-card__price">${escapeHtml(item.price)}</span>` : '',
       item.status ? `<span class="tag">${escapeHtml(item.status)}</span>` : '',
       item.owned ? '<span class="tag tag--owned">Owned</span>' : '',
+      item.toneLabel ? `<span class="tag tag--${item.tone}">${escapeHtml(item.toneLabel)}</span>` : '',
       ...(item.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`),
       dateTag,
       verifiedTag
     ].join('');
+    const toneClass = item.tone ? ` item-card--${item.tone}` : '';
     return `
-      <article class="item-card" title="${escapeHtml(item.name)}">
+      <article class="item-card${toneClass}" title="${escapeHtml(item.name)}">
         ${media}
         <h3 class="item-card__title">${title}</h3>
         ${item.meta ? `<p class="item-card__meta">${escapeHtml(item.meta)}</p>` : ''}
@@ -100,8 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * One list page: heading, everything/wanted/owned tabs, group chips and card grids.
    * config: { title, lede, links[{label, href}], introHtml, note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
-   * Optional: filters[{key, label}] turns the chips into a filter on item.filter, leaving item.group for the
-   * sections; item.subgroup splits a section further (books: author sections, series inside).
+   * Optional: banner (text shown above everything); item.tone ('green' | 'amber' | 'red') + item.toneLabel colour a card.
+   * filters[{key, label}] turns the chips into a filter on item.filter, leaving item.group for the
+   * sections; item.subgroups[] splits a section further, one heading level each (books: type → author → series).
    */
   function renderCatalogue(root, config) {
     const VIEWS = [
@@ -117,16 +120,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return '<p class="catalogue__empty">Nothing here for this filter.</p>';
       }
       const grid = cards => `<div class="item-grid">${cards.map(itemCard).join('')}</div>`;
-      const subTag = `h${Number(headingTag.slice(1)) + 1}`;
-      const subgrouped = cards => {
-        const keys = [...new Set(cards.map(card => card.subgroup || ''))];
+      const levelsOf = card => card.subgroups || (card.subgroup ? [card.subgroup] : []);
+      const subgrouped = (cards, level = 0) => {
+        const keys = [...new Set(cards.map(card => levelsOf(card)[level] || ''))];
         if (keys.length === 1 && !keys[0]) {
           return grid(cards);
         }
-        return keys.map(key => {
-          const inSub = cards.filter(card => (card.subgroup || '') === key);
-          return key ? `<div class="catalogue__subgroup"><${subTag}>${escapeHtml(key)}</${subTag}>${grid(inSub)}</div>` : grid(inSub);
+        const tag = `h${Math.min(6, Number(headingTag.slice(1)) + 1 + level)}`;
+        const blocks = keys.map(key => {
+          const inSub = cards.filter(card => (levelsOf(card)[level] || '') === key);
+          const body = subgrouped(inSub, level + 1);
+          return key ? `<div class="catalogue__subgroup catalogue__subgroup--${level}"><${tag}>${escapeHtml(key)} <span class="count">${inSub.length}</span></${tag}>${body}</div>` : `<div class="catalogue__subgroup">${body}</div>`;
         }).join('');
+        // Small blocks (an author with one book) sit side by side instead of taking a row each
+        return `<div class="catalogue__subgroups">${blocks}</div>`;
       };
       const inGroups = groups.filter(group => items.some(item => item.group === group.key));
       const filteredToOne = state.group !== 'all' && !config.filters;
@@ -156,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         : shown.map(view => listHtml(filtered(view), groups, 'h2')).join('');
 
       root.innerHTML = `
+        ${config.banner ? `<div class="catalogue__banner" role="status">${escapeHtml(config.banner)}</div>` : ''}
         <div class="catalogue__head">
           <div>
             <h1>${escapeHtml(config.title)}</h1>
@@ -297,20 +305,28 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  const BOOK_FORMATS = { physical: '📕 Print', digital: '📱 Digital' };
-  const BOOK_WANTS = { physical: 'Wanted in print', digital: 'Wanted as ebook' };
+  const BOOK_TYPES = ['Fantasy & Sci-fi', 'Manga', 'Cookbooks', 'Non-fiction', 'Computer Science & Business', 'Video games', 'Zelda', 'Misc'];
   const BOOK_LINKS = [['goodreads', 'Goodreads'], ['amazon', 'Amazon'], ['waterstones', 'Waterstones'], ['play', 'Play Books']];
 
-  // Sections are authors, series split them further, and the chips filter by category
+  // The goal is a print copy of everything: green = in print, amber = ebook only, red = not owned
+  function bookTone(book) {
+    if (book.formats.includes('physical')) {
+      return { tone: 'green', toneLabel: '✓ In print' };
+    }
+    if (book.status === 'owned') {
+      return { tone: 'amber', toneLabel: 'Ebook only, print needed' };
+    }
+    return { tone: 'red', toneLabel: 'Not owned' };
+  }
+
+  // Sections are types, then authors, then series
   function booksCatalogue(data) {
     const authorOf = book => book.author || 'Unknown author';
-    const authors = [...new Set(data.library.map(authorOf))].sort((left, right) => left.localeCompare(right));
-    const categories = [...new Set(data.library.map(book => book.category))].sort();
+    const inPrint = data.library.filter(book => book.formats.includes('physical')).length;
     const card = book => {
       const tags = [
-        ...book.formats.map(format => BOOK_FORMATS[format]),
-        ...(book.audiobook ? ['🎧 Audiobook'] : []),
-        ...book.wants.map(format => BOOK_WANTS[format])
+        ...(book.formats.includes('digital') ? ['📱 Ebook'] : []),
+        ...(book.audiobook ? ['🎧 Audiobook'] : [])
       ];
       const links = BOOK_LINKS.filter(([key]) => book.links[key]).map(([key, label]) => externalLink(book.links[key], label, 'item-card__link'));
       return {
@@ -318,26 +334,27 @@ document.addEventListener('DOMContentLoaded', () => {
         img: book.img,
         url: book.links.goodreads || book.links.play || book.links.waterstones || book.links.amazon,
         meta: book.seriesNo ? `Book ${book.seriesNo}` : '',
+        ...bookTone(book),
         tags,
-        group: authorOf(book),
-        subgroup: book.series,
-        filter: book.category,
+        group: book.type,
+        subgroups: [authorOf(book), book.series],
         cover: true,
         extraHtml: links.length ? `<p class="item-card__meta">${links.join(' · ')}</p>` : ''
       };
     };
     return {
       title: 'Books',
-      lede: 'Every book across Goodreads, Amazon, Waterstones and Play Books, grouped by author and series. Owned copies say whether they are print or digital.',
+      banner: '🚧 Work in progress: this book list is still being synced and checked',
+      lede: `${inPrint} of ${data.library.length} books owned in print. Green is on the shelf in print, amber is an ebook that still needs a print copy, red is not owned yet.`,
       links: [
         { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
         { label: 'Shelves on Goodreads', href: data.goodreadsUrl }
       ],
-      groups: authors.map(author => ({ key: author, label: author })),
-      filters: categories.map(category => ({ key: category, label: category })),
+      groups: BOOK_TYPES.map(type => ({ key: type, label: type })),
       sectioned: true,
-      wanted: data.library.filter(book => book.wants.length > 0).map(card),
-      owned: data.library.filter(book => book.status === 'owned').map(card)
+      // One list in reading order: the colours already say owned or not, and a series reads 1, 2, 3…
+      wanted: data.library.map(card),
+      owned: []
     };
   }
 
@@ -486,7 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'videogames.html': [(SITE_CONTENT.videogames.wishlist || []).length, SITE_CONTENT.videogames.owned.length],
       'boardgames.html': [SITE_CONTENT.boardgames.wishlist.length, SITE_CONTENT.boardgames.owned.length],
       'books.html': [
-        library.filter(book => book.wants.length > 0).length,
+        library.filter(book => !book.formats.includes('physical')).length,
         library.filter(book => book.status === 'owned').length
       ]
     };

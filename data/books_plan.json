@@ -1,0 +1,899 @@
+{
+  "builtAt": "2026-10-20T22:09:42.392Z",
+  "plan": {
+    "goodreads": [
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Agil8 Certified ScrumMaster (CSM) Course Workbook",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Agil8 Certified ScrumMaster (CSM) Course Workbook",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "LogicWorks 4 Interactive Circuit Design Software Manual",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "LogicWorks 4 Interactive Circuit Design Software Manual",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Mindfulness & Extreme Colouring Mandalas Books",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Mindfulness & Extreme Colouring Mandalas Books",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Roald Dahl's Revolting Recipes & Even More Revolting Recipes",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Roald Dahl's Revolting Recipes & Even More Revolting Recipes",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Usborne Cookery School: Cooking for Beginners",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Usborne Cookery School: Cooking for Beginners",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Waitrose Cookery School Course Book",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Waitrose Cookery School Course Book",
+        "author": "",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda Complete Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421542423",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda Complete Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421542423",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Majora's Mask, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523293",
+        "goodreadsId": "4885189",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Majora's Mask, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523293",
+        "goodreadsId": "4885189",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Majora's Mask, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523293",
+        "goodreadsId": "4885189"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "goodreadsId": "4885190",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "goodreadsId": "4885190",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "goodreadsId": "4885190"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523316",
+        "goodreadsId": "6186199",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523316",
+        "goodreadsId": "6186199",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523316",
+        "goodreadsId": "6186199"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523323",
+        "goodreadsId": "6186198",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523323",
+        "goodreadsId": "6186198",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523323",
+        "goodreadsId": "6186198"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523330",
+        "goodreadsId": "6476708",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523330",
+        "goodreadsId": "6476708",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523330",
+        "goodreadsId": "6476708"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523347",
+        "goodreadsId": "6476709",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523347",
+        "goodreadsId": "6476709",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523347",
+        "goodreadsId": "6476709"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523354",
+        "goodreadsId": "6852350",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523354",
+        "goodreadsId": "6852350",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523354",
+        "goodreadsId": "6852350"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421537245",
+        "goodreadsId": "7171902",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421537245",
+        "goodreadsId": "7171902",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421537245",
+        "goodreadsId": "7171902"
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Open University Notations and Models: Mathematical Modelling",
+        "author": "Block A Units A1-A4",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Open University Notations and Models: Mathematical Modelling",
+        "author": "Block A Units A1-A4",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "BTEC National Information Technology Practitioners",
+        "author": "Book 1 & 2",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "BTEC National Information Technology Practitioners",
+        "author": "Book 1 & 2",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Japonisme: Exploring the Japanese Art of Living",
+        "author": "Erin Niimi Longhurst",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Japonisme: Exploring the Japanese Art of Living",
+        "author": "Erin Niimi Longhurst",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Fat Duck Cookbook",
+        "author": "Heston Blumenthal",
+        "isbn13": "9780747597377",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Lonely Planet Phrasebook Series",
+        "author": "Italian, French, Russian, Polish, Greek",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Lonely Planet Phrasebook Series",
+        "author": "Italian, French, Russian, Polish, Greek",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Ladybird: How It Works... The Computer",
+        "author": "Ladybird 654",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Ladybird: How It Works... The Computer",
+        "author": "Ladybird 654",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Patrick Quick CS Course Notes",
+        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Patrick Quick CS Course Notes",
+        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda Box Set: 6 Collector's Edition Guides",
+        "author": "Prima Games",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda Box Set: 6 Collector's Edition Guides",
+        "author": "Prima Games",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
+        "author": "Prima Games",
+        "isbn13": "9780744017038",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Delicious in Dungeon: The Complete Box Set: 15",
+        "author": "Ryoko Kui",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
+        "author": "Stuart Farrimond",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Shibari Colouring Book Series",
+        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Shibari Colouring Book Series",
+        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend's Cookbook+",
+        "author": "Zelda Recipes & Art",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend's Cookbook+",
+        "author": "Zelda Recipes & Art",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      }
+    ],
+    "amazon": [
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda Complete Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421542423",
+        "asin": "1421542420"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Majora's Mask, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523293",
+        "asin": "1421523299"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "asin": "1421523302"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523316",
+        "asin": "1421523310"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523323",
+        "asin": "1421523329"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523330",
+        "asin": "1421523337"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523347",
+        "asin": "1421523345"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523354",
+        "asin": "1421523353"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421537245",
+        "asin": "1421537249"
+      },
+      {
+        "op": "add",
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "author": "Gene Kim",
+        "isbn13": "9781942788324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya 1",
+        "author": "Hero",
+        "isbn13": "9784757535435",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 1",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632367709",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 1",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421582696",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Pasta Man: The Art of Making Spectacular Pasta – with 40 Recipes",
+        "author": "Mateo Zielonka",
+        "isbn13": "9781787136199",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kusuriya no Hitorigoto 1",
+        "author": "Nekokurage",
+        "isbn13": "9784757554894",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A Court of Wings and Ruin, Vol. 3",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575606",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A Court of Frost and Starlight, Vol. 4",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575620",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A ​Court of Silver Flames, Vol. 5",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781681196282",
+        "lookup": true
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: A Link to the Past",
+        "author": "Shōtarō Ishinomori",
+        "isbn13": "9781421575414",
+        "asin": "1421575418"
+      }
+    ],
+    "waterstones": [
+      {
+        "op": "add",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974718191",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Majora's Mask / A Link to the Past -Legendary Edition-: Majora's Mask/A Link to the Past",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589619",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589596",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages -Legendary Edition-: Oracle of Seasons / Oracle of Ages",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589602",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: The Minish Cap / Phantom Hourglass -Legendary Edition-: The Minish Cap/Phantom Hourglass",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589626",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Legendary Edition, Vol. 5: Four Swords",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589633",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421598260",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974702268",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974705641",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974711635",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974715336",
+        "lookup": true
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "bookId": "2412967"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523316",
+        "bookId": "1434555"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523323",
+        "bookId": "2413208"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523330",
+        "bookId": "2413259"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523347",
+        "bookId": "2413220"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523354",
+        "bookId": "1176345"
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421537245",
+        "bookId": "2413761"
+      },
+      {
+        "op": "add",
+        "title": "Binging with Babish: 100 Recipes Recreated from Your Favorite Movies and TV Shows",
+        "author": "Andrew Rea",
+        "isbn13": "9781328589897",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "author": "Gene Kim",
+        "isbn13": "9781942788324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya 1",
+        "author": "Hero",
+        "isbn13": "9784757535435",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Historic Heston",
+        "author": "Heston Blumenthal",
+        "isbn13": "9781408857571",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Fat Duck Cookbook",
+        "author": "Heston Blumenthal",
+        "isbn13": "9780747597377",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fullmetal Alchemist: The Complete Four-Panel Comics",
+        "author": "Hiromu Arakawa",
+        "isbn13": "9781974706174",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Cook This Book: Techniques That Teach and Recipes To Repeat",
+        "author": "Molly Baz",
+        "isbn13": "9780593138274",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kusuriya no Hitorigoto 1",
+        "author": "Nekokurage",
+        "isbn13": "9784757554894",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
+        "author": "Prima Games",
+        "isbn13": "9780744017038",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Delicious in Dungeon: The Complete Box Set: 15",
+        "author": "Ryoko Kui",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Salt Fat Acid Heat. Cztery składniki",
+        "author": "Samin Nosrat",
+        "isbn13": "9788324070374",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A Court of Wings and Ruin, Vol. 3",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575606",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A Court of Frost and Starlight, Vol. 4",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575620",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: A Link Between Worlds: Prima Official Game Guide",
+        "author": "Stephen Stratton",
+        "isbn13": "9780804162722",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
+        "author": "Stuart Farrimond",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "SPY×FAMILY 1, Vol. 1",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974715466",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 3",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974718160",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Ottolenghi Flavour",
+        "author": "Yotam Ottolenghi",
+        "isbn13": "9781785038938",
+        "lookup": true
+      }
+    ],
+    "playWishlist": []
+  }
+}

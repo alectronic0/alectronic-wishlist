@@ -4540,136 +4540,155 @@ window.SITE_CONTENT = {
         "volumes": [
           {
             "vol": 1,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51HFQfT7OFL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974700305",
-            "price": "\u00a37.59"
+            "price": "\u00a37.59",
+            "goodreads": "https://www.goodreads.com/book/show/36100762-kaguya-sama"
           },
           {
             "vol": 2,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51uFn4be9LL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974700313",
-            "price": "\u00a37.65"
+            "price": "\u00a37.65",
+            "goodreads": "https://www.goodreads.com/book/show/36495869-kaguya-sama"
           },
           {
             "vol": 3,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/5149x4YLjlL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974700321",
-            "price": "\u00a37.35"
+            "price": "\u00a37.35",
+            "goodreads": "https://www.goodreads.com/book/show/36538804-kaguya-sama"
           },
           {
             "vol": 4,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51lCx-XLbpL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974700496",
-            "price": "\u00a37.65"
+            "price": "\u00a37.65",
+            "goodreads": "https://www.goodreads.com/book/show/38926438-kaguya-sama"
           },
           {
             "vol": 5,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51x9nQ4MzJL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197470050X",
-            "price": "\u00a37.65"
+            "price": "\u00a37.65",
+            "goodreads": "https://www.goodreads.com/book/show/38926416-kaguya-sama"
           },
           {
             "vol": 6,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51AUyNUJrYL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974701387",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/34226423-kaguya-sama"
           },
           {
             "vol": 7,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51Y+fPjslIL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974701395",
-            "price": "\u00a37.59"
+            "price": "\u00a37.59",
+            "goodreads": "https://www.goodreads.com/book/show/40639136-kaguya-sama"
           },
           {
             "vol": 8,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51WEEdukSZL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974704408",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/42633882-kaguya-sama"
           },
           {
             "vol": 9,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51Q-OK2ybzL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974705099",
-            "price": "\u00a37.35"
+            "price": "\u00a37.35",
+            "goodreads": "https://www.goodreads.com/book/show/42633866-kaguya-sama"
           },
           {
             "vol": 10,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/518qDO7pTBL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197470663X",
-            "price": "\u00a37.59"
+            "price": "\u00a37.59",
+            "goodreads": "https://www.goodreads.com/book/show/43909391-kaguya-sama"
           },
           {
             "vol": 11,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51P5iFIXI7L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974707792",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/43909393-kaguya-sama"
           },
           {
             "vol": 12,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51ySGGgIyVL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974709574",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/51096665-kaguya-sama"
           },
           {
             "vol": 13,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51Xk0J8PkUL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974710718",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/51160956-kaguya-sama"
           },
           {
             "vol": 14,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/513ckFO9ChL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974714721",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/52757931-kaguya-sama"
           },
           {
             "vol": 15,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51lzi-bRZWL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197471473X",
-            "price": "\u00a38.92"
+            "price": "\u00a38.92",
+            "goodreads": "https://www.goodreads.com/book/show/52757930-kaguya-sama"
           },
           {
             "vol": 16,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51-iwybOcIL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974717100",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/50891138-kaguya-sama"
           },
           {
             "vol": 17,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51TJYiSIitL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974718743",
-            "price": "\u00a37.09"
+            "price": "\u00a37.09",
+            "goodreads": "https://www.goodreads.com/book/show/50891154-kaguya-sama"
           },
           {
             "vol": 18,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/511fF9F3Q1L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974721000",
-            "price": "\u00a312.85"
+            "price": "\u00a312.85",
+            "goodreads": "https://www.goodreads.com/book/show/54303330-kaguya-sama"
           },
           {
             "vol": 19,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51z4dOqMbhL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974722864",
-            "price": "\u00a37.29"
+            "price": "\u00a37.29",
+            "goodreads": "https://www.goodreads.com/book/show/55711501-kaguya-sama"
           }
         ]
       },
@@ -4682,38 +4701,43 @@ window.SITE_CONTENT = {
         "volumes": [
           {
             "vol": 1,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51ADmRu9z3L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08GNJR6SL",
-            "price": "\u00a33.59"
+            "price": "\u00a33.59",
+            "goodreads": "https://www.goodreads.com/book/show/51323379-fly-me-to-the-moon-vol-1"
           },
           {
             "vol": 2,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51WVQ6sA2WL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08M112WGP",
-            "price": "\u00a33.59"
+            "price": "\u00a33.59",
+            "goodreads": "https://www.goodreads.com/book/show/51323371-fly-me-to-the-moon-vol-2"
           },
           {
             "vol": 3,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51D6Y2xwdzL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08R6R7RNW",
-            "price": "\u00a33.59"
+            "price": "\u00a33.59",
+            "goodreads": "https://www.goodreads.com/book/show/54303390-fly-me-to-the-moon-vol-3"
           },
           {
             "vol": 4,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51KbH9OPTcL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08X11439K",
-            "price": "\u00a34.99"
+            "price": "\u00a34.99",
+            "goodreads": "https://www.goodreads.com/book/show/54308142-fly-me-to-the-moon-vol-4"
           },
           {
             "vol": 5,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/5189hxmkBPL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B093NTCST2",
-            "price": "\u00a34.99"
+            "price": "\u00a34.99",
+            "goodreads": "https://www.goodreads.com/book/show/55711442-fly-me-to-the-moon-vol-5"
           }
         ]
       },
@@ -5011,62 +5035,62 @@ window.SITE_CONTENT = {
       {
         "series": "The Legend of Zelda (Original Manga)",
         "author": "Akira Himekawa",
-        "notes": "Original single-volume run covering Ocarina of Time through Phantom Hourglass.",
+        "notes": "Original single-volume run covering Ocarina of Time through Phantom Hourglass. Owned in print as The Legend of Zelda Complete Box Set.",
         "img": "https://m.media-amazon.com/images/I/51vp7Y53jqL._SS135_.jpg",
         "wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/30HD1JLLAIGAF",
         "volumes": [
           {
             "vol": 3,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51vp7Y53jqL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523299",
             "price": "\u00a37.65"
           },
           {
             "vol": 4,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/61erkxIS6VL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523302",
             "price": "\u00a37.65"
           },
           {
             "vol": 5,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51FELk8P3IL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523310",
             "price": "\u00a37.65"
           },
           {
             "vol": 6,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/61-hquXPjwL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523329",
             "price": "\u00a37.65"
           },
           {
             "vol": 7,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51c1L2KcTzL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523337",
             "price": "\u00a32.33"
           },
           {
             "vol": 8,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/51buAnhulhL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523345",
             "price": "\u00a37.65"
           },
           {
             "vol": 9,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/514BSlWVbxL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523353",
             "price": "\u00a37.09"
           },
           {
             "vol": 10,
-            "status": "wanted",
+            "status": "owned",
             "img": "https://m.media-amazon.com/images/I/61qG+YAkmKL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421537249",
             "price": "\u00a37.54"
@@ -5157,7 +5181,7 @@ window.SITE_CONTENT = {
         "badge": "Heston Blumenthal",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
         "amazon": "https://www.amazon.co.uk/dp/1408804409",
-        "goodreads": "https://www.goodreads.com/book/show/59808407-is-this-a-cookbook-adventures-in-the-kitchen"
+        "goodreads": "https://www.goodreads.com/book/show/12991832-heston-blumenthal-at-home"
       },
       {
         "name": "Joshua Weissman: Texture Over Taste & An Unapologetic Cookbook",
@@ -5292,7 +5316,8 @@ window.SITE_CONTENT = {
         "badge": "11-Book Box Set",
         "img": "https://m.media-amazon.com/images/I/81Sp6fSC8YL._AC_SL500_.jpg",
         "url": "https://www.amazon.co.uk/dp/1974749665",
-        "price": "Complete Box Set"
+        "price": "Complete Box Set",
+        "goodreads": "https://www.goodreads.com/book/show/52758052-the-legend-of-zelda"
       },
       {
         "name": "Unfu*k Yourself (Gary John Bishop)",
@@ -5488,7 +5513,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51c9Qu7WnjL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1922616621",
         "price": "\u00a318.07",
-        "asin": "1922616621"
+        "asin": "1922616621",
+        "goodreads": "https://www.goodreads.com/book/show/68000686-what-s-for-dessert"
       },
       {
         "name": "Cook, Eat, Repeat (Nigella Lawson)",
@@ -5518,7 +5544,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51ZtYh-Ai4L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B07HY1T7PR",
         "price": "",
-        "asin": "B07HY1T7PR"
+        "asin": "B07HY1T7PR",
+        "goodreads": "https://www.goodreads.com/book/show/25770528-cooking-for-geeks"
       },
       {
         "name": "Momofuku (David Chang)",
@@ -5528,7 +5555,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51iUaL7Gx-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B07F2ZRZR5",
         "price": "\u00a315.19",
-        "asin": "B07F2ZRZR5"
+        "asin": "B07F2ZRZR5",
+        "goodreads": "https://www.goodreads.com/book/show/7959048-momofuku"
       },
       {
         "name": "Ottolenghi FLAVOUR (Yotam Ottolenghi)",
@@ -5538,7 +5566,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/41-UqRz8cSL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B0852XM4M7",
         "price": "\u00a316.99",
-        "asin": "B0852XM4M7"
+        "asin": "B0852XM4M7",
+        "goodreads": "https://www.goodreads.com/book/show/51781451-ottolenghi-flavour"
       },
       {
         "name": "The Food Lab: Better Home Cooking Through Science (J. Kenji L\u00f3pez-Alt)",
@@ -5558,7 +5587,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51-PrYhI-qL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1472973615",
         "price": "\u00a321.15",
-        "asin": "1472973615"
+        "asin": "1472973615",
+        "goodreads": "https://www.goodreads.com/book/show/52778472-the-pie-room"
       },
       {
         "name": "Cook This Book: Recipes and Techniques That Actually Teach (Molly Baz)",
@@ -5568,7 +5598,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/41Dfb6MiFWL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0593138279",
         "price": "\u00a323.18",
-        "asin": "0593138279"
+        "asin": "0593138279",
+        "goodreads": "https://www.goodreads.com/book/show/54895707-cook-this-book"
       },
       {
         "name": "Gordon Ramsay's Ultimate Cookery Course (Gordon Ramsay)",
@@ -5578,7 +5609,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51mwWA2hqML._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1444756699",
         "price": "\u00a316.66",
-        "asin": "1444756699"
+        "asin": "1444756699",
+        "goodreads": "https://www.goodreads.com/book/show/15946151-gordon-ramsay-s-ultimate-cookery-course"
       },
       {
         "name": "The French Chef Handbook: La cuisine de reference (Michel Maincent-Morel)",
@@ -5588,7 +5620,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/2857086954",
         "price": "\u00a372.92",
-        "asin": "2857086954"
+        "asin": "2857086954",
+        "goodreads": "https://www.goodreads.com/book/show/51075309-the-french-chef-handbook"
       },
       {
         "name": "The Big Fat Duck Cookbook (Heston Blumenthal)",
@@ -5598,7 +5631,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/31ozd9LfZ-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0747583692",
         "price": "\u00a3264.30",
-        "asin": "0747583692"
+        "asin": "0747583692",
+        "goodreads": "https://www.goodreads.com/book/show/3158083-the-big-fat-duck-cookbook-import-edition"
       },
       {
         "name": "Historic Heston (Heston Blumenthal)",
@@ -5608,7 +5642,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51p+EUaBOHL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/140885757X",
         "price": "\u00a342.13",
-        "asin": "140885757X"
+        "asin": "140885757X",
+        "goodreads": "https://www.goodreads.com/book/show/22174899-historic-heston"
       },
       {
         "name": "Hestons Fantastical Feast (Heston Blumenthal)",
@@ -5618,7 +5653,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51-ji07y-SL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1408808609",
         "price": "\u00a31.85",
-        "asin": "1408808609"
+        "asin": "1408808609",
+        "goodreads": "https://www.goodreads.com/book/show/8441504-heston-s-fantastical-feasts"
       },
       {
         "name": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza (Ken Forkish)",
@@ -5628,7 +5664,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51u9oR5Yr4L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/160774273X",
         "price": "\u00a323.00",
-        "asin": "160774273X"
+        "asin": "160774273X",
+        "goodreads": "https://www.goodreads.com/book/show/13414492-flour-water-salt-yeast"
       },
       {
         "name": "The Essentials of Classic Italian Cooking (Marcella Hazan)",
@@ -5638,7 +5675,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/512FT9PBlcL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0752227904",
         "price": "\u00a323.57",
-        "asin": "0752227904"
+        "asin": "0752227904",
+        "goodreads": "https://www.goodreads.com/book/show/12832217-essentials-of-classic-italian-cooking"
       },
       {
         "name": "The Slim Palate Paleo Cookbook (Joshua Weissman)",
@@ -5648,7 +5686,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51cDlM10VjL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/162860011X",
         "price": "\u00a314.71",
-        "asin": "162860011X"
+        "asin": "162860011X",
+        "goodreads": "https://www.goodreads.com/book/show/18668443-slim-palate-paleo-cookbook"
       },
       {
         "name": "Bon Appetit: The Food Lover's Cleanse (Sara Dickerman)",
@@ -5658,7 +5697,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51GLHiH9jcL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0062390236",
         "price": "\u00a324.71",
-        "asin": "0062390236"
+        "asin": "0062390236",
+        "goodreads": "https://www.goodreads.com/book/show/25817394-the-bon-appetit-food-lover-s-cleanse"
       },
       {
         "name": "Eat What You Watch: A Cookbook for Movie Lovers (Andrew Rea)",
@@ -5668,7 +5708,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/41hVtD-8vpL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0008283656",
         "price": "\u00a313.19",
-        "asin": "0008283656"
+        "asin": "0008283656",
+        "goodreads": "https://www.goodreads.com/book/show/36514017-eat-what-you-watch"
       },
       {
         "name": "Binging with Babish (Andrew Rea)",
@@ -5678,7 +5719,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51RRlTy+moL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1328589897",
         "price": "\u00a322.26",
-        "asin": "1328589897"
+        "asin": "1328589897",
+        "goodreads": "https://www.goodreads.com/book/show/43261151-binging-with-babish"
       },
       {
         "name": "Momofuku (David Chang)",
@@ -5708,7 +5750,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51wRJ0EI7nL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/8324070370",
         "price": "",
-        "asin": "8324070370"
+        "asin": "8324070370",
+        "goodreads": "https://www.goodreads.com/book/show/35019164-salt-fat-acid-heat"
       },
       {
         "name": "Dessert Person: Recipes and Guidance for Baking with Confidence (Claire Saffitz)",
@@ -5729,7 +5772,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0747584095",
         "price": "\u00a329.29",
-        "asin": "0747584095"
+        "asin": "0747584095",
+        "goodreads": "https://www.goodreads.com/book/show/1908493.In_Search_of_Perfection"
       },
       {
         "name": "The Fat Duck Cookbook (Heston Blumenthal)",
@@ -5749,7 +5793,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51egPYkSh6L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1974706176",
         "price": "\u00a37.65",
-        "asin": "1974706176"
+        "asin": "1974706176",
+        "goodreads": "https://www.goodreads.com/book/show/40944447-fullmetal-alchemist"
       },
       {
         "name": "The Legend of Zelda: A Link to the Past (Shotaro Ishinomori)",
@@ -5759,7 +5804,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51+KiK0PokL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1421575418",
         "price": "",
-        "asin": "1421575418"
+        "asin": "1421575418",
+        "goodreads": "https://www.goodreads.com/book/show/18282978-the-legend-of-zelda"
       },
       {
         "name": "The Legend of Zelda Complete Box Set (Akira Himekawa)",
@@ -5769,17 +5815,16 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/61u2BrHRNKL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1421542420",
         "price": "",
-        "asin": "1421542420"
+        "asin": "1421542420",
+        "goodreads": "https://www.goodreads.com/book/show/52854190-the-legend-of-zelda---legendary-edition-box-set"
       },
       {
-        "name": "The Legend of Zelda - Legendary Edition Box Set (Akira Himekawa)",
+        "name": "The Legend of Zelda Box Set: 6 Collector's Edition Guides (Prima Games)",
         "category": "Video Game Books",
         "status": "owned",
-        "badge": "Paperback",
-        "img": "https://m.media-amazon.com/images/I/51NWrNi6pzL._SS135_.jpg",
-        "url": "https://www.amazon.co.uk/dp/1974718190",
-        "price": "",
-        "asin": "1974718190"
+        "badge": "Hardcover box set",
+        "img": "https://images.nintendolife.com/aaca6c8f60e2d/so-pretty.large.jpg",
+        "price": ""
       },
       {
         "name": "Hyrule Warriors Legends (Garitt Rocha)",
@@ -5789,7 +5834,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51dMdF6Zu-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0744017114",
         "price": "\u00a338.36",
-        "asin": "0744017114"
+        "asin": "0744017114",
+        "goodreads": "https://www.goodreads.com/book/show/28687243-hyrule-warriors-legends-collector-s-edition"
       },
       {
         "name": "Hyrule Warriors (Prima Games)",
@@ -5799,7 +5845,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51zxspxQEaL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1101898151",
         "price": "\u00a331.09",
-        "asin": "1101898151"
+        "asin": "1101898151",
+        "goodreads": "https://www.goodreads.com/book/show/22716527-hyrule-warriors"
       },
       {
         "name": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide (Prima Games)",
@@ -5809,7 +5856,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/51Wsa06U0CL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/074401669X",
         "price": "\u00a329.49",
-        "asin": "074401669X"
+        "asin": "074401669X",
+        "goodreads": "https://www.goodreads.com/book/show/26796726-the-legend-of-zelda"
       },
       {
         "name": "The Legend of Zelda: a Link Between Worlds Collector's Edition (Prima Games)",
@@ -5839,7 +5887,8 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/41hQWibSV+L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1101898437",
         "price": "\u00a3144.22",
-        "asin": "1101898437"
+        "asin": "1101898437",
+        "goodreads": "https://www.goodreads.com/book/show/4885189-the-legend-of-zelda"
       },
       {
         "name": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking (Samin Nosrat)",
@@ -5860,6 +5909,16 @@ window.SITE_CONTENT = {
         "url": "https://www.amazon.co.uk/dp/1491928050",
         "price": "\u00a326.37",
         "asin": "1491928050"
+      },
+      {
+        "name": "The Legend of Zelda - Legendary Edition Box Set (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "owned",
+        "badge": "Paperback",
+        "img": "https://m.media-amazon.com/images/I/51NWrNi6pzL._SS135_.jpg",
+        "url": "https://www.amazon.co.uk/dp/1974718190",
+        "price": "",
+        "asin": "1974718190"
       },
       {
         "name": "The Legend of Zelda: Encyclopedia (Nintendo)",
@@ -5997,6 +6056,240 @@ window.SITE_CONTENT = {
         "goodreadsId": "37903770"
       },
       {
+        "name": "Beauty Food: 85 recipes for health & beauty from within (Maria Ahlgren)",
+        "category": "Cookbooks",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532701368l/40960189.jpg",
+        "url": "https://www.goodreads.com/book/show/40960189-beauty-food",
+        "goodreads": "https://www.goodreads.com/book/show/40960189-beauty-food",
+        "goodreadsId": "40960189"
+      },
+      {
+        "name": "Developer Experience (Addy Osmani)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710541871l/210005915.jpg",
+        "url": "https://www.goodreads.com/book/show/210005915-developer-experience",
+        "goodreads": "https://www.goodreads.com/book/show/210005915-developer-experience",
+        "goodreadsId": "210005915"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 20 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616939798l/55711525.jpg",
+        "url": "https://www.goodreads.com/book/show/55711525-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/55711525-kaguya-sama",
+        "goodreadsId": "55711525"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 21 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626644818l/56898067.jpg",
+        "url": "https://www.goodreads.com/book/show/56898067-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/56898067-kaguya-sama",
+        "goodreadsId": "56898067"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 22 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635692474l/58438435.jpg",
+        "url": "https://www.goodreads.com/book/show/58438435-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/58438435-kaguya-sama",
+        "goodreadsId": "58438435"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 23 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384715l/59366067.jpg",
+        "url": "https://www.goodreads.com/book/show/59366067-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/59366067-kaguya-sama",
+        "goodreadsId": "59366067"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 24 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660147898l/60321382.jpg",
+        "url": "https://www.goodreads.com/book/show/60321382-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/60321382-kaguya-sama",
+        "goodreadsId": "60321382"
+      },
+      {
+        "name": "Algorithms to Live By: The Computer Science of Human Decisions (Brian Christian)",
+        "category": "CS & Tech",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462401688l/30111553.jpg",
+        "url": "https://www.goodreads.com/book/show/30111553-algorithms-to-live-by",
+        "goodreads": "https://www.goodreads.com/book/show/30111553-algorithms-to-live-by",
+        "goodreadsId": "30111553"
+      },
+      {
+        "name": "The Angel's Game (Carlos Ruiz Zaf\u00f3n)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446953951l/23626987.jpg",
+        "url": "https://www.goodreads.com/book/show/23626987-the-angel-s-game",
+        "goodreads": "https://www.goodreads.com/book/show/23626987-the-angel-s-game",
+        "goodreadsId": "23626987"
+      },
+      {
+        "name": "The Prisoner of Heaven (Carlos Ruiz Zaf\u00f3n)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643126577l/60211710.jpg",
+        "url": "https://www.goodreads.com/book/show/60211710-the-prisoner-of-heaven",
+        "goodreads": "https://www.goodreads.com/book/show/60211710-the-prisoner-of-heaven",
+        "goodreadsId": "60211710"
+      },
+      {
+        "name": "The Shadow Of The Wind (Carlos Ruiz Zaf\u00f3n)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589202501l/53376895.jpg",
+        "url": "https://www.goodreads.com/book/show/53376895-the-shadow-of-the-wind",
+        "goodreads": "https://www.goodreads.com/book/show/53376895-the-shadow-of-the-wind",
+        "goodreadsId": "53376895"
+      },
+      {
+        "name": "The Lean Startup (Ries Eric)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645396848l/12969025.jpg",
+        "url": "https://www.goodreads.com/book/show/12969025-the-lean-startup",
+        "goodreads": "https://www.goodreads.com/book/show/12969025-the-lean-startup",
+        "goodreadsId": "12969025"
+      },
+      {
+        "name": "The Secrets to App Success on Google Play (Google Inc.)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463583235l/30227373.jpg",
+        "url": "https://www.goodreads.com/book/show/30227373-the-secrets-to-app-success-on-google-play",
+        "goodreads": "https://www.goodreads.com/book/show/30227373-the-secrets-to-app-success-on-google-play",
+        "goodreadsId": "30227373"
+      },
+      {
+        "name": "The Complete Tales of H.P. Lovecraft (H.P. Lovecraft)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767713333l/43617306.jpg",
+        "url": "https://www.goodreads.com/book/show/43617306-the-complete-tales-of-h-p-lovecraft",
+        "goodreads": "https://www.goodreads.com/book/show/43617306-the-complete-tales-of-h-p-lovecraft",
+        "goodreadsId": "43617306"
+      },
+      {
+        "name": "Fullmetal Alchemist, Vol. 2 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348990451l/873.jpg",
+        "url": "https://www.goodreads.com/book/show/873.Fullmetal_Alchemist_Vol_2",
+        "goodreads": "https://www.goodreads.com/book/show/873.Fullmetal_Alchemist_Vol_2",
+        "goodreadsId": "873"
+      },
+      {
+        "name": "The Practitioner's Guide to Product Management (Jock Busuttil)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437551758l/25955849.jpg",
+        "url": "https://www.goodreads.com/book/show/25955849-the-practitioner-s-guide-to-product-management",
+        "goodreads": "https://www.goodreads.com/book/show/25955849-the-practitioner-s-guide-to-product-management",
+        "goodreadsId": "25955849"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 6 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544621l/55711443.jpg",
+        "url": "https://www.goodreads.com/book/show/55711443-fly-me-to-the-moon-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/55711443-fly-me-to-the-moon-vol-6",
+        "goodreadsId": "55711443"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 7 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621173928l/56898000.jpg",
+        "url": "https://www.goodreads.com/book/show/56898000-fly-me-to-the-moon-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/56898000-fly-me-to-the-moon-vol-7",
+        "goodreadsId": "56898000"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 8 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429846l/56898038.jpg",
+        "url": "https://www.goodreads.com/book/show/56898038-fly-me-to-the-moon-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/56898038-fly-me-to-the-moon-vol-8",
+        "goodreadsId": "56898038"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 9 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632912238l/58438372.jpg",
+        "url": "https://www.goodreads.com/book/show/58438372-fly-me-to-the-moon-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/58438372-fly-me-to-the-moon-vol-9",
+        "goodreadsId": "58438372"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 10 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635362660l/58438373.jpg",
+        "url": "https://www.goodreads.com/book/show/58438373-fly-me-to-the-moon-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/58438373-fly-me-to-the-moon-vol-10",
+        "goodreadsId": "58438373"
+      },
+      {
+        "name": "Learning Patterns (Lydia Hallie)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639996199l/59862682.jpg",
+        "url": "https://www.goodreads.com/book/show/59862682-learning-patterns",
+        "goodreads": "https://www.goodreads.com/book/show/59862682-learning-patterns",
+        "goodreadsId": "59862682"
+      },
+      {
+        "name": "Everything Is F*cked: A Book About Hope (Mark Manson)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595813035l/51826697.jpg",
+        "url": "https://www.goodreads.com/book/show/51826697-everything-is-f-cked",
+        "goodreads": "https://www.goodreads.com/book/show/51826697-everything-is-f-cked",
+        "goodreadsId": "51826697"
+      },
+      {
+        "name": "The Subtle Art of Not Giving a F*ck (Mark Manson)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761873l/28259130.jpg",
+        "url": "https://www.goodreads.com/book/show/28259130-the-subtle-art-of-not-giving-a-f-ck",
+        "goodreads": "https://www.goodreads.com/book/show/28259130-the-subtle-art-of-not-giving-a-f-ck",
+        "goodreadsId": "28259130"
+      },
+      {
+        "name": "Heroes: Mortals and Monsters, Quests and Adventures (Stephen Fry)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555336384l/42643896.jpg",
+        "url": "https://www.goodreads.com/book/show/42643896-heroes",
+        "goodreads": "https://www.goodreads.com/book/show/42643896-heroes",
+        "goodreadsId": "42643896"
+      },
+      {
+        "name": "Troy (Stephen Fry)",
+        "category": "Non-Fiction",
+        "status": "owned",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625333859l/57188408.jpg",
+        "url": "https://www.goodreads.com/book/show/57188408-troy",
+        "goodreads": "https://www.goodreads.com/book/show/57188408-troy",
+        "goodreadsId": "57188408"
+      },
+      {
         "name": "The Phoenix Project (Gene Kim)",
         "category": "CS & Tech",
         "status": "wanted",
@@ -6085,6 +6378,960 @@ window.SITE_CONTENT = {
         "url": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
         "goodreads": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
         "goodreadsId": "36441259"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 8 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570968459l/52353352.jpg",
+        "url": "https://www.goodreads.com/book/show/52353352-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/52353352-fullmetal-alchemist",
+        "goodreadsId": "52353352"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 3 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534666360l/38926408.jpg",
+        "url": "https://www.goodreads.com/book/show/38926408-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/38926408-fullmetal-alchemist",
+        "goodreadsId": "38926408"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 5 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549011551l/42800902.jpg",
+        "url": "https://www.goodreads.com/book/show/42800902-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/42800902-fullmetal-alchemist",
+        "goodreadsId": "42800902"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 13 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612105147l/55710509.jpg",
+        "url": "https://www.goodreads.com/book/show/55710509-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/55710509-fullmetal-alchemist",
+        "goodreadsId": "55710509"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 12 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600611094l/54303366.jpg",
+        "url": "https://www.goodreads.com/book/show/54303366-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/54303366-fullmetal-alchemist",
+        "goodreadsId": "54303366"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 4 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545477535l/40637179.jpg",
+        "url": "https://www.goodreads.com/book/show/40637179-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/40637179-fullmetal-alchemist",
+        "goodreadsId": "40637179"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 7 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564945799l/43909459.jpg",
+        "url": "https://www.goodreads.com/book/show/43909459-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/43909459-fullmetal-alchemist",
+        "goodreadsId": "43909459"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 18 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649605077l/59365968.jpg",
+        "url": "https://www.goodreads.com/book/show/59365968-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/59365968-fullmetal-alchemist",
+        "goodreadsId": "59365968"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 17 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642043128l/59365966.jpg",
+        "url": "https://www.goodreads.com/book/show/59365966-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/59365966-fullmetal-alchemist",
+        "goodreadsId": "59365966"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 9 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579444327l/52758061.jpg",
+        "url": "https://www.goodreads.com/book/show/52758061-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/52758061-fullmetal-alchemist",
+        "goodreadsId": "52758061"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 10 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592496399l/52758053.jpg",
+        "url": "https://www.goodreads.com/book/show/52758053-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/52758053-fullmetal-alchemist",
+        "goodreadsId": "52758053"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 11 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593355687l/50891198.jpg",
+        "url": "https://www.goodreads.com/book/show/50891198-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/50891198-fullmetal-alchemist",
+        "goodreadsId": "50891198"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 14 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618758726l/55711411.jpg",
+        "url": "https://www.goodreads.com/book/show/55711411-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/55711411-fullmetal-alchemist",
+        "goodreadsId": "55711411"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 15 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627828264l/56897984.jpg",
+        "url": "https://www.goodreads.com/book/show/56897984-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/56897984-fullmetal-alchemist",
+        "goodreadsId": "56897984"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 16 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635089760l/58438346.jpg",
+        "url": "https://www.goodreads.com/book/show/58438346-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/58438346-fullmetal-alchemist",
+        "goodreadsId": "58438346"
+      },
+      {
+        "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 6 (Hiromu Arakawa)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555271636l/42800903.jpg",
+        "url": "https://www.goodreads.com/book/show/42800903-fullmetal-alchemist",
+        "goodreads": "https://www.goodreads.com/book/show/42800903-fullmetal-alchemist",
+        "goodreadsId": "42800903"
+      },
+      {
+        "name": "The Legend of Zelda: Ocarina of Time (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469370495l/29934239.jpg",
+        "url": "https://www.goodreads.com/book/show/29934239-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/29934239-the-legend-of-zelda",
+        "goodreadsId": "29934239"
+      },
+      {
+        "name": "The Legend of Zelda (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475881151l/29934243.jpg",
+        "url": "https://www.goodreads.com/book/show/29934243-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/29934243-the-legend-of-zelda",
+        "goodreadsId": "29934243"
+      },
+      {
+        "name": "The Legend of Zelda (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486855854l/31140465.jpg",
+        "url": "https://www.goodreads.com/book/show/31140465-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/31140465-the-legend-of-zelda",
+        "goodreadsId": "31140465"
+      },
+      {
+        "name": "The Legend of Zelda: Oracle of Seasons (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388637253l/4885190.jpg",
+        "url": "https://www.goodreads.com/book/show/4885190-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/4885190-the-legend-of-zelda",
+        "goodreadsId": "4885190"
+      },
+      {
+        "name": "The Legend of Zelda: Oracle of Ages (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388955562l/6186199.jpg",
+        "url": "https://www.goodreads.com/book/show/6186199-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/6186199-the-legend-of-zelda",
+        "goodreadsId": "6186199"
+      },
+      {
+        "name": "The Legend of Zelda: Four Swords - Part 1 (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391029754l/6186198.jpg",
+        "url": "https://www.goodreads.com/book/show/6186198-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/6186198-the-legend-of-zelda",
+        "goodreadsId": "6186198"
+      },
+      {
+        "name": "The Legend of Zelda: Four Swords - Part 2 (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388465357l/6476708.jpg",
+        "url": "https://www.goodreads.com/book/show/6476708-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/6476708-the-legend-of-zelda",
+        "goodreadsId": "6476708"
+      },
+      {
+        "name": "The Legend of Zelda: The Minish Cap (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/6476709.jpg",
+        "url": "https://www.goodreads.com/book/show/6476709-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/6476709-the-legend-of-zelda",
+        "goodreadsId": "6476709"
+      },
+      {
+        "name": "The Legend of Zelda: Phantom Hourglass (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/7171902.jpg",
+        "url": "https://www.goodreads.com/book/show/7171902-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/7171902-the-legend-of-zelda",
+        "goodreadsId": "7171902"
+      },
+      {
+        "name": "The Legend of Zelda: Legendary Edition, Vol. 5: Four Swords (Akira Himekawa)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493548071l/32918996.jpg",
+        "url": "https://www.goodreads.com/book/show/32918996-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/32918996-the-legend-of-zelda",
+        "goodreadsId": "32918996"
+      },
+      {
+        "name": "Business Model Generation (Alexander Osterwalder)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742883179l/7935732.jpg",
+        "url": "https://www.goodreads.com/book/show/7935732-business-model-generation",
+        "goodreads": "https://www.goodreads.com/book/show/7935732-business-model-generation",
+        "goodreadsId": "7935732"
+      },
+      {
+        "name": "Value Proposition Design (Alexander Osterwalder)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410066532l/22505488.jpg",
+        "url": "https://www.goodreads.com/book/show/22505488-value-proposition-design",
+        "goodreads": "https://www.goodreads.com/book/show/22505488-value-proposition-design",
+        "goodreadsId": "22505488"
+      },
+      {
+        "name": "42 Rules of Product Management (Brian Lawley)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347432811l/9596993.jpg",
+        "url": "https://www.goodreads.com/book/show/9596993-42-rules-of-product-management",
+        "goodreads": "https://www.goodreads.com/book/show/9596993-42-rules-of-product-management",
+        "goodreadsId": "9596993"
+      },
+      {
+        "name": "Brisingr (Christopher Paolini)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962480l/5970233.jpg",
+        "url": "https://www.goodreads.com/book/show/5970233-brisingr",
+        "goodreads": "https://www.goodreads.com/book/show/5970233-brisingr",
+        "goodreadsId": "5970233"
+      },
+      {
+        "name": "Eldest (Christopher Paolini)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485117387l/839223.jpg",
+        "url": "https://www.goodreads.com/book/show/839223.Eldest",
+        "goodreads": "https://www.goodreads.com/book/show/839223.Eldest",
+        "goodreadsId": "839223"
+      },
+      {
+        "name": "Eragon (Christopher Paolini)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413130816l/17426214.jpg",
+        "url": "https://www.goodreads.com/book/show/17426214-eragon",
+        "goodreads": "https://www.goodreads.com/book/show/17426214-eragon",
+        "goodreadsId": "17426214"
+      },
+      {
+        "name": "Inheritance (Christopher Paolini)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351514899l/16116659.jpg",
+        "url": "https://www.goodreads.com/book/show/16116659-inheritance",
+        "goodreads": "https://www.goodreads.com/book/show/16116659-inheritance",
+        "goodreadsId": "16116659"
+      },
+      {
+        "name": "The Arctic Incident (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483179l/62623618.jpg",
+        "url": "https://www.goodreads.com/book/show/62623618-the-arctic-incident",
+        "goodreads": "https://www.goodreads.com/book/show/62623618-the-arctic-incident",
+        "goodreadsId": "62623618"
+      },
+      {
+        "name": "Artemis Fowl and the Atlantis Complex (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488084l/62623946.jpg",
+        "url": "https://www.goodreads.com/book/show/62623946-artemis-fowl-and-the-atlantis-complex",
+        "goodreads": "https://www.goodreads.com/book/show/62623946-artemis-fowl-and-the-atlantis-complex",
+        "goodreadsId": "62623946"
+      },
+      {
+        "name": "Artemis Fowl and the Eternity Code (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483368l/62623626.jpg",
+        "url": "https://www.goodreads.com/book/show/62623626-artemis-fowl-and-the-eternity-code",
+        "goodreads": "https://www.goodreads.com/book/show/62623626-artemis-fowl-and-the-eternity-code",
+        "goodreadsId": "62623626"
+      },
+      {
+        "name": "Artemis Fowl and the Last Guardian (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488212l/62623948.jpg",
+        "url": "https://www.goodreads.com/book/show/62623948-artemis-fowl-and-the-last-guardian",
+        "goodreads": "https://www.goodreads.com/book/show/62623948-artemis-fowl-and-the-last-guardian",
+        "goodreadsId": "62623948"
+      },
+      {
+        "name": "Artemis Fowl and the Lost Colony (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487734l/62623929.jpg",
+        "url": "https://www.goodreads.com/book/show/62623929-artemis-fowl-and-the-lost-colony",
+        "goodreads": "https://www.goodreads.com/book/show/62623929-artemis-fowl-and-the-lost-colony",
+        "goodreadsId": "62623929"
+      },
+      {
+        "name": "Artemis Fowl and the Opal Deception (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487562l/62623912.jpg",
+        "url": "https://www.goodreads.com/book/show/62623912-artemis-fowl-and-the-opal-deception",
+        "goodreads": "https://www.goodreads.com/book/show/62623912-artemis-fowl-and-the-opal-deception",
+        "goodreadsId": "62623912"
+      },
+      {
+        "name": "Artemis Fowl and the Time Paradox (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487876l/62623938.jpg",
+        "url": "https://www.goodreads.com/book/show/62623938-artemis-fowl-and-the-time-paradox",
+        "goodreads": "https://www.goodreads.com/book/show/62623938-artemis-fowl-and-the-time-paradox",
+        "goodreadsId": "62623938"
+      },
+      {
+        "name": "Artemis Fowl (Eoin Colfer)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663482979l/62623604.jpg",
+        "url": "https://www.goodreads.com/book/show/62623604-artemis-fowl",
+        "goodreads": "https://www.goodreads.com/book/show/62623604-artemis-fowl",
+        "goodreadsId": "62623604"
+      },
+      {
+        "name": "Tomorrow, and Tomorrow, and Tomorrow (Gabrielle Zevin)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723027081l/217255756.jpg",
+        "url": "https://www.goodreads.com/book/show/217255756-tomorrow-and-tomorrow-and-tomorrow",
+        "goodreads": "https://www.goodreads.com/book/show/217255756-tomorrow-and-tomorrow-and-tomorrow",
+        "goodreadsId": "217255756"
+      },
+      {
+        "name": "Harry Potter and the Philosopher's Stone (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677116082l/22841994.jpg",
+        "url": "https://www.goodreads.com/book/show/22841994-harry-potter-and-the-philosopher-s-stone",
+        "goodreads": "https://www.goodreads.com/book/show/22841994-harry-potter-and-the-philosopher-s-stone",
+        "goodreadsId": "22841994"
+      },
+      {
+        "name": "Harry Potter and the Chamber of Secrets (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622223522l/22841998.jpg",
+        "url": "https://www.goodreads.com/book/show/22841998-harry-potter-and-the-chamber-of-secrets",
+        "goodreads": "https://www.goodreads.com/book/show/22841998-harry-potter-and-the-chamber-of-secrets",
+        "goodreadsId": "22841998"
+      },
+      {
+        "name": "Harry Potter and the Prisoner of Azkaban (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677117275l/22842001.jpg",
+        "url": "https://www.goodreads.com/book/show/22842001-harry-potter-and-the-prisoner-of-azkaban",
+        "goodreads": "https://www.goodreads.com/book/show/22842001-harry-potter-and-the-prisoner-of-azkaban",
+        "goodreadsId": "22842001"
+      },
+      {
+        "name": "Harry Potter and the Goblet of Fire (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626094883l/58542309.jpg",
+        "url": "https://www.goodreads.com/book/show/58542309-harry-potter-and-the-goblet-of-fire",
+        "goodreads": "https://www.goodreads.com/book/show/58542309-harry-potter-and-the-goblet-of-fire",
+        "goodreadsId": "58542309"
+      },
+      {
+        "name": "Harry Potter and the Order of the Phoenix (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677124143l/22844196.jpg",
+        "url": "https://www.goodreads.com/book/show/22844196-harry-potter-and-the-order-of-the-phoenix",
+        "goodreads": "https://www.goodreads.com/book/show/22844196-harry-potter-and-the-order-of-the-phoenix",
+        "goodreadsId": "22844196"
+      },
+      {
+        "name": "Harry Potter and the Deathly Hallows (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677127160l/22844208.jpg",
+        "url": "https://www.goodreads.com/book/show/22844208-harry-potter-and-the-deathly-hallows",
+        "goodreads": "https://www.goodreads.com/book/show/22844208-harry-potter-and-the-deathly-hallows",
+        "goodreadsId": "22844208"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 20 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700600692l/101159066.jpg",
+        "url": "https://www.goodreads.com/book/show/101159066-fly-me-to-the-moon-vol-20",
+        "goodreads": "https://www.goodreads.com/book/show/101159066-fly-me-to-the-moon-vol-20",
+        "goodreadsId": "101159066"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 3 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623548l/52758090.jpg",
+        "url": "https://www.goodreads.com/book/show/52758090-the-way-of-the-househusband-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/52758090-the-way-of-the-househusband-vol-3",
+        "goodreadsId": "52758090"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 4 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916886l/50891209.jpg",
+        "url": "https://www.goodreads.com/book/show/50891209-the-way-of-the-househusband-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/50891209-the-way-of-the-househusband-vol-4",
+        "goodreadsId": "50891209"
+      },
+      {
+        "name": "American Gods (Neil Gaiman)",
+        "category": "Fiction & Mythology",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618174025l/57697768.jpg",
+        "url": "https://www.goodreads.com/book/show/57697768-american-gods",
+        "goodreads": "https://www.goodreads.com/book/show/57697768-american-gods",
+        "goodreadsId": "57697768"
+      },
+      {
+        "name": "The Legend of Zelda: Breath of the Wild \u2014 Creating a Champion (Nintendo)",
+        "category": "Video Game Books",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547308286l/40116474.jpg",
+        "url": "https://www.goodreads.com/book/show/40116474-the-legend-of-zelda",
+        "goodreads": "https://www.goodreads.com/book/show/40116474-the-legend-of-zelda",
+        "goodreadsId": "40116474"
+      },
+      {
+        "name": "Roald Dahl Danny the Champion of the World /anglais (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673703263l/59427537.jpg",
+        "url": "https://www.goodreads.com/book/show/59427537-roald-dahl-danny-the-champion-of-the-world-anglais",
+        "goodreads": "https://www.goodreads.com/book/show/59427537-roald-dahl-danny-the-champion-of-the-world-anglais",
+        "goodreadsId": "59427537"
+      },
+      {
+        "name": "Esio Trot (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656931389l/60388591.jpg",
+        "url": "https://www.goodreads.com/book/show/60388591-esio-trot",
+        "goodreads": "https://www.goodreads.com/book/show/60388591-esio-trot",
+        "goodreadsId": "60388591"
+      },
+      {
+        "name": "The BFG (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656932126l/59527513.jpg",
+        "url": "https://www.goodreads.com/book/show/59527513-the-bfg",
+        "goodreads": "https://www.goodreads.com/book/show/59527513-the-bfg",
+        "goodreadsId": "59527513"
+      },
+      {
+        "name": "The Complete Adventures of Charlie and Mr Willy Wonka (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386403050l/17573220.jpg",
+        "url": "https://www.goodreads.com/book/show/17573220-the-complete-adventures-of-charlie-and-mr-willy-wonka",
+        "goodreads": "https://www.goodreads.com/book/show/17573220-the-complete-adventures-of-charlie-and-mr-willy-wonka",
+        "goodreadsId": "17573220"
+      },
+      {
+        "name": "The magic finger (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677852273l/60388593.jpg",
+        "url": "https://www.goodreads.com/book/show/60388593-the-magic-finger",
+        "goodreads": "https://www.goodreads.com/book/show/60388593-the-magic-finger",
+        "goodreadsId": "60388593"
+      },
+      {
+        "name": "The Witches (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656929507l/59452792.jpg",
+        "url": "https://www.goodreads.com/book/show/59452792-the-witches",
+        "goodreads": "https://www.goodreads.com/book/show/59452792-the-witches",
+        "goodreadsId": "59452792"
+      },
+      {
+        "name": "Charlie and the Chocolate Factory (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677851532l/59427532.jpg",
+        "url": "https://www.goodreads.com/book/show/59427532-charlie-and-the-chocolate-factory",
+        "goodreads": "https://www.goodreads.com/book/show/59427532-charlie-and-the-chocolate-factory",
+        "goodreadsId": "59427532"
+      },
+      {
+        "name": "Charlie and the Great Glass Elevator (Roald Dahl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673943577l/60388596.jpg",
+        "url": "https://www.goodreads.com/book/show/60388596-charlie-and-the-great-glass-elevator",
+        "goodreads": "https://www.goodreads.com/book/show/60388596-charlie-and-the-great-glass-elevator",
+        "goodreadsId": "60388596"
+      },
+      {
+        "name": "Odyssey (Stephen Fry)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750428931l/236902394.jpg",
+        "url": "https://www.goodreads.com/book/show/236902394-odyssey",
+        "goodreads": "https://www.goodreads.com/book/show/236902394-odyssey",
+        "goodreadsId": "236902394"
+      },
+      {
+        "name": "Spy x Family, Vol. 1 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854337l/52757974.jpg",
+        "url": "https://www.goodreads.com/book/show/52757974-spy-x-family-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/52757974-spy-x-family-vol-1",
+        "goodreadsId": "52757974"
+      },
+      {
+        "name": "Spy x Family, Vol. 2 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104880l/50891127.jpg",
+        "url": "https://www.goodreads.com/book/show/50891127-spy-x-family-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/50891127-spy-x-family-vol-2",
+        "goodreadsId": "50891127"
+      },
+      {
+        "name": "Spy x Family, Vol. 3 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162342l/50891122.jpg",
+        "url": "https://www.goodreads.com/book/show/50891122-spy-x-family-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/50891122-spy-x-family-vol-3",
+        "goodreadsId": "50891122"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 7 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854302l/52758160.jpg",
+        "url": "https://www.goodreads.com/book/show/52758160-komi-can-t-communicate-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/52758160-komi-can-t-communicate-vol-7",
+        "goodreadsId": "52758160"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 9 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593356308l/50891233.jpg",
+        "url": "https://www.goodreads.com/book/show/50891233-komi-can-t-communicate-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/50891233-komi-can-t-communicate-vol-9",
+        "goodreadsId": "50891233"
+      },
+      {
+        "name": "Man's Search For Meaning: Classic Editions (Viktor E. Frankl)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616541214l/52856156.jpg",
+        "url": "https://www.goodreads.com/book/show/52856156-man-s-search-for-meaning",
+        "goodreads": "https://www.goodreads.com/book/show/52856156-man-s-search-for-meaning",
+        "goodreadsId": "52856156"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 1 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395667978l/18774875.jpg",
+        "url": "https://www.goodreads.com/book/show/18774875-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/18774875-food-wars",
+        "goodreadsId": "18774875"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 2 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390058l/21412044.jpg",
+        "url": "https://www.goodreads.com/book/show/21412044-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/21412044-food-wars",
+        "goodreadsId": "21412044"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 3 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390766l/21412020.jpg",
+        "url": "https://www.goodreads.com/book/show/21412020-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/21412020-food-wars",
+        "goodreadsId": "21412020"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 4 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411349886l/22609126.jpg",
+        "url": "https://www.goodreads.com/book/show/22609126-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/22609126-food-wars",
+        "goodreadsId": "22609126"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 5 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419212706l/22609123.jpg",
+        "url": "https://www.goodreads.com/book/show/22609123-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/22609123-food-wars",
+        "goodreadsId": "22609123"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 6 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425611168l/23492394.jpg",
+        "url": "https://www.goodreads.com/book/show/23492394-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/23492394-food-wars",
+        "goodreadsId": "23492394"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 7 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429096943l/23492376.jpg",
+        "url": "https://www.goodreads.com/book/show/23492376-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/23492376-food-wars",
+        "goodreadsId": "23492376"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 8 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437370208l/25110932.jpg",
+        "url": "https://www.goodreads.com/book/show/25110932-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/25110932-food-wars",
+        "goodreadsId": "25110932"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 9 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440992978l/25111314.jpg",
+        "url": "https://www.goodreads.com/book/show/25111314-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/25111314-food-wars",
+        "goodreadsId": "25111314"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 10 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444274267l/25814245.jpg",
+        "url": "https://www.goodreads.com/book/show/25814245-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/25814245-food-wars",
+        "goodreadsId": "25814245"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 11 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449431487l/25814246.jpg",
+        "url": "https://www.goodreads.com/book/show/25814246-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/25814246-food-wars",
+        "goodreadsId": "25814246"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 12 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457907730l/27406746.jpg",
+        "url": "https://www.goodreads.com/book/show/27406746-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/27406746-food-wars",
+        "goodreadsId": "27406746"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 13 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459703695l/27406748.jpg",
+        "url": "https://www.goodreads.com/book/show/27406748-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/27406748-food-wars",
+        "goodreadsId": "27406748"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 14: The Magician Returns! (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470580001l/29499068.jpg",
+        "url": "https://www.goodreads.com/book/show/29499068-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/29499068-food-wars",
+        "goodreadsId": "29499068"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 15: The Moon Festival (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473607634l/29499034.jpg",
+        "url": "https://www.goodreads.com/book/show/29499034-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/29499034-food-wars",
+        "goodreadsId": "29499034"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 16: Captured Queen (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479661474l/31140402.jpg",
+        "url": "https://www.goodreads.com/book/show/31140402-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/31140402-food-wars",
+        "goodreadsId": "31140402"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 17: Making an Example (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484919742l/31140457.jpg",
+        "url": "https://www.goodreads.com/book/show/31140457-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/31140457-food-wars",
+        "goodreadsId": "31140457"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 18 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488107695l/32867467.jpg",
+        "url": "https://www.goodreads.com/book/show/32867467-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/32867467-food-wars",
+        "goodreadsId": "32867467"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 19: Those Who Reach For The Top (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494760134l/32919024.jpg",
+        "url": "https://www.goodreads.com/book/show/32919024-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/32919024-food-wars",
+        "goodreadsId": "32919024"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 20: Frozen Thoughts (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497084185l/34466631.jpg",
+        "url": "https://www.goodreads.com/book/show/34466631-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/34466631-food-wars",
+        "goodreadsId": "34466631"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 21 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502043920l/34466634.jpg",
+        "url": "https://www.goodreads.com/book/show/34466634-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/34466634-food-wars",
+        "goodreadsId": "34466634"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 22: Rematch With A Rival (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505658995l/35742739.jpg",
+        "url": "https://www.goodreads.com/book/show/35742739-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/35742739-food-wars",
+        "goodreadsId": "35742739"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 23: Wilderness Pioneer (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517190493l/35742741.jpg",
+        "url": "https://www.goodreads.com/book/show/35742741-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/35742741-food-wars",
+        "goodreadsId": "35742741"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 24 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527496231l/36538810.jpg",
+        "url": "https://www.goodreads.com/book/show/36538810-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/36538810-food-wars",
+        "goodreadsId": "36538810"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 25: The Life of a Reject (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495408l/36538806.jpg",
+        "url": "https://www.goodreads.com/book/show/36538806-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/36538806-food-wars",
+        "goodreadsId": "36538806"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 26: Second Bout (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530434248l/38926435.jpg",
+        "url": "https://www.goodreads.com/book/show/38926435-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/38926435-food-wars",
+        "goodreadsId": "38926435"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 27 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532867640l/38926389.jpg",
+        "url": "https://www.goodreads.com/book/show/38926389-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/38926389-food-wars",
+        "goodreadsId": "38926389"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 28: First-Year Kid (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537492538l/40680071.jpg",
+        "url": "https://www.goodreads.com/book/show/40680071-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/40680071-food-wars",
+        "goodreadsId": "40680071"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 29: Final Battle (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498336l/40680072.jpg",
+        "url": "https://www.goodreads.com/book/show/40680072-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/40680072-food-wars",
+        "goodreadsId": "40680072"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 30 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549839238l/42640872.jpg",
+        "url": "https://www.goodreads.com/book/show/42640872-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/42640872-food-wars",
+        "goodreadsId": "42640872"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 31 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552848135l/42640859.jpg",
+        "url": "https://www.goodreads.com/book/show/42640859-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/42640859-food-wars",
+        "goodreadsId": "42640859"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 32: A Subversive Visitor (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560073674l/43909420.jpg",
+        "url": "https://www.goodreads.com/book/show/43909420-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/43909420-food-wars",
+        "goodreadsId": "43909420"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 33 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564946090l/43909431.jpg",
+        "url": "https://www.goodreads.com/book/show/43909431-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/43909431-food-wars",
+        "goodreadsId": "43909431"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 34 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569152778l/52197561.jpg",
+        "url": "https://www.goodreads.com/book/show/52197561-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/52197561-food-wars",
+        "goodreadsId": "52197561"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 35 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573919172l/51012608.jpg",
+        "url": "https://www.goodreads.com/book/show/51012608-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/51012608-food-wars",
+        "goodreadsId": "51012608"
+      },
+      {
+        "name": "Food Wars!: Shokugeki no Soma, Vol. 36 (Y\u016bto Tsukuda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854436l/52757965.jpg",
+        "url": "https://www.goodreads.com/book/show/52757965-food-wars",
+        "goodreads": "https://www.goodreads.com/book/show/52757965-food-wars",
+        "goodreadsId": "52757965"
+      },
+      {
+        "name": "No Game, No Life, Vol. 1 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410247217l/21801491.jpg",
+        "url": "https://www.goodreads.com/book/show/21801491-no-game-no-life-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/21801491-no-game-no-life-vol-1",
+        "goodreadsId": "21801491"
+      },
+      {
+        "name": "No Game, No Life, Vol. 2 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680091946l/39863195.jpg",
+        "url": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2",
+        "goodreadsId": "39863195"
       }
     ],
     "goodreadsUrl": "https://www.goodreads.com/user/show/194943775",
@@ -6100,23 +7347,8 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Computer Science & Business",
         "img": "",
-        "links": {}
-      },
-      {
-        "title": "Heston Is This A Cookbook? & Heston at Home",
-        "author": "",
-        "series": "",
-        "seriesNo": null,
-        "status": "owned",
-        "formats": [
-          "physical"
-        ],
-        "wants": [],
-        "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
         "links": {}
       },
       {
@@ -6130,7 +7362,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://m.media-amazon.com/images/I/514nq5MYcGL._AC_SL500_.jpg",
         "links": {}
       },
@@ -6145,7 +7377,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/7143UAWJtXL._AC_SL500_.jpg",
         "links": {}
       },
@@ -6160,7 +7392,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/815rBUPNN0L._AC_SL500_.jpg",
         "links": {}
       },
@@ -6175,23 +7407,8 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/910g1Pxi0RL._AC_SL500_.jpg",
-        "links": {}
-      },
-      {
-        "title": "Wagamama: Feed Your Soul",
-        "author": "",
-        "series": "",
-        "seriesNo": null,
-        "status": "owned",
-        "formats": [
-          "physical"
-        ],
-        "wants": [],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561823021l/51253651.jpg",
         "links": {}
       },
       {
@@ -6205,7 +7422,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "",
         "links": {}
       },
@@ -6220,9 +7437,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/NaTjEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710541871l/210005915.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/210005915-developer-experience",
           "play": "https://play.google.com/store/books/details?id=NaTjEAAAQBAJ"
         }
       },
@@ -6239,9 +7457,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/IpdHDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721936l/36100762.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36100762-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974700305",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-1-volume-1/aka-akasaka/9781974700301",
           "play": "https://play.google.com/store/books/details?id=IpdHDwAAQBAJ"
@@ -6260,9 +7479,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/625RDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721943l/36495869.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36495869-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974700313",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-2-volume-2/aka-akasaka/9781974700318",
           "play": "https://play.google.com/store/books/details?id=625RDwAAQBAJ"
@@ -6281,9 +7501,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/yp9cDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721949l/36538804.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36538804-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974700321",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-3-volume-3/aka-akasaka/9781974700325",
           "play": "https://play.google.com/store/books/details?id=yp9cDwAAQBAJ"
@@ -6302,9 +7523,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/6uhlDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721955l/38926438.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926438-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974700496",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-4-volume-4/aka-akasaka/9781974700493",
           "play": "https://play.google.com/store/books/details?id=6uhlDwAAQBAJ"
@@ -6323,9 +7545,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/lrhyDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721959l/38926416.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926416-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/197470050X",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-5-volume-5/aka-akasaka/9781974700509",
           "play": "https://play.google.com/store/books/details?id=lrhyDwAAQBAJ"
@@ -6344,9 +7567,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/kUR-DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538255423l/34226423.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/34226423-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974701387",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-6-volume-6/aka-akasaka/9781974701384",
           "play": "https://play.google.com/store/books/details?id=kUR-DwAAQBAJ"
@@ -6365,9 +7589,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/VwKJDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541421817l/40639136.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40639136-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974701395",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-7-volume-7/aka-akasaka/9781974701391",
           "play": "https://play.google.com/store/books/details?id=VwKJDwAAQBAJ"
@@ -6386,9 +7611,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/XreTDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544925766l/42633882.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42633882-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974704408",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-8-volume-8/aka-akasaka/9781974704408",
           "play": "https://play.google.com/store/books/details?id=XreTDwAAQBAJ"
@@ -6407,9 +7633,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/aO6dDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551617679l/42633866.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42633866-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974705099",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-9-volume-9/aka-akasaka/9781974705092",
           "play": "https://play.google.com/store/books/details?id=aO6dDwAAQBAJ"
@@ -6428,9 +7655,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/L1OpDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555270780l/43909391.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909391-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/197470663X",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-10-volume-10/aka-akasaka/9781974706631",
           "play": "https://play.google.com/store/books/details?id=L1OpDwAAQBAJ"
@@ -6449,9 +7677,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/vv-2DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561287394l/43909393.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909393-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974707792",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-11-volume-11/aka-akasaka/9781974707799",
           "play": "https://play.google.com/store/books/details?id=vv-2DwAAQBAJ"
@@ -6470,9 +7699,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/e_bEDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566731654l/51096665.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51096665-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974709574",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-12-volume-12/aka-akasaka/9781974709571",
           "play": "https://play.google.com/store/books/details?id=e_bEDwAAQBAJ"
@@ -6491,9 +7721,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/vFXRDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570970117l/51160956.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51160956-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974710718",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-13-volume-13/aka-akasaka/9781974710713",
           "play": "https://play.google.com/store/books/details?id=vFXRDwAAQBAJ"
@@ -6512,9 +7743,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/vDbeDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577015934l/52757931.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52757931-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974714721",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-14-volume-14/aka-akasaka/9781974714728",
           "play": "https://play.google.com/store/books/details?id=vDbeDwAAQBAJ"
@@ -6533,9 +7765,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/9E7sDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583900205l/52757930.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52757930-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/197471473X",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-15-volume-15/aka-akasaka/9781974714735",
           "play": "https://play.google.com/store/books/details?id=9E7sDwAAQBAJ"
@@ -6554,9 +7787,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/F1L4DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104835l/50891138.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891138-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974717100",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-16-volume-16/aka-akasaka/9781974717101",
           "play": "https://play.google.com/store/books/details?id=F1L4DwAAQBAJ"
@@ -6575,9 +7809,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/w3wEEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595161940l/50891154.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891154-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974718743",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-17-volume-17/aka-akasaka/9781974718740",
           "play": "https://play.google.com/store/books/details?id=w3wEEAAAQBAJ"
@@ -6596,9 +7831,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/-iMWEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598798091l/54303330.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/54303330-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974721000",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-18-volume-18/aka-akasaka/9781974721009",
           "play": "https://play.google.com/store/books/details?id=-iMWEAAAQBAJ"
@@ -6617,9 +7853,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/sK4qEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614528675l/55711501.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55711501-kaguya-sama",
           "amazon": "https://www.amazon.co.uk/dp/1974722864",
           "waterstones": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-19-volume-19/aka-akasaka/9781974722860",
           "play": "https://play.google.com/store/books/details?id=sK4qEAAAQBAJ"
@@ -6636,9 +7873,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/hic5EAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616939798l/55711525.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55711525-kaguya-sama",
           "play": "https://play.google.com/store/books/details?id=hic5EAAAQBAJ"
         }
       },
@@ -6653,9 +7891,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/YohHEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626644818l/56898067.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/56898067-kaguya-sama",
           "play": "https://play.google.com/store/books/details?id=YohHEAAAQBAJ"
         }
       },
@@ -6670,9 +7909,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/f_dHEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635692474l/58438435.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/58438435-kaguya-sama",
           "play": "https://play.google.com/store/books/details?id=f_dHEAAAQBAJ"
         }
       },
@@ -6687,9 +7927,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/R1lJEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384715l/59366067.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59366067-kaguya-sama",
           "play": "https://play.google.com/store/books/details?id=R1lJEAAAQBAJ"
         }
       },
@@ -6704,9 +7945,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/NvdfEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660147898l/60321382.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/60321382-kaguya-sama",
           "play": "https://play.google.com/store/books/details?id=NvdfEAAAQBAJ"
         }
       },
@@ -6715,15 +7957,16 @@ window.SITE_CONTENT = {
         "author": "Akira Himekawa",
         "series": "",
         "seriesNo": null,
-        "status": "owned",
-        "formats": [
+        "status": "wanted",
+        "formats": [],
+        "wants": [
           "physical"
         ],
-        "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51NWrNi6pzL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162105l/52854190.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52854190-the-legend-of-zelda---legendary-edition-box-set",
           "amazon": "https://www.amazon.co.uk/dp/1974718190"
         }
       },
@@ -6738,7 +7981,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://m.media-amazon.com/images/I/61u2BrHRNKL._SS135_.jpg",
         "links": {
           "amazon": "https://www.amazon.co.uk/dp/1421542420"
@@ -6755,14 +7998,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51dntrNcw2L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482995011l/31140468.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/31140468-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421589613"
         }
       },
       {
-        "title": "The Legend of Zelda: Ocarina of Time -Legendary Edition-: Ocarina of Time",
+        "title": "The Legend of Zelda: Ocarina of Time",
         "author": "Akira Himekawa",
         "series": "",
         "seriesNo": null,
@@ -6772,9 +8016,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51O7yY4lH7L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469370495l/29934239.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/29934239-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421589591"
         }
       },
@@ -6789,9 +8034,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51YX87FAB3L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475881151l/29934243.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/29934243-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421589605"
         }
       },
@@ -6806,51 +8052,17 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/519nfe0cESL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486855854l/31140465.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/31140465-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421589621"
         }
       },
       {
-        "title": "The Legend of Zelda, Vol. 3: Majora's Mask: Volume 3",
+        "title": "The Legend of Zelda: Legendary Edition, Vol. 5: Four Swords",
         "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 3,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51vp7Y53jqL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523299"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 4 Volume 4: Oracle of Seasons",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 4,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/61erkxIS6VL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523302",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-4-volume-4/akira-himekawa/9781421523309"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 5 Volume 5: Oracle of Ages",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
+        "series": "The Legend of Zelda: Legendary Edition",
         "seriesNo": 5,
         "status": "wanted",
         "formats": [],
@@ -6858,117 +8070,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51FELk8P3IL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493548071l/32918996.jpg",
         "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523310",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-5-volume-5/akira-himekawa/9781421523316"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 6 Volume 6: Four Swords",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 6,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/61-hquXPjwL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523329",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-6-volume-6/akira-himekawa/9781421523323"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 7 Volume 7: Four Swords",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 7,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51c1L2KcTzL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523337",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-7-volume-7/akira-himekawa/9781421523330"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 8 Volume 8: The Minish Cap",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 8,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51buAnhulhL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523345",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-8-volume-8/akira-himekawa/9781421523347"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 9 Volume 9: A Link to the Past",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 9,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/514BSlWVbxL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421523353",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-9-volume-9/akira-himekawa/9781421523354"
-        }
-      },
-      {
-        "title": "The Legend of Zelda, Vol. 10 Volume 10: Phantom Hourglass",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda",
-        "seriesNo": 10,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/61qG+YAkmKL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/1421537249",
-          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-10-volume-10/akira-himekawa/9781421537245"
-        }
-      },
-      {
-        "title": "The Legend of Zelda: Four Swords -Legendary Edition-: Four Swords: 5",
-        "author": "Akira Himekawa",
-        "series": "The Legend of Zelda: Four Swords -Legendary Edition-: Four Swords",
-        "seriesNo": 5,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51j14brTSIL._SS135_.jpg",
-        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/32918996-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/142158963X"
         }
       },
@@ -6983,9 +8088,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51JDf9DJa9L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489527128l/31572149.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/31572149-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421593475",
           "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-twilight-princess-vol-1-volume-1/akira-himekawa/9781421593470"
         }
@@ -7001,15 +8107,16 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/510x1O+HhNL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490524350l/34055091.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/34055091-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421596563",
           "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-twilight-princess-vol-2-volume-2/akira-himekawa/9781421596563"
         }
       },
       {
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 3: Volume 3",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 3",
         "author": "Akira Himekawa",
         "series": "The Legend of Zelda: Twilight Princess",
         "seriesNo": 3,
@@ -7019,14 +8126,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51P+c4njCyL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510482002l/35664116.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35664116-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421598264"
         }
       },
       {
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 4: Volume 4",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 4",
         "author": "Akira Himekawa",
         "series": "The Legend of Zelda: Twilight Princess",
         "seriesNo": 4,
@@ -7036,14 +8144,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51qocDojtkL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527540317l/38926454.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926454-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/197470226X"
         }
       },
       {
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 5: Volume 5",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 5",
         "author": "Akira Himekawa",
         "series": "The Legend of Zelda: Twilight Princess",
         "seriesNo": 5,
@@ -7053,14 +8162,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51JUkKwgDwL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551249165l/40639176.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40639176-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1974705641"
         }
       },
       {
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 6: Volume 6",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 6",
         "author": "Akira Himekawa",
         "series": "The Legend of Zelda: Twilight Princess",
         "seriesNo": 6,
@@ -7070,14 +8180,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/517OMnyEdGL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567950953l/52402406.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52402406-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1974711633"
         }
       },
       {
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 7: Volume 7",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 7",
         "author": "Akira Himekawa",
         "series": "The Legend of Zelda: Twilight Princess",
         "seriesNo": 7,
@@ -7087,15 +8198,167 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51jQ2h2WL5L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592078015l/52758052.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758052-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1974715337"
         }
       },
       {
-        "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
-        "author": "Alexander Osterwalder, Yves Pigneur",
+        "title": "The Legend of Zelda: Majora's Mask, Vol. 3",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 3,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388489640l/4885189.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/4885189-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523299"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 4,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388637253l/4885190.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/4885190-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523302",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-4-volume-4/akira-himekawa/9781421523309"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: Oracle of Ages, Vol. 5",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 5,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388955562l/6186199.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/6186199-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523310",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-5-volume-5/akira-himekawa/9781421523316"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: Four Swords - Part 1, Vol. 6",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 6,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391029754l/6186198.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/6186198-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523329",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-6-volume-6/akira-himekawa/9781421523323"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: Four Swords - Part 2, Vol. 7",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 7,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388465357l/6476708.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/6476708-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523337",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-7-volume-7/akira-himekawa/9781421523330"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: The Minish Cap, Vol. 8",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 8,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/6476709.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/6476709-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523345",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-8-volume-8/akira-himekawa/9781421523347"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: A Link to the Past, Vol. 9",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 9,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388465357l/6852350.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/6852350-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421523353",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-9-volume-9/akira-himekawa/9781421523354"
+        }
+      },
+      {
+        "title": "The Legend of Zelda: Phantom Hourglass, Vol. 10",
+        "author": "Akira Himekawa",
+        "series": "Zelda",
+        "seriesNo": 10,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389220999l/7171902.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/7171902-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/1421537249",
+          "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-vol-10-volume-10/akira-himekawa/9781421537245"
+        }
+      },
+      {
+        "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers (The Strategyzer series)",
+        "author": "Alexander Osterwalder",
         "series": "",
         "seriesNo": null,
         "status": "wanted",
@@ -7104,15 +8367,16 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/L3TnC7ZAWAsC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1742883179l/7935732.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/7935732-business-model-generation",
           "play": "https://play.google.com/store/books/details?id=L3TnC7ZAWAsC"
         }
       },
       {
         "title": "Value Proposition Design: How to Create Products and Services Customers Want",
-        "author": "Alexander Osterwalder, Yves Pigneur, Gregory Bernarda, Alan Smith",
+        "author": "Alexander Osterwalder",
         "series": "",
         "seriesNo": null,
         "status": "wanted",
@@ -7121,9 +8385,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/jQ5yBgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410066532l/22505488.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22505488-value-proposition-design",
           "play": "https://play.google.com/store/books/details?id=jQ5yBgAAQBAJ"
         }
       },
@@ -7138,14 +8403,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51RRlTy+moL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560068419l/43261151.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43261151-binging-with-babish",
           "amazon": "https://www.amazon.co.uk/dp/1328589897"
         }
       },
       {
-        "title": "Eat What You Watch: A Cookbook for Movie Lovers",
+        "title": "Eat What You Watch",
         "author": "Andrew Rea",
         "series": "",
         "seriesNo": null,
@@ -7155,9 +8421,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/41hVtD-8vpL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509520858l/36514017.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36514017-eat-what-you-watch",
           "amazon": "https://www.amazon.co.uk/dp/0008283656",
           "waterstones": "https://www.waterstones.com/book/eat-what-you-watch/andrew-rea/9780008283650"
         }
@@ -7173,7 +8440,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444881827l/26782673.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/26782673-do-preserve"
@@ -7190,7 +8457,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Video games",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609468412l/56497936.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/56497936-game-boy",
@@ -7209,7 +8476,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "",
         "links": {}
       },
@@ -7224,7 +8491,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337411638l/4144478.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/4144478-edmonds-cookery-book"
@@ -7241,7 +8508,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/91MyxAaNrzL._AC_SL500_.jpg",
         "links": {}
       },
@@ -7256,7 +8523,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626719879l/58078528.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/58078528-field-notes-for-food-adventure"
@@ -7264,7 +8531,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Algorithms to Live By: The Computer Science of Human Decisions",
-        "author": "Brian Christian, Griffiths",
+        "author": "Brian Christian",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -7273,14 +8540,15 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/xmeJCgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462401688l/30111553.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/30111553-algorithms-to-live-by",
           "play": "https://play.google.com/store/books/details?id=xmeJCgAAQBAJ"
         }
       },
       {
-        "title": "42 Rules of Product Management: Learn the Rules of Product Management from Leading Experts from Around the World",
+        "title": "42 Rules of Product Management: Learn the Rules of Product Management from Leading Experts \"from\" Around the World",
         "author": "Brian Lawley",
         "series": "",
         "seriesNo": null,
@@ -7290,9 +8558,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/1GhWx2h6ZUEC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347432811l/9596993.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/9596993-42-rules-of-product-management",
           "play": "https://play.google.com/store/books/details?id=1GhWx2h6ZUEC"
         }
       },
@@ -7307,33 +8576,17 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/51-PrYhI-qL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600634504l/52778472.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52778472-the-pie-room",
           "amazon": "https://www.amazon.co.uk/dp/1472973615",
           "waterstones": "https://www.waterstones.com/book/the-pie-room/calum-franklin/9781472973610"
         }
       },
       {
-        "title": "The Angel's Game",
-        "author": "Carlos Ruiz Zafon",
-        "series": "",
-        "seriesNo": null,
-        "status": "owned",
-        "formats": [
-          "digital"
-        ],
-        "wants": [],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/3eI34XXQ9c8C?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=3eI34XXQ9c8C"
-        }
-      },
-      {
         "title": "The Prisoner of Heaven",
-        "author": "Carlos Ruiz Zafon",
+        "author": "Carlos Ruiz Zaf\u00f3n",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -7342,15 +8595,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/ZBj1Dzzxk0UC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643126577l/60211710.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/60211710-the-prisoner-of-heaven",
           "play": "https://play.google.com/store/books/details?id=ZBj1Dzzxk0UC"
         }
       },
       {
-        "title": "The Shadow of the Wind",
-        "author": "Carlos Ruiz Zafon",
+        "title": "The Shadow Of The Wind",
+        "author": "Carlos Ruiz Zaf\u00f3n",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -7359,10 +8613,29 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/6-7dwAgTFfEC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589202501l/53376895.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/53376895-the-shadow-of-the-wind",
           "play": "https://play.google.com/store/books/details?id=6-7dwAgTFfEC"
+        }
+      },
+      {
+        "title": "The Angel's Game, Vol. 2",
+        "author": "Carlos Ruiz Zaf\u00f3n",
+        "series": "The Cemetery of Forgotten Books",
+        "seriesNo": 2,
+        "status": "owned",
+        "formats": [
+          "digital"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446953951l/23626987.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/23626987-the-angel-s-game",
+          "play": "https://play.google.com/store/books/details?id=3eI34XXQ9c8C"
         }
       },
       {
@@ -7376,48 +8649,68 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500608048l/35715070.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/35715070-modern-french-pastry"
         }
       },
       {
-        "title": "Brisingr: Book Three",
+        "title": "Eldest, Vol. 2",
         "author": "Christopher Paolini",
-        "series": "",
-        "seriesNo": null,
+        "series": "Inheritance",
+        "seriesNo": 2,
         "status": "wanted",
         "formats": [],
         "wants": [
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/9m6hsGQ0US8C?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485117387l/839223.jpg",
         "links": {
-          "play": "https://play.google.com/store/books/details?id=9m6hsGQ0US8C"
-        }
-      },
-      {
-        "title": "Eldest: Book Two",
-        "author": "Christopher Paolini",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/Vh278GE3R1IC?fife",
-        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/839223.Eldest",
           "play": "https://play.google.com/store/books/details?id=Vh278GE3R1IC"
         }
       },
       {
-        "title": "Eragon: Book One, Vol. 1",
+        "title": "Brisingr, Vol. 3",
+        "author": "Christopher Paolini",
+        "series": "Inheritance",
+        "seriesNo": 3,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962480l/5970233.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/5970233-brisingr",
+          "play": "https://play.google.com/store/books/details?id=9m6hsGQ0US8C"
+        }
+      },
+      {
+        "title": "Inheritance, Vol. 4",
+        "author": "Christopher Paolini",
+        "series": "Inheritance",
+        "seriesNo": 4,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351514899l/16116659.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/16116659-inheritance",
+          "play": "https://play.google.com/store/books/details?id=5ZBfsEy7yH8C"
+        }
+      },
+      {
+        "title": "Eragon, Vol. 1",
         "author": "Christopher Paolini",
         "series": "The Inheritance Cycle",
         "seriesNo": 1,
@@ -7427,27 +8720,11 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/VZgPU91qGMIC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413130816l/17426214.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/17426214-eragon",
           "play": "https://play.google.com/store/books/details?id=VZgPU91qGMIC"
-        }
-      },
-      {
-        "title": "Inheritance: Book Four, Vol. 4",
-        "author": "Christopher Paolini",
-        "series": "The Inheritance Cycle",
-        "seriesNo": 4,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/5ZBfsEy7yH8C?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=5ZBfsEy7yH8C"
         }
       },
       {
@@ -7461,7 +8738,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719742067l/201335430.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron",
@@ -7480,7 +8757,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588215952l/52028349.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/52028349-dessert-person",
@@ -7499,9 +8776,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51c9Qu7WnjL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671100764l/68000686.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/68000686-what-s-for-dessert",
           "amazon": "https://www.amazon.co.uk/dp/1922616621",
           "waterstones": "https://www.waterstones.com/book/whats-for-dessert/claire-saffitz/9781922616623"
         }
@@ -7517,7 +8795,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356136155l/14795496.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/14795496-objects-first-with-java"
@@ -7534,7 +8812,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697814562l/142298147.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/142298147-computer-organization-and-design"
@@ -7551,9 +8829,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/51iUaL7Gx-L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347324890l/7959048.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/7959048-momofuku",
           "amazon": "https://www.amazon.co.uk/dp/B07F2ZRZR5",
           "waterstones": "https://www.waterstones.com/book/momofuku/david-chang/9781906650353"
         }
@@ -7569,63 +8848,12 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624806700l/56897775.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies",
           "amazon": "https://www.amazon.co.uk/dp/1646431804",
           "waterstones": "https://www.waterstones.com/book/the-encyclopedia-of-cookies/editors-of-cider-mill-press/9781646431809"
-        }
-      },
-      {
-        "title": "Artemis Fowl and The Arctic Incident",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/7J8eWoLjclsC?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=7J8eWoLjclsC"
-        }
-      },
-      {
-        "title": "Artemis Fowl and the Atlantis Complex",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/S1YTY40QxQ8C?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=S1YTY40QxQ8C"
-        }
-      },
-      {
-        "title": "Artemis Fowl and the Eternity Code",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/vsQQ6jll_owC?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=vsQQ6jll_owC"
         }
       },
       {
@@ -7639,65 +8867,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/z5tgD7vYvdoC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488212l/62623948.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623948-artemis-fowl-and-the-last-guardian",
           "play": "https://play.google.com/store/books/details?id=z5tgD7vYvdoC"
         }
       },
       {
-        "title": "Artemis Fowl and the Lost Colony",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/wKab5IQ56OsC?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=wKab5IQ56OsC"
-        }
-      },
-      {
-        "title": "Artemis Fowl and the Opal Deception",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/YJmOC6suAKEC?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=YJmOC6suAKEC"
-        }
-      },
-      {
-        "title": "Artemis Fowl and the Time Paradox",
-        "author": "Eoin Colfer",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/c94s3cp_Rf8C?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=c94s3cp_Rf8C"
-        }
-      },
-      {
-        "title": "Artemis Fowl: Volume 1",
+        "title": "Artemis Fowl, Vol. 1",
         "author": "Eoin Colfer",
         "series": "Artemis Fowl",
         "seriesNo": 1,
@@ -7707,27 +8885,119 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/n--nctZDw3AC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663482979l/62623604.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623604-artemis-fowl",
           "play": "https://play.google.com/store/books/details?id=n--nctZDw3AC"
         }
       },
       {
-        "title": "The Lean Startup",
-        "author": "Eric Ries",
-        "series": "",
-        "seriesNo": null,
-        "status": "owned",
-        "formats": [
+        "title": "The Arctic Incident, Vol. 2",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 2,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
           "digital"
         ],
-        "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/19forYX7NLQC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483179l/62623618.jpg",
         "links": {
-          "play": "https://play.google.com/store/books/details?id=19forYX7NLQC"
+          "goodreads": "https://www.goodreads.com/book/show/62623618-the-arctic-incident",
+          "play": "https://play.google.com/store/books/details?id=7J8eWoLjclsC"
+        }
+      },
+      {
+        "title": "Artemis Fowl and the Eternity Code, Vol. 3",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 3,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663483368l/62623626.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623626-artemis-fowl-and-the-eternity-code",
+          "play": "https://play.google.com/store/books/details?id=vsQQ6jll_owC"
+        }
+      },
+      {
+        "title": "Artemis Fowl and the Opal Deception, Vol. 4",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 4,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487562l/62623912.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623912-artemis-fowl-and-the-opal-deception",
+          "play": "https://play.google.com/store/books/details?id=YJmOC6suAKEC"
+        }
+      },
+      {
+        "title": "Artemis Fowl and the Lost Colony, Vol. 5",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 5,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487734l/62623929.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623929-artemis-fowl-and-the-lost-colony",
+          "play": "https://play.google.com/store/books/details?id=wKab5IQ56OsC"
+        }
+      },
+      {
+        "title": "Artemis Fowl and the Time Paradox, Vol. 6",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 6,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663487876l/62623938.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623938-artemis-fowl-and-the-time-paradox",
+          "play": "https://play.google.com/store/books/details?id=c94s3cp_Rf8C"
+        }
+      },
+      {
+        "title": "Artemis Fowl and the Atlantis Complex, Vol. 7",
+        "author": "Eoin Colfer",
+        "series": "Artemis Fowl",
+        "seriesNo": 7,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663488084l/62623946.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62623946-artemis-fowl-and-the-atlantis-complex",
+          "play": "https://play.google.com/store/books/details?id=S1YTY40QxQ8C"
         }
       },
       {
@@ -7741,12 +9011,12 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/71DPpbn8mUL._AC_SL500_.jpg",
         "links": {}
       },
       {
-        "title": "Tomorrow, and Tomorrow, and Tomorrow: The million-copy bestseller",
+        "title": "Tomorrow, and Tomorrow, and Tomorrow",
         "author": "Gabrielle Zevin",
         "series": "",
         "seriesNo": null,
@@ -7756,14 +9026,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/dI1IEAAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1723027081l/217255756.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/217255756-tomorrow-and-tomorrow-and-tomorrow",
           "play": "https://play.google.com/store/books/details?id=dI1IEAAAQBAJ"
         }
       },
       {
-        "title": "Hyrule Warriors Legends",
+        "title": "Hyrule Warriors Legends Collector's Edition: Prima Official Guide",
         "author": "Garitt Rocha",
         "series": "",
         "seriesNo": null,
@@ -7773,9 +9044,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51dMdF6Zu-L._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457891995l/28687243.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/28687243-hyrule-warriors-legends-collector-s-edition",
           "amazon": "https://www.amazon.co.uk/dp/0744017114",
           "waterstones": "https://www.waterstones.com/book/hyrule-warriors-legends/garitt-rocha/stephen-stratton/9780744017113"
         }
@@ -7791,7 +9063,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543953780l/32738672.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/32738672-unfu-k-yourself"
@@ -7808,14 +9080,14 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516785582l/38191426.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/38191426-the-phoenix-project"
         }
       },
       {
-        "title": "The Secrets to App Success on Google Play (Second Edition)",
+        "title": "The Secrets to App Success on Google Play",
         "author": "Google Inc.",
         "series": "",
         "seriesNo": null,
@@ -7825,9 +9097,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/O2a5CgAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463583235l/30227373.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/30227373-the-secrets-to-app-success-on-google-play",
           "play": "https://play.google.com/store/books/details?id=O2a5CgAAQBAJ"
         }
       },
@@ -7842,16 +9115,17 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51mwWA2hqML._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354629727l/15946151.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/15946151-gordon-ramsay-s-ultimate-cookery-course",
           "amazon": "https://www.amazon.co.uk/dp/1444756699",
           "waterstones": "https://www.waterstones.com/book/gordon-ramsays-ultimate-cookery-course/gordon-ramsay/9781444756692"
         }
       },
       {
         "title": "The Complete Tales of H.P. Lovecraft",
-        "author": "H. P. Lovecraft",
+        "author": "H.P. Lovecraft",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -7860,9 +9134,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/xvMYEAAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767713333l/43617306.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43617306-the-complete-tales-of-h-p-lovecraft",
           "play": "https://play.google.com/store/books/details?id=xvMYEAAAQBAJ"
         }
       },
@@ -7877,7 +9152,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328840837l/2087365.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/2087365.The_Savoy_Cocktail_Book"
@@ -7894,14 +9169,31 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727083089l/16155151.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/16155151-1-horimiya-1"
         }
       },
       {
-        "title": "Hestons Fantastical Feast",
+        "title": "Heston Blumenthal at Home",
+        "author": "Heston Blumenthal",
+        "series": "",
+        "seriesNo": null,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338980695l/12991832.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/12991832-heston-blumenthal-at-home"
+        }
+      },
+      {
+        "title": "Heston's Fantastical Feasts",
         "author": "Heston Blumenthal",
         "series": "",
         "seriesNo": null,
@@ -7911,9 +9203,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/51-ji07y-SL._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351765575l/8441504.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/8441504-heston-s-fantastical-feasts",
           "amazon": "https://www.amazon.co.uk/dp/1408808609",
           "waterstones": "https://www.waterstones.com/book/hestons-fantastical-feast/heston-blumenthal/9781408808603"
         }
@@ -7929,14 +9222,15 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/51p+EUaBOHL._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405301070l/22174899.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22174899-historic-heston",
           "amazon": "https://www.amazon.co.uk/dp/140885757X"
         }
       },
       {
-        "title": "In Search of Perfection",
+        "title": "In Search of Perfection: Reinventing Kitchen Classics",
         "author": "Heston Blumenthal",
         "series": "",
         "seriesNo": null,
@@ -7946,9 +9240,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348109774l/1908493.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/1908493.In_Search_of_Perfection",
           "amazon": "https://www.amazon.co.uk/dp/0747584095",
           "waterstones": "https://www.waterstones.com/book/in-search-of-perfection/heston-blumenthal/9780747584094"
         }
@@ -7964,14 +9259,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653950175l/59808407.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/59808407-is-this-a-cookbook-adventures-in-the-kitchen"
         }
       },
       {
-        "title": "The Big Fat Duck Cookbook",
+        "title": "The Big Fat Duck Cookbook [Import Edition",
         "author": "Heston Blumenthal",
         "series": "",
         "seriesNo": null,
@@ -7981,11 +9276,29 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/31ozd9LfZ-L._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348040962l/3158083.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/3158083-the-big-fat-duck-cookbook-import-edition",
           "amazon": "https://www.amazon.co.uk/dp/0747583692",
           "waterstones": "https://www.waterstones.com/book/the-big-fat-duck-cookbook/heston-blumenthal/9780747583691"
+        }
+      },
+      {
+        "title": "The Fat Duck Cookbook",
+        "author": "Heston Blumenthal",
+        "series": "",
+        "seriesNo": null,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "physical"
+        ],
+        "audiobook": false,
+        "type": "Cookbooks",
+        "img": "https://m.media-amazon.com/images/I/61XGM4VoQML._SS135_.jpg",
+        "links": {
+          "amazon": "https://www.amazon.co.uk/dp/0747597375"
         }
       },
       {
@@ -7999,9 +9312,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51egPYkSh6L._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545469635l/40944447.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40944447-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974706176"
         }
       },
@@ -8016,7 +9330,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519613766l/36495876.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/36495876-fullmetal-alchemist"
@@ -8033,9 +9347,11 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495086l/36538817.jpg",
-        "links": {}
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36538817-fullmetal-alchemist"
+        }
       },
       {
         "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 3",
@@ -8048,9 +9364,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/41E2iJyOtOL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534666360l/38926408.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926408-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599805",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-3-volume-3/hiromu-arakawa/9781421599809"
         }
@@ -8066,9 +9383,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51Uy0ZqOwPL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545477535l/40637179.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40637179-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599856",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-4-volume-4/hiromu-arakawa/9781421599854"
         }
@@ -8084,9 +9402,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51w99EDcq4L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549011551l/42800902.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42800902-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599872",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-5-volume-5/hiromu-arakawa/9781421599878"
         }
@@ -8102,9 +9421,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/41uUnSBEJ2L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555271636l/42800903.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42800903-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599880",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-6-volume-6/hiromu-arakawa/9781421599885"
         }
@@ -8120,9 +9440,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51wfSH6OIOL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564945799l/43909459.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909459-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599899",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-7-volume-7/hiromu-arakawa/9781421599892"
         }
@@ -8138,9 +9459,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/511cn1DWh8L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570968459l/52353352.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52353352-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/197470047X",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-8-volume-8/hiromu-arakawa/9781974700479"
         }
@@ -8156,9 +9478,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51Q6Jx-7-FL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579444327l/52758061.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758061-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599902",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-9-volume-9/hiromu-arakawa/9781421599908"
         }
@@ -8174,9 +9497,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/41uzVmM1GBL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592496399l/52758053.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758053-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599929",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-10-volume-10/hiromu-arakawa/9781421599922"
         }
@@ -8192,9 +9516,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51RUNoAvz9L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593355687l/50891198.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891198-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599945",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-11-volume-11/hiromu-arakawa/9781421599946"
         }
@@ -8210,9 +9535,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51xQesEYzNL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600611094l/54303366.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/54303366-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599953",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-12-volume-12/hiromu-arakawa/9781421599953"
         }
@@ -8228,9 +9554,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51O54wvgjKL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612105147l/55710509.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55710509-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1421599961",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-13-volume-13/hiromu-arakawa/9781421599960"
         }
@@ -8246,9 +9573,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/41CVpKhPGpS._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618758726l/55711411.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55711411-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974700003",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-14-volume-14/hiromu-arakawa/9781974700004"
         }
@@ -8264,9 +9592,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51mOt6aZocL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627828264l/56897984.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/56897984-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974700011",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-15-volume-15/hiromu-arakawa/9781974700011"
         }
@@ -8282,9 +9611,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/518f5rEawwL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635089760l/58438346.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/58438346-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974700046",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-16-volume-16/hiromu-arakawa/9781974700042"
         }
@@ -8300,9 +9630,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51SvQt4K3nL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642043128l/59365966.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59365966-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974700054",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-17-volume-17/hiromu-arakawa/9781974700059"
         }
@@ -8318,9 +9649,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/51eQ2NpHh7L._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649605077l/59365968.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59365968-fullmetal-alchemist",
           "amazon": "https://www.amazon.co.uk/dp/1974700062",
           "waterstones": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-18-volume-18/hiromu-arakawa/9781974700066"
         }
@@ -8336,7 +9668,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699760559l/137433498.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/137433498-by-ian-sommerville---software-engineering"
@@ -8353,7 +9685,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Travel & Culture",
+        "type": "Non-fiction",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348631525l/7704162.jpg",
         "links": {}
       },
@@ -8368,9 +9700,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/411ZgcxhXyL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430990153l/24861842.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/24861842-the-food-lab",
           "amazon": "https://www.amazon.co.uk/dp/B00TG24C34",
           "waterstones": "https://www.waterstones.com/book/the-food-lab/j-kenji-l-pez-alt/9780393081084"
         }
@@ -8386,9 +9719,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/39iYWTb6n6cC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677116082l/22841994.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22841994-harry-potter-and-the-philosopher-s-stone",
           "play": "https://play.google.com/store/books/details?id=39iYWTb6n6cC"
         }
       },
@@ -8403,9 +9737,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/1o7D0m_osFEC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622223522l/22841998.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22841998-harry-potter-and-the-chamber-of-secrets",
           "play": "https://play.google.com/store/books/details?id=1o7D0m_osFEC"
         }
       },
@@ -8420,9 +9755,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/wHlDzHnt6x0C?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677117275l/22842001.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22842001-harry-potter-and-the-prisoner-of-azkaban",
           "play": "https://play.google.com/store/books/details?id=wHlDzHnt6x0C"
         }
       },
@@ -8437,9 +9773,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/KKFTfEQ8bRAC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626094883l/58542309.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/58542309-harry-potter-and-the-goblet-of-fire",
           "play": "https://play.google.com/store/books/details?id=KKFTfEQ8bRAC"
         }
       },
@@ -8454,9 +9791,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/jk87_y-ubE0C?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677124143l/22844196.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22844196-harry-potter-and-the-order-of-the-phoenix",
           "play": "https://play.google.com/store/books/details?id=jk87_y-ubE0C"
         }
       },
@@ -8471,9 +9809,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/gCtazG4ZXlQC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677127160l/22844208.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22844208-harry-potter-and-the-deathly-hallows",
           "play": "https://play.google.com/store/books/details?id=gCtazG4ZXlQC"
         }
       },
@@ -8490,7 +9829,7 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284924l/25814544.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/25814544-sprint",
@@ -8508,14 +9847,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489923533l/31301820.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/31301820-japanese-patisserie"
         }
       },
       {
-        "title": "Cooking for Geeks, 2e",
+        "title": "Cooking for Geeks: Real Science, Great Cooks, and Good Food",
         "author": "Jeff Potter",
         "series": "",
         "seriesNo": null,
@@ -8525,15 +9864,16 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51w-RKUiZZL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445789813l/25770528.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25770528-cooking-for-geeks",
           "amazon": "https://www.amazon.co.uk/dp/1491928050",
           "waterstones": "https://www.waterstones.com/book/cooking-for-geeks-2e/jeff-potter/9781491928059"
         }
       },
       {
-        "title": "The Practitioner's Guide To Product Management",
+        "title": "The Practitioner's Guide to Product Management",
         "author": "Jock Busuttil",
         "series": "",
         "seriesNo": null,
@@ -8543,9 +9883,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Xa0GBAAAQBAJ?fife",
+        "type": "Computer Science & Business",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437551758l/25955849.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25955849-the-practitioner-s-guide-to-product-management",
           "play": "https://play.google.com/store/books/details?id=Xa0GBAAAQBAJ"
         }
       },
@@ -8560,7 +9901,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355992337l/15941487.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/15941487-arduino-for-dummies"
@@ -8577,10 +9918,29 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623012580l/57485191.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/57485191-an-unapologetic-cookbook"
+        }
+      },
+      {
+        "title": "Slim Palate Paleo Cookbook",
+        "author": "Joshua Weissman",
+        "series": "",
+        "seriesNo": null,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "physical"
+        ],
+        "audiobook": false,
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391139025l/18668443.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/18668443-slim-palate-paleo-cookbook",
+          "amazon": "https://www.amazon.co.uk/dp/162860011X",
+          "waterstones": "https://www.waterstones.com/book/the-slim-palate-paleo-cookbook/joshua-weissman/9781628600117"
         }
       },
       {
@@ -8594,59 +9954,58 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685991216l/160047617.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/160047617-texture-over-taste"
         }
       },
       {
-        "title": "The Slim Palate Paleo Cookbook",
-        "author": "Joshua Weissman",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51cDlM10VjL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/162860011X",
-          "waterstones": "https://www.waterstones.com/book/the-slim-palate-paleo-cookbook/joshua-weissman/9781628600117"
-        }
-      },
-      {
         "title": "Mastering the Art of French Cooking (Vol 1 & 2)",
         "author": "Julia Child",
-        "series": "",
-        "seriesNo": null,
+        "series": "Mastering the Art of French Cooking (",
+        "seriesNo": 1,
         "status": "owned",
         "formats": [
           "physical"
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390054341l/10914447.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/10914447-mastering-the-art-of-french-cooking"
         }
       },
       {
+        "title": "Mastering the Art of French Cooking: Vol.2",
+        "author": "Julia Child",
+        "series": "Mastering the Art of French Cooking (",
+        "seriesNo": 2,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699598697l/162520832.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/162520832-mastering-the-art-of-french-cooking"
+        }
+      },
+      {
         "title": "Witch Hat Atelier, Vol. 1",
         "author": "Kamome Shirahama",
-        "series": "",
-        "seriesNo": null,
+        "series": "Witch Hat Atelier",
+        "seriesNo": 1,
         "status": "wanted",
         "formats": [],
         "wants": [
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546502507l/40893782.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/40893782-witch-hat-atelier-vol-1",
@@ -8654,7 +10013,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]",
+        "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza",
         "author": "Ken Forkish",
         "series": "",
         "seriesNo": null,
@@ -8664,16 +10023,17 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51u9oR5Yr4L._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333580868l/13414492.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/13414492-flour-water-salt-yeast",
           "amazon": "https://www.amazon.co.uk/dp/160774273X",
           "waterstones": "https://www.waterstones.com/book/flour-water-salt-yeast/ken-forkish/9781607742739"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 1",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 1,
         "status": "owned",
@@ -8684,9 +10044,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/rFD5DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916994l/51323379.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51323379-fly-me-to-the-moon-vol-1",
           "amazon": "https://www.amazon.co.uk/dp/B08GNJR6SL",
           "waterstones": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-1-volume-1/kenjiro-hata/9781974717491",
           "play": "https://play.google.com/store/books/details?id=rFD5DwAAQBAJ"
@@ -8694,7 +10055,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Fly Me to the Moon, Vol. 2",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 2,
         "status": "owned",
@@ -8705,9 +10066,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/qYsFEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162376l/51323371.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51323371-fly-me-to-the-moon-vol-2",
           "amazon": "https://www.amazon.co.uk/dp/B08M112WGP",
           "waterstones": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-2-volume-2/kenjiro-hata/9781974717507",
           "play": "https://play.google.com/store/books/details?id=qYsFEAAAQBAJ"
@@ -8715,7 +10077,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Fly Me to the Moon, Vol. 3",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 3,
         "status": "owned",
@@ -8726,9 +10088,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/55UQEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600610847l/54303390.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/54303390-fly-me-to-the-moon-vol-3",
           "amazon": "https://www.amazon.co.uk/dp/B08R6R7RNW",
           "waterstones": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-3-volume-3/kenjiro-hata/9781974717514",
           "play": "https://play.google.com/store/books/details?id=55UQEAAAQBAJ"
@@ -8736,7 +10099,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Fly Me to the Moon, Vol. 4",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 4,
         "status": "owned",
@@ -8747,9 +10110,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/q9IfEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607263572l/54308142.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/54308142-fly-me-to-the-moon-vol-4",
           "amazon": "https://www.amazon.co.uk/dp/B08X11439K",
           "waterstones": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-4-volume-4/kenjiro-hata/9781974717521",
           "play": "https://play.google.com/store/books/details?id=q9IfEAAAQBAJ"
@@ -8757,7 +10121,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Fly Me to the Moon, Vol. 5",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 5,
         "status": "owned",
@@ -8768,9 +10132,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/0n0rEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612104489l/55711442.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55711442-fly-me-to-the-moon-vol-5",
           "amazon": "https://www.amazon.co.uk/dp/B093NTCST2",
           "waterstones": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-5-volume-5/kenjiro-hata/9781974719235",
           "play": "https://play.google.com/store/books/details?id=0n0rEAAAQBAJ"
@@ -8778,7 +10143,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Fly Me to the Moon, Vol. 6",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 6,
         "status": "owned",
@@ -8787,15 +10152,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/9BA1EAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544621l/55711443.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/55711443-fly-me-to-the-moon-vol-6",
           "play": "https://play.google.com/store/books/details?id=9BA1EAAAQBAJ"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 7",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 7,
         "status": "owned",
@@ -8804,15 +10170,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Zyw_EAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621173928l/56898000.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/56898000-fly-me-to-the-moon-vol-7",
           "play": "https://play.google.com/store/books/details?id=Zyw_EAAAQBAJ"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 8",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 8,
         "status": "owned",
@@ -8821,15 +10188,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/EoZHEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429846l/56898038.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/56898038-fly-me-to-the-moon-vol-8",
           "play": "https://play.google.com/store/books/details?id=EoZHEAAAQBAJ"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 9",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 9,
         "status": "owned",
@@ -8838,15 +10206,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/7-5HEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632912238l/58438372.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/58438372-fly-me-to-the-moon-vol-9",
           "play": "https://play.google.com/store/books/details?id=7-5HEAAAQBAJ"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 10",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 10,
         "status": "owned",
@@ -8855,15 +10224,16 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/qPRHEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635362660l/58438373.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/58438373-fly-me-to-the-moon-vol-10",
           "play": "https://play.google.com/store/books/details?id=qPRHEAAAQBAJ"
         }
       },
       {
         "title": "Fly Me to the Moon, Vol. 20",
-        "author": "Kenjiro Hata",
+        "author": "Kenjir\u014d Hata",
         "series": "Fly Me to the Moon",
         "seriesNo": 20,
         "status": "wanted",
@@ -8872,9 +10242,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/8GSsEAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700600692l/101159066.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/101159066-fly-me-to-the-moon-vol-20",
           "play": "https://play.google.com/store/books/details?id=8GSsEAAAQBAJ"
         }
       },
@@ -8889,7 +10260,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426466596l/25074597.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/25074597-my-hero-academia-vol-1",
@@ -8909,7 +10280,7 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440725185l/26178414.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/26178414-the-legend-of-zelda-symphony-of-the-goddesses",
@@ -8927,9 +10298,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/7KnhDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623548l/52758090.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758090-the-way-of-the-househusband-vol-3",
           "play": "https://play.google.com/store/books/details?id=7KnhDwAAQBAJ"
         }
       },
@@ -8944,9 +10316,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Xsv5DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590916886l/50891209.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891209-the-way-of-the-househusband-vol-4",
           "play": "https://play.google.com/store/books/details?id=Xsv5DwAAQBAJ"
         }
       },
@@ -8961,22 +10334,22 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://m.media-amazon.com/images/I/71kgAWOqO-L._AC_SL500_.jpg",
         "links": {}
       },
       {
         "title": "Pok\u00e9mon Crochet Vol 2: Bring even more Pok\u00e9mon to life with 20 cute crochet patterns",
         "author": "Lee Sartori",
-        "series": "",
-        "seriesNo": null,
+        "series": "Pok\u00e9mon Crochet",
+        "seriesNo": 2,
         "status": "owned",
         "formats": [
           "physical"
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Crafts",
+        "type": "Video games",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671056987l/67991914.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/67991914-pok-mon-crochet-vol-2"
@@ -8993,7 +10366,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Non-fiction",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696959742l/194805515.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/194805515-lego-botanical-almanac"
@@ -9010,7 +10383,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Travel & Culture",
+        "type": "Non-fiction",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411150213l/16032833.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/16032833-italian-phrasebook-dictionary"
@@ -9027,7 +10400,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Travel & Culture",
+        "type": "Non-fiction",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347546949l/1187377.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/1187377.Lonely_Planet_Polish_Phrasebook"
@@ -9044,7 +10417,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Travel & Culture",
+        "type": "Non-fiction",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411149396l/15899835.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/15899835-russian-phrasebook-dictionary"
@@ -9052,7 +10425,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Learning Patterns",
-        "author": "Lydia Hallie, Addy Osmani",
+        "author": "Lydia Hallie",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -9061,9 +10434,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/BnJLEAAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639996199l/59862682.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59862682-learning-patterns",
           "play": "https://play.google.com/store/books/details?id=BnJLEAAAQBAJ"
         }
       },
@@ -9078,14 +10452,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348016781l/2052141.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/2052141.The_Robotics_Primer"
         }
       },
       {
-        "title": "The Essentials of Classic Italian Cooking",
+        "title": "Essentials of Classic Italian Cooking",
         "author": "Marcella Hazan",
         "series": "",
         "seriesNo": null,
@@ -9095,11 +10469,29 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/512FT9PBlcL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400447145l/12832217.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/12832217-essentials-of-classic-italian-cooking",
           "amazon": "https://www.amazon.co.uk/dp/0752227904",
           "waterstones": "https://www.waterstones.com/book/the-essentials-of-classic-italian-cooking/marcella-hazan/9780752227900"
+        }
+      },
+      {
+        "title": "Beauty Food: 85 recipes for health & beauty from within",
+        "author": "Maria Ahlgren",
+        "series": "",
+        "seriesNo": null,
+        "status": "owned",
+        "formats": [
+          "physical"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532701368l/40960189.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40960189-beauty-food"
         }
       },
       {
@@ -9113,14 +10505,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394405623l/13655756.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/13655756-principles-of-interactive-multimedia"
         }
       },
       {
-        "title": "Everything Is F*cked",
+        "title": "Everything Is F*cked: A Book About Hope",
         "author": "Mark Manson",
         "series": "",
         "seriesNo": null,
@@ -9130,14 +10522,15 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/XYdgDwAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595813035l/51826697.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51826697-everything-is-f-cked",
           "play": "https://play.google.com/store/books/details?id=XYdgDwAAQBAJ"
         }
       },
       {
-        "title": "The Subtle Art of Not Giving a F*ck",
+        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
         "author": "Mark Manson",
         "series": "",
         "seriesNo": null,
@@ -9147,9 +10540,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": true,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/yng_CwAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761873l/28259130.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/28259130-the-subtle-art-of-not-giving-a-f-ck",
           "play": "https://play.google.com/store/books/details?id=yng_CwAAQBAJ"
         }
       },
@@ -9164,7 +10558,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604383827l/55278624.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/55278624-the-pasta-man",
@@ -9182,7 +10576,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "",
         "links": {}
       },
@@ -9197,7 +10591,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348285880l/153910.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/153910.Quantum_Computation_and_Quantum_Information"
@@ -9214,15 +10608,16 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581173847l/51075309.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51075309-the-french-chef-handbook",
           "amazon": "https://www.amazon.co.uk/dp/2857086954",
           "waterstones": "https://www.waterstones.com/book/the-french-chef-handbook/michel-maincent-morel/9782857086956"
         }
       },
       {
-        "title": "Cook This Book: Recipes and Techniques That Actually Teach",
+        "title": "Cook This Book: Techniques That Teach and Recipes To Repeat",
         "author": "Molly Baz",
         "series": "",
         "seriesNo": null,
@@ -9232,9 +10627,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/41Dfb6MiFWL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603141183l/54895707.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/54895707-cook-this-book",
           "amazon": "https://www.amazon.co.uk/dp/0593138279"
         }
       },
@@ -9249,27 +10645,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/71nky8ZLyZL._SL500_.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/200382584-dishoom"
-        }
-      },
-      {
-        "title": "American Gods",
-        "author": "Neil Gaiman",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Fiction & Mythology",
-        "img": "https://play.google.com/books/content/images/frontcover/fXfJCKXp5-kC?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=fXfJCKXp5-kC"
         }
       },
       {
@@ -9283,11 +10662,29 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Fiction & Mythology",
+        "type": "Fantasy & Sci-fi",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/37903770-norse-mythology",
           "play": "https://play.google.com/store/books/details?id=Os3-DwAAQBAJ"
+        }
+      },
+      {
+        "title": "American Gods, Vol. 1",
+        "author": "Neil Gaiman",
+        "series": "American Gods",
+        "seriesNo": 1,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618174025l/57697768.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/57697768-american-gods",
+          "play": "https://play.google.com/store/books/details?id=fXfJCKXp5-kC"
         }
       },
       {
@@ -9301,7 +10698,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Misc",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508432170l/36441259.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1"
@@ -9318,7 +10715,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/41p0OFSG+CS._SS135_.jpg",
         "links": {
           "amazon": "https://www.amazon.co.uk/dp/B0856WXZPB"
@@ -9335,7 +10732,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/51n4iVsXTOL._SS135_.jpg",
         "links": {
           "amazon": "https://www.amazon.co.uk/dp/B011LOCSAI"
@@ -9352,7 +10749,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327769281l/8487890.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/8487890-the-flavour-thesaurus"
@@ -9369,7 +10766,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474771267l/31625256.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/31625256-the-legend-of-zelda",
@@ -9377,7 +10774,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "The Legend of Zelda: Breath of the Wild--Creating a Champion",
+        "title": "The Legend of Zelda: Breath of the Wild \u2014 Creating a Champion",
         "author": "Nintendo",
         "series": "",
         "seriesNo": null,
@@ -9387,9 +10784,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/_qFaDwAAQBAJ?fife",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547308286l/40116474.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40116474-the-legend-of-zelda",
           "play": "https://play.google.com/store/books/details?id=_qFaDwAAQBAJ"
         }
       },
@@ -9405,7 +10803,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506375358l/36304310.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/36304310-the-legend-of-zelda",
@@ -9423,28 +10821,11 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399700757l/15845097.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/15845097-the-legend-of-zelda",
           "play": "https://play.google.com/store/books/details?id=ZfzKDwAAQBAJ"
-        }
-      },
-      {
-        "title": "SALT FAT ACID HEAT. Cztery sk\u0142adniki",
-        "author": "Nosrat Samin",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "physical"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/51wRJ0EI7nL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/8324070370"
         }
       },
       {
@@ -9458,14 +10839,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
+        "type": "Zelda",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491248256l/34774665.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/34774665-the-legend-of-zelda"
         }
       },
       {
-        "title": "Hyrule Warriors",
+        "title": "Hyrule Warriors: Prima Official Game Guide",
         "author": "Prima Games",
         "series": "",
         "seriesNo": null,
@@ -9475,29 +10856,28 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51zxspxQEaL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408311445l/22716527.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22716527-hyrule-warriors",
           "amazon": "https://www.amazon.co.uk/dp/1101898151",
           "waterstones": "https://www.waterstones.com/book/hyrule-warriors/prima-games/9781101898154"
         }
       },
       {
-        "title": "The Legend of Zelda: a Link Between Worlds Collector's Edition: Prima's Official Game Guide",
+        "title": "The Legend of Zelda Box Set: 6 Collector's Edition Guides",
         "author": "Prima Games",
         "series": "",
         "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
+        "status": "owned",
+        "formats": [
           "physical"
         ],
+        "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51C7McoDzBL._SS135_.jpg",
-        "links": {
-          "amazon": "https://www.amazon.co.uk/dp/0804162727"
-        }
+        "type": "Zelda",
+        "img": "https://images.nintendolife.com/aaca6c8f60e2d/so-pretty.large.jpg",
+        "links": {}
       },
       {
         "title": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide",
@@ -9510,28 +10890,47 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51Wsa06U0CL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444870699l/26796726.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/26796726-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/074401669X",
           "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda-tri-force-heroes-collectors-edition-guide/prima-games/9780744016697"
         }
       },
       {
-        "title": "Danny the Champion of the World",
-        "author": "Roald Dahl",
+        "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
+        "author": "Prima Games",
         "series": "",
         "seriesNo": null,
         "status": "wanted",
         "formats": [],
         "wants": [
-          "digital"
+          "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/_mIq8sUSEaEC?fife",
+        "type": "Zelda",
+        "img": "https://m.media-amazon.com/images/I/41tBNMp7I7L._SS135_.jpg",
         "links": {
-          "play": "https://play.google.com/store/books/details?id=_mIq8sUSEaEC"
+          "amazon": "https://www.amazon.co.uk/dp/0744017033"
+        }
+      },
+      {
+        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+        "author": "Ries Eric",
+        "series": "",
+        "seriesNo": null,
+        "status": "owned",
+        "formats": [
+          "digital"
+        ],
+        "wants": [],
+        "audiobook": false,
+        "type": "Computer Science & Business",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645396848l/12969025.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/12969025-the-lean-startup",
+          "play": "https://play.google.com/store/books/details?id=19forYX7NLQC"
         }
       },
       {
@@ -9545,10 +10944,29 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/i9ndKVZcvGgC?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656931389l/60388591.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/60388591-esio-trot",
           "play": "https://play.google.com/store/books/details?id=i9ndKVZcvGgC"
+        }
+      },
+      {
+        "title": "Roald Dahl Danny the Champion of the World /anglais",
+        "author": "Roald Dahl",
+        "series": "",
+        "seriesNo": null,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673703263l/59427537.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59427537-roald-dahl-danny-the-champion-of-the-world-anglais",
+          "play": "https://play.google.com/store/books/details?id=_mIq8sUSEaEC"
         }
       },
       {
@@ -9562,14 +10980,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/quybcXrFhCIC?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656932126l/59527513.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59527513-the-bfg",
           "play": "https://play.google.com/store/books/details?id=quybcXrFhCIC"
         }
       },
       {
-        "title": "The Complete Adventures of Charlie and Mr Willy Wonka",
+        "title": "The magic finger",
         "author": "Roald Dahl",
         "series": "",
         "seriesNo": null,
@@ -9579,26 +10998,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/007OAgAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677852273l/60388593.jpg",
         "links": {
-          "play": "https://play.google.com/store/books/details?id=007OAgAAQBAJ"
-        }
-      },
-      {
-        "title": "The Magic Finger",
-        "author": "Roald Dahl",
-        "series": "",
-        "seriesNo": null,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/6fxG_sYIvukC?fife",
-        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/60388593-the-magic-finger",
           "play": "https://play.google.com/store/books/details?id=6fxG_sYIvukC"
         }
       },
@@ -9613,14 +11016,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/GD--o2F8IcoC?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656929507l/59452792.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59452792-the-witches",
           "play": "https://play.google.com/store/books/details?id=GD--o2F8IcoC"
         }
       },
       {
-        "title": "Charlie and the Chocolate Factory: Volume 1",
+        "title": "Charlie and the Chocolate Factory, Vol. 1",
         "author": "Roald Dahl",
         "series": "Charlie and the Chocolate Factory",
         "seriesNo": 1,
@@ -9630,9 +11034,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/content/images/frontcover/v7WeJp2CU-QC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677851532l/59427532.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/59427532-charlie-and-the-chocolate-factory",
           "play": "https://play.google.com/store/books/details?id=v7WeJp2CU-QC"
         }
       },
@@ -9647,10 +11052,29 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/content/images/frontcover/8vbcqrcvKRYC?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673943577l/60388596.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/60388596-charlie-and-the-great-glass-elevator",
           "play": "https://play.google.com/store/books/details?id=8vbcqrcvKRYC"
+        }
+      },
+      {
+        "title": "The Complete Adventures of Charlie and Mr Willy Wonka (Charlie Bucket, #1-2)",
+        "author": "Roald Dahl",
+        "series": "The Complete Adventures of Charlie and Mr Willy Wonka (Charlie Bucket",
+        "seriesNo": 1,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386403050l/17573220.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/17573220-the-complete-adventures-of-charlie-and-mr-willy-wonka",
+          "play": "https://play.google.com/store/books/details?id=007OAgAAQBAJ"
         }
       },
       {
@@ -9664,7 +11088,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/51LPSRDbqCL._SS135_.jpg",
         "links": {
           "amazon": "https://www.amazon.co.uk/dp/B0D91K43HK"
@@ -9681,14 +11105,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Crafts",
+        "type": "Video games",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618291798l/50611213.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/50611213-pok-mon-crochet"
         }
       },
       {
-        "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+        "title": "Salt Fat Acid Heat",
         "author": "Samin Nosrat",
         "series": "",
         "seriesNo": null,
@@ -9698,15 +11122,34 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51ocrgXUB4L._SS135_.jpg",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732435939l/35019164.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35019164-salt-fat-acid-heat",
           "amazon": "https://www.amazon.co.uk/dp/1782112308",
           "waterstones": "https://www.waterstones.com/book/salt-fat-acid-heat/samin-nosrat/wendy-macnaughton/9781782112303"
         }
       },
       {
-        "title": "Bon Appetit: The Food Lover's Cleanse: 140 Delicious, Nourishing Recipes That Will Tempt You Back into Healthful Eating",
+        "title": "Salt Fat Acid Heat. Cztery sk\u0142adniki",
+        "author": "Samin Nosrat",
+        "series": "",
+        "seriesNo": null,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "physical"
+        ],
+        "audiobook": false,
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586107940l/52965840.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52965840-salt-fat-acid-heat-cztery-sk-adniki",
+          "amazon": "https://www.amazon.co.uk/dp/8324070370"
+        }
+      },
+      {
+        "title": "The Bon Appetit Food Lover's Cleanse : 140 Delicious, nourishing recipes that will tempt you back into healthful eating",
         "author": "Sara Dickerman",
         "series": "",
         "seriesNo": null,
@@ -9716,9 +11159,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
-        "img": "https://m.media-amazon.com/images/I/51GLHiH9jcL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449997158l/25817394.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25817394-the-bon-appetit-food-lover-s-cleanse",
           "amazon": "https://www.amazon.co.uk/dp/0062390236",
           "waterstones": "https://www.waterstones.com/book/bon-appetit-the-food-lovers-cleanse/sara-dickerman/9780062390233"
         }
@@ -9734,7 +11178,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620324329l/50659467.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses",
@@ -9752,7 +11196,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620325671l/50659468.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury",
@@ -9770,7 +11214,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585623092l/50659472.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin"
@@ -9787,7 +11231,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585622963l/50659471.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-starlight"
@@ -9804,7 +11248,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734440950l/53138095.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames",
@@ -9813,7 +11257,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "The Legend of Zelda: A Link to the Past",
-        "author": "Shotaro Ishinomori",
+        "author": "Sh\u014dtar\u014d Ishinomori",
         "series": "",
         "seriesNo": null,
         "status": "owned",
@@ -9822,9 +11266,10 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Video Game Books",
-        "img": "https://m.media-amazon.com/images/I/51+KiK0PokL._SS135_.jpg",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1422848719l/24796699.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/24796699-the-legend-of-zelda",
           "amazon": "https://www.amazon.co.uk/dp/1421575418"
         }
       },
@@ -9839,7 +11284,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502518360l/35074096.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/35074096-mythos---the-greek-myths-retold",
@@ -9847,9 +11292,9 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "Heroes, Vol. 2",
+        "title": "Heroes: Mortals and Monsters, Quests and Adventures, Vol. 2",
         "author": "Stephen Fry",
-        "series": "Stephen Fry\u2019s Greek Myths",
+        "series": "Stephen Fry's Great Mythology",
         "seriesNo": 2,
         "status": "owned",
         "formats": [
@@ -9857,10 +11302,29 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/4QRuDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555336384l/42643896.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42643896-heroes",
           "play": "https://play.google.com/store/books/details?id=4QRuDwAAQBAJ"
+        }
+      },
+      {
+        "title": "Odyssey, Vol. 4",
+        "author": "Stephen Fry",
+        "series": "Stephen Fry's Great Mythology",
+        "seriesNo": 4,
+        "status": "wanted",
+        "formats": [],
+        "wants": [
+          "digital"
+        ],
+        "audiobook": false,
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750428931l/236902394.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/236902394-odyssey",
+          "play": "https://play.google.com/store/books/details?id=biJhEAAAQBAJ"
         }
       },
       {
@@ -9874,27 +11338,29 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/10LlDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625333859l/57188408.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/57188408-troy",
           "play": "https://play.google.com/store/books/details?id=10LlDwAAQBAJ"
         }
       },
       {
-        "title": "Odyssey: The film only tells half the story - go on the full journey with Stephen Fry, Vol. 4",
-        "author": "Stephen Fry",
-        "series": "Stephen Fry\u2019s Greek Myths",
-        "seriesNo": 4,
+        "title": "The Legend of Zelda: A Link Between Worlds: Prima Official Game Guide",
+        "author": "Stephen Stratton",
+        "series": "",
+        "seriesNo": null,
         "status": "wanted",
         "formats": [],
         "wants": [
-          "digital"
+          "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/biJhEAAAQBAJ?fife",
+        "type": "Zelda",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381289470l/18282978.jpg",
         "links": {
-          "play": "https://play.google.com/store/books/details?id=biJhEAAAQBAJ"
+          "goodreads": "https://www.goodreads.com/book/show/18282978-the-legend-of-zelda",
+          "amazon": "https://www.amazon.co.uk/dp/0804162727"
         }
       },
       {
@@ -9908,27 +11374,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/51ZtYh-Ai4L._SS135_.jpg",
         "links": {
           "amazon": "https://www.amazon.co.uk/dp/B07HY1T7PR"
-        }
-      },
-      {
-        "title": "Spy x Family, Vol. 1",
-        "author": "Tatsuya Endo",
-        "series": "Spy x Family",
-        "seriesNo": 1,
-        "status": "wanted",
-        "formats": [],
-        "wants": [
-          "digital"
-        ],
-        "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/ud3lDwAAQBAJ?fife",
-        "links": {
-          "play": "https://play.google.com/store/books/details?id=ud3lDwAAQBAJ"
         }
       },
       {
@@ -9939,14 +11388,16 @@ window.SITE_CONTENT = {
         "status": "wanted",
         "formats": [],
         "wants": [
+          "digital",
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
+        "type": "Manga",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562168651l/52961491.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/52961491-spy-family-1",
-          "amazon": "https://www.amazon.co.uk/dp/B088W7RWXS"
+          "amazon": "https://www.amazon.co.uk/dp/B088W7RWXS",
+          "play": "https://play.google.com/store/books/details?id=ud3lDwAAQBAJ"
         }
       },
       {
@@ -9961,9 +11412,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/B1L4DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589104880l/50891127.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891127-spy-x-family-vol-2",
           "amazon": "https://www.amazon.co.uk/dp/B08G7KGVGG",
           "waterstones": "https://www.waterstones.com/book/spy-x-family-vol-2-volume-2/tatsuya-endo/9781974717248",
           "play": "https://play.google.com/store/books/details?id=B1L4DwAAQBAJ"
@@ -9980,9 +11432,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://m.media-amazon.com/images/I/41Xl5sv91wL._SS135_.jpg",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595162342l/50891122.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891122-spy-x-family-vol-3",
           "amazon": "https://www.amazon.co.uk/dp/B08NSP7LY3"
         }
       },
@@ -9997,7 +11450,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622046810l/55711190.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/55711190-the-encyclopedia-of-cocktails",
@@ -10016,7 +11469,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682971098l/63006724.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts",
@@ -10035,7 +11488,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684083978l/61273021.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas",
@@ -10054,7 +11507,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Computer Science & Business",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372055509l/5684120.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/5684120-business-database-systems"
@@ -10071,7 +11524,7 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710812969l/210137355.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta",
@@ -10080,7 +11533,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 7",
+        "title": "Komi Can't Communicate, Vol. 7",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 7,
@@ -10090,14 +11543,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/kZDnDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854302l/52758160.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758160-komi-can-t-communicate-vol-7",
           "play": "https://play.google.com/store/books/details?id=kZDnDwAAQBAJ"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 9",
+        "title": "Komi Can't Communicate, Vol. 9",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 9,
@@ -10107,14 +11561,15 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/2c7_DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593356308l/50891233.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50891233-komi-can-t-communicate-vol-9",
           "play": "https://play.google.com/store/books/details?id=2c7_DwAAQBAJ"
         }
       },
       {
-        "title": "Man's Search For Meaning: The classic tribute to hope from the Holocaust",
+        "title": "Man's Search For Meaning: Classic Editions",
         "author": "Viktor E. Frankl",
         "series": "",
         "seriesNo": null,
@@ -10124,9 +11579,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/EbltAAAAQBAJ?fife",
+        "type": "Misc",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616541214l/52856156.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52856156-man-s-search-for-meaning",
           "play": "https://play.google.com/store/books/details?id=EbltAAAAQBAJ"
         }
       },
@@ -10141,7 +11597,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Non-Fiction",
+        "type": "Misc",
         "img": "https://m.media-amazon.com/images/I/71lcfjugeUL._AC_SL500_.jpg",
         "links": {}
       },
@@ -10156,14 +11612,14 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561823021l/51253651.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/51253651-wagamama-feed-your-soul"
         }
       },
       {
-        "title": "Ottolenghi FLAVOUR",
+        "title": "Ottolenghi Flavour",
         "author": "Yotam Ottolenghi",
         "series": "",
         "seriesNo": null,
@@ -10173,15 +11629,16 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Non-Fiction",
-        "img": "https://m.media-amazon.com/images/I/41-UqRz8cSL._SS135_.jpg",
+        "type": "Cookbooks",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599233888l/51781451.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51781451-ottolenghi-flavour",
           "amazon": "https://www.amazon.co.uk/dp/B0852XM4M7"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 1 Volume 1: Endless Wilderness",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 1",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 1,
         "status": "wanted",
@@ -10191,17 +11648,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/hc8OAwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395667978l/18774875.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/18774875-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421572540",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-1-volume-1/yuto-tsukuda/shun-saeki/9781421572543",
           "play": "https://play.google.com/store/books/details?id=hc8OAwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 2 Volume 2: The Ice Queen And The Spring Storm",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 2",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 2,
         "status": "wanted",
@@ -10211,17 +11669,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/96SHAwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390058l/21412044.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/21412044-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421572559",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-2-volume-2/yuto-tsukuda/shun-saeki/9781421572550",
           "play": "https://play.google.com/store/books/details?id=96SHAwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 3 Volume 3: The Perfect Recette",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 3",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 3,
         "status": "wanted",
@@ -10231,17 +11690,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/HqY8BAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403390766l/21412020.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/21412020-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421572567",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-3-volume-3/yuto-tsukuda/shun-saeki/9781421572567",
           "play": "https://play.google.com/store/books/details?id=HqY8BAAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 4 Volume 4: Resemblances",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 4",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 4,
         "status": "wanted",
@@ -10251,17 +11711,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Rc88BQAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411349886l/22609126.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22609126-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421572575",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-4-volume-4/yuto-tsukuda/shun-saeki/9781421572574",
           "play": "https://play.google.com/store/books/details?id=Rc88BQAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 5 Volume 5: The Dancing Chef",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 5",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 5,
         "status": "wanted",
@@ -10271,17 +11732,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/x7PYBgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419212706l/22609123.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/22609123-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421573857",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-5-volume-5/yuto-tsukuda/shun-saeki/9781421573854",
           "play": "https://play.google.com/store/books/details?id=x7PYBgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 6 Volume 6: Memories of Battle",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 6",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 6,
         "status": "wanted",
@@ -10291,17 +11753,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/9VRFCQAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425611168l/23492394.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/23492394-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421576880",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-6-volume-6/yuto-tsukuda/shun-saeki/9781421576886",
           "play": "https://play.google.com/store/books/details?id=9VRFCQAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 7 Volume 7: Wolf Pack",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 7",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 7,
         "status": "wanted",
@@ -10311,17 +11774,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/v_89CgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429096943l/23492376.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/23492376-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421579650",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-7-volume-7/yuto-tsukuda/shun-saeki/9781421579658",
           "play": "https://play.google.com/store/books/details?id=v_89CgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 8 Volume 8: Put Your Heart Into It",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 8",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 8,
         "status": "wanted",
@@ -10331,17 +11795,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/KUSXCgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437370208l/25110932.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25110932-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421579669",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-8-volume-8/yuto-tsukuda/shun-saeki/9781421579665",
           "play": "https://play.google.com/store/books/details?id=KUSXCgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 9 Volume 9: Diamond Generation",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 9",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 9,
         "status": "wanted",
@@ -10351,17 +11816,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/CVrwCgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440992978l/25111314.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25111314-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421580284",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-9-volume-9/yuto-tsukuda/shun-saeki/9781421580289",
           "play": "https://play.google.com/store/books/details?id=CVrwCgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 10 Volume 10: Conditions For Battle",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 10",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 10,
         "status": "wanted",
@@ -10371,17 +11837,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/sKFgCwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444274267l/25814245.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25814245-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421584468",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-10-volume-10/yuto-tsukuda/shun-saeki/9781421584461",
           "play": "https://play.google.com/store/books/details?id=sKFgCwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 11 Volume 11: The Sun Always Rises",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 11",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 11,
         "status": "wanted",
@@ -10391,17 +11858,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/yCaXCwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449431487l/25814246.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/25814246-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/142158445X",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-11-volume-11/yuto-tsukuda/shun-saeki/9781421584454",
           "play": "https://play.google.com/store/books/details?id=yCaXCwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 12 Volume 12: Moonlight Memories",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 12",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 12,
         "status": "wanted",
@@ -10411,17 +11879,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/snvjCwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457907730l/27406746.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/27406746-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421585081",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-12-volume-12/yuto-tsukuda/shun-saeki/9781421585086",
           "play": "https://play.google.com/store/books/details?id=snvjCwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 13 Volume 13: Stagiaire",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 13",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 13,
         "status": "wanted",
@@ -10431,17 +11900,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/iodKDAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459703695l/27406748.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/27406748-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/142158509X",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-13-volume-13/yuto-tsukuda/shun-saeki/9781421585093",
           "play": "https://play.google.com/store/books/details?id=iodKDAAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 14 Volume 14: The Magician Returns!",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 14: The Magician Returns!",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 14,
         "status": "wanted",
@@ -10451,17 +11921,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/qsfTDAAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470580001l/29499068.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/29499068-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/142158655X",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-14-volume-14/yuto-tsukuda/shun-saeki/9781421586557",
           "play": "https://play.google.com/store/books/details?id=qsfTDAAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 15 Volume 15: The Moon Festival",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 15: The Moon Festival",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 15,
         "status": "wanted",
@@ -10471,17 +11942,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/GUluDQAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473607634l/29499034.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/29499034-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421588145",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-15-volume-15/yuto-tsukuda/shun-saeki/9781421588148",
           "play": "https://play.google.com/store/books/details?id=GUluDQAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 16 Volume 16: Captured Queen",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 16: Captured Queen",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 16,
         "status": "wanted",
@@ -10491,17 +11963,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/ibfIDQAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479661474l/31140402.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/31140402-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421590182",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-16-volume-16/yuto-tsukuda/shun-saeki/9781421590189",
           "play": "https://play.google.com/store/books/details?id=ibfIDQAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 17 Volume 17: Making an Example",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 17: Making an Example",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 17,
         "status": "wanted",
@@ -10511,17 +11984,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/im4vDgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484919742l/31140457.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/31140457-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421590948",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-17-volume-17/yuto-tsukuda/shun-saeki/9781421590943",
           "play": "https://play.google.com/store/books/details?id=im4vDgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 18 Volume 18: Begin The Counterattack!",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 18",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 18,
         "status": "wanted",
@@ -10531,17 +12005,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/_EScDgAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488107695l/32867467.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/32867467-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421593343",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-18-volume-18/yuto-tsukuda/shun-saeki/9781421593340",
           "play": "https://play.google.com/store/books/details?id=_EScDgAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 19 Volume 19: Those Who Reach For The Top",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 19: Those Who Reach For The Top",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 19,
         "status": "wanted",
@@ -10551,17 +12026,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/pEYnDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494760134l/32919024.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/32919024-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421593351",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-19-volume-19/yuto-tsukuda/shun-saeki/9781421593357",
           "play": "https://play.google.com/store/books/details?id=pEYnDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 20 Volume 20: Frozen Thoughts",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 20: Frozen Thoughts",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 20,
         "status": "wanted",
@@ -10571,9 +12047,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/TD4wDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497084185l/34466631.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/34466631-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421594358",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-20-volume-20/yuto-tsukuda/shun-saeki/9781421594354",
           "play": "https://play.google.com/store/books/details?id=TD4wDwAAQBAJ"
@@ -10581,7 +12058,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Food Wars!: Shokugeki no Soma, Vol. 21",
-        "author": "Yuto Tsukuda",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 21,
         "status": "wanted",
@@ -10591,17 +12068,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Er48DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502043920l/34466634.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/34466634-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421594366",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-21-volume-21/yuto-tsukuda/shun-saeki/9781421594361",
           "play": "https://play.google.com/store/books/details?id=Er48DwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 22 Volume 22: Rematch With A Rival",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 22: Rematch With A Rival",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 22,
         "status": "wanted",
@@ -10611,17 +12089,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/YC1EDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505658995l/35742739.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35742739-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421597047",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-22-volume-22/yuto-tsukuda/shun-saeki/9781421597041",
           "play": "https://play.google.com/store/books/details?id=YC1EDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 23 Volume 23: Wilderness Pioneer",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 23: Wilderness Pioneer",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 23,
         "status": "wanted",
@@ -10631,17 +12110,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/MxRMDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517190493l/35742741.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35742741-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421597624",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-23-volume-23/yuto-tsukuda/shun-saeki/9781421597621",
           "play": "https://play.google.com/store/books/details?id=MxRMDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 24 Volume 24: Welcome To The Final Battleground",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 24: Welcome To The Final Battleground",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 24,
         "status": "wanted",
@@ -10651,17 +12131,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/Hq1UDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527496231l/36538810.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36538810-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1421598213",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-24-volume-24/yuto-tsukuda/shun-saeki/9781421598215",
           "play": "https://play.google.com/store/books/details?id=Hq1UDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 25 Volume 25: The Life of a Reject",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 25: The Life of a Reject",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 25,
         "status": "wanted",
@@ -10671,17 +12152,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/N85eDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527495408l/36538806.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36538806-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/142159949X",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-25-volume-25/yuto-tsukuda/shun-saeki/9781421599496",
           "play": "https://play.google.com/store/books/details?id=N85eDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 26 Volume 26: Second Bout",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 26: Second Bout",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 26,
         "status": "wanted",
@@ -10691,9 +12173,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/E2RuDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530434248l/38926435.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926435-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974701018",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-26-volume-26/yuto-tsukuda/shun-saeki/9781974701018",
           "play": "https://play.google.com/store/books/details?id=E2RuDwAAQBAJ"
@@ -10701,7 +12184,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Food Wars!: Shokugeki no Soma, Vol. 27",
-        "author": "Yuto Tsukuda",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 27,
         "status": "wanted",
@@ -10711,17 +12194,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/-6l2DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532867640l/38926389.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/38926389-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974701468",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-27-volume-27/yuto-tsukuda/shun-saeki/9781974701469",
           "play": "https://play.google.com/store/books/details?id=-6l2DwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 28 Volume 28: First-Year Kid",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 28: First-Year Kid",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 28,
         "status": "wanted",
@@ -10731,17 +12215,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/keyEDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537492538l/40680071.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40680071-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974702545",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-28-volume-28/yuto-tsukuda/shun-saeki/9781974702541",
           "play": "https://play.google.com/store/books/details?id=keyEDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 29 Volume 29: Final Battle",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 29: Final Battle",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 29,
         "status": "wanted",
@@ -10751,17 +12236,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/hfKLDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498336l/40680072.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40680072-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974705102",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-29-volume-29/yuto-tsukuda/shun-saeki/9781974705108",
           "play": "https://play.google.com/store/books/details?id=hfKLDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 30 Volume 30: The Way They Do Things",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 30",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 30,
         "status": "wanted",
@@ -10771,17 +12257,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/WqmZDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549839238l/42640872.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42640872-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974706389",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-30-volume-30/yuto-tsukuda/shun-saeki/9781974706389",
           "play": "https://play.google.com/store/books/details?id=WqmZDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 31 Volume 31: The New Totsuki Institute",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 31",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 31,
         "status": "wanted",
@@ -10791,17 +12278,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/37ikDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552848135l/42640859.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42640859-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974707741",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-31-volume-31/yuto-tsukuda/shun-saeki/9781974707744",
           "play": "https://play.google.com/store/books/details?id=37ikDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 32 Volume 32: A Subversive Visitor",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 32: A Subversive Visitor",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 32,
         "status": "wanted",
@@ -10811,17 +12299,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/fJatDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560073674l/43909420.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909420-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974709477",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-32-volume-32/yuto-tsukuda/shun-saeki/9781974709472",
           "play": "https://play.google.com/store/books/details?id=fJatDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 33 Volume 33: The True Value of the Noir",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 33",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 33,
         "status": "wanted",
@@ -10831,17 +12320,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/3w2_DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564946090l/43909431.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909431-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974709922",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-33-volume-33/yuto-tsukuda/shun-saeki/9781974709922",
           "play": "https://play.google.com/store/books/details?id=3w2_DwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 34 Volume 34: Crossed Knives",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 34",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 34,
         "status": "wanted",
@@ -10851,17 +12341,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/N5PLDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569152778l/52197561.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52197561-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974711714",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-34-volume-34/yuto-tsukuda/shun-saeki/9781974711710",
           "play": "https://play.google.com/store/books/details?id=N5PLDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 35 Volume 35: The Divine Tongue's Despair",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 35",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 35,
         "status": "wanted",
@@ -10871,17 +12362,18 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/v0LZDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573919172l/51012608.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51012608-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974712583",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-35-volume-35/yuto-tsukuda/shun-saeki/9781974712588",
           "play": "https://play.google.com/store/books/details?id=v0LZDwAAQBAJ"
         }
       },
       {
-        "title": "Food Wars!: Shokugeki no Soma, Vol. 36 Volume 36: Shokugeki No Soma",
-        "author": "Yuto Tsukuda",
+        "title": "Food Wars!: Shokugeki no Soma, Vol. 36",
+        "author": "Y\u016bto Tsukuda",
         "series": "Food Wars!: Shokugeki no Soma",
         "seriesNo": 36,
         "status": "wanted",
@@ -10891,9 +12383,10 @@ window.SITE_CONTENT = {
           "physical"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/tNzlDwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854436l/52757965.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52757965-food-wars",
           "amazon": "https://www.amazon.co.uk/dp/1974715426",
           "waterstones": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-36-volume-36/yuto-tsukuda/shun-saeki/9781974715428",
           "play": "https://play.google.com/store/books/details?id=tNzlDwAAQBAJ"
@@ -10901,7 +12394,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "No Game, No Life, Vol. 1",
-        "author": "Yuu Kamiya, Mashiro Hiiragi",
+        "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 1,
         "status": "wanted",
@@ -10910,15 +12403,16 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/LF5-DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410247217l/21801491.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/21801491-no-game-no-life-vol-1",
           "play": "https://play.google.com/store/books/details?id=LF5-DwAAQBAJ"
         }
       },
       {
         "title": "No Game, No Life, Vol. 2",
-        "author": "Yuu Kamiya, Mashiro Hiiragi",
+        "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 2,
         "status": "wanted",
@@ -10927,9 +12421,10 @@ window.SITE_CONTENT = {
           "digital"
         ],
         "audiobook": false,
-        "category": "Manga",
-        "img": "https://play.google.com/books/publisher/content/images/frontcover/SF5-DwAAQBAJ?fife",
+        "type": "Manga",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680091946l/39863195.jpg",
         "links": {
+          "goodreads": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2",
           "play": "https://play.google.com/store/books/details?id=SF5-DwAAQBAJ"
         }
       },
@@ -10944,7 +12439,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "CS & Tech",
+        "type": "Computer Science & Business",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388340226l/344711.jpg",
         "links": {
           "goodreads": "https://www.goodreads.com/book/show/344711.Interaction_Design"
@@ -10961,7 +12456,7 @@ window.SITE_CONTENT = {
         ],
         "wants": [],
         "audiobook": false,
-        "category": "Cookbooks",
+        "type": "Cookbooks",
         "img": "https://m.media-amazon.com/images/I/915kRYljm3L._AC_SL500_.jpg",
         "links": {}
       }

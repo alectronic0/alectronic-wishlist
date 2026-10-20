@@ -1,0 +1,9 @@
+{
+  "books": [
+    { "title": "The Legend of Zelda: Encyclopedia", "author": "Nintendo", "status": "owned", "formats": ["physical", "digital"] },
+    { "title": "Norse Mythology", "author": "Neil Gaiman", "status": "owned", "formats": ["digital"] },
+    { "title": "A Court of Thorns and Roses", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"] },
+    { "title": "A Court of Mist and Fury", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"] },
+    { "title": "Mythos", "author": "Stephen Fry", "status": "owned", "formats": ["digital"] }
+  ]
+}

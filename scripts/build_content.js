@@ -20,6 +20,8 @@ const ROOT = path.join(__dirname, '..');
 const CONTENT_FILE = path.join(ROOT, 'js', 'content.js');
 const AMAZON_FILE = path.join(ROOT, 'data', 'sources', 'amazon.json');
 const GOODREADS_FILE = path.join(ROOT, 'data', 'sources', 'goodreads.json');
+const BOOKS_MASTER_FILE = path.join(ROOT, 'data', 'books_master.json');
+const GOODREADS_META_FILE = path.join(ROOT, 'data', 'goodreads_meta.json');
 const NINTENDO_FILE = path.join(ROOT, 'data', 'sources', 'nintendo.json');
 const LEGO_FILE = path.join(ROOT, 'data', 'sources', 'lego.json');
 const BGG_FILE = path.join(ROOT, 'data', 'sources', 'bgg.json');
@@ -435,6 +437,72 @@ function syncGoodreads(content, goodreads, overrides) {
   syncGoodreadsShelf(content, goodreads.shelves['my-wishlist'], 'wanted', overrides);
 }
 
+// The books page renders the merged master list (scripts/books_merge.js); books.normal and books.manga
+// stay as the hand-entered evidence the merge reads back in
+const LIBRARY_LINKS = [
+  ['goodreads', source => source.startsWith('goodreads:')],
+  ['amazon', source => source === 'amazon'],
+  ['waterstones', source => source === 'waterstones'],
+  ['play', source => source.startsWith('play')]
+];
+
+function libraryLinks(sources) {
+  const links = {};
+  for (const [name, test] of LIBRARY_LINKS) {
+    const hit = Object.entries(sources).find(([source, entry]) => test(source) && entry.url);
+    if (hit) {
+      links[name] = hit[1].url;
+    }
+  }
+  return links;
+}
+
+// Checked in order, so Zelda manga lands under Zelda and a business novel under CS rather than fiction
+const BOOK_TYPE_RULES = [
+  { type: 'Zelda', title: /zelda|hyrule/i },
+  { type: 'Video games', title: /game boy|prima|pok[eé]mon|nintendo|minecraft|official guide|strategy guide|video game/i, genres: ['video-games', 'gaming'] },
+  { type: 'Manga', title: /\bmanga\b|vol\. ?\d/i, genres: ['manga', 'graphic-novels', 'comics', 'manhwa', 'light-novel'] },
+  { type: 'Cookbooks', title: /cook|recipe|kitchen|baking|pasta|preserve|dessert|cocktail|pastry|patisserie|flavour|food/i, genres: ['cookbooks', 'cooking', 'food'] },
+  { type: 'Computer Science & Business', title: /programming|software|computer|devops|developer|python|javascript|arduino|scrum|product|business|startup|\bit\b/i, genres: ['programming', 'computer-science', 'technology', 'business', 'productivity', 'leadership', 'entrepreneurship', 'management', 'software', 'coding', 'design'] },
+  { type: 'Fantasy & Sci-fi', title: /court of|mythos|mythology|dragon|wizard/i, genres: ['fantasy', 'science-fiction', 'science-fiction-fantasy', 'dystopia', 'magic', 'mythology', 'fiction'] },
+  { type: 'Non-fiction', title: /phrasebook|history|guide to/i, genres: ['nonfiction', 'history', 'science', 'psychology', 'self-help', 'travel', 'philosophy', 'art'] }
+];
+
+function bookType(book, genres, overrides) {
+  const manual = (overrides.types || {})[book.title];
+  if (manual) {
+    return manual;
+  }
+  const text = `${book.title} ${book.series}`;
+  const byTitle = rule => rule.title.test(text);
+  const byGenre = rule => (rule.genres || []).some(genre => genres.includes(genre));
+  // Zelda and video-game books are known by name; genres decide the rest, titles only as a fallback
+  const named = BOOK_TYPE_RULES.slice(0, 2).find(byTitle);
+  const rule = named || BOOK_TYPE_RULES.find(byGenre) || BOOK_TYPE_RULES.find(byTitle);
+  return rule ? rule.type : 'Misc';
+}
+
+function goodreadsGenres(sources, meta) {
+  const ids = Object.entries(sources).filter(([source]) => source.startsWith('goodreads:') || source === 'series').flatMap(([, entry]) => entry.refs);
+  return [...new Set(ids.flatMap(id => (meta[id] && meta[id].genres) || []))];
+}
+
+function syncLibrary(content, master, overrides, meta) {
+  content.books.library = master.books.map(book => ({
+    title: book.title,
+    author: book.author,
+    series: book.series,
+    seriesNo: book.seriesNo,
+    status: book.status,
+    formats: book.formats,
+    wants: book.wants,
+    audiobook: book.audiobook,
+    type: bookType(book, goodreadsGenres(book.sources, meta), overrides),
+    img: book.img,
+    links: libraryLinks(book.sources)
+  }));
+}
+
 function legoTheme(id, overrides) {
   return overrides.themes[id] || overrides.defaultTheme;
 }
@@ -841,6 +909,10 @@ function main() {
   syncGames(content, JSON.parse(fs.readFileSync(IGDB_FILE, 'utf8')), overrides.videogames);
   syncNintendo(content, nintendo, overrides.zelda, overrides.nintendo.removed);
   syncGoodreads(content, JSON.parse(fs.readFileSync(GOODREADS_FILE, 'utf8')), overrides.books);
+  const booksMaster = safeLoadJson(BOOKS_MASTER_FILE);
+  if (booksMaster) {
+    syncLibrary(content, booksMaster, overrides.books, safeLoadJson(GOODREADS_META_FILE, {}));
+  }
   syncLego(content, lego, overrides.lego);
   reportBgg(content, JSON.parse(fs.readFileSync(BGG_FILE, 'utf8')));
   syncShop(content, shop);

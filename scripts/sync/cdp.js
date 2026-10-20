@@ -47,9 +47,11 @@ function evaluate(urlFilter, expression) {
 }
 
 /**
- * Opens `url` in a new tab, evaluates `expression` there (it must return a JSON string) and closes the tab.
+ * Opens `url` in a new tab and hands `work` an `evalHere(expression)` function for that tab; the tab is
+ * closed afterwards. The bridge gives up on a single evaluation after about a minute, so long jobs
+ * should be split into several short evaluations here rather than one long one.
  */
-async function evalInNewTab(url, expression, waitMs = LOAD_WAIT_MS) {
+async function withTab(url, work, waitMs = LOAD_WAIT_MS) {
   const tabId = powershell(`(Invoke-RestMethod -Method Put -Uri '${DEVTOOLS}/json/new?${shellSafeUrl(url)}').id`);
   if (!/^[A-F0-9]+$/i.test(tabId)) {
     throw new Error(`Chrome did not return a tab id for ${url}`);
@@ -57,12 +59,19 @@ async function evalInNewTab(url, expression, waitMs = LOAD_WAIT_MS) {
   try {
     await sleep(waitMs);
     // The bridge finds tabs by URL, and sites redirect or rewrite it, so ask Chrome where the tab ended up.
-    // Another tab on the same URL would serve equally well: these scripts only read.
-    const landedUrl = powershell(`((Invoke-RestMethod -Uri '${DEVTOOLS}/json/list') | Where-Object { $_.id -eq '${tabId}' }).url`);
-    return evaluate(landedUrl.replace(/[\[\]]/g, '?'), expression);
+    // Another tab on the same URL shares the signed-in session, so it serves equally well.
+    const landedUrl = () => powershell(`((Invoke-RestMethod -Uri '${DEVTOOLS}/json/list') | Where-Object { $_.id -eq '${tabId}' }).url`);
+    return await work(expression => evaluate(landedUrl().replace(/[\[\]]/g, '?'), expression));
   } finally {
     powershell(`Invoke-RestMethod -Uri '${DEVTOOLS}/json/close/${tabId}' | Out-Null`);
   }
 }
 
-module.exports = { evalInNewTab, shellSafeUrl };
+/**
+ * Opens `url` in a new tab, evaluates `expression` there (it must return a JSON string) and closes the tab.
+ */
+async function evalInNewTab(url, expression, waitMs = LOAD_WAIT_MS) {
+  return withTab(url, evalHere => evalHere(expression), waitMs);
+}
+
+module.exports = { evalInNewTab, withTab, shellSafeUrl, sleep };

@@ -3,7 +3,7 @@
 /**
  * Goodreads Shelf Sync
  *
- * Goodreads is the source of truth for books: my-bookcase = owned, my-wishlist = wanted.
+ * my-bookcase = owned, my-wishlist = wanted, owned-physical / owned-digital = format of an owned copy.
  * Shelves are fetched from inside a signed-in automation Chrome tab over CDP.
  *
  * Usage:
@@ -18,7 +18,7 @@ const USER_ID = '194943775';
 const ORIGIN = 'https://www.goodreads.com';
 const PROFILE_URL = `${ORIGIN}/user/show/${USER_ID}`;
 const OUTPUT_FILE = path.join(__dirname, '..', '..', 'data', 'sources', 'goodreads.json');
-const SHELVES = ['my-bookcase', 'my-wishlist', 'to-read', 'read', 'currently-reading', 'did-not-finish'];
+const SHELVES = ['my-bookcase', 'my-wishlist', 'owned-physical', 'owned-digital', 'to-read', 'read', 'currently-reading', 'did-not-finish'];
 const PER_PAGE = 100;
 
 const PAGE_SCRIPT = `(async () => {

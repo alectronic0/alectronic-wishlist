@@ -13,16 +13,20 @@
     "sync:lego": "node scripts/sync/lego.js",
     "sync:nintendo": "node scripts/sync/nintendo.js",
     "sync:goodreads": "node scripts/sync/goodreads.js",
+    "sync:playbooks": "node scripts/sync/playbooks.js",
+    "sync:waterstones": "node scripts/sync/waterstones.js",
     "sync:etsy": "node scripts/sync/etsy.js",
     "sync:shop": "node scripts/sync/shop.js",
     "sync:pokemon": "node scripts/sync/pokemon_center.js",
     "sync:manual": "node scripts/sync/shop.js --only-export && node scripts/sync/amazon_orders.js --only-export && node scripts/sync/pokemon_center.js --only-export",
-    "sync:wishlists": "npm run sync:amazon && npm run sync:igdb && npm run sync:bgg && npm run sync:lego && npm run sync:nintendo && npm run sync:goodreads && npm run sync:etsy",
+    "sync:wishlists": "npm run sync:amazon && npm run sync:igdb && npm run sync:bgg && npm run sync:lego && npm run sync:nintendo && npm run sync:goodreads && npm run sync:playbooks && npm run sync:waterstones && npm run sync:etsy",
     "sync:orders": "npm run sync:amazon:orders && npm run sync:shop && npm run sync:pokemon && npm run sync:lego && npm run sync:nintendo",
     "sync": "npm run sync:wishlists && npm run sync:orders && npm run build",
     "sync:all": "npm run sync",
-    "build": "node scripts/build_content.js",
-    "check:links": "node scripts/check_links.js"
+    "build": "npm run books:plan && node scripts/build_content.js",
+    "check:links": "node scripts/check_links.js",
+    "books:plan": "node scripts/books_merge.js",
+    "books:push": "node scripts/sync/goodreads_push.js --lookup && node scripts/sync/goodreads_push.js --apply && node scripts/sync/waterstones.js --apply"
   },
   "dependencies": {
     "puppeteer": "^24.40.0"

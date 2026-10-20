@@ -1,0 +1,1059 @@
+{
+  "scrapedAt": "2026-10-20T21:44:57.333Z",
+  "url": "https://www.waterstones.com/account/list/id/55345240",
+  "books": [
+    {
+      "id": "10170841",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 36 Volume 36: Shokugeki No Soma",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974715428",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974715428.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-36-volume-36/yuto-tsukuda/shun-saeki/9781974715428"
+    },
+    {
+      "id": "10190535",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 35 Volume 35: The Divine Tongue's Despair",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974712588",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974712588.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-35-volume-35/yuto-tsukuda/shun-saeki/9781974712588"
+    },
+    {
+      "id": "9958009",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 34 Volume 34: Crossed Knives",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974711710",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974711710.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-34-volume-34/yuto-tsukuda/shun-saeki/9781974711710"
+    },
+    {
+      "id": "9742214",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 33 Volume 33: The True Value of the Noir",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974709922",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709922.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-33-volume-33/yuto-tsukuda/shun-saeki/9781974709922"
+    },
+    {
+      "id": "9735188",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 32 Volume 32: A Subversive Visitor",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974709472",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709472.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-32-volume-32/yuto-tsukuda/shun-saeki/9781974709472"
+    },
+    {
+      "id": "9710552",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 31 Volume 31: The New Totsuki Institute",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974707744",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974707744.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-31-volume-31/yuto-tsukuda/shun-saeki/9781974707744"
+    },
+    {
+      "id": "9632061",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 30 Volume 30: The Way They Do Things",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974706389",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974706389.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-30-volume-30/yuto-tsukuda/shun-saeki/9781974706389"
+    },
+    {
+      "id": "9158198",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 29 Volume 29: Final Battle",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974705108",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974705108.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-29-volume-29/yuto-tsukuda/shun-saeki/9781974705108"
+    },
+    {
+      "id": "9158097",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 28 Volume 28: First-Year Kid",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974702541",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974702541.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-28-volume-28/yuto-tsukuda/shun-saeki/9781974702541"
+    },
+    {
+      "id": "8990670",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 27",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974701469",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974701469.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-27-volume-27/yuto-tsukuda/shun-saeki/9781974701469"
+    },
+    {
+      "id": "8945754",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 26 Volume 26: Second Bout",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781974701018",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974701018.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-26-volume-26/yuto-tsukuda/shun-saeki/9781974701018"
+    },
+    {
+      "id": "8647500",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 25 Volume 25: The Life of a Reject",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421599496",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599496.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-25-volume-25/yuto-tsukuda/shun-saeki/9781421599496"
+    },
+    {
+      "id": "8607826",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 24 Volume 24: Welcome To The Final Battleground",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421598215",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421598215.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-24-volume-24/yuto-tsukuda/shun-saeki/9781421598215"
+    },
+    {
+      "id": "8543572",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 23 Volume 23: Wilderness Pioneer",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421597621",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421597621.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-23-volume-23/yuto-tsukuda/shun-saeki/9781421597621"
+    },
+    {
+      "id": "8492832",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 22 Volume 22: Rematch With A Rival",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421597041",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421597041.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-22-volume-22/yuto-tsukuda/shun-saeki/9781421597041"
+    },
+    {
+      "id": "8203120",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 21",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421594361",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421594361.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-21-volume-21/yuto-tsukuda/shun-saeki/9781421594361"
+    },
+    {
+      "id": "8160099",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 20 Volume 20: Frozen Thoughts",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421594354",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421594354.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-20-volume-20/yuto-tsukuda/shun-saeki/9781421594354"
+    },
+    {
+      "id": "8145615",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 19 Volume 19: Those Who Reach For The Top",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421593357",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421593357.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-19-volume-19/yuto-tsukuda/shun-saeki/9781421593357"
+    },
+    {
+      "id": "7942380",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 18 Volume 18: Begin The Counterattack!",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421593340",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421593340.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-18-volume-18/yuto-tsukuda/shun-saeki/9781421593340"
+    },
+    {
+      "id": "7777870",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 17 Volume 17: Making an Example",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421590943",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421590943.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-17-volume-17/yuto-tsukuda/shun-saeki/9781421590943"
+    },
+    {
+      "id": "7574704",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 16 Volume 16: Captured Queen",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421590189",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421590189.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-16-volume-16/yuto-tsukuda/shun-saeki/9781421590189"
+    },
+    {
+      "id": "6839243",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 15 Volume 15: The Moon Festival",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421588148",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421588148.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-15-volume-15/yuto-tsukuda/shun-saeki/9781421588148"
+    },
+    {
+      "id": "6839241",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 14 Volume 14: The Magician Returns!",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421586557",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421586557.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-14-volume-14/yuto-tsukuda/shun-saeki/9781421586557"
+    },
+    {
+      "id": "6831263",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 13 Volume 13: Stagiaire",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421585093",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421585093.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-13-volume-13/yuto-tsukuda/shun-saeki/9781421585093"
+    },
+    {
+      "id": "6459216",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 12 Volume 12: Moonlight Memories",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421585086",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421585086.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-12-volume-12/yuto-tsukuda/shun-saeki/9781421585086"
+    },
+    {
+      "id": "5860439",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 11 Volume 11: The Sun Always Rises",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421584454",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421584454.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-11-volume-11/yuto-tsukuda/shun-saeki/9781421584454"
+    },
+    {
+      "id": "5860411",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 10 Volume 10: Conditions For Battle",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421584461",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421584461.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-10-volume-10/yuto-tsukuda/shun-saeki/9781421584461"
+    },
+    {
+      "id": "5653873",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 9 Volume 9: Diamond Generation",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421580289",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421580289.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-9-volume-9/yuto-tsukuda/shun-saeki/9781421580289"
+    },
+    {
+      "id": "5387011",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 8 Volume 8: Put Your Heart Into It",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421579665",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421579665.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-8-volume-8/yuto-tsukuda/shun-saeki/9781421579665"
+    },
+    {
+      "id": "4894834",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 7 Volume 7: Wolf Pack",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421579658",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421579658.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-7-volume-7/yuto-tsukuda/shun-saeki/9781421579658"
+    },
+    {
+      "id": "4842859",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 6 Volume 6: Memories of Battle",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421576886",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421576886.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-6-volume-6/yuto-tsukuda/shun-saeki/9781421576886"
+    },
+    {
+      "id": "4914941",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 5 Volume 5: The Dancing Chef",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421573854",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421573854.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-5-volume-5/yuto-tsukuda/shun-saeki/9781421573854"
+    },
+    {
+      "id": "4841842",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 4 Volume 4: Resemblances",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421572574",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421572574.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-4-volume-4/yuto-tsukuda/shun-saeki/9781421572574"
+    },
+    {
+      "id": "4841844",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 3 Volume 3: The Perfect Recette",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421572567",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421572567.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-3-volume-3/yuto-tsukuda/shun-saeki/9781421572567"
+    },
+    {
+      "id": "4801442",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 2 Volume 2: The Ice Queen And The Spring Storm",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421572550",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421572550.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-2-volume-2/yuto-tsukuda/shun-saeki/9781421572550"
+    },
+    {
+      "id": "4801441",
+      "title": "Food Wars!: Shokugeki no Soma, Vol. 1 Volume 1: Endless Wilderness",
+      "author": "Yuto Tsukuda",
+      "isbn13": "9781421572543",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421572543.jpg",
+      "url": "https://www.waterstones.com/book/food-wars-shokugeki-no-soma-vol-1-volume-1/yuto-tsukuda/shun-saeki/9781421572543"
+    },
+    {
+      "id": "16761986",
+      "title": "The Encyclopedia of Pasta: Over 350 Recipes for the Ultimate Comfort Food",
+      "author": "The Coastal Kitchen",
+      "isbn13": "9781400346103",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4003/9781400346103.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-pasta/the-coastal-kitchen/9781400346103"
+    },
+    {
+      "id": "14673491",
+      "title": "The Encyclopedia of Tapas: 400 Small Plates for All Occasions",
+      "author": "The Coastal Kitchen",
+      "isbn13": "9781646433438",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6464/9781646433438.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-tapas/the-coastal-kitchen/9781646433438"
+    },
+    {
+      "id": "14671952",
+      "title": "The Encyclopedia of Desserts: 400 Internationally Inspired Sweets and   Confections",
+      "author": "The Coastal Kitchen",
+      "isbn13": "9781646434107",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6464/9781646434107.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-desserts/the-coastal-kitchen/9781646434107"
+    },
+    {
+      "id": "10907241",
+      "title": "The Encyclopedia of Cocktails: Over 1,000 Cocktails for Every Occasion",
+      "author": "The Coastal Kitchen",
+      "isbn13": "9781646430987",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6464/9781646430987.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-cocktails/the-coastal-kitchen/9781646430987"
+    },
+    {
+      "id": "10299827",
+      "title": "Spy x Family, Vol. 2",
+      "author": "Tatsuya Endo",
+      "isbn13": "9781974717248",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717248.jpg",
+      "url": "https://www.waterstones.com/book/spy-x-family-vol-2-volume-2/tatsuya-endo/9781974717248"
+    },
+    {
+      "id": "18300374",
+      "title": "A Court of Silver Flames",
+      "author": "Sarah J. Maas",
+      "isbn13": "9781681196282",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6811/9781681196282.jpg",
+      "url": "https://www.waterstones.com/book/a-court-of-silver-flames/sarah-j-maas/9781681196282"
+    },
+    {
+      "id": "5387314",
+      "title": "Bon Appetit: The Food Lover's Cleanse: 140 Delicious, Nourishing Recipes That Will Tempt You Back into Healthful Eating",
+      "author": "Sara Dickerman",
+      "isbn13": "9780062390233",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/0623/9780062390233.jpg",
+      "url": "https://www.waterstones.com/book/bon-appetit-the-food-lovers-cleanse/sara-dickerman/9780062390233"
+    },
+    {
+      "id": "7933802",
+      "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+      "author": "Samin Nosrat",
+      "isbn13": "9781782112303",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/7821/9781782112303.jpg",
+      "url": "https://www.waterstones.com/book/salt-fat-acid-heat/samin-nosrat/wendy-macnaughton/9781782112303"
+    },
+    {
+      "id": "5877242",
+      "title": "The Legend of Zelda: Tri Force Heroes Collector's Edition Guide",
+      "author": "Prima Games",
+      "isbn13": "9780744016697",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/7440/9780744016697.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-tri-force-heroes-collectors-edition-guide/prima-games/9780744016697"
+    },
+    {
+      "id": "277713",
+      "title": "Hyrule Warriors",
+      "author": "Prima Games",
+      "isbn13": "9781101898154",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/1018/9781101898154.jpg",
+      "url": "https://www.waterstones.com/book/hyrule-warriors/prima-games/9781101898154"
+    },
+    {
+      "id": "19172431",
+      "title": "The French Chef Handbook: La cuisine de reference",
+      "author": "Michel Maincent-Morel",
+      "isbn13": "9782857086956",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9782/8570/9782857086956.jpg",
+      "url": "https://www.waterstones.com/book/the-french-chef-handbook/michel-maincent-morel/9782857086956"
+    },
+    {
+      "id": "10540754",
+      "title": "The Pasta Man: The Art of Making Spectacular Pasta – with 40 Recipes",
+      "author": "Mateo Zielonka",
+      "isbn13": "9781787136199",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/7871/9781787136199.jpg",
+      "url": "https://www.waterstones.com/book/the-pasta-man/mateo-zielonka/9781787136199"
+    },
+    {
+      "id": "7908",
+      "title": "The Essentials of Classic Italian Cooking",
+      "author": "Marcella Hazan",
+      "isbn13": "9780752227900",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/7522/9780752227900.jpg",
+      "url": "https://www.waterstones.com/book/the-essentials-of-classic-italian-cooking/marcella-hazan/9780752227900"
+    },
+    {
+      "id": "4893218",
+      "title": "My Hero Academia, Vol. 1",
+      "author": "Kohei Horikoshi",
+      "isbn13": "9781421582696",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421582696.jpg",
+      "url": "https://www.waterstones.com/book/my-hero-academia-vol-1-volume-1/kohei-horikoshi/9781421582696"
+    },
+    {
+      "id": "10722528",
+      "title": "Fly Me to the Moon, Vol. 5",
+      "author": "Kenjiro Hata",
+      "isbn13": "9781974719235",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974719235.jpg",
+      "url": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-5-volume-5/kenjiro-hata/9781974719235"
+    },
+    {
+      "id": "10725132",
+      "title": "Fly Me to the Moon, Vol. 4",
+      "author": "Kenjiro Hata",
+      "isbn13": "9781974717521",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717521.jpg",
+      "url": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-4-volume-4/kenjiro-hata/9781974717521"
+    },
+    {
+      "id": "10496153",
+      "title": "Fly Me to the Moon, Vol. 3",
+      "author": "Kenjiro Hata",
+      "isbn13": "9781974717514",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717514.jpg",
+      "url": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-3-volume-3/kenjiro-hata/9781974717514"
+    },
+    {
+      "id": "10414962",
+      "title": "Fly Me to the Moon, Vol. 2",
+      "author": "Kenjiro Hata",
+      "isbn13": "9781974717507",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717507.jpg",
+      "url": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-2-volume-2/kenjiro-hata/9781974717507"
+    },
+    {
+      "id": "10299823",
+      "title": "Fly Me to the Moon, Vol. 1",
+      "author": "Kenjiro Hata",
+      "isbn13": "9781974717491",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717491.jpg",
+      "url": "https://www.waterstones.com/book/fly-me-to-the-moon-vol-1-volume-1/kenjiro-hata/9781974717491"
+    },
+    {
+      "id": "2306311",
+      "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]",
+      "author": "Ken Forkish",
+      "isbn13": "9781607742739",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6077/9781607742739.jpg",
+      "url": "https://www.waterstones.com/book/flour-water-salt-yeast/ken-forkish/9781607742739"
+    },
+    {
+      "id": "9224208",
+      "title": "Witch Hat Atelier 1",
+      "author": "Kamome Shirahama",
+      "isbn13": "9781632367709",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6323/9781632367709.jpg",
+      "url": "https://www.waterstones.com/book/witch-hat-atelier-1/kamome-shirahama/9781632367709"
+    },
+    {
+      "id": "2757057",
+      "title": "The Slim Palate Paleo Cookbook",
+      "author": "Joshua Weissman",
+      "isbn13": "9781628600117",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6286/9781628600117.jpg",
+      "url": "https://www.waterstones.com/book/the-slim-palate-paleo-cookbook/joshua-weissman/9781628600117"
+    },
+    {
+      "id": "5016487",
+      "title": "Cooking for Geeks, 2e",
+      "author": "Jeff Potter",
+      "isbn13": "9781491928059",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4919/9781491928059.jpg",
+      "url": "https://www.waterstones.com/book/cooking-for-geeks-2e/jeff-potter/9781491928059"
+    },
+    {
+      "id": "5575136",
+      "title": "The Food Lab: Better Home Cooking Through Science",
+      "author": "J. Kenji López-Alt",
+      "isbn13": "9780393081084",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/3930/9780393081084.jpg",
+      "url": "https://www.waterstones.com/book/the-food-lab/j-kenji-l-pez-alt/9780393081084"
+    },
+    {
+      "id": "11836109",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 18",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700066",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700066.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-18-volume-18/hiromu-arakawa/9781974700066"
+    },
+    {
+      "id": "11791932",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 17",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700059",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700059.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-17-volume-17/hiromu-arakawa/9781974700059"
+    },
+    {
+      "id": "11444825",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 16",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700042",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700042.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-16-volume-16/hiromu-arakawa/9781974700042"
+    },
+    {
+      "id": "11046034",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 15",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700011",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700011.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-15-volume-15/hiromu-arakawa/9781974700011"
+    },
+    {
+      "id": "10809480",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 14",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700004",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700004.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-14-volume-14/hiromu-arakawa/9781974700004"
+    },
+    {
+      "id": "10768580",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 13",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599960",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599960.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-13-volume-13/hiromu-arakawa/9781421599960"
+    },
+    {
+      "id": "10536029",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 12",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599953",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599953.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-12-volume-12/hiromu-arakawa/9781421599953"
+    },
+    {
+      "id": "10290790",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 11",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599946",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599946.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-11-volume-11/hiromu-arakawa/9781421599946"
+    },
+    {
+      "id": "10231601",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 10",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599922",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599922.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-10-volume-10/hiromu-arakawa/9781421599922"
+    },
+    {
+      "id": "10126547",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 9",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599908",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599908.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-9-volume-9/hiromu-arakawa/9781421599908"
+    },
+    {
+      "id": "9967455",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 8",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781974700479",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700479.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-8-volume-8/hiromu-arakawa/9781974700479"
+    },
+    {
+      "id": "10027019",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 7",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599892",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599892.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-7-volume-7/hiromu-arakawa/9781421599892"
+    },
+    {
+      "id": "9710557",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 6",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599885",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599885.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-6-volume-6/hiromu-arakawa/9781421599885"
+    },
+    {
+      "id": "9591202",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 5",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599878",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599878.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-5-volume-5/hiromu-arakawa/9781421599878"
+    },
+    {
+      "id": "9147456",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 4",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599854",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599854.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-4-volume-4/hiromu-arakawa/9781421599854"
+    },
+    {
+      "id": "8981588",
+      "title": "Fullmetal Alchemist: Fullmetal Edition, Vol. 3",
+      "author": "Hiromu Arakawa",
+      "isbn13": "9781421599809",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599809.jpg",
+      "url": "https://www.waterstones.com/book/fullmetal-alchemist-fullmetal-edition-vol-3-volume-3/hiromu-arakawa/9781421599809"
+    },
+    {
+      "id": "1188110",
+      "title": "The Big Fat Duck Cookbook",
+      "author": "Heston Blumenthal",
+      "isbn13": "9780747583691",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/7475/9780747583691.jpg",
+      "url": "https://www.waterstones.com/book/the-big-fat-duck-cookbook/heston-blumenthal/9780747583691"
+    },
+    {
+      "id": "2057906",
+      "title": "In Search of Perfection",
+      "author": "Heston Blumenthal",
+      "isbn13": "9780747584094",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/7475/9780747584094.jpg",
+      "url": "https://www.waterstones.com/book/in-search-of-perfection/heston-blumenthal/9780747584094"
+    },
+    {
+      "id": "3267121",
+      "title": "Hestons Fantastical Feast",
+      "author": "Heston Blumenthal",
+      "isbn13": "9781408808603",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4088/9781408808603.jpg",
+      "url": "https://www.waterstones.com/book/hestons-fantastical-feast/heston-blumenthal/9781408808603"
+    },
+    {
+      "id": "519775",
+      "title": "Gordon Ramsay's Ultimate Cookery Course",
+      "author": "Gordon Ramsay",
+      "isbn13": "9781444756692",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4447/9781444756692.jpg",
+      "url": "https://www.waterstones.com/book/gordon-ramsays-ultimate-cookery-course/gordon-ramsay/9781444756692"
+    },
+    {
+      "id": "6613763",
+      "title": "Hyrule Warriors Legends",
+      "author": "Garitt Rocha",
+      "isbn13": "9780744017113",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/7440/9780744017113.jpg",
+      "url": "https://www.waterstones.com/book/hyrule-warriors-legends/garitt-rocha/stephen-stratton/9780744017113"
+    },
+    {
+      "id": "11139062",
+      "title": "The Encyclopedia of Cookies: Over 500 Tasty Recipes for Cookie Lovers of All Ages",
+      "author": "Editors of Cider Mill Press",
+      "isbn13": "9781646431809",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/6464/9781646431809.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-cookies/editors-of-cider-mill-press/9781646431809"
+    },
+    {
+      "id": "1403847",
+      "title": "Momofuku",
+      "author": "David Chang",
+      "isbn13": "9781906650353",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9066/9781906650353.jpg",
+      "url": "https://www.waterstones.com/book/momofuku/david-chang/9781906650353"
+    },
+    {
+      "id": "12216655",
+      "title": "What's for Dessert: Simple recipes for Dessert People",
+      "author": "Claire Saffitz",
+      "isbn13": "9781922616623",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9226/9781922616623.jpg",
+      "url": "https://www.waterstones.com/book/whats-for-dessert/claire-saffitz/9781922616623"
+    },
+    {
+      "id": "10353840",
+      "title": "Dessert Person: Recipes and Guidance for Baking with Confidence: A Baking Book",
+      "author": "Claire Saffitz",
+      "isbn13": "9781984826961",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9848/9781984826961.jpg",
+      "url": "https://www.waterstones.com/book/dessert-person/claire-saffitz/9781984826961"
+    },
+    {
+      "id": "16096823",
+      "title": "The Encyclopedia of Cast Iron: Over 350 Recipes for the Cast Iron Connoisseur",
+      "author": "Cider Mill Press",
+      "isbn13": "9781400344628",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4003/9781400344628.jpg",
+      "url": "https://www.waterstones.com/book/the-encyclopedia-of-cast-iron/cider-mill-press/9781400344628"
+    },
+    {
+      "id": "10256284",
+      "title": "The Pie Room: 80 achievable and show-stopping pies and sides for pie lovers everywhere",
+      "author": "Calum Franklin",
+      "isbn13": "9781472973610",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4729/9781472973610.jpg",
+      "url": "https://www.waterstones.com/book/the-pie-room/calum-franklin/9781472973610"
+    },
+    {
+      "id": "10792815",
+      "title": "Game Boy: The Box Art Collection",
+      "author": "Bitmap Books",
+      "isbn13": "9781838019136",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/8380/9781838019136.jpg",
+      "url": "https://www.waterstones.com/book/game-boy-the-box-art-collection/bitmap-books/9781838019136"
+    },
+    {
+      "id": "8501015",
+      "title": "Eat What You Watch: A Cookbook for Movie Lovers",
+      "author": "Andrew Rea",
+      "isbn13": "9780008283650",
+      "format": "Hardback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9780/0082/9780008283650.jpg",
+      "url": "https://www.waterstones.com/book/eat-what-you-watch/andrew-rea/9780008283650"
+    },
+    {
+      "id": "8145950",
+      "title": "The Legend of Zelda: Twilight Princess, Vol. 2",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421596563",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421596563.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-twilight-princess-vol-2-volume-2/akira-himekawa/9781421596563"
+    },
+    {
+      "id": "7770941",
+      "title": "The Legend of Zelda: Twilight Princess, Vol. 1",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421593470",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421593470.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-twilight-princess-vol-1-volume-1/akira-himekawa/9781421593470"
+    },
+    {
+      "id": "2413761",
+      "title": "The Legend of Zelda, Vol. 10 Volume 10: Phantom Hourglass",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421537245",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421537245.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-10-volume-10/akira-himekawa/9781421537245"
+    },
+    {
+      "id": "1176345",
+      "title": "The Legend of Zelda, Vol. 9 Volume 9: A Link to the Past",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523354",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523354.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-9-volume-9/akira-himekawa/9781421523354"
+    },
+    {
+      "id": "2413220",
+      "title": "The Legend of Zelda, Vol. 8 Volume 8: The Minish Cap",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523347",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523347.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-8-volume-8/akira-himekawa/9781421523347"
+    },
+    {
+      "id": "2413259",
+      "title": "The Legend of Zelda, Vol. 7 Volume 7: Four Swords",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523330",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523330.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-7-volume-7/akira-himekawa/9781421523330"
+    },
+    {
+      "id": "2413208",
+      "title": "The Legend of Zelda, Vol. 6 Volume 6: Four Swords",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523323",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523323.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-6-volume-6/akira-himekawa/9781421523323"
+    },
+    {
+      "id": "1434555",
+      "title": "The Legend of Zelda, Vol. 5 Volume 5: Oracle of Ages",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523316",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523316.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-5-volume-5/akira-himekawa/9781421523316"
+    },
+    {
+      "id": "2412967",
+      "title": "The Legend of Zelda, Vol. 4 Volume 4: Oracle of Seasons",
+      "author": "Akira Himekawa",
+      "isbn13": "9781421523309",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421523309.jpg",
+      "url": "https://www.waterstones.com/book/the-legend-of-zelda-vol-4-volume-4/akira-himekawa/9781421523309"
+    },
+    {
+      "id": "10723012",
+      "title": "Kaguya-sama: Love Is War, Vol. 19",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974722860",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974722860.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-19-volume-19/aka-akasaka/9781974722860"
+    },
+    {
+      "id": "10505589",
+      "title": "Kaguya-sama: Love Is War, Vol. 18",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974721009",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974721009.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-18-volume-18/aka-akasaka/9781974721009"
+    },
+    {
+      "id": "10311810",
+      "title": "Kaguya-sama: Love Is War, Vol. 17",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974718740",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718740.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-17-volume-17/aka-akasaka/9781974718740"
+    },
+    {
+      "id": "10299819",
+      "title": "Kaguya-sama: Love Is War, Vol. 16",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974717101",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717101.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-16-volume-16/aka-akasaka/9781974717101"
+    },
+    {
+      "id": "10247565",
+      "title": "Kaguya-sama: Love Is War, Vol. 15",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974714735",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974714735.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-15-volume-15/aka-akasaka/9781974714735"
+    },
+    {
+      "id": "10126557",
+      "title": "Kaguya-sama: Love Is War, Vol. 14",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974714728",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974714728.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-14-volume-14/aka-akasaka/9781974714728"
+    },
+    {
+      "id": "10026726",
+      "title": "Kaguya-sama: Love Is War, Vol. 13",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974710713",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974710713.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-13-volume-13/aka-akasaka/9781974710713"
+    },
+    {
+      "id": "9905785",
+      "title": "Kaguya-sama: Love Is War, Vol. 12",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974709571",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709571.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-12-volume-12/aka-akasaka/9781974709571"
+    },
+    {
+      "id": "9887965",
+      "title": "Kaguya-sama: Love Is War, Vol. 11",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974707799",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974707799.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-11-volume-11/aka-akasaka/9781974707799"
+    },
+    {
+      "id": "9724465",
+      "title": "Kaguya-sama: Love Is War, Vol. 10",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974706631",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974706631.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-10-volume-10/aka-akasaka/9781974706631"
+    },
+    {
+      "id": "9666854",
+      "title": "Kaguya-sama: Love Is War, Vol. 9",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974705092",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974705092.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-9-volume-9/aka-akasaka/9781974705092"
+    },
+    {
+      "id": "9590904",
+      "title": "Kaguya-sama: Love Is War, Vol. 8",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974704408",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974704408.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-8-volume-8/aka-akasaka/9781974704408"
+    },
+    {
+      "id": "9572102",
+      "title": "Kaguya-sama: Love Is War, Vol. 7",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974701391",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974701391.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-7-volume-7/aka-akasaka/9781974701391"
+    },
+    {
+      "id": "9121762",
+      "title": "Kaguya-sama: Love Is War, Vol. 6",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974701384",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974701384.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-6-volume-6/aka-akasaka/9781974701384"
+    },
+    {
+      "id": "8986179",
+      "title": "Kaguya-sama: Love Is War, Vol. 5",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974700509",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700509.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-5-volume-5/aka-akasaka/9781974700509"
+    },
+    {
+      "id": "8866345",
+      "title": "Kaguya-sama: Love Is War, Vol. 4",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974700493",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700493.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-4-volume-4/aka-akasaka/9781974700493"
+    },
+    {
+      "id": "8793146",
+      "title": "Kaguya-sama: Love Is War, Vol. 3",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974700325",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700325.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-3-volume-3/aka-akasaka/9781974700325"
+    },
+    {
+      "id": "8730298",
+      "title": "Kaguya-sama: Love Is War, Vol. 2",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974700318",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700318.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-2-volume-2/aka-akasaka/9781974700318"
+    },
+    {
+      "id": "8730705",
+      "title": "Kaguya-sama: Love Is War, Vol. 1",
+      "author": "Aka Akasaka",
+      "isbn13": "9781974700301",
+      "format": "Paperback",
+      "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974700301.jpg",
+      "url": "https://www.waterstones.com/book/kaguya-sama-love-is-war-vol-1-volume-1/aka-akasaka/9781974700301"
+    }
+  ]
+}
