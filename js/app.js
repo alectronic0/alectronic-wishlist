@@ -50,6 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
     return `<a class="${className}" href="${escapeHtml(webUrl(href))}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
   }
 
+  function formatDatePill(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (!isNaN(d.getTime())) {
+      return d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+    }
+    return dateStr;
+  }
+
   function itemCard(item) {
     const img = webUrl(item.img);
     const url = webUrl(item.url);
@@ -61,10 +70,21 @@ document.addEventListener('DOMContentLoaded', () => {
       ? `<a class="${mediaClass}" href="${escapeHtml(url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${picture}</a>`
       : `<div class="${mediaClass}">${picture}</div>`;
     const title = url ? externalLink(url, item.name, 'item-card__link') : escapeHtml(item.name);
+
+    const dateTag = item.orderDate
+      ? `<span class="tag tag--date" title="Order date: ${escapeHtml(item.orderDate)}">Ordered ${escapeHtml(formatDatePill(item.orderDate))}</span>`
+      : (item.dateAdded ? `<span class="tag tag--date" title="Added on: ${escapeHtml(item.dateAdded)}">Added ${escapeHtml(formatDatePill(item.dateAdded))}</span>` : '');
+
+    const verifiedTag = item.validated
+      ? `<span class="tag tag--verified" title="Digitally verified via automated order/collection">✓ Verified</span>`
+      : '';
+
     const footer = [
       item.price ? `<span class="item-card__price">${escapeHtml(item.price)}</span>` : '',
       item.status ? `<span class="tag">${escapeHtml(item.status)}</span>` : '',
-      item.owned ? '<span class="tag tag--owned">Owned</span>' : ''
+      item.owned ? '<span class="tag tag--owned">Owned</span>' : '',
+      dateTag,
+      verifiedTag
     ].join('');
     return `
       <article class="item-card" title="${escapeHtml(item.name)}">
@@ -157,6 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
       price: owned ? '' : set.price,
       status: owned ? '' : set.status,
       owned,
+      orderDate: set.orderDate || set.added || '',
+      dateAdded: set.dateAdded || '',
+      validated: set.validated || (owned && Boolean(set.orderDate || set.added)),
       group: set.theme
     });
     return {
@@ -179,9 +202,20 @@ document.addEventListener('DOMContentLoaded', () => {
         img: item.img,
         url: item.url,
         price: isPrice(item.price) ? item.price : '',
-        status: isPrice(item.price) ? '' : item.price
+        status: isPrice(item.price) ? '' : item.price,
+        orderDate: item.orderDate || '',
+        dateAdded: item.dateAdded || '',
+        validated: item.validated || false
       })),
-      owned: data.owned.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.type, owned: true }))
+      owned: data.owned.map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: item.type,
+        owned: true,
+        orderDate: item.orderDate || '',
+        validated: item.validated || false
+      }))
     };
   }
 
@@ -227,6 +261,9 @@ document.addEventListener('DOMContentLoaded', () => {
       url: game.amazonUrl || (game.asin ? `https://www.amazon.co.uk/dp/${game.asin}` : ''),
       meta: game.publisher || game.category || '',
       owned,
+      orderDate: game.orderDate || '',
+      dateAdded: game.dateAdded || '',
+      validated: game.validated || (owned && Boolean(game.orderDate)),
       extraHtml: expansionsHtml(game.expansions)
     });
     return {
@@ -250,6 +287,9 @@ document.addEventListener('DOMContentLoaded', () => {
       meta: book.badge && book.badge !== book.category ? book.badge : '',
       price: book.status === 'wanted' && isPrice(book.price) ? book.price : '',
       owned: book.status === 'owned',
+      orderDate: book.orderDate || '',
+      dateAdded: book.dateAdded || '',
+      validated: book.validated || (book.status === 'owned' && Boolean(book.orderDate)),
       group: book.category,
       cover: true,
       extraHtml: book.goodreads ? `<p class="item-card__meta">${externalLink(book.goodreads, 'On Goodreads', 'item-card__link')}</p>` : ''
@@ -274,13 +314,16 @@ document.addEventListener('DOMContentLoaded', () => {
       lede: 'Loose ideas that do not belong on another list yet.',
       groups: data.categories.map(category => ({ key: category.id, label: plainLabel(category.name) })),
       sectioned: true,
-      wanted: data.categories.flatMap(category => category.items.map(item => ({
+      wanted: data.categories.flatMap(category => (category.items || []).map(item => ({
         name: item.name,
         img: item.img,
         url: item.url,
         meta: item.size ? `${item.theme}, size ${item.size}` : item.theme,
         price: isPrice(item.price) ? item.price : '',
         status: isPrice(item.price) ? '' : item.price,
+        orderDate: item.orderDate || '',
+        dateAdded: item.dateAdded || '',
+        validated: item.validated || false,
         group: category.id
       }))),
       owned: []
@@ -313,6 +356,9 @@ document.addEventListener('DOMContentLoaded', () => {
         meta: item.status || '',
         price: isPrice(item.price) ? item.price : '',
         status: isPrice(item.price) ? '' : item.price,
+        orderDate: item.orderDate || '',
+        dateAdded: item.dateAdded || '',
+        validated: item.validated || false,
         group: item.group || 'other'
       })),
       owned: []
@@ -346,6 +392,9 @@ document.addEventListener('DOMContentLoaded', () => {
         img: item.img,
         url: item.url,
         meta: [item.brand, item.detail].filter(Boolean).join(', '),
+        orderDate: item.orderDate || '',
+        dateAdded: item.dateAdded || '',
+        validated: item.validated || false,
         group: item.category
       })),
       owned: []
@@ -359,7 +408,16 @@ document.addEventListener('DOMContentLoaded', () => {
       lede: data.lede,
       groups: data.groups,
       sectioned: true,
-      wanted: data.items.map(item => ({ name: item.name, img: item.img, url: item.url, meta: item.meta, group: item.group })),
+      wanted: data.items.map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: item.meta,
+        orderDate: item.orderDate || '',
+        dateAdded: item.dateAdded || '',
+        validated: item.validated || false,
+        group: item.group
+      })),
       owned: []
     };
   }

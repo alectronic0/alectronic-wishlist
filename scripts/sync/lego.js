@@ -72,11 +72,15 @@ const ORDER_LIST_SCRIPT = `(async () => {
 // Only line items are read: the page also shows delivery and billing addresses, and the
 // snapshot is published with the site, so order dates are left out too.
 const ORDER_SCRIPT = `(() => {
-  const main = document.querySelector('main');
+  const main = document.querySelector('main') || document.body;
+  const text = main.innerText || '';
+  const dateMatch = text.match(/(?:Order date|Ordered on|Date placed|Date):?\\s*([A-Za-z0-9, ]+?)(?:\\n|$)/i);
+  const orderDate = dateMatch ? dateMatch[1].trim() : '';
+
   const items = [...main.querySelectorAll('img[src*="/cdn/cs/set/assets/"]')]
     .filter(img => img.closest('a[href*="/product/"]'))
     .map(img => ({ name: img.alt, img: img.src.split('?')[0], href: img.closest('a').getAttribute('href') }));
-  return JSON.stringify({ items });
+  return JSON.stringify({ orderDate, items });
 })()`;
 
 const STATUSES = ['Retired Product', 'Out of stock', 'Back order', 'Coming Soon', 'Pre-order', 'Retiring soon'];
@@ -119,9 +123,16 @@ async function readOrders() {
   for (const link of links) {
     const order = await evalInNewTab(`https://www.lego.com${link}`, ORDER_SCRIPT, LOAD_WAIT_MS);
     orders.push({
+      orderDate: order.orderDate,
       items: order.items.map(item => {
         const slug = item.href.split('?')[0].split('/product/')[1];
-        return { id: slug.split('-').pop(), name: item.name, img: item.img, url: `https://www.lego.com/en-gb/product/${slug}` };
+        return {
+          id: slug.split('-').pop(),
+          name: item.name,
+          img: item.img,
+          url: `https://www.lego.com/en-gb/product/${slug}`,
+          orderDate: order.orderDate
+        };
       })
     });
   }

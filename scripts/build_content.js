@@ -24,10 +24,22 @@ const LEGO_FILE = path.join(ROOT, 'data', 'sources', 'lego.json');
 const BGG_FILE = path.join(ROOT, 'data', 'sources', 'bgg.json');
 const IGDB_FILE = path.join(ROOT, 'data', 'sources', 'igdb.json');
 const SHOP_FILE = path.join(ROOT, 'data', 'shop_items.json');
+const ETSY_FILE = path.join(ROOT, 'data', 'sources', 'etsy.json');
+const AMAZON_ORDERS_FILE = path.join(ROOT, 'data', 'sources', 'amazon_orders.json');
+const POKEMON_FILE = path.join(ROOT, 'data', 'sources', 'pokemon_center.json');
 const OVERRIDES_FILE = path.join(ROOT, 'data', 'overrides.json');
 const CONTENT_PREFIX = 'window.SITE_CONTENT = ';
 const AMAZON_DP = 'https://www.amazon.co.uk/dp/';
 const TITLE_MAX = 70;
+
+function safeLoadJson(filePath, fallback = null) {
+  if (!fs.existsSync(filePath)) return fallback;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch (err) {
+    return fallback;
+  }
+}
 const IGDB_OWNED_LISTS = {
   'steam': { platform: 'pc', badge: 'Steam' },
   'nintendo-switch-1-and-2': { platform: 'switch', badge: 'Nintendo Switch' },
@@ -664,7 +676,7 @@ function syncNintendo(content, nintendo, zeldaOverrides, removedFromJunk) {
 }
 
 function syncShop(content, shop) {
-  const items = Object.values(shop.collections).flat().concat(shop.saved);
+  const items = Object.values(shop.collections || {}).flat().concat(shop.saved || []);
   upsertJunkCategory(content, {
     id: 'shop-app-stuff',
     name: 'Shop.app Saved \ud83d\udecd\ufe0f',
@@ -677,9 +689,164 @@ function syncShop(content, shop) {
       price: item.price,
       img: item.img,
       url: item.url,
+      dateAdded: item.dateAdded || '',
+      orderDate: item.orderDate || '',
       notes: item.notes
     }))
   });
+}
+
+function syncEtsy(content, etsy) {
+  if (!etsy || !etsy.items || etsy.items.length === 0) return;
+  upsertJunkCategory(content, {
+    id: 'etsy-favourites',
+    name: 'Etsy Favourites \ud83c\udfa8',
+    icon: '\ud83c\udfa8',
+    description: 'Synced from Etsy favourites over CDP.',
+    url: etsy.url,
+    items: etsy.items.map(item => ({
+      id: item.id,
+      name: item.name,
+      theme: item.shopName || 'Etsy',
+      price: item.price,
+      img: item.img,
+      url: item.url,
+      dateAdded: item.dateAdded || '',
+      notes: item.shopName ? `From ${item.shopName}` : ''
+    }))
+  });
+}
+
+function reconcileManualItems(content, sources) {
+  const allOrders = [];
+  // Shop.app orders
+  if (sources.shop && sources.shop.orders) {
+    for (const o of sources.shop.orders) {
+      allOrders.push({
+        name: o.name || o.title,
+        merchant: o.merchant || '',
+        orderDate: o.orderDate || o.date,
+        price: o.price,
+        url: o.url,
+        img: o.img,
+        source: 'Shop.app'
+      });
+    }
+  }
+  // Amazon orders
+  if (sources.amazonOrders && sources.amazonOrders.orders) {
+    for (const o of sources.amazonOrders.orders) {
+      for (const item of (o.items || [])) {
+        allOrders.push({
+          name: item.title,
+          merchant: 'Amazon',
+          orderDate: o.orderPlaced || o.orderDate,
+          price: o.total,
+          url: item.url,
+          img: item.img,
+          source: 'Amazon'
+        });
+      }
+    }
+  }
+  // Nintendo orders
+  if (sources.nintendo && sources.nintendo.orders) {
+    for (const o of sources.nintendo.orders) {
+      for (const item of (o.items || [])) {
+        allOrders.push({
+          name: item.name,
+          merchant: 'My Nintendo Store',
+          orderDate: o.orderDate,
+          url: item.url,
+          img: item.img,
+          source: 'Nintendo'
+        });
+      }
+    }
+  }
+  // Pokémon Center orders
+  if (sources.pokemon && sources.pokemon.orders) {
+    for (const o of sources.pokemon.orders) {
+      for (const item of (o.items || [])) {
+        allOrders.push({
+          name: item.name,
+          merchant: 'Pokémon Center UK',
+          orderDate: o.orderDate,
+          url: item.url,
+          img: item.img,
+          source: 'Pokémon Center'
+        });
+      }
+    }
+  }
+  // LEGO orders
+  if (sources.lego && sources.lego.orders) {
+    for (const o of sources.lego.orders) {
+      for (const item of (o.items || [])) {
+        allOrders.push({
+          name: item.name,
+          merchant: 'LEGO',
+          orderDate: item.orderDate || o.orderDate,
+          url: item.url,
+          img: item.img,
+          source: 'LEGO'
+        });
+      }
+    }
+  }
+
+  if (allOrders.length === 0) return;
+
+  const sectionsToCheck = [
+    { name: 'grooming', list: content.grooming ? content.grooming.items : [] },
+    { name: 'consumables', list: content.consumables ? content.consumables.items : [] },
+    { name: 'home', list: content.home ? content.home.inventory : [] },
+    { name: 'clothing', list: content.clothing ? content.clothing.inventory : [] },
+    { name: 'zelda.owned', list: content.zelda ? content.zelda.owned : [] },
+    { name: 'boardgames.owned', list: content.boardgames ? content.boardgames.owned : [] }
+  ];
+
+  for (const { name: sectionName, list } of sectionsToCheck) {
+    for (const item of (list || [])) {
+      if (!item.name) continue;
+      const itemWords = titleWords(item.name);
+      if (itemWords.size === 0) continue;
+
+      let bestMatch = null;
+      let bestScore = 0;
+
+      for (const order of allOrders) {
+        if (!order.name) continue;
+        const orderWords = titleWords(order.name);
+        if (orderWords.size === 0) continue;
+
+        const overlap = titleOverlap(itemWords, orderWords);
+        const brandMatch = (order.merchant && item.name.toLowerCase().includes(order.merchant.toLowerCase()))
+          || (item.brand && order.name.toLowerCase().includes(item.brand.toLowerCase()));
+        const threshold = brandMatch ? 0.45 : 0.70;
+
+        if (overlap >= threshold && overlap > bestScore) {
+          bestScore = overlap;
+          bestMatch = order;
+        }
+      }
+
+      if (bestMatch) {
+        item.validated = true;
+        item.source = 'automated';
+        if (bestMatch.orderDate && !item.orderDate) {
+          item.orderDate = bestMatch.orderDate;
+        }
+        if (bestMatch.img && (!item.img || isAmazonImage(item.img))) {
+          item.img = bestMatch.img;
+        }
+        if (bestMatch.url && !item.url) {
+          item.url = bestMatch.url;
+        }
+        report.push(`reconciliation: validated "${item.name}" (${sectionName}) via ${bestMatch.source} order on ${bestMatch.orderDate || 'automated sync'}`);
+      }
+    }
+  }
 }
 
 function syncHubBadges(content) {
@@ -698,17 +865,27 @@ function main() {
   const content = loadContent();
   const amazon = JSON.parse(fs.readFileSync(AMAZON_FILE, 'utf8'));
   const overrides = JSON.parse(fs.readFileSync(OVERRIDES_FILE, 'utf8'));
+  const lego = JSON.parse(fs.readFileSync(LEGO_FILE, 'utf8'));
+  const nintendo = JSON.parse(fs.readFileSync(NINTENDO_FILE, 'utf8'));
+  const shop = safeLoadJson(SHOP_FILE, { collections: {}, saved: [], orders: [] });
+  const etsy = safeLoadJson(ETSY_FILE);
+  const amazonOrders = safeLoadJson(AMAZON_ORDERS_FILE);
+  const pokemon = safeLoadJson(POKEMON_FILE);
 
   movePurchasedBoardgames(content, overrides.boardgames.purchased);
   syncBoardgames(content, amazon.lists.boardgames, overrides.boardgames);
   syncBooks(content, amazon.lists.books, overrides.books);
   syncKitchen(content, amazon.lists.kitchen);
   syncGames(content, JSON.parse(fs.readFileSync(IGDB_FILE, 'utf8')), overrides.videogames);
-  syncNintendo(content, JSON.parse(fs.readFileSync(NINTENDO_FILE, 'utf8')), overrides.zelda, overrides.nintendo.removed);
+  syncNintendo(content, nintendo, overrides.zelda, overrides.nintendo.removed);
   syncGoodreads(content, JSON.parse(fs.readFileSync(GOODREADS_FILE, 'utf8')), overrides.books);
-  syncLego(content, JSON.parse(fs.readFileSync(LEGO_FILE, 'utf8')), overrides.lego);
+  syncLego(content, lego, overrides.lego);
   reportBgg(content, JSON.parse(fs.readFileSync(BGG_FILE, 'utf8')));
-  syncShop(content, JSON.parse(fs.readFileSync(SHOP_FILE, 'utf8')));
+  syncShop(content, shop);
+  if (etsy) {
+    syncEtsy(content, etsy);
+  }
+  reconcileManualItems(content, { shop, amazonOrders, nintendo, pokemon, lego });
   syncHubBadges(content);
   content.meta.updatedAt = amazon.scrapedAt.slice(0, 10);
 

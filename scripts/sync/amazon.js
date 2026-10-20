@@ -53,6 +53,15 @@ function parsePrice(tag) {
   return Number.isFinite(price) ? price : null;
 }
 
+function parseDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (!isNaN(d.getTime())) {
+    return d.toISOString().slice(0, 10);
+  }
+  return dateStr;
+}
+
 function parseItems(html) {
   const items = [];
   const pattern = /id="itemName_([A-Z0-9]+)"[^>]*title="([^"]*)"[^>]*href="\/dp\/([A-Z0-9]{10})/g;
@@ -64,13 +73,18 @@ function parseItems(html) {
     const row = html.slice(rowStart, rowEnd);
     const byline = html.match(new RegExp(`id="item-byline-${itemId}"[^>]*>\\s*([^<]*)`));
     const img = row.match(/<img[^>]*src="(https:\/\/m\.media-amazon\.com\/images\/I\/[^"]+)"/);
+    const addedMatch = row.match(/id="itemAddedDate_[^"]*"[^>]*>\s*(?:Item added\s*)?([^<]*)/i)
+      || row.match(/Item added\s+([A-Za-z0-9, ]+?)(?:<|\n|$)/i);
+    const dateAdded = addedMatch ? parseDate(decode(addedMatch[1]).trim()) : '';
+
     items.push({
       asin,
       title: decode(title),
       byline: byline ? decode(byline[1]).trim() : '',
       price: parsePrice(rowTag),
       img: img ? img[1] : '',
-      url: `${ORIGIN}/dp/${asin}`
+      url: `${ORIGIN}/dp/${asin}`,
+      dateAdded: dateAdded
     });
   }
   return items;

@@ -16,6 +16,7 @@ const { evalInNewTab } = require('./cdp');
 
 const ORIGIN = 'https://store.nintendo.com';
 const WISHLIST_URL = `${ORIGIN}/en-gb/account/wishlist`;
+const ORDERS_URL = `${ORIGIN}/en-gb/account/orders`;
 const OUTPUT_FILE = path.join(__dirname, '..', '..', 'data', 'sources', 'nintendo.json');
 const LOAD_WAIT_MS = 12000;
 
@@ -42,6 +43,39 @@ const PAGE_SCRIPT = `(async () => {
   return JSON.stringify({ expected: count ? Number(count[1]) : 0, items });
 })()`;
 
+const ORDERS_SCRIPT = `(async () => {
+  window.scrollTo(0, document.body.scrollHeight);
+  await new Promise(resolve => setTimeout(resolve, 2000));
+  const orders = [];
+  const orderCards = Array.from(document.querySelectorAll('div[class*="OrderCard"], div[class*="order-item"], div.border, div.relative'));
+  for (const card of orderCards) {
+    const text = card.innerText || '';
+    const dateMatch = text.match(/(?:Placed on|Date|Ordered):?\\s*([A-Za-z0-9, ]+?)(?:\\n|$)/i);
+    const orderIdMatch = text.match(/Order (?:#|number)?:?\\s*([A-Z0-9-]+)/i);
+    const items = [];
+    const itemLinks = Array.from(card.querySelectorAll('a[href*="/product/"], a[href*="/merchandise/"]'));
+    for (const link of itemLinks) {
+      const name = link.textContent.trim();
+      if (name.length > 3 && !/^(VIEW|TRACK|INVOICE|ORDER DETAILS)$/i.test(name)) {
+        const img = link.querySelector('img') || card.querySelector('img');
+        items.push({
+          name,
+          url: link.href,
+          img: img ? (img.currentSrc || img.src) : ''
+        });
+      }
+    }
+    if (items.length > 0) {
+      orders.push({
+        orderId: orderIdMatch ? orderIdMatch[1] : '',
+        orderDate: dateMatch ? dateMatch[1].trim() : '',
+        items
+      });
+    }
+  }
+  return JSON.stringify(orders);
+})()`;
+
 async function main() {
   const page = await evalInNewTab(WISHLIST_URL, PAGE_SCRIPT, LOAD_WAIT_MS);
   if (page.items.length === 0) {
@@ -59,8 +93,23 @@ async function main() {
     url: item.href ? ORIGIN + item.href : ''
   }));
   console.log(`[NintendoSync] ${items.length} wishlist items`);
+
+  let orders = [];
+  try {
+    console.log(`[NintendoSync] Checking order history at ${ORDERS_URL}...`);
+    orders = await evalInNewTab(ORDERS_URL, ORDERS_SCRIPT, LOAD_WAIT_MS);
+    console.log(`[NintendoSync] ${orders.length} order history records`);
+  } catch (err) {
+    console.warn(`[NintendoSync] Order history check skipped or empty: ${err.message}`);
+  }
+
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({ scrapedAt: new Date().toISOString(), url: WISHLIST_URL, wishlist: items }, null, 2) + '\n');
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
+    scrapedAt: new Date().toISOString(),
+    url: WISHLIST_URL,
+    wishlist: items,
+    orders: orders
+  }, null, 2) + '\n');
   console.log(`[NintendoSync] Wrote ${OUTPUT_FILE}`);
 }
 

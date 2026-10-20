@@ -1,7 +1,7 @@
 window.SITE_CONTENT = {
   "meta": {
     "title": "Gift Alec Today \ud83c\udf81",
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-19",
     "owner": "Alec Doran-Twyford (Alectronic)"
   },
   "index": {
@@ -734,7 +734,11 @@ window.SITE_CONTENT = {
       {
         "name": "Nintendo Switch \u2013 OLED Model (The Legend of Zelda: Tears of the Kingdom Edition)",
         "type": "Console",
-        "img": "https://m.media-amazon.com/images/I/81Yiw8Zk0uL._AC_SL500_.jpg"
+        "img": "https://m.media-amazon.com/images/I/81Yiw8Zk0uL._AC_SL500_.jpg",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-25",
+        "url": "https://shop.app/orders/"
       },
       {
         "name": "Nintendo Switch Pro Controller (Zelda: Tears of the Kingdom Edition)",
@@ -759,17 +763,28 @@ window.SITE_CONTENT = {
       {
         "name": "Game & Watch: The Legend of Zelda",
         "type": "Console",
-        "img": "https://m.media-amazon.com/images/I/61+dNhJowXL._AC_SL500_.jpg"
+        "img": "https://m.media-amazon.com/images/I/61+dNhJowXL._AC_SL500_.jpg",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2013-11-12"
       },
       {
         "name": "Nintendo Switch Carrying Case (The Legend of Zelda: Tears of the Kingdom Edition)",
         "type": "Accessory",
-        "img": "https://m.media-amazon.com/images/I/81uuqWKzJpL._AC_SL500_.jpg"
+        "img": "https://m.media-amazon.com/images/I/81uuqWKzJpL._AC_SL500_.jpg",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-25",
+        "url": "https://shop.app/orders/"
       },
       {
         "name": "The Legend of Zelda: Tears of the Kingdom Collector's Edition",
         "type": "Special Edition",
-        "img": "https://m.media-amazon.com/images/I/61BDhHa306L._AC_SL500_.jpg"
+        "img": "https://m.media-amazon.com/images/I/61BDhHa306L._AC_SL500_.jpg",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-25",
+        "url": "https://shop.app/orders/"
       },
       {
         "name": "The Legend of Zelda: Skyward Sword HD SteelBook\u00ae Edition",
@@ -779,7 +794,11 @@ window.SITE_CONTENT = {
       {
         "name": "The Legend of Zelda: Tears of the Kingdom Complete Guide",
         "type": "Collector's Guide",
-        "img": "https://m.media-amazon.com/images/I/81Ge3v6ro8L._AC_SL500_.jpg"
+        "img": "https://m.media-amazon.com/images/I/81Ge3v6ro8L._AC_SL500_.jpg",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-25",
+        "url": "https://shop.app/orders/"
       },
       {
         "name": "Nintendo Switch 2 Carrying Case (Zelda 40th Anniversary Edition) & Screen Protector",
@@ -1600,21 +1619,33 @@ window.SITE_CONTENT = {
         "category": "Conversation Card Game",
         "publisher": "The Diary",
         "img": "https://thediary.com/cdn/shop/files/1_e87b669d-04ab-4f85-81c8-df353bbb2188.png?v=1749210128&width=600",
-        "amazonUrl": "https://thediary.com/products/the-conversation-cards-1st-edition"
+        "amazonUrl": "https://thediary.com/products/the-conversation-cards-1st-edition",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-11-11",
+        "url": "https://shop.app/orders/6"
       },
       {
         "name": "The Conversation Cards (2nd Edition)",
         "category": "Conversation Card Game",
         "publisher": "The Diary",
         "img": "https://thediary.com/cdn/shop/files/1_b75fbc90-9bfe-49f2-baf5-3767c7992627.png?v=1762444332&width=600",
-        "amazonUrl": "https://thediary.com/products/the-conversation-cards-2nd-edition"
+        "amazonUrl": "https://thediary.com/products/the-conversation-cards-2nd-edition",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-11-11",
+        "url": "https://shop.app/orders/6"
       },
       {
         "name": "The Conversation Cards (3rd Edition)",
         "category": "Conversation Card Game",
         "publisher": "The Diary",
         "img": "https://thediary.com/cdn/shop/files/CC3_Web_Image_3.jpg?v=1762859458&width=600",
-        "amazonUrl": "https://thediary.com/products/the-conversation-cards-third-edition"
+        "amazonUrl": "https://thediary.com/products/the-conversation-cards-third-edition",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-11-11",
+        "url": "https://shop.app/orders/6"
       },
       {
         "name": "Blend In Card Game",
@@ -2055,21 +2086,21 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51Uy0ZqOwPL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599856",
-            "price": "\u00a316.25"
+            "price": "\u00a317.91"
           },
           {
             "vol": 5,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51w99EDcq4L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599872",
-            "price": "\u00a315.85"
+            "price": "\u00a316.02"
           },
           {
             "vol": 6,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/41uUnSBEJ2L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599880",
-            "price": "\u00a316.00"
+            "price": "\u00a316.25"
           },
           {
             "vol": 7,
@@ -2083,21 +2114,21 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/511cn1DWh8L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197470047X",
-            "price": "\u00a316.25"
+            "price": "\u00a316.93"
           },
           {
             "vol": 9,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51Q6Jx-7-FL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599902",
-            "price": "\u00a315.85"
+            "price": "\u00a315.98"
           },
           {
             "vol": 10,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/41uzVmM1GBL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599929",
-            "price": "\u00a316.93"
+            "price": "\u00a317.54"
           },
           {
             "vol": 11,
@@ -2118,7 +2149,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51O54wvgjKL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421599961",
-            "price": "\u00a316.00"
+            "price": "\u00a316.02"
           },
           {
             "vol": 14,
@@ -2171,7 +2202,7 @@ window.SITE_CONTENT = {
             "img": "https://m.media-amazon.com/images/I/51JDf9DJa9L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421593475",
             "waterstones": "https://www.waterstones.com/book/the-legend-of-zelda/akira-himekawa/9781421593470",
-            "price": "\u00a31.20"
+            "price": "\u00a37.65"
           },
           {
             "vol": 2,
@@ -2213,7 +2244,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51jQ2h2WL5L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974715337",
-            "price": "\u00a39.78"
+            "price": "\u00a37.85"
           },
           {
             "vol": 8,
@@ -2249,7 +2280,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51HFQfT7OFL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974700305",
-            "price": "\u00a37.09"
+            "price": "\u00a37.59"
           },
           {
             "vol": 2,
@@ -2291,7 +2322,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51Y+fPjslIL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974701395",
-            "price": "\u00a37.09"
+            "price": "\u00a37.59"
           },
           {
             "vol": 8,
@@ -2312,7 +2343,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/518qDO7pTBL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197470663X",
-            "price": "\u00a37.09"
+            "price": "\u00a37.59"
           },
           {
             "vol": 11,
@@ -2347,7 +2378,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51lzi-bRZWL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/197471473X",
-            "price": "\u00a38.71"
+            "price": "\u00a38.91"
           },
           {
             "vol": 16,
@@ -2368,14 +2399,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/511fF9F3Q1L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974721000",
-            "price": "\u00a312.05"
+            "price": "\u00a312.85"
           },
           {
             "vol": 19,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51z4dOqMbhL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974722864",
-            "price": "\u00a37.36"
+            "price": "\u00a37.99"
           }
         ]
       },
@@ -2398,14 +2429,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51WVQ6sA2WL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08M112WGP",
-            "price": "\u00a34.99"
+            "price": "\u00a33.59"
           },
           {
             "vol": 3,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51D6Y2xwdzL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08R6R7RNW",
-            "price": "\u00a34.99"
+            "price": "\u00a33.59"
           },
           {
             "vol": 4,
@@ -2435,14 +2466,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/41WcpST5nHL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B088W7RWXS",
-            "price": "\u00a34.99"
+            "price": "\u00a33.59"
           },
           {
             "vol": 2,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/41tzVU2VCYL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/B08G7KGVGG",
-            "price": "\u00a34.99"
+            "price": "\u00a33.59"
           },
           {
             "vol": 3,
@@ -2465,14 +2496,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51PCavRPU5L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421572540",
-            "price": "\u00a35.74"
+            "price": "\u00a37.09"
           },
           {
             "vol": 2,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61HG1QOMn1L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421572559",
-            "price": "\u00a34.99"
+            "price": "\u00a37.65"
           },
           {
             "vol": 3,
@@ -2486,14 +2517,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61QJbWliv4L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421572575",
-            "price": "\u00a32.26"
+            "price": "\u00a32.24"
           },
           {
             "vol": 5,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61doTiZEdhL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421573857",
-            "price": "\u00a37.59"
+            "price": "\u00a37.09"
           },
           {
             "vol": 6,
@@ -2542,49 +2573,49 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61BURRFnZSL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421585081",
-            "price": "\u00a37.59"
+            "price": "\u00a37.09"
           },
           {
             "vol": 13,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/5155rzYzbKL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/142158509X",
-            "price": "\u00a312.76"
+            "price": "\u00a312.63"
           },
           {
             "vol": 14,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/512tLzPIyLL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/142158655X",
-            "price": "\u00a37.59"
+            "price": "\u00a37.09"
           },
           {
             "vol": 15,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61rHYapiOSL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421588145",
-            "price": "\u00a38.54"
+            "price": "\u00a37.65"
           },
           {
             "vol": 16,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51I6TFUa-TL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421590182",
-            "price": "\u00a37.43"
+            "price": "\u00a38.81"
           },
           {
             "vol": 17,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61McqDUyJdL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421590948",
-            "price": "\u00a38.52"
+            "price": "\u00a38.83"
           },
           {
             "vol": 18,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/611fdCHyIvL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421593343",
-            "price": "\u00a39.05"
+            "price": "\u00a311.87"
           },
           {
             "vol": 19,
@@ -2598,35 +2629,35 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51Sh5dajLoL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421594358",
-            "price": "\u00a38.08"
+            "price": "\u00a37.08"
           },
           {
             "vol": 21,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61-qjk4En+L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421594366",
-            "price": "\u00a36.55"
+            "price": "\u00a36.64"
           },
           {
             "vol": 22,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61HQyqw6zgL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421597047",
-            "price": "\u00a38.79"
+            "price": "\u00a311.61"
           },
           {
             "vol": 23,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61AWxyPiMhL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421597624",
-            "price": "\u00a37.03"
+            "price": "\u00a38.98"
           },
           {
             "vol": 24,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51KfZsznV6L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421598213",
-            "price": "\u00a38.86"
+            "price": "\u00a38.94"
           },
           {
             "vol": 25,
@@ -2640,14 +2671,14 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61Mw9No193L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974701018",
-            "price": "\u00a35.37"
+            "price": "\u00a36.55"
           },
           {
             "vol": 27,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51VdwBN5GHL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974701468",
-            "price": "\u00a37.82"
+            "price": "\u00a312.83"
           },
           {
             "vol": 28,
@@ -2668,49 +2699,49 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51KSeiW7PnL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974706389",
-            "price": "\u00a312.55"
+            "price": "\u00a35.94"
           },
           {
             "vol": 31,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51b1s7ufIvL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974707741",
-            "price": "\u00a38.99"
+            "price": "\u00a38.92"
           },
           {
             "vol": 32,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51LEXNywDnL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974709477",
-            "price": "\u00a38.79"
+            "price": "\u00a38.83"
           },
           {
             "vol": 33,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51pAtY1jiRL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974709922",
-            "price": "\u00a37.69"
+            "price": "\u00a36.99"
           },
           {
             "vol": 34,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51HrMKlo-ML._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974711714",
-            "price": "\u00a38.84"
+            "price": "\u00a38.64"
           },
           {
             "vol": 35,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51fl-Ia3QEL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974712583",
-            "price": "\u00a312.74"
+            "price": "\u00a38.87"
           },
           {
             "vol": 36,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61q2Mcn3X6L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1974715426",
-            "price": "\u00a39.58"
+            "price": "\u00a313.13"
           }
         ]
       },
@@ -2740,21 +2771,21 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51FELk8P3IL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523310",
-            "price": "\u00a38.99"
+            "price": "\u00a37.65"
           },
           {
             "vol": 6,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/61-hquXPjwL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523329",
-            "price": "\u00a38.99"
+            "price": "\u00a37.65"
           },
           {
             "vol": 7,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51c1L2KcTzL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421523337",
-            "price": "\u00a31.77"
+            "price": "\u00a32.33"
           },
           {
             "vol": 8,
@@ -2791,7 +2822,7 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51O7yY4lH7L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421589591",
-            "price": "\u00a38.99"
+            "price": "\u00a314.23"
           },
           {
             "vol": 2,
@@ -2805,21 +2836,21 @@ window.SITE_CONTENT = {
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51dntrNcw2L._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421589613",
-            "price": "\u00a312.45"
+            "price": "\u00a312.65"
           },
           {
             "vol": 4,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/519nfe0cESL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/1421589621",
-            "price": "\u00a312.65"
+            "price": "\u00a314.57"
           },
           {
             "vol": 5,
             "status": "wanted",
             "img": "https://m.media-amazon.com/images/I/51j14brTSIL._SS135_.jpg",
             "amazon": "https://www.amazon.co.uk/dp/142158963X",
-            "price": "\u00a312.65"
+            "price": "\u00a314.57"
           }
         ]
       }
@@ -3106,7 +3137,7 @@ window.SITE_CONTENT = {
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/51LPSRDbqCL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B0D91K43HK",
-        "price": "\u00a3113.25",
+        "price": "\u00a3125.08",
         "asin": "B0D91K43HK"
       },
       {
@@ -3116,7 +3147,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51XiuEiVvwL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/140034610X",
-        "price": "\u00a316.49",
+        "price": "\u00a316.54",
         "asin": "140034610X",
         "goodreads": "https://www.goodreads.com/book/show/210137355-the-encyclopedia-of-pasta"
       },
@@ -3127,7 +3158,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51m4Mxm+ojL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/140034462X",
-        "price": "\u00a317.99",
+        "price": "\u00a316.99",
         "asin": "140034462X",
         "goodreads": "https://www.goodreads.com/book/show/201335430-the-encyclopedia-of-cast-iron"
       },
@@ -3138,7 +3169,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51VkWQYnhIL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1646433432",
-        "price": "\u00a320.70",
+        "price": "\u00a316.05",
         "asin": "1646433432",
         "goodreads": "https://www.goodreads.com/book/show/61273021-the-encyclopedia-of-tapas"
       },
@@ -3149,7 +3180,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51tidKljDwL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1646431804",
-        "price": "\u00a316.13",
+        "price": "\u00a316.05",
         "asin": "1646431804",
         "goodreads": "https://www.goodreads.com/book/show/56897775-the-encyclopedia-of-cookies"
       },
@@ -3171,7 +3202,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51bhkHuC3UL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1646434102",
-        "price": "\u00a317.95",
+        "price": "\u00a316.05",
         "asin": "1646434102",
         "goodreads": "https://www.goodreads.com/book/show/63006724-the-encyclopedia-of-desserts"
       },
@@ -3203,7 +3234,7 @@ window.SITE_CONTENT = {
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/41p0OFSG+CS._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B0856WXZPB",
-        "price": "\u00a34.99",
+        "price": "\u00a37.99",
         "asin": "B0856WXZPB"
       },
       {
@@ -3233,7 +3264,7 @@ window.SITE_CONTENT = {
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/51iUaL7Gx-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B07F2ZRZR5",
-        "price": "\u00a318.20",
+        "price": "\u00a315.19",
         "asin": "B07F2ZRZR5"
       },
       {
@@ -3253,7 +3284,7 @@ window.SITE_CONTENT = {
         "badge": "Kindle Edition",
         "img": "https://m.media-amazon.com/images/I/411ZgcxhXyL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/B00TG24C34",
-        "price": "\u00a324.69",
+        "price": "\u00a320.99",
         "asin": "B00TG24C34"
       },
       {
@@ -3263,7 +3294,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51-PrYhI-qL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1472973615",
-        "price": "\u00a321.13",
+        "price": "\u00a321.15",
         "asin": "1472973615"
       },
       {
@@ -3273,7 +3304,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41Dfb6MiFWL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0593138279",
-        "price": "\u00a323.86",
+        "price": "\u00a323.23",
         "asin": "0593138279"
       },
       {
@@ -3283,7 +3314,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51mwWA2hqML._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1444756699",
-        "price": "\u00a318.99",
+        "price": "\u00a317.14",
         "asin": "1444756699"
       },
       {
@@ -3293,7 +3324,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/414zK1Xf4IL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/2857086954",
-        "price": "\u00a3103.60",
+        "price": "\u00a372.98",
         "asin": "2857086954"
       },
       {
@@ -3303,7 +3334,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/31ozd9LfZ-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0747583692",
-        "price": "",
+        "price": "\u00a3263.78",
         "asin": "0747583692"
       },
       {
@@ -3313,7 +3344,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51p+EUaBOHL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/140885757X",
-        "price": "\u00a342.42",
+        "price": "\u00a342.13",
         "asin": "140885757X"
       },
       {
@@ -3323,7 +3354,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51-ji07y-SL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1408808609",
-        "price": "\u00a326.00",
+        "price": "\u00a31.85",
         "asin": "1408808609"
       },
       {
@@ -3333,7 +3364,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51u9oR5Yr4L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/160774273X",
-        "price": "\u00a322.82",
+        "price": "\u00a323.00",
         "asin": "160774273X"
       },
       {
@@ -3353,7 +3384,7 @@ window.SITE_CONTENT = {
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/51cDlM10VjL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/162860011X",
-        "price": "\u00a323.27",
+        "price": "\u00a314.77",
         "asin": "162860011X"
       },
       {
@@ -3363,7 +3394,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51GLHiH9jcL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0062390236",
-        "price": "\u00a321.84",
+        "price": "\u00a324.71",
         "asin": "0062390236"
       },
       {
@@ -3393,7 +3424,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41wLcvSme0L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1906650357",
-        "price": "\u00a321.15",
+        "price": "\u00a321.13",
         "asin": "1906650357"
       },
       {
@@ -3423,7 +3454,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51I5OgmRgOL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1984826964",
-        "price": "\u00a324.70",
+        "price": "\u00a319.59",
         "asin": "1984826964",
         "goodreads": "https://www.goodreads.com/book/show/52028349-dessert-person"
       },
@@ -3434,7 +3465,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41zAzIWVArL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0747584095",
-        "price": "\u00a330.19",
+        "price": "\u00a329.44",
         "asin": "0747584095"
       },
       {
@@ -3444,7 +3475,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/61XGM4VoQML._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0747597375",
-        "price": "\u00a347.14",
+        "price": "\u00a346.20",
         "asin": "0747597375"
       },
       {
@@ -3494,7 +3525,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51dMdF6Zu-L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0744017114",
-        "price": "\u00a338.39",
+        "price": "\u00a338.36",
         "asin": "0744017114"
       },
       {
@@ -3504,7 +3535,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51zxspxQEaL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1101898151",
-        "price": "\u00a325.39",
+        "price": "\u00a331.09",
         "asin": "1101898151"
       },
       {
@@ -3514,7 +3545,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51Wsa06U0CL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/074401669X",
-        "price": "\u00a342.63",
+        "price": "\u00a322.45",
         "asin": "074401669X"
       },
       {
@@ -3524,7 +3555,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51C7McoDzBL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0804162727",
-        "price": "\u00a362.15",
+        "price": "\u00a381.39",
         "asin": "0804162727"
       },
       {
@@ -3534,7 +3565,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41tBNMp7I7L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/0744017033",
-        "price": "\u00a3480.00",
+        "price": "\u00a375.17",
         "asin": "0744017033"
       },
       {
@@ -3544,7 +3575,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/41hQWibSV+L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1101898437",
-        "price": "\u00a3146.66",
+        "price": "\u00a3144.22",
         "asin": "1101898437"
       },
       {
@@ -3554,7 +3585,7 @@ window.SITE_CONTENT = {
         "badge": "Hardcover",
         "img": "https://m.media-amazon.com/images/I/51ocrgXUB4L._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1782112308",
-        "price": "\u00a327.44",
+        "price": "\u00a327.45",
         "asin": "1782112308"
       },
       {
@@ -3564,7 +3595,7 @@ window.SITE_CONTENT = {
         "badge": "Paperback",
         "img": "https://m.media-amazon.com/images/I/51w-RKUiZZL._SS135_.jpg",
         "url": "https://www.amazon.co.uk/dp/1491928050",
-        "price": "\u00a326.69",
+        "price": "\u00a326.37",
         "asin": "1491928050"
       },
       {
@@ -9108,7 +9139,7 @@ window.SITE_CONTENT = {
             "id": "B09MXL1W9H",
             "name": "ProKeeper+ 9 Piece Clear Plastic Airtight Food Flour and Sugar Baker's Kitchen Storage Organization Container Canister Set with Magnetic Accessories",
             "theme": "Kitchen",
-            "price": "\u00a3108.36",
+            "price": "\u00a358.25",
             "img": "https://m.media-amazon.com/images/I/41imNwcIxTL._SS135_.jpg",
             "url": "https://www.amazon.co.uk/dp/B09MXL1W9H",
             "notes": "by ProKeeper (Kitchen & Home)"
@@ -9128,6 +9159,8 @@ window.SITE_CONTENT = {
             "price": "\u00a333.00",
             "img": "https://cdn.shopify.com/s/files/1/0268/8843/7878/products/PIZZAPILGRIMS2270_a357850b-8298-4231-8ed5-541d2ed9edbb.jpg?v=1679090001&width=256",
             "url": "https://shop.app/products/6585852526710/gift-a-pizza-kit?variantId=39381677539446",
+            "dateAdded": "",
+            "orderDate": "",
             "notes": "Pizza Pilgrims \u2014 Margherita / Regular / Add Gift Note"
           },
           {
@@ -9137,6 +9170,8 @@ window.SITE_CONTENT = {
             "price": "\u00a319.99",
             "img": "https://cdn.shopify.com/s/files/1/0869/7387/4512/files/Barnaby_Dec25-065.jpg?v=1774431167&width=256",
             "url": "https://shop.app/products/10337061994832/the-discovery-box?variantId=52764542173520",
+            "dateAdded": "",
+            "orderDate": "",
             "notes": "By Barnaby Bars"
           },
           {
@@ -9146,6 +9181,8 @@ window.SITE_CONTENT = {
             "price": "\u00a340.00",
             "img": "https://cdn.shopify.com/s/files/1/0499/5412/8029/files/23.11.20_LeSwine_3072.jpg?v=1748354568&width=256",
             "url": "https://shop.app/products/9252630495522/the-butty-box-for-4?variantId=48537683919138",
+            "dateAdded": "",
+            "orderDate": "",
             "notes": "By Le Swine"
           }
         ]
@@ -9178,13 +9215,19 @@ window.SITE_CONTENT = {
         "name": "Premium 100% Bamboo Toilet Paper - Double Length Rolls",
         "url": "https://uk.whogivesacrap.org/products/premium-100-bamboo-toilet-paper-double-length-rolls",
         "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/WGACProductPrimaryPhotos.jpg?v=1753868198",
-        "group": "who_gives_a_crap"
+        "group": "who_gives_a_crap",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-02-03"
       },
       {
         "name": "100% Recycled Kitchen Roll / Forest Friendly Paper Towels",
         "url": "https://uk.whogivesacrap.org/products/forest-friendly-paper-towels-6-rolls",
         "img": "https://cdn.shopify.com/s/files/1/1502/3454/files/UKPAPERTOWEL1.jpg?v=1781069408",
-        "group": "who_gives_a_crap"
+        "group": "who_gives_a_crap",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-12-27"
       },
       {
         "name": "Forest Friendly Tissues - 12 Boxes",
@@ -9209,19 +9252,28 @@ window.SITE_CONTENT = {
         "name": "Code H Custom Fit Liners",
         "url": "https://www.simplehuman.co.uk/products/code-h-custom-fit-liners",
         "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CODEH_3PACK.jpg?v=1773076719",
-        "group": "simplehuman"
+        "group": "simplehuman",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-02-19"
       },
       {
         "name": "Code C Custom Fit Liners",
         "url": "https://www.simplehuman.co.uk/products/code-c-custom-fit-liners",
         "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CODEC_3PACK.jpg?v=1774988177",
-        "group": "simplehuman"
+        "group": "simplehuman",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-02-19"
       },
       {
         "name": "Code Z Compostable Custom Fit Liners",
         "url": "https://www.simplehuman.co.uk/products/custom-fit-liners-code-z-compostable",
         "img": "https://cdn.shopify.com/s/files/1/0258/3147/3257/files/CW0525TP_54241a5a-7d37-4c59-8ad5-ff265701ded2.png?v=1776107375",
-        "group": "simplehuman"
+        "group": "simplehuman",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2025-02-19"
       },
       {
         "name": "Compost Caddy",
@@ -9239,19 +9291,28 @@ window.SITE_CONTENT = {
         "name": "Lenor Unstoppables / Scent Boosters (Floral Fresh, Bluebells & Wild Berries)",
         "url": "https://www.amazon.co.uk/s?k=Lenor+Unstoppables",
         "img": "https://m.media-amazon.com/images/I/71uC+XybBRL._AC_SL500_.jpg",
-        "group": "laundry_cleaning"
+        "group": "laundry_cleaning",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-06-28"
       },
       {
         "name": "Buster Bathroom Plughole Unblocker",
-        "url": "",
+        "url": "https://shop.app/orders/",
         "img": "https://m.media-amazon.com/images/I/41kYl7tinaL._AC_SL500_.jpg",
-        "group": "laundry_cleaning"
+        "group": "laundry_cleaning",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-07-04"
       },
       {
         "name": "Finish Dishwasher Salt & Dishwasher Cleaner",
-        "url": "",
+        "url": "https://shop.app/orders/",
         "img": "https://m.media-amazon.com/images/I/71ur86GN2PL._AC_SL500_.jpg",
-        "group": "laundry_cleaning"
+        "group": "laundry_cleaning",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-20"
       },
       {
         "name": "Oven Pride Cleaner",
@@ -9263,13 +9324,19 @@ window.SITE_CONTENT = {
         "name": "Scrub Daddy Colors Sponge",
         "url": "https://scrubdaddy.co.uk/scrub-daddy-colors/",
         "img": "https://scrubdaddy.co.uk/wp-content/uploads/2021/06/3_Pack_Colours_Web.jpg",
-        "group": "laundry_cleaning"
+        "group": "laundry_cleaning",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-03-20"
       },
       {
         "name": "Domestos Citrus Fresh Thick Bleach",
         "url": "https://www.amazon.co.uk/s?k=Domestos+Citrus+Fresh+Thick+Bleach",
         "img": "https://m.media-amazon.com/images/I/71o27cPcvFL._AC_SL500_.jpg",
-        "group": "laundry_cleaning"
+        "group": "laundry_cleaning",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-07-04"
       },
       {
         "name": "SURI Plant-Based Sonic Toothbrush Heads (Midnight Black)",
@@ -9314,7 +9381,10 @@ window.SITE_CONTENT = {
         "name": "Malcolm",
         "detail": "Pineapple, black currant, musk",
         "url": "https://solidcologne.co.uk/products/malcolm-solid-cologne-uk",
-        "img": "https://cdn.shopify.com/s/files/1/1177/3670/files/Sikandar.jpg?v=1774479590"
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/files/Sikandar.jpg?v=1774479590",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-09-03"
       },
       {
         "category": "Fragrance",
@@ -9322,7 +9392,10 @@ window.SITE_CONTENT = {
         "name": "Felix",
         "detail": "Grapefruit, mint, bergamot, cedarwood",
         "url": "https://solidcologne.co.uk/products/felix-solid-cologne",
-        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Felix_Solid_Cologne_UK.jpg?v=1579979067"
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Felix_Solid_Cologne_UK.jpg?v=1579979067",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-09-03"
       },
       {
         "category": "Fragrance",
@@ -9330,7 +9403,10 @@ window.SITE_CONTENT = {
         "name": "Xavier",
         "detail": "Lemon, lavender, patchouli, vetiver",
         "url": "https://solidcologne.co.uk/products/xavier-solid-cologne",
-        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Xavier_Solid_Cologne_UK.jpg?v=1579979348"
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Xavier_Solid_Cologne_UK.jpg?v=1579979348",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-09-03"
       },
       {
         "category": "Fragrance",
@@ -9338,7 +9414,10 @@ window.SITE_CONTENT = {
         "name": "Kahn",
         "detail": "Citrus, peppermint, green herbs, lily",
         "url": "https://solidcologne.co.uk/products/kahn-solid-cologne",
-        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Kahn_Solid_Cologne_UK.jpg?v=1579979130"
+        "img": "https://cdn.shopify.com/s/files/1/1177/3670/products/SCUK_Kahn_Solid_Cologne_UK.jpg?v=1579979130",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-09-03"
       },
       {
         "category": "Fragrance",
@@ -9354,7 +9433,10 @@ window.SITE_CONTENT = {
         "name": "Lavender & Geranium Body Wash (5L)",
         "detail": "Bulk refill",
         "url": "https://www.faithinnature.co.uk/products/lavender-geranium-body-wash-5l",
-        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Lavender-Geranium-Shower-Gel-5L-Refill_150d9549-a9b5-4402-af8b-495632bda5a4.png?v=1718367110"
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Lavender-Geranium-Shower-Gel-5L-Refill_150d9549-a9b5-4402-af8b-495632bda5a4.png?v=1718367110",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-06-08"
       },
       {
         "category": "Body wash and shampoo",
@@ -9362,7 +9444,10 @@ window.SITE_CONTENT = {
         "name": "Grapefruit & Orange Body Wash (5L)",
         "detail": "Bulk refill",
         "url": "https://www.faithinnature.co.uk/products/grapefruit-orange-body-wash-5l-refill",
-        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Grapefruit-Orange-Shower-Gel-5L-Refill_16aa7751-6675-4f1e-835d-3d0565b3f6b7.png?v=1718367106"
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Grapefruit-Orange-Shower-Gel-5L-Refill_16aa7751-6675-4f1e-835d-3d0565b3f6b7.png?v=1718367106",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-06-08"
       },
       {
         "category": "Body wash and shampoo",
@@ -9370,7 +9455,10 @@ window.SITE_CONTENT = {
         "name": "Seaweed & Citrus Shampoo (5L)",
         "detail": "Bulk refill",
         "url": "https://www.faithinnature.co.uk/products/citrus-seaweed-shampoo-5l-refill",
-        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Seaweed-Citrus-Shampoo-5L-Refill_f438cc8a-a409-4cc9-ac27-e9741818240a.png?v=1718367158"
+        "img": "https://cdn.shopify.com/s/files/1/0513/8923/5351/files/Seaweed-Citrus-Shampoo-5L-Refill_f438cc8a-a409-4cc9-ac27-e9741818240a.png?v=1718367158",
+        "validated": true,
+        "source": "automated",
+        "orderDate": "2026-06-08"
       },
       {
         "category": "Trimmers and shavers",
