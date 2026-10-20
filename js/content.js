@@ -11095,11 +11095,6 @@ window.SITE_CONTENT = {
         "url": "https://www.fodabox.com/"
       },
       {
-        "name": "Dry Aged Steaks",
-        "category": "Food & Snacks",
-        "url": "https://dryagedsteaks.co.uk/"
-      },
-      {
         "name": "JOMO Club (Non-Alcoholic)",
         "category": "Drinks (Non-Alcoholic & Gin)",
         "url": "https://jomoclub.co.uk/"
