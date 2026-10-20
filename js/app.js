@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       item.price ? `<span class="item-card__price">${escapeHtml(item.price)}</span>` : '',
       item.status ? `<span class="tag">${escapeHtml(item.status)}</span>` : '',
       item.owned ? '<span class="tag tag--owned">Owned</span>' : '',
+      ...(item.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`),
       dateTag,
       verifiedTag
     ].join('');
@@ -99,6 +100,8 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * One list page: heading, everything/wanted/owned tabs, group chips and card grids.
    * config: { title, lede, links[{label, href}], introHtml, note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
+   * Optional: filters[{key, label}] turns the chips into a filter on item.filter, leaving item.group for the
+   * sections; item.subgroup splits a section further (books: author sections, series inside).
    */
   function renderCatalogue(root, config) {
     const VIEWS = [
@@ -107,18 +110,32 @@ document.addEventListener('DOMContentLoaded', () => {
     ].filter(view => config[view.key].length > 0);
     const state = { tab: 'all', group: 'all' };
 
+    const chipKey = item => (config.filters ? item.filter : item.group);
+
     function listHtml(items, groups, headingTag) {
       if (items.length === 0) {
         return '<p class="catalogue__empty">Nothing here for this filter.</p>';
       }
       const grid = cards => `<div class="item-grid">${cards.map(itemCard).join('')}</div>`;
+      const subTag = `h${Number(headingTag.slice(1)) + 1}`;
+      const subgrouped = cards => {
+        const keys = [...new Set(cards.map(card => card.subgroup || ''))];
+        if (keys.length === 1 && !keys[0]) {
+          return grid(cards);
+        }
+        return keys.map(key => {
+          const inSub = cards.filter(card => (card.subgroup || '') === key);
+          return key ? `<div class="catalogue__subgroup"><${subTag}>${escapeHtml(key)}</${subTag}>${grid(inSub)}</div>` : grid(inSub);
+        }).join('');
+      };
       const inGroups = groups.filter(group => items.some(item => item.group === group.key));
-      if (!config.sectioned || state.group !== 'all' || inGroups.length < 2) {
-        return grid(items);
+      const filteredToOne = state.group !== 'all' && !config.filters;
+      if (!config.sectioned || filteredToOne || inGroups.length < 2) {
+        return subgrouped(items);
       }
       return inGroups.map(group => {
         const inGroup = items.filter(item => item.group === group.key);
-        return `<section class="catalogue__group"><${headingTag}>${escapeHtml(group.label)} <span class="count">${inGroup.length}</span></${headingTag}>${grid(inGroup)}</section>`;
+        return `<section class="catalogue__group"><${headingTag}>${escapeHtml(group.label)} <span class="count">${inGroup.length}</span></${headingTag}>${subgrouped(inGroup)}</section>`;
       }).join('');
     }
 
@@ -126,10 +143,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const shown = VIEWS.filter(view => state.tab === 'all' || state.tab === view.key);
       const everything = shown.flatMap(view => config[view.key]);
       const groups = (config.groups || []).filter(group => everything.some(item => item.group === group.key));
-      if (!groups.some(group => group.key === state.group)) {
+      const chips = (config.filters || groups).filter(chip => everything.some(item => chipKey(item) === chip.key));
+      if (!chips.some(chip => chip.key === state.group)) {
         state.group = 'all';
       }
-      const filtered = view => config[view.key].filter(item => state.group === 'all' || item.group === state.group);
+      const filtered = view => config[view.key].filter(item => state.group === 'all' || chipKey(item) === state.group);
       const tab = (key, label, count) => `<button type="button" data-tab="${key}" aria-pressed="${state.tab === key}">${label} ${count}</button>`;
       const chip = (key, label) => `<button type="button" data-group="${escapeHtml(key)}" aria-pressed="${state.group === key}">${escapeHtml(label)}</button>`;
       // With both lists on the page each gets its own heading; a single list needs none
@@ -148,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ${config.introHtml || ''}
         ${config.note ? `<div class="catalogue__note"><p>${escapeHtml(config.note)}</p><p class="catalogue__links">${(config.noteLinks || []).map(link => externalLink(link.href, link.label, 'button')).join('')}</p></div>` : ''}
         ${VIEWS.length > 1 ? `<div class="tabs" role="group" aria-label="Show">${tab('all', 'Everything', VIEWS.reduce((sum, view) => sum + config[view.key].length, 0))}${VIEWS.map(view => tab(view.key, view.label, config[view.key].length)).join('')}</div>` : ''}
-        ${groups.length > 1 ? `<div class="chips" role="group" aria-label="Filter">${chip('all', 'All')}${groups.map(group => chip(group.key, group.label)).join('')}</div>` : ''}
+        ${chips.length > 1 ? `<div class="chips" role="group" aria-label="Filter">${chip('all', 'All')}${chips.map(entry => chip(entry.key, entry.label)).join('')}</div>` : ''}
         ${lists}`;
     }
 
@@ -279,33 +297,47 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  const BOOK_FORMATS = { physical: '📕 Print', digital: '📱 Digital' };
+  const BOOK_WANTS = { physical: 'Wanted in print', digital: 'Wanted as ebook' };
+  const BOOK_LINKS = [['goodreads', 'Goodreads'], ['amazon', 'Amazon'], ['waterstones', 'Waterstones'], ['play', 'Play Books']];
+
+  // Sections are authors, series split them further, and the chips filter by category
   function booksCatalogue(data) {
-    const categories = [...new Set(data.normal.map(book => book.category))];
-    const card = book => ({
-      name: book.name,
-      img: book.img,
-      url: book.url || book.amazon || book.goodreads,
-      meta: book.badge && book.badge !== book.category ? book.badge : '',
-      price: book.status === 'wanted' && isPrice(book.price) ? book.price : '',
-      owned: book.status === 'owned',
-      orderDate: book.orderDate || '',
-      dateAdded: book.dateAdded || '',
-      validated: book.validated || (book.status === 'owned' && Boolean(book.orderDate)),
-      group: book.category,
-      cover: true,
-      extraHtml: book.goodreads ? `<p class="item-card__meta">${externalLink(book.goodreads, 'On Goodreads', 'item-card__link')}</p>` : ''
-    });
+    const authorOf = book => book.author || 'Unknown author';
+    const authors = [...new Set(data.library.map(authorOf))].sort((left, right) => left.localeCompare(right));
+    const categories = [...new Set(data.library.map(book => book.category))].sort();
+    const card = book => {
+      const tags = [
+        ...book.formats.map(format => BOOK_FORMATS[format]),
+        ...(book.audiobook ? ['🎧 Audiobook'] : []),
+        ...book.wants.map(format => BOOK_WANTS[format])
+      ];
+      const links = BOOK_LINKS.filter(([key]) => book.links[key]).map(([key, label]) => externalLink(book.links[key], label, 'item-card__link'));
+      return {
+        name: book.title,
+        img: book.img,
+        url: book.links.goodreads || book.links.play || book.links.waterstones || book.links.amazon,
+        meta: book.seriesNo ? `Book ${book.seriesNo}` : '',
+        tags,
+        group: authorOf(book),
+        subgroup: book.series,
+        filter: book.category,
+        cover: true,
+        extraHtml: links.length ? `<p class="item-card__meta">${links.join(' · ')}</p>` : ''
+      };
+    };
     return {
       title: 'Books',
-      lede: 'Cookbooks, game guides and reference books. Manga series are further down.',
+      lede: 'Every book across Goodreads, Amazon, Waterstones and Play Books, grouped by author and series. Owned copies say whether they are print or digital.',
       links: [
         { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
         { label: 'Shelves on Goodreads', href: data.goodreadsUrl }
       ],
-      groups: categories.map(category => ({ key: category, label: category })),
+      groups: authors.map(author => ({ key: author, label: author })),
+      filters: categories.map(category => ({ key: category, label: category })),
       sectioned: true,
-      wanted: data.normal.filter(book => book.status === 'wanted').map(card),
-      owned: data.normal.filter(book => book.status === 'owned').map(card)
+      wanted: data.library.filter(book => book.wants.length > 0).map(card),
+      owned: data.library.filter(book => book.status === 'owned').map(card)
     };
   }
 
@@ -446,8 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (homeRoot && SITE_CONTENT.index) {
     const index = SITE_CONTENT.index;
     const sections = index.intro.sections;
-    const books = SITE_CONTENT.books;
-    const volumes = status => books.manga.reduce((sum, series) => sum + series.volumes.filter(volume => volume.status === status).length, 0);
+    const library = SITE_CONTENT.books.library;
     const counts = {
       'lego.html': [SITE_CONTENT.lego.wishlist.length, SITE_CONTENT.lego.owned.length],
       'zelda.html': [SITE_CONTENT.zelda.wishlist.length, SITE_CONTENT.zelda.owned.length],
@@ -455,8 +486,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'videogames.html': [(SITE_CONTENT.videogames.wishlist || []).length, SITE_CONTENT.videogames.owned.length],
       'boardgames.html': [SITE_CONTENT.boardgames.wishlist.length, SITE_CONTENT.boardgames.owned.length],
       'books.html': [
-        books.normal.filter(book => book.status === 'wanted').length + volumes('wanted'),
-        books.normal.filter(book => book.status === 'owned').length + volumes('owned')
+        library.filter(book => book.wants.length > 0).length,
+        library.filter(book => book.status === 'owned').length
       ]
     };
     const rule = text => {
@@ -491,136 +522,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <h2>Browse the lists</h2>
       <div class="shelves">${index.collectionHubs.map(shelf).join('')}</div>`;
   }
-  // --- books.html (manga series) ---
-  if (document.getElementById('manga-section')) {
-    const data = SITE_CONTENT.books;
-    if (data) {
-        // Modal Setup
-        const modal = document.getElementById('book-modal');
-        const modalBody = document.getElementById('modal-body-content');
-        const closeBtn = document.getElementById('modal-close-btn');
-      
-        function openModal(series, vol) {
-          let imgHTML = '';
-          if (vol.img && vol.img !== '') {
-            imgHTML = `<img src="${escapeHtml(webUrl(vol.img))}" alt="${escapeHtml(series.series)} Vol. ${escapeHtml(vol.vol)}">`;
-          } else {
-            imgHTML = `
-              <div class="fallback-cover">
-                <div class="fallback-cover-title">${escapeHtml(series.series)}</div>
-                <div style="font-size: 1.1rem; font-weight: 700; color: var(--text); margin-top: 8px;">Vol. ${escapeHtml(vol.vol)}</div>
-                <div class="fallback-cover-author">${escapeHtml(series.author)}</div>
-              </div>
-            `;
-          }
-      
-          const statusClass = vol.status === 'owned' ? 'owned' : 'wanted';
-          const statusLabel = vol.status === 'owned' ? '✓ Owned' : '🎁 Wanted';
-      
-          let linksHTML = '';
-          if (vol.amazon) {
-            linksHTML += `<a href="${escapeHtml(webUrl(vol.amazon))}" target="_blank" class="modal-link-btn amazon">Amazon.co.uk ↗</a>`;
-          }
-          if (vol.goodreads) {
-            linksHTML += `<a href="${escapeHtml(webUrl(vol.goodreads))}" target="_blank" class="modal-link-btn">Goodreads ↗</a>`;
-          }
-          if (vol.waterstones) {
-            linksHTML += `<a href="${escapeHtml(webUrl(vol.waterstones))}" target="_blank" class="modal-link-btn">Waterstones ↗</a>`;
-          }
-          if (linksHTML === '') {
-            const fallbackUrl = series.wishlistUrl || data.amazonWishlistUrl || data.goodreadsUrl;
-            linksHTML += `<a href="${escapeHtml(webUrl(fallbackUrl))}" target="_blank" class="modal-link-btn amazon">Series Wishlist ↗</a>`;
-          }
-      
-          modalBody.innerHTML = `
-            <div class="modal-body-img">
-              ${imgHTML}
-            </div>
-            <div class="modal-body-info">
-              <div>
-                <div class="modal-title">${escapeHtml(series.series)}</div>
-                <div class="modal-subtitle">Volume ${escapeHtml(vol.vol)} &middot; By ${escapeHtml(series.author)}</div>
-                <div class="modal-status ${statusClass}">${statusLabel}</div>
-              </div>
-              <div class="modal-links">
-                ${linksHTML}
-              </div>
-            </div>
-          `;
-      
-          modal.classList.add('open');
-          document.body.style.overflow = 'hidden';
-        }
-      
-        function closeModal() {
-          modal.classList.remove('open');
-          document.body.style.overflow = '';
-        }
-      
-        if (closeBtn) closeBtn.addEventListener('click', closeModal);
-        if (modal) {
-          modal.addEventListener('click', (e) => {
-            if (e.target === modal) closeModal();
-          });
-        }
-        document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') closeModal();
-        });
-      
-        // Render Manga Section
-        function renderMangaSection() {
-          const container = document.getElementById('manga-section');
-          if (!container || !data.manga) return;
-      
-          data.manga.forEach(series => {
-            const card = document.createElement('div');
-            card.className = 'manga-series-card';
-      
-            let imgHTML = '';
-            if (series.img && series.img !== '') {
-              imgHTML = `<img src="${escapeHtml(webUrl(series.img))}" alt="${escapeHtml(series.series)}" loading="lazy">`;
-            } else {
-              imgHTML = `
-                <div class="fallback-cover">
-                  <div class="fallback-cover-title">${escapeHtml(series.series)}</div>
-                  <div class="fallback-cover-author">${escapeHtml(series.author)}</div>
-                </div>
-              `;
-            }
-      
-            const volumesHTML = series.volumes.map(vol => {
-              return `<button class="vol-btn ${vol.status === 'owned' ? 'owned' : 'wanted'}" type="button" title="Volume ${escapeHtml(vol.vol)}">${escapeHtml(vol.vol)}</button>`;
-            }).join('');
-      
-            card.innerHTML = `
-              <div class="manga-cover">
-                ${imgHTML}
-              </div>
-              <div class="manga-info">
-                <h3 class="manga-title">${escapeHtml(series.series)}</h3>
-                <div class="manga-author">By ${escapeHtml(series.author)}</div>
-                <p class="manga-desc">${escapeHtml(series.notes)}</p>
-                <div class="volumes-grid">
-                  ${volumesHTML}
-                </div>
-              </div>
-            `;
-      
-            // Attach click listeners to volume buttons
-            card.querySelectorAll('.vol-btn').forEach((btn, index) => {
-              btn.addEventListener('click', () => {
-                openModal(series, series.volumes[index]);
-              });
-            });
-      
-            container.appendChild(card);
-          });
-        }
-
-        renderMangaSection();
-    }
-  }
-
   // --- clothing.html ---
   if (document.getElementById('clothing-philosophy')) {
     const data = SITE_CONTENT.clothing;
