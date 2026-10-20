@@ -54,7 +54,7 @@ window.SITE_CONTENT = {
         "href": "lego.html",
         "icon": "\ud83e\uddf1",
         "title": "LEGO\u00ae Collection",
-        "badge": "22 Sets",
+        "badge": "23 Sets",
         "notes": "Botanic plants, Star Wars UCS, NES console & Great Deku Tree wishlist."
       },
       {
@@ -326,6 +326,13 @@ window.SITE_CONTENT = {
         "img": "https://www.lego.com/cdn/cs/catalog/assets/bltfd5b5bf2c0878301/1/75441_Box1_v29.png",
         "theme": "starwars",
         "url": "https://www.lego.com/en-gb/product/venator-class-attack-cruiser-75441"
+      },
+      {
+        "id": "75405",
+        "name": "Home One Starcruiser",
+        "img": "https://www.lego.com/cdn/cs/catalog/assets/blt521d51ac35f06772/1/75405_Box1_v29.png",
+        "theme": "starwars",
+        "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405"
       }
     ],
     "wishlist": [
@@ -335,6 +342,14 @@ window.SITE_CONTENT = {
         "price": "\u00a3559.99",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt06c6593d8e8d1c13/75367.png",
         "url": "https://www.lego.com/en-gb/product/venator-class-republic-attack-cruiser-75367",
+        "theme": "starwars"
+      },
+      {
+        "id": "75382",
+        "name": "TIE Interceptor\u2122",
+        "price": "\u00a3199.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
+        "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382",
         "theme": "starwars"
       },
       {
@@ -353,14 +368,6 @@ window.SITE_CONTENT = {
         "img": "https://www.lego.com/cdn/cs/set/assets/blt74da473b5ba874fe/10323.png",
         "url": "https://www.lego.com/en-gb/product/pac-man-arcade-10323",
         "theme": "videogames"
-      },
-      {
-        "id": "75382",
-        "name": "TIE Interceptor\u2122",
-        "price": "\u00a3199.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
-        "url": "https://www.lego.com/en-gb/product/tie-interceptor-75382",
-        "theme": "starwars"
       },
       {
         "id": "75355",
@@ -392,7 +399,7 @@ window.SITE_CONTENT = {
         "id": "75356",
         "name": "Executor Super Star Destroyer\u2122",
         "price": "\u00a359.99",
-        "status": "Out of stock / Retiring soon",
+        "status": "Retired Product / Retiring soon",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltc58d0af39ec2fc40/75356.png",
         "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75356",
         "theme": "starwars"
@@ -505,15 +512,6 @@ window.SITE_CONTENT = {
         "theme": "starwars"
       },
       {
-        "id": "75405",
-        "name": "Home One Starcruiser",
-        "price": "\u00a341.99",
-        "status": "Retired Product",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltb9adb5031a829a6d/75405_Prod_en-gb.png",
-        "url": "https://www.lego.com/en-gb/product/home-one-starcruiser-75405",
-        "theme": "starwars"
-      },
-      {
         "id": "75376",
         "name": "Tantive IV\u2122",
         "price": "\u00a369.99",
@@ -534,6 +532,7 @@ window.SITE_CONTENT = {
         "id": "75379",
         "name": "R2-D2\u2122",
         "price": "\u00a389.99",
+        "status": "Back order",
         "img": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png",
         "url": "https://www.lego.com/en-gb/product/r2-d2-75379",
         "theme": "starwars"
@@ -555,19 +554,10 @@ window.SITE_CONTENT = {
         "theme": "icons"
       },
       {
-        "id": "72306",
-        "name": "PlayStation\u2122",
-        "price": "\u00a3139.99",
-        "status": "Back order",
-        "img": "https://www.lego.com/cdn/cs/set/assets/blt59f8e9c961cb7e14/72306_Prod.png",
-        "url": "https://www.lego.com/en-gb/product/playstation-72306",
-        "theme": "videogames"
-      },
-      {
         "id": "40862",
         "name": "Holiday Ornament Selection 2",
         "price": "\u00a310.99",
-        "img": "https://www.lego.com/cdn/cs/set/assets/bltf53a6463dbfd2356/bltf53a6463dbfd2356",
+        "img": "https://www.lego.com/cdn/cs/set/assets/bltf53a6463dbfd2356/blt48ab724c0180ca36-40862_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/holiday-ornament-selection-2-40862",
         "theme": "seasonal"
       },
@@ -592,7 +582,6 @@ window.SITE_CONTENT = {
         "id": "40516",
         "name": "Everyone Is Awesome",
         "price": "\u00a330.99",
-        "status": "Back order",
         "img": "https://www.lego.com/cdn/cs/set/assets/bltced1e10e43211f84/40516_Prod.png",
         "url": "https://www.lego.com/en-gb/product/everyone-is-awesome-40516",
         "theme": "icons"
@@ -604,6 +593,14 @@ window.SITE_CONTENT = {
         "img": "https://www.lego.com/cdn/cs/set/assets/blta4cee150c80403bd/blta6d4a31cdd14d65d-75457_Prod_en-gb.png",
         "url": "https://www.lego.com/en-gb/product/executor-super-star-destroyer-75457",
         "theme": "starwars"
+      },
+      {
+        "id": "72306",
+        "name": "PlayStation\u2122",
+        "price": "\u00a3139.99",
+        "img": "https://www.lego.com/cdn/cs/set/assets/blt59f8e9c961cb7e14/72306_Prod.png",
+        "url": "https://www.lego.com/en-gb/product/playstation-72306",
+        "theme": "videogames"
       },
       {
         "id": "5009960",
