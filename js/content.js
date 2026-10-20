@@ -3578,6 +3578,7 @@ window.SITE_CONTENT = {
   "boardgames": {
     "title": "Board Games & Tabletop \ud83c\udfb2",
     "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
+    "geekGroupUrl": "https://geekgroup.app/users/alectronic0/collection",
     "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC",
     "owned": [
       {
@@ -3920,6 +3921,7 @@ window.SITE_CONTENT = {
       {
         "name": "USAopoly The Legend of Zelda Chess Set",
         "img": "https://m.media-amazon.com/images/I/51KyoaHn6HL._SS135_.jpg",
+        "bggId": "226297",
         "publisher": "USAopoly",
         "amazonUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC"
       },
@@ -4060,6 +4062,7 @@ window.SITE_CONTENT = {
       {
         "name": "These Cards Will Get You Drunk",
         "asin": "B073R59XYF",
+        "bggId": "310574",
         "publisher": "These Cards Will Get You Drunk",
         "img": "https://m.media-amazon.com/images/I/51gNYCvZb6L._SS135_.jpg",
         "amazonUrl": "https://www.amazon.co.uk/dp/B073R59XYF"
@@ -4196,6 +4199,12 @@ window.SITE_CONTENT = {
         "publisher": "What Do You Meme?",
         "img": "https://m.media-amazon.com/images/I/31ZBYh8CViS._SS135_.jpg",
         "amazonUrl": "https://www.amazon.co.uk/dp/B07C844C3C"
+      },
+      {
+        "name": "Mycelia (Split Stone Games)",
+        "bggId": "378476",
+        "publisher": "Split Stone Games",
+        "url": "https://boardgamegeek.com/boardgame/378476/mycelia"
       }
     ]
   },
@@ -10849,7 +10858,7 @@ window.SITE_CONTENT = {
   },
   "misc": {
     "title": "Brands, Stores & Subscriptions \ud83d\udecd\ufe0f",
-    "subtitle": "Favorite tech merch stores, household decor, and ongoing subscription boxes.",
+    "subtitle": "Favorite tech merch stores, household decor, eco refills, and ongoing subscription boxes.",
     "techMerch": [
       {
         "name": "Google Merch Store",
@@ -10877,19 +10886,64 @@ window.SITE_CONTENT = {
         "icon": "https://unavatar.io/merchoid.com"
       },
       {
-        "name": "Fangamer",
-        "url": "http://www.fangamer.com/",
+        "name": "Fangamer EU",
+        "url": "https://www.fangamer.eu/",
         "icon": "https://unavatar.io/fangamer.com"
       },
       {
-        "name": "Pokemon Center",
-        "url": "https://www.pokemoncenter.com",
+        "name": "Pokemon Center UK",
+        "url": "https://www.pokemoncenter.com/en-gb",
         "icon": "https://unavatar.io/pokemoncenter.com"
       },
       {
         "name": "Nintendo Store",
         "url": "https://store.nintendo.com/en-gb",
         "icon": "https://unavatar.io/nintendo.com"
+      },
+      {
+        "name": "Meccha Japan",
+        "url": "https://meccha-japan.com/en/",
+        "icon": "https://unavatar.io/meccha-japan.com"
+      },
+      {
+        "name": "Secretlab",
+        "url": "https://secretlab.co.uk/",
+        "icon": "https://unavatar.io/secretlab.co"
+      },
+      {
+        "name": "Anker",
+        "url": "https://www.anker.com/uk",
+        "icon": "https://unavatar.io/anker.com"
+      },
+      {
+        "name": "Insert Coin Clothing",
+        "url": "https://www.insertcoinclothing.com/",
+        "icon": "https://unavatar.io/insertcoinclothing.com"
+      },
+      {
+        "name": "UK Departure Boards",
+        "url": "https://ukdepartureboards.co.uk/",
+        "icon": "https://unavatar.io/ukdepartureboards.co.uk"
+      },
+      {
+        "name": "The Yetee",
+        "url": "https://theyetee.com/",
+        "icon": "https://unavatar.io/theyetee.com"
+      },
+      {
+        "name": "BoxLunch",
+        "url": "https://www.boxlunch.com/",
+        "icon": "https://unavatar.io/boxlunch.com"
+      },
+      {
+        "name": "Chipolo",
+        "url": "https://chipolo.net/",
+        "icon": "https://unavatar.io/chipolo.net"
+      },
+      {
+        "name": "Logitech G",
+        "url": "https://www.logitechg.com/en-gb",
+        "icon": "https://unavatar.io/logitechg.com"
       },
       {
         "name": "Warhammer (Tau)",
@@ -10907,11 +10961,6 @@ window.SITE_CONTENT = {
         "icon": "https://unavatar.io/burgschneider.com"
       },
       {
-        "name": "Snorlax Pok\u00e9mon Sleep Figure",
-        "url": "https://meccha-japan.com/en/figures/156385-figure-master-class-snorlax-pokemon-sleep.html",
-        "icon": "https://unavatar.io/meccha-japan.com"
-      },
-      {
         "name": "D&D Accessories",
         "url": "https://dndstore.wizards.com/uk/en/accessories",
         "icon": "https://unavatar.io/wizards.com"
@@ -10925,11 +10974,6 @@ window.SITE_CONTENT = {
         "name": "Geeks Outfit",
         "url": "https://www.geeksoutfit.com/",
         "icon": "https://unavatar.io/geeksoutfit.com"
-      },
-      {
-        "name": "Amazon Nintendo Merch",
-        "url": "https://www.amazon.com/nintendomerch",
-        "icon": "https://unavatar.io/amazon.com"
       },
       {
         "name": "DJI Store",
@@ -10954,6 +10998,31 @@ window.SITE_CONTENT = {
         "icon": "https://unavatar.io/simplehuman.co.uk"
       },
       {
+        "name": "Shark Clean UK",
+        "url": "https://sharkclean.co.uk/",
+        "icon": "https://unavatar.io/sharkclean.co.uk"
+      },
+      {
+        "name": "Ninja Kitchen UK",
+        "url": "https://ninjakitchen.co.uk/",
+        "icon": "https://unavatar.io/ninjakitchen.co.uk"
+      },
+      {
+        "name": "IKEA",
+        "url": "https://www.ikea.com/gb/en/",
+        "icon": "https://unavatar.io/ikea.com"
+      },
+      {
+        "name": "Dunelm",
+        "url": "https://www.dunelm.com/",
+        "icon": "https://unavatar.io/dunelm.com"
+      },
+      {
+        "name": "Philips Hue",
+        "url": "https://www.philips-hue.com/en-gb",
+        "icon": "https://unavatar.io/philips-hue.com"
+      },
+      {
         "name": "City Frames (Relief Maps)",
         "url": "https://www.cityframes.de/",
         "icon": "https://unavatar.io/cityframes.de"
@@ -10964,14 +11033,24 @@ window.SITE_CONTENT = {
         "icon": "https://unavatar.io/thinkaboutmaps.com"
       },
       {
+        "name": "Displate (Metal Posters)",
+        "url": "https://displate.com/",
+        "icon": "https://unavatar.io/displate.com"
+      },
+      {
         "name": "Boneyard London (Plants)",
         "url": "https://boneyardlondon.com/",
         "icon": "https://unavatar.io/boneyardlondon.com"
       },
       {
-        "name": "SharkNinja",
-        "url": "https://www.sharkninja.co.uk/",
-        "icon": "https://unavatar.io/sharkninja.co.uk"
+        "name": "Patch Plants",
+        "url": "https://www.patchplants.com/gb/en/",
+        "icon": "https://unavatar.io/patchplants.com"
+      },
+      {
+        "name": "Bloom & Wild",
+        "url": "https://www.bloomandwild.com/",
+        "icon": "https://unavatar.io/bloomandwild.com"
       },
       {
         "name": "Quite Nice London (Placemats)",
@@ -10980,6 +11059,26 @@ window.SITE_CONTENT = {
       }
     ],
     "subscriptions": [
+      {
+        "name": "Condimaniac (Club Maniac)",
+        "category": "Food & Snacks",
+        "url": "https://condimaniac.com/"
+      },
+      {
+        "name": "Huel",
+        "category": "Food & Snacks",
+        "url": "https://uk.huel.com/"
+      },
+      {
+        "name": "Feel Reformed (Collagen Coffee)",
+        "category": "Food & Snacks",
+        "url": "https://feelreformed.com/"
+      },
+      {
+        "name": "The Modern Milkman",
+        "category": "Food & Snacks",
+        "url": "https://themodernmilkman.co.uk/"
+      },
       {
         "name": "Bokksu (Japanese Snacks)",
         "category": "Food & Snacks",
@@ -11019,6 +11118,31 @@ window.SITE_CONTENT = {
         "name": "Taste Cocktails",
         "category": "Drinks (Non-Alcoholic & Gin)",
         "url": "https://tastecocktails.com/"
+      },
+      {
+        "name": "Wild (Refillable Deodorant)",
+        "category": "Eco & Personal Care",
+        "url": "https://www.wearewild.com/"
+      },
+      {
+        "name": "Who Gives A Crap UK (Bamboo Toilet Paper)",
+        "category": "Eco & Personal Care",
+        "url": "https://uk.whogivesacrap.org/"
+      },
+      {
+        "name": "SURI (Sonic Toothbrush Refills)",
+        "category": "Eco & Personal Care",
+        "url": "https://www.trysuri.com/"
+      },
+      {
+        "name": "Make Waves (Shampoo & Body Refills)",
+        "category": "Eco & Personal Care",
+        "url": "https://wearemakewaves.com/"
+      },
+      {
+        "name": "Bespoke Post",
+        "category": "Crafts & Activities",
+        "url": "https://www.bespokepost.com/"
       },
       {
         "name": "Craftiosity",
