@@ -15,7 +15,7 @@ const path = require('path');
 const { evalInNewTab } = require('./cdp');
 
 const USER = 'alectronic0';
-const COLLECTION_URL = `https://boardgamegeek.com/collection/user/${USER}`;
+const COLLECTION_URL = `https://boardgamegeek.com/collection/user/${USER}?pagesize=100`;
 const OUTPUT_FILE = path.join(__dirname, '..', '..', 'data', 'sources', 'bgg.json');
 
 const CONTENT_FILE = path.join(__dirname, '..', '..', 'js', 'content.js');

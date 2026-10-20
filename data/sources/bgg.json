@@ -1,7 +1,34 @@
 {
-  "scrapedAt": "2026-10-05T23:39:40.670Z",
-  "url": "https://boardgamegeek.com/collection/user/alectronic0",
+  "scrapedAt": "2026-10-20T20:50:00.829Z",
+  "url": "https://boardgamegeek.com/collection/user/alectronic0?pagesize=100",
   "items": [
+    {
+      "id": "230802",
+      "type": "boardgame",
+      "name": "Azul",
+      "status": "Owned",
+      "img": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__itemrep/img/6oRLPDvy4zz3gOZM6e6NzIk8Seg=/fit-in/246x300/filters:strip_icc()/pic6973671.png",
+      "owned": true,
+      "url": "https://boardgamegeek.com/boardgame/230802"
+    },
+    {
+      "id": "198305",
+      "type": "boardgame",
+      "name": "Bandits on Mars",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/Gw_JYJm90Vaifn2bx-SU9w__itemrep/img/qkx4V7of1UwSOB3vK3hXB3rrIBk=/fit-in/246x300/filters:strip_icc()/pic2983481.png",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/198305"
+    },
+    {
+      "id": "211534",
+      "type": "boardgame",
+      "name": "Bears vs Babies",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/2BZROogBECvPPF2780wlvg__itemrep/img/SngkewtDwN3dzZ5roCfqnxZCuRU=/fit-in/246x300/filters:strip_icc()/pic5521191.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/211534"
+    },
     {
       "id": "255664",
       "type": "boardgame",
@@ -12,6 +39,15 @@
       "url": "https://boardgamegeek.com/boardgame/255664"
     },
     {
+      "id": "195856",
+      "type": "boardgame",
+      "name": "Bloodborne: The Card Game",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/zczRMJvEEGhqLGwxxOQQuw__itemrep/img/A3HOmUPHvl_8zYhZWxMglX_8cAY=/fit-in/246x300/filters:strip_icc()/pic3297526.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/195856"
+    },
+    {
       "id": "260605",
       "type": "boardgame",
       "name": "Camel Up (Second Edition)",
@@ -19,6 +55,15 @@
       "img": "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__itemrep/img/TrnqwwsQs1i6jrrhudXSJRBD6Gk=/fit-in/246x300/filters:strip_icc()/pic8584959.jpg",
       "owned": false,
       "url": "https://boardgamegeek.com/boardgame/260605"
+    },
+    {
+      "id": "822",
+      "type": "boardgame",
+      "name": "Carcassonne",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__itemrep/img/6TWoEvnQQe_sO--6WLd_PQOnEQg=/fit-in/246x300/filters:strip_icc()/pic8621446.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/822"
     },
     {
       "id": "147209",
@@ -52,7 +97,7 @@
       "type": "boardgame",
       "name": "Citadels",
       "status": "Want To Buy",
-      "img": "https://cf.geekdo-images.com/shXqRK7Sfsp-jCLwoN3kqw__itemrep/img/oH3tfcboUKXbBDhDEVShQ6_vxeY=/fit-in/246x300/filters:strip_icc()/pic636868.jpg",
+      "img": "https://cf.geekdo-images.com/42iW4E-vOumFXRQAiSf-GA__itemrep/img/NVAwUCUVc6QWNKZNUBiIMg2nk8A=/fit-in/246x300/filters:strip_icc()/pic3239104.jpg",
       "owned": false,
       "url": "https://boardgamegeek.com/boardgame/478"
     },
@@ -93,6 +138,15 @@
       "url": "https://boardgamegeek.com/boardgame/131357"
     },
     {
+      "id": "246784",
+      "type": "boardgame",
+      "name": "Cryptid",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__itemrep/img/z6MdPedVOUZ3rKOu7513i3D9fnY=/fit-in/246x300/filters:strip_icc()/pic4037705.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/246784"
+    },
+    {
       "id": "242667",
       "type": "boardgame",
       "name": "Dark Souls: The Card Game",
@@ -111,6 +165,15 @@
       "url": "https://boardgamegeek.com/boardgame/36218"
     },
     {
+      "id": "19280",
+      "type": "boardgame",
+      "name": "Dreikäsehoch",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/GMItrE2XAaJ77jTSI333SQ__itemrep/img/BTv-4JAjYNmRJBxD9o1Hz6_9bCs=/fit-in/246x300/filters:strip_icc()/pic2257895.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/19280"
+    },
+    {
       "id": "336986",
       "type": "boardgame",
       "name": "Flamecraft",
@@ -120,12 +183,21 @@
       "url": "https://boardgamegeek.com/boardgame/336986"
     },
     {
+      "id": "12692",
+      "type": "boardgame",
+      "name": "Gloom",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/jD7_Ir8gL_9AXC-wjnqjHg__itemrep/img/TrY9FNVXHtplKsxn2pr4xvGCq0w=/fit-in/246x300/filters:strip_icc()/pic2080481.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/12692"
+    },
+    {
       "id": "437705",
       "type": "boardgame",
       "name": "Horrified: Dungeons & Dragons",
-      "status": "",
+      "status": "Owned",
       "img": "https://cf.geekdo-images.com/Drv6TfMDsEfjbau5ycKd7g__itemrep/img/FXzkMjtr_iNE3ekvpkXYQXL1LJA=/fit-in/246x300/filters:strip_icc()/pic8718235.jpg",
-      "owned": false,
+      "owned": true,
       "url": "https://boardgamegeek.com/boardgame/437705"
     },
     {
@@ -154,6 +226,15 @@
       "img": "https://cf.geekdo-images.com/V7WQjhAh0AatPXTYOrXtCQ__itemrep/img/vrt4T5nCJNEl5KZHo892PfTwwMw=/fit-in/246x300/filters:strip_icc()/pic4766499.png",
       "owned": false,
       "url": "https://boardgamegeek.com/boardgame/277085"
+    },
+    {
+      "id": "242555",
+      "type": "boardgame",
+      "name": "Meine ersten Spiele: Feuerwehr",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/WNGHb-U2x9CvXXz-rQL-DA__itemrep/img/WaYui8uGvS-WDLEF6Y7WnY3w2nQ=/fit-in/246x300/filters:strip_icc()/pic3924213.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/242555"
     },
     {
       "id": "122298",
@@ -237,6 +318,15 @@
       "url": "https://boardgamegeek.com/boardgame/244521"
     },
     {
+      "id": "128882",
+      "type": "boardgame",
+      "name": "The Resistance: Avalon",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__itemrep/img/KtGX_JFWNUXci7H5zs7GjS0QrQk=/fit-in/246x300/filters:strip_icc()/pic1398895.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/128882"
+    },
+    {
       "id": "92415",
       "type": "boardgame",
       "name": "Skull",
@@ -244,6 +334,15 @@
       "img": "https://cf.geekdo-images.com/GVbKORueiHezUaLfVZKlfQ__itemrep/img/IIjNSyysVdQZVUN6FEICYee8bcA=/fit-in/246x300/filters:strip_icc()/pic9315848.jpg",
       "owned": true,
       "url": "https://boardgamegeek.com/boardgame/92415"
+    },
+    {
+      "id": "40692",
+      "type": "boardgame",
+      "name": "Small World",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__itemrep/img/vxZGxHhrtnOMxPM38WNIu-tfYmI=/fit-in/246x300/filters:strip_icc()/pic428828.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/40692"
     },
     {
       "id": "249816",
@@ -271,6 +370,24 @@
       "img": "https://cf.geekdo-images.com/2qrpbgsKEcvu5RLXpb6fgw__itemrep/img/R-Gq_KB53LC-GbGXsIrV_ljhkqs=/fit-in/246x300/filters:strip_icc()/pic4137234.jpg",
       "owned": false,
       "url": "https://boardgamegeek.com/boardgameexpansion/247030"
+    },
+    {
+      "id": "226297",
+      "type": "boardgameexpansion",
+      "name": "Terraforming Mars: Snow Algae Promo Card",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/lku4eiyn4VuBCHIlHK4hyA__itemrep/img/7ACSogzGJEgJd8d96BX7RsdHnn4=/fit-in/246x300/filters:strip_icc()/pic3615573.png",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgameexpansion/226297"
+    },
+    {
+      "id": "274533",
+      "type": "boardgame",
+      "name": "Throw Throw Burrito",
+      "status": "Want To Buy Wishlist(3) (Like to have)",
+      "img": "https://cf.geekdo-images.com/5ClVKrQcLkzRdBGiEfjevQ__itemrep/img/dYq9z1LZxdI90c_RvHPiqA9mgu8=/fit-in/246x300/filters:strip_icc()/pic7073068.jpg",
+      "owned": false,
+      "url": "https://boardgamegeek.com/boardgame/274533"
     },
     {
       "id": "14996",
@@ -320,19 +437,8 @@
   ],
   "extraCovers": {
     "171": "https://cf.geekdo-images.com/0_RWFMNapgr5yCrdhvGi_Q__itemrep/img/MGSJENt0kDDET0K-IGz-KbeEPRE=/fit-in/246x300/filters:strip_icc()/pic8785991.jpg",
-    "822": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__itemrep/img/6TWoEvnQQe_sO--6WLd_PQOnEQg=/fit-in/246x300/filters:strip_icc()/pic8621446.jpg",
-    "12692": "https://cf.geekdo-images.com/jD7_Ir8gL_9AXC-wjnqjHg__itemrep/img/TrY9FNVXHtplKsxn2pr4xvGCq0w=/fit-in/246x300/filters:strip_icc()/pic2080481.jpg",
-    "19280": "https://cf.geekdo-images.com/GMItrE2XAaJ77jTSI333SQ__itemrep/img/BTv-4JAjYNmRJBxD9o1Hz6_9bCs=/fit-in/246x300/filters:strip_icc()/pic2257895.jpg",
-    "40692": "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__itemrep/img/vxZGxHhrtnOMxPM38WNIu-tfYmI=/fit-in/246x300/filters:strip_icc()/pic428828.jpg",
-    "128882": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__itemrep/img/KtGX_JFWNUXci7H5zs7GjS0QrQk=/fit-in/246x300/filters:strip_icc()/pic1398895.jpg",
     "181303": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__itemrep/img/Py7CTY0tSBSwKQ0sgVjRFfsVUZU=/fit-in/246x300/filters:strip_icc()/pic1657689.jpg",
-    "195856": "https://cf.geekdo-images.com/zczRMJvEEGhqLGwxxOQQuw__itemrep/img/A3HOmUPHvl_8zYhZWxMglX_8cAY=/fit-in/246x300/filters:strip_icc()/pic3297526.jpg",
-    "198305": "https://cf.geekdo-images.com/Gw_JYJm90Vaifn2bx-SU9w__itemrep/img/qkx4V7of1UwSOB3vK3hXB3rrIBk=/fit-in/246x300/filters:strip_icc()/pic2983481.png",
-    "211534": "https://cf.geekdo-images.com/2BZROogBECvPPF2780wlvg__itemrep/img/SngkewtDwN3dzZ5roCfqnxZCuRU=/fit-in/246x300/filters:strip_icc()/pic5521191.jpg",
     "222956": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__itemrep/img/Py7CTY0tSBSwKQ0sgVjRFfsVUZU=/fit-in/246x300/filters:strip_icc()/pic1657689.jpg",
-    "230802": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__itemrep/img/6oRLPDvy4zz3gOZM6e6NzIk8Seg=/fit-in/246x300/filters:strip_icc()/pic6973671.png",
-    "242555": "https://cf.geekdo-images.com/WNGHb-U2x9CvXXz-rQL-DA__itemrep/img/WaYui8uGvS-WDLEF6Y7WnY3w2nQ=/fit-in/246x300/filters:strip_icc()/pic3924213.jpg",
-    "246784": "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__itemrep/img/z6MdPedVOUZ3rKOu7513i3D9fnY=/fit-in/246x300/filters:strip_icc()/pic4037705.jpg",
-    "274533": "https://cf.geekdo-images.com/5ClVKrQcLkzRdBGiEfjevQ__itemrep/img/dYq9z1LZxdI90c_RvHPiqA9mgu8=/fit-in/246x300/filters:strip_icc()/pic7073068.jpg"
+    "310574": "https://cf.geekdo-images.com/6wZfn6doCy534Y1hjK207Q__itemrep/img/O_6DpWEUdbnVMoKVWLNdE_aXMRw=/fit-in/246x300/filters:strip_icc()/pic5439911.jpg"
   }
 }

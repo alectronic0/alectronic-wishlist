@@ -14,6 +14,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { TITLE_MATCH, titleWords, titleOverlap, goodreadsTitle, goodreadsAuthor } = require('./lib/titles');
 
 const ROOT = path.join(__dirname, '..');
 const CONTENT_FILE = path.join(ROOT, 'js', 'content.js');
@@ -348,31 +349,6 @@ function syncGames(content, igdb, overrides) {
   }
 }
 
-const TITLE_STOPWORDS = new Set(['the', 'a', 'an', 'of', 'and', 'to', 'in', 'for', 'with', 'by', 'vol']);
-const TITLE_MATCH = 0.75;
-
-function titleWords(text) {
-  const words = text.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9 ]/g, ' ').split(' ').filter(word => word && !TITLE_STOPWORDS.has(word));
-  return new Set(words);
-}
-
-// Share of the shorter title's words that the longer one also has
-function titleOverlap(left, right) {
-  const smaller = left.size <= right.size ? left : right;
-  const larger = smaller === left ? right : left;
-  if (smaller.size === 0) {
-    return 0;
-  }
-  let shared = 0;
-  for (const word of smaller) {
-    if (larger.has(word)) {
-      shared++;
-    }
-  }
-  return shared / smaller.size;
-}
-
 // Best candidate above the overlap threshold; Jaccard breaks ties between near-identical product names
 function closestByTitle(entries, words) {
   let best = null;
@@ -390,16 +366,6 @@ function closestByTitle(entries, words) {
     }
   }
   return best;
-}
-
-// Goodreads titles carry series suffixes, seller noise in brackets and, for Japanese editions,
-// the romanised title in trailing brackets
-function goodreadsTitle(book) {
-  const romanised = book.title.match(/^[^\x00-\x7F].*\[([^\]]+)\]\s*$/);
-  if (romanised) {
-    return romanised[1];
-  }
-  return book.title.replace(/^\[+\(?/, '').replace(/^By [^-]+ - /i, '').split(/\]|\s*\([^)]*#\d+\)/)[0].trim();
 }
 
 function findSiteBook(books, book) {
@@ -423,11 +389,6 @@ function findSiteBook(books, book) {
     }
     return short.size > 2 && titleOverlap(short, name) >= TITLE_MATCH;
   });
-}
-
-function goodreadsAuthor(book) {
-  const [last, first] = book.author.split(', ');
-  return first ? `${first} ${last}` : last;
 }
 
 function syncGoodreadsShelf(content, books, status, overrides) {
@@ -553,6 +514,7 @@ function reportBgg(content, bgg) {
     }
   }
   content.boardgames.bggUrl = bgg.url;
+  content.boardgames.geekGroupUrl = 'https://geekgroup.app/users/alectronic0/collection';
   const covers = new Map([...bgg.items.map(item => [item.id, item.img]), ...Object.entries(bgg.extraCovers || {})]);
   for (const game of [...owned, ...wishlist]) {
     game.img = game.img || covers.get(String(game.bggId)) || '';

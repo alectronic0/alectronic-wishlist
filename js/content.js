@@ -111,7 +111,7 @@ window.SITE_CONTENT = {
         "icon": "\ud83e\ude7a",
         "title": "Health & Gym",
         "badge": "ECG & Health",
-        "notes": "Withings BPM Core ECG, OMRON EVOLV, Sleep Analyzer & smart scale."
+        "notes": "OMRON EVOLV, Withings Body Cardio, Sleep Analyzer, ScanWatch & Thermo."
       },
       {
         "href": "grooming.html",
@@ -1395,7 +1395,8 @@ window.SITE_CONTENT = {
         "tagCode": "372-458325(32-07)",
         "productUrl": "E458325-000",
         "rebuyStatus": "Current Season In Stock",
-        "notes": "Lightweight breathable summer short. Elastic waist + drawcord."
+        "notes": "Lightweight breathable summer short. Elastic waist + drawcord.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/458325/item/ukgoods_62_458325.jpg"
       },
       {
         "id": "CLO-002",
@@ -1414,7 +1415,8 @@ window.SITE_CONTENT = {
         "tagCode": "372-458325(32-07)",
         "productUrl": "E458325-000",
         "rebuyStatus": "Current Season In Stock",
-        "notes": "Navy stripe seersucker. Perfect for warm weather."
+        "notes": "Navy stripe seersucker. Perfect for warm weather.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/458325/item/ukgoods_68_458325.jpg"
       },
       {
         "id": "CLO-003",
@@ -1433,7 +1435,8 @@ window.SITE_CONTENT = {
         "tagCode": "372-474123(52-18)",
         "productUrl": "E474123-000",
         "rebuyStatus": "Discontinued (JP 2024)",
-        "notes": "Bought in Japan. Label size L fits 84-92cm waist via elastic waistband."
+        "notes": "Bought in Japan. Label size L fits 84-92cm waist via elastic waistband.",
+        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/474123/item/jpgoods_62_474123.jpg"
       },
       {
         "id": "CLO-004",
@@ -1452,7 +1455,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-467609(42-01)",
         "productUrl": "E467609-000",
         "rebuyStatus": "Replaced by E477752-000 (\u00a319.90, 3XL in stock)",
-        "notes": "DRY-EX quick dry. Great for workouts and hot weather/pool."
+        "notes": "DRY-EX quick dry. Great for workouts and hot weather/pool.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/477752/item/ukgoods_03_477752.jpg"
       },
       {
         "id": "CLO-005",
@@ -1471,7 +1475,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-482317(62-01)",
         "productUrl": "E482317-000",
         "rebuyStatus": "Updated Japanese model (E482317)",
-        "notes": "Bought in Japan. Quick-drying lightweight technical fabric."
+        "notes": "Bought in Japan. Quick-drying lightweight technical fabric.",
+        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/482317/item/jpgoods_02_482317.jpg"
       },
       {
         "id": "CLO-006",
@@ -1490,7 +1495,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-467609(42-01)",
         "productUrl": "E467609-000",
         "rebuyStatus": "Replaced by E477752-000 (\u00a319.90, 3XL in stock)",
-        "notes": "Staple black workout and lounge shorts with zipped pocket."
+        "notes": "Staple black workout and lounge shorts with zipped pocket.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/477752/item/ukgoods_09_477752.jpg"
       },
       {
         "id": "CLO-007",
@@ -1509,7 +1515,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-475386(52-19)",
         "productUrl": "E475386-000",
         "rebuyStatus": "In Stock on JP store (\u00a51,990)",
-        "notes": "Bought in Japan. Tag confirms JP size XL."
+        "notes": "Bought in Japan. Tag confirms JP size XL.",
+        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/475386/item/jpgoods_09_475386.jpg"
       },
       {
         "id": "CLO-008",
@@ -1528,7 +1535,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-475386(52-19)",
         "productUrl": "E475386-000",
         "rebuyStatus": "In Stock on JP store (\u00a51,990)",
-        "notes": "Bought in Japan. Tag confirms JP size L."
+        "notes": "Bought in Japan. Tag confirms JP size L.",
+        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/475386/item/jpgoods_09_475386.jpg"
       },
       {
         "id": "CLO-009",
@@ -1547,7 +1555,8 @@ window.SITE_CONTENT = {
         "tagCode": "372-478670(52-02)",
         "productUrl": "E478670-000",
         "rebuyStatus": "Staple Item (Alternative E482920 \u00a339.90)",
-        "notes": "6 PAIRS OWNED. Staple daily and evening resort trousers. Elastic waistband expands 4-6\"."
+        "notes": "6 PAIRS OWNED. Staple daily and evening resort trousers. Elastic waistband expands 4-6\".",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/478670/item/ukgoods_09_478670.jpg"
       },
       {
         "id": "CLO-010",
@@ -1566,7 +1575,8 @@ window.SITE_CONTENT = {
         "tagCode": "372-478670(52-02)",
         "productUrl": "E478670-000",
         "rebuyStatus": "Staple Item (Alternative E482920 \u00a339.90)",
-        "notes": "Preferred loose relaxed drape fit. Ideal for evening travel/holiday."
+        "notes": "Preferred loose relaxed drape fit. Ideal for evening travel/holiday.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/478670/item/ukgoods_09_478670.jpg"
       },
       {
         "id": "CLO-011",
@@ -1585,7 +1595,8 @@ window.SITE_CONTENT = {
         "tagCode": "331-486502(63-01)",
         "productUrl": "E467488-000",
         "rebuyStatus": "In Stock (\u00a334.90)",
-        "notes": "Masterpiece core line. Regular fit spread collar, completely wrinkle-free."
+        "notes": "Masterpiece core line. Regular fit spread collar, completely wrinkle-free.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467488/item/ukgoods_00_467488.jpg"
       },
       {
         "id": "CLO-074",
@@ -1604,7 +1615,8 @@ window.SITE_CONTENT = {
         "tagCode": "331-475903",
         "productUrl": "E456592-000",
         "rebuyStatus": "In Stock (\u00a334.90)",
-        "notes": "Second white dress shirt. Slimmer silhouette for formal suits and blazers."
+        "notes": "Second white dress shirt. Slimmer silhouette for formal suits and blazers.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/456592/item/ukgoods_00_456592.jpg"
       },
       {
         "id": "CLO-012",
@@ -1623,7 +1635,8 @@ window.SITE_CONTENT = {
         "tagCode": "331-467513(42-11)",
         "productUrl": "E467513-000",
         "rebuyStatus": "Discontinued Seasonal Run",
-        "notes": "Silky modal drape, camp collar. Prime resort/holiday shirt."
+        "notes": "Silky modal drape, camp collar. Prime resort/holiday shirt.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467513/item/ukgoods_31_467513.jpg"
       },
       {
         "id": "CLO-013",
@@ -1642,7 +1655,8 @@ window.SITE_CONTENT = {
         "tagCode": "331-467513(42-11)",
         "productUrl": "E467513-000",
         "rebuyStatus": "Discontinued Seasonal Run",
-        "notes": "Silky drape camp collar shirt in dark botanical motif."
+        "notes": "Silky drape camp collar shirt in dark botanical motif.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467513/item/ukgoods_58_467513.jpg"
       },
       {
         "id": "CLO-014",
@@ -1665,7 +1679,8 @@ window.SITE_CONTENT = {
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-03",
-        "url": "https://shop.app/orders/"
+        "url": "https://shop.app/orders/",
+        "img": "https://eu.passenger-clothing.com/cdn/shop/files/SToRmhOleiC86dg8-1Fduh0yQIMtMZ2Jnz9CVXVzong.jpg?v=1746621060"
       },
       {
         "id": "CLO-015",
@@ -1688,7 +1703,8 @@ window.SITE_CONTENT = {
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-03",
-        "url": "https://shop.app/orders/"
+        "url": "https://shop.app/orders/",
+        "img": "https://eu.passenger-clothing.com/cdn/shop/files/tDZpfEwakOvuJv6W3_xBdec1dck0k7ToFiFVYWH8uOw.jpg?v=1746620532"
       },
       {
         "id": "CLO-016",
@@ -1711,7 +1727,8 @@ window.SITE_CONTENT = {
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-03",
-        "url": "https://shop.app/orders/"
+        "url": "https://shop.app/orders/",
+        "img": "https://www.passenger-clothing.com/cdn/shop/files/rmEtG5cCfeDp7Dkx9qWQkiePDdJlMf7CJR-kTBGtMcU.jpg?v=1743504082"
       },
       {
         "id": "CLO-017",
@@ -1906,7 +1923,8 @@ window.SITE_CONTENT = {
         "tagCode": "475844",
         "productUrl": "475844",
         "rebuyStatus": "Discontinued (Order 02-Oct-2024)",
-        "notes": "Official Pok\u00e9mon Gengar graphic tee."
+        "notes": "Official Pok\u00e9mon Gengar graphic tee.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475844/item/goods_09_475844_3x4.jpg"
       },
       {
         "id": "CLO-026",
@@ -1925,7 +1943,8 @@ window.SITE_CONTENT = {
         "tagCode": "480929",
         "productUrl": "E480929-000",
         "rebuyStatus": "Discontinued UT Archive",
-        "notes": "Uniqlo UT Super Mario Archive (SKU 480929). Features neon line art of 8 Mario Kart racers with 'WHO'S GONNA WIN?' caption."
+        "notes": "Uniqlo UT Super Mario Archive (SKU 480929). Features neon line art of 8 Mario Kart racers with 'WHO'S GONNA WIN?' caption.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480929/item/goods_09_480929_3x4.jpg?width=600"
       },
       {
         "id": "CLO-027",
@@ -1982,7 +2001,8 @@ window.SITE_CONTENT = {
         "tagCode": "455831",
         "productUrl": "E455831-000",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Uniqlo UT Minecraft collection (SKU 455831). Solid heather green tee with Creeper pixel face embroidered on chest pocket."
+        "notes": "Uniqlo UT Minecraft collection (SKU 455831). Solid heather green tee with Creeper pixel face embroidered on chest pocket.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/455831/item/goods_55_455831_3x4.jpg?width=600"
       },
       {
         "id": "CLO-031",
@@ -2001,7 +2021,8 @@ window.SITE_CONTENT = {
         "tagCode": "472360",
         "productUrl": "472360",
         "rebuyStatus": "Discontinued (Order 02-Oct-2024)",
-        "notes": "Official Pok\u00e9mon UT."
+        "notes": "Official Pok\u00e9mon UT.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472360/item/goods_00_472360_3x4.jpg"
       },
       {
         "id": "CLO-032",
@@ -2020,7 +2041,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Classic Nintendo Yoshi."
+        "notes": "Classic Nintendo Yoshi.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480928/item/goods_00_480928_3x4.jpg"
       },
       {
         "id": "CLO-033",
@@ -2039,7 +2061,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived 2023 TotK UT Drop",
-        "notes": "High sentimental Zelda TotK collection piece."
+        "notes": "High sentimental Zelda TotK collection piece.",
+        "img": "https://asset.watch.impress.co.jp/img/gmw/docs/1581/399/8_l.jpg"
       },
       {
         "id": "CLO-034",
@@ -2077,7 +2100,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Clean gold/grey crest on white."
+        "notes": "Clean gold/grey crest on white.",
+        "img": "https://asset.watch.impress.co.jp/img/gmw/docs/1581/399/16_l.jpg"
       },
       {
         "id": "CLO-036",
@@ -2096,7 +2120,8 @@ window.SITE_CONTENT = {
         "tagCode": "474426",
         "productUrl": "E474426-000",
         "rebuyStatus": "Archived UT Drop (UTGP 2019 Finalist)",
-        "notes": "Uniqlo UTGP 2019 Pok\u00e9mon competition finalist. Features complete Pok\u00e9mon Trainer adventure inventory laid out on white: bicycle, yellow backpack, red vest, cap, Pok\u00e9dex, Town Map, Pok\u00e9 Flute, fishing rod, and Pok\u00e9 Balls."
+        "notes": "Uniqlo UTGP 2019 Pok\u00e9mon competition finalist. Features complete Pok\u00e9mon Trainer adventure inventory laid out on white: bicycle, yellow backpack, red vest, cap, Pok\u00e9dex, Town Map, Pok\u00e9 Flute, fishing rod, and Pok\u00e9 Balls.",
+        "img": "https://i.ebayimg.com/images/g/wUQAAOSw0c5nB7g~/s-l1600.webp"
       },
       {
         "id": "CLO-037",
@@ -2115,7 +2140,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived Drop",
-        "notes": "Features left chest pocket with Boo ghost graphic peeking out. Retained in casual rotation."
+        "notes": "Features left chest pocket with Boo ghost graphic peeking out. Retained in casual rotation.",
+        "img": "https://i.ebayimg.com/images/g/h24AAeSw9TBqqUAK/s-l960.webp"
       },
       {
         "id": "CLO-038",
@@ -2134,7 +2160,8 @@ window.SITE_CONTENT = {
         "tagCode": "422049",
         "productUrl": "E422049-000",
         "rebuyStatus": "Archived UTGP 2019 Drop",
-        "notes": "Official UT Grand Prix 2019 Pok\u00e9mon collection (Unown vision test eye chart). Retained in casual rotation."
+        "notes": "Official UT Grand Prix 2019 Pok\u00e9mon collection (Unown vision test eye chart). Retained in casual rotation.",
+        "img": "https://www.uniqlo.com/utgp/2019/common/images/item/UTGP2019_422049.jpg"
       },
       {
         "id": "CLO-039",
@@ -2153,7 +2180,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Kanto classic Meowth."
+        "notes": "Kanto classic Meowth.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480348/item/goods_01_480348_3x4.jpg"
       },
       {
         "id": "CLO-040",
@@ -2172,7 +2200,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Uniqlo UT Capcom 40th anniversary collection. Front chest print of 8-character Player Select grid; oversized back print of classic Street Fighter II logo and Shadaloo Kings (M. Bison, Sagat, Vega, Balrog)."
+        "notes": "Uniqlo UT Capcom 40th anniversary collection. Front chest print of 8-character Player Select grid; oversized back print of classic Street Fighter II logo and Shadaloo Kings (M. Bison, Sagat, Vega, Balrog).",
+        "img": "https://www.uniqlo.com/jp/ja/special-feature/ut/capcom40/common/img/gl-kv2.jpg"
       },
       {
         "id": "CLO-041",
@@ -2191,7 +2220,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "1472640874",
         "rebuyStatus": "Etsy Independent Creator",
-        "notes": "Super Mario Boo T-shirt front and back design (Shy Boo covering eyes). Retained in casual rotation."
+        "notes": "Super Mario Boo T-shirt front and back design (Shy Boo covering eyes). Retained in casual rotation.",
+        "img": "https://i.etsystatic.com/10362783/r/il/63f201/1067615870/il_100x100.1067615870_jj1w.jpg"
       },
       {
         "id": "CLO-042",
@@ -2210,7 +2240,8 @@ window.SITE_CONTENT = {
         "tagCode": "480930",
         "productUrl": "E480930-000",
         "rebuyStatus": "Discontinued (Order 25-Apr-2025)",
-        "notes": "Mario Kart Lakitu rescue graphic (front Mario in kart fished from water; back Lakitu on cloud). Retained in casual rotation."
+        "notes": "Mario Kart Lakitu rescue graphic (front Mario in kart fished from water; back Lakitu on cloud). Retained in casual rotation.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480930/item/goods_00_480930_3x4.jpg"
       },
       {
         "id": "CLO-043",
@@ -2229,7 +2260,8 @@ window.SITE_CONTENT = {
         "tagCode": "480928",
         "productUrl": "E480928-000",
         "rebuyStatus": "Discontinued (Order 25-Apr-2025)",
-        "notes": "Running Yoshi graphic with halftone texture and 'WAHOOO! YO-YO-YOSHI!' typography. Condition confirmed Good; kept in casual rotation."
+        "notes": "Running Yoshi graphic with halftone texture and 'WAHOOO! YO-YO-YOSHI!' typography. Condition confirmed Good; kept in casual rotation.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480928/item/goods_00_480928_3x4.jpg"
       },
       {
         "id": "CLO-044",
@@ -2248,7 +2280,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (2021 All-Stars)",
-        "notes": "Pok\u00e9mon All-Stars UT 2021. Front chest pocket features black Pikachu rear silhouette; back neck features Ash Ketchum trainer cap with 'POK\u00c9MON! GOTTA CATCH 'EM ALL!..' text."
+        "notes": "Pok\u00e9mon All-Stars UT 2021. Front chest pocket features black Pikachu rear silhouette; back neck features Ash Ketchum trainer cap with 'POK\u00c9MON! GOTTA CATCH 'EM ALL!..' text.",
+        "img": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F04%2Fpokemon-all-stars-uniqlo-ut-collaboration-generation-1-collection-tee-shirts-release-date-info-1.jpg?q=90&w=800&cbr=1&fit=max"
       },
       {
         "id": "CLO-045",
@@ -2267,7 +2300,8 @@ window.SITE_CONTENT = {
         "tagCode": "472518",
         "productUrl": "E472518-000",
         "rebuyStatus": "Bought in Japan (Exclusive)",
-        "notes": "Uniqlo PEACE FOR ALL Japan charity collection (SKU 472518). Clean white tee featuring black ink Zen Ens\u014d circular brushstroke, vertical kanji calligraphy, and red seal stamp."
+        "notes": "Uniqlo PEACE FOR ALL Japan charity collection (SKU 472518). Clean white tee featuring black ink Zen Ens\u014d circular brushstroke, vertical kanji calligraphy, and red seal stamp.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472518/item/goods_00_472518_3x4.jpg?width=600"
       },
       {
         "id": "CLO-046",
@@ -2286,7 +2320,8 @@ window.SITE_CONTENT = {
         "tagCode": "489653",
         "productUrl": "E489653-000",
         "rebuyStatus": "In Stock (\u00a319.90)",
-        "notes": "Popular anime franchise drop."
+        "notes": "Popular anime franchise drop.",
+        "img": "https://image.uniqlo.com/UQ/ST3/gb/imagesgoods/489653/item/gbgoods_00_489653_3x4.jpg"
       },
       {
         "id": "CLO-047",
@@ -2305,7 +2340,8 @@ window.SITE_CONTENT = {
         "tagCode": "480930",
         "productUrl": "E480930-000",
         "rebuyStatus": "In Stock (\u00a319.90)",
-        "notes": "Mario Kart Lakitu rescue graphic (front Mario in kart fished from water; back Lakitu on cloud). Retained in new condition."
+        "notes": "Mario Kart Lakitu rescue graphic (front Mario in kart fished from water; back Lakitu on cloud). Retained in new condition.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480930/item/goods_00_480930_3x4.jpg"
       },
       {
         "id": "CLO-048",
@@ -2324,7 +2360,8 @@ window.SITE_CONTENT = {
         "tagCode": "489913",
         "productUrl": "E489913-000",
         "rebuyStatus": "In Stock (\u00a319.90)",
-        "notes": "Uniqlo UT Mario Kart World (SKU 489913). Dark green gaming circuit tee with checkered flag graphic."
+        "notes": "Uniqlo UT Mario Kart World (SKU 489913). Dark green gaming circuit tee with checkered flag graphic.",
+        "img": "https://image.uniqlo.com/UQ/ST3/gb/imagesgoods/489913/item/gbgoods_58_489913_3x4.jpg?width=600"
       },
       {
         "id": "CLO-049",
@@ -2343,7 +2380,8 @@ window.SITE_CONTENT = {
         "tagCode": "481024",
         "productUrl": "E481024-000",
         "rebuyStatus": "Discontinued (Order 25-Apr-2025)",
-        "notes": "Super Mario UT Archive (SKU 481024). Front chest pocket features two 8-bit pixel Boos; back lower hem features tongue-out pixel Boo. Confirmed in closet alongside Pac-Man ghost tee."
+        "notes": "Super Mario UT Archive (SKU 481024). Front chest pocket features two 8-bit pixel Boos; back lower hem features tongue-out pixel Boo. Confirmed in closet alongside Pac-Man ghost tee.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481024/item/goods_09_481024_3x4.jpg"
       },
       {
         "id": "CLO-050",
@@ -2362,7 +2400,8 @@ window.SITE_CONTENT = {
         "tagCode": "466168",
         "productUrl": "E466168-000",
         "rebuyStatus": "Discontinued Charity Series (Order 25-Apr-2025)",
-        "notes": "Decoded from 'Peace Rainbow'. Emmanuelle Moureaux architectural art."
+        "notes": "Decoded from 'Peace Rainbow'. Emmanuelle Moureaux architectural art.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/466168/item/goods_00_466168_3x4.jpg"
       },
       {
         "id": "CLO-051",
@@ -2381,7 +2420,8 @@ window.SITE_CONTENT = {
         "tagCode": "480350",
         "productUrl": "E480350-000",
         "rebuyStatus": "Discontinued (Order 05-Apr-2025)",
-        "notes": "Official Pok\u00e9mon Sketch UT collection (SKU 480350). Front reads 'starry night, silvery moonlight'; back features full sketch of Umbreon (No. 0197) with glowing yellow rings and red eyes. Condition: Nice."
+        "notes": "Official Pok\u00e9mon Sketch UT collection (SKU 480350). Front reads 'starry night, silvery moonlight'; back features full sketch of Umbreon (No. 0197) with glowing yellow rings and red eyes. Condition: Nice.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480350/item/goods_09_480350_3x4.jpg"
       },
       {
         "id": "CLO-052",
@@ -2400,7 +2440,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived 2023 TotK UT Drop",
-        "notes": "Dark mood Zelda TotK collector piece."
+        "notes": "Dark mood Zelda TotK collector piece.",
+        "img": "https://asset.watch.impress.co.jp/img/gmw/docs/1581/399/6_l.jpg"
       },
       {
         "id": "CLO-053",
@@ -2423,7 +2464,8 @@ window.SITE_CONTENT = {
         "validated": true,
         "source": "automated",
         "orderDate": "2026-04-03",
-        "url": "https://shop.app/orders/5"
+        "url": "https://shop.app/orders/5",
+        "img": "https://cdn.sanity.io/images/sy0wkh9n/productionv29/c0104cdd1a7ba8bcfe6cda2e437e1732411f309b-1468x1468.jpg"
       },
       {
         "id": "CLO-054",
@@ -2442,7 +2484,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (MoMA Video Games 2023)",
-        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Grey tee with retro Tetrimino falling blocks."
+        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Grey tee with retro Tetrimino falling blocks.",
+        "img": "https://www.uniqlo.com/sg/en/contents/feature/ut-magazine/img/s176-from-momas-video-game/contents-6.jpg"
       },
       {
         "id": "CLO-055",
@@ -2461,7 +2504,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Earth tone Nintendo fan favourite."
+        "notes": "Earth tone Nintendo fan favourite.",
+        "img": "https://asset.watch.impress.co.jp/img/gmw/docs/1581/399/14_l.jpg"
       },
       {
         "id": "CLO-056",
@@ -2480,7 +2524,8 @@ window.SITE_CONTENT = {
         "tagCode": "480927",
         "productUrl": "E480927-000",
         "rebuyStatus": "Discontinued (Order 25-Apr-2025)",
-        "notes": "Uniqlo UT Super Mario Archive (SKU 480927). 68 Blue tee with 8-bit Mario emerging from Pipe 2 under 'WELCOME TO WARP ZONE!' text."
+        "notes": "Uniqlo UT Super Mario Archive (SKU 480927). 68 Blue tee with 8-bit Mario emerging from Pipe 2 under 'WELCOME TO WARP ZONE!' text.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480927/item/goods_68_480927_3x4.jpg?width=600"
       },
       {
         "id": "CLO-057",
@@ -2499,7 +2544,8 @@ window.SITE_CONTENT = {
         "tagCode": "480349",
         "productUrl": "E480349-000",
         "rebuyStatus": "Discontinued (Order 05-Apr-2025)",
-        "notes": "Ghost/Fairy fan favourite in forest green."
+        "notes": "Ghost/Fairy fan favourite in forest green.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480349/item/goods_53_480349_3x4.jpg"
       },
       {
         "id": "CLO-058",
@@ -2518,7 +2564,8 @@ window.SITE_CONTENT = {
         "tagCode": "474429",
         "productUrl": "E474429-000",
         "rebuyStatus": "Discontinued (Order 25-Apr-2025)",
-        "notes": "Uniqlo UT Super Mario Archive (SKU 474429). 11 Pink tee featuring 8-bit defeated Mario and walking Goomba with 'PLAYER 1 GAME OVER + 0' graphic."
+        "notes": "Uniqlo UT Super Mario Archive (SKU 474429). 11 Pink tee featuring 8-bit defeated Mario and walking Goomba with 'PLAYER 1 GAME OVER + 0' graphic.",
+        "img": "https://i.ebayimg.com/images/g/dVwAAeSwkx1ouYHl/s-l1600.webp"
       },
       {
         "id": "CLO-059",
@@ -2537,7 +2584,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (MoMA Video Games 2023)",
-        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Retained in casual rotation."
+        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Retained in casual rotation.",
+        "img": "https://www.uniqlo.com/sg/en/contents/feature/ut-magazine/img/s176-from-momas-video-game/contents-5.jpg"
       },
       {
         "id": "CLO-060",
@@ -2556,7 +2604,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "E489652-000",
         "rebuyStatus": "Alternative Spy x Family currently in stock",
-        "notes": "Anime favorite pet Bond."
+        "notes": "Anime favorite pet Bond.",
+        "img": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F10%2Fspy-x-family-uniqlo-ut-collection-two-release-date-3.jpg?q=90&w=800&cbr=1&fit=max"
       },
       {
         "id": "CLO-061",
@@ -2575,7 +2624,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (Zelda TotK 2024)",
-        "notes": "Official Zelda: Tears of the Kingdom UT collection. Features the glowing Blood Moon rising above a Boss Bokoblin and Bokoblin horde with cutscene lore text. Notebook condition: 'Hate'."
+        "notes": "Official Zelda: Tears of the Kingdom UT collection. Features the glowing Blood Moon rising above a Boss Bokoblin and Bokoblin horde with cutscene lore text. Notebook condition: 'Hate'.",
+        "img": "https://s.pacn.ws/1/p/18d/ut-the-legend-of-zelda-tears-of-the-kingdom-graphic-tshirt-orang-798623.1.jpg?v=sbm6ao"
       },
       {
         "id": "CLO-062",
@@ -2594,7 +2644,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (Meets Artists 2021)",
-        "notes": "Pok\u00e9mon Meets Artists collection (2021). Center papercraft/clay Magikarp sculpture graphic on navy/blue. Triage: marked worn."
+        "notes": "Pok\u00e9mon Meets Artists collection (2021). Center papercraft/clay Magikarp sculpture graphic on navy/blue. Triage: marked worn.",
+        "img": "https://i.ebayimg.com/images/g/2EMAAOSwlEBmA7gn/s-l1600.webp"
       },
       {
         "id": "CLO-063",
@@ -2613,7 +2664,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (MoMA Video Games 2023)",
-        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). EXPLICIT DONATE / DISCARD: Marked 'Hate' in notes."
+        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). EXPLICIT DONATE / DISCARD: Marked 'Hate' in notes.",
+        "img": "https://www.uniqlo.com/sg/en/contents/feature/ut-magazine/img/s176-from-momas-video-game/contents-8.jpg"
       },
       {
         "id": "CLO-064",
@@ -2632,7 +2684,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Independent Hot Sauce Brand",
-        "notes": "Merch from Alec's favourite hot sauce brand."
+        "notes": "Merch from Alec's favourite hot sauce brand.",
+        "img": "https://condimaniac.com/cdn/shop/files/Club_Maniac_Image_MAIN.png"
       },
       {
         "id": "CLO-065",
@@ -2651,7 +2704,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (MoMA Video Games 2023)",
-        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Retained in casual rotation."
+        "notes": "Uniqlo UT \u00d7 MoMA (Museum of Modern Art) Video Games collection (Feb 2023). Retained in casual rotation.",
+        "img": "https://www.uniqlo.com/sg/en/contents/feature/ut-magazine/img/s176-from-momas-video-game/contents-4.jpg"
       },
       {
         "id": "CLO-067",
@@ -2670,7 +2724,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "View Photo",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Cozy Pok\u00e9mon graphic."
+        "notes": "Cozy Pok\u00e9mon graphic.",
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474426/item/goods_00_474426_3x4.jpg"
       },
       {
         "id": "CLO-068",
@@ -2708,7 +2763,8 @@ window.SITE_CONTENT = {
         "tagCode": "CITYCOMFORT-PJ-XL",
         "productUrl": "B0CNH2G3TW",
         "rebuyStatus": "In Stock on Amazon UK (\u00a319.99 for 2-pack)",
-        "notes": "9 active pairs owned (1 worn out / retired from original 10). High rotation daily evening and remote work wear."
+        "notes": "9 active pairs owned (1 worn out / retired from original 10). High rotation daily evening and remote work wear.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B0CNH2G3TW.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-070",
@@ -2727,7 +2783,8 @@ window.SITE_CONTENT = {
         "tagCode": "CITYCOMFORT-PJ-2XL",
         "productUrl": "B0CNH2G3TW",
         "rebuyStatus": "In Stock on Amazon UK (\u00a315.99 for 2-pack)",
-        "notes": "6 PAIRS OWNED. Relaxed roomier cut for lounge and sleep."
+        "notes": "6 PAIRS OWNED. Relaxed roomier cut for lounge and sleep.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B0CNH2G3TW.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-071",
@@ -2746,7 +2803,8 @@ window.SITE_CONTENT = {
         "tagCode": "CITYCOMFORT-PJ-3XL",
         "productUrl": "B0CNH2G3TW",
         "rebuyStatus": "In Stock on Amazon UK (\u00a315.99 for 2-pack)",
-        "notes": "2 PAIRS OWNED. Maximum loose comfort fit."
+        "notes": "2 PAIRS OWNED. Maximum loose comfort fit.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B0CNH2G3TW.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-072",
@@ -2765,7 +2823,8 @@ window.SITE_CONTENT = {
         "tagCode": "B0DNMN7S4P",
         "productUrl": "B0DNMN7S4P",
         "rebuyStatus": "In Stock on Amazon UK (\u00a329.99 for 7-pack)",
-        "notes": "14 PAIRS OWNED (2x 7-packs). 100% covers 12-night Egypt trip without mid-trip laundry."
+        "notes": "14 PAIRS OWNED (2x 7-packs). 100% covers 12-night Egypt trip without mid-trip laundry.",
+        "img": "https://m.media-amazon.com/images/I/71um+e--ESL._AC_SX679_.jpg"
       },
       {
         "id": "CLO-073",
@@ -2784,7 +2843,8 @@ window.SITE_CONTENT = {
         "tagCode": "JACJENS-10PK",
         "productUrl": "Store Page",
         "rebuyStatus": "Staple Amazon Staple",
-        "notes": "30 PAIRS OF IDENTICAL SOCKS OWNED. Completely eliminates sock sorting/matching friction."
+        "notes": "30 PAIRS OF IDENTICAL SOCKS OWNED. Completely eliminates sock sorting/matching friction.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B079KCTDR8.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-075",
@@ -2803,7 +2863,8 @@ window.SITE_CONTENT = {
         "tagCode": "LEGTUCT361",
         "productUrl": "DFZ-ZEL-8BIT",
         "rebuyStatus": "Archive / Sold Out",
-        "notes": "Official Nintendo licensed Christmas jumper. Dark blue/black colorway with retro 8-bit NES sprites."
+        "notes": "Official Nintendo licensed Christmas jumper. Dark blue/black colorway with retro 8-bit NES sprites.",
+        "img": "https://cdn.shopify.com/s/files/1/0496/4332/3542/files/legend-of-zelda-8-bit-knitted-christmas-jumper-sweater-360773.jpg"
       },
       {
         "id": "CLO-076",
@@ -2822,7 +2883,8 @@ window.SITE_CONTENT = {
         "tagCode": "DFZDLZGKCS",
         "productUrl": "DFZ-ZEL-GOLDHYR",
         "rebuyStatus": "Archive / Sold Out",
-        "notes": "Official Nintendo licensed holiday sweater with gold metallic Hylian crest detailing."
+        "notes": "Official Nintendo licensed holiday sweater with gold metallic Hylian crest detailing.",
+        "img": "https://cdn.shopify.com/s/files/1/0496/4332/3542/files/the-legend-of-zelda-golden-hyrule-knitted-christmas-jumper-sweater-206733.jpg"
       },
       {
         "id": "CLO-077",
@@ -2982,7 +3044,8 @@ window.SITE_CONTENT = {
         "tagCode": "SHA003 6626 12/20 DRACO",
         "productUrl": "DRACO-BRN",
         "rebuyStatus": "Archive / Available in Brand Lineup",
-        "notes": "Rich waxy brown leather smart-casual derby shoes with embossed collar stud. Ideal resort dinner footwear."
+        "notes": "Rich waxy brown leather smart-casual derby shoes with embossed collar stud. Ideal resort dinner footwear.",
+        "img": "https://images.asos-media.com/products/base-london-draco-derby-shoes-in-brown-leather/22863856-1-brown?$n_640w$&wid=513&fit=constrain"
       },
       {
         "id": "CLO-085",
@@ -3039,7 +3102,8 @@ window.SITE_CONTENT = {
         "tagCode": "DM0829-010",
         "productUrl": "DM0829-010",
         "rebuyStatus": "In Stock / Nike Active Line",
-        "notes": "Gym and training staple with wide flat base and Max Air cushioning in heel."
+        "notes": "Gym and training staple with wide flat base and Max Air cushioning in heel.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B0B6FTHHVN.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-088",
@@ -3058,7 +3122,8 @@ window.SITE_CONTENT = {
         "tagCode": "FQ1833-001",
         "productUrl": "FQ1833-001",
         "rebuyStatus": "Current Season In Stock on Nike UK",
-        "notes": "Updated version 6 Alpha Trainer. Superb lateral stability and Air Max cushioning."
+        "notes": "Updated version 6 Alpha Trainer. Superb lateral stability and Air Max cushioning.",
+        "img": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f79fa8d-3a58-44ce-b823-c6936ccc65fc/M+AIR+MAX+ALPHA+TRAINER+6.png"
       },
       {
         "id": "CLO-089",
@@ -3077,7 +3142,8 @@ window.SITE_CONTENT = {
         "tagCode": "DD9293-005",
         "productUrl": "DD9293-005",
         "rebuyStatus": "Nike Core Line",
-        "notes": "Supportive lightweight road running and walking shoe. Prime candidate for Egypt travel and excursions."
+        "notes": "Supportive lightweight road running and walking shoe. Prime candidate for Egypt travel and excursions.",
+        "img": "https://images-na.ssl-images-amazon.com/images/P/B0B5714X4V.01._SCLZZZZZZZ_SX500_.jpg"
       },
       {
         "id": "CLO-090",
@@ -3096,7 +3162,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-450189(23-05)",
         "productUrl": "E450189-000",
         "rebuyStatus": "Current Season Core In Stock",
-        "notes": "Essential heavyweight 100% cotton French Terry full-zip hoodie. 5 identical units owned for daily rotation."
+        "notes": "Essential heavyweight 100% cotton French Terry full-zip hoodie. 5 identical units owned for daily rotation.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/450189/item/ukgoods_09_450189.jpg"
       },
       {
         "id": "CLO-091",
@@ -3115,7 +3182,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-455412(31-13)",
         "productUrl": "E455412-000",
         "rebuyStatus": "Current Season Core In Stock",
-        "notes": "Ultra-lightweight cooling UV protection (UPF 50+) hoodie with thumbholes. Ideal light layer for Egypt evenings & sun defense."
+        "notes": "Ultra-lightweight cooling UV protection (UPF 50+) hoodie with thumbholes. Ideal light layer for Egypt evenings & sun defense.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/455412/item/ukgoods_09_455412.jpg"
       },
       {
         "id": "CLO-092",
@@ -3134,7 +3202,8 @@ window.SITE_CONTENT = {
         "tagCode": "341-487511(62-15)",
         "productUrl": "E487511-000",
         "rebuyStatus": "Current Season In Stock",
-        "notes": "Fast-drying DRY-EX technical hoodie with anti-microbial and UV protection. Athletic fit (XL); 2 owned."
+        "notes": "Fast-drying DRY-EX technical hoodie with anti-microbial and UV protection. Athletic fit (XL); 2 owned.",
+        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/487511/item/ukgoods_08_487511.jpg"
       },
       {
         "id": "CLO-093",
@@ -3153,7 +3222,8 @@ window.SITE_CONTENT = {
         "tagCode": "NF0A4AHM (F20)",
         "productUrl": "NF0A4AHM",
         "rebuyStatus": "Flagship Waterproof Lineup",
-        "notes": "Flagship 3-layer nano-spun FUTURELIGHT\u2122 waterproof, windproof, breathable technical shell jacket with storm flap and adjustable hood."
+        "notes": "Flagship 3-layer nano-spun FUTURELIGHT\u2122 waterproof, windproof, breathable technical shell jacket with storm flap and adjustable hood.",
+        "img": "https://media.johnlewiscontent.com/i/JohnLewis/010111439?fmt=auto&$background-off-white$&$rsp-pdp-port-640$"
       },
       {
         "id": "CLO-094",
@@ -3172,7 +3242,8 @@ window.SITE_CONTENT = {
         "tagCode": "RL-SLIM-POPLIN-XXL",
         "productUrl": "RL-POPLIN-WHT",
         "rebuyStatus": "Core In Stock",
-        "notes": "Tailored crisp dress shirt with spread collar. 100% Cotton Stretch Slim Fit, XXL 18.5\" (190/120C). Verified with photo."
+        "notes": "Tailored crisp dress shirt with spread collar. 100% Cotton Stretch Slim Fit, XXL 18.5\" (190/120C). Verified with photo.",
+        "img": "https://media.johnlewiscontent.com/i/JohnLewis/005933879?fmt=auto&$background-off-white$&$rsp-pdp-port-640$"
       },
       {
         "id": "CLO-095",
@@ -3267,7 +3338,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop",
-        "notes": "Classic Uniqlo UT retro arcade collection. Features yellow outline PAC-MAN logo and pixelated red ghost (Blinky)."
+        "notes": "Classic Uniqlo UT retro arcade collection. Features yellow outline PAC-MAN logo and pixelated red ghost (Blinky).",
+        "img": "https://i.ebayimg.com/images/g/C5kAAeSwNx5qzRIU/s-l1200.webp"
       },
       {
         "id": "CLO-100",
@@ -3286,7 +3358,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (Family Museum 2019)",
-        "notes": "Uniqlo UT Super Mario Family Museum (2019). Center 8-bit Mario with '+ 0' lives counter and running Mario side graphic."
+        "notes": "Uniqlo UT Super Mario Family Museum (2019). Center 8-bit Mario with '+ 0' lives counter and running Mario side graphic.",
+        "img": "https://thesource.com/wp-content/uploads/2019/03/uniqlo-ut-super-mario-family-museum-collection-21.jpg"
       },
       {
         "id": "CLO-101",
@@ -3305,7 +3378,8 @@ window.SITE_CONTENT = {
         "tagCode": "",
         "productUrl": "Store Page",
         "rebuyStatus": "Archived UT Drop (April 2024)",
-        "notes": "Official Zelda TotK collection. Features Link using Ultrahand surrounded by the Four Sages / Champions (Tulin, Sidon, Yunobo, Riju) with TotK logo on back."
+        "notes": "Official Zelda TotK collection. Features Link using Ultrahand surrounded by the Four Sages / Champions (Tulin, Sidon, Yunobo, Riju) with TotK logo on back.",
+        "img": "https://asset.watch.impress.co.jp/img/gmw/docs/1581/399/12_l.jpg"
       },
       {
         "id": "CLO-102",
@@ -3381,7 +3455,8 @@ window.SITE_CONTENT = {
         "tagCode": "EST 1898 JERMYN ST. LONDON REGULAR FIT NON-IRON",
         "productUrl": "TM-White-Herringbone-19-36",
         "rebuyStatus": "Core Jermyn St. Classic",
-        "notes": "Staple crisp formal dress shirts in 19\" neck with 36\" sleeve. 2 identical shirts owned."
+        "notes": "Staple crisp formal dress shirts in 19\" neck with 36\" sleeve. 2 identical shirts owned.",
+        "img": "https://tmlewin.co.uk/cdn/shop/files/non-iron-slim-white-herringbone-twill-shirt-flat-shot-front-68512.png?v=1788870515"
       },
       {
         "id": "CLO-106",
@@ -3419,7 +3494,8 @@ window.SITE_CONTENT = {
         "tagCode": "Star Wars / Lucasfilm",
         "productUrl": "",
         "rebuyStatus": "Collector Item",
-        "notes": "Official Star Wars cufflinks. One features the Star Wars wordmark, the other features the Rebel Alliance starbird emblem."
+        "notes": "Official Star Wars cufflinks. One features the Star Wars wordmark, the other features the Rebel Alliance starbird emblem.",
+        "img": "https://boormans.co.uk/wp-content/uploads/2021/06/Royal-Selangor-Star-Wars-Cufflinks-Rebel-Alliance-1-scaled.jpg"
       },
       {
         "id": "CLO-108",
@@ -3577,7 +3653,7 @@ window.SITE_CONTENT = {
   },
   "boardgames": {
     "title": "Board Games & Tabletop \ud83c\udfb2",
-    "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0",
+    "bggUrl": "https://boardgamegeek.com/collection/user/alectronic0?pagesize=100",
     "geekGroupUrl": "https://geekgroup.app/users/alectronic0/collection",
     "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC",
     "owned": [
@@ -4204,7 +4280,8 @@ window.SITE_CONTENT = {
         "name": "Mycelia (Split Stone Games)",
         "bggId": "378476",
         "publisher": "Split Stone Games",
-        "url": "https://boardgamegeek.com/boardgame/378476/mycelia"
+        "url": "https://boardgamegeek.com/boardgame/378476/mycelia",
+        "img": "https://cf.geekdo-images.com/0DDStf5eJUgtSpBzXyYhig__itemrep/img/2w01AOgJGz9SEt9dSSbw93h-TKM=/fit-in/246x300/filters:strip_icc()/pic7431245.jpg"
       }
     ]
   },
@@ -10362,21 +10439,21 @@ window.SITE_CONTENT = {
   },
   "health": {
     "title": "Health & Gym Gadgets \ud83e\ude7a",
-    "subtitle": "Biometric tracking, ECG monitors, smart scales, sleep tracking, and wellness tech.",
+    "subtitle": "Biometric tracking, smart scales, sleep tracking, and wellness tech.",
     "owned": [
-      {
-        "name": "Withings BPM Core Blood Pressure & ECG Monitor",
-        "category": "Biometrics",
-        "img": "https://m.media-amazon.com/images/I/81Cx9rNsRES.jpg",
-        "url": "https://www.withings.com/uk/en/bpm-core",
-        "badge": "ECG + Digital Stethoscope"
-      },
       {
         "name": "OMRON EVOLV\u2122 Wireless Upper Arm Blood Pressure Monitor",
         "category": "Biometrics",
         "img": "https://m.media-amazon.com/images/I/71L0lkDPqfL._AC_SL500_.jpg",
         "url": "https://www.amazon.co.uk/dp/B01MT54RFU",
         "badge": "All-in-One Wireless"
+      },
+      {
+        "name": "Withings Body Cardio Scale",
+        "category": "Biometrics",
+        "badge": "Heart Health & Body Composition",
+        "img": "https://www.withings.com/cdn/shop/files/PACKSHOT_body-cardio-black__body-cardio-black_INT_top-down-front_01.jpg?v=1783526823&width=1600",
+        "url": "https://www.withings.com/uk/en/body-cardio"
       },
       {
         "name": "Withings Sleep Analyzer",
@@ -10386,11 +10463,18 @@ window.SITE_CONTENT = {
         "badge": "Sleep Apnea & Tracking"
       },
       {
-        "name": "Withings Smart Scale",
+        "name": "Withings ScanWatch (42mm Black)",
+        "category": "Wearables",
+        "badge": "ECG & SpO2 Hybrid Watch",
+        "img": "https://m.media-amazon.com/images/I/516rLJg1riL._AC_SL500_.jpg",
+        "url": "https://www.withings.com/uk/en/scanwatch"
+      },
+      {
+        "name": "Withings Thermo Temporal Thermometer",
         "category": "Biometrics",
-        "badge": "Wi-Fi Body Composition",
-        "img": "https://m.media-amazon.com/images/I/61KVOE8wqZL._AC_SL500_.jpg",
-        "url": "https://www.withings.com/"
+        "badge": "Temporal Contactless",
+        "img": "https://www.withings.com/cdn/shop/articles/PACKSHOT_thermo_9c16ec2c-f4cd-4658-9051-f4a5baf5daae.jpg?v=1783698002&width=1280",
+        "url": "https://www.withings.com/uk/en/thermo"
       },
       {
         "name": "RENPHO Active Thermacool Massage Gun",
@@ -10402,11 +10486,11 @@ window.SITE_CONTENT = {
     ],
     "wishlist": [
       {
-        "name": "Withings Body Scan Smart Scale",
-        "price": "\u00a3349.95",
-        "img": "https://m.media-amazon.com/images/I/61Jz9i5sA+L._AC_SL500_.jpg",
-        "url": "https://www.withings.com/uk/en/body-scan",
-        "status": "Segmented Body Comp"
+        "name": "Withings BodyScan 2 Connected Health Station (Black)",
+        "price": "\u00a3449.95",
+        "img": "https://www.withings.com/cdn/shop/files/PACKSHOT_body-scan-2-black__71146631_INT_top-down-front-facing_01.jpg?v=1781188066&width=1600",
+        "url": "https://www.withings.com/en-uk/products/bodyscan-2-black",
+        "status": "Segmental Body Comp & 6-Lead ECG"
       }
     ]
   },

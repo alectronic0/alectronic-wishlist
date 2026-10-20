@@ -816,9 +816,14 @@ document.addEventListener('DOMContentLoaded', () => {
                       ? `<span style="font-size: 0.7rem; color: var(--text-muted); opacity: 0.85;">${item.fabric}</span>`
                       : '';
 
+                    const imgMarkup = item.img
+                      ? `<div class="item-card__media" style="margin-bottom: 8px;"><img src="${item.img}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer"></div>`
+                      : `<div class="item-card__media item-card__media--blank" style="margin-bottom: 8px;"><span class="item-card__blank">No picture yet</span></div>`;
+
                     return `
-                      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 8px;">
+                      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 8px;">
                         <div>
+                          ${imgMarkup}
                           <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 6px;">
                             <span style="font-weight: 700; color: var(--text); font-size: 0.88rem; line-height: 1.25;">${item.name}</span>
                             ${qtyBadge}
