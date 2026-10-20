@@ -11020,7 +11020,7 @@ window.SITE_CONTENT = {
         "name": "Cyndaquil Pok\u00e9 Plush - 7 In.",
         "price": "\u00a317.99",
         "status": "Plush & Soft Toys",
-        "img": "https://www.pokemoncenter.com/images/DAMRoot/Thumbnail/10009/P10228_701E13735_01.jpg",
+        "img": "https://www.pokemoncenter.com/images/DAMRoot/High/10010/P10579_701E13735_01.jpg",
         "url": "https://www.pokemoncenter.com/en-gb/product/701E13735/cyndaquil-poke-plush-7-in",
         "group": "pokemon"
       },
