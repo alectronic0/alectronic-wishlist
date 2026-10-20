@@ -271,7 +271,8 @@ document.addEventListener('DOMContentLoaded', () => {
       lede: 'Card games, co-op and party games for the table.',
       links: [
         { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
-        { label: 'Collection on BoardGameGeek', href: data.bggUrl }
+        { label: 'Collection on BoardGameGeek', href: data.bggUrl },
+        { label: 'Collection on GeekGroup', href: data.geekGroupUrl || 'https://geekgroup.app/users/alectronic0/collection' }
       ],
       wanted: data.wishlist.map(game => card(game, false)),
       owned: data.owned.map(game => card(game, true))
@@ -754,38 +755,30 @@ document.addEventListener('DOMContentLoaded', () => {
         if (inventoryContainer && data.inventory) {
           // Define the distinct groups in order
           const categoriesOrder = [
-            "Head (Hats)",
-            "Glasses",
-            "Scarves",
-            "Ties",
-            "Cufflinks",
-            "Shirts (Gym)",
-            "Shirts (Casual)",
-            "Shirts (Smart)",
-            "Trousers (Gym)",
-            "Trousers (Casual)",
-            "Trousers (PJ)",
-            "Trousers (Smart)",
-            "Underwear (Pants)",
+            "Graphic T-Shirts",
+            "Casual & Basic T-Shirts",
+            "Button-Up & Resort Shirts",
+            "Formalwear & Suits",
+            "Knitwear & Jumpers",
+            "Outerwear & Hoodies",
+            "Trousers",
+            "Shorts",
+            "Footwear",
+            "Loungewear & Pyjamas",
+            "Underwear",
             "Socks",
-            "Shoes (Flip flops)",
-            "Shoes (Trainer)",
-            "Shoes (Wellington boots)",
-            "Shoes (Smart)",
-            "Shoes (Slipper)",
-            "Jacket / Hoodie / Coat (Light)",
-            "Jacket / Hoodie / Coat (Heavy)",
-            "Jacket / Hoodie / Coat (Winter)",
-            "Jacket / Hoodie / Coat (Rain)"
+            "Accessories (Belts)",
+            "Accessories (Ties)",
+            "Accessories (Cufflinks)"
           ];
       
-          // Group elements by matching key or generic grouping
+          // Group elements by matching category
           const groupItems = {};
           categoriesOrder.forEach(cat => { groupItems[cat] = []; });
       
           data.inventory.forEach(item => {
-            // Find category key that matches item.type
-            const matchedCat = categoriesOrder.find(cat => item.type === cat || item.type.startsWith(cat)) || "Other";
+            const cat = item.category || item.type || "Other";
+            const matchedCat = categoriesOrder.find(c => c === cat || cat.startsWith(c) || c.startsWith(cat)) || "Other";
             if (!groupItems[matchedCat]) {
               groupItems[matchedCat] = [];
             }
@@ -793,24 +786,55 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       
           let inventoryHTML = '';
-          categoriesOrder.forEach(category => {
+          const activeCategories = [...categoriesOrder, ...Object.keys(groupItems).filter(c => !categoriesOrder.includes(c))];
+          activeCategories.forEach(category => {
             const items = groupItems[category] || [];
+            if (items.length === 0) return;
+            const totalGarments = items.reduce((sum, it) => sum + (parseInt(it.qty, 10) || 1), 0);
+            const countLabel = totalGarments !== items.length
+              ? `${items.length} ${items.length === 1 ? 'entry' : 'entries'} (${totalGarments} physical)`
+              : `${items.length} ${items.length === 1 ? 'item' : 'items'}`;
+
             inventoryHTML += `
               <div style="background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 16px;">
                 <h3 style="color: var(--accent); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 6px; display: flex; align-items: center; justify-content: space-between;">
                   <span>📂 ${category}</span>
-                  <span style="font-size: 0.75rem; background: var(--border); color: var(--text-muted); padding: 2px 6px; border-radius: 4px;">${items.length} Item(s)</span>
+                  <span style="font-size: 0.75rem; background: var(--border); color: var(--text-muted); padding: 2px 8px; border-radius: 4px;">${countLabel}</span>
                 </h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 10px;">
-                  ${items.length > 0 ? items.map(item => `
-                    <div style="background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; display: flex; flex-direction: column; justify-content: space-between;">
-                      <span style="font-weight: 700; color: var(--text); font-size: 0.85rem;">${item.name}</span>
-                      <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 6px; font-size: 0.75rem; color: var(--text-muted);">
-                        <span>Brand: <strong>${item.brand}</strong></span>
-                        <span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px;">Size: ${item.size}</span>
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-top: 12px;">
+                  ${items.map(item => {
+                    const qtyBadge = (item.qty && item.qty > 1)
+                      ? `<span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px; background: rgba(235, 160, 50, 0.15); color: var(--accent);">×${item.qty}</span>`
+                      : '';
+                    const sizeBadge = item.size && item.size !== 'N/A'
+                      ? `<span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px;">${item.size}</span>`
+                      : '';
+                    const designSnippet = (item.design && item.design !== item.name)
+                      ? `<span style="font-size: 0.76rem; color: var(--text-muted); line-height: 1.3; margin-top: 2px;">${item.design}</span>`
+                      : '';
+                    const fabricSnippet = item.fabric
+                      ? `<span style="font-size: 0.7rem; color: var(--text-muted); opacity: 0.85;">${item.fabric}</span>`
+                      : '';
+
+                    return `
+                      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 8px;">
+                        <div>
+                          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 6px;">
+                            <span style="font-weight: 700; color: var(--text); font-size: 0.88rem; line-height: 1.25;">${item.name}</span>
+                            ${qtyBadge}
+                          </div>
+                          ${designSnippet}
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 6px;">
+                          <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted);">
+                            <span>${item.brand ? `<strong>${item.brand}</strong>` : ''}</span>
+                            ${sizeBadge}
+                          </div>
+                          ${fabricSnippet}
+                        </div>
                       </div>
-                    </div>
-                  `).join('') : `<p style="font-size: 0.8rem; color: var(--text-muted); font-style: italic; margin: 0;">No items cataloged yet.</p>`}
+                    `;
+                  }).join('')}
                 </div>
               </div>
             `;
