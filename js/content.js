@@ -3693,12 +3693,6 @@ window.SITE_CONTENT = {
     "amazonWishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/13S66685VZMFC",
     "owned": [
       {
-        "name": "Fungi Card Game",
-        "category": "2-Player Card Game",
-        "badge": "Two-Player",
-        "img": "https://m.media-amazon.com/images/I/81sMvV0Pe8L._AC_SL500_.jpg"
-      },
-      {
         "name": "Monopoly Deal Card Game",
         "category": "Card Game",
         "badge": "Card Game",
@@ -3773,12 +3767,12 @@ window.SITE_CONTENT = {
         "bggId": "92415"
       },
       {
-        "name": "Morels",
+        "name": "Morels (Fungi)",
         "bggId": "122298",
         "category": "2-Player Card Game",
         "badge": "Two-Player",
-        "img": "https://cf.geekdo-images.com/79RzPdM2pxmtmNV-bdU7LQ__micro@2x/img/B9cJEFqHs31BDEvdwCCzrYgVaEs=/fit-in/128x128/filters:strip_icc()/pic1284667.jpg",
-        "publisher": "Two-Player Games"
+        "img": "https://m.media-amazon.com/images/I/81sMvV0Pe8L._AC_SL500_.jpg",
+        "publisher": "Two Lanterns / Pegasus Spiele"
       },
       {
         "name": "Muffin Time: Kickstarter Pack",
