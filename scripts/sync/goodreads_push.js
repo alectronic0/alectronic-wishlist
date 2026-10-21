@@ -36,12 +36,14 @@ const LOOKUP_SCRIPT = queries => `(async () => {
     const result = { isbnId: '', candidates: [] };
     if (query.isbn13) {
       const res = await fetch('https://www.goodreads.com/book/isbn/' + query.isbn13, { credentials: 'include' });
+      // Goodreads' bot challenge: HTTP 202 with an empty page, after ~160 page loads
+      if (res.status === 202) { out.__error = 202; break; }
       const match = res.url.match(/\\/book\\/show\\/(\\d+)/);
       result.isbnId = match ? match[1] : '';
     }
     if (!result.isbnId) {
       const res = await fetch('https://www.goodreads.com/book/auto_complete?format=json&q=' + encodeURIComponent(query.q), { credentials: 'include' });
-      if (!res.ok) { out.__error = res.status; break; }
+      if (!res.ok || res.status === 202) { out.__error = res.status; break; }
       result.candidates = (await res.json()).slice(0, 5).map(hit => ({ id: hit.bookId, title: hit.bookTitleBare, author: hit.author.name }));
     }
     out[query.key] = result;
@@ -105,15 +107,15 @@ async function lookup(actions) {
   for (let i = 0; i < queries.length; i += BATCH) {
     const batch = queries.slice(i, i + BATCH);
     const raw = await evalInNewTab(SHELF_PAGE, LOOKUP_SCRIPT(batch.map(({ key, isbn13, q }) => ({ key, isbn13, q }))));
-    if (raw.__error) {
-      throw new Error(`search answered HTTP ${raw.__error}, stopping`);
-    }
-    for (const query of batch) {
+    for (const query of batch.filter(entry => raw[entry.key])) {
       const result = raw[query.key];
       const hit = result.isbnId ? { id: result.isbnId, via: 'isbn' } : bestCandidate(query.action, result.candidates);
       known[query.key] = hit ? { id: hit.id, via: hit.via || 'search', title: hit.title || '' } : { id: '', candidates: result.candidates };
     }
     fs.writeFileSync(LOOKUP_FILE, JSON.stringify(known, null, 2) + '\n');
+    if (raw.__error) {
+      throw new Error(`Goodreads answered HTTP ${raw.__error} — stopped; lookups so far are saved, re-run later`);
+    }
     console.log(`[GoodreadsPush] looked up ${Math.min(i + BATCH, queries.length)}/${queries.length}`);
     await sleep(BATCH_PAUSE_MS);
   }

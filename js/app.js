@@ -104,14 +104,16 @@ document.addEventListener('DOMContentLoaded', () => {
    * config: { title, lede, links[{label, href}], introHtml, note, noteLinks[], groups[{key, label}], sectioned, wanted[], owned[] }
    * Optional: banner (text shown above everything); item.tone ('green' | 'amber' | 'red') + item.toneLabel colour a card.
    * filters[{key, label}] turns the chips into a filter on item.filter, leaving item.group for the
-   * sections; item.subgroups[] splits a section further, one heading level each (books: type → author → series).
+   * sections; item.subgroups[] splits a section further, one heading level each (books: type → author → series),
+   * with item.subgroupNotes[] (trusted HTML) shown under that level's heading.
+   * toneTabs[{key, label}] adds a second row of tabs that filters on item.tone.
    */
   function renderCatalogue(root, config) {
     const VIEWS = [
       { key: 'wanted', label: 'Wanted' },
       { key: 'owned', label: 'Already owned' }
     ].filter(view => config[view.key].length > 0);
-    const state = { tab: 'all', group: 'all' };
+    const state = { tab: 'all', group: 'all', tone: 'all' };
 
     const chipKey = item => (config.filters ? item.filter : item.group);
 
@@ -130,7 +132,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const blocks = keys.map(key => {
           const inSub = cards.filter(card => (levelsOf(card)[level] || '') === key);
           const body = subgrouped(inSub, level + 1);
-          return key ? `<div class="catalogue__subgroup catalogue__subgroup--${level}"><${tag}>${escapeHtml(key)} <span class="count">${inSub.length}</span></${tag}>${body}</div>` : `<div class="catalogue__subgroup">${body}</div>`;
+          const note = (inSub[0].subgroupNotes || [])[level];
+          const noteHtml = note ? `<p class="catalogue__subnote">${note}</p>` : '';
+          return key ? `<div class="catalogue__subgroup catalogue__subgroup--${level}"><${tag}>${escapeHtml(key)} <span class="count">${inSub.length}</span></${tag}>${noteHtml}${body}</div>` : `<div class="catalogue__subgroup">${body}</div>`;
         }).join('');
         // Small blocks (an author with one book) sit side by side instead of taking a row each
         return `<div class="catalogue__subgroups">${blocks}</div>`;
@@ -154,7 +158,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!chips.some(chip => chip.key === state.group)) {
         state.group = 'all';
       }
-      const filtered = view => config[view.key].filter(item => state.group === 'all' || chipKey(item) === state.group);
+      const toneTabs = (config.toneTabs || []).filter(entry => everything.some(item => item.tone === entry.key));
+      if (!toneTabs.some(entry => entry.key === state.tone)) {
+        state.tone = 'all';
+      }
+      const inTone = item => state.tone === 'all' || item.tone === state.tone;
+      const filtered = view => config[view.key].filter(item => (state.group === 'all' || chipKey(item) === state.group) && inTone(item));
+      const toneTab = (key, label, count) => `<button type="button" data-tone="${key}" aria-pressed="${state.tone === key}">${escapeHtml(label)} ${count}</button>`;
       const tab = (key, label, count) => `<button type="button" data-tab="${key}" aria-pressed="${state.tab === key}">${label} ${count}</button>`;
       const chip = (key, label) => `<button type="button" data-group="${escapeHtml(key)}" aria-pressed="${state.group === key}">${escapeHtml(label)}</button>`;
       // With both lists on the page each gets its own heading; a single list needs none
@@ -174,12 +184,13 @@ document.addEventListener('DOMContentLoaded', () => {
         ${config.introHtml || ''}
         ${config.note ? `<div class="catalogue__note"><p>${escapeHtml(config.note)}</p><p class="catalogue__links">${(config.noteLinks || []).map(link => externalLink(link.href, link.label, 'button')).join('')}</p></div>` : ''}
         ${VIEWS.length > 1 ? `<div class="tabs" role="group" aria-label="Show">${tab('all', 'Everything', VIEWS.reduce((sum, view) => sum + config[view.key].length, 0))}${VIEWS.map(view => tab(view.key, view.label, config[view.key].length)).join('')}</div>` : ''}
+        ${toneTabs.length > 1 ? `<div class="tabs" role="group" aria-label="Ownership">${toneTab('all', 'All', everything.length)}${toneTabs.map(entry => toneTab(entry.key, entry.label, everything.filter(item => item.tone === entry.key).length)).join('')}</div>` : ''}
         ${chips.length > 1 ? `<div class="chips" role="group" aria-label="Filter">${chip('all', 'All')}${chips.map(entry => chip(entry.key, entry.label)).join('')}</div>` : ''}
         ${lists}`;
     }
 
     root.addEventListener('click', event => {
-      const button = event.target.closest('button[data-tab], button[data-group]');
+      const button = event.target.closest('button[data-tab], button[data-group], button[data-tone]');
       if (!button) {
         return;
       }
@@ -188,6 +199,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       if (button.dataset.group) {
         state.group = button.dataset.group;
+      }
+      if (button.dataset.tone) {
+        state.tone = button.dataset.tone;
       }
       draw();
     });
@@ -305,11 +319,21 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  const BOOK_TYPES = ['Fantasy & Sci-fi', 'Manga', 'Cookbooks', 'Non-fiction', 'Computer Science & Business', 'Video games', 'Zelda', 'Misc'];
+  const BOOK_TYPES = ['Fiction, Fantasy & Sci-fi', 'Manga', 'Cookbooks', 'Non-fiction', 'Computer Science & Business', 'Video games', 'Zelda', 'Misc'];
   const BOOK_LINKS = [['goodreads', 'Goodreads'], ['amazon', 'Amazon'], ['waterstones', 'Waterstones'], ['play', 'Play Books']];
+
+  const BOOK_TONES = [
+    { key: 'green', label: '🟢 In print' },
+    { key: 'amber', label: '🟠 Ebook only' },
+    { key: 'red', label: '🔴 Not owned' },
+    { key: 'blue', label: '🔵 Pre-ordered' }
+  ];
 
   // The goal is a print copy of everything: green = in print, amber = ebook only, red = not owned
   function bookTone(book) {
+    if (book.preordered) {
+      return { tone: 'blue', toneLabel: 'Pre-ordered' };
+    }
     if (book.formats.includes('physical')) {
       return { tone: 'green', toneLabel: '✓ In print' };
     }
@@ -319,10 +343,36 @@ document.addEventListener('DOMContentLoaded', () => {
     return { tone: 'red', toneLabel: 'Not owned' };
   }
 
-  // Sections are types, then authors, then series
+  // Shown under a series heading: who wrote it, whether it has finished, and the edition worth buying
+  function seriesNoteHtml(series, books, notes) {
+    const note = notes[series] || {};
+    const authors = [...new Set(books.filter(book => book.series === series).map(book => book.author).filter(Boolean))];
+    const status = {
+      complete: `✓ Complete${note.volumes ? ` · ${note.volumes} vols` : ''}`,
+      ongoing: `⚠ Ongoing${note.volumes ? ` · ${note.volumes} vols so far` : ''}`
+    }[note.status];
+    const parts = [
+      authors.length ? escapeHtml(authors.join(', ')) : '',
+      status ? `<span class="tag tag--${note.status}">${escapeHtml(status)}</span>` : '',
+      note.edition ? `<span class="tag tag--edition">📕 ${escapeHtml(note.edition)}</span>` : '',
+      note.boxSet ? `<span class="tag tag--boxset">📦 ${note.boxSet.url ? externalLink(note.boxSet.url, note.boxSet.name, '') : escapeHtml(note.boxSet.name)}</span>` : '',
+      note.note ? escapeHtml(note.note) : ''
+    ];
+    return parts.filter(Boolean).join(' ');
+  }
+
+  // Sections are types; inside, a block per series (or per author for standalone books) in volume order
   function booksCatalogue(data) {
     const authorOf = book => book.author || 'Unknown author';
+    const notes = data.seriesNotes || {};
     const inPrint = data.library.filter(book => book.formats.includes('physical')).length;
+    const noteCache = new Map();
+    const noteFor = series => {
+      if (!noteCache.has(series)) {
+        noteCache.set(series, seriesNoteHtml(series, data.library, notes));
+      }
+      return noteCache.get(series);
+    };
     const card = book => {
       const tags = [
         ...(book.formats.includes('digital') ? ['📱 Ebook'] : []),
@@ -333,11 +383,12 @@ document.addEventListener('DOMContentLoaded', () => {
         name: book.title,
         img: book.img,
         url: book.links.goodreads || book.links.play || book.links.waterstones || book.links.amazon,
-        meta: book.seriesNo ? `Book ${book.seriesNo}` : '',
+        meta: [book.seriesNo ? `Book ${book.seriesNo}` : '', book.series ? authorOf(book) : ''].filter(Boolean).join(' · '),
         ...bookTone(book),
         tags,
         group: book.type,
-        subgroups: [authorOf(book), book.series],
+        subgroups: [book.series || authorOf(book)],
+        subgroupNotes: [book.series ? noteFor(book.series) : ''],
         cover: true,
         extraHtml: links.length ? `<p class="item-card__meta">${links.join(' · ')}</p>` : ''
       };
@@ -345,12 +396,14 @@ document.addEventListener('DOMContentLoaded', () => {
     return {
       title: 'Books',
       banner: '🚧 Work in progress: this book list is still being synced and checked',
-      lede: `${inPrint} of ${data.library.length} books owned in print. Green is on the shelf in print, amber is an ebook that still needs a print copy, red is not owned yet.`,
+      lede: `${inPrint} of ${data.library.length} books owned in print. Green is on the shelf in print, amber is an ebook that still needs a print copy, red is not owned yet, blue is pre-ordered.`,
       links: [
-        { label: 'Open the Amazon wishlist', href: data.amazonWishlistUrl },
+        { label: 'Amazon wish list', href: data.amazonWishlistUrl },
+        { label: 'Waterstones wish list', href: data.waterstonesUrl },
         { label: 'Shelves on Goodreads', href: data.goodreadsUrl }
       ],
       groups: BOOK_TYPES.map(type => ({ key: type, label: type })),
+      toneTabs: BOOK_TONES,
       sectioned: true,
       // One list in reading order: the colours already say owned or not, and a series reads 1, 2, 3…
       wanted: data.library.map(card),
@@ -727,9 +780,26 @@ document.addEventListener('DOMContentLoaded', () => {
                     const sizeBadge = item.size && item.size !== 'N/A'
                       ? `<span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px;">${item.size}</span>`
                       : '';
-                    const designSnippet = (item.design && item.design !== item.name)
-                      ? `<span style="font-size: 0.76rem; color: var(--text-muted); line-height: 1.3; margin-top: 2px;">${item.design}</span>`
-                      : '';
+                    let designSnippet = '';
+                    if (item.breakdown && Array.isArray(item.breakdown) && item.breakdown.length > 0) {
+                      designSnippet = `
+                        <div style="display: flex; flex-direction: column; gap: 4px; margin-top: 6px;">
+                          ${item.breakdown.map(b => {
+                            const match = b.match(/^(\[x\d+\])\s*(.*)$/);
+                            const countPart = match ? match[1] : '';
+                            const descPart = match ? match[2] : b;
+                            return `
+                              <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.74rem; font-family: var(--font-mono, monospace); background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border); border-radius: 4px; padding: 2px 7px; width: fit-content;">
+                                <span style="color: var(--accent); font-weight: 700;">${escapeHtml(countPart)}</span>
+                                <span>${escapeHtml(descPart)}</span>
+                              </div>
+                            `;
+                          }).join('')}
+                        </div>
+                      `;
+                    } else if (item.design && item.design !== item.name) {
+                      designSnippet = `<span style="font-size: 0.76rem; color: var(--text-muted); line-height: 1.3; margin-top: 2px; display: block;">${escapeHtml(item.design)}</span>`;
+                    }
                     const fabricSnippet = item.fabric
                       ? `<span style="font-size: 0.7rem; color: var(--text-muted); opacity: 0.85;">${item.fabric}</span>`
                       : '';

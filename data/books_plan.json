@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-20T22:09:42.392Z",
+  "builtAt": "2026-10-21T08:47:51.198Z",
   "plan": {
     "goodreads": [
       {
@@ -97,6 +97,1435 @@
         "isbn13": "",
         "lookup": true,
         "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Open University Notations and Models: Mathematical Modelling",
+        "author": "Block A Units A1-A4",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Open University Notations and Models: Mathematical Modelling",
+        "author": "Block A Units A1-A4",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "BTEC National Information Technology Practitioners",
+        "author": "Book 1 & 2",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "BTEC National Information Technology Practitioners",
+        "author": "Book 1 & 2",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Delicious in Dungeon: The Complete Box Set",
+        "author": "Ryoko Kui",
+        "isbn13": "9798855413786",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Japonisme: Exploring the Japanese Art of Living",
+        "author": "Erin Niimi Longhurst",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Japonisme: Exploring the Japanese Art of Living",
+        "author": "Erin Niimi Longhurst",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 11",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723577",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 12",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723584",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 13",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728008",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 14",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728015",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 15",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728022",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 16",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974729036",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 17",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974732302",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 18",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974734610",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 19",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974737451",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 21",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974742851",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 22",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974743186",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 23",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974745579",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 24",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974746040",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 25",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974748761",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 26",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974749775",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 27",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974752515",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 28",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974754984",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 29",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974755967",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 30",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974759385",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 31",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974762323",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 32",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974716593",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Fly Me to the Moon, Vol. 33",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974766444",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Harry Potter and the Half-Blood Prince, Vol. 6",
+        "author": "J.K. Rowling",
+        "isbn13": "9781408855706",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Fat Duck Cookbook",
+        "author": "Heston Blumenthal",
+        "isbn13": "9780747597377",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "Horimiya 1",
+        "author": "Hero",
+        "isbn13": "9784757535435",
+        "goodreadsId": "16155151"
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 1",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316342032",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 2",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316268691",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 3",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270106",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 4",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270113",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 5",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270120",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 6",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270137",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 7",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316469326",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 8",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 9",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316473309",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 10",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 11",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 12",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 13",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 14",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 15",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Horimiya, Vol. 16",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Kaguya-sama: Love Is War, Vol. 25",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974736324",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Kaguya-sama: Love Is War, Vol. 26",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974738755",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Kaguya-sama: Love Is War, Vol. 27",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974741052",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Kaguya-sama: Love Is War, Vol. 28",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974743421",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 1",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 2",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 3",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 4",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 5",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 6",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 8",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 10",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974717415",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 11",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718825",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 12",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718849",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 13",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718832",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 14",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718863",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 15",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718856",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 16",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724543",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 17",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724550",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 18",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724567",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 19",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731022",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 20",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731039",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 21",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731046",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 22",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974732081",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 23",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974734016",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 24",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974736799",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 25",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974737048",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 26",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974738885",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 27",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974740635",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 28",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974742899",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 29",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974743711",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 30",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974746101",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 31",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974749034",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 32",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974751549",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 33",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974752638",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 34",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974755714",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 35",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974758401",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 36",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974759163",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Komi Can’t Communicate, Vol. 37",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974761456",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Ladybird: How It Works... The Computer",
+        "author": "Ladybird 654",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Ladybird: How It Works... The Computer",
+        "author": "Ladybird 654",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Lonely Planet Phrasebook Series",
+        "author": "Italian, French, Russian, Polish, Greek",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Lonely Planet Phrasebook Series",
+        "author": "Italian, French, Russian, Polish, Greek",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "Patrick Quick CS Course Notes",
+        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "Patrick Quick CS Course Notes",
+        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 2",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421582702",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 3",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585109",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 4",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585116",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 5",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421587028",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 6",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421588667",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 7",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421590400",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 8",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421591674",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 9",
+        "author": "Kohei Horikoshi",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 10",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421594378",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 11",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421595832",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 12",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421597010",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 13",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421598031",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 14",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421599472",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 15",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974701001",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 16",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702558",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 17",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702565",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 18",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704378",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 19",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704606",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 20",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974707737",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 21",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709502",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 22",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709656",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 23",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709663",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 24",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974711208",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 25",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974717620",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 26",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974719778",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 27",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974721016",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 28",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974722884",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 29",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974725106",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 30",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974727155",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 31",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732128",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 32",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732364",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 33",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974734740",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 34",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974736638",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 35",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974739097",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 36",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974741083",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 37",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974743247",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 38",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974745845",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 39",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974749645",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 40",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974752737",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 41",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974755882",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "My Hero Academia, Vol. 42",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974759187",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 3",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 4",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 5",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 6",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 7",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 8",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 9",
+        "author": "Yuu Kamiya",
+        "isbn13": "9780316471343",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 10",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975386788",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 11",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975345495",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "No Game, No Life, Vol. 12",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 4",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974721030",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 5",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974722945",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 6",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974725137",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 7",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974728480",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 8",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974734276",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 9",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974736287",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 10",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974740673",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 11",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974743292",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 12",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974747054",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 13",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974751983",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 14",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974756001",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Spy x Family, Vol. 15",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974759170",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
+        "author": "Stuart Farrimond",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "Kusuriya no Hitorigoto 1",
+        "author": "Nekokurage",
+        "isbn13": "9784757554894",
+        "goodreadsId": "36441259"
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 1",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090709",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 2",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090716",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 3",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090723",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 4",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090730",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 5",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090747",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 6",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090860",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 7",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091201",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 8",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091348",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 9",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 10",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091362",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 11",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092529",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 12",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092963",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 13",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 14",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Apothecary Diaries, Vol. 15",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Labyrinth of the Spirits, Vol. 4",
+        "author": "Carlos Ruiz Zafón",
+        "isbn13": "9781474606189",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974718191",
+        "goodreadsId": "52854190",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974718191",
+        "goodreadsId": "52854190",
+        "needsShelf": false
+      },
+      {
+        "op": "remove from my-wishlist",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974718191",
+        "goodreadsId": "52854190"
       },
       {
         "op": "shelve on my-bookcase",
@@ -299,121 +1728,321 @@
         "goodreadsId": "7171902"
       },
       {
+        "op": "shelve on my-wishlist",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974719822",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974723386",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974734047",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 11",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974736508",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 1",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974709403",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 2",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974710447",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 5",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974721771",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 6",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974724611",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 7",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974727285",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 8",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974732234",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 9",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974736157",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 10",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974738762",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 11",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974743100",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 12",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974746385",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 13",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974751990",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 14",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974755349",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "The Way of the Househusband, Vol. 15",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974761302",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
         "op": "shelve on my-bookcase",
-        "title": "Open University Notations and Models: Mathematical Modelling",
-        "author": "Block A Units A1-A4",
+        "title": "Shibari Colouring Book Series",
+        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
         "isbn13": "",
         "lookup": true,
         "needsShelf": false
       },
       {
         "op": "shelve on owned-physical",
-        "title": "Open University Notations and Models: Mathematical Modelling",
-        "author": "Block A Units A1-A4",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "BTEC National Information Technology Practitioners",
-        "author": "Book 1 & 2",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "BTEC National Information Technology Practitioners",
-        "author": "Book 1 & 2",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "Japonisme: Exploring the Japanese Art of Living",
-        "author": "Erin Niimi Longhurst",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "Japonisme: Exploring the Japanese Art of Living",
-        "author": "Erin Niimi Longhurst",
+        "title": "Shibari Colouring Book Series",
+        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
         "isbn13": "",
         "lookup": true,
         "needsShelf": false
       },
       {
         "op": "shelve on my-wishlist",
-        "title": "The Fat Duck Cookbook",
-        "author": "Heston Blumenthal",
-        "isbn13": "9780747597377",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "Lonely Planet Phrasebook Series",
-        "author": "Italian, French, Russian, Polish, Greek",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "Lonely Planet Phrasebook Series",
-        "author": "Italian, French, Russian, Polish, Greek",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "Ladybird: How It Works... The Computer",
-        "author": "Ladybird 654",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "Ladybird: How It Works... The Computer",
-        "author": "Ladybird 654",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "Patrick Quick CS Course Notes",
-        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "Patrick Quick CS Course Notes",
-        "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
-        "isbn13": "",
+        "title": "Witch Hat Atelier, Vol. 2",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368041",
         "lookup": true,
         "needsShelf": false
       },
       {
         "op": "shelve on my-wishlist",
-        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
-        "author": "Nigella Lawson",
-        "isbn13": "",
+        "title": "Witch Hat Atelier, Vol. 3",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368058",
         "lookup": true,
         "needsShelf": false
       },
       {
         "op": "shelve on my-wishlist",
-        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
-        "author": "Nigella Lawson",
+        "title": "Witch Hat Atelier, Vol. 4",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368607",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 5",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632369291",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 6",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510108",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 7",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510788",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 8",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646512690",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 9",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646514472",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 10",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646516186",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 11",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646517459",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 12",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888770795",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 13",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888773307",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-wishlist",
+        "title": "Witch Hat Atelier, Vol. 14",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888776858",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Art & Artifacts",
+        "author": "Nintendo",
+        "isbn13": "9781506703350",
+        "goodreadsId": "31625256",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Breath of the Wild — Creating a Champion Hero's Edition",
+        "author": "Nintendo",
+        "isbn13": "9781506710112",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Breath of the Wild — Creating a Champion Hero's Edition",
+        "author": "Nintendo",
+        "isbn13": "9781506710112",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Hyrule Historia",
+        "author": "Nintendo",
+        "isbn13": "9781616550417",
+        "goodreadsId": "15845097",
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend of Zelda: Tears of the Kingdom — Secrets of the Zonai Hero's Edition",
+        "author": "Nintendo",
+        "isbn13": "9781506757155",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend of Zelda: Tears of the Kingdom — Secrets of the Zonai Hero's Edition",
+        "author": "Nintendo",
+        "isbn13": "9781506757155",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on my-bookcase",
+        "title": "The Legend's Cookbook+",
+        "author": "Zelda Recipes & Art",
+        "isbn13": "",
+        "lookup": true,
+        "needsShelf": false
+      },
+      {
+        "op": "shelve on owned-physical",
+        "title": "The Legend's Cookbook+",
+        "author": "Zelda Recipes & Art",
         "isbn13": "",
         "lookup": true,
         "needsShelf": false
@@ -441,57 +2070,1164 @@
         "isbn13": "9780744017038",
         "lookup": true,
         "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Delicious in Dungeon: The Complete Box Set: 15",
-        "author": "Ryoko Kui",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
-        "author": "Stuart Farrimond",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "Shibari Colouring Book Series",
-        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "Shibari Colouring Book Series",
-        "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-bookcase",
-        "title": "The Legend's Cookbook+",
-        "author": "Zelda Recipes & Art",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on owned-physical",
-        "title": "The Legend's Cookbook+",
-        "author": "Zelda Recipes & Art",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
       }
     ],
     "amazon": [
+      {
+        "op": "add",
+        "title": "A Court of Wings and Ruin, Vol. 3",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575606",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A Court of Frost and Starlight, Vol. 4",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781635575620",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "A ​Court of Silver Flames, Vol. 5",
+        "author": "Sarah J. Maas",
+        "isbn13": "9781681196282",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 11",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723577",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 12",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723584",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 13",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728008",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 14",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728015",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 15",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728022",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 16",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974729036",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 17",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974732302",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 18",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974734610",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 19",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974737451",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 21",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974742851",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 22",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974743186",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 23",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974745579",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 24",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974746040",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 25",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974748761",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 26",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974749775",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 27",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974752515",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 28",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974754984",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 29",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974755967",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 30",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974759385",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 31",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974762323",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 32",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974716593",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 33",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974766444",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "author": "Gene Kim",
+        "isbn13": "9781942788324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Harry Potter and the Half-Blood Prince, Vol. 6",
+        "author": "J.K. Rowling",
+        "isbn13": "9781408855706",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 1",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316342032",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 2",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316268691",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 3",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270106",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 4",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270113",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 5",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270120",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 6",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270137",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 7",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316469326",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 8",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 9",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316473309",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 10",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 11",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 12",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 13",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 14",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 15",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 16",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 25",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974736324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 26",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974738755",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 27",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974741052",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 28",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974743421",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 1",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 2",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 3",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 4",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 5",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 6",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 8",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 10",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974717415",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 11",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718825",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 12",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718849",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 13",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718832",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 14",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718863",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 15",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718856",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 16",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724543",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 17",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724550",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 18",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724567",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 19",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731022",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 20",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731039",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 21",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731046",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 22",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974732081",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 23",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974734016",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 24",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974736799",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 25",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974737048",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 26",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974738885",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 27",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974740635",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 28",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974742899",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 29",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974743711",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 30",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974746101",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 31",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974749034",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 32",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974751549",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 33",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974752638",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 34",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974755714",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 35",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974758401",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 36",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974759163",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 37",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974761456",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Pasta Man: The Art of Making Spectacular Pasta – with 40 Recipes",
+        "author": "Mateo Zielonka",
+        "isbn13": "9781787136199",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 1",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421582696",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 2",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421582702",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 3",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585109",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 4",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585116",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 5",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421587028",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 6",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421588667",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 7",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421590400",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 8",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421591674",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 9",
+        "author": "Kohei Horikoshi",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 10",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421594378",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 11",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421595832",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 12",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421597010",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 13",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421598031",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 14",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421599472",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 15",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974701001",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 16",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702558",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 17",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702565",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 18",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704378",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 19",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704606",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 20",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974707737",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 21",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709502",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 22",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709656",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 23",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709663",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 24",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974711208",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 25",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974717620",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 26",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974719778",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 27",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974721016",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 28",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974722884",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 29",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974725106",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 30",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974727155",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 31",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732128",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 32",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732364",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 33",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974734740",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 34",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974736638",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 35",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974739097",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 36",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974741083",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 37",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974743247",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 38",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974745845",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 39",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974749645",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 40",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974752737",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 41",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974755882",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 42",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974759187",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 3",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 4",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 5",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 6",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 7",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 8",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 9",
+        "author": "Yuu Kamiya",
+        "isbn13": "9780316471343",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 10",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975386788",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 11",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975345495",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 12",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: A Link to the Past",
+        "author": "Shōtarō Ishinomori",
+        "isbn13": "9781421575414",
+        "asin": "1421575418"
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 4",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974721030",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 5",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974722945",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 6",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974725137",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 7",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974728480",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 8",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974734276",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 9",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974736287",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 10",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974740673",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 11",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974743292",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 12",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974747054",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 13",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974751983",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 14",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974756001",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 15",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974759170",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 1",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090709",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 2",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090716",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 3",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090723",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 4",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090730",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 5",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090747",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 6",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090860",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 7",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091201",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 8",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091348",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 9",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 10",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091362",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 11",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092529",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 12",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092963",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 13",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 14",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 15",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Labyrinth of the Spirits, Vol. 4",
+        "author": "Carlos Ruiz Zafón",
+        "isbn13": "9781474606189",
+        "lookup": true
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda - Legendary Edition Box Set",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974718191",
+        "asin": "1974718190"
+      },
       {
         "op": "remove (owned physical)",
         "title": "The Legend of Zelda Complete Box Set",
@@ -557,16 +3293,121 @@
       },
       {
         "op": "add",
-        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
-        "author": "Gene Kim",
-        "isbn13": "9781942788324",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974719822",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Horimiya 1",
-        "author": "Hero",
-        "isbn13": "9784757535435",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974723386",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974734047",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 11",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974736508",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 1",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974709403",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 2",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974710447",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 5",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974721771",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 6",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974724611",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 7",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974727285",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 8",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974732234",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 9",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974736157",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 10",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974738762",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 11",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974743100",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 12",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974746385",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 13",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974751990",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 14",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974755349",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 15",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974761302",
         "lookup": true
       },
       {
@@ -578,25 +3419,97 @@
       },
       {
         "op": "add",
-        "title": "My Hero Academia, Vol. 1",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421582696",
+        "title": "Witch Hat Atelier, Vol. 2",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368041",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "The Pasta Man: The Art of Making Spectacular Pasta – with 40 Recipes",
-        "author": "Mateo Zielonka",
-        "isbn13": "9781787136199",
+        "title": "Witch Hat Atelier, Vol. 3",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368058",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Kusuriya no Hitorigoto 1",
-        "author": "Nekokurage",
-        "isbn13": "9784757554894",
+        "title": "Witch Hat Atelier, Vol. 4",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368607",
         "lookup": true
       },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 5",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632369291",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 6",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510108",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 7",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510788",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 8",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646512690",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 9",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646514472",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 10",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646516186",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 11",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646517459",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 12",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888770795",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 13",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888773307",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 14",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888776858",
+        "lookup": true
+      }
+    ],
+    "waterstones": [
       {
         "op": "add",
         "title": "A Court of Wings and Ruin, Vol. 3",
@@ -613,32 +3526,1192 @@
       },
       {
         "op": "add",
-        "title": "A ​Court of Silver Flames, Vol. 5",
-        "author": "Sarah J. Maas",
-        "isbn13": "9781681196282",
-        "lookup": true
-      },
-      {
-        "op": "remove (owned physical)",
-        "title": "The Legend of Zelda: A Link to the Past",
-        "author": "Shōtarō Ishinomori",
-        "isbn13": "9781421575414",
-        "asin": "1421575418"
-      }
-    ],
-    "waterstones": [
-      {
-        "op": "add",
-        "title": "The Legend of Zelda - Legendary Edition Box Set",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974718191",
+        "title": "Binging with Babish: 100 Recipes Recreated from Your Favorite Movies and TV Shows",
+        "author": "Andrew Rea",
+        "isbn13": "9781328589897",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "The Legend of Zelda: Majora's Mask / A Link to the Past -Legendary Edition-: Majora's Mask/A Link to the Past",
-        "author": "Akira Himekawa",
-        "isbn13": "9781421589619",
+        "title": "Delicious in Dungeon: The Complete Box Set",
+        "author": "Ryoko Kui",
+        "isbn13": "9798855413786",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 11",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723577",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 12",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974723584",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 13",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728008",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 14",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728015",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 15",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974728022",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 16",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974729036",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 17",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974732302",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 18",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974734610",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 19",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974737451",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 21",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974742851",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 22",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974743186",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 23",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974745579",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 24",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974746040",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 25",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974748761",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 26",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974749775",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 27",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974752515",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 28",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974754984",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 29",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974755967",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 30",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974759385",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 31",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974762323",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 32",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974716593",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fly Me to the Moon, Vol. 33",
+        "author": "Kenjirō Hata",
+        "isbn13": "9781974766444",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "author": "Gene Kim",
+        "isbn13": "9781942788324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Harry Potter and the Half-Blood Prince, Vol. 6",
+        "author": "J.K. Rowling",
+        "isbn13": "9781408855706",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Historic Heston",
+        "author": "Heston Blumenthal",
+        "isbn13": "9781408857571",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Fat Duck Cookbook",
+        "author": "Heston Blumenthal",
+        "isbn13": "9780747597377",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Fullmetal Alchemist: The Complete Four-Panel Comics",
+        "author": "Hiromu Arakawa",
+        "isbn13": "9781974706174",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 1",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316342032",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 2",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316268691",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 3",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270106",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 4",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270113",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 5",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270120",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 6",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316270137",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 7",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316469326",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 8",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 9",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "9780316473309",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 10",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 11",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 12",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 13",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 14",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 15",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Horimiya, Vol. 16",
+        "author": "HERO, Daisuke Hagiwara",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 25",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974736324",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 26",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974738755",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 27",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974741052",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Kaguya-sama: Love Is War, Vol. 28",
+        "author": "Aka Akasaka",
+        "isbn13": "9781974743421",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 1",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 2",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 3",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 4",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 5",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 6",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 8",
+        "author": "Tomohito Oda",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 10",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974717415",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 11",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718825",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 12",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718849",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 13",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718832",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 14",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718863",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 15",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974718856",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 16",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724543",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 17",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724550",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 18",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974724567",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 19",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731022",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 20",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731039",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 21",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974731046",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 22",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974732081",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 23",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974734016",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 24",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974736799",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 25",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974737048",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 26",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974738885",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 27",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974740635",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 28",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974742899",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 29",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974743711",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 30",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974746101",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 31",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974749034",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 32",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974751549",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 33",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974752638",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 34",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974755714",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 35",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974758401",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 36",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974759163",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Komi Can’t Communicate, Vol. 37",
+        "author": "Tomohito Oda",
+        "isbn13": "9781974761456",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Cook This Book: Techniques That Teach and Recipes To Repeat",
+        "author": "Molly Baz",
+        "isbn13": "9780593138274",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 2",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421582702",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 3",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585109",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 4",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421585116",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 5",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421587028",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 6",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421588667",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 7",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421590400",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 8",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421591674",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 9",
+        "author": "Kohei Horikoshi",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 10",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421594378",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 11",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421595832",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 12",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421597010",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 13",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421598031",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 14",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781421599472",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 15",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974701001",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 16",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702558",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 17",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974702565",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 18",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704378",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 19",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974704606",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 20",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974707737",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 21",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709502",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 22",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709656",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 23",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974709663",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 24",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974711208",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 25",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974717620",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 26",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974719778",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 27",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974721016",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 28",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974722884",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 29",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974725106",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 30",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974727155",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 31",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732128",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 32",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974732364",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 33",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974734740",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 34",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974736638",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 35",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974739097",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 36",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974741083",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 37",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974743247",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 38",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974745845",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 39",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974749645",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 40",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974752737",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 41",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974755882",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "My Hero Academia, Vol. 42",
+        "author": "Kohei Horikoshi",
+        "isbn13": "9781974759187",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
+        "author": "Nigella Lawson",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 3",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 4",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 5",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 6",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 7",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 8",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 9",
+        "author": "Yuu Kamiya",
+        "isbn13": "9780316471343",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 10",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975386788",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 11",
+        "author": "Yuu Kamiya",
+        "isbn13": "9781975345495",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life, Vol. 12",
+        "author": "Yuu Kamiya",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Salt Fat Acid Heat. Cztery składniki",
+        "author": "Samin Nosrat",
+        "isbn13": "9788324070374",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "SPY×FAMILY 1, Vol. 1",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974715466",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 3",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974718160",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 4",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974721030",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 5",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974722945",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 6",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974725137",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 7",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974728480",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 8",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974734276",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 9",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974736287",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 10",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974740673",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 11",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974743292",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 12",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974747054",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 13",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974751983",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 14",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974756001",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Spy x Family, Vol. 15",
+        "author": "Tatsuya Endo",
+        "isbn13": "9781974759170",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
+        "author": "Stuart Farrimond",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 1",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090709",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 2",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090716",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 3",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090723",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 4",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090730",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 5",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090747",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 6",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646090860",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 7",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091201",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 8",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091348",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 9",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 10",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646091362",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 11",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092529",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 12",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "9781646092963",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 13",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 14",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Apothecary Diaries, Vol. 15",
+        "author": "Natsu Hyuuga, Nekokurage",
+        "isbn13": "",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Labyrinth of the Spirits, Vol. 4",
+        "author": "Carlos Ruiz Zafón",
+        "isbn13": "9781474606189",
         "lookup": true
       },
       {
@@ -657,6 +4730,20 @@
       },
       {
         "op": "add",
+        "title": "The Legend of Zelda: Majora's Mask / A Link to the Past -Legendary Edition-: Majora's Mask/A Link to the Past",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421589619",
+        "lookup": true
+      },
+      {
+        "op": "remove (owned physical)",
+        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421523309",
+        "bookId": "2412967"
+      },
+      {
+        "op": "add",
         "title": "The Legend of Zelda: The Minish Cap / Phantom Hourglass -Legendary Edition-: The Minish Cap/Phantom Hourglass",
         "author": "Akira Himekawa",
         "isbn13": "9781421589626",
@@ -668,48 +4755,6 @@
         "author": "Akira Himekawa",
         "isbn13": "9781421589633",
         "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 3",
-        "author": "Akira Himekawa",
-        "isbn13": "9781421598260",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 4",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974702268",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 5",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974705641",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 6",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974711635",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 7",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974715336",
-        "lookup": true
-      },
-      {
-        "op": "remove (owned physical)",
-        "title": "The Legend of Zelda: Oracle of Seasons, Vol. 4",
-        "author": "Akira Himekawa",
-        "isbn13": "9781421523309",
-        "bookId": "2412967"
       },
       {
         "op": "remove (owned physical)",
@@ -755,107 +4800,254 @@
       },
       {
         "op": "add",
-        "title": "Binging with Babish: 100 Recipes Recreated from Your Favorite Movies and TV Shows",
-        "author": "Andrew Rea",
-        "isbn13": "9781328589897",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 3",
+        "author": "Akira Himekawa",
+        "isbn13": "9781421598260",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
-        "author": "Gene Kim",
-        "isbn13": "9781942788324",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 4",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974702268",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Horimiya 1",
-        "author": "Hero",
-        "isbn13": "9784757535435",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 5",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974705641",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Historic Heston",
-        "author": "Heston Blumenthal",
-        "isbn13": "9781408857571",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 6",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974711635",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "The Fat Duck Cookbook",
-        "author": "Heston Blumenthal",
-        "isbn13": "9780747597377",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 7",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974715336",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Fullmetal Alchemist: The Complete Four-Panel Comics",
-        "author": "Hiromu Arakawa",
-        "isbn13": "9781974706174",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 8",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974719822",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Cook This Book: Techniques That Teach and Recipes To Repeat",
-        "author": "Molly Baz",
-        "isbn13": "9780593138274",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 9",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974723386",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Kusuriya no Hitorigoto 1",
-        "author": "Nekokurage",
-        "isbn13": "9784757554894",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 10",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974734047",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Cook, Eat, Repeat: Fresh flavourful recipes and cosy comfort food classics, from the bestselling author, now a judge on the Great British Bake Off",
-        "author": "Nigella Lawson",
-        "isbn13": "",
+        "title": "The Legend of Zelda: Twilight Princess, Vol. 11",
+        "author": "Akira Himekawa",
+        "isbn13": "9781974736508",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Simply Nigella: Treat yourself to cosy, comfort food classics from the bestselling author, now a judge on the Great British Bake Off",
-        "author": "Nigella Lawson",
-        "isbn13": "",
+        "title": "The Way of the Househusband, Vol. 1",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974709403",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
-        "author": "Prima Games",
-        "isbn13": "9780744017038",
+        "title": "The Way of the Househusband, Vol. 2",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974710447",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Delicious in Dungeon: The Complete Box Set: 15",
-        "author": "Ryoko Kui",
-        "isbn13": "",
+        "title": "The Way of the Househusband, Vol. 5",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974721771",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Salt Fat Acid Heat. Cztery składniki",
-        "author": "Samin Nosrat",
-        "isbn13": "9788324070374",
+        "title": "The Way of the Househusband, Vol. 6",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974724611",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "A Court of Wings and Ruin, Vol. 3",
-        "author": "Sarah J. Maas",
-        "isbn13": "9781635575606",
+        "title": "The Way of the Househusband, Vol. 7",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974727285",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "A Court of Frost and Starlight, Vol. 4",
-        "author": "Sarah J. Maas",
-        "isbn13": "9781635575620",
+        "title": "The Way of the Househusband, Vol. 8",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974732234",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 9",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974736157",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 10",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974738762",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 11",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974743100",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 12",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974746385",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 13",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974751990",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 14",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974755349",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "The Way of the Househusband, Vol. 15",
+        "author": "Kousuke Oono",
+        "isbn13": "9781974761302",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 2",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368041",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 3",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368058",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 4",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632368607",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 5",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781632369291",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 6",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510108",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 7",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646510788",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 8",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646512690",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 9",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646514472",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 10",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646516186",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 11",
+        "author": "Kamome Shirahama",
+        "isbn13": "9781646517459",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 12",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888770795",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 13",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888773307",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Witch Hat Atelier, Vol. 14",
+        "author": "Kamome Shirahama",
+        "isbn13": "9798888776858",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "Ottolenghi Flavour",
+        "author": "Yotam Ottolenghi",
+        "isbn13": "9781785038938",
         "lookup": true
       },
       {
@@ -867,30 +5059,9 @@
       },
       {
         "op": "add",
-        "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
-        "author": "Stuart Farrimond",
-        "isbn13": "",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "SPY×FAMILY 1, Vol. 1",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974715466",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "Spy x Family, Vol. 3",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974718160",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "Ottolenghi Flavour",
-        "author": "Yotam Ottolenghi",
-        "isbn13": "9781785038938",
+        "title": "The Legend of Zelda: Twilight Princess HD Collector's Edition: Prima Official Game Guide",
+        "author": "Prima Games",
+        "isbn13": "9780744017038",
         "lookup": true
       }
     ],

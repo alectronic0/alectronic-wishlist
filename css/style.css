@@ -32,6 +32,7 @@
   --gold: #f2c36b;
   --rose: #ff6b8a;
   --mint: #6fd6a6;
+  --sky: #6cb8ff;
   --well: #ffffff;
   --radius: 10px;
   --max-width: none;
@@ -1477,6 +1478,23 @@ header.site-nav nav a[aria-current="page"] {
 .item-card--green .item-card__media { border: 3px solid var(--mint); }
 .item-card--amber .item-card__media { border: 3px solid var(--gold); }
 .item-card--red .item-card__media { border: 3px solid var(--rose); }
+.item-card--blue .item-card__media { border: 3px solid var(--sky); }
+.tag--blue { color: var(--sky); }
+.tag--complete { color: var(--mint); }
+.tag--ongoing { color: var(--gold); }
+.tag--edition,
+.tag--boxset { color: var(--text-muted); }
+.tag--boxset a { color: inherit; }
+
+.catalogue__subnote {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
 
 .catalogue__banner {
   margin: 0 0 24px;

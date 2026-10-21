@@ -22,6 +22,9 @@ const AMAZON_FILE = path.join(ROOT, 'data', 'sources', 'amazon.json');
 const GOODREADS_FILE = path.join(ROOT, 'data', 'sources', 'goodreads.json');
 const BOOKS_MASTER_FILE = path.join(ROOT, 'data', 'books_master.json');
 const GOODREADS_META_FILE = path.join(ROOT, 'data', 'goodreads_meta.json');
+const BOOKS_SERIES_FILE = path.join(ROOT, 'data', 'books_series.json');
+const BOOKS_TYPES_FILE = path.join(ROOT, 'data', 'books_types.json');
+const WATERSTONES_LIST_URL = 'https://www.waterstones.com/booklist/55345240/80769e14ecd51a4';
 const NINTENDO_FILE = path.join(ROOT, 'data', 'sources', 'nintendo.json');
 const LEGO_FILE = path.join(ROOT, 'data', 'sources', 'lego.json');
 const BGG_FILE = path.join(ROOT, 'data', 'sources', 'bgg.json');
@@ -442,7 +445,7 @@ function syncGoodreads(content, goodreads, overrides) {
 const LIBRARY_LINKS = [
   ['goodreads', source => source.startsWith('goodreads:')],
   ['amazon', source => source === 'amazon'],
-  ['waterstones', source => source === 'waterstones'],
+  ['waterstones', source => source === 'waterstones' || source === 'fill'],
   ['play', source => source.startsWith('play')]
 ];
 
@@ -464,12 +467,13 @@ const BOOK_TYPE_RULES = [
   { type: 'Manga', title: /\bmanga\b|vol\. ?\d/i, genres: ['manga', 'graphic-novels', 'comics', 'manhwa', 'light-novel'] },
   { type: 'Cookbooks', title: /cook|recipe|kitchen|baking|pasta|preserve|dessert|cocktail|pastry|patisserie|flavour|food/i, genres: ['cookbooks', 'cooking', 'food'] },
   { type: 'Computer Science & Business', title: /programming|software|computer|devops|developer|python|javascript|arduino|scrum|product|business|startup|\bit\b/i, genres: ['programming', 'computer-science', 'technology', 'business', 'productivity', 'leadership', 'entrepreneurship', 'management', 'software', 'coding', 'design'] },
-  { type: 'Fantasy & Sci-fi', title: /court of|mythos|mythology|dragon|wizard/i, genres: ['fantasy', 'science-fiction', 'science-fiction-fantasy', 'dystopia', 'magic', 'mythology', 'fiction'] },
+  { type: 'Fiction, Fantasy & Sci-fi', title: /court of|mythos|mythology|dragon|wizard/i, genres: ['fantasy', 'science-fiction', 'science-fiction-fantasy', 'dystopia', 'magic', 'mythology', 'fiction'] },
   { type: 'Non-fiction', title: /phrasebook|history|guide to/i, genres: ['nonfiction', 'history', 'science', 'psychology', 'self-help', 'travel', 'philosophy', 'art'] }
 ];
 
-function bookType(book, genres, overrides) {
-  const manual = (overrides.types || {})[book.title];
+// data/books_types.json is the hand-reviewed answer, by exact title first and then by series
+function bookType(book, genres, types) {
+  const manual = (types.series || {})[book.series] || (types.titles || {})[book.title] || types.default;
   if (manual) {
     return manual;
   }
@@ -487,17 +491,20 @@ function goodreadsGenres(sources, meta) {
   return [...new Set(ids.flatMap(id => (meta[id] && meta[id].genres) || []))];
 }
 
-function syncLibrary(content, master, overrides, meta) {
+function syncLibrary(content, master, { meta, series, types }) {
+  content.books.waterstonesUrl = WATERSTONES_LIST_URL;
+  content.books.seriesNotes = series.notes || {};
   content.books.library = master.books.map(book => ({
     title: book.title,
     author: book.author,
     series: book.series,
     seriesNo: book.seriesNo,
     status: book.status,
+    preordered: book.preordered,
     formats: book.formats,
     wants: book.wants,
     audiobook: book.audiobook,
-    type: bookType(book, goodreadsGenres(book.sources, meta), overrides),
+    type: bookType(book, goodreadsGenres(book.sources, meta), types),
     img: book.img,
     links: libraryLinks(book.sources)
   }));
@@ -911,7 +918,11 @@ function main() {
   syncGoodreads(content, JSON.parse(fs.readFileSync(GOODREADS_FILE, 'utf8')), overrides.books);
   const booksMaster = safeLoadJson(BOOKS_MASTER_FILE);
   if (booksMaster) {
-    syncLibrary(content, booksMaster, overrides.books, safeLoadJson(GOODREADS_META_FILE, {}));
+    syncLibrary(content, booksMaster, {
+      meta: safeLoadJson(GOODREADS_META_FILE, {}),
+      series: safeLoadJson(BOOKS_SERIES_FILE, {}),
+      types: safeLoadJson(BOOKS_TYPES_FILE, {})
+    });
   }
   syncLego(content, lego, overrides.lego);
   reportBgg(content, JSON.parse(fs.readFileSync(BGG_FILE, 'utf8')));

@@ -28,6 +28,7 @@ const META_FILE = path.join(ROOT, 'data', 'goodreads_meta.json');
 const SERIES_FILE = path.join(ROOT, 'data', 'goodreads_series.json');
 const SERIES_CHOICE_FILE = path.join(ROOT, 'data', 'books_series.json');
 const SERIES_CANDIDATES_FILE = path.join(ROOT, 'data', 'books_series_candidates.json');
+const ISBN_FILE = path.join(ROOT, 'data', 'books_isbn.json');
 const AUTHOR_MATCH = 0.5;
 
 // Each format is decided by evidence: an explicit Goodreads format shelf beats everything,
@@ -178,6 +179,7 @@ function fromWaterstones(waterstones) {
 function fromManual(manual) {
   return manual.books.map(book => ({
     source: 'manual', status: book.status || 'wanted',
+    preordered: Boolean(book.preordered),
     formats: Object.fromEntries((book.formats || []).map(format => [format, EVIDENCE.explicit])),
     ref: book.isbn13 || book.title,
     title: book.title,
@@ -293,8 +295,9 @@ function matches(record, candidate) {
   return true;
 }
 
-const TITLE_PREFERENCE = ['goodreads', 'site', 'manual', 'playLibrary', 'waterstones', 'playWishlist', 'amazon'];
-const SERIES_PREFERENCE = ['goodreads', 'playLibrary', 'playWishlist', 'manual', 'site'];
+// Series fill-ins ('series' from a Goodreads series page, 'fill' when Goodreads lacks the volume) come last
+const TITLE_PREFERENCE = ['goodreads', 'site', 'manual', 'playLibrary', 'waterstones', 'playWishlist', 'amazon', 'series', 'fill'];
+const SERIES_PREFERENCE = ['goodreads', 'playLibrary', 'playWishlist', 'manual', 'site', 'series', 'fill'];
 
 function newRecord(candidate) {
   return {
@@ -380,7 +383,7 @@ function wantedFormats(wanted, owned) {
 }
 
 function seriesFromTitle(title) {
-  return title.replace(/,?\s*(?:\bvol(?:ume)?\.?|\bbook|#)\s*\d+.*$/i, '').replace(/[,:]\s*\d+\s*$/, '').replace(/[\s,:-]+$/, '').trim();
+  return title.replace(/,?\s*(?:\bvol(?:ume)?\.?|\bbook|#)\s*\d+.*$/i, '').replace(/[,:]\s*\d+\s*$/, '').replace(/[\s,:(-]+$/, '').trim();
 }
 
 function finalise(record) {
@@ -400,14 +403,17 @@ function finalise(record) {
     }
     sources[key] = { ref: candidate.ref, refs: [candidate.ref], url: candidate.url };
   }
-  const title = pick(candidates, TITLE_PREFERENCE, 'title');
+  // Some services number a box set as the series' last volume ("…The Complete Box Set: 15")
+  const title = pick(candidates, TITLE_PREFERENCE, 'title').replace(/(box set):\s*\d+$/i, '$1');
+  const boxSet = /box set/i.test(title);
   return {
     // Play store titles drop the volume number and keep it only in the series line
-    title: seriesNo && volumeOf(title) === null ? `${title}, Vol. ${seriesNo}` : title,
-    author: pick(candidates, ['goodreads', 'playLibrary', 'playWishlist', 'site', 'manual', 'amazon', 'waterstones'], 'author'),
+    title: seriesNo && !boxSet && volumeOf(title) === null ? `${title}, Vol. ${seriesNo}` : title,
+    author: pick(candidates, ['goodreads', 'playLibrary', 'playWishlist', 'site', 'manual', 'amazon', 'waterstones', 'series', 'fill'], 'author'),
     series: seriesFromTitle(pick(candidates, SERIES_PREFERENCE, 'series') || (seriesNo ? title : '')),
     seriesNo,
     status: owned.length > 0 ? 'owned' : 'wanted',
+    preordered: candidates.some(candidate => candidate.preordered),
     formats,
     unconfirmed,
     wants,
@@ -415,7 +421,7 @@ function finalise(record) {
     isbn13: [...record.isbn13s][0] || '',
     isbn13s: [...record.isbn13s],
     asins: [...record.asins],
-    img: pick(candidates, ['goodreads', 'playLibrary', 'playWishlist', 'site', 'amazon', 'waterstones', 'manual'], 'img'),
+    img: pick(candidates, ['goodreads', 'playLibrary', 'playWishlist', 'site', 'amazon', 'waterstones', 'manual', 'series', 'fill'], 'img'),
     sources
   };
 }
@@ -444,7 +450,9 @@ function unifySeries(books) {
 function merge(candidates) {
   const records = [];
   for (const candidate of candidates) {
-    const record = records.find(entry => matches(entry, candidate)) || null;
+    // Fill-ins exist only for volume numbers nobody has, so one never stands for an existing book
+    const fillIn = candidate.source === 'series' || candidate.source === 'fill';
+    const record = fillIn ? null : records.find(entry => matches(entry, candidate)) || null;
     if (record) {
       absorb(record, candidate);
       continue;
@@ -467,6 +475,11 @@ function action(book, op, extra = {}) {
 function planGoodreads(books, hasFormatShelves) {
   const actions = [];
   for (const book of books) {
+    if (book.replaced) {
+      Object.entries(book.sources).filter(([key]) => key.startsWith('goodreads:'))
+        .forEach(([key, entry]) => actions.push(action(book, `remove from ${key.slice('goodreads:'.length)}`, { goodreadsId: entry.ref })));
+      continue;
+    }
     const ref = Object.entries(book.sources).find(([key]) => key.startsWith('goodreads:') || key === 'series');
     const targets = [];
     if (book.status === 'owned') {
@@ -556,37 +569,123 @@ function seriesCandidates(books, meta, series) {
   return [...bySeries.values()].sort((left, right) => right.have.length - left.have.length);
 }
 
-// Missing volumes of the chosen series become print wants, keyed to the existing books' author and series name
-function fromSeries(books, meta, series, chosen) {
+function waterstonesCover(isbn13) {
+  return isbn13 ? `https://cdn.waterstones.com/bookjackets/large/${isbn13.slice(0, 4)}/${isbn13.slice(4, 8)}/${isbn13}.jpg` : '';
+}
+
+function waterstonesPage(isbn13) {
+  return isbn13 ? `https://www.waterstones.com/book/x/x/${isbn13}` : '';
+}
+
+function mostCommon(values) {
+  const counts = new Map();
+  values.forEach(value => counts.set(value, (counts.get(value) || 0) + 1));
+  const top = [...counts.entries()].sort((left, right) => right[1] - left[1])[0];
+  return top ? top[0] : '';
+}
+
+// Every volume out in English of a series marked `fill` in data/books_series.json becomes a print
+// want, up to `released`. The Goodreads series page supplies the volume's page, ISBN and cover when it
+// lists an English edition; otherwise the want is a bare "Series, Vol. N" for the lookups to resolve
+function fromSeries(books, meta, series, notes, isbns) {
   const out = [];
-  for (const id of chosen) {
-    const members = books.filter(book => seriesIdOf(book, meta) === id);
-    if (members.length === 0 || !series[id]) {
-      continue;
-    }
+  for (const [name, note] of Object.entries(notes).filter(([, entry]) => entry.fill)) {
+    const members = books.filter(book => book.series === name);
     const have = new Set(members.map(book => book.seriesNo).filter(no => no !== null));
-    const { author, series: name } = members[0];
-    for (const volume of series[id].volumes.filter(entry => !have.has(entry.no))) {
-      const details = meta[volume.id] || {};
+    const seriesId = note.goodreadsSeries || mostCommon(members.map(book => book.seriesId).filter(id => id && !id.startsWith('collection:')));
+    const volumes = series[seriesId] ? series[seriesId].volumes : [];
+    const author = note.author || (members[0] || {}).author || '';
+    for (let no = 1; no <= note.released; no++) {
+      if (have.has(no)) {
+        continue;
+      }
+      const volume = volumes.find(entry => entry.no === no);
+      const details = volume ? meta[volume.id] || {} : {};
+      // Japanese series pages list the Japanese editions (ISBN 978-4…), which no UK shop sells
+      const english = volume && !String(details.isbn13 || '').startsWith('9784');
       out.push({
-        source: 'series', status: 'wanted', formats: {},
-        ref: volume.id,
-        title: name ? `${name}, Vol. ${volume.no}` : volume.title,
+        source: english ? 'series' : 'fill', status: 'wanted', formats: {},
+        ref: english ? volume.id : `${name}, Vol. ${no}`,
+        // Novels have their own titles; manga volumes are just numbered
+        title: (note.titles || {})[no] || `${name}, Vol. ${no}`,
         author,
-        series: name, seriesNo: volume.no,
-        isbn13: normaliseIsbn(details.isbn13),
+        series: name, seriesNo: no,
+        isbn13: normaliseIsbn(english ? details.isbn13 : (isbns[`${name}, Vol. ${no}`] || {}).isbn13),
         asin: '',
-        img: details.img || volume.img,
-        url: `https://www.goodreads.com/book/show/${volume.id}`
+        img: english ? details.img || volume.img : waterstonesCover((isbns[`${name}, Vol. ${no}`] || {}).isbn13),
+        url: english ? `https://www.goodreads.com/book/show/${volume.id}` : waterstonesPage((isbns[`${name}, Vol. ${no}`] || {}).isbn13)
       });
     }
   }
   return out;
 }
 
+// A Goodreads series id is the one identity for a series, whatever each service calls it; the
+// name most of its books already use wins, and hand-written collections cover groupings Goodreads lacks
+function canonicalSeries(books, meta, { collections = [], renames = {}, replaced = [] }) {
+  const byId = new Map();
+  for (const book of books) {
+    book.seriesId = seriesIdOf(book, meta);
+    if (!book.seriesId) {
+      continue;
+    }
+    const known = goodreadsRefs(book).map(id => meta[id]).find(entry => entry && entry.seriesId === book.seriesId);
+    book.seriesNo = book.seriesNo || known.seriesNo || null;
+    byId.set(book.seriesId, [...(byId.get(book.seriesId) || []), book]);
+  }
+  for (const members of byId.values()) {
+    const counts = new Map();
+    members.filter(book => book.series).forEach(book => counts.set(book.series, (counts.get(book.series) || 0) + 1));
+    const named = [...counts.entries()].sort((left, right) => right[1] - left[1])[0];
+    const name = named ? named[0] : seriesFromTitle(members[0].title);
+    members.forEach(book => { book.series = name; });
+  }
+  for (const collection of collections) {
+    const inCollection = book => new RegExp(collection.match, 'i').test(`${book.title} ${book.series}`) &&
+      new RegExp(collection.author || '', 'i').test(book.author) &&
+      !(collection.exclude && new RegExp(collection.exclude, 'i').test(book.title));
+    for (const book of books.filter(inCollection)) {
+      book.series = collection.series;
+      book.seriesId = `collection:${collection.series}`;
+      // A box set is the whole series, not its last volume
+      book.seriesNo = collection.numbered ? book.seriesNo : null;
+    }
+  }
+  // An empty rename drops a "series" Goodreads or a title invented, such as one book named after itself
+  for (const book of books.filter(entry => entry.series in renames)) {
+    book.series = renames[book.series];
+    if (!book.series) {
+      // The volume number was only ever added for the series heading
+      book.title = book.title.replace(/, Vol\. \d+$/, '');
+    }
+  }
+  // An edition swapped for another (a Japanese volume now collected in English) leaves every list
+  for (const book of books.filter(entry => replaced.includes(entry.title))) {
+    book.replaced = true;
+    book.seriesNo = null;
+    book.wants = [];
+  }
+  for (const book of books) {
+    const onlyMember = !books.some(other => other !== book && other.series === book.series);
+    if (book.series && onlyMember && book.series === book.title) {
+      book.series = '';
+    }
+    if (!book.series) {
+      book.seriesNo = null;
+    }
+    // A box set is the whole series, not one of its volumes
+    if (/box set|complete adventures|#\d+-\d+/i.test(book.title)) {
+      book.seriesNo = null;
+    }
+  }
+  return books;
+}
+
 function sortBooks(books) {
+  // A series is one block on the page whoever wrote each volume, so it sorts by its own name
+  const block = book => book.series || book.author;
   return books.sort((left, right) =>
-    left.author.localeCompare(right.author) || left.series.localeCompare(right.series) ||
+    block(left).localeCompare(block(right)) || left.series.localeCompare(right.series) ||
     (left.seriesNo || 0) - (right.seriesNo || 0) || left.title.localeCompare(right.title));
 }
 
@@ -608,11 +707,11 @@ function main() {
   ];
   const meta = loadJson(META_FILE, {});
   const series = loadJson(SERIES_FILE, {});
-  const chosen = loadJson(SERIES_CHOICE_FILE, { complete: [] }).complete;
-  const firstPass = merge(candidates);
+  const choices = loadJson(SERIES_CHOICE_FILE, {});
+  const firstPass = canonicalSeries(merge(candidates), meta, choices);
   fs.writeFileSync(SERIES_CANDIDATES_FILE, JSON.stringify(seriesCandidates(firstPass, meta, series), null, 2) + '\n');
-  const completion = fromSeries(firstPass, meta, series, chosen);
-  const books = sortBooks(completion.length > 0 ? merge([...candidates, ...completion]) : firstPass);
+  const completion = fromSeries(firstPass, meta, series, choices.notes || {}, loadJson(ISBN_FILE, {}));
+  const books = sortBooks(completion.length > 0 ? canonicalSeries(merge([...candidates, ...completion]), meta, choices) : firstPass);
 
   const hasFormatShelves = Boolean(goodreads.shelves['owned-physical'] || goodreads.shelves['owned-digital']);
   const plan = {
@@ -623,11 +722,11 @@ function main() {
     playWishlist: planWishlist(books.filter(book => !book.sources.playLibrary), 'playWishlist', { format: 'digital', idField: 'playId', available: Boolean(play) })
   };
 
-  fs.writeFileSync(MASTER_FILE, JSON.stringify({ builtAt: new Date().toISOString(), books }, null, 2) + '\n');
+  fs.writeFileSync(MASTER_FILE, JSON.stringify({ builtAt: new Date().toISOString(), books: books.filter(book => !book.replaced) }, null, 2) + '\n');
   fs.writeFileSync(PLAN_FILE, JSON.stringify({ builtAt: new Date().toISOString(), plan }, null, 2) + '\n');
   summarise(plan, books);
   if (completion.length > 0) {
-    console.log(`[BooksMerge] ${completion.length} missing volumes added from ${chosen.length} chosen series`);
+    console.log(`[BooksMerge] ${completion.length} missing volumes added to the series marked fill`);
   }
   console.log('');
   console.log(`[BooksMerge] Wrote ${MASTER_FILE} and ${PLAN_FILE}`);

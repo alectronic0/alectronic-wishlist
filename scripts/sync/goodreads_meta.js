@@ -25,22 +25,35 @@ const SERIES_CHOICE_FILE = path.join(ROOT, 'data', 'books_series.json');
 const ORIGIN = 'https://www.goodreads.com';
 const TAB_URL = `${ORIGIN}/review/list/194943775`;
 // Each evaluation must finish inside the bridge's ~60s limit
-const PER_EVAL = 4;
-const PAUSE_MS = 1200;
-const EVAL_PAUSE_MS = 4000;
+// Goodreads answers HTTP 202 with an empty body (a bot challenge) after ~190 quick page loads
+const PER_EVAL = 3;
+const PAUSE_MS = 5000;
+const EVAL_PAUSE_MS = 5000;
+// Bumped when the parsing changes so older cache entries are fetched again
+const META_VERSION = 2;
 
 const BOOK_SCRIPT = ids => `(async () => {
   const out = {};
   for (const id of ${JSON.stringify(ids)}) {
     const res = await fetch('${ORIGIN}/book/show/' + id, { credentials: 'include' });
-    if (!res.ok) { out[id] = { error: res.status }; continue; }
     const html = await res.text();
-    const series = html.match(/href="https:\\/\\/www\\.goodreads\\.com\\/series\\/(\\d+)/);
+    if (res.status !== 200 || html.length === 0) {
+      out.__blocked = res.status;
+      break;
+    }
+    // Only the book's own genre list: the page header also links every genre
+    const start = html.indexOf('data-testid="genresList"');
+    const genreList = start > -1 ? html.slice(start, html.indexOf('</ul>', start)) : '';
+    const series = html.match(/aria-label="Book ([\\d.]+) in the ([^"]+?) series"><a href="https:\\/\\/www\\.goodreads\\.com\\/series\\/(\\d+)/);
     const title = html.match(/<meta property="og:title" content="([^"]*)"/);
     const image = html.match(/<meta property="og:image" content="([^"]*)"/);
     out[id] = {
-      genres: [...new Set([...html.matchAll(/\\/genres\\/([a-z0-9-]+)/g)].map(match => match[1]))].slice(0, 8),
-      seriesId: series ? series[1] : '',
+      v: ${META_VERSION},
+      genres: [...new Set([...genreList.matchAll(/\\/genres\\/([a-z0-9-]+)/g)].map(match => match[1]))],
+      seriesId: series ? series[3] : '',
+      seriesName: series ? series[2].trim() : '',
+      seriesNo: series ? Number(series[1]) : null,
+      format: (html.match(/"bookFormat":"([^"]+)"/) || [])[1] || '',
       isbn13: (html.match(/"isbn13":"(\\d{13})"/) || [])[1] || '',
       title: title ? title[1] : '',
       img: image ? image[1] : ''
@@ -57,8 +70,9 @@ const SERIES_SCRIPT = ids => `(async () => {
     const volumes = [];
     for (let page = 1; page < 6; page++) {
       const res = await fetch('${ORIGIN}/series/' + id + '?page=' + page, { credentials: 'include' });
-      if (!res.ok) { break; }
-      const items = (await res.text()).split('listWithDividers__item').slice(1);
+      const html = await res.text();
+      if (res.status !== 200 || html.length === 0) { out.__blocked = res.status; return JSON.stringify(out); }
+      const items = html.split('listWithDividers__item').slice(1);
       for (const item of items) {
         const label = item.match(/<h3[^>]*>Book ([^<]+)<\\/h3>/);
         const book = item.match(/href="\\/book\\/show\\/(\\d+)[^"]*"/);
@@ -101,8 +115,12 @@ async function fetchInChunks(ids, script, cache, file, label) {
   }
   await withTab(TAB_URL, async evalHere => {
     for (let i = 0; i < ids.length; i += PER_EVAL) {
-      Object.assign(cache, evalHere(script(ids.slice(i, i + PER_EVAL))));
+      const { __blocked: blocked, ...result } = evalHere(script(ids.slice(i, i + PER_EVAL)));
+      Object.assign(cache, result);
       save(file, cache);
+      if (blocked !== undefined) {
+        throw new Error(`Goodreads answered HTTP ${blocked} with an empty page (bot challenge) — stopped; re-run later, the cache is kept`);
+      }
       console.log(`[GoodreadsMeta] ${label} ${Math.min(i + PER_EVAL, ids.length)}/${ids.length}`);
       await sleep(EVAL_PAUSE_MS);
     }
@@ -114,7 +132,7 @@ async function main() {
   const meta = load(META_FILE);
   const series = load(SERIES_FILE);
 
-  const missingBooks = goodreadsIds(books).filter(id => !meta[id] || meta[id].error);
+  const missingBooks = goodreadsIds(books).filter(id => !meta[id] || meta[id].v !== META_VERSION);
   await fetchInChunks(missingBooks, BOOK_SCRIPT, meta, META_FILE, 'books');
 
   const seriesIds = [...new Set(Object.values(meta).map(entry => entry.seriesId).filter(Boolean))];
@@ -122,17 +140,22 @@ async function main() {
   const missingSeries = seriesIds.filter(id => refresh || !series[id]);
   await fetchInChunks(missingSeries, SERIES_SCRIPT, series, SERIES_FILE, 'series');
 
-  // Only series chosen for completion (data/books_series.json) get their missing volumes' ISBNs:
-  // publisher series such as "Do Books" would otherwise pull in dozens of unrelated titles
-  const chosen = load(SERIES_CHOICE_FILE).complete || [];
+  // Only series marked `fill` in data/books_series.json get their volumes' ISBNs: publisher series
+  // such as "Do Books" would otherwise pull in dozens of unrelated titles
+  const notes = load(SERIES_CHOICE_FILE).notes || {};
+  const chosen = [...new Set(books.filter(book => (notes[book.series] || {}).fill && /^\d+$/.test(book.seriesId || '')).map(book => book.seriesId))];
   const volumeIds = chosen.flatMap(id => (series[id] ? series[id].volumes.map(volume => volume.id) : []));
-  const missingVolumes = volumeIds.filter(id => !meta[id]);
+  const missingVolumes = volumeIds.filter(id => !meta[id] || meta[id].v !== META_VERSION);
   await fetchInChunks(missingVolumes, BOOK_SCRIPT, meta, META_FILE, 'volumes');
 
   console.log(`[GoodreadsMeta] ${Object.keys(meta).length} books, ${Object.keys(series).length} series cached`);
 }
 
-main().catch(err => {
-  console.error(`[GoodreadsMeta] ${err.message.split('\n')[0]}`);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(err => {
+    console.error(`[GoodreadsMeta] ${err.message.split('\n')[0]}`);
+    process.exit(1);
+  });
+}
+
+module.exports = { BOOK_SCRIPT, TAB_URL };

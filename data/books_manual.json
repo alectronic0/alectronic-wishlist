@@ -1,9 +1,14 @@
 {
   "books": [
-    { "title": "The Legend of Zelda: Encyclopedia", "author": "Nintendo", "status": "owned", "formats": ["physical", "digital"] },
-    { "title": "Norse Mythology", "author": "Neil Gaiman", "status": "owned", "formats": ["digital"] },
-    { "title": "A Court of Thorns and Roses", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"] },
-    { "title": "A Court of Mist and Fury", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"] },
-    { "title": "Mythos", "author": "Stephen Fry", "status": "owned", "formats": ["digital"] }
+    {"title": "The Legend of Zelda: Encyclopedia", "author": "Nintendo", "status": "owned", "formats": ["physical", "digital"]},
+    {"title": "Norse Mythology", "author": "Neil Gaiman", "status": "owned", "formats": ["digital"]},
+    {"title": "A Court of Thorns and Roses", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"]},
+    {"title": "A Court of Mist and Fury", "author": "Sarah J. Maas", "status": "owned", "formats": ["digital"]},
+    {"title": "Mythos", "author": "Stephen Fry", "status": "owned", "formats": ["digital"]},
+    {"title": "The Legend of Zelda: Art & Artifacts", "author": "Nintendo", "isbn13": "9781506703350", "status": "owned", "formats": ["physical", "digital"]},
+    {"title": "The Legend of Zelda: Hyrule Historia", "author": "Nintendo", "isbn13": "9781616550417", "status": "owned", "formats": ["physical", "digital"]},
+    {"title": "The Legend of Zelda: Breath of the Wild — Creating a Champion Hero's Edition", "author": "Nintendo", "isbn13": "9781506710112", "asin": "1506710115", "status": "owned", "formats": ["physical"]},
+    {"title": "The Legend of Zelda: Tears of the Kingdom — Secrets of the Zonai Hero's Edition", "author": "Nintendo", "isbn13": "9781506757155", "asin": "1506757154", "status": "owned", "preordered": true, "formats": ["physical"]},
+    {"title": "Delicious in Dungeon: The Complete Box Set", "author": "Ryoko Kui", "isbn13": "9798855413786", "status": "wanted", "formats": ["physical"]}
   ]
 }
