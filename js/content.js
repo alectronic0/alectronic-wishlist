@@ -1396,7 +1396,7 @@ window.SITE_CONTENT = {
         "productUrl": "E458325-000",
         "rebuyStatus": "Current Season In Stock",
         "notes": "Lightweight breathable summer short. Elastic waist + drawcord.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/458325/item/ukgoods_62_458325.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/458325/item/goods_64_458325.jpg"
       },
       {
         "id": "CLO-002",
@@ -1416,7 +1416,7 @@ window.SITE_CONTENT = {
         "productUrl": "E458325-000",
         "rebuyStatus": "Current Season In Stock",
         "notes": "Navy stripe seersucker. Perfect for warm weather.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/458325/item/ukgoods_68_458325.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/458325/item/goods_64_458325.jpg"
       },
       {
         "id": "CLO-003",
@@ -1436,7 +1436,7 @@ window.SITE_CONTENT = {
         "productUrl": "E474123-000",
         "rebuyStatus": "Discontinued (JP 2024)",
         "notes": "Bought in Japan. Label size L fits 84-92cm waist via elastic waistband.",
-        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/474123/item/jpgoods_62_474123.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/474123/item/goods_64_474123.jpg"
       },
       {
         "id": "CLO-004",
@@ -1456,7 +1456,7 @@ window.SITE_CONTENT = {
         "productUrl": "E467609-000",
         "rebuyStatus": "Replaced by E477752-000 (\u00a319.90, 3XL in stock)",
         "notes": "DRY-EX quick dry. Great for workouts and hot weather/pool.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/477752/item/ukgoods_03_477752.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/477752/item/goods_01_477752_3x4.jpg"
       },
       {
         "id": "CLO-005",
@@ -1476,7 +1476,7 @@ window.SITE_CONTENT = {
         "productUrl": "E482317-000",
         "rebuyStatus": "Updated Japanese model (E482317)",
         "notes": "Bought in Japan. Quick-drying lightweight technical fabric.",
-        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/482317/item/jpgoods_02_482317.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/482317/item/goods_02_482317_3x4.jpg"
       },
       {
         "id": "CLO-006",
@@ -1496,7 +1496,7 @@ window.SITE_CONTENT = {
         "productUrl": "E467609-000",
         "rebuyStatus": "Replaced by E477752-000 (\u00a319.90, 3XL in stock)",
         "notes": "Staple black workout and lounge shorts with zipped pocket.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/477752/item/ukgoods_09_477752.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/477752/item/goods_09_477752.jpg"
       },
       {
         "id": "CLO-007",
@@ -1516,7 +1516,7 @@ window.SITE_CONTENT = {
         "productUrl": "E475386-000",
         "rebuyStatus": "In Stock on JP store (\u00a51,990)",
         "notes": "Bought in Japan. Tag confirms JP size XL.",
-        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/475386/item/jpgoods_09_475386.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475386/item/goods_09_475386.jpg"
       },
       {
         "id": "CLO-008",
@@ -1536,7 +1536,7 @@ window.SITE_CONTENT = {
         "productUrl": "E475386-000",
         "rebuyStatus": "In Stock on JP store (\u00a51,990)",
         "notes": "Bought in Japan. Tag confirms JP size L.",
-        "img": "https://image.uniqlo.com/UQ/ST3/jp/imagesgoods/475386/item/jpgoods_09_475386.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475386/item/goods_09_475386.jpg"
       },
       {
         "id": "CLO-009",
@@ -1556,7 +1556,7 @@ window.SITE_CONTENT = {
         "productUrl": "E478670-000",
         "rebuyStatus": "Staple Item (Alternative E482920 \u00a339.90)",
         "notes": "6 PAIRS OWNED. Staple daily and evening resort trousers. Elastic waistband expands 4-6\".",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/478670/item/ukgoods_09_478670.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478670/item/goods_09_478670.jpg"
       },
       {
         "id": "CLO-010",
@@ -1576,7 +1576,7 @@ window.SITE_CONTENT = {
         "productUrl": "E478670-000",
         "rebuyStatus": "Staple Item (Alternative E482920 \u00a339.90)",
         "notes": "Preferred loose relaxed drape fit. Ideal for evening travel/holiday.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/478670/item/ukgoods_09_478670.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478670/item/goods_09_478670.jpg"
       },
       {
         "id": "CLO-011",
@@ -1596,7 +1596,7 @@ window.SITE_CONTENT = {
         "productUrl": "E467488-000",
         "rebuyStatus": "In Stock (\u00a334.90)",
         "notes": "Masterpiece core line. Regular fit spread collar, completely wrinkle-free.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467488/item/ukgoods_00_467488.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467488/item/goods_00_467488.jpg"
       },
       {
         "id": "CLO-074",
@@ -1616,7 +1616,7 @@ window.SITE_CONTENT = {
         "productUrl": "E456592-000",
         "rebuyStatus": "In Stock (\u00a334.90)",
         "notes": "Second white dress shirt. Slimmer silhouette for formal suits and blazers.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/456592/item/ukgoods_00_456592.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456592/item/goods_00_456592.jpg"
       },
       {
         "id": "CLO-012",
@@ -1636,7 +1636,7 @@ window.SITE_CONTENT = {
         "productUrl": "E467513-000",
         "rebuyStatus": "Discontinued Seasonal Run",
         "notes": "Silky modal drape, camp collar. Prime resort/holiday shirt.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467513/item/ukgoods_31_467513.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/467513/item/goods_01_467513_3x4.jpg"
       },
       {
         "id": "CLO-013",
@@ -1656,7 +1656,7 @@ window.SITE_CONTENT = {
         "productUrl": "E467513-000",
         "rebuyStatus": "Discontinued Seasonal Run",
         "notes": "Silky drape camp collar shirt in dark botanical motif.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/467513/item/ukgoods_58_467513.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/467513/item/goods_01_467513_3x4.jpg"
       },
       {
         "id": "CLO-014",
@@ -3062,7 +3062,7 @@ window.SITE_CONTENT = {
         "productUrl": "DRACO-BRN",
         "rebuyStatus": "Archive / Available in Brand Lineup",
         "notes": "Rich waxy brown leather smart-casual derby shoes with embossed collar stud. Ideal resort dinner footwear.",
-        "img": "https://images.asos-media.com/products/base-london-draco-derby-shoes-in-brown-leather/22863856-1-brown?$n_640w$&wid=513&fit=constrain"
+        "img": "https://cdn.shopify.com/s/files/1/0890/3219/6439/files/gbt-38041-76432-f-a-1.jpg?v=1788855626"
       },
       {
         "id": "CLO-085",
@@ -3102,7 +3102,7 @@ window.SITE_CONTENT = {
         "productUrl": "692-583",
         "rebuyStatus": "Archive Next Lineup",
         "notes": "Smart-casual navy leather shoes with signature navy inner lining.",
-        "img": "https://images.asos-media.com/products/base-london-draco-derby-shoes-in-brown-leather/22863856-1-brown?$n_640w$&wid=513&fit=constrain"
+        "img": "https://cdn.shopify.com/s/files/1/0890/3219/6439/files/gbt-38041-76431-f-a-1.jpg?v=1788855626"
       },
       {
         "id": "CLO-087",
@@ -3182,7 +3182,7 @@ window.SITE_CONTENT = {
         "productUrl": "E450189-000",
         "rebuyStatus": "Current Season Core In Stock",
         "notes": "Essential heavyweight 100% cotton French Terry full-zip hoodie. 5 identical units owned for daily rotation.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/450189/item/ukgoods_09_450189.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/450189/item/eugoods_09_450189.jpg"
       },
       {
         "id": "CLO-091",
@@ -3202,7 +3202,7 @@ window.SITE_CONTENT = {
         "productUrl": "E455412-000",
         "rebuyStatus": "Current Season Core In Stock",
         "notes": "Ultra-lightweight cooling UV protection (UPF 50+) hoodie with thumbholes. Ideal light layer for Egypt evenings & sun defense.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/455412/item/ukgoods_09_455412.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/455412/item/goods_09_455412.jpg"
       },
       {
         "id": "CLO-092",
@@ -3222,7 +3222,7 @@ window.SITE_CONTENT = {
         "productUrl": "E487511-000",
         "rebuyStatus": "Current Season In Stock",
         "notes": "Fast-drying DRY-EX technical hoodie with anti-microbial and UV protection. Athletic fit (XL); 2 owned.",
-        "img": "https://image.uniqlo.com/UQ/ST3/uk/imagesgoods/487511/item/ukgoods_08_487511.jpg"
+        "img": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487511/item/goods_08_487511_3x4.jpg"
       },
       {
         "id": "CLO-093",
