@@ -780,6 +780,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     const sizeBadge = item.size && item.size !== 'N/A'
                       ? `<span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px;">${item.size}</span>`
                       : '';
+                    const colorBadge = (item.color || item.colour)
+                      ? `<span class="inv-item-badge" style="font-size: 0.7rem; padding: 1px 6px; background: rgba(255, 255, 255, 0.05);">${escapeHtml(item.color || item.colour)}</span>`
+                      : '';
                     let designSnippet = '';
                     if (item.breakdown && Array.isArray(item.breakdown) && item.breakdown.length > 0) {
                       designSnippet = `
@@ -819,9 +822,12 @@ document.addEventListener('DOMContentLoaded', () => {
                           ${designSnippet}
                         </div>
                         <div style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 6px;">
-                          <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted);">
+                          <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); gap: 6px; flex-wrap: wrap;">
                             <span>${item.brand ? `<strong>${item.brand}</strong>` : ''}</span>
-                            ${sizeBadge}
+                            <div style="display: flex; align-items: center; gap: 4px; flex-wrap: wrap;">
+                              ${colorBadge}
+                              ${sizeBadge}
+                            </div>
                           </div>
                           ${fabricSnippet}
                         </div>
