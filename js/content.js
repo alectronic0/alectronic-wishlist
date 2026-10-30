@@ -75,8 +75,8 @@ window.SITE_CONTENT = {
         "href": "warhammer.html",
         "icon": "🛡️",
         "title": "Warhammer",
-        "badge": "25 Wanted",
-        "notes": "T'au & Leagues of Votann kits, plus rulebooks for Knights, Mechanicus, Necrons, Votann & Kharadron."
+        "badge": "77 Wanted",
+        "notes": "Battlesuits, robots, tanks and airships from T'au, Votann, Necrons, Mechanicus, Knights & Kharadron, plus rulebooks."
       },
       {
         "href": "clothing.html",
@@ -23315,7 +23315,7 @@ window.SITE_CONTENT = {
   },
   "warhammer": {
     "title": "Warhammer",
-    "lede": "The armies I want to build and paint: T'au and Leagues of Votann kits I like the look of, plus each faction's rulebook.",
+    "lede": "The armies I want to build and paint, mostly the mech side: battlesuits, robots, tanks, walkers and airships, plus each faction's rulebook.",
     "links": [
       { "label": "Imperial Knights", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/armies-of-the-imperium/imperial-knights" },
       { "label": "Adeptus Mechanicus", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/armies-of-the-imperium/adeptus-mechanicus" },
@@ -23327,6 +23327,10 @@ window.SITE_CONTENT = {
     "groups": [
       { "key": "tau", "label": "T'au Empire" },
       { "key": "votann", "label": "Leagues of Votann" },
+      { "key": "necrons", "label": "Necrons" },
+      { "key": "admech", "label": "Adeptus Mechanicus" },
+      { "key": "knights", "label": "Imperial Knights" },
+      { "key": "kharadron", "label": "Kharadron Overlords" },
       { "key": "rulebooks", "label": "Rulebooks" }
     ],
     "items": [
@@ -23529,6 +23533,422 @@ window.SITE_CONTENT = {
         "meta": "Model kit",
         "price": "£39.50",
         "group": "votann"
+      },
+      {
+        "name": "KV128 Stormsurge",
+        "url": "https://www.warhammer.com/en-GB/shop/KV128-Stormsurge",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113036_TauKV128Stormsurge01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£123.00",
+        "group": "tau"
+      },
+      {
+        "name": "KX139 Ta'unar Supremacy Armour Body",
+        "url": "https://www.warhammer.com/en-GB/shop/KX139-Taunar-Supremacy-Armour-Body",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99020187137_KX139TaunarSupremacyArmourBody09.jpg?fm=webp&w=650&h=670",
+        "meta": "Resin Expert Kit (weapon sold separately)",
+        "price": "£184.00",
+        "group": "tau"
+      },
+      {
+        "name": "Hammerhead Gunship",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Hammerhead-Gunship",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113028_TauHammerhead01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£49.50",
+        "group": "tau"
+      },
+      {
+        "name": "TX78 Sky Ray Gunship",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Sky-Ray-Missile-Defence-Gunship",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113028_TauSkyray01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£49.50",
+        "group": "tau"
+      },
+      {
+        "name": "Devilfish",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-TY7-Devilfish-2015",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113074_TAUDevilfishLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£42.00",
+        "group": "tau"
+      },
+      {
+        "name": "Piranha",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-TX4-Piranha-2015",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113042_TauPirahna01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£29.00",
+        "group": "tau"
+      },
+      {
+        "name": "AX3 Razorshark Strike Fighter",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Razorshark-Strike-Fighter",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113029_RazorsharkFighter01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£57.00",
+        "group": "tau"
+      },
+      {
+        "name": "AX39 Sun Shark Bomber",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Sun-Shark-Bomber",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113029_SunsharkBomber01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£57.00",
+        "group": "tau"
+      },
+      {
+        "name": "Tidewall Shieldline",
+        "url": "https://www.warhammer.com/en-GB/shop/Tidewall-Shieldline",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113075_TidewallShieldlineLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Terrain",
+        "price": "£54.00",
+        "group": "tau"
+      },
+      {
+        "name": "Hekaton Land Fortress",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-hekaton-land-fortress-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118006_LandFortressLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£77.50",
+        "group": "votann"
+      },
+      {
+        "name": "Sagitaur",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-sagitaur-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118003_LoVSagitarLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£44.00",
+        "group": "votann"
+      },
+      {
+        "name": "Kapricus Defender/Carrier",
+        "url": "https://www.warhammer.com/en-GB/shop/leagues-of-votann-kapricus-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118022_LOVKapricus01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£40.00",
+        "group": "votann"
+      },
+      {
+        "name": "Brôkhyr Thunderkyn",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-brokhyr-thunderkin-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118005_LoVBrokhyrThunderkynLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "votann"
+      },
+      {
+        "name": "Einhyr Hearthguard",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-einhyr-hearthguard-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118001_LoVEinhyrHGLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.00",
+        "group": "votann"
+      },
+      {
+        "name": "Hernkyn Pioneers",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-hernkyn-pioneers-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118008_HernkynPioneersLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£44.00",
+        "group": "votann"
+      },
+      {
+        "name": "Cthonian Earthshakers",
+        "url": "https://www.warhammer.com/en-GB/shop/leagues-of-votann-cthonian-earthshakers-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118021_LovCthonianEarthshakers01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£37.00",
+        "group": "votann"
+      },
+      {
+        "name": "Combat Patrol: Necrons",
+        "url": "https://www.warhammer.com/en-GB/shop/combat-patrol-necrons-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110077_NECCP2.jpg?fm=webp&w=650&h=670",
+        "meta": "Starter army box",
+        "price": "£109.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Necron Warriors",
+        "url": "https://www.warhammer.com/en-GB/shop/Necron-Warriors-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110052_NecronWarriorsLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£33.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Monolith",
+        "url": "https://www.warhammer.com/en-GB/shop/Monolith-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110043_NECMonolithLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£120.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Doomsday Ark",
+        "url": "https://www.warhammer.com/en-GB/shop/Doomsday-Ark-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110063_NECDoomsdayArkLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£44.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Ghost Ark",
+        "url": "https://www.warhammer.com/en-GB/shop/Ghost%20Ark-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110063_NECGhostArkLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£44.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Annihilation Barge",
+        "url": "https://www.warhammer.com/en-GB/shop/Necron-Annihilation-Barge-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110064_CatacombAnnihilationBargeLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Triarch Stalker",
+        "url": "https://www.warhammer.com/en-GB/shop/Triarch-Stalker-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110058_NecronTriarchStalkerLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Canoptek Doomstalker",
+        "url": "https://www.warhammer.com/en-GB/shop/Canoptek-Doomstalker-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110045_CanoptekDoomstalkerLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£33.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Canoptek Wraiths",
+        "url": "https://www.warhammer.com/en-GB/shop/Necron-Canoptek-Wraiths-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110060_NECCanoptekWraithsLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Skorpekh Destroyers",
+        "url": "https://www.warhammer.com/en-GB/shop/Skorpekh-Destroyers-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110051_SkorpekhDestroyersLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "necrons"
+      },
+      {
+        "name": "Szarekh, The Silent King",
+        "url": "https://www.warhammer.com/en-GB/shop/Szarekh-The-Silent-King-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110047_NECSzarekhSilentKingLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£110.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Night Scythe",
+        "url": "https://www.warhammer.com/en-GB/shop/Necron-Doom-Scythe-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110065_DoomScytheLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£49.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Kill Team: Canoptek Circle",
+        "url": "https://www.warhammer.com/en-GB/shop/kill-team-canoptek-circle-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110086_KTCanoptekCircle01.jpg?fm=webp&w=650&h=670",
+        "meta": "Kill Team box",
+        "price": "£49.00",
+        "group": "necrons"
+      },
+      {
+        "name": "Combat Patrol: Adeptus Mechanicus",
+        "url": "https://www.warhammer.com/en-GB/shop/combat-patrol-adeptus-mechanicus-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116044_AMCombatPatrol01.jpg?fm=webp&w=650&h=670",
+        "meta": "Starter army box",
+        "price": "£109.00",
+        "group": "admech"
+      },
+      {
+        "name": "Adeptus Mechanicus Onager Dunecrawler",
+        "url": "https://www.warhammer.com/en-GB/shop/Onager-Dunecrawler",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116004_AdMecOnagerDunecrawler01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£55.00",
+        "group": "admech"
+      },
+      {
+        "name": "Skorpius Disintegrator",
+        "url": "https://www.warhammer.com/en-GB/shop/Adeptus-Mechanicus-Skorpius-Disintegrator-2019",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116023_SkorpiusDistintegrator01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£55.00",
+        "group": "admech"
+      },
+      {
+        "name": "Skorpius Dunerider",
+        "url": "https://www.warhammer.com/en-GB/shop/Adeptus-Mechanicus-Skorpius-Dunerider-2019",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116023_SkorpiusDistintegrator02.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£55.00",
+        "group": "admech"
+      },
+      {
+        "name": "Adeptus Mechanicus Ironstrider Ballistarius",
+        "url": "https://www.warhammer.com/en-GB/shop/Ironstrider-Ballistarius-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116001_Ballistar01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "admech"
+      },
+      {
+        "name": "Adeptus Mechanicus Sydonian Dragoon",
+        "url": "https://www.warhammer.com/en-GB/shop/Sydonian-Dragoon-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116001_SydonianDragoon01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "admech"
+      },
+      {
+        "name": "Sydonian Skatros",
+        "url": "https://www.warhammer.com/en-GB/shop/adeptus-mechanicus-sydonian-skatros-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116045_ADMECHSydonianSkatros01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£27.00",
+        "group": "admech"
+      },
+      {
+        "name": "Archaeopter Transvector",
+        "url": "https://www.warhammer.com/en-GB/shop/Adeptus-Mechanicus-Archaeopter-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116024_AMTransvectorLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£77.50",
+        "group": "admech"
+      },
+      {
+        "name": "Kastelan Robots",
+        "url": "https://www.warhammer.com/en-GB/shop/Kastelan-Robots-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116005_AdMechKastelanRobots01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£54.00",
+        "group": "admech"
+      },
+      {
+        "name": "Kataphron Destroyers",
+        "url": "https://www.warhammer.com/en-GB/shop/Kataphron-Battle-Servitors-Destroyers-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116006_AdMechBattleServitorsDestroyers01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "admech"
+      },
+      {
+        "name": "Knight Questoris",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-questoris-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108105_IKKnightQuestorisLEADDefender.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£120.00",
+        "group": "knights"
+      },
+      {
+        "name": "Knight Preceptor/Canis Rex",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-preceptor-canis-rex-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108106_ImperialKnightPreceptorCanisRex1upd.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£120.00",
+        "group": "knights"
+      },
+      {
+        "name": "Knight Destrier",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-destrier-2026",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108123_KnightDestrierALT.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£110.00",
+        "group": "knights"
+      },
+      {
+        "name": "Knight Castellan",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-dominus-knight-castellan-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108016_IKCastellan01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£125.00",
+        "group": "knights"
+      },
+      {
+        "name": "Armiger Warglaives",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-armigers-armiger-warglaive-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108019_ImperialKnightsArmiger01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£65.00",
+        "group": "knights"
+      },
+      {
+        "name": "Armiger Helverins",
+        "url": "https://www.warhammer.com/en-GB/shop/imperial-knights-knight-armigers-armiger-helverin-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108015_IKArmigerHelverins01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£65.00",
+        "group": "knights"
+      },
+      {
+        "name": "Spearhead: Kharadron Overlords – Grundstok Trailblazers",
+        "url": "https://www.warhammer.com/en-GB/shop/spearhead-kharadron-overlords-grundstok-trailblazers-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205063_KharadronOverlordsGrundstokTrailblazersSpearhead1.jpg?fm=webp&w=650&h=670",
+        "meta": "Starter army box",
+        "price": "£95.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Arkanaut Ironclad",
+        "url": "https://www.warhammer.com/en-GB/shop/Kharadron-Overlords-Arkanaut-Ironclad-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205028_ArkanautIronclad01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£95.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Arkanaut Frigate",
+        "url": "https://www.warhammer.com/en-GB/shop/Kharadron-Overlords-Arkanaut-frigate-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205018_ArkanautFrigate01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£61.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Grundstok Gunhauler",
+        "url": "https://www.warhammer.com/en-GB/shop/Kharadron-Overlords-Grundstok-Gunhauler-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205051_KOGrundstokGunhauler01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£40.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Endrinriggers",
+        "url": "https://www.warhammer.com/en-GB/shop/Endrinriggers-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205053_KhardronOverlordsEndrinriggersUPDATE.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£37.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Endrinmaster with Dirigible Suit",
+        "url": "https://www.warhammer.com/en-GB/shop/Endrinmaster-with-Dirigible-Suit-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205040_EndrinmasterDirigibleSuitLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£29.00",
+        "group": "kharadron"
+      },
+      {
+        "name": "Zontari Endrin Dock",
+        "url": "https://www.warhammer.com/en-GB/shop/kharadron-overlords-zontari-endrin-dock-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120205068_KharadronOverlordsZontariEndrinDockSceneryKit1.jpg?fm=webp&w=650&h=670",
+        "meta": "Terrain",
+        "price": "£42.50",
+        "group": "kharadron"
       }
     ],
     "owned": [
