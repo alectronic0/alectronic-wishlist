@@ -72,6 +72,13 @@ window.SITE_CONTENT = {
         "notes": "Official Pop-Up Store gear, Die-Cast replicas, plush toys, and home goods."
       },
       {
+        "href": "warhammer.html",
+        "icon": "🛡️",
+        "title": "Warhammer",
+        "badge": "25 Wanted",
+        "notes": "T'au & Leagues of Votann kits, plus rulebooks for Knights, Mechanicus, Necrons, Votann & Kharadron."
+      },
+      {
         "href": "clothing.html",
         "icon": "\ud83d\udc55",
         "title": "Clothing & Sizes",
@@ -23303,6 +23310,248 @@ window.SITE_CONTENT = {
         "img": "https://www.pokemoncenter.com/images/DAMRoot/Thumbnail/10030/P11420_71-10147-101_01.jpg",
         "url": "https://www.pokemoncenter.com/en-gb/product/71-10147-101/unova-explore-pokemon-poster",
         "group": "pokemon"
+      }
+    ]
+  },
+  "warhammer": {
+    "title": "Warhammer",
+    "lede": "The armies I want to build and paint: T'au and Leagues of Votann kits I like the look of, plus each faction's rulebook.",
+    "links": [
+      { "label": "Imperial Knights", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/armies-of-the-imperium/imperial-knights" },
+      { "label": "Adeptus Mechanicus", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/armies-of-the-imperium/adeptus-mechanicus" },
+      { "label": "Necrons", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/xenos-armies/necrons" },
+      { "label": "Leagues of Votann", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/xenos-armies/leagues-of-votann" },
+      { "label": "T'au Empire", "href": "https://www.warhammer.com/en-GB/shop/warhammer-40000/xenos-armies/tau-empire" },
+      { "label": "Kharadron Overlords", "href": "https://www.warhammer.com/en-GB/shop/age-of-sigmar/grand-alliance-order/kharadron-overlords" }
+    ],
+    "groups": [
+      { "key": "tau", "label": "T'au Empire" },
+      { "key": "votann", "label": "Leagues of Votann" },
+      { "key": "rulebooks", "label": "Rulebooks" }
+    ],
+    "items": [
+      {
+        "name": "Codex: Imperial Knights",
+        "url": "https://www.warhammer.com/en-GB/shop/codex-imperial-knights-2025-eng",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030108022_ENGImperialKnightsCodexHBSTDED1.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "price": "£39.50",
+        "group": "rulebooks"
+      },
+      {
+        "name": "Codex: Adeptus Mechanicus",
+        "url": "https://www.warhammer.com/en-GB/shop/codex-adeptus-mechanicus-hb-eng-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030116008_ENGADMECHCodex01.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "price": "£39.50",
+        "group": "rulebooks"
+      },
+      {
+        "name": "Codex: Necrons",
+        "url": "https://www.warhammer.com/en-GB/shop/codex-necrons-hb-eng-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030110008_NECCodex1.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "price": "£39.50",
+        "group": "rulebooks"
+      },
+      {
+        "name": "Codex: Leagues of Votann",
+        "url": "https://www.warhammer.com/en-GB/shop/codex-leagues-of-votann-2025-eng",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030118002_engLOVCodex01.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "price": "£39.50",
+        "group": "rulebooks"
+      },
+      {
+        "name": "Order Battletome: Kharadron Overlords",
+        "url": "https://www.warhammer.com/en-GB/shop/battletome-kharadron-overlords-2025-eng",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030205015_ENGKharadronOverlordsStdEdHBBattletome1.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "price": "£39.50",
+        "group": "rulebooks"
+      },
+      {
+        "name": "Kill Team: XV26 Stealth Battlesuits",
+        "url": "https://www.warhammer.com/en-GB/shop/kill-team-xv26-stealth-battlesuits-2026",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113102_KTXV26StealthBattlesuits01.jpg?fm=webp&w=650&h=670",
+        "meta": "Kill Team box",
+        "price": "£44.00",
+        "group": "tau"
+      },
+      {
+        "name": "Combat Patrol: T'au Empire",
+        "url": "https://www.warhammer.com/en-GB/shop/combat-patrol-tau-empire-2024",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113091_TAUCP1.jpg?fm=webp&w=650&h=670",
+        "meta": "Starter army box",
+        "price": "£109.00",
+        "group": "tau"
+      },
+      {
+        "name": "The Twin Lance",
+        "url": "https://www.warhammer.com/en-GB/shop/tau-empire-the-twin-lance-2026",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113101_TAUTwinLance1.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£70.00",
+        "group": "tau"
+      },
+      {
+        "name": "Firesight Team",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Sniper-Drone-Team",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810113001_SniperDroneTeamNEW01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£33.50",
+        "group": "tau"
+      },
+      {
+        "name": "XV95 Ghostkeel Battlesuit",
+        "url": "https://www.warhammer.com/en-GB/shop/XV95-Ghostkeel-Battlesuit",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113035_TauEmpireGhostkeel01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£61.00",
+        "group": "tau"
+      },
+      {
+        "name": "XV8 Crisis Battlesuit Team",
+        "url": "https://www.warhammer.com/en-GB/shop/XV8-Crisis-Battlesuits",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113072_TAUCrisisBattlesuitLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£57.00",
+        "group": "tau"
+      },
+      {
+        "name": "T'au Empire Commander",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Commander-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113037_TauEmpireCommanderColdStar01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£41.50",
+        "group": "tau"
+      },
+      {
+        "name": "XV104 Riptide Battlesuit",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-XV104-Riptide-Battlesuit-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113077_TAURiptideBattlesuitLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£77.50",
+        "group": "tau"
+      },
+      {
+        "name": "Pathfinder Team",
+        "url": "https://www.warhammer.com/en-GB/shop/Pathfinder-Team-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113040_TauEmpirePathFinderTeam01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£29.50",
+        "group": "tau"
+      },
+      {
+        "name": "Fire Warriors Strike Team",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Fire-Warriors-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113039_TauFirewarriorTeam01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "tau"
+      },
+      {
+        "name": "Commander Shadowsun",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-Commander-Shadowsun-2020",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113066_ComShadowsun01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£37.00",
+        "group": "tau"
+      },
+      {
+        "name": "Commander Farsight",
+        "url": "https://www.warhammer.com/en-GB/shop/tau-empire-commander-farsight-2023",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113094_TAUBoardingPatrol01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£44.00",
+        "group": "tau"
+      },
+      {
+        "name": "Fire Warriors Breacher Team",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Fire-Warriors-Breacher-Team-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113039_TauBreacherTeam01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "tau"
+      },
+      {
+        "name": "Tidewall Droneport",
+        "url": "https://www.warhammer.com/en-GB/shop/Tidewall-Droneport",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113049_TauDroneport01.jpg?fm=webp&w=650&h=670",
+        "meta": "Terrain",
+        "price": "£44.00",
+        "group": "tau"
+      },
+      {
+        "name": "Grimnyr",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-grimnyr-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118004_GrymnyrLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£29.50",
+        "group": "votann"
+      },
+      {
+        "name": "Ironkin Steeljacks",
+        "url": "https://www.warhammer.com/en-GB/shop/leagues-of-votann-ironkin-steeljacks-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118020_LOVIronkinSteeljacks01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "votann"
+      },
+      {
+        "name": "Memnyr Strategist",
+        "url": "https://www.warhammer.com/en-GB/shop/leagues-of-votann-memnyr-strategist-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118026_LOVMemnyrStrategist01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£26.00",
+        "group": "votann"
+      },
+      {
+        "name": "Kill Team: Hernkyn Yaegirs",
+        "url": "https://www.warhammer.com/en-GB/shop/kill-team-hernkyn-yaegirs-2024",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199066_EngKTTerminationGroup02.jpg?fm=webp&w=650&h=670",
+        "meta": "Kill Team box",
+        "price": "£44.00",
+        "group": "votann"
+      },
+      {
+        "name": "Combat Patrol: Leagues of Votann",
+        "url": "https://www.warhammer.com/en-GB/shop/combat-patrol-leagues-of-votann-2025",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118024_LOVCombatPatrol01.jpg?fm=webp&w=650&h=670",
+        "meta": "Starter army box",
+        "price": "£109.00",
+        "group": "votann"
+      },
+      {
+        "name": "Hearthkyn Warriors",
+        "url": "https://www.warhammer.com/en-GB/shop/lov-hearthkyn-warriors-2022",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118007_LoVHearthkynWarriorsLead.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "price": "£39.50",
+        "group": "votann"
+      }
+    ],
+    "owned": [
+      {
+        "name": "Codex: T'au Empire",
+        "url": "https://www.warhammer.com/en-GB/shop/codex-tau-empire-2024-eng",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/60030113014_EngTAUCodex01.jpg?fm=webp&w=650&h=670",
+        "meta": "Rules, lore and painting guide",
+        "group": "rulebooks"
+      },
+      {
+        "name": "T'au Empire XV88 Broadside Battlesuit",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Empire-XV88-Broadside-Battlesuit-2017",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113045_TauXV88BroadSideBattleSuit01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "group": "tau"
+      },
+      {
+        "name": "T'au Empire Tactical Drones",
+        "url": "https://www.warhammer.com/en-GB/shop/Tau-Drones-2015",
+        "img": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113002_TauEmpireDrones01.jpg?fm=webp&w=650&h=670",
+        "meta": "Model kit",
+        "group": "tau"
       }
     ]
   }

@@ -504,11 +504,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // { title, lede, groups[], items[{name, url, img, meta, group}] }
+  // { title, lede, links[]?, groups[], items[{name, url, img, meta, price?, group}], owned[]? }
   function plainListCatalogue(data) {
     return {
       title: data.title,
       lede: data.lede,
+      links: data.links,
       groups: data.groups,
       sectioned: true,
       wanted: data.items.map(item => ({
@@ -516,12 +517,20 @@ document.addEventListener('DOMContentLoaded', () => {
         img: item.img,
         url: item.url,
         meta: item.meta,
+        price: isPrice(item.price) ? item.price : '',
         orderDate: item.orderDate || '',
         dateAdded: item.dateAdded || '',
         validated: item.validated || false,
         group: item.group
       })),
-      owned: []
+      owned: (data.owned || []).map(item => ({
+        name: item.name,
+        img: item.img,
+        url: item.url,
+        meta: item.meta,
+        group: item.group,
+        owned: true
+      }))
     };
   }
 
@@ -535,7 +544,8 @@ document.addEventListener('DOMContentLoaded', () => {
     junk: () => junkCatalogue(SITE_CONTENT.junk),
     health: () => healthCatalogue(SITE_CONTENT.health),
     grooming: () => groomingCatalogue(SITE_CONTENT.grooming),
-    consumables: () => plainListCatalogue(SITE_CONTENT.consumables)
+    consumables: () => plainListCatalogue(SITE_CONTENT.consumables),
+    warhammer: () => plainListCatalogue(SITE_CONTENT.warhammer)
   };
 
   const catalogueRoot = document.getElementById('catalogue');
@@ -1266,6 +1276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {href: 'zelda.html', title: 'Zelda'},
         {href: 'videogames.html', title: 'Video games'},
         {href: 'boardgames.html', title: 'Board games'},
+        {href: 'warhammer.html', title: 'Warhammer'},
         {href: 'books.html', title: 'Books'},
         {href: 'junk.html', title: 'Junk Box'},
         {href: 'home.html', title: 'Home'},
