@@ -1400,18 +1400,18 @@ window.SITE_CONTENT = {
         "brand": "Uniqlo",
         "category": "Shorts",
         "type": "Shorts",
-        "design": "5 pairs: 2× White/Blue Stripe 3XL, 1× Dark Blue Stripe 3XL, 2× White/Blue Stripe L (JP)",
+        "design": "5 pairs: 2\u00d7 White/Blue Stripe 3XL, 1\u00d7 Dark Blue Stripe 3XL, 2\u00d7 White/Blue Stripe L (JP)",
         "color": "White / Blue Fine Stripe (4) / Dark Blue Fine Stripe (1)",
         "size": "3XL (3) / L JP (2)",
         "measurements": "108-116cm (42-45\") / 84-92cm (L JP)",
         "fabric": "98% Cotton, 2% Elastane",
         "condition": "Nice",
         "qty": 5,
-        "price": "£19.90 each (£99.50 total)",
+        "price": "\u00a319.90 each (\u00a399.50 total)",
         "tagCode": "372-458325 / 372-474123",
         "productUrl": "E458325-000",
         "rebuyStatus": "Current Season In Stock",
-        "notes": "5 PAIRS OWNED: 2× White/Blue Stripe (3XL), 1× Dark Blue/Navy Stripe (3XL), 2× White/Blue Stripe (L JP). Lightweight breathable seersucker cotton with elastic drawstring waist.",
+        "notes": "5 PAIRS OWNED: 2\u00d7 White/Blue Stripe (3XL), 1\u00d7 Dark Blue/Navy Stripe (3XL), 2\u00d7 White/Blue Stripe (L JP). Lightweight breathable seersucker cotton with elastic drawstring waist.",
         "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/458325/item/goods_64_458325.jpg",
         "breakdown": [
           "[x2] White / Blue Fine Stripe [3XL]",
@@ -1432,11 +1432,11 @@ window.SITE_CONTENT = {
         "fabric": "DRY-EX Technical Stretch Fabric (Elastomultiester / Polyester)",
         "condition": "New / Like New",
         "qty": 14,
-        "price": "£19.90 each (£278.60 total)",
+        "price": "\u00a319.90 each (\u00a3278.60 total)",
         "tagCode": "E477752 / 485601",
         "productUrl": "E477752-000",
         "rebuyStatus": "Current Season Core Item",
-        "notes": "14 PAIRS OWNED: 7× Black XXL (2 staple + 5 new), 3× Black L (JP), 2× Black XL (JP), 1× Grey XXL, 1× Light Grey L (JP). DRY-EX quick dry fabric; doubles as gym and swim shorts.",
+        "notes": "14 PAIRS OWNED: 7\u00d7 Black XXL (2 staple + 5 new), 3\u00d7 Black L (JP), 2\u00d7 Black XL (JP), 1\u00d7 Grey XXL, 1\u00d7 Light Grey L (JP). DRY-EX quick dry fabric; doubles as gym and swim shorts.",
         "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/477752/item/goods_09_477752.jpg",
         "breakdown": [
           "[x7] Black [XXL]",
@@ -1463,7 +1463,7 @@ window.SITE_CONTENT = {
         "tagCode": "372-478670(52-02)",
         "productUrl": "E478670-000",
         "rebuyStatus": "Staple Item (Alternative E482920 \u00a339.90)",
-        "notes": "8 PAIRS OWNED: 7× XL (staple daily), 1× XXL (relaxed drape). Elastic waistband expands 4-6\".",
+        "notes": "8 PAIRS OWNED: 7\u00d7 XL (staple daily), 1\u00d7 XXL (relaxed drape). Elastic waistband expands 4-6\".",
         "img": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/478670/item/goods_09_478670.jpg",
         "breakdown": [
           "[x7] Solid Black Relaxed [XL]",
@@ -1599,11 +1599,11 @@ window.SITE_CONTENT = {
         "fabric": "100% Cotton",
         "condition": "Nice",
         "qty": 2,
-        "price": "£23.99 each (£47.98 total)",
+        "price": "\u00a323.99 each (\u00a347.98 total)",
         "tagCode": "A0705",
         "productUrl": "https://atlanl.com/products/mens-cotton-pineapple-print-summer-hawaiian-beach-beige-button-up-short-sleeve-shirt-a0705",
         "rebuyStatus": "Atlanl Official Store",
-        "notes": "2 SHIRTS OWNED: 1× XL and 1× XXL. 100% breathable cotton summer beach button-up with camp collar.",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 XL and 1\u00d7 XXL. 100% breathable cotton summer beach button-up with camp collar.",
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-12",
@@ -1627,11 +1627,11 @@ window.SITE_CONTENT = {
         "fabric": "100% Cotton",
         "condition": "Nice",
         "qty": 2,
-        "price": "£23.99 each (£47.98 total)",
+        "price": "\u00a323.99 each (\u00a347.98 total)",
         "tagCode": "A0324",
         "productUrl": "https://atlanl.com/products/mens-floral-print-short-sleeve-hawaiian-shirt-1",
         "rebuyStatus": "Atlanl Official Store",
-        "notes": "2 SHIRTS OWNED: 1× XL and 1× XXL. 100% cotton lightweight holiday beach button-up.",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 XL and 1\u00d7 XXL. 100% cotton lightweight holiday beach button-up.",
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-12",
@@ -1655,11 +1655,11 @@ window.SITE_CONTENT = {
         "fabric": "Breathable Cotton Blend",
         "condition": "Nice",
         "qty": 2,
-        "price": "£26.99 each (£53.98 total)",
+        "price": "\u00a326.99 each (\u00a353.98 total)",
         "tagCode": "B0377",
         "productUrl": "https://atlanl.com/products/mens-christmas-tree-elk-print-breathable-navy-blue-long-sleeve-shirt-b0377",
         "rebuyStatus": "Atlanl Official Store",
-        "notes": "2 SHIRTS OWNED: 1× XL and 1× XXL. Long sleeve breathable holiday button-up shirt featuring festive Christmas tree and elk pattern.",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 XL and 1\u00d7 XXL. Long sleeve breathable holiday button-up shirt featuring festive Christmas tree and elk pattern.",
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-12",
@@ -1683,11 +1683,11 @@ window.SITE_CONTENT = {
         "fabric": "Breathable Cotton Blend",
         "condition": "Nice",
         "qty": 2,
-        "price": "£26.99 each (£53.98 total)",
+        "price": "\u00a326.99 each (\u00a353.98 total)",
         "tagCode": "GZYJ0301",
         "productUrl": "https://atlanl.com/products/mens-vintage-christmas-reindeer-printed-holiday-long-sleeve-shirt",
         "rebuyStatus": "Atlanl Official Store",
-        "notes": "2 SHIRTS OWNED: 1× XL and 1× XXL. Long sleeve holiday button-up shirt featuring vintage Christmas reindeer print.",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 XL and 1\u00d7 XXL. Long sleeve holiday button-up shirt featuring vintage Christmas reindeer print.",
         "validated": true,
         "source": "automated",
         "orderDate": "2025-11-12",
@@ -1751,11 +1751,11 @@ window.SITE_CONTENT = {
         "fabric": "53% Cotton, 47% Polyester (AIRism)",
         "condition": "New",
         "qty": 2,
-        "price": "£19.90 each (£39.80 total)",
+        "price": "\u00a319.90 each (\u00a339.80 total)",
         "tagCode": "482295",
         "productUrl": "E465185-000",
-        "rebuyStatus": "Current Staple in Stock (£19.90)",
-        "notes": "2 SHIRTS OWNED: 1× 09 Black (3XL) and 1× 00 White (3XL). Silky cooling AIRism interior with clean cotton exterior and relaxed drop-shoulder cut.",
+        "rebuyStatus": "Current Staple in Stock (\u00a319.90)",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 09 Black (3XL) and 1\u00d7 00 White (3XL). Silky cooling AIRism interior with clean cotton exterior and relaxed drop-shoulder cut.",
         "img": "https://image.uniqlo.com/UQ/ST3/gb/imagesgoods/465185/item/gbgoods_09_465185_3x4.jpg",
         "breakdown": [
           "[x1] 09 Black [3XL]",
@@ -1775,11 +1775,11 @@ window.SITE_CONTENT = {
         "fabric": "100% Supima Cotton",
         "condition": "Nice / Like New",
         "qty": 2,
-        "price": "£19.90 each (£39.80 total)",
+        "price": "\u00a319.90 each (\u00a339.80 total)",
         "tagCode": "475357",
         "productUrl": "E455365-000",
-        "rebuyStatus": "Current Staple in Stock (£19.90)",
-        "notes": "2 SHIRTS OWNED: 1× 09 Black (3XL) and 1× 00 White (3XL). Extra-long staple 100% Supima cotton with subtle natural luster.",
+        "rebuyStatus": "Current Staple in Stock (\u00a319.90)",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 09 Black (3XL) and 1\u00d7 00 White (3XL). Extra-long staple 100% Supima cotton with subtle natural luster.",
         "img": "https://image.uniqlo.com/UQ/ST3/gb/imagesgoods/455365/item/gbgoods_09_455365_3x4.jpg",
         "breakdown": [
           "[x1] 09 Black [3XL]",
@@ -2523,11 +2523,11 @@ window.SITE_CONTENT = {
         "fabric": "66% Cotton, 34% Polyester",
         "condition": "New",
         "qty": 2,
-        "price": "£14.90 each (£29.80 total)",
+        "price": "\u00a314.90 each (\u00a329.80 total)",
         "tagCode": "482296",
         "productUrl": "E422992-000",
-        "rebuyStatus": "Staple In Stock (£14.90)",
-        "notes": "2 SHIRTS OWNED: 1× 09 Black (3XL) and 1× 00 White (3XL). Packaged dry crew neck basic tees (66% Cotton, 34% Polyester).",
+        "rebuyStatus": "Staple In Stock (\u00a314.90)",
+        "notes": "2 SHIRTS OWNED: 1\u00d7 09 Black (3XL) and 1\u00d7 00 White (3XL). Packaged dry crew neck basic tees (66% Cotton, 34% Polyester).",
         "img": "https://image.uniqlo.com/UQ/ST3/gb/imagesgoods/422992/item/gbgoods_09_422992_3x4.jpg",
         "breakdown": [
           "[x1] 09 Black [3XL]",
@@ -2550,8 +2550,8 @@ window.SITE_CONTENT = {
         "price": "9 packs @ ~\u00a317.99 = \u00a3161.91",
         "tagCode": "CITYCOMFORT-PJ",
         "productUrl": "B0CNH2G3TW",
-        "rebuyStatus": "In Stock on Amazon UK (£19.99 for 2-pack)",
-        "notes": "17 PAIRS OWNED: 9× XL, 6× 2XL, 2× 3XL. High rotation daily evening and remote work lounge pants.",
+        "rebuyStatus": "In Stock on Amazon UK (\u00a319.99 for 2-pack)",
+        "notes": "17 PAIRS OWNED: 9\u00d7 XL, 6\u00d7 2XL, 2\u00d7 3XL. High rotation daily evening and remote work lounge pants.",
         "img": "https://images-na.ssl-images-amazon.com/images/P/B0CNH2G3TW.01._SCLZZZZZZZ_SX500_.jpg",
         "breakdown": [
           "[x9] Solid Black Jersey [XL]",
@@ -3258,7 +3258,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Silk Woven Jacquard",
         "condition": "Nice",
         "qty": 1,
-        "price": "¥4,400",
+        "price": "\u00a54,400",
         "tagCode": "Nintendo Official Zelda Tie",
         "productUrl": "Nintendo-Zelda-Stripe-Tie",
         "rebuyStatus": "Nintendo Tokyo / Kyoto Exclusive",
@@ -3278,7 +3278,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Silk Woven Jacquard",
         "condition": "Nice",
         "qty": 1,
-        "price": "¥4,400",
+        "price": "\u00a54,400",
         "tagCode": "Nintendo Official Zelda Tie",
         "productUrl": "Nintendo-Zelda-Green-Tie",
         "rebuyStatus": "Nintendo Tokyo / Kyoto Exclusive",
@@ -3298,7 +3298,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Silk Woven Jacquard",
         "condition": "Nice",
         "qty": 1,
-        "price": "¥4,400",
+        "price": "\u00a54,400",
         "tagCode": "Nintendo / Nekada Official Tie",
         "productUrl": "Nintendo-Mario-Icons-Tie",
         "rebuyStatus": "Nintendo Tokyo Exclusive",
@@ -3318,7 +3318,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Silk Woven",
         "condition": "Nice",
         "qty": 1,
-        "price": "£35.00",
+        "price": "\u00a335.00",
         "tagCode": "T.M. LEWIN JERMYN ST.",
         "productUrl": "TM-Navy-Silk-Tie",
         "rebuyStatus": "Jermyn St. Core Silk Tie",
@@ -3338,7 +3338,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Polyester Woven Jacquard",
         "condition": "Nice",
         "qty": 1,
-        "price": "£18.00",
+        "price": "\u00a318.00",
         "tagCode": "5057555752422 / 19K62HBUR",
         "productUrl": "Burton-Paisley-Burgundy",
         "rebuyStatus": "Discontinued",
@@ -3358,7 +3358,7 @@ window.SITE_CONTENT = {
         "fabric": "Micro-woven polyester/silk blend",
         "condition": "Nice",
         "qty": 1,
-        "price": "£20.00",
+        "price": "\u00a320.00",
         "tagCode": "Scott & Taylor London",
         "productUrl": "",
         "rebuyStatus": "Formal Staple",
@@ -3378,7 +3378,7 @@ window.SITE_CONTENT = {
         "fabric": "100% Polyester Woven Jacquard (Made in Gt. Britain)",
         "condition": "Nice",
         "qty": 1,
-        "price": "£18.00",
+        "price": "\u00a318.00",
         "tagCode": "Folkespeare",
         "productUrl": "",
         "rebuyStatus": "Formal Staple",
@@ -5038,7 +5038,7 @@ window.SITE_CONTENT = {
         "img": "https://m.media-amazon.com/images/I/81Sp6fSC8YL._AC_SL500_.jpg",
         "url": "https://www.amazon.co.uk/dp/1974749665",
         "price": "Complete Box Set",
-        "goodreads": "https://www.goodreads.com/book/show/52758052-the-legend-of-zelda"
+        "goodreads": "https://www.goodreads.com/book/show/61273656-the-legend-of-zelda"
       },
       {
         "name": "Unfu*k Yourself (Gary John Bishop)",
@@ -6083,24 +6083,6 @@ window.SITE_CONTENT = {
         "goodreadsId": "25074597"
       },
       {
-        "name": "Horimiya 1 (Hero)",
-        "category": "Manga",
-        "status": "wanted",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727083089l/16155151.jpg",
-        "url": "https://www.goodreads.com/book/show/16155151-1-horimiya-1",
-        "goodreads": "https://www.goodreads.com/book/show/16155151-1-horimiya-1",
-        "goodreadsId": "16155151"
-      },
-      {
-        "name": "Kusuriya no Hitorigoto 1 (Nekokurage)",
-        "category": "Manga",
-        "status": "wanted",
-        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508432170l/36441259.jpg",
-        "url": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
-        "goodreads": "https://www.goodreads.com/book/show/36441259-1-kusuriya-no-hitorigoto-1",
-        "goodreadsId": "36441259"
-      },
-      {
         "name": "Fullmetal Alchemist: Fullmetal Edition, Vol. 8 (Hiromu Arakawa)",
         "category": "Manga",
         "status": "wanted",
@@ -7053,6 +7035,1653 @@ window.SITE_CONTENT = {
         "url": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2",
         "goodreads": "https://www.goodreads.com/book/show/39863195-no-game-no-life-vol-2",
         "goodreadsId": "39863195"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 11 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642351548l/59365979.jpg",
+        "url": "https://www.goodreads.com/book/show/59365979-fly-me-to-the-moon-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/59365979-fly-me-to-the-moon-vol-11",
+        "goodreadsId": "59365979"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 12 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648408914l/59365980.jpg",
+        "url": "https://www.goodreads.com/book/show/59365980-fly-me-to-the-moon-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/59365980-fly-me-to-the-moon-vol-12",
+        "goodreadsId": "59365980"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 13 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654099946l/60321309.jpg",
+        "url": "https://www.goodreads.com/book/show/60321309-fly-me-to-the-moon-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/60321309-fly-me-to-the-moon-vol-13",
+        "goodreadsId": "60321309"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 14 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657730365l/60321310.jpg",
+        "url": "https://www.goodreads.com/book/show/60321310-fly-me-to-the-moon-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/60321310-fly-me-to-the-moon-vol-14",
+        "goodreadsId": "60321310"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 15 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661086222l/61273576.jpg",
+        "url": "https://www.goodreads.com/book/show/61273576-fly-me-to-the-moon-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/61273576-fly-me-to-the-moon-vol-15",
+        "goodreadsId": "61273576"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 16 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668959666l/61273580.jpg",
+        "url": "https://www.goodreads.com/book/show/61273580-fly-me-to-the-moon-vol-16",
+        "goodreads": "https://www.goodreads.com/book/show/61273580-fly-me-to-the-moon-vol-16",
+        "goodreadsId": "61273580"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 17 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673887290l/62919639.jpg",
+        "url": "https://www.goodreads.com/book/show/62919639-fly-me-to-the-moon-vol-17",
+        "goodreads": "https://www.goodreads.com/book/show/62919639-fly-me-to-the-moon-vol-17",
+        "goodreadsId": "62919639"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 18 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677589102l/62919642.jpg",
+        "url": "https://www.goodreads.com/book/show/62919642-fly-me-to-the-moon-vol-18",
+        "goodreads": "https://www.goodreads.com/book/show/62919642-fly-me-to-the-moon-vol-18",
+        "goodreadsId": "62919642"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 19 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682421692l/101157655.jpg",
+        "url": "https://www.goodreads.com/book/show/101157655-fly-me-to-the-moon-vol-19",
+        "goodreads": "https://www.goodreads.com/book/show/101157655-fly-me-to-the-moon-vol-19",
+        "goodreadsId": "101157655"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 21 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1698699380l/176443925.jpg",
+        "url": "https://www.goodreads.com/book/show/176443925-fly-me-to-the-moon-vol-21",
+        "goodreads": "https://www.goodreads.com/book/show/176443925-fly-me-to-the-moon-vol-21",
+        "goodreadsId": "176443925"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 22 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547355l/176443832.jpg",
+        "url": "https://www.goodreads.com/book/show/176443832-fly-me-to-the-moon-vol-22",
+        "goodreads": "https://www.goodreads.com/book/show/176443832-fly-me-to-the-moon-vol-22",
+        "goodreadsId": "176443832"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 23 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547385l/199798541.jpg",
+        "url": "https://www.goodreads.com/book/show/199798541-fly-me-to-the-moon-vol-23",
+        "goodreads": "https://www.goodreads.com/book/show/199798541-fly-me-to-the-moon-vol-23",
+        "goodreadsId": "199798541"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 24 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547432l/199798680.jpg",
+        "url": "https://www.goodreads.com/book/show/199798680-fly-me-to-the-moon-vol-24",
+        "goodreads": "https://www.goodreads.com/book/show/199798680-fly-me-to-the-moon-vol-24",
+        "goodreadsId": "199798680"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 25 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819505l/207299098.jpg",
+        "url": "https://www.goodreads.com/book/show/207299098-fly-me-to-the-moon-vol-25",
+        "goodreads": "https://www.goodreads.com/book/show/207299098-fly-me-to-the-moon-vol-25",
+        "goodreadsId": "207299098"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 26 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819467l/207298504.jpg",
+        "url": "https://www.goodreads.com/book/show/207298504-fly-me-to-the-moon-vol-26",
+        "goodreads": "https://www.goodreads.com/book/show/207298504-fly-me-to-the-moon-vol-26",
+        "goodreadsId": "207298504"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 27 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1729092928l/214151598.jpg",
+        "url": "https://www.goodreads.com/book/show/214151598-fly-me-to-the-moon-vol-27",
+        "goodreads": "https://www.goodreads.com/book/show/214151598-fly-me-to-the-moon-vol-27",
+        "goodreadsId": "214151598"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 28 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737130257l/220161065.jpg",
+        "url": "https://www.goodreads.com/book/show/220161065-fly-me-to-the-moon-vol-28",
+        "goodreads": "https://www.goodreads.com/book/show/220161065-fly-me-to-the-moon-vol-28",
+        "goodreadsId": "220161065"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 29 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745757925l/220160937.jpg",
+        "url": "https://www.goodreads.com/book/show/220160937-fly-me-to-the-moon-vol-29",
+        "goodreads": "https://www.goodreads.com/book/show/220160937-fly-me-to-the-moon-vol-29",
+        "goodreadsId": "220160937"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 30 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754658623l/224004317.jpg",
+        "url": "https://www.goodreads.com/book/show/224004317-fly-me-to-the-moon-vol-30",
+        "goodreads": "https://www.goodreads.com/book/show/224004317-fly-me-to-the-moon-vol-30",
+        "goodreadsId": "224004317"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 31 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760084761l/235992664.jpg",
+        "url": "https://www.goodreads.com/book/show/235992664-fly-me-to-the-moon-vol-31",
+        "goodreads": "https://www.goodreads.com/book/show/235992664-fly-me-to-the-moon-vol-31",
+        "goodreadsId": "235992664"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 32 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1768436044l/243001262.jpg",
+        "url": "https://www.goodreads.com/book/show/243001262-fly-me-to-the-moon-vol-32",
+        "goodreads": "https://www.goodreads.com/book/show/243001262-fly-me-to-the-moon-vol-32",
+        "goodreadsId": "243001262"
+      },
+      {
+        "name": "Fly Me to the Moon, Vol. 33 (Kenjir\u014d Hata)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1781286308l/248337230.jpg",
+        "url": "https://www.goodreads.com/book/show/248337230-fly-me-to-the-moon-vol-33",
+        "goodreads": "https://www.goodreads.com/book/show/248337230-fly-me-to-the-moon-vol-33",
+        "goodreadsId": "248337230"
+      },
+      {
+        "name": "Harry Potter and the Half-Blood Prince (J.K. Rowling)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677125645l/59664170.jpg",
+        "url": "https://www.goodreads.com/book/show/59664170-harry-potter-and-the-half-blood-prince",
+        "goodreads": "https://www.goodreads.com/book/show/59664170-harry-potter-and-the-half-blood-prince",
+        "goodreadsId": "59664170"
+      },
+      {
+        "name": "Horimiya, Vol. 1 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441227211l/25112904.jpg",
+        "url": "https://www.goodreads.com/book/show/25112904-horimiya-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/25112904-horimiya-vol-1",
+        "goodreadsId": "25112904"
+      },
+      {
+        "name": "Horimiya, Vol. 2 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447876110l/25820252.jpg",
+        "url": "https://www.goodreads.com/book/show/25820252-horimiya-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/25820252-horimiya-vol-2",
+        "goodreadsId": "25820252"
+      },
+      {
+        "name": "Horimiya, Vol. 3 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468028592l/26030689.jpg",
+        "url": "https://www.goodreads.com/book/show/26030689-horimiya-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/26030689-horimiya-vol-3",
+        "goodreadsId": "26030689"
+      },
+      {
+        "name": "Horimiya, Vol. 4 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464061275l/27415373.jpg",
+        "url": "https://www.goodreads.com/book/show/27415373-horimiya-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/27415373-horimiya-vol-4",
+        "goodreadsId": "27415373"
+      },
+      {
+        "name": "Horimiya, Vol. 5 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473686947l/28962897.jpg",
+        "url": "https://www.goodreads.com/book/show/28962897-horimiya-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/28962897-horimiya-vol-5",
+        "goodreadsId": "28962897"
+      },
+      {
+        "name": "Horimiya, Vol. 6 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484931565l/29745346.jpg",
+        "url": "https://www.goodreads.com/book/show/29745346-horimiya-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/29745346-horimiya-vol-6",
+        "goodreadsId": "29745346"
+      },
+      {
+        "name": "Horimiya, Vol. 7 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493193400l/31934060.jpg",
+        "url": "https://www.goodreads.com/book/show/31934060-horimiya-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/31934060-horimiya-vol-7",
+        "goodreadsId": "31934060"
+      },
+      {
+        "name": "Horimiya, Vol. 8 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495778255l/33641246.jpg",
+        "url": "https://www.goodreads.com/book/show/33641246-horimiya-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/33641246-horimiya-vol-8",
+        "goodreadsId": "33641246"
+      },
+      {
+        "name": "Horimiya, Vol. 9 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504136066l/34219890.jpg",
+        "url": "https://www.goodreads.com/book/show/34219890-horimiya-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/34219890-horimiya-vol-9",
+        "goodreadsId": "34219890"
+      },
+      {
+        "name": "Horimiya, Vol. 10 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514866058l/35959701.jpg",
+        "url": "https://www.goodreads.com/book/show/35959701-horimiya-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/35959701-horimiya-vol-10",
+        "goodreadsId": "35959701"
+      },
+      {
+        "name": "Horimiya, Vol. 11 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525810720l/36673768.jpg",
+        "url": "https://www.goodreads.com/book/show/36673768-horimiya-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/36673768-horimiya-vol-11",
+        "goodreadsId": "36673768"
+      },
+      {
+        "name": "Horimiya, Vol. 12 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539651302l/40538145.jpg",
+        "url": "https://www.goodreads.com/book/show/40538145-horimiya-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/40538145-horimiya-vol-12",
+        "goodreadsId": "40538145"
+      },
+      {
+        "name": "Horimiya, Vol. 13 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575414323l/46260386.jpg",
+        "url": "https://www.goodreads.com/book/show/46260386-horimiya-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/46260386-horimiya-vol-13",
+        "goodreadsId": "46260386"
+      },
+      {
+        "name": "Horimiya, Vol. 14 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589826926l/50358891.jpg",
+        "url": "https://www.goodreads.com/book/show/50358891-horimiya-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/50358891-horimiya-vol-14",
+        "goodreadsId": "50358891"
+      },
+      {
+        "name": "Horimiya, Vol. 15 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621851162l/56817490.jpg",
+        "url": "https://www.goodreads.com/book/show/56817490-horimiya-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/56817490-horimiya-vol-15",
+        "goodreadsId": "56817490"
+      },
+      {
+        "name": "Horimiya, Vol. 16 (Hero)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677475025l/64007737.jpg",
+        "url": "https://www.goodreads.com/book/show/64007737-horimiya-vol-16",
+        "goodreads": "https://www.goodreads.com/book/show/64007737-horimiya-vol-16",
+        "goodreadsId": "64007737"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 25 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670795830l/61273649.jpg",
+        "url": "https://www.goodreads.com/book/show/61273649-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/61273649-kaguya-sama",
+        "goodreadsId": "61273649"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 26 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678900309l/62919713.jpg",
+        "url": "https://www.goodreads.com/book/show/62919713-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/62919713-kaguya-sama",
+        "goodreadsId": "62919713"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 27 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710954162l/101159346.jpg",
+        "url": "https://www.goodreads.com/book/show/101159346-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/101159346-kaguya-sama",
+        "goodreadsId": "101159346"
+      },
+      {
+        "name": "Kaguya-sama: Love Is War, Vol. 28 (Aka Akasaka)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710954217l/176443024.jpg",
+        "url": "https://www.goodreads.com/book/show/176443024-kaguya-sama",
+        "goodreads": "https://www.goodreads.com/book/show/176443024-kaguya-sama",
+        "goodreadsId": "176443024"
+      },
+      {
+        "name": "Komi Can\u2019t Communicate, Vol. 1 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559016252l/46029443.jpg",
+        "url": "https://www.goodreads.com/book/show/46029443-komi-can-t-communicate-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/46029443-komi-can-t-communicate-vol-1",
+        "goodreadsId": "46029443"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 2 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554035239l/42870329.jpg",
+        "url": "https://www.goodreads.com/book/show/42870329-komi-can-t-communicate-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/42870329-komi-can-t-communicate-vol-2",
+        "goodreadsId": "42870329"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 3 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561288948l/43909475.jpg",
+        "url": "https://www.goodreads.com/book/show/43909475-komi-can-t-communicate-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/43909475-komi-can-t-communicate-vol-3",
+        "goodreadsId": "43909475"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 4 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564946335l/43909466.jpg",
+        "url": "https://www.goodreads.com/book/show/43909466-komi-can-t-communicate-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/43909466-komi-can-t-communicate-vol-4",
+        "goodreadsId": "43909466"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 5 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569757857l/51154948.jpg",
+        "url": "https://www.goodreads.com/book/show/51154948-komi-can-t-communicate-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/51154948-komi-can-t-communicate-vol-5",
+        "goodreadsId": "51154948"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 6 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575586960l/53088943.jpg",
+        "url": "https://www.goodreads.com/book/show/53088943-komi-can-t-communicate-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/53088943-komi-can-t-communicate-vol-6",
+        "goodreadsId": "53088943"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 8 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589897728l/52758148.jpg",
+        "url": "https://www.goodreads.com/book/show/52758148-komi-can-t-communicate-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/52758148-komi-can-t-communicate-vol-8",
+        "goodreadsId": "52758148"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 10 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596974365l/50891237.jpg",
+        "url": "https://www.goodreads.com/book/show/50891237-komi-can-t-communicate-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/50891237-komi-can-t-communicate-vol-10",
+        "goodreadsId": "50891237"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 11 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603033421l/54303389.jpg",
+        "url": "https://www.goodreads.com/book/show/54303389-komi-can-t-communicate-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/54303389-komi-can-t-communicate-vol-11",
+        "goodreadsId": "54303389"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 12 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606066497l/54303386.jpg",
+        "url": "https://www.goodreads.com/book/show/54303386-komi-can-t-communicate-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/54303386-komi-can-t-communicate-vol-12",
+        "goodreadsId": "54303386"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 13 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613314703l/55711437.jpg",
+        "url": "https://www.goodreads.com/book/show/55711437-komi-can-t-communicate-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/55711437-komi-can-t-communicate-vol-13",
+        "goodreadsId": "55711437"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 14 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544425l/55711439.jpg",
+        "url": "https://www.goodreads.com/book/show/55711439-komi-can-t-communicate-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/55711439-komi-can-t-communicate-vol-14",
+        "goodreadsId": "55711439"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 15 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631106832l/56897999.jpg",
+        "url": "https://www.goodreads.com/book/show/56897999-komi-can-t-communicate-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/56897999-komi-can-t-communicate-vol-15",
+        "goodreadsId": "56897999"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 16 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429816l/56898046.jpg",
+        "url": "https://www.goodreads.com/book/show/56898046-komi-can-t-communicate-vol-16",
+        "goodreads": "https://www.goodreads.com/book/show/56898046-komi-can-t-communicate-vol-16",
+        "goodreadsId": "56898046"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 17 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633270503l/58438378.jpg",
+        "url": "https://www.goodreads.com/book/show/58438378-komi-can-t-communicate-vol-17",
+        "goodreads": "https://www.goodreads.com/book/show/58438378-komi-can-t-communicate-vol-17",
+        "goodreadsId": "58438378"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 18 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1637773132l/58438379.jpg",
+        "url": "https://www.goodreads.com/book/show/58438379-komi-can-t-communicate-vol-18",
+        "goodreads": "https://www.goodreads.com/book/show/58438379-komi-can-t-communicate-vol-18",
+        "goodreadsId": "58438379"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 19 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645992140l/59366049.jpg",
+        "url": "https://www.goodreads.com/book/show/59366049-komi-can-t-communicate-vol-19",
+        "goodreads": "https://www.goodreads.com/book/show/59366049-komi-can-t-communicate-vol-19",
+        "goodreadsId": "59366049"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 20 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384520l/59366050.jpg",
+        "url": "https://www.goodreads.com/book/show/59366050-komi-can-t-communicate-vol-20",
+        "goodreads": "https://www.goodreads.com/book/show/59366050-komi-can-t-communicate-vol-20",
+        "goodreadsId": "59366050"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 21 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655646850l/60321327.jpg",
+        "url": "https://www.goodreads.com/book/show/60321327-komi-can-t-communicate-vol-21",
+        "goodreads": "https://www.goodreads.com/book/show/60321327-komi-can-t-communicate-vol-21",
+        "goodreadsId": "60321327"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 22 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658674829l/60321329.jpg",
+        "url": "https://www.goodreads.com/book/show/60321329-komi-can-t-communicate-vol-22",
+        "goodreads": "https://www.goodreads.com/book/show/60321329-komi-can-t-communicate-vol-22",
+        "goodreadsId": "60321329"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 23 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664381721l/61273600.jpg",
+        "url": "https://www.goodreads.com/book/show/61273600-komi-can-t-communicate-vol-23",
+        "goodreads": "https://www.goodreads.com/book/show/61273600-komi-can-t-communicate-vol-23",
+        "goodreadsId": "61273600"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 24 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670168604l/61273668.jpg",
+        "url": "https://www.goodreads.com/book/show/61273668-komi-can-t-communicate-vol-24",
+        "goodreads": "https://www.goodreads.com/book/show/61273668-komi-can-t-communicate-vol-24",
+        "goodreadsId": "61273668"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 25 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676826660l/62919675.jpg",
+        "url": "https://www.goodreads.com/book/show/62919675-komi-can-t-communicate-vol-25",
+        "goodreads": "https://www.goodreads.com/book/show/62919675-komi-can-t-communicate-vol-25",
+        "goodreadsId": "62919675"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 26 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678035867l/62919720.jpg",
+        "url": "https://www.goodreads.com/book/show/62919720-komi-can-t-communicate-vol-26",
+        "goodreads": "https://www.goodreads.com/book/show/62919720-komi-can-t-communicate-vol-26",
+        "goodreadsId": "62919720"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 27 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699402618l/101158794.jpg",
+        "url": "https://www.goodreads.com/book/show/101158794-komi-can-t-communicate-vol-27",
+        "goodreads": "https://www.goodreads.com/book/show/101158794-komi-can-t-communicate-vol-27",
+        "goodreadsId": "101158794"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 28 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706917289l/176443781.jpg",
+        "url": "https://www.goodreads.com/book/show/176443781-komi-can-t-communicate-vol-28",
+        "goodreads": "https://www.goodreads.com/book/show/176443781-komi-can-t-communicate-vol-28",
+        "goodreadsId": "176443781"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 29 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713912532l/176443907.jpg",
+        "url": "https://www.goodreads.com/book/show/176443907-komi-can-t-communicate-vol-29",
+        "goodreads": "https://www.goodreads.com/book/show/176443907-komi-can-t-communicate-vol-29",
+        "goodreadsId": "176443907"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 30 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721312l/199798701.jpg",
+        "url": "https://www.goodreads.com/book/show/199798701-komi-can-t-communicate-vol-30",
+        "goodreads": "https://www.goodreads.com/book/show/199798701-komi-can-t-communicate-vol-30",
+        "goodreadsId": "199798701"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 31 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819489l/207298839.jpg",
+        "url": "https://www.goodreads.com/book/show/207298839-komi-can-t-communicate-vol-31",
+        "goodreads": "https://www.goodreads.com/book/show/207298839-komi-can-t-communicate-vol-31",
+        "goodreadsId": "207298839"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 32 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737739881l/214151627.jpg",
+        "url": "https://www.goodreads.com/book/show/214151627-komi-can-t-communicate-vol-32",
+        "goodreads": "https://www.goodreads.com/book/show/214151627-komi-can-t-communicate-vol-32",
+        "goodreadsId": "214151627"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 33 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746020395l/214151406.jpg",
+        "url": "https://www.goodreads.com/book/show/214151406-komi-can-t-communicate-vol-33",
+        "goodreads": "https://www.goodreads.com/book/show/214151406-komi-can-t-communicate-vol-33",
+        "goodreadsId": "214151406"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 34 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746329770l/220161131.jpg",
+        "url": "https://www.goodreads.com/book/show/220161131-komi-can-t-communicate-vol-34",
+        "goodreads": "https://www.goodreads.com/book/show/220161131-komi-can-t-communicate-vol-34",
+        "goodreadsId": "220161131"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 35 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752237229l/224004634.jpg",
+        "url": "https://www.goodreads.com/book/show/224004634-komi-can-t-communicate-vol-35",
+        "goodreads": "https://www.goodreads.com/book/show/224004634-komi-can-t-communicate-vol-35",
+        "goodreadsId": "224004634"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 36 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754830360l/224004747.jpg",
+        "url": "https://www.goodreads.com/book/show/224004747-komi-can-t-communicate-vol-36",
+        "goodreads": "https://www.goodreads.com/book/show/224004747-komi-can-t-communicate-vol-36",
+        "goodreadsId": "224004747"
+      },
+      {
+        "name": "Komi Can't Communicate, Vol. 37 (Tomohito Oda)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760084737l/235992080.jpg",
+        "url": "https://www.goodreads.com/book/show/235992080-komi-can-t-communicate-vol-37",
+        "goodreads": "https://www.goodreads.com/book/show/235992080-komi-can-t-communicate-vol-37",
+        "goodreadsId": "235992080"
+      },
+      {
+        "name": "My Hero Academia, Vol. 2 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437370282l/25111261.jpg",
+        "url": "https://www.goodreads.com/book/show/25111261-my-hero-academia-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/25111261-my-hero-academia-vol-2",
+        "goodreadsId": "25111261"
+      },
+      {
+        "name": "My Hero Academia, Vol. 3 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446684728l/25814001.jpg",
+        "url": "https://www.goodreads.com/book/show/25814001-my-hero-academia-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/25814001-my-hero-academia-vol-3",
+        "goodreadsId": "25814001"
+      },
+      {
+        "name": "My Hero Academia, Vol. 4 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443734662l/25814066.jpg",
+        "url": "https://www.goodreads.com/book/show/25814066-my-hero-academia-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/25814066-my-hero-academia-vol-4",
+        "goodreadsId": "25814066"
+      },
+      {
+        "name": "My Hero Academia, Vol. 5 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457907805l/27406773.jpg",
+        "url": "https://www.goodreads.com/book/show/27406773-my-hero-academia-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/27406773-my-hero-academia-vol-5",
+        "goodreadsId": "27406773"
+      },
+      {
+        "name": "My Hero Academia, Vol. 6 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465732286l/29499022.jpg",
+        "url": "https://www.goodreads.com/book/show/29499022-my-hero-academia-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/29499022-my-hero-academia-vol-6",
+        "goodreadsId": "29499022"
+      },
+      {
+        "name": "My Hero Academia, Vol. 7 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475461600l/31140439.jpg",
+        "url": "https://www.goodreads.com/book/show/31140439-my-hero-academia-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/31140439-my-hero-academia-vol-7",
+        "goodreadsId": "31140439"
+      },
+      {
+        "name": "My Hero Academia, Vol. 8 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484903132l/31140451.jpg",
+        "url": "https://www.goodreads.com/book/show/31140451-my-hero-academia-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/31140451-my-hero-academia-vol-8",
+        "goodreadsId": "31140451"
+      },
+      {
+        "name": "My Hero Academia, Vol. 9 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492802218l/32919026.jpg",
+        "url": "https://www.goodreads.com/book/show/32919026-my-hero-academia-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/32919026-my-hero-academia-vol-9",
+        "goodreadsId": "32919026"
+      },
+      {
+        "name": "My Hero Academia, Vol. 10 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500674526l/34466633.jpg",
+        "url": "https://www.goodreads.com/book/show/34466633-my-hero-academia-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/34466633-my-hero-academia-vol-10",
+        "goodreadsId": "34466633"
+      },
+      {
+        "name": "My Hero Academia, Vol. 11 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505658480l/35658128.jpg",
+        "url": "https://www.goodreads.com/book/show/35658128-my-hero-academia-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/35658128-my-hero-academia-vol-11",
+        "goodreadsId": "35658128"
+      },
+      {
+        "name": "My Hero Academia, Vol. 12 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514007169l/36455849.jpg",
+        "url": "https://www.goodreads.com/book/show/36455849-my-hero-academia-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/36455849-my-hero-academia-vol-12",
+        "goodreadsId": "36455849"
+      },
+      {
+        "name": "My Hero Academia, Vol. 13 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517416179l/36538838.jpg",
+        "url": "https://www.goodreads.com/book/show/36538838-my-hero-academia-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/36538838-my-hero-academia-vol-13",
+        "goodreadsId": "36538838"
+      },
+      {
+        "name": "My Hero Academia, Vol. 14 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530434141l/36538797.jpg",
+        "url": "https://www.goodreads.com/book/show/36538797-my-hero-academia-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/36538797-my-hero-academia-vol-14",
+        "goodreadsId": "36538797"
+      },
+      {
+        "name": "My Hero Academia, Vol. 15 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528232938l/38471699.jpg",
+        "url": "https://www.goodreads.com/book/show/38471699-my-hero-academia-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/38471699-my-hero-academia-vol-15",
+        "goodreadsId": "38471699"
+      },
+      {
+        "name": "My Hero Academia, Vol. 16 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534537655l/38926380.jpg",
+        "url": "https://www.goodreads.com/book/show/38926380-my-hero-academia-vol-16",
+        "goodreads": "https://www.goodreads.com/book/show/38926380-my-hero-academia-vol-16",
+        "goodreadsId": "38926380"
+      },
+      {
+        "name": "My Hero Academia, Vol. 17 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535881570l/40639144.jpg",
+        "url": "https://www.goodreads.com/book/show/40639144-my-hero-academia-vol-17",
+        "goodreads": "https://www.goodreads.com/book/show/40639144-my-hero-academia-vol-17",
+        "goodreadsId": "40639144"
+      },
+      {
+        "name": "My Hero Academia, Vol. 18 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498348l/40639167.jpg",
+        "url": "https://www.goodreads.com/book/show/40639167-my-hero-academia-vol-18",
+        "goodreads": "https://www.goodreads.com/book/show/40639167-my-hero-academia-vol-18",
+        "goodreadsId": "40639167"
+      },
+      {
+        "name": "My Hero Academia, Vol. 19 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549248735l/42640829.jpg",
+        "url": "https://www.goodreads.com/book/show/42640829-my-hero-academia-vol-19",
+        "goodreads": "https://www.goodreads.com/book/show/42640829-my-hero-academia-vol-19",
+        "goodreadsId": "42640829"
+      },
+      {
+        "name": "My Hero Academia, Vol. 20 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552848502l/42640803.jpg",
+        "url": "https://www.goodreads.com/book/show/42640803-my-hero-academia-vol-20",
+        "goodreads": "https://www.goodreads.com/book/show/42640803-my-hero-academia-vol-20",
+        "goodreadsId": "42640803"
+      },
+      {
+        "name": "My Hero Academia, Vol. 21 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555270233l/43909390.jpg",
+        "url": "https://www.goodreads.com/book/show/43909390-my-hero-academia-vol-21",
+        "goodreads": "https://www.goodreads.com/book/show/43909390-my-hero-academia-vol-21",
+        "goodreadsId": "43909390"
+      },
+      {
+        "name": "My Hero Academia, Vol. 22 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565526251l/43909387.jpg",
+        "url": "https://www.goodreads.com/book/show/43909387-my-hero-academia-vol-22",
+        "goodreads": "https://www.goodreads.com/book/show/43909387-my-hero-academia-vol-22",
+        "goodreadsId": "43909387"
+      },
+      {
+        "name": "My Hero Academia, Vol. 23 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569757728l/52179112.jpg",
+        "url": "https://www.goodreads.com/book/show/52179112-my-hero-academia-vol-23",
+        "goodreads": "https://www.goodreads.com/book/show/52179112-my-hero-academia-vol-23",
+        "goodreadsId": "52179112"
+      },
+      {
+        "name": "My Hero Academia, Vol. 24 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854602l/52757933.jpg",
+        "url": "https://www.goodreads.com/book/show/52757933-my-hero-academia-vol-24",
+        "goodreads": "https://www.goodreads.com/book/show/52757933-my-hero-academia-vol-24",
+        "goodreadsId": "52757933"
+      },
+      {
+        "name": "My Hero Academia, Vol. 25 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590329087l/50891136.jpg",
+        "url": "https://www.goodreads.com/book/show/50891136-my-hero-academia-vol-25",
+        "goodreads": "https://www.goodreads.com/book/show/50891136-my-hero-academia-vol-25",
+        "goodreadsId": "50891136"
+      },
+      {
+        "name": "My Hero Academia, Vol. 26 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596375347l/54303320.jpg",
+        "url": "https://www.goodreads.com/book/show/54303320-my-hero-academia-vol-26",
+        "goodreads": "https://www.goodreads.com/book/show/54303320-my-hero-academia-vol-26",
+        "goodreadsId": "54303320"
+      },
+      {
+        "name": "My Hero Academia, Vol. 27 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606066486l/54303336.jpg",
+        "url": "https://www.goodreads.com/book/show/54303336-my-hero-academia-vol-27",
+        "goodreads": "https://www.goodreads.com/book/show/54303336-my-hero-academia-vol-27",
+        "goodreadsId": "54303336"
+      },
+      {
+        "name": "My Hero Academia, Vol. 28 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611497720l/55711503.jpg",
+        "url": "https://www.goodreads.com/book/show/55711503-my-hero-academia-vol-28",
+        "goodreads": "https://www.goodreads.com/book/show/55711503-my-hero-academia-vol-28",
+        "goodreadsId": "55711503"
+      },
+      {
+        "name": "My Hero Academia, Vol. 29 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618758530l/56898057.jpg",
+        "url": "https://www.goodreads.com/book/show/56898057-my-hero-academia-vol-29",
+        "goodreads": "https://www.goodreads.com/book/show/56898057-my-hero-academia-vol-29",
+        "goodreadsId": "56898057"
+      },
+      {
+        "name": "My Hero Academia, Vol. 30 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634748519l/58438416.jpg",
+        "url": "https://www.goodreads.com/book/show/58438416-my-hero-academia-vol-30",
+        "goodreads": "https://www.goodreads.com/book/show/58438416-my-hero-academia-vol-30",
+        "goodreadsId": "58438416"
+      },
+      {
+        "name": "My Hero Academia, Vol. 31 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647192275l/59366062.jpg",
+        "url": "https://www.goodreads.com/book/show/59366062-my-hero-academia-vol-31",
+        "goodreads": "https://www.goodreads.com/book/show/59366062-my-hero-academia-vol-31",
+        "goodreadsId": "59366062"
+      },
+      {
+        "name": "My Hero Academia, Vol. 32 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653220927l/60321338.jpg",
+        "url": "https://www.goodreads.com/book/show/60321338-my-hero-academia-vol-32",
+        "goodreads": "https://www.goodreads.com/book/show/60321338-my-hero-academia-vol-32",
+        "goodreadsId": "60321338"
+      },
+      {
+        "name": "My Hero Academia, Vol. 33 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663517694l/61273616.jpg",
+        "url": "https://www.goodreads.com/book/show/61273616-my-hero-academia-vol-33",
+        "goodreads": "https://www.goodreads.com/book/show/61273616-my-hero-academia-vol-33",
+        "goodreadsId": "61273616"
+      },
+      {
+        "name": "My Hero Academia, Vol. 34 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670273849l/62919656.jpg",
+        "url": "https://www.goodreads.com/book/show/62919656-my-hero-academia-vol-34",
+        "goodreads": "https://www.goodreads.com/book/show/62919656-my-hero-academia-vol-34",
+        "goodreadsId": "62919656"
+      },
+      {
+        "name": "My Hero Academia, Vol. 35 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681060855l/101158154.jpg",
+        "url": "https://www.goodreads.com/book/show/101158154-my-hero-academia-vol-35",
+        "goodreads": "https://www.goodreads.com/book/show/101158154-my-hero-academia-vol-35",
+        "goodreadsId": "101158154"
+      },
+      {
+        "name": "My Hero Academia, Vol. 36 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693335904l/101159408.jpg",
+        "url": "https://www.goodreads.com/book/show/101159408-my-hero-academia-vol-36",
+        "goodreads": "https://www.goodreads.com/book/show/101159408-my-hero-academia-vol-36",
+        "goodreadsId": "101159408"
+      },
+      {
+        "name": "My Hero Academia, Vol. 37 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704117183l/176443461.jpg",
+        "url": "https://www.goodreads.com/book/show/176443461-my-hero-academia-vol-37",
+        "goodreads": "https://www.goodreads.com/book/show/176443461-my-hero-academia-vol-37",
+        "goodreadsId": "176443461"
+      },
+      {
+        "name": "My Hero Academia, Vol. 38 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1712370333l/199798550.jpg",
+        "url": "https://www.goodreads.com/book/show/199798550-my-hero-academia-vol-38",
+        "goodreads": "https://www.goodreads.com/book/show/199798550-my-hero-academia-vol-38",
+        "goodreadsId": "199798550"
+      },
+      {
+        "name": "My Hero Academia, Vol. 39 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715404211l/207299159.jpg",
+        "url": "https://www.goodreads.com/book/show/207299159-my-hero-academia-vol-39",
+        "goodreads": "https://www.goodreads.com/book/show/207299159-my-hero-academia-vol-39",
+        "goodreadsId": "207299159"
+      },
+      {
+        "name": "My Hero Academia, Vol. 40 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725342174l/214151809.jpg",
+        "url": "https://www.goodreads.com/book/show/214151809-my-hero-academia-vol-40",
+        "goodreads": "https://www.goodreads.com/book/show/214151809-my-hero-academia-vol-40",
+        "goodreadsId": "214151809"
+      },
+      {
+        "name": "My Hero Academia, Vol. 41 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738263572l/220160957.jpg",
+        "url": "https://www.goodreads.com/book/show/220160957-my-hero-academia-vol-41",
+        "goodreads": "https://www.goodreads.com/book/show/220160957-my-hero-academia-vol-41",
+        "goodreadsId": "220160957"
+      },
+      {
+        "name": "My Hero Academia, Vol. 42 (Kohei Horikoshi)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746096835l/224004299.jpg",
+        "url": "https://www.goodreads.com/book/show/224004299-my-hero-academia-vol-42",
+        "goodreads": "https://www.goodreads.com/book/show/224004299-my-hero-academia-vol-42",
+        "goodreadsId": "224004299"
+      },
+      {
+        "name": "No Game No Life, Vol. 3 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444605549l/24819539.jpg",
+        "url": "https://www.goodreads.com/book/show/24819539-no-game-no-life-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/24819539-no-game-no-life-vol-3",
+        "goodreadsId": "24819539"
+      },
+      {
+        "name": "No Game, No Life Vol. 4 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416674868l/23600047.jpg",
+        "url": "https://www.goodreads.com/book/show/23600047-no-game-no-life-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/23600047-no-game-no-life-vol-4",
+        "goodreadsId": "23600047"
+      },
+      {
+        "name": "No Game, No Life Vol. 5 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416675209l/23600059.jpg",
+        "url": "https://www.goodreads.com/book/show/23600059-no-game-no-life-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/23600059-no-game-no-life-vol-5",
+        "goodreadsId": "23600059"
+      },
+      {
+        "name": "No Game No Life, Vol. 6 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496606617l/27415453.jpg",
+        "url": "https://www.goodreads.com/book/show/27415453-no-game-no-life-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/27415453-no-game-no-life-vol-6",
+        "goodreadsId": "27415453"
+      },
+      {
+        "name": "No Game No Life, Vol. 7 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652813404l/32052057.jpg",
+        "url": "https://www.goodreads.com/book/show/32052057-no-game-no-life-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/32052057-no-game-no-life-vol-7",
+        "goodreadsId": "32052057"
+      },
+      {
+        "name": "No Game No Life, Vol. 8 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639054990l/35564228.jpg",
+        "url": "https://www.goodreads.com/book/show/35564228-no-game-no-life-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/35564228-no-game-no-life-vol-8",
+        "goodreadsId": "35564228"
+      },
+      {
+        "name": "No Game No Life, Vol. 9 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568302521l/39834482.jpg",
+        "url": "https://www.goodreads.com/book/show/39834482-no-game-no-life-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/39834482-no-game-no-life-vol-9",
+        "goodreadsId": "39834482"
+      },
+      {
+        "name": "No Game No Life, Vol. 10 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580193373l/51948693.jpg",
+        "url": "https://www.goodreads.com/book/show/51948693-no-game-no-life-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/51948693-no-game-no-life-vol-10",
+        "goodreadsId": "51948693"
+      },
+      {
+        "name": "No Game No Life, Vol. 11 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649039029l/59684597.jpg",
+        "url": "https://www.goodreads.com/book/show/59684597-no-game-no-life-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/59684597-no-game-no-life-vol-11",
+        "goodreadsId": "59684597"
+      },
+      {
+        "name": "No Game No Life, Vol. 12 (Yuu Kamiya)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710852433l/166411138.jpg",
+        "url": "https://www.goodreads.com/book/show/166411138-no-game-no-life-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/166411138-no-game-no-life-vol-12",
+        "goodreadsId": "166411138"
+      },
+      {
+        "name": "Spy x Family, Vol. 4 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603034185l/54303339.jpg",
+        "url": "https://www.goodreads.com/book/show/54303339-spy-x-family-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/54303339-spy-x-family-vol-4",
+        "goodreadsId": "54303339"
+      },
+      {
+        "name": "Spy x Family, Vol. 5 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894640l/55711508.jpg",
+        "url": "https://www.goodreads.com/book/show/55711508-spy-x-family-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/55711508-spy-x-family-vol-5",
+        "goodreadsId": "55711508"
+      },
+      {
+        "name": "Spy x Family, Vol. 6 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622386190l/56898061.jpg",
+        "url": "https://www.goodreads.com/book/show/56898061-spy-x-family-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/56898061-spy-x-family-vol-6",
+        "goodreadsId": "56898061"
+      },
+      {
+        "name": "Spy x Family, Vol. 7 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636301952l/58438436.jpg",
+        "url": "https://www.goodreads.com/book/show/58438436-spy-x-family-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/58438436-spy-x-family-vol-7",
+        "goodreadsId": "58438436"
+      },
+      {
+        "name": "Spy x Family, Vol. 8 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656262798l/60321373.jpg",
+        "url": "https://www.goodreads.com/book/show/60321373-spy-x-family-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/60321373-spy-x-family-vol-8",
+        "goodreadsId": "60321373"
+      },
+      {
+        "name": "Spy x Family, Vol. 9 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683888682l/61234945.jpg",
+        "url": "https://www.goodreads.com/book/show/61234945-spy-x-family-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/61234945-spy-x-family-vol-9",
+        "goodreadsId": "61234945"
+      },
+      {
+        "name": "Spy x Family, Vol. 10 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701256525l/101158877.jpg",
+        "url": "https://www.goodreads.com/book/show/101158877-spy-x-family-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/101158877-spy-x-family-vol-10",
+        "goodreadsId": "101158877"
+      },
+      {
+        "name": "Spy x Family, Vol. 11 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695586162l/176443110.jpg",
+        "url": "https://www.goodreads.com/book/show/176443110-spy-x-family-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/176443110-spy-x-family-vol-11",
+        "goodreadsId": "176443110"
+      },
+      {
+        "name": "Spy x Family, Vol. 12 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711657984l/199798814.jpg",
+        "url": "https://www.goodreads.com/book/show/199798814-spy-x-family-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/199798814-spy-x-family-vol-12",
+        "goodreadsId": "199798814"
+      },
+      {
+        "name": "Spy x Family, Vol. 13 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1733238317l/214151347.jpg",
+        "url": "https://www.goodreads.com/book/show/214151347-spy-x-family-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/214151347-spy-x-family-vol-13",
+        "goodreadsId": "214151347"
+      },
+      {
+        "name": "Spy x Family, Vol. 14 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744217207l/220161144.jpg",
+        "url": "https://www.goodreads.com/book/show/220161144-spy-x-family-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/220161144-spy-x-family-vol-14",
+        "goodreadsId": "220161144"
+      },
+      {
+        "name": "Spy x Family, Vol. 15 (Tatsuya Endo)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754484857l/224004667.jpg",
+        "url": "https://www.goodreads.com/book/show/224004667-spy-x-family-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/224004667-spy-x-family-vol-15",
+        "goodreadsId": "224004667"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 1 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591024456l/51943415.jpg",
+        "url": "https://www.goodreads.com/book/show/51943415-the-apothecary-diaries-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/51943415-the-apothecary-diaries-vol-1",
+        "goodreadsId": "51943415"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 2 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604382419l/54735505.jpg",
+        "url": "https://www.goodreads.com/book/show/54735505-the-apothecary-diaries-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/54735505-the-apothecary-diaries-vol-2",
+        "goodreadsId": "54735505"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 3 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626235021l/57033876.jpg",
+        "url": "https://www.goodreads.com/book/show/57033876-the-apothecary-diaries-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/57033876-the-apothecary-diaries-vol-3",
+        "goodreadsId": "57033876"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 4 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630956838l/57033897.jpg",
+        "url": "https://www.goodreads.com/book/show/57033897-the-apothecary-diaries-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/57033897-the-apothecary-diaries-vol-4",
+        "goodreadsId": "57033897"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 5 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656316897l/58305942.jpg",
+        "url": "https://www.goodreads.com/book/show/58305942-the-apothecary-diaries-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/58305942-the-apothecary-diaries-vol-5",
+        "goodreadsId": "58305942"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 6 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664064878l/59082292.jpg",
+        "url": "https://www.goodreads.com/book/show/59082292-the-apothecary-diaries-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/59082292-the-apothecary-diaries-vol-6",
+        "goodreadsId": "59082292"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 7 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666033669l/61048560.jpg",
+        "url": "https://www.goodreads.com/book/show/61048560-the-apothecary-diaries-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/61048560-the-apothecary-diaries-vol-7",
+        "goodreadsId": "61048560"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 8 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684786220l/61105561.jpg",
+        "url": "https://www.goodreads.com/book/show/61105561-the-apothecary-diaries-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/61105561-the-apothecary-diaries-vol-8",
+        "goodreadsId": "61105561"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 9 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1691513960l/62583370.jpg",
+        "url": "https://www.goodreads.com/book/show/62583370-the-apothecary-diaries-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/62583370-the-apothecary-diaries-vol-9",
+        "goodreadsId": "62583370"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 10 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690810696l/63837791.jpg",
+        "url": "https://www.goodreads.com/book/show/63837791-the-apothecary-diaries-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/63837791-the-apothecary-diaries-vol-10",
+        "goodreadsId": "63837791"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 11 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1702452213l/150065146.jpg",
+        "url": "https://www.goodreads.com/book/show/150065146-the-apothecary-diaries-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/150065146-the-apothecary-diaries-vol-11",
+        "goodreadsId": "150065146"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 12 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716863906l/203162298.jpg",
+        "url": "https://www.goodreads.com/book/show/203162298-the-apothecary-diaries-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/203162298-the-apothecary-diaries-vol-12",
+        "goodreadsId": "203162298"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 13 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732425469l/214274128.jpg",
+        "url": "https://www.goodreads.com/book/show/214274128-the-apothecary-diaries-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/214274128-the-apothecary-diaries-vol-13",
+        "goodreadsId": "214274128"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 14 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753286065l/223363627.jpg",
+        "url": "https://www.goodreads.com/book/show/223363627-the-apothecary-diaries-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/223363627-the-apothecary-diaries-vol-14",
+        "goodreadsId": "223363627"
+      },
+      {
+        "name": "The Apothecary Diaries, Vol. 15 (Nekokurage)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775489869l/236773531.jpg",
+        "url": "https://www.goodreads.com/book/show/236773531-the-apothecary-diaries-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/236773531-the-apothecary-diaries-vol-15",
+        "goodreadsId": "236773531"
+      },
+      {
+        "name": "The Labyrinth of the Spirits (Carlos Ruiz Zaf\u00f3n)",
+        "category": "Non-Fiction",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536570952l/39099067.jpg",
+        "url": "https://www.goodreads.com/book/show/39099067-the-labyrinth-of-the-spirits",
+        "goodreads": "https://www.goodreads.com/book/show/39099067-the-labyrinth-of-the-spirits",
+        "goodreadsId": "39099067"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 1 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559525094l/44018869.jpg",
+        "url": "https://www.goodreads.com/book/show/44018869-the-way-of-the-househusband-vol-1",
+        "goodreads": "https://www.goodreads.com/book/show/44018869-the-way-of-the-househusband-vol-1",
+        "goodreadsId": "44018869"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 2 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567950935l/44025159.jpg",
+        "url": "https://www.goodreads.com/book/show/44025159-the-way-of-the-househusband-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/44025159-the-way-of-the-househusband-vol-2",
+        "goodreadsId": "44025159"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 5 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612105400l/55711478.jpg",
+        "url": "https://www.goodreads.com/book/show/55711478-the-way-of-the-househusband-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/55711478-the-way-of-the-househusband-vol-5",
+        "goodreadsId": "55711478"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 6 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1619967023l/56898051.jpg",
+        "url": "https://www.goodreads.com/book/show/56898051-the-way-of-the-househusband-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/56898051-the-way-of-the-househusband-vol-6",
+        "goodreadsId": "56898051"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 7 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634487684l/58438424.jpg",
+        "url": "https://www.goodreads.com/book/show/58438424-the-way-of-the-househusband-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/58438424-the-way-of-the-househusband-vol-7",
+        "goodreadsId": "58438424"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 8 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655047079l/59366072.jpg",
+        "url": "https://www.goodreads.com/book/show/59366072-the-way-of-the-househusband-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/59366072-the-way-of-the-househusband-vol-8",
+        "goodreadsId": "59366072"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 9 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667144859l/61273632.jpg",
+        "url": "https://www.goodreads.com/book/show/61273632-the-way-of-the-househusband-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/61273632-the-way-of-the-househusband-vol-9",
+        "goodreadsId": "61273632"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 10 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681060752l/62919714.jpg",
+        "url": "https://www.goodreads.com/book/show/62919714-the-way-of-the-househusband-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/62919714-the-way-of-the-househusband-vol-10",
+        "goodreadsId": "62919714"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 11 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1707405270l/176444115.jpg",
+        "url": "https://www.goodreads.com/book/show/176444115-the-way-of-the-househusband-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/176444115-the-way-of-the-househusband-vol-11",
+        "goodreadsId": "176444115"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 12 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714907981l/199798572.jpg",
+        "url": "https://www.goodreads.com/book/show/199798572-the-way-of-the-househusband-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/199798572-the-way-of-the-househusband-vol-12",
+        "goodreadsId": "199798572"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 13 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730086853l/214151635.jpg",
+        "url": "https://www.goodreads.com/book/show/214151635-the-way-of-the-househusband-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/214151635-the-way-of-the-househusband-vol-13",
+        "goodreadsId": "214151635"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 14 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746967514l/220161052.jpg",
+        "url": "https://www.goodreads.com/book/show/220161052-the-way-of-the-househusband-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/220161052-the-way-of-the-househusband-vol-14",
+        "goodreadsId": "220161052"
+      },
+      {
+        "name": "The Way of the Househusband, Vol. 15 (Kousuke Oono)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758200191l/235992105.jpg",
+        "url": "https://www.goodreads.com/book/show/235992105-the-way-of-the-househusband-vol-15",
+        "goodreads": "https://www.goodreads.com/book/show/235992105-the-way-of-the-househusband-vol-15",
+        "goodreadsId": "235992105"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 2 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555128411l/42264867.jpg",
+        "url": "https://www.goodreads.com/book/show/42264867-witch-hat-atelier-vol-2",
+        "goodreads": "https://www.goodreads.com/book/show/42264867-witch-hat-atelier-vol-2",
+        "goodreadsId": "42264867"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 3 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560912288l/43312297.jpg",
+        "url": "https://www.goodreads.com/book/show/43312297-witch-hat-atelier-vol-3",
+        "goodreads": "https://www.goodreads.com/book/show/43312297-witch-hat-atelier-vol-3",
+        "goodreadsId": "43312297"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 4 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571084359l/44784784.jpg",
+        "url": "https://www.goodreads.com/book/show/44784784-witch-hat-atelier-vol-4",
+        "goodreads": "https://www.goodreads.com/book/show/44784784-witch-hat-atelier-vol-4",
+        "goodreadsId": "44784784"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 5 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582138706l/49497694.jpg",
+        "url": "https://www.goodreads.com/book/show/49497694-witch-hat-atelier-vol-5",
+        "goodreads": "https://www.goodreads.com/book/show/49497694-witch-hat-atelier-vol-5",
+        "goodreadsId": "49497694"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 6 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586633198l/52874477.jpg",
+        "url": "https://www.goodreads.com/book/show/52874477-witch-hat-atelier-vol-6",
+        "goodreads": "https://www.goodreads.com/book/show/52874477-witch-hat-atelier-vol-6",
+        "goodreadsId": "52874477"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 7 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607317198l/53130454.jpg",
+        "url": "https://www.goodreads.com/book/show/53130454-witch-hat-atelier-vol-7",
+        "goodreads": "https://www.goodreads.com/book/show/53130454-witch-hat-atelier-vol-7",
+        "goodreadsId": "53130454"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 8 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632081498l/56770286.jpg",
+        "url": "https://www.goodreads.com/book/show/56770286-witch-hat-atelier-vol-8",
+        "goodreads": "https://www.goodreads.com/book/show/56770286-witch-hat-atelier-vol-8",
+        "goodreadsId": "56770286"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 9 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645303448l/59082282.jpg",
+        "url": "https://www.goodreads.com/book/show/59082282-witch-hat-atelier-vol-9",
+        "goodreads": "https://www.goodreads.com/book/show/59082282-witch-hat-atelier-vol-9",
+        "goodreadsId": "59082282"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 10 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654774915l/60914201.jpg",
+        "url": "https://www.goodreads.com/book/show/60914201-witch-hat-atelier-vol-10",
+        "goodreads": "https://www.goodreads.com/book/show/60914201-witch-hat-atelier-vol-10",
+        "goodreadsId": "60914201"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 11 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1679046592l/62672577.jpg",
+        "url": "https://www.goodreads.com/book/show/62672577-witch-hat-atelier-vol-11",
+        "goodreads": "https://www.goodreads.com/book/show/62672577-witch-hat-atelier-vol-11",
+        "goodreadsId": "62672577"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 12 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1705072876l/197522392.jpg",
+        "url": "https://www.goodreads.com/book/show/197522392-witch-hat-atelier-vol-12",
+        "goodreads": "https://www.goodreads.com/book/show/197522392-witch-hat-atelier-vol-12",
+        "goodreadsId": "197522392"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 13 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727385064l/211401518.jpg",
+        "url": "https://www.goodreads.com/book/show/211401518-witch-hat-atelier-vol-13",
+        "goodreads": "https://www.goodreads.com/book/show/211401518-witch-hat-atelier-vol-13",
+        "goodreadsId": "211401518"
+      },
+      {
+        "name": "Witch Hat Atelier, Vol. 14 (Kamome Shirahama)",
+        "category": "Manga",
+        "status": "wanted",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758942244l/236773505.jpg",
+        "url": "https://www.goodreads.com/book/show/236773505-witch-hat-atelier-vol-14",
+        "goodreads": "https://www.goodreads.com/book/show/236773505-witch-hat-atelier-vol-14",
+        "goodreadsId": "236773505"
       }
     ],
     "goodreadsUrl": "https://www.goodreads.com/user/show/194943775",
@@ -8168,9 +9797,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974723577.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642351548l/59365979.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974723577"
+          "goodreads": "https://www.goodreads.com/book/show/59365979-fly-me-to-the-moon-vol-11"
         }
       },
       {
@@ -8186,9 +9815,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974723584.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648408914l/59365980.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974723584"
+          "goodreads": "https://www.goodreads.com/book/show/59365980-fly-me-to-the-moon-vol-12"
         }
       },
       {
@@ -8204,9 +9833,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974728008.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654099946l/60321309.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974728008"
+          "goodreads": "https://www.goodreads.com/book/show/60321309-fly-me-to-the-moon-vol-13"
         }
       },
       {
@@ -8222,9 +9851,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974728015.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657730365l/60321310.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974728015"
+          "goodreads": "https://www.goodreads.com/book/show/60321310-fly-me-to-the-moon-vol-14"
         }
       },
       {
@@ -8240,9 +9869,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974728022.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661086222l/61273576.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974728022"
+          "goodreads": "https://www.goodreads.com/book/show/61273576-fly-me-to-the-moon-vol-15"
         }
       },
       {
@@ -8258,9 +9887,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974729036.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668959666l/61273580.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974729036"
+          "goodreads": "https://www.goodreads.com/book/show/61273580-fly-me-to-the-moon-vol-16"
         }
       },
       {
@@ -8276,9 +9905,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974732302.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673887290l/62919639.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974732302"
+          "goodreads": "https://www.goodreads.com/book/show/62919639-fly-me-to-the-moon-vol-17"
         }
       },
       {
@@ -8294,9 +9923,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974734610.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677589102l/62919642.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974734610"
+          "goodreads": "https://www.goodreads.com/book/show/62919642-fly-me-to-the-moon-vol-18"
         }
       },
       {
@@ -8312,9 +9941,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974737451.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682421692l/101157655.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974737451"
+          "goodreads": "https://www.goodreads.com/book/show/101157655-fly-me-to-the-moon-vol-19"
         }
       },
       {
@@ -8349,9 +9978,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974742851.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1698699380l/176443925.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974742851"
+          "goodreads": "https://www.goodreads.com/book/show/176443925-fly-me-to-the-moon-vol-21"
         }
       },
       {
@@ -8367,9 +9996,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743186.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547355l/176443832.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743186"
+          "goodreads": "https://www.goodreads.com/book/show/176443832-fly-me-to-the-moon-vol-22"
         }
       },
       {
@@ -8385,9 +10014,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974745579.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547385l/199798541.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974745579"
+          "goodreads": "https://www.goodreads.com/book/show/199798541-fly-me-to-the-moon-vol-23"
         }
       },
       {
@@ -8403,9 +10032,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974746040.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713547432l/199798680.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974746040"
+          "goodreads": "https://www.goodreads.com/book/show/199798680-fly-me-to-the-moon-vol-24"
         }
       },
       {
@@ -8421,9 +10050,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974748761.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819505l/207299098.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974748761"
+          "goodreads": "https://www.goodreads.com/book/show/207299098-fly-me-to-the-moon-vol-25"
         }
       },
       {
@@ -8439,9 +10068,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974749775.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819467l/207298504.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974749775"
+          "goodreads": "https://www.goodreads.com/book/show/207298504-fly-me-to-the-moon-vol-26"
         }
       },
       {
@@ -8457,9 +10086,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974752515.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1729092928l/214151598.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974752515"
+          "goodreads": "https://www.goodreads.com/book/show/214151598-fly-me-to-the-moon-vol-27"
         }
       },
       {
@@ -8475,9 +10104,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974754984.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737130257l/220161065.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974754984"
+          "goodreads": "https://www.goodreads.com/book/show/220161065-fly-me-to-the-moon-vol-28"
         }
       },
       {
@@ -8493,9 +10122,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974755967.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1745757925l/220160937.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974755967"
+          "goodreads": "https://www.goodreads.com/book/show/220160937-fly-me-to-the-moon-vol-29"
         }
       },
       {
@@ -8511,9 +10140,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974759385.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754658623l/224004317.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974759385"
+          "goodreads": "https://www.goodreads.com/book/show/224004317-fly-me-to-the-moon-vol-30"
         }
       },
       {
@@ -8529,9 +10158,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974762323.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760084761l/235992664.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974762323"
+          "goodreads": "https://www.goodreads.com/book/show/235992664-fly-me-to-the-moon-vol-31"
         }
       },
       {
@@ -8547,9 +10176,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974716593.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1768436044l/243001262.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974716593"
+          "goodreads": "https://www.goodreads.com/book/show/243001262-fly-me-to-the-moon-vol-32"
         }
       },
       {
@@ -8565,9 +10194,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974766444.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1781286308l/248337230.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974766444"
+          "goodreads": "https://www.goodreads.com/book/show/248337230-fly-me-to-the-moon-vol-33"
         }
       },
       {
@@ -9957,9 +11586,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Fiction, Fantasy & Sci-fi",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4088/9781408855706.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677125645l/59664170.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781408855706"
+          "goodreads": "https://www.goodreads.com/book/show/59664170-harry-potter-and-the-half-blood-prince"
         }
       },
       {
@@ -10135,7 +11764,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "Horimiya, Vol. 1",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 1,
         "status": "wanted",
@@ -10146,14 +11775,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3163/9780316342032.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441227211l/25112904.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316342032"
+          "goodreads": "https://www.goodreads.com/book/show/25112904-horimiya-vol-1"
         }
       },
       {
         "title": "Horimiya, Vol. 2",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 2,
         "status": "wanted",
@@ -10164,14 +11793,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3162/9780316268691.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447876110l/25820252.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316268691"
+          "goodreads": "https://www.goodreads.com/book/show/25820252-horimiya-vol-2"
         }
       },
       {
         "title": "Horimiya, Vol. 3",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 3,
         "status": "wanted",
@@ -10182,14 +11811,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3162/9780316270106.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468028592l/26030689.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316270106"
+          "goodreads": "https://www.goodreads.com/book/show/26030689-horimiya-vol-3"
         }
       },
       {
         "title": "Horimiya, Vol. 4",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 4,
         "status": "wanted",
@@ -10200,14 +11829,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3162/9780316270113.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464061275l/27415373.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316270113"
+          "goodreads": "https://www.goodreads.com/book/show/27415373-horimiya-vol-4"
         }
       },
       {
         "title": "Horimiya, Vol. 5",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 5,
         "status": "wanted",
@@ -10218,14 +11847,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3162/9780316270120.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473686947l/28962897.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316270120"
+          "goodreads": "https://www.goodreads.com/book/show/28962897-horimiya-vol-5"
         }
       },
       {
         "title": "Horimiya, Vol. 6",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 6,
         "status": "wanted",
@@ -10236,14 +11865,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3162/9780316270137.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484931565l/29745346.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316270137"
+          "goodreads": "https://www.goodreads.com/book/show/29745346-horimiya-vol-6"
         }
       },
       {
         "title": "Horimiya, Vol. 7",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 7,
         "status": "wanted",
@@ -10254,14 +11883,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3164/9780316469326.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493193400l/31934060.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316469326"
+          "goodreads": "https://www.goodreads.com/book/show/31934060-horimiya-vol-7"
         }
       },
       {
         "title": "Horimiya, Vol. 8",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 8,
         "status": "wanted",
@@ -10272,12 +11901,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495778255l/33641246.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/33641246-horimiya-vol-8"
+        }
       },
       {
         "title": "Horimiya, Vol. 9",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 9,
         "status": "wanted",
@@ -10288,14 +11919,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3164/9780316473309.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504136066l/34219890.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316473309"
+          "goodreads": "https://www.goodreads.com/book/show/34219890-horimiya-vol-9"
         }
       },
       {
         "title": "Horimiya, Vol. 10",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 10,
         "status": "wanted",
@@ -10306,12 +11937,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514866058l/35959701.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35959701-horimiya-vol-10"
+        }
       },
       {
         "title": "Horimiya, Vol. 11",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 11,
         "status": "wanted",
@@ -10322,12 +11955,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525810720l/36673768.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/36673768-horimiya-vol-11"
+        }
       },
       {
         "title": "Horimiya, Vol. 12",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 12,
         "status": "wanted",
@@ -10338,12 +11973,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539651302l/40538145.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/40538145-horimiya-vol-12"
+        }
       },
       {
         "title": "Horimiya, Vol. 13",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 13,
         "status": "wanted",
@@ -10354,12 +11991,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575414323l/46260386.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/46260386-horimiya-vol-13"
+        }
       },
       {
         "title": "Horimiya, Vol. 14",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 14,
         "status": "wanted",
@@ -10370,12 +12009,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589826926l/50358891.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/50358891-horimiya-vol-14"
+        }
       },
       {
         "title": "Horimiya, Vol. 15",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 15,
         "status": "wanted",
@@ -10386,12 +12027,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621851162l/56817490.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/56817490-horimiya-vol-15"
+        }
       },
       {
         "title": "Horimiya, Vol. 16",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "series": "Horimiya",
         "seriesNo": 16,
         "status": "wanted",
@@ -10402,8 +12045,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677475025l/64007737.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/64007737-horimiya-vol-16"
+        }
       },
       {
         "title": "Software Engineering: International Version (9)",
@@ -11140,9 +12785,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736324.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670795830l/61273649.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736324"
+          "goodreads": "https://www.goodreads.com/book/show/61273649-kaguya-sama"
         }
       },
       {
@@ -11158,9 +12803,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974738755.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678900309l/62919713.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974738755"
+          "goodreads": "https://www.goodreads.com/book/show/62919713-kaguya-sama"
         }
       },
       {
@@ -11176,9 +12821,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974741052.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710954162l/101159346.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974741052"
+          "goodreads": "https://www.goodreads.com/book/show/101159346-kaguya-sama"
         }
       },
       {
@@ -11194,9 +12839,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743421.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710954217l/176443024.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743421"
+          "goodreads": "https://www.goodreads.com/book/show/176443024-kaguya-sama"
         }
       },
       {
@@ -11253,11 +12898,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559016252l/46029443.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/46029443-komi-can-t-communicate-vol-1"
+        }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 2",
+        "title": "Komi Can't Communicate, Vol. 2",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 2,
@@ -11269,11 +12916,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554035239l/42870329.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/42870329-komi-can-t-communicate-vol-2"
+        }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 3",
+        "title": "Komi Can't Communicate, Vol. 3",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 3,
@@ -11285,11 +12934,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561288948l/43909475.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909475-komi-can-t-communicate-vol-3"
+        }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 4",
+        "title": "Komi Can't Communicate, Vol. 4",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 4,
@@ -11301,11 +12952,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564946335l/43909466.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/43909466-komi-can-t-communicate-vol-4"
+        }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 5",
+        "title": "Komi Can't Communicate, Vol. 5",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 5,
@@ -11317,11 +12970,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569757857l/51154948.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/51154948-komi-can-t-communicate-vol-5"
+        }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 6",
+        "title": "Komi Can't Communicate, Vol. 6",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 6,
@@ -11333,8 +12988,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575586960l/53088943.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/53088943-komi-can-t-communicate-vol-6"
+        }
       },
       {
         "title": "Komi Can't Communicate, Vol. 7",
@@ -11356,7 +13013,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 8",
+        "title": "Komi Can't Communicate, Vol. 8",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 8,
@@ -11368,8 +13025,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589897728l/52758148.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/52758148-komi-can-t-communicate-vol-8"
+        }
       },
       {
         "title": "Komi Can't Communicate, Vol. 9",
@@ -11391,7 +13050,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 10",
+        "title": "Komi Can't Communicate, Vol. 10",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 10,
@@ -11403,13 +13062,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717415.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596974365l/50891237.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974717415"
+          "goodreads": "https://www.goodreads.com/book/show/50891237-komi-can-t-communicate-vol-10"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 11",
+        "title": "Komi Can't Communicate, Vol. 11",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 11,
@@ -11421,13 +13080,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718825.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603033421l/54303389.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974718825"
+          "goodreads": "https://www.goodreads.com/book/show/54303389-komi-can-t-communicate-vol-11"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 12",
+        "title": "Komi Can't Communicate, Vol. 12",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 12,
@@ -11439,13 +13098,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718849.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606066497l/54303386.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974718849"
+          "goodreads": "https://www.goodreads.com/book/show/54303386-komi-can-t-communicate-vol-12"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 13",
+        "title": "Komi Can't Communicate, Vol. 13",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 13,
@@ -11457,13 +13116,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718832.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613314703l/55711437.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974718832"
+          "goodreads": "https://www.goodreads.com/book/show/55711437-komi-can-t-communicate-vol-13"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 14",
+        "title": "Komi Can't Communicate, Vol. 14",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 14,
@@ -11475,13 +13134,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718863.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617544425l/55711439.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974718863"
+          "goodreads": "https://www.goodreads.com/book/show/55711439-komi-can-t-communicate-vol-14"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 15",
+        "title": "Komi Can't Communicate, Vol. 15",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 15,
@@ -11493,13 +13152,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974718856.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631106832l/56897999.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974718856"
+          "goodreads": "https://www.goodreads.com/book/show/56897999-komi-can-t-communicate-vol-15"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 16",
+        "title": "Komi Can't Communicate, Vol. 16",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 16,
@@ -11511,13 +13170,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974724543.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628429816l/56898046.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974724543"
+          "goodreads": "https://www.goodreads.com/book/show/56898046-komi-can-t-communicate-vol-16"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 17",
+        "title": "Komi Can't Communicate, Vol. 17",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 17,
@@ -11529,13 +13188,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974724550.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633270503l/58438378.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974724550"
+          "goodreads": "https://www.goodreads.com/book/show/58438378-komi-can-t-communicate-vol-17"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 18",
+        "title": "Komi Can't Communicate, Vol. 18",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 18,
@@ -11547,13 +13206,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974724567.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1637773132l/58438379.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974724567"
+          "goodreads": "https://www.goodreads.com/book/show/58438379-komi-can-t-communicate-vol-18"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 19",
+        "title": "Komi Can't Communicate, Vol. 19",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 19,
@@ -11565,13 +13224,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974731022.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645992140l/59366049.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974731022"
+          "goodreads": "https://www.goodreads.com/book/show/59366049-komi-can-t-communicate-vol-19"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 20",
+        "title": "Komi Can't Communicate, Vol. 20",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 20,
@@ -11583,13 +13242,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974731039.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649384520l/59366050.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974731039"
+          "goodreads": "https://www.goodreads.com/book/show/59366050-komi-can-t-communicate-vol-20"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 21",
+        "title": "Komi Can't Communicate, Vol. 21",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 21,
@@ -11601,13 +13260,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974731046.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655646850l/60321327.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974731046"
+          "goodreads": "https://www.goodreads.com/book/show/60321327-komi-can-t-communicate-vol-21"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 22",
+        "title": "Komi Can't Communicate, Vol. 22",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 22,
@@ -11619,13 +13278,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974732081.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658674829l/60321329.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974732081"
+          "goodreads": "https://www.goodreads.com/book/show/60321329-komi-can-t-communicate-vol-22"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 23",
+        "title": "Komi Can't Communicate, Vol. 23",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 23,
@@ -11637,13 +13296,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974734016.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664381721l/61273600.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974734016"
+          "goodreads": "https://www.goodreads.com/book/show/61273600-komi-can-t-communicate-vol-23"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 24",
+        "title": "Komi Can't Communicate, Vol. 24",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 24,
@@ -11655,13 +13314,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736799.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670168604l/61273668.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736799"
+          "goodreads": "https://www.goodreads.com/book/show/61273668-komi-can-t-communicate-vol-24"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 25",
+        "title": "Komi Can't Communicate, Vol. 25",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 25,
@@ -11673,13 +13332,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974737048.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676826660l/62919675.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974737048"
+          "goodreads": "https://www.goodreads.com/book/show/62919675-komi-can-t-communicate-vol-25"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 26",
+        "title": "Komi Can't Communicate, Vol. 26",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 26,
@@ -11691,13 +13350,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974738885.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678035867l/62919720.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974738885"
+          "goodreads": "https://www.goodreads.com/book/show/62919720-komi-can-t-communicate-vol-26"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 27",
+        "title": "Komi Can't Communicate, Vol. 27",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 27,
@@ -11709,13 +13368,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974740635.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699402618l/101158794.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974740635"
+          "goodreads": "https://www.goodreads.com/book/show/101158794-komi-can-t-communicate-vol-27"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 28",
+        "title": "Komi Can't Communicate, Vol. 28",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 28,
@@ -11727,13 +13386,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974742899.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706917289l/176443781.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974742899"
+          "goodreads": "https://www.goodreads.com/book/show/176443781-komi-can-t-communicate-vol-28"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 29",
+        "title": "Komi Can't Communicate, Vol. 29",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 29,
@@ -11745,13 +13404,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743711.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1713912532l/176443907.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743711"
+          "goodreads": "https://www.goodreads.com/book/show/176443907-komi-can-t-communicate-vol-29"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 30",
+        "title": "Komi Can't Communicate, Vol. 30",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 30,
@@ -11763,13 +13422,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974746101.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715721312l/199798701.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974746101"
+          "goodreads": "https://www.goodreads.com/book/show/199798701-komi-can-t-communicate-vol-30"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 31",
+        "title": "Komi Can't Communicate, Vol. 31",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 31,
@@ -11781,13 +13440,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974749034.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1718819489l/207298839.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974749034"
+          "goodreads": "https://www.goodreads.com/book/show/207298839-komi-can-t-communicate-vol-31"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 32",
+        "title": "Komi Can't Communicate, Vol. 32",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 32,
@@ -11799,13 +13458,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974751549.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1737739881l/214151627.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974751549"
+          "goodreads": "https://www.goodreads.com/book/show/214151627-komi-can-t-communicate-vol-32"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 33",
+        "title": "Komi Can't Communicate, Vol. 33",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 33,
@@ -11817,13 +13476,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974752638.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746020395l/214151406.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974752638"
+          "goodreads": "https://www.goodreads.com/book/show/214151406-komi-can-t-communicate-vol-33"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 34",
+        "title": "Komi Can't Communicate, Vol. 34",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 34,
@@ -11835,13 +13494,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974755714.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746329770l/220161131.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974755714"
+          "goodreads": "https://www.goodreads.com/book/show/220161131-komi-can-t-communicate-vol-34"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 35",
+        "title": "Komi Can't Communicate, Vol. 35",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 35,
@@ -11853,13 +13512,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974758401.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752237229l/224004634.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974758401"
+          "goodreads": "https://www.goodreads.com/book/show/224004634-komi-can-t-communicate-vol-35"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 36",
+        "title": "Komi Can't Communicate, Vol. 36",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 36,
@@ -11871,13 +13530,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974759163.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754830360l/224004747.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974759163"
+          "goodreads": "https://www.goodreads.com/book/show/224004747-komi-can-t-communicate-vol-36"
         }
       },
       {
-        "title": "Komi Can\u2019t Communicate, Vol. 37",
+        "title": "Komi Can't Communicate, Vol. 37",
         "author": "Tomohito Oda",
         "series": "Komi Can\u2019t Communicate",
         "seriesNo": 37,
@@ -11889,9 +13548,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974761456.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760084737l/235992080.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974761456"
+          "goodreads": "https://www.goodreads.com/book/show/235992080-komi-can-t-communicate-vol-37"
         }
       },
       {
@@ -12289,9 +13948,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421582702.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437370282l/25111261.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421582702"
+          "goodreads": "https://www.goodreads.com/book/show/25111261-my-hero-academia-vol-2"
         }
       },
       {
@@ -12307,9 +13966,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421585109.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446684728l/25814001.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421585109"
+          "goodreads": "https://www.goodreads.com/book/show/25814001-my-hero-academia-vol-3"
         }
       },
       {
@@ -12325,9 +13984,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421585116.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443734662l/25814066.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421585116"
+          "goodreads": "https://www.goodreads.com/book/show/25814066-my-hero-academia-vol-4"
         }
       },
       {
@@ -12343,9 +14002,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421587028.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457907805l/27406773.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421587028"
+          "goodreads": "https://www.goodreads.com/book/show/27406773-my-hero-academia-vol-5"
         }
       },
       {
@@ -12361,9 +14020,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421588667.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465732286l/29499022.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421588667"
+          "goodreads": "https://www.goodreads.com/book/show/29499022-my-hero-academia-vol-6"
         }
       },
       {
@@ -12379,9 +14038,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421590400.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475461600l/31140439.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421590400"
+          "goodreads": "https://www.goodreads.com/book/show/31140439-my-hero-academia-vol-7"
         }
       },
       {
@@ -12397,9 +14056,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421591674.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484903132l/31140451.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421591674"
+          "goodreads": "https://www.goodreads.com/book/show/31140451-my-hero-academia-vol-8"
         }
       },
       {
@@ -12415,8 +14074,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492802218l/32919026.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/32919026-my-hero-academia-vol-9"
+        }
       },
       {
         "title": "My Hero Academia, Vol. 10",
@@ -12431,9 +14092,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421594378.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500674526l/34466633.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421594378"
+          "goodreads": "https://www.goodreads.com/book/show/34466633-my-hero-academia-vol-10"
         }
       },
       {
@@ -12449,9 +14110,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421595832.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505658480l/35658128.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421595832"
+          "goodreads": "https://www.goodreads.com/book/show/35658128-my-hero-academia-vol-11"
         }
       },
       {
@@ -12467,9 +14128,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421597010.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514007169l/36455849.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421597010"
+          "goodreads": "https://www.goodreads.com/book/show/36455849-my-hero-academia-vol-12"
         }
       },
       {
@@ -12485,9 +14146,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421598031.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517416179l/36538838.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421598031"
+          "goodreads": "https://www.goodreads.com/book/show/36538838-my-hero-academia-vol-13"
         }
       },
       {
@@ -12503,9 +14164,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4215/9781421599472.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530434141l/36538797.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781421599472"
+          "goodreads": "https://www.goodreads.com/book/show/36538797-my-hero-academia-vol-14"
         }
       },
       {
@@ -12521,9 +14182,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974701001.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528232938l/38471699.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974701001"
+          "goodreads": "https://www.goodreads.com/book/show/38471699-my-hero-academia-vol-15"
         }
       },
       {
@@ -12539,9 +14200,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974702558.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534537655l/38926380.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974702558"
+          "goodreads": "https://www.goodreads.com/book/show/38926380-my-hero-academia-vol-16"
         }
       },
       {
@@ -12557,9 +14218,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974702565.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535881570l/40639144.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974702565"
+          "goodreads": "https://www.goodreads.com/book/show/40639144-my-hero-academia-vol-17"
         }
       },
       {
@@ -12575,9 +14236,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974704378.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545498348l/40639167.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974704378"
+          "goodreads": "https://www.goodreads.com/book/show/40639167-my-hero-academia-vol-18"
         }
       },
       {
@@ -12593,9 +14254,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974704606.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549248735l/42640829.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974704606"
+          "goodreads": "https://www.goodreads.com/book/show/42640829-my-hero-academia-vol-19"
         }
       },
       {
@@ -12611,9 +14272,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974707737.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552848502l/42640803.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974707737"
+          "goodreads": "https://www.goodreads.com/book/show/42640803-my-hero-academia-vol-20"
         }
       },
       {
@@ -12629,9 +14290,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709502.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555270233l/43909390.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974709502"
+          "goodreads": "https://www.goodreads.com/book/show/43909390-my-hero-academia-vol-21"
         }
       },
       {
@@ -12647,9 +14308,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709656.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565526251l/43909387.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974709656"
+          "goodreads": "https://www.goodreads.com/book/show/43909387-my-hero-academia-vol-22"
         }
       },
       {
@@ -12665,9 +14326,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709663.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569757728l/52179112.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974709663"
+          "goodreads": "https://www.goodreads.com/book/show/52179112-my-hero-academia-vol-23"
         }
       },
       {
@@ -12683,9 +14344,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974711208.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854602l/52757933.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974711208"
+          "goodreads": "https://www.goodreads.com/book/show/52757933-my-hero-academia-vol-24"
         }
       },
       {
@@ -12701,9 +14362,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974717620.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590329087l/50891136.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974717620"
+          "goodreads": "https://www.goodreads.com/book/show/50891136-my-hero-academia-vol-25"
         }
       },
       {
@@ -12719,9 +14380,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974719778.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596375347l/54303320.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974719778"
+          "goodreads": "https://www.goodreads.com/book/show/54303320-my-hero-academia-vol-26"
         }
       },
       {
@@ -12737,9 +14398,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974721016.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606066486l/54303336.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974721016"
+          "goodreads": "https://www.goodreads.com/book/show/54303336-my-hero-academia-vol-27"
         }
       },
       {
@@ -12755,9 +14416,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974722884.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611497720l/55711503.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974722884"
+          "goodreads": "https://www.goodreads.com/book/show/55711503-my-hero-academia-vol-28"
         }
       },
       {
@@ -12773,9 +14434,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974725106.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618758530l/56898057.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974725106"
+          "goodreads": "https://www.goodreads.com/book/show/56898057-my-hero-academia-vol-29"
         }
       },
       {
@@ -12791,9 +14452,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974727155.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634748519l/58438416.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974727155"
+          "goodreads": "https://www.goodreads.com/book/show/58438416-my-hero-academia-vol-30"
         }
       },
       {
@@ -12809,9 +14470,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974732128.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647192275l/59366062.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974732128"
+          "goodreads": "https://www.goodreads.com/book/show/59366062-my-hero-academia-vol-31"
         }
       },
       {
@@ -12827,9 +14488,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974732364.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653220927l/60321338.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974732364"
+          "goodreads": "https://www.goodreads.com/book/show/60321338-my-hero-academia-vol-32"
         }
       },
       {
@@ -12845,9 +14506,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974734740.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663517694l/61273616.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974734740"
+          "goodreads": "https://www.goodreads.com/book/show/61273616-my-hero-academia-vol-33"
         }
       },
       {
@@ -12863,9 +14524,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736638.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670273849l/62919656.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736638"
+          "goodreads": "https://www.goodreads.com/book/show/62919656-my-hero-academia-vol-34"
         }
       },
       {
@@ -12881,9 +14542,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974739097.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681060855l/101158154.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974739097"
+          "goodreads": "https://www.goodreads.com/book/show/101158154-my-hero-academia-vol-35"
         }
       },
       {
@@ -12899,9 +14560,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974741083.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693335904l/101159408.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974741083"
+          "goodreads": "https://www.goodreads.com/book/show/101159408-my-hero-academia-vol-36"
         }
       },
       {
@@ -12917,9 +14578,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743247.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1704117183l/176443461.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743247"
+          "goodreads": "https://www.goodreads.com/book/show/176443461-my-hero-academia-vol-37"
         }
       },
       {
@@ -12935,9 +14596,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974745845.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1712370333l/199798550.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974745845"
+          "goodreads": "https://www.goodreads.com/book/show/199798550-my-hero-academia-vol-38"
         }
       },
       {
@@ -12953,9 +14614,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974749645.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715404211l/207299159.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974749645"
+          "goodreads": "https://www.goodreads.com/book/show/207299159-my-hero-academia-vol-39"
         }
       },
       {
@@ -12971,9 +14632,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974752737.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725342174l/214151809.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974752737"
+          "goodreads": "https://www.goodreads.com/book/show/214151809-my-hero-academia-vol-40"
         }
       },
       {
@@ -12989,9 +14650,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974755882.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738263572l/220160957.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974755882"
+          "goodreads": "https://www.goodreads.com/book/show/220160957-my-hero-academia-vol-41"
         }
       },
       {
@@ -13007,9 +14668,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974759187.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746096835l/224004299.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974759187"
+          "goodreads": "https://www.goodreads.com/book/show/224004299-my-hero-academia-vol-42"
         }
       },
       {
@@ -13142,7 +14803,7 @@ window.SITE_CONTENT = {
         }
       },
       {
-        "title": "No Game, No Life, Vol. 3",
+        "title": "No Game No Life, Vol. 3",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 3,
@@ -13154,11 +14815,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444605549l/24819539.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/24819539-no-game-no-life-vol-3"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 4",
+        "title": "No Game, No Life Vol. 4",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 4,
@@ -13170,11 +14833,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416674868l/23600047.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/23600047-no-game-no-life-vol-4"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 5",
+        "title": "No Game, No Life Vol. 5",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 5,
@@ -13186,11 +14851,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416675209l/23600059.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/23600059-no-game-no-life-vol-5"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 6",
+        "title": "No Game No Life, Vol. 6",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 6,
@@ -13202,11 +14869,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496606617l/27415453.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/27415453-no-game-no-life-vol-6"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 7",
+        "title": "No Game No Life, Vol. 7",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 7,
@@ -13218,11 +14887,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652813404l/32052057.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/32052057-no-game-no-life-vol-7"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 8",
+        "title": "No Game No Life, Vol. 8",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 8,
@@ -13234,11 +14905,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639054990l/35564228.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/35564228-no-game-no-life-vol-8"
+        }
       },
       {
-        "title": "No Game, No Life, Vol. 9",
+        "title": "No Game No Life, Vol. 9 (light novel)",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 9,
@@ -13250,13 +14923,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9780/3164/9780316471343.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568302521l/39834482.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9780316471343"
+          "goodreads": "https://www.goodreads.com/book/show/39834482-no-game-no-life-vol-9"
         }
       },
       {
-        "title": "No Game, No Life, Vol. 10",
+        "title": "No Game No Life, Vol. 10 (light novel)",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 10,
@@ -13268,13 +14941,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9753/9781975386788.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580193373l/51948693.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781975386788"
+          "goodreads": "https://www.goodreads.com/book/show/51948693-no-game-no-life-vol-10"
         }
       },
       {
-        "title": "No Game, No Life, Vol. 11",
+        "title": "No Game No Life, Vol. 11 (light novel)",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 11,
@@ -13286,13 +14959,13 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9753/9781975345495.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649039029l/59684597.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781975345495"
+          "goodreads": "https://www.goodreads.com/book/show/59684597-no-game-no-life-vol-11"
         }
       },
       {
-        "title": "No Game, No Life, Vol. 12",
+        "title": "No Game No Life, Vol. 12 (light novel)",
         "author": "Yuu Kamiya",
         "series": "No Game, No Life",
         "seriesNo": 12,
@@ -13304,8 +14977,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1710852433l/166411138.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/166411138-no-game-no-life-vol-12"
+        }
       },
       {
         "title": "Pok\u00e9mon Crochet Vol 2: Bring even more Pok\u00e9mon to life with 20 cute crochet patterns",
@@ -13667,9 +15342,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974721030.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603034185l/54303339.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974721030"
+          "goodreads": "https://www.goodreads.com/book/show/54303339-spy-x-family-vol-4"
         }
       },
       {
@@ -13685,9 +15360,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974722945.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894640l/55711508.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974722945"
+          "goodreads": "https://www.goodreads.com/book/show/55711508-spy-x-family-vol-5"
         }
       },
       {
@@ -13703,9 +15378,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974725137.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622386190l/56898061.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974725137"
+          "goodreads": "https://www.goodreads.com/book/show/56898061-spy-x-family-vol-6"
         }
       },
       {
@@ -13721,9 +15396,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974728480.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636301952l/58438436.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974728480"
+          "goodreads": "https://www.goodreads.com/book/show/58438436-spy-x-family-vol-7"
         }
       },
       {
@@ -13739,9 +15414,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974734276.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656262798l/60321373.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974734276"
+          "goodreads": "https://www.goodreads.com/book/show/60321373-spy-x-family-vol-8"
         }
       },
       {
@@ -13757,9 +15432,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736287.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683888682l/61234945.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736287"
+          "goodreads": "https://www.goodreads.com/book/show/61234945-spy-x-family-vol-9"
         }
       },
       {
@@ -13775,9 +15450,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974740673.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701256525l/101158877.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974740673"
+          "goodreads": "https://www.goodreads.com/book/show/101158877-spy-x-family-vol-10"
         }
       },
       {
@@ -13793,9 +15468,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743292.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695586162l/176443110.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743292"
+          "goodreads": "https://www.goodreads.com/book/show/176443110-spy-x-family-vol-11"
         }
       },
       {
@@ -13811,9 +15486,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974747054.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711657984l/199798814.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974747054"
+          "goodreads": "https://www.goodreads.com/book/show/199798814-spy-x-family-vol-12"
         }
       },
       {
@@ -13829,9 +15504,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974751983.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1733238317l/214151347.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974751983"
+          "goodreads": "https://www.goodreads.com/book/show/214151347-spy-x-family-vol-13"
         }
       },
       {
@@ -13847,9 +15522,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974756001.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744217207l/220161144.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974756001"
+          "goodreads": "https://www.goodreads.com/book/show/220161144-spy-x-family-vol-14"
         }
       },
       {
@@ -13865,9 +15540,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974759170.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754484857l/224004667.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974759170"
+          "goodreads": "https://www.goodreads.com/book/show/224004667-spy-x-family-vol-15"
         }
       },
       {
@@ -13966,7 +15641,7 @@ window.SITE_CONTENT = {
       },
       {
         "title": "The Apothecary Diaries, Vol. 1",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 1,
         "status": "wanted",
@@ -13977,14 +15652,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090709.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591024456l/51943415.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090709"
+          "goodreads": "https://www.goodreads.com/book/show/51943415-the-apothecary-diaries-vol-1"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 2",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 2,
         "status": "wanted",
@@ -13995,14 +15670,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090716.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604382419l/54735505.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090716"
+          "goodreads": "https://www.goodreads.com/book/show/54735505-the-apothecary-diaries-vol-2"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 3",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 3,
         "status": "wanted",
@@ -14013,14 +15688,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090723.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626235021l/57033876.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090723"
+          "goodreads": "https://www.goodreads.com/book/show/57033876-the-apothecary-diaries-vol-3"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 4",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 4,
         "status": "wanted",
@@ -14031,14 +15706,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090730.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630956838l/57033897.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090730"
+          "goodreads": "https://www.goodreads.com/book/show/57033897-the-apothecary-diaries-vol-4"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 5",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 5,
         "status": "wanted",
@@ -14049,14 +15724,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090747.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656316897l/58305942.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090747"
+          "goodreads": "https://www.goodreads.com/book/show/58305942-the-apothecary-diaries-vol-5"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 6",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 6,
         "status": "wanted",
@@ -14067,14 +15742,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646090860.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664064878l/59082292.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646090860"
+          "goodreads": "https://www.goodreads.com/book/show/59082292-the-apothecary-diaries-vol-6"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 7",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 7,
         "status": "wanted",
@@ -14085,14 +15760,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646091201.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666033669l/61048560.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646091201"
+          "goodreads": "https://www.goodreads.com/book/show/61048560-the-apothecary-diaries-vol-7"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 8",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 8,
         "status": "wanted",
@@ -14103,14 +15778,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646091348.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684786220l/61105561.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646091348"
+          "goodreads": "https://www.goodreads.com/book/show/61105561-the-apothecary-diaries-vol-8"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 9",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 9,
         "status": "wanted",
@@ -14121,12 +15796,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1691513960l/62583370.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/62583370-the-apothecary-diaries-vol-9"
+        }
       },
       {
         "title": "The Apothecary Diaries, Vol. 10",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 10,
         "status": "wanted",
@@ -14137,14 +15814,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646091362.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690810696l/63837791.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646091362"
+          "goodreads": "https://www.goodreads.com/book/show/63837791-the-apothecary-diaries-vol-10"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 11",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 11,
         "status": "wanted",
@@ -14155,14 +15832,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646092529.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1702452213l/150065146.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646092529"
+          "goodreads": "https://www.goodreads.com/book/show/150065146-the-apothecary-diaries-vol-11"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 12",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 12,
         "status": "wanted",
@@ -14173,14 +15850,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6460/9781646092963.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716863906l/203162298.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646092963"
+          "goodreads": "https://www.goodreads.com/book/show/203162298-the-apothecary-diaries-vol-12"
         }
       },
       {
         "title": "The Apothecary Diaries, Vol. 13",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 13,
         "status": "wanted",
@@ -14191,12 +15868,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732425469l/214274128.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/214274128-the-apothecary-diaries-vol-13"
+        }
       },
       {
         "title": "The Apothecary Diaries, Vol. 14",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 14,
         "status": "wanted",
@@ -14207,12 +15886,14 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753286065l/223363627.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/223363627-the-apothecary-diaries-vol-14"
+        }
       },
       {
         "title": "The Apothecary Diaries, Vol. 15",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "series": "The Apothecary Diaries",
         "seriesNo": 15,
         "status": "wanted",
@@ -14223,8 +15904,10 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "",
-        "links": {}
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775489869l/236773531.jpg",
+        "links": {
+          "goodreads": "https://www.goodreads.com/book/show/236773531-the-apothecary-diaries-vol-15"
+        }
       },
       {
         "title": "The Shadow Of The Wind",
@@ -14296,9 +15979,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Fiction, Fantasy & Sci-fi",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/4746/9781474606189.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536570952l/39099067.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781474606189"
+          "goodreads": "https://www.goodreads.com/book/show/39099067-the-labyrinth-of-the-spirits"
         }
       },
       {
@@ -14816,9 +16499,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Zelda",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974719822.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603750659l/54303358.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974719822"
+          "goodreads": "https://www.goodreads.com/book/show/54303358-the-legend-of-zelda"
         }
       },
       {
@@ -14834,9 +16517,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Zelda",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974723386.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616337025l/55711513.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974723386"
+          "goodreads": "https://www.goodreads.com/book/show/55711513-the-legend-of-zelda"
         }
       },
       {
@@ -14852,9 +16535,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Zelda",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974734047.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1648408820l/60321362.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974734047"
+          "goodreads": "https://www.goodreads.com/book/show/60321362-the-legend-of-zelda"
         }
       },
       {
@@ -14870,9 +16553,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Zelda",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736508.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673299332l/61273656.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736508"
+          "goodreads": "https://www.goodreads.com/book/show/61273656-the-legend-of-zelda"
         }
       },
       {
@@ -14888,9 +16571,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974709403.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559525094l/44018869.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974709403"
+          "goodreads": "https://www.goodreads.com/book/show/44018869-the-way-of-the-househusband-vol-1"
         }
       },
       {
@@ -14906,9 +16589,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974710447.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567950935l/44025159.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974710447"
+          "goodreads": "https://www.goodreads.com/book/show/44025159-the-way-of-the-househusband-vol-2"
         }
       },
       {
@@ -14962,9 +16645,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974721771.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612105400l/55711478.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974721771"
+          "goodreads": "https://www.goodreads.com/book/show/55711478-the-way-of-the-househusband-vol-5"
         }
       },
       {
@@ -14980,9 +16663,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974724611.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1619967023l/56898051.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974724611"
+          "goodreads": "https://www.goodreads.com/book/show/56898051-the-way-of-the-househusband-vol-6"
         }
       },
       {
@@ -14998,9 +16681,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974727285.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634487684l/58438424.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974727285"
+          "goodreads": "https://www.goodreads.com/book/show/58438424-the-way-of-the-househusband-vol-7"
         }
       },
       {
@@ -15016,9 +16699,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974732234.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655047079l/59366072.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974732234"
+          "goodreads": "https://www.goodreads.com/book/show/59366072-the-way-of-the-househusband-vol-8"
         }
       },
       {
@@ -15034,9 +16717,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974736157.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667144859l/61273632.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974736157"
+          "goodreads": "https://www.goodreads.com/book/show/61273632-the-way-of-the-househusband-vol-9"
         }
       },
       {
@@ -15052,9 +16735,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974738762.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681060752l/62919714.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974738762"
+          "goodreads": "https://www.goodreads.com/book/show/62919714-the-way-of-the-househusband-vol-10"
         }
       },
       {
@@ -15070,9 +16753,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974743100.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1707405270l/176444115.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974743100"
+          "goodreads": "https://www.goodreads.com/book/show/176444115-the-way-of-the-househusband-vol-11"
         }
       },
       {
@@ -15088,9 +16771,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974746385.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714907981l/199798572.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974746385"
+          "goodreads": "https://www.goodreads.com/book/show/199798572-the-way-of-the-househusband-vol-12"
         }
       },
       {
@@ -15106,9 +16789,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974751990.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730086853l/214151635.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974751990"
+          "goodreads": "https://www.goodreads.com/book/show/214151635-the-way-of-the-househusband-vol-13"
         }
       },
       {
@@ -15124,9 +16807,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974755349.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746967514l/220161052.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974755349"
+          "goodreads": "https://www.goodreads.com/book/show/220161052-the-way-of-the-househusband-vol-14"
         }
       },
       {
@@ -15142,9 +16825,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/9747/9781974761302.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758200191l/235992105.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781974761302"
+          "goodreads": "https://www.goodreads.com/book/show/235992105-the-way-of-the-househusband-vol-15"
         }
       },
       {
@@ -15250,9 +16933,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6323/9781632368041.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555128411l/42264867.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781632368041"
+          "goodreads": "https://www.goodreads.com/book/show/42264867-witch-hat-atelier-vol-2"
         }
       },
       {
@@ -15268,9 +16951,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6323/9781632368058.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560912288l/43312297.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781632368058"
+          "goodreads": "https://www.goodreads.com/book/show/43312297-witch-hat-atelier-vol-3"
         }
       },
       {
@@ -15286,9 +16969,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6323/9781632368607.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571084359l/44784784.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781632368607"
+          "goodreads": "https://www.goodreads.com/book/show/44784784-witch-hat-atelier-vol-4"
         }
       },
       {
@@ -15304,9 +16987,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6323/9781632369291.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582138706l/49497694.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781632369291"
+          "goodreads": "https://www.goodreads.com/book/show/49497694-witch-hat-atelier-vol-5"
         }
       },
       {
@@ -15322,9 +17005,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646510108.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586633198l/52874477.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646510108"
+          "goodreads": "https://www.goodreads.com/book/show/52874477-witch-hat-atelier-vol-6"
         }
       },
       {
@@ -15340,9 +17023,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646510788.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607317198l/53130454.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646510788"
+          "goodreads": "https://www.goodreads.com/book/show/53130454-witch-hat-atelier-vol-7"
         }
       },
       {
@@ -15358,9 +17041,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646512690.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632081498l/56770286.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646512690"
+          "goodreads": "https://www.goodreads.com/book/show/56770286-witch-hat-atelier-vol-8"
         }
       },
       {
@@ -15376,9 +17059,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646514472.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645303448l/59082282.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646514472"
+          "goodreads": "https://www.goodreads.com/book/show/59082282-witch-hat-atelier-vol-9"
         }
       },
       {
@@ -15394,9 +17077,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646516186.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654774915l/60914201.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646516186"
+          "goodreads": "https://www.goodreads.com/book/show/60914201-witch-hat-atelier-vol-10"
         }
       },
       {
@@ -15412,9 +17095,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9781/6465/9781646517459.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1679046592l/62672577.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9781646517459"
+          "goodreads": "https://www.goodreads.com/book/show/62672577-witch-hat-atelier-vol-11"
         }
       },
       {
@@ -15430,9 +17113,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9798/8887/9798888770795.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1705072876l/197522392.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9798888770795"
+          "goodreads": "https://www.goodreads.com/book/show/197522392-witch-hat-atelier-vol-12"
         }
       },
       {
@@ -15448,9 +17131,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9798/8887/9798888773307.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727385064l/211401518.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9798888773307"
+          "goodreads": "https://www.goodreads.com/book/show/211401518-witch-hat-atelier-vol-13"
         }
       },
       {
@@ -15466,9 +17149,9 @@ window.SITE_CONTENT = {
         ],
         "audiobook": false,
         "type": "Manga",
-        "img": "https://cdn.waterstones.com/bookjackets/large/9798/8887/9798888776858.jpg",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1758942244l/236773505.jpg",
         "links": {
-          "waterstones": "https://www.waterstones.com/book/x/x/9798888776858"
+          "goodreads": "https://www.goodreads.com/book/show/236773505-witch-hat-atelier-vol-14"
         }
       },
       {
@@ -21777,9 +23460,7 @@ window.SITE_CONTENT = {
         "status": "100% Cotton",
         "img": "https://assets.nintendo.eu/image/private/f_auto,c_limit,w_488,q_auto:eco:sensitive/psrjeojnzboplvopd1wc",
         "url": "https://store.nintendo.com/en-gb/the-legend-of-zelda-hylian-crest-shirt-P00215",
-        "group": "zelda",
-        "validated": true,
-        "orderDate": "2026-10-21"
+        "group": "zelda"
       },
       {
         "id": "spiny-shell-large-soft-toy-super-mario-000000000010020183",

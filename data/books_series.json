@@ -1,0 +1,229 @@
+{
+  "collections": [
+    {
+      "match": "lonely planet|phrasebook",
+      "series": "Lonely Planet Phrasebooks"
+    },
+    {
+      "match": "\\(Encyclopedia Cookbooks\\)",
+      "series": "Encyclopedia Cookbooks"
+    },
+    {
+      "match": "pok[eé]mon crochet",
+      "series": "Pokémon Crochet"
+    },
+    {
+      "match": "delicious in dungeon",
+      "series": "Delicious in Dungeon",
+      "numbered": true
+    },
+    {
+      "match": "mythos|heroes|troy|odyssey|greek myth|great mythology",
+      "author": "stephen fry",
+      "series": "Stephen Fry's Greek Myths",
+      "numbered": true
+    },
+    {
+      "match": "zelda",
+      "author": "himekawa",
+      "exclude": "twilight princess",
+      "series": "The Legend of Zelda manga",
+      "numbered": true
+    },
+    {
+      "match": "zelda.*(hyrule historia|art & artifacts|encyclopedia|creating a champion|secrets of the zonai)",
+      "series": "Zelda art & lore books"
+    },
+    {
+      "match": "(zelda|hyrule).*(prima|official (game )?guide|collector's edition guide)",
+      "series": "Zelda strategy guides"
+    }
+  ],
+  "notes": {
+    "Food Wars!: Shokugeki no Soma": {
+      "status": "complete",
+      "volumes": 36,
+      "note": "No official English box set; paperback only",
+      "fill": true,
+      "released": 36
+    },
+    "Kaguya-sama: Love Is War": {
+      "status": "complete",
+      "volumes": 28,
+      "note": "Paperback only",
+      "fill": true,
+      "released": 28
+    },
+    "Fullmetal Alchemist: Fullmetal Edition": {
+      "status": "complete",
+      "volumes": 18,
+      "edition": "Hardback Fullmetal Edition (best version)",
+      "boxSet": {
+        "name": "Complete Box Set (27 paperbacks)"
+      },
+      "fill": true,
+      "released": 18
+    },
+    "Delicious in Dungeon": {
+      "status": "complete",
+      "volumes": 14,
+      "boxSet": {
+        "name": "The Complete Box Set (mimic chest, 9798855413786)",
+        "url": "https://www.waterstones.com/book/x/x/9798855413786"
+      },
+      "note": "Wanted as the Complete Box Set"
+    },
+    "The Legend of Zelda: Twilight Princess": {
+      "status": "complete",
+      "volumes": 11,
+      "boxSet": {
+        "name": "Complete Box Set (9781974749669)",
+        "url": "https://www.waterstones.com/book/x/x/9781974749669"
+      },
+      "fill": true,
+      "released": 11
+    },
+    "The Legend of Zelda: Legendary Edition": {
+      "status": "complete",
+      "volumes": 5
+    },
+    "Fly Me to the Moon": {
+      "status": "ongoing",
+      "volumes": 33,
+      "fill": true,
+      "released": 33
+    },
+    "Spy x Family": {
+      "status": "ongoing",
+      "fill": true,
+      "released": 15,
+      "volumes": 15
+    },
+    "The Way of the Househusband": {
+      "status": "ongoing",
+      "fill": true,
+      "released": 15,
+      "volumes": 15
+    },
+    "Witch Hat Atelier": {
+      "status": "ongoing",
+      "fill": true,
+      "released": 14,
+      "volumes": 14
+    },
+    "No Game, No Life": {
+      "status": "ongoing",
+      "note": "Light novels, on hiatus",
+      "fill": true,
+      "released": 12,
+      "volumes": 12,
+      "lightNovel": true
+    },
+    "Komi Can’t Communicate": {
+      "status": "complete",
+      "volumes": 37,
+      "fill": true,
+      "released": 37
+    },
+    "My Hero Academia": {
+      "status": "complete",
+      "volumes": 42,
+      "fill": true,
+      "released": 42
+    },
+    "Harry Potter": {
+      "status": "complete",
+      "volumes": 7,
+      "edition": "Hardback",
+      "boxSet": {
+        "name": "Hardback Box Set (9781408856789)",
+        "url": "https://www.waterstones.com/book/x/x/9781408856789"
+      },
+      "fill": true,
+      "released": 7,
+      "titles": {
+        "6": "Harry Potter and the Half-Blood Prince"
+      }
+    },
+    "Artemis Fowl": {
+      "status": "complete",
+      "volumes": 8,
+      "boxSet": {
+        "name": "8-book paperback box set"
+      }
+    },
+    "A Court of Thorns and Roses": {
+      "status": "ongoing",
+      "volumes": 5,
+      "note": "More books announced",
+      "boxSet": {
+        "name": "Hardcover Box Set (9781635577716)",
+        "url": "https://www.waterstones.com/book/x/x/9781635577716"
+      },
+      "fill": true,
+      "released": 5
+    },
+    "The Cemetery of Forgotten Books": {
+      "status": "complete",
+      "volumes": 4,
+      "fill": true,
+      "released": 4,
+      "titles": {
+        "4": "The Labyrinth of the Spirits"
+      }
+    },
+    "Mastering the Art of French Cooking": {
+      "status": "complete",
+      "volumes": 2,
+      "boxSet": {
+        "name": "Two-volume hardback boxed set"
+      }
+    },
+    "Pokémon Crochet": {
+      "status": "complete",
+      "volumes": 2
+    },
+    "Stephen Fry's Greek Myths": {
+      "status": "complete",
+      "volumes": 4,
+      "boxSet": {
+        "name": "4-book collection (Mythos, Heroes, Troy, Odyssey)"
+      }
+    },
+    "Horimiya": {
+      "fill": true,
+      "released": 16,
+      "status": "complete",
+      "volumes": 16,
+      "author": "HERO, Daisuke Hagiwara",
+      "note": "English (Yen Press); vol 1 owned in Japanese"
+    },
+    "The Apothecary Diaries": {
+      "fill": true,
+      "released": 15,
+      "status": "ongoing",
+      "volumes": 15,
+      "author": "Natsu Hyuuga, Nekokurage",
+      "note": "English (Square Enix, Nekokurage art); vol 1 owned in Japanese"
+    },
+    "The Inheritance Cycle": {
+      "status": "complete",
+      "volumes": 4,
+      "boxSet": {
+        "name": "4-book hardcover boxed set (9780307930675)"
+      }
+    }
+  },
+  "renames": {
+    "Horimiya 1": "Horimiya",
+    "Kusuriya no Hitorigoto 1": "The Apothecary Diaries",
+    "Inheritance": "The Inheritance Cycle",
+    "Everything Is F*cked: A Book About Hope": "",
+    "Charlie and the Chocolate Factory": "",
+    "No Game No Life Light Novels": "No Game, No Life"
+  },
+  "replaced": [
+    "Horimiya 1",
+    "Kusuriya no Hitorigoto 1"
+  ]
+}

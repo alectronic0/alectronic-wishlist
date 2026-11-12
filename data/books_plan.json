@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-21T08:47:51.198Z",
+  "builtAt": "2026-10-22T20:27:10.502Z",
   "plan": {
     "goodreads": [
       {
@@ -156,190 +156,6 @@
       },
       {
         "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 11",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974723577",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 12",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974723584",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 13",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974728008",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 14",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974728015",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 15",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974728022",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 16",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974729036",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 17",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974732302",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 18",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974734610",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 19",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974737451",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 21",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974742851",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 22",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974743186",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 23",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974745579",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 24",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974746040",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 25",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974748761",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 26",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974749775",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 27",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974752515",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 28",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974754984",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 29",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974755967",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 30",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974759385",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 31",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974762323",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 32",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974716593",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Fly Me to the Moon, Vol. 33",
-        "author": "Kenjirō Hata",
-        "isbn13": "9781974766444",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Harry Potter and the Half-Blood Prince, Vol. 6",
-        "author": "J.K. Rowling",
-        "isbn13": "9781408855706",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
         "title": "The Fat Duck Cookbook",
         "author": "Heston Blumenthal",
         "isbn13": "9780747597377",
@@ -347,453 +163,6 @@
         "needsShelf": false
       },
       {
-        "op": "remove from my-wishlist",
-        "title": "Horimiya 1",
-        "author": "Hero",
-        "isbn13": "9784757535435",
-        "goodreadsId": "16155151"
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 1",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316342032",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 2",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316268691",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 3",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316270106",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 4",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316270113",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 5",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316270120",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 6",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316270137",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 7",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316469326",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 8",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 9",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "9780316473309",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 10",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 11",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 12",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 13",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 14",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 15",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Horimiya, Vol. 16",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Kaguya-sama: Love Is War, Vol. 25",
-        "author": "Aka Akasaka",
-        "isbn13": "9781974736324",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Kaguya-sama: Love Is War, Vol. 26",
-        "author": "Aka Akasaka",
-        "isbn13": "9781974738755",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Kaguya-sama: Love Is War, Vol. 27",
-        "author": "Aka Akasaka",
-        "isbn13": "9781974741052",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Kaguya-sama: Love Is War, Vol. 28",
-        "author": "Aka Akasaka",
-        "isbn13": "9781974743421",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 1",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 2",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 3",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 4",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 5",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 6",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 8",
-        "author": "Tomohito Oda",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 10",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974717415",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 11",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974718825",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 12",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974718849",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 13",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974718832",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 14",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974718863",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 15",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974718856",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 16",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974724543",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 17",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974724550",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 18",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974724567",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 19",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974731022",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 20",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974731039",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 21",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974731046",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 22",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974732081",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 23",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974734016",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 24",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974736799",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 25",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974737048",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 26",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974738885",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 27",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974740635",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 28",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974742899",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 29",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974743711",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 30",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974746101",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 31",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974749034",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 32",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974751549",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 33",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974752638",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 34",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974755714",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 35",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974758401",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 36",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974759163",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Komi Can’t Communicate, Vol. 37",
-        "author": "Tomohito Oda",
-        "isbn13": "9781974761456",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
         "op": "shelve on my-bookcase",
         "title": "Ladybird: How It Works... The Computer",
         "author": "Ladybird 654",
@@ -838,334 +207,6 @@
         "title": "Patrick Quick CS Course Notes",
         "author": "MC68000, CPU Architecture, FSMs & Boolean Logic",
         "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 2",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421582702",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 3",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421585109",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 4",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421585116",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 5",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421587028",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 6",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421588667",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 7",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421590400",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 8",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421591674",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 9",
-        "author": "Kohei Horikoshi",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 10",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421594378",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 11",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421595832",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 12",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421597010",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 13",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421598031",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 14",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781421599472",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 15",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974701001",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 16",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974702558",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 17",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974702565",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 18",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974704378",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 19",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974704606",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 20",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974707737",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 21",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974709502",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 22",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974709656",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 23",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974709663",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 24",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974711208",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 25",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974717620",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 26",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974719778",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 27",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974721016",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 28",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974722884",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 29",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974725106",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 30",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974727155",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 31",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974732128",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 32",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974732364",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 33",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974734740",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 34",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974736638",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 35",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974739097",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 36",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974741083",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 37",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974743247",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 38",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974745845",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 39",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974749645",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 40",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974752737",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 41",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974755882",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "My Hero Academia, Vol. 42",
-        "author": "Kohei Horikoshi",
-        "isbn13": "9781974759187",
         "lookup": true,
         "needsShelf": false
       },
@@ -1187,320 +228,9 @@
       },
       {
         "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 3",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 4",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 5",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 6",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 7",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 8",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 9",
-        "author": "Yuu Kamiya",
-        "isbn13": "9780316471343",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 10",
-        "author": "Yuu Kamiya",
-        "isbn13": "9781975386788",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 11",
-        "author": "Yuu Kamiya",
-        "isbn13": "9781975345495",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "No Game, No Life, Vol. 12",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 4",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974721030",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 5",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974722945",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 6",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974725137",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 7",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974728480",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 8",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974734276",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 9",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974736287",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 10",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974740673",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 11",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974743292",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 12",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974747054",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 13",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974751983",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 14",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974756001",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Spy x Family, Vol. 15",
-        "author": "Tatsuya Endo",
-        "isbn13": "9781974759170",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
         "title": "The Science of Cooking: Every Question Answered to Perfect your Cooking",
         "author": "Stuart Farrimond",
         "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "remove from my-wishlist",
-        "title": "Kusuriya no Hitorigoto 1",
-        "author": "Nekokurage",
-        "isbn13": "9784757554894",
-        "goodreadsId": "36441259"
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 1",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090709",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 2",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090716",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 3",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090723",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 4",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090730",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 5",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090747",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 6",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646090860",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 7",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646091201",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 8",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646091348",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 9",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 10",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646091362",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 11",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646092529",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 12",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "9781646092963",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 13",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 14",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Apothecary Diaries, Vol. 15",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Labyrinth of the Spirits, Vol. 4",
-        "author": "Carlos Ruiz Zafón",
-        "isbn13": "9781474606189",
         "lookup": true,
         "needsShelf": false
       },
@@ -1728,142 +458,6 @@
         "goodreadsId": "7171902"
       },
       {
-        "op": "shelve on my-wishlist",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 8",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974719822",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 9",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974723386",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 10",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974734047",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Legend of Zelda: Twilight Princess, Vol. 11",
-        "author": "Akira Himekawa",
-        "isbn13": "9781974736508",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 1",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974709403",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 2",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974710447",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 5",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974721771",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 6",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974724611",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 7",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974727285",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 8",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974732234",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 9",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974736157",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 10",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974738762",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 11",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974743100",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 12",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974746385",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 13",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974751990",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 14",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974755349",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "The Way of the Househusband, Vol. 15",
-        "author": "Kousuke Oono",
-        "isbn13": "9781974761302",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
         "op": "shelve on my-bookcase",
         "title": "Shibari Colouring Book Series",
         "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
@@ -1876,110 +470,6 @@
         "title": "Shibari Colouring Book Series",
         "author": "Vol 1: Against The Grain, Vol 2: Floorwork, Vol 3: Suspension",
         "isbn13": "",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 2",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781632368041",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 3",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781632368058",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 4",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781632368607",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 5",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781632369291",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 6",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646510108",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 7",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646510788",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 8",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646512690",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 9",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646514472",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 10",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646516186",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 11",
-        "author": "Kamome Shirahama",
-        "isbn13": "9781646517459",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 12",
-        "author": "Kamome Shirahama",
-        "isbn13": "9798888770795",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 13",
-        "author": "Kamome Shirahama",
-        "isbn13": "9798888773307",
-        "lookup": true,
-        "needsShelf": false
-      },
-      {
-        "op": "shelve on my-wishlist",
-        "title": "Witch Hat Atelier, Vol. 14",
-        "author": "Kamome Shirahama",
-        "isbn13": "9798888776858",
         "lookup": true,
         "needsShelf": false
       },
@@ -2265,113 +755,113 @@
       {
         "op": "add",
         "title": "Horimiya, Vol. 1",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316342032",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 2",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316268691",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 3",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270106",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 4",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270113",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 5",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270120",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 6",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270137",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 7",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316469326",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 8",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9780316560191",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 9",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316473309",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 10",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9780316416054",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 11",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975327507",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 12",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975329228",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 13",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975359645",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 14",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975313920",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 15",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975324728",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 16",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975347314",
         "lookup": true
       },
       {
@@ -2406,243 +896,243 @@
         "op": "add",
         "title": "Komi Can’t Communicate, Vol. 1",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974712120",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 2",
+        "title": "Komi Can't Communicate, Vol. 2",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707133",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 3",
+        "title": "Komi Can't Communicate, Vol. 3",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707140",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 4",
+        "title": "Komi Can't Communicate, Vol. 4",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707157",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 5",
+        "title": "Komi Can't Communicate, Vol. 5",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707164",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 6",
+        "title": "Komi Can't Communicate, Vol. 6",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707171",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 8",
+        "title": "Komi Can't Communicate, Vol. 8",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707195",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 10",
+        "title": "Komi Can't Communicate, Vol. 10",
         "author": "Tomohito Oda",
         "isbn13": "9781974717415",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 11",
+        "title": "Komi Can't Communicate, Vol. 11",
         "author": "Tomohito Oda",
         "isbn13": "9781974718825",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 12",
+        "title": "Komi Can't Communicate, Vol. 12",
         "author": "Tomohito Oda",
         "isbn13": "9781974718849",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 13",
+        "title": "Komi Can't Communicate, Vol. 13",
         "author": "Tomohito Oda",
         "isbn13": "9781974718832",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 14",
+        "title": "Komi Can't Communicate, Vol. 14",
         "author": "Tomohito Oda",
         "isbn13": "9781974718863",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 15",
+        "title": "Komi Can't Communicate, Vol. 15",
         "author": "Tomohito Oda",
         "isbn13": "9781974718856",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 16",
+        "title": "Komi Can't Communicate, Vol. 16",
         "author": "Tomohito Oda",
         "isbn13": "9781974724543",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 17",
+        "title": "Komi Can't Communicate, Vol. 17",
         "author": "Tomohito Oda",
         "isbn13": "9781974724550",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 18",
+        "title": "Komi Can't Communicate, Vol. 18",
         "author": "Tomohito Oda",
         "isbn13": "9781974724567",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 19",
+        "title": "Komi Can't Communicate, Vol. 19",
         "author": "Tomohito Oda",
         "isbn13": "9781974731022",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 20",
+        "title": "Komi Can't Communicate, Vol. 20",
         "author": "Tomohito Oda",
         "isbn13": "9781974731039",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 21",
+        "title": "Komi Can't Communicate, Vol. 21",
         "author": "Tomohito Oda",
         "isbn13": "9781974731046",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 22",
+        "title": "Komi Can't Communicate, Vol. 22",
         "author": "Tomohito Oda",
         "isbn13": "9781974732081",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 23",
+        "title": "Komi Can't Communicate, Vol. 23",
         "author": "Tomohito Oda",
         "isbn13": "9781974734016",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 24",
+        "title": "Komi Can't Communicate, Vol. 24",
         "author": "Tomohito Oda",
         "isbn13": "9781974736799",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 25",
+        "title": "Komi Can't Communicate, Vol. 25",
         "author": "Tomohito Oda",
         "isbn13": "9781974737048",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 26",
+        "title": "Komi Can't Communicate, Vol. 26",
         "author": "Tomohito Oda",
         "isbn13": "9781974738885",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 27",
+        "title": "Komi Can't Communicate, Vol. 27",
         "author": "Tomohito Oda",
         "isbn13": "9781974740635",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 28",
+        "title": "Komi Can't Communicate, Vol. 28",
         "author": "Tomohito Oda",
         "isbn13": "9781974742899",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 29",
+        "title": "Komi Can't Communicate, Vol. 29",
         "author": "Tomohito Oda",
         "isbn13": "9781974743711",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 30",
+        "title": "Komi Can't Communicate, Vol. 30",
         "author": "Tomohito Oda",
         "isbn13": "9781974746101",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 31",
+        "title": "Komi Can't Communicate, Vol. 31",
         "author": "Tomohito Oda",
         "isbn13": "9781974749034",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 32",
+        "title": "Komi Can't Communicate, Vol. 32",
         "author": "Tomohito Oda",
         "isbn13": "9781974751549",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 33",
+        "title": "Komi Can't Communicate, Vol. 33",
         "author": "Tomohito Oda",
         "isbn13": "9781974752638",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 34",
+        "title": "Komi Can't Communicate, Vol. 34",
         "author": "Tomohito Oda",
         "isbn13": "9781974755714",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 35",
+        "title": "Komi Can't Communicate, Vol. 35",
         "author": "Tomohito Oda",
         "isbn13": "9781974758401",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 36",
+        "title": "Komi Can't Communicate, Vol. 36",
         "author": "Tomohito Oda",
         "isbn13": "9781974759163",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 37",
+        "title": "Komi Can't Communicate, Vol. 37",
         "author": "Tomohito Oda",
         "isbn13": "9781974761456",
         "lookup": true
@@ -2714,7 +1204,7 @@
         "op": "add",
         "title": "My Hero Academia, Vol. 9",
         "author": "Kohei Horikoshi",
-        "isbn13": "",
+        "isbn13": "9781421593401",
         "lookup": true
       },
       {
@@ -2950,70 +1440,70 @@
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 3",
+        "title": "No Game No Life, Vol. 3",
+        "author": "Yuu Kamiya",
+        "isbn13": "9780316385190",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life Vol. 4",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 4",
+        "title": "No Game, No Life Vol. 5",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 5",
+        "title": "No Game No Life, Vol. 6",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316385268",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 6",
+        "title": "No Game No Life, Vol. 7",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316316439",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 7",
+        "title": "No Game No Life, Vol. 8",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316471374",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 8",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "No Game, No Life, Vol. 9",
+        "title": "No Game No Life, Vol. 9 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9780316471343",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 10",
+        "title": "No Game No Life, Vol. 10 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9781975386788",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 11",
+        "title": "No Game No Life, Vol. 11 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9781975345495",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 12",
+        "title": "No Game No Life, Vol. 12 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
@@ -3112,106 +1602,106 @@
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 1",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090709",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 2",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090716",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 3",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090723",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 4",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090730",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 5",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090747",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 6",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090860",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 7",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091201",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 8",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091348",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 9",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646096206",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 10",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091362",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 11",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646092529",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 12",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646092963",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 13",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646093472",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 14",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646094226",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 15",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646094561",
         "lookup": true
       },
       {
@@ -3730,113 +2220,113 @@
       {
         "op": "add",
         "title": "Horimiya, Vol. 1",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316342032",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 2",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316268691",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 3",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270106",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 4",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270113",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 5",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270120",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 6",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316270137",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 7",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316469326",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 8",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9780316560191",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 9",
-        "author": "HERO, Daisuke Hagiwara",
+        "author": "Hero",
         "isbn13": "9780316473309",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 10",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9780316416054",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 11",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975327507",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 12",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975329228",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 13",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975359645",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 14",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975313920",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 15",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975324728",
         "lookup": true
       },
       {
         "op": "add",
         "title": "Horimiya, Vol. 16",
-        "author": "HERO, Daisuke Hagiwara",
-        "isbn13": "",
+        "author": "Hero",
+        "isbn13": "9781975347314",
         "lookup": true
       },
       {
@@ -3871,243 +2361,243 @@
         "op": "add",
         "title": "Komi Can’t Communicate, Vol. 1",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974712120",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 2",
+        "title": "Komi Can't Communicate, Vol. 2",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707133",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 3",
+        "title": "Komi Can't Communicate, Vol. 3",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707140",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 4",
+        "title": "Komi Can't Communicate, Vol. 4",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707157",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 5",
+        "title": "Komi Can't Communicate, Vol. 5",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707164",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 6",
+        "title": "Komi Can't Communicate, Vol. 6",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707171",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 8",
+        "title": "Komi Can't Communicate, Vol. 8",
         "author": "Tomohito Oda",
-        "isbn13": "",
+        "isbn13": "9781974707195",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 10",
+        "title": "Komi Can't Communicate, Vol. 10",
         "author": "Tomohito Oda",
         "isbn13": "9781974717415",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 11",
+        "title": "Komi Can't Communicate, Vol. 11",
         "author": "Tomohito Oda",
         "isbn13": "9781974718825",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 12",
+        "title": "Komi Can't Communicate, Vol. 12",
         "author": "Tomohito Oda",
         "isbn13": "9781974718849",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 13",
+        "title": "Komi Can't Communicate, Vol. 13",
         "author": "Tomohito Oda",
         "isbn13": "9781974718832",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 14",
+        "title": "Komi Can't Communicate, Vol. 14",
         "author": "Tomohito Oda",
         "isbn13": "9781974718863",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 15",
+        "title": "Komi Can't Communicate, Vol. 15",
         "author": "Tomohito Oda",
         "isbn13": "9781974718856",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 16",
+        "title": "Komi Can't Communicate, Vol. 16",
         "author": "Tomohito Oda",
         "isbn13": "9781974724543",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 17",
+        "title": "Komi Can't Communicate, Vol. 17",
         "author": "Tomohito Oda",
         "isbn13": "9781974724550",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 18",
+        "title": "Komi Can't Communicate, Vol. 18",
         "author": "Tomohito Oda",
         "isbn13": "9781974724567",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 19",
+        "title": "Komi Can't Communicate, Vol. 19",
         "author": "Tomohito Oda",
         "isbn13": "9781974731022",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 20",
+        "title": "Komi Can't Communicate, Vol. 20",
         "author": "Tomohito Oda",
         "isbn13": "9781974731039",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 21",
+        "title": "Komi Can't Communicate, Vol. 21",
         "author": "Tomohito Oda",
         "isbn13": "9781974731046",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 22",
+        "title": "Komi Can't Communicate, Vol. 22",
         "author": "Tomohito Oda",
         "isbn13": "9781974732081",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 23",
+        "title": "Komi Can't Communicate, Vol. 23",
         "author": "Tomohito Oda",
         "isbn13": "9781974734016",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 24",
+        "title": "Komi Can't Communicate, Vol. 24",
         "author": "Tomohito Oda",
         "isbn13": "9781974736799",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 25",
+        "title": "Komi Can't Communicate, Vol. 25",
         "author": "Tomohito Oda",
         "isbn13": "9781974737048",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 26",
+        "title": "Komi Can't Communicate, Vol. 26",
         "author": "Tomohito Oda",
         "isbn13": "9781974738885",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 27",
+        "title": "Komi Can't Communicate, Vol. 27",
         "author": "Tomohito Oda",
         "isbn13": "9781974740635",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 28",
+        "title": "Komi Can't Communicate, Vol. 28",
         "author": "Tomohito Oda",
         "isbn13": "9781974742899",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 29",
+        "title": "Komi Can't Communicate, Vol. 29",
         "author": "Tomohito Oda",
         "isbn13": "9781974743711",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 30",
+        "title": "Komi Can't Communicate, Vol. 30",
         "author": "Tomohito Oda",
         "isbn13": "9781974746101",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 31",
+        "title": "Komi Can't Communicate, Vol. 31",
         "author": "Tomohito Oda",
         "isbn13": "9781974749034",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 32",
+        "title": "Komi Can't Communicate, Vol. 32",
         "author": "Tomohito Oda",
         "isbn13": "9781974751549",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 33",
+        "title": "Komi Can't Communicate, Vol. 33",
         "author": "Tomohito Oda",
         "isbn13": "9781974752638",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 34",
+        "title": "Komi Can't Communicate, Vol. 34",
         "author": "Tomohito Oda",
         "isbn13": "9781974755714",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 35",
+        "title": "Komi Can't Communicate, Vol. 35",
         "author": "Tomohito Oda",
         "isbn13": "9781974758401",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 36",
+        "title": "Komi Can't Communicate, Vol. 36",
         "author": "Tomohito Oda",
         "isbn13": "9781974759163",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "Komi Can’t Communicate, Vol. 37",
+        "title": "Komi Can't Communicate, Vol. 37",
         "author": "Tomohito Oda",
         "isbn13": "9781974761456",
         "lookup": true
@@ -4172,7 +2662,7 @@
         "op": "add",
         "title": "My Hero Academia, Vol. 9",
         "author": "Kohei Horikoshi",
-        "isbn13": "",
+        "isbn13": "9781421593401",
         "lookup": true
       },
       {
@@ -4422,70 +2912,70 @@
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 3",
+        "title": "No Game No Life, Vol. 3",
+        "author": "Yuu Kamiya",
+        "isbn13": "9780316385190",
+        "lookup": true
+      },
+      {
+        "op": "add",
+        "title": "No Game, No Life Vol. 4",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 4",
+        "title": "No Game, No Life Vol. 5",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 5",
+        "title": "No Game No Life, Vol. 6",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316385268",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 6",
+        "title": "No Game No Life, Vol. 7",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316316439",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 7",
+        "title": "No Game No Life, Vol. 8",
         "author": "Yuu Kamiya",
-        "isbn13": "",
+        "isbn13": "9780316471374",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 8",
-        "author": "Yuu Kamiya",
-        "isbn13": "",
-        "lookup": true
-      },
-      {
-        "op": "add",
-        "title": "No Game, No Life, Vol. 9",
+        "title": "No Game No Life, Vol. 9 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9780316471343",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 10",
+        "title": "No Game No Life, Vol. 10 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9781975386788",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 11",
+        "title": "No Game No Life, Vol. 11 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "9781975345495",
         "lookup": true
       },
       {
         "op": "add",
-        "title": "No Game, No Life, Vol. 12",
+        "title": "No Game No Life, Vol. 12 (light novel)",
         "author": "Yuu Kamiya",
         "isbn13": "",
         "lookup": true
@@ -4605,106 +3095,106 @@
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 1",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090709",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 2",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090716",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 3",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090723",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 4",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090730",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 5",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090747",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 6",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646090860",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 7",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091201",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 8",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091348",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 9",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646096206",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 10",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646091362",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 11",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646092529",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 12",
-        "author": "Natsu Hyuuga, Nekokurage",
+        "author": "Nekokurage",
         "isbn13": "9781646092963",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 13",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646093472",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 14",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646094226",
         "lookup": true
       },
       {
         "op": "add",
         "title": "The Apothecary Diaries, Vol. 15",
-        "author": "Natsu Hyuuga, Nekokurage",
-        "isbn13": "",
+        "author": "Nekokurage",
+        "isbn13": "9781646094561",
         "lookup": true
       },
       {

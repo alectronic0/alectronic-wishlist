@@ -590,7 +590,8 @@ function mostCommon(values) {
 function fromSeries(books, meta, series, notes, isbns) {
   const out = [];
   for (const [name, note] of Object.entries(notes).filter(([, entry]) => entry.fill)) {
-    const members = books.filter(book => book.series === name);
+    // Services punctuate one series differently ("Komi Can’t" / "Komi Can't", "No Game, No Life")
+    const members = books.filter(book => book.series && seriesKey(book.series) === seriesKey(name));
     const have = new Set(members.map(book => book.seriesNo).filter(no => no !== null));
     const seriesId = note.goodreadsSeries || mostCommon(members.map(book => book.seriesId).filter(id => id && !id.startsWith('collection:')));
     const volumes = series[seriesId] ? series[seriesId].volumes : [];
@@ -622,7 +623,7 @@ function fromSeries(books, meta, series, notes, isbns) {
 
 // A Goodreads series id is the one identity for a series, whatever each service calls it; the
 // name most of its books already use wins, and hand-written collections cover groupings Goodreads lacks
-function canonicalSeries(books, meta, { collections = [], renames = {}, replaced = [] }) {
+function canonicalSeries(books, meta, { collections = [], renames = {}, replaced = [], notes = {} }) {
   const byId = new Map();
   for (const book of books) {
     book.seriesId = seriesIdOf(book, meta);
@@ -658,6 +659,11 @@ function canonicalSeries(books, meta, { collections = [], renames = {}, replaced
       // The volume number was only ever added for the series heading
       book.title = book.title.replace(/, Vol\. \d+$/, '');
     }
+  }
+  // The hand-curated name in the notes wins over any punctuation a service used ("No Game No Life")
+  const curated = new Map(Object.keys(notes).map(name => [seriesKey(name), name]));
+  for (const book of books.filter(entry => entry.series && curated.has(seriesKey(entry.series)))) {
+    book.series = curated.get(seriesKey(book.series));
   }
   // An edition swapped for another (a Japanese volume now collected in English) leaves every list
   for (const book of books.filter(entry => replaced.includes(entry.title))) {

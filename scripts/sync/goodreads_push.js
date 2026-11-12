@@ -10,6 +10,7 @@
  * Usage:
  *   node scripts/sync/goodreads_push.js --lookup          # resolve Goodreads ids only (read-only)
  *   node scripts/sync/goodreads_push.js --apply [--limit N]
+ *   --titles approved.json limits either step to a JSON list of titles
  */
 
 const fs = require('fs');
@@ -155,7 +156,9 @@ async function apply(actions, limit) {
 }
 
 async function main() {
-  const actions = JSON.parse(fs.readFileSync(PLAN_FILE, 'utf8')).plan.goodreads;
+  const titlesIndex = process.argv.indexOf('--titles');
+  const titles = titlesIndex > -1 ? new Set(JSON.parse(fs.readFileSync(process.argv[titlesIndex + 1], 'utf8'))) : null;
+  const actions = JSON.parse(fs.readFileSync(PLAN_FILE, 'utf8')).plan.goodreads.filter(entry => !titles || titles.has(entry.title));
   const limitIndex = process.argv.indexOf('--limit');
   const limit = limitIndex > -1 ? Number(process.argv[limitIndex + 1]) : Infinity;
   if (process.argv.includes('--lookup')) {

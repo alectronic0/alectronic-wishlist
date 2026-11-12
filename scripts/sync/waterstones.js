@@ -11,7 +11,8 @@
  *
  * Usage:
  *   node scripts/sync/waterstones.js                    # snapshot → data/sources/waterstones.json
- *   node scripts/sync/waterstones.js --apply [--limit N] # apply the Waterstones actions from data/books_plan.json
+ *   node scripts/sync/waterstones.js --apply [--limit N] [--titles approved.json]
+ *     apply the Waterstones actions from data/books_plan.json; --titles limits them to a JSON list of titles
  */
 
 const fs = require('fs');
@@ -28,7 +29,12 @@ const BATCH = 10;
 const PAUSE_MS = 1500;
 const BATCH_PAUSE_MS = 8000;
 
+// A signed-out session lands on /signin; the list API then answers with an empty list and book pages
+// drop their add button, which would read as "nothing on the list" and "not sold"
+const SIGNED_OUT = `location.pathname.startsWith('/signin')`;
+
 const READ_SCRIPT = `(async () => {
+  if (${SIGNED_OUT}) { return JSON.stringify({ error: 'signed out' }); }
   const books = [];
   for (let start = 0; start < 2000; start += 10) {
     const res = await fetch('/account/listbooks/id/${LIST_ID}/start/' + start + '/count/10', { method: 'POST', headers: { 'X-Requested-With': 'XMLHttpRequest' } });
@@ -41,6 +47,7 @@ const READ_SCRIPT = `(async () => {
 })()`;
 
 const ADD_SCRIPT = isbns => `(async () => {
+  if (${SIGNED_OUT}) { return JSON.stringify([{ status: 'failed', http: 'signed out' }]); }
   const results = [];
   for (const isbn of ${JSON.stringify(isbns)}) {
     const page = await fetch('/book/x/x/' + isbn);
@@ -75,7 +82,7 @@ function cleanTitle(title) {
 async function snapshot() {
   const raw = await evalInNewTab(LIST_URL, READ_SCRIPT);
   if (raw.error) {
-    throw new Error(`list answered HTTP ${raw.error} — signed out? snapshot not written`);
+    throw new Error(`list read failed (${raw.error}) — sign in to Waterstones in the automation Chrome; snapshot not written`);
   }
   const books = raw.books.map(book => ({
     id: String(book.id),
@@ -92,6 +99,7 @@ async function snapshot() {
 }
 
 const REMOVE_SCRIPT = bookIds => `(async () => {
+  if (${SIGNED_OUT}) { return JSON.stringify({ failed: 'all', http: 'signed out' }); }
   for (const bookId of ${JSON.stringify(bookIds)}) {
     const res = await fetch('/account/listremovebook/listid/${LIST_ID}/bookid/' + bookId);
     if (!res.ok) { return JSON.stringify({ failed: bookId, http: res.status }); }
@@ -112,8 +120,8 @@ async function remove(plan) {
   console.log(`[WaterstonesSync] removed ${bookIds.length} owned books`);
 }
 
-async function apply(limit) {
-  const plan = JSON.parse(fs.readFileSync(PLAN_FILE, 'utf8')).plan.waterstones;
+async function apply(limit, titles) {
+  const plan = JSON.parse(fs.readFileSync(PLAN_FILE, 'utf8')).plan.waterstones.filter(entry => !titles || titles.has(entry.title));
   await remove(plan);
   const actions = plan.filter(entry => entry.op === 'add');
   const noIsbn = actions.filter(entry => !entry.isbn13);
@@ -127,7 +135,7 @@ async function apply(limit) {
     notSold.push(...results.filter(result => result.status === 'not-sold').map(result => result.isbn));
     const failed = results.find(result => result.status === 'failed');
     if (failed) {
-      throw new Error(`listaddbook failed (HTTP ${failed.http}) on ${failed.isbn} after ${added} adds, stopping`);
+      throw new Error(`listaddbook failed (${failed.http}) on ${failed.isbn || 'first book'} after ${added} adds, stopping`);
     }
     console.log(`[WaterstonesSync] ${Math.min(i + BATCH, isbns.length)}/${isbns.length} (added ${added})`);
     await sleep(BATCH_PAUSE_MS);
@@ -140,7 +148,9 @@ async function apply(limit) {
 async function main() {
   if (process.argv.includes('--apply')) {
     const limitIndex = process.argv.indexOf('--limit');
-    await apply(limitIndex > -1 ? Number(process.argv[limitIndex + 1]) : Infinity);
+    const titlesIndex = process.argv.indexOf('--titles');
+    const titles = titlesIndex > -1 ? new Set(JSON.parse(fs.readFileSync(process.argv[titlesIndex + 1], 'utf8'))) : null;
+    await apply(limitIndex > -1 ? Number(process.argv[limitIndex + 1]) : Infinity, titles);
   }
   await snapshot();
 }
